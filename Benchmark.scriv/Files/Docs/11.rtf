@@ -1,0 +1,62 @@
+{\rtf1\ansi\ansicpg1252\uc1\deff0
+{\fonttbl{\f0\fmodern\fcharset0\fprq2 Courier New;}{\f1\fmodern\fcharset0\fprq1 Courier New;}}
+{\colortbl;\red0\green0\blue0;\red255\green255\blue255;}
+\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\fet2\ftnbj\aenddoc
+\pgnrestart\pgnstarts0
+\pard\plain \ltrch\loch {\f0\fs36\b1\i0 Footnotes}
+\par\pard\plain \tx1899\ri-10760\ltrch\loch \f0\fs24\b0\i0
+\par\pard\plain \ltrch\loch {\f0\fs26\b1\i0 By anchor}{\f0\fs24\b1\i0  }
+\par\pard\plain \tx1899\ri-10760\ltrch\loch \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 A footnote is a kind of anchor [^1] that refers to the actual text defined at the bottom of the page (or elsewhere in the text), like this:}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 [^1]: the text of the footnote that the anchor refers to. The anchor id can be anything, as long as the carrot symbol precedes the id, e.g., [^this_is_a_very_long_footnote_id]}
+\par\plain \f0\fs24\b0\i0
+\par\pard\plain \ltrch\loch {\f0\fs26\b1\i0 Inline without anchor}
+\par\pard\plain \tx1899\ri-10760\ltrch\loch \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 This inline footnote ^[the text of the footnote is included at the position of the anchor] is defined without anchor. Like the anchored footnote, the position of the placement of the footnote in the document is defined by meta-properties.}
+\par\plain \f0\fs24\b0\i0
+\par\pard\plain \ltrch\loch {\f0\fs36\b1\i0 Image inclusion}
+\par\pard\plain \ri-10760\ltrch\loch {\f0\fs24\b0\i0 ![image caption.\\label\{image-link-label\}](path\\to\\image.png)}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 Or, use a short link in the text to indicate its position, such as:}
+\par\plain {\f0\fs24\b0\i0 ![my image]}
+\par\plain {\f0\fs24\b0\i0 And at the bottom of the page, include its definition (dunno where the caption and label goes).}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 [my image]: path\\to\\image.png (and this here might be the caption.)}
+\par\plain \f0\fs24\b0\i0
+\par\pard\plain \ltrch\loch {\f0\fs26\b1\i0 Internal links}
+\par\pard\plain \ri-10760\ltrch\loch {\f0\fs24\b0\i0 An explicit reference link has two parts, the link itself and the link definition, which may occur elsewhere in the document (either before or after the link).}
+\par\plain {\f0\fs24\b0\i0 * The link consists of link text in square brackets, followed by a label in square brackets. (There can be space between the two.) }
+\par\plain {\f0\fs24\b0\i0 * The link definition consists of the bracketed label, followed by a colon and a space, followed by the URL, and optionally (after a space) a link title either in quotes or in parentheses.}
+\par\plain {\f0\fs24\b0\i0 * Use the automatically generated identifier (}{\f0\fs24\b1\i0 Extension: }{\f1\fs24\b1\i0 auto_identifiers}{\f0\fs24\b0\i0 )}
+\par\plain {\f0\fs24\b0\i0 \tab * }{\f1\fs24\b0\i0 See the [text about this link](#link-as-title-of-the-section).}
+\par\plain {\f0\fs24\b0\i0 \tab * Or, implicitly, s}{\f1\fs24\b0\i0 ee the [text about this link] as placeholder and below its definition}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f1\fs24\b0\i0 [text about this link](#link-as-title-of-the-section)}
+\par\plain \f1\fs24\b0\i0
+\par\pard\plain \ltrch\loch {\f0\fs26\b1\i0 References to chapter numbers and images}
+\par\pard\plain \ri-10760\ltrch\loch {\f1\fs24\b0\i0 This is not possible in MMD, currently. Some initiatives are being considered, though (REF). One way to solve this is to use latex code, as follows:}
+\par\plain \f1\fs24\b0\i0
+\par\plain {\f1\fs24\b0\i0 Blahbllah, see section \\ref\{the-section-id-as-referenced-by-MMD\}. Note the missing #-sign in the reference.}
+\par\plain \f1\fs24\b0\i0
+\par\pard\plain \ltrch\loch {\f0\fs26\b1\i0 External links}
+\par\pard\plain \ri-10760\ltrch\loch {\f1\fs24\b0\i0   Blahblah blah blah blah. See [my website][], or [my website].}
+\par\plain \f1\fs24\b0\i0
+\par\plain {\f1\fs24\b0\i0 [my website]: http://foo.bar.baz}
+\par\plain \f1\fs24\b0\i0
+\par\pard\plain \ltrch\loch {\f0\fs36\b1\i0 footnotes (extension: footnotes)}
+\par\pard\plain \ri-10760\ltrch\loch {\f1\fs24\b0\i0 Here\loch\af1\hich\af1\dbch\af1\uc1\u8217\'92s a footnote reference [^1] and another.[^longnote]}
+\par\plain \f1\fs24\b0\i0
+\par\plain {\f1\fs24\b0\i0 [^1]: Here is the footnote.}
+\par\plain {\f1\fs24\b0\i0 [^longnote]: Here's one with multiple blocks.}
+\par\plain {\f1\fs24\b0\i0     Subsequent paragraphs are indented to show that they}
+\par\plain {\f1\fs24\b0\i0 belong to the previous footnote.}
+\par\plain \f1\fs24\b0\i0
+\par\plain {\f1\fs24\b0\i0         \{ some.code \}}
+\par\plain \f1\fs24\b0\i0
+\par\plain {\f1\fs24\b0\i0     The whole paragraph can be indented, or just the first}
+\par\plain {\f1\fs24\b0\i0     line.  In this way, multi-paragraph footnotes work like}
+\par\plain {\f1\fs24\b0\i0     multi-paragraph list items.}
+\par\plain \f1\fs24\b0\i0
+\par\plain {\f1\fs24\b0\i0 This paragraph won't be part of the note, because it}
+\par\plain {\f1\fs24\b0\i0 isn't indented.}}

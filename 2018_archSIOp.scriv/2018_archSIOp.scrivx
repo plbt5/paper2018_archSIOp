@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.7.0" Device="PC-14621" Modified="2017-04-10 11:42:29 +0200" ModID="3B3F9834-CCE8-46E5-8297-B2A79EDEC932">
+    <Binder>
+        <BinderItem ID="5" UUID="B892768D-F62D-4A48-8846-84245826AF35" Created="2017-04-10 11:05:49 +0200" Modified="2017-04-10 11:05:49 +0200" Type="Text">
+            <Title>MMD cheat sheet</Title>
+            <MetaData>
+                <FileExtension>rtf</FileExtension>
+            </MetaData>
+            <TextSettings>
+                <Target Type="Words">0</Target>
+            </TextSettings>
+            <References>
+                <Reference Destination="http://johnmacfarlane.net/pandoc/README.html">Pandoc user guide, by John Macfarlane</Reference>
+            </References>
+            <Children>
+                <BinderItem ID="6" UUID="C89897FC-FE3A-4E8C-9669-5961C2352834" Created="2017-04-10 11:05:49 +0200" Modified="2017-04-10 11:05:49 +0200" Type="Text">
+                    <Title>Text and Formats</Title>
+                    <MetaData>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                    <References>
+                        <Reference Destination="http://johnmacfarlane.net/pandoc/README.html">Pandoc user guide, by John Macfarlane</Reference>
+                    </References>
+                </BinderItem>
+                <BinderItem ID="7" UUID="3C7A63EA-B366-49E6-9893-044D409743E5" Created="2017-04-10 11:05:49 +0200" Modified="2017-04-10 11:05:49 +0200" Type="Text">
+                    <Title>Proprietary encodings</Title>
+                    <MetaData>
+                        <LabelID>2</LabelID>
+                        <StatusID>5</StatusID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="8" UUID="BA5E37FF-8B67-47F0-84CA-ED6D06D87388" Created="2017-04-10 11:05:49 +0200" Modified="2017-04-10 11:05:49 +0200" Type="Text">
+                    <Title>Authors</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="9" UUID="EDEF4E74-D951-41B7-B9E3-0D091067F82E" Created="2017-04-10 11:05:49 +0200" Modified="2017-04-10 11:05:49 +0200" Type="Text">
+                    <Title>Footnotes, Images and Links</Title>
+                    <MetaData>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                    <References>
+                        <Reference Destination="http://johnmacfarlane.net/pandoc/README.html">Pandoc user guide, by John Macfarlane</Reference>
+                    </References>
+                </BinderItem>
+                <BinderItem ID="10" UUID="0B109D1E-C546-469E-8678-E1B492867346" Created="2017-04-10 11:05:49 +0200" Modified="2017-04-10 11:05:49 +0200" Type="Text">
+                    <Title>References</Title>
+                    <MetaData>
+                        <StatusID>6</StatusID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="11" UUID="34733BF5-80A6-481C-A2EE-F349FBE32E38" Created="2017-04-10 11:05:49 +0200" Modified="2017-04-10 11:05:49 +0200" Type="Text">
+                    <Title>Bullits and numbered lists</Title>
+                    <MetaData>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="12" UUID="C2EACE72-6436-4087-8C32-A54F8FB091A1" Created="2017-04-10 11:05:49 +0200" Modified="2017-04-10 11:05:49 +0200" Type="Text">
+                    <Title>Tables</Title>
+                    <MetaData/>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="13" UUID="8FF74306-3526-4E4D-B526-8357B990E4E9" Created="2017-04-10 11:05:49 +0200" Modified="2017-04-10 11:05:49 +0200" Type="Text">
+                    <Title>Glossary</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="14" UUID="7ABF97EB-739B-47CC-835E-7440861604F7" Created="2017-04-10 11:05:49 +0200" Modified="2017-04-10 11:05:49 +0200" Type="Text">
+                    <Title>Math</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="15" UUID="623FF6BB-F67E-42BA-B8CB-603DDBFA897F" Created="2017-04-10 11:05:49 +0200" Modified="2017-04-10 11:05:49 +0200" Type="Text">
+                    <Title>Definitions, proofs etc</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="16" UUID="CBCF8479-60CF-489A-9D6D-8BBF3111B8AC" Created="2017-04-10 11:05:49 +0200" Modified="2017-04-10 11:05:49 +0200" Type="Text">
+                    <Title>-ise/-ize</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="17" UUID="88A0DB8F-88D7-4A2C-A635-6E4E04D5AD63" Created="2017-04-10 11:05:49 +0200" Modified="2017-04-10 11:05:49 +0200" Type="Text">
+                    <Title>Progress &amp; Planning</Title>
+                    <MetaData>
+                        <LabelID>2</LabelID>
+                        <StatusID>5</StatusID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem ID="0" UUID="C11ADF7C-2255-4971-9724-307657D21E35" Created="2012-04-24 03:00:00 +0200" Modified="2012-04-24 03:00:00 +0200" Type="DraftFolder">
+            <Title>Draft</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem ID="3" UUID="FDE3A400-F9AC-4C43-9E25-1275886F76DE" Created="2016-12-28 14:11:59 +0200" Modified="2016-12-28 14:35:16 +0200" Type="Text">
+                    <Title>meta-data</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                        <IconFileName>Information.tiff</IconFileName>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>699,0</TextSelection>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="4" UUID="D1B1F11F-646F-4B47-9C11-9FEFCBFD8870" Created="2016-12-28 14:23:05 +0200" Modified="2017-04-10 11:42:13 +0200" Type="Text">
+                    <Title>My First Chapter</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>216,0</TextSelection>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem ID="1" UUID="09546122-A915-49B3-A4AE-6556D5EA8A64" Created="2012-04-24 03:00:00 +0200" Modified="2012-04-24 03:00:00 +0200" Type="ResearchFolder">
+            <Title>Research</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+        </BinderItem>
+        <BinderItem ID="2" UUID="EAFA8C6C-65B5-46A4-B4D4-FD17287AC039" Created="2012-04-24 03:00:00 +0200" Modified="2012-04-24 03:00:00 +0200" Type="TrashFolder">
+            <Title>Trash</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+        </BinderItem>
+    </Binder>
+    <Collections>
+        <Collection Type="Binder" ID="CAFEBABE-0000-0000-0000-000000000000" Color="0.784753 0.815752 0.848702">
+            <Title>Binder</Title>
+        </Collection>
+        <Collection Type="RecentSearch" ID="DEADBEEF-0000-0000-0000-000000000000" Color="0.922 0.91 0.98">
+            <Title>Search Results</Title>
+        </Collection>
+    </Collections>
+    <LabelSettings>
+        <Title>Label</Title>
+        <DefaultLabelID>-1</DefaultLabelID>
+        <Labels>
+            <Label ID="-1">No Label</Label>
+            <Label ID="0" Color="0.901961 0.921569 0.952941">Concept</Label>
+            <Label ID="1" Color="0.988235 0.874510 0.850980">Chapter</Label>
+            <Label ID="2" Color="1.000000 0.000000 0.000000">Initial thoughts</Label>
+        </Labels>
+    </LabelSettings>
+    <StatusSettings>
+        <Title>Status</Title>
+        <DefaultStatusID>-1</DefaultStatusID>
+        <StatusItems>
+            <Status ID="-1">No Status</Status>
+            <Status ID="0">To Do</Status>
+            <Status ID="1">First Draft</Status>
+            <Status ID="2">Revised Draft</Status>
+            <Status ID="3">Final Draft</Status>
+            <Status ID="4">Done</Status>
+            <Status ID="5">Under construction</Status>
+            <Status ID="6">Pending edits</Status>
+        </StatusItems>
+    </StatusSettings>
+    <ProjectTargets>
+        <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-04-24 00:00:00 +0000" IgnoreDeadline="Yes">0</DraftTarget>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="No" WritingDays="">0</SessionTarget>
+        <PreviousSession Words="0" Characters="0" Date="2017-04-10 11:40:46 +0200"/>
+    </ProjectTargets>
+    <Collections>
+        <Collection Type="Binder" ID="CAFEBABE-0000-0000-0000-000000000000" Color="0.901961 0.917647 0.933333">
+            <Title>Binder</Title>
+        </Collection>
+        <Collection Type="RecentSearch" ID="DEADBEEF-0000-0000-0000-000000000000" Color="0.901961 0.901961 0.980392">
+            <Title>Search Results</Title>
+            <SearchSettings Operator="Exact" Type="All" Scope="All" CompileSetting="All" CaseSensitive="No"></SearchSettings>
+        </Collection>
+    </Collections>
+    <PrintSettings PaperType="A4" LeftMargin="72.0001" RightMargin="72.0001" TopMargin="90.0002" BottomMargin="90.0002" Orientation="Portrait" Collates="No" ReverseOrder="No"/>
+</ScrivenerProject>
