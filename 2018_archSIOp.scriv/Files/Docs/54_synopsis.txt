@@ -1,0 +1,5 @@
+Explain sIOP:
+
+    1. consequence of data exchange = breaking the reciprocity by partitioning the data from its original code, and 
+    1. sIOP means that despite this partitioning the reciprocity between the code of the receiving agent and the external data has been maintained, and
+    1. Phantom semantics (i.e., the difference in the original reciprocity and the new reciprocity) is the cause of sIOP failure and hence to be prevented at all costs.

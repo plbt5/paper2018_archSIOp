@@ -1,0 +1,3 @@
+Purpose of this section: 
+
+* Define & Address semantic concerns

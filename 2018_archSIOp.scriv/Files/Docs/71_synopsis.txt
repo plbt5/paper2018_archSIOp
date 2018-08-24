@@ -1,0 +1,1 @@
+with the current new insights (thanks to you) I decided to consolidate the ideas on the bridgehead, spanning, roadway and principles into an additional Section, an ISO42010 Architectural Viewpoint that summarises all 4 previous Sections as concerns on semantics and sIOP. I think we then make a significant contribution to sIOP for the many architectural paradigms. 

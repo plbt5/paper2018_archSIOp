@@ -1,0 +1,224 @@
+---
+title:  'Consolidating semantic interoperability in software architectures'  
+subtitle: 'Access-and-play semantic interoperability in contemporary architectural paradigms'  
+author:  
+- name: Paul Brandt  
+  affiliation: Eindhoven University of Technology; Netherlands Organization of Applied Scientific Research TNO, Den Haag, The Netherlands   
+- name: Eric Grandry  
+  affiliation: Luxembourg Institute of Science and Technology, Esch-sur-Alzette, Luxembourg  
+- name: Twan Basten  
+  affiliation: Eindhoven University of Technology, Eindhoven, The Netherlands  
+category:   
+bibliography: src/bib/CitedByMe-2018_archSIOp.bib  
+csl: templates/environmental-health-perspectives.csl  
+abstract: |  
+  
+  *Background:* Access-and-Play SIOp is the next glass ceiling in [interoperability/IT-based business collaboration]. We can think of two approaches to break through the ceiling, i.e., using either strong AI (a system that can *think* and has a *mind*, in the philosophical definition of the term) or weak AI (a system that can only *act* like it thinks and has a mind [@Searle:1980hw]). Strong AI is not yet available, while weak AI, despite its current applications in Semantic Web or ontologies, has not yet been embedded in contemporary software architectural paradigms. Current approaches towards SIOp can be considered accepted folklore.  
+  
+  *Objective:* The objective of this study is to identify and define the (weak AI based) fundamental guidance towards access-and-play semantic interoperability in contemporary architectural paradigms.  
+  
+  *Method:* Our approach is based on the discipline of semiotics. After identifying semiotic shortcomings in MDA and view-based architectural paradigms and their subsequent definition as missing concerns, we develop the necessary guiding architectural principles. We finally consolidate their fundamentals as an ISO-42010 Architecture Viewpoint to disclose them for the various architectural paradigms. [We evaluate these principles by designing a reference architecture and proof its use in SIOp between two software agents.]  
+  
+  *Results:* The semiotic approach/discipline demonstrates/proves semantics in software to be the result of a reciprocity between data and the software code that operates on them. The major shortcomings in architectural paradigms to account for semantic interoperability are their negligence of semiotic fundamentals and, particularly, the absence of an explicit ontological commitment that stands at the root of semantics. Therefore, the concern about a semantic loose coupling should be added to the architectural paradigms. The supporting principles are (i) semantic transparency, (ii) semantic separation of concerns, and (iii) explicit computational semantics. In view-based architectures their consolidation implies a new semantic view, while the MDA paradigm requires an ontological commitment on M3. Both paradigms need to include a semantic alignment processing mediation capability.  
+  
+  *Conclusions:* Access-and-play SIOp can be achieved when considering semiotic fundamentals and adding loosely coupled formal semantics to contemporary architectural paradigms.   
+ 
+...
+
+# Introduction #
+Never before, data were so ubiquitous, and managed access to external data was so easy. Because current ICT is unable to *use* all that same external, non-native data as access-and-play service, agility in business collaboration is hampered in all domains. For instance, consider the following (allegedly real) example of an interoperability failure.
+
+> A German steel producer upgraded its industrial process robot. Since the majority of the steel production process is dependent on time, from a security point of view the decision was made to not rely on their own internal clocks but to use the German *Braunschweig Funkuhr* time radio signal as source for the exact time instead. At the end of April 1993, when Germany went on summer time, the computer clock of the steel producer went from 1:59 AM to 3:00 AM in one minute. This resulted in a production line allowing molten ingots to cool for one hour less than normal. When the process controller thought the cooling time had expired, his actions splattered still-molten steel, damaging part of the facility.[^fn1]
+
+In this simple example a tiny difference in the meaning of `time` between the steel producer and the national time provider hampered interoperability to the extend of damaging the steel facility. This tiny difference rooted in the assumption by the steel producer that `time` expressed a continuous scale whilst for the Braunschweig Funkuhr, `time` denoted instant clock time for that time zone and therefore represented a non-continuous scale. In order to achieve that both collaborators, here the Braunschweig Funkuhr and the steel producer, can actually *use* their peers data, the need exists to design and implement wrappers that remove any inconsistency between the variations that may occur in terms, structures, dimensions and what have you. Many such variations exist, leading to a range of failures in so-called *semantic interoperability* (SIOp) and Section/Appendix ## provides for a short overview of SIOp-faults. Unfortunately, it is fundamentally impossible to automate the production of wrappers, because we need a genuine *understanding* upfront, which computers still cannot do.
+
+The most disconcerting consequences of a lack of (automated) SIOp are time-to-deliver, flat interoperability failures, and even seemingly correct but quite invalid data analysis probably leading to devastating system behaviour. Current SIOp implementations are essentially based on the (time-consuming) process of establishing a (local) convention on the semantics of the terms that are exchanged during collaboration, requiring custom solutions and collaboration-dependent software adaptations. Such conventions can be considered a semantic monolith, which makes dealing with data outside the monolith impossible, unless again a time consuming (months) semantic adoption process is applied. Moreover, these semantic conventions consider semantic heterogeneity as a bug instead of a feature necessary to achieve semantic accuracy. But still, this conventions-based approach towards SIOp is accepted folklore in ICT. In view of the large uptake of the Internet, the Internet of Things (IoT), cloud computing and big data, and in view of economical pressure to intensify enterprise collaboration, we consider this approach "too little, too late". 
+
+In comparison, scalability was a big architectural concern in the past, requiring custom solutions as well. In response to this concern, scalability was standardised in the form of architectural patterns, and finally totally embedded and hidden into the infrastructure. Similarly, SIOp can be considered the architectural concern of this decade, and we first need to provide a standardised solution pattern to address semantic concerns, before we can embed it in a technological infrastructure so that SIOp becomes transparent to the developer. Where scalability resulted in a huge increase in performance-demanding applications against a fraction of the original costs and effort, business agility will emerge once the semantic monolith is removed and semantic services exist at the infrastructural level. Then SIOp becomes an access-and-play operation that achieves SIOp in due time with data not anticipated for during software design, at any point in their life cycle. Metaphorically speaking, we consider SIOp as a *bridge* overarching a (semantic) gap: with *bridgeheads* on each side of the gap, with a *spanning* resting on them to structurally support the bridge and its traffic, and with a *roadway* enabling the crossing of the traffic. Finally, architectural *principles* provide the necessary guidance to the architect for the various design decisions that effectively result in a particular bridge over a particular (semantic) gap. Our contributions to consolidating semantic interoperability in software architectures are fivefold, and represented as architectural principles and concerns, as follows:
+
+* *Principles*: We base SIOp on establishing loose-coupling at the semantic level by introducing principles on semantic separation of concerns and semantic transparency (Section \ref{siop-principles}), and show how these principles can be operationalised;
+* *Semantic concerns (bridgehead)*: Abstracting semantics from a tacit software implication into a tangible, computational and distinct artifact provides us with the potential to connect to it and to make comparisons with the semantic artifact of the peer software agent. Based on the discipline of semiotics, we explain the shortcomings of the current approach towards software semantics that rely on information models and information views. Instead, we provide for a fundamental notion on the application of ontologies [and ontological commitment] to remedy current semantic shortcomings, and we show [its/their] proper position in the total architecture (Section \ref{bridgehead-semantics});
+* *Weak AI concerns (spanning)*: Since “strong AI” does not yet exist, SIOp remains in demand of human intervention in order to reconcile the semantic differences between collaborating software agents. However, human intervention is time consuming. We reduce the necessary human intervention to complement weak AI to a task that suffices to achieve SIOp, viz. authoring semantic alignments only (Section \ref{spanning-alignments});
+* *Mediation concerns (roadway)*: We provide for a prototypical implementation of a mediator as the necessary component to automatically translate data when transferred between the collaborating software agents (Section \ref{roadway-mediation});
+* *ISO42010 Architecture Viewpoint*: We formulate the architectural consequences of the above concerns as a specific SIOp Viewpoint in order to consolidate SIOp for contemporary architectural paradigms (Section \ref{architectural-viewpoint-on-siop});
+
+Based on these contributions we [argue/defend] that access-and-play SIOp can be embedded and hidden in infrastructural services when considering semiotic fundamentals and adding loosely coupled formal semantics to contemporary architectural paradigms. To that end, we first describe the semiotic fundamentals in \cref{the-semiotic-and-philosophical-foundations-of-semantics}.
+
+
+# The semiotic and philosophical foundations of semantics #
+## Semiotics ##
+The discipline of semiotics is the study of signs, reality and meaning. The meaning of a *token* (text, graphics, sound) ultimately relates to what it denotes in reality (the *entity*), whilst this relation cannot be deferred from the shape, structure or other characteristics of the token itself due to its total arbitrariness. In the early 1900s, De Saussure used a dyadic model that stressed that the token and the entity in reality were as inseparable as the two sides of a piece of paper [@Saussure:1983ka]. This piece of paper he called the ***semiotic sign***, denoting the whole. This ‘self-containment of the sign’ remains one of the major principles of semiotics. Constructing the semiotic sign from its distinct parts is called ***semeiosis***. The token, in combination with their ability for semeiosis, provides humans with the tool to converse with each other. The tokens provide humans with a vocabulary, the semeiosis makes them understand about what entities they talk about. Semantics, then, emerges as a result of the semeiosis that connects the distinct parts of the inseparable semiotic sign. 
+
+Sanders Peirce [in: @Sowa:2000di] developed another model to further investigate the semeiosis part of semantics. He built a triadic model of the semiotic sign, including a representamen (the token) and object (the entity), and introduced the *interpretant* which expresses the mental and, hence, individual sense making. This triadic model of the semiotic sign was coined by Peirce as the *semiotic triangle* (ibid.), depicted in \cref{fig:semiotic-triangles}(a), and subsequently used and modified by Ullmann [@Ullmann:1979sL], Ogden and Richards [@Ogden1989], and many others. We introduce our modifications, as depicted in \cref{fig:semiotic-triangles}(b), which mainly focus on naming conventions in IT architectures, as follows. 
+
+![The triadic model of the semiotic sign, according to Peirce (a), and modified by us (b). Example (c) shows the concept of a cat named “Yojo”][def:semtriangles]
+
+Where Peirce denotes the *object*, we prefer the use of *entity* due to the ambiguous nature of the former in IT modelling and architectures. We consider an entity to stand for a thing or an event, but also a category of entities, a relation between entities and a property of an entity. We will refer to the *interpretant* component as the *conceptualisation*, to underline the individual conceptualisation that is being formed during requirements analysis and conceptual modeling. And we prefer the use of *token* over *representamen*, and consider it both an atomic element as a particular composition of atomic elements. We include denotations for the edges that are connected to the conceptualisation vertex, and use names that underline the individual and mental nature of the sense making. Note that these names are directional, and must be read as the transformations that takes place in that direction. Finally, we add the causal characteristics that the edges represent, introduced by [@Ogden1989], as *adequacy*, *correctness* and *trueness*. Observe that the connection between the token and the entity is drawn as a dashed line to stress that its existence is indirectly only through the conceptualisation and does not exist in any direct means. Whenever we use “sign” we refer to the semiotic self-contained sign. A well-known example of a sign is depicted in \cref{fig:semiotic-triangles}(c), which shows that when we talk about “Yojo”, our cognition interprets it as our cat. 
+
+![Linking triadic models together.][def:linkedtriangles]
+
+Peirce also recognised that multiple triangles could be linked together in various ways [in: @Sowa:2000di]. By stacking them together, as depicted in \cref{fig:linked-triangles}(a), a conceptualisation is made of “representing an entity”: the original concept of a \mywordbox{cat} named “Yojo”, depicted in \cref{fig:semiotic-triangles}(c), is being conceptualised as the concept of a \mywordbox{cat named “Yojo”} and represented by \mywordbox{cat:Yojo}. In [@Eco1976], Eco uses the term *unlimited semeiosis* to refer to the succession of stacking signs that emerge from that, ad infinitum. We consider unlimited semeiosis as addressing a dimension of comprehension about abstraction and generalisation, with an eventual finish in the ultimate \mywordbox{Thing} concept. Linking the triangles horizontally results in different representational metalevels, depicted in \cref{fig:linked-triangles}(b): From right to left, the characters “Y” “o” “j” and “o” are conceptualised as a single \mywordbox{word} and represented as “Yojo”, which is conceptualised as a \mywordbox{name} and represented as “name:Yojo”, which is conceptualised as an \mywordbox{identifier} that might be represented as “Id=’name:Yojo’ ”.    
+
+<!-- page additions -->
+[def:semtriangles]: src\images\SemioticTriangles.png {#fig:semiotic-triangles width=600px height=200px}
+[def:linkedtriangles]: src\images\LinkedTriangles.png {#fig:linked-triangles width=600px height=230px}
+# Bridgehead: Semantics #
+Purpose of this section: 
+
+1. From a semiotic perspective, explain what we mean with semantics in software agents, i.e., the reciprocity between data and data processing code.
+1. Establish that for representing semantics, descriptive models (i.e., ontologies) trump prescriptive models (all 42010 models).
+1. Conclude that ontologies need their place as single point of reference (trueness) in architectures, and identify their relationship with the rest of the architectures, i.e., all other prescriptive models. Note the issue on Open World Assumption (ontologies) and CWA (prescriptive models).
+
+Argument:
+
+1. Explain shortcomings of 42010:2011 in terms of semiotic triangle:
+    1. All models are representations of engineers’ conceptualisations
+    1. In MDA, “models represent reality” makes the semiotic triangle conflate in a \mywordbox{model} <—\mywordbox{representation}—> \mywordbox{reality} dimension, 
+    1. This cuts-off the conceptualisation vertex and with that our “knowledge about our given remark or doctrine *says* there is”. We have removed the “ontological level” [@Guarino1994b], and with that, the fact that “terminological competence can be gained by formally expressing the ontological commitment of a knowledge base” (ibid.)
+    1. (Meta-)model instantiation, and hence level transition, therefore remains at the Term/Model vertex
+    1. The CIM models both semantics (Domain Model) and pragmatics (Business Model)
+    1. Models are ultimately expressed as either Data or Code, both located at the Term/Model vertex.
+    1. The trueness of prescriptive models, i.e., all 42010:2011 models, is established against their meta-models, while the trueness of descriptive models, i.e., ontologies, is established through the interpretation in the conceptualisation of reality (sets and set theory)
+1. The reciprocity between code and data manifests itself as software semantics
+    1. The relationship between Data and Code is very closely coupled in order to maintain consistency between each other. Inconsistency results in software malfunction / crashes. Maintaining/controlling that consistency is one of the main goals of MDA/MDE.
+    1. Inconsistency between Code and Data has either pragmatic grounds (i.e., code assumes different reality than data resulting in incorrect operations on the data) or semantic grounds (i.e., data assumes different reality than the code resulting in incorrect data being correctly operated on).
+1. 
+
+
+## What is software semantics ##
+We take the position that strong AI is not yet available, if ever [@XiuquanLi2017], and conclude that weak AI is essentially a token-based machine without the ability to close the gap between token and reality. Also called the Grounding Problem [@Harnad1990], addressing this fundamental distinction in software engineering about semantics is at best extremely narrow [@Steels:2008tr], or not present at all [@Cregan2007]. This implies that the semiotic triangle is denied its conceptualisation vertex, and the sign remains incomplete. This is confirmed by the software engineering discipline herself implicitly, since it consistently speaks of ‘models that represent reality’ without factoring the conceptualisation into the equation, e.g., “*a model is a representation of reality intended for some definite purpose*” and similar quotes that are collected by [@Aßmann2006]. Consequently, the edges that connect the conceptualisation remain vague or necessarily conflate on the relationship between the model and reality, depicted in \cref{fig:software-models-reality}. This beheaded sign cuts-off our “knowledge about our given remark or doctrine *says* there is”. We have removed the “ontological level” [@Guarino1994b], and with that, the fact that “terminological competence can be gained by formally expressing the ontological commitment of a knowledge base” (ibid.). Since we make do with weak AI and its beheaded sign necessarily, this suggests that genuine semantics can not ever exist in current software agents.  
+
+![Software engineering applies a beheaded semiotic triangle in which its edges remain vague or conflate in the single relation between model and reality.][def:softmodelsreal]
+
+During the use of a software agent the semeiosis is taken care of by the human-in-the-loop, viz. the end user at the human-machine interface (HMI) whom interprets the tokens that are displayed (subjectivation). During development of a software agent the semeiosis is taken care of by another human-in-the-loop, viz. the software engineer whom implicitly performs the conceptualisation and explicitly represents this conceptualisation into tokens, i.e., *models*. Consequently, all models are representations of engineers’ conceptualisations. From the many models that software engineering typically generates we focus on a pair of models: the information or data models that refer to the *information entities* in reality, paired with the process or business models that represent the *event entities* that operate on the information entities. At this modelling level, semantics still exist by virtue of the designer. However, when the software agent is subsequently compiled, its binary code originate from the process model of the model pair (operations, algorithms), and the memory allocation for the data originates from the information model of the model pair (size, format, encoding). At this binary level the software engineer has left the building, and with him the conceptualisation vertex and the subsequent capability for semeiosis and, thus, semantics. In other words, at binary level we have lost the capability to verify the semantic coherence between the code and the data while the reciprocity between data and software code determines the semantic validity of the data processing. For instance, consider a data element $t$ to represent temperature, and an algorithm to establish fever, e.g., `t > 37.0` $\to$ `fever`. The one and only means to keep the software from failing is that both the data and the algorithm (i) are expressed in the same unit of dimension ($\si{\degree}C$ in this example), apply the same (ii) resolution and (iii) accuracy, to name a few obvious constraints. We, therefore, take the stance that semantics can only exist in software by virtue of the semeiosis by the human-in-the-loop, while in the software agent itself semantics are necessarily reduced to the reciprocity between data and software code. Still, the software agent acts as transport medium for the semantics as intended by the software engineer to the semantics as experienced by the end user at the HMI. We therefore consider the coherence between the pair(s) of data and data processing models essential for enforcing the software agent to maintain a semantic valid reciprocity between binary code and the data it operates on. This leads to the definition of a (normative [@Greefhorst2011]) design principle to its effect:
+
+\begin{mmdp}[Coherence principle]\label{dp:coherence-principle}
+
+\textbf{Essence of principle:} Establish explicit coherence between the model(s) that refer to the information entities in reality and the model(s) that operate on them.
+
+\textbf{Type of information:} business
+
+\textbf{Quality attributes:} (semantic) accuracy, reusability, manageability, understandability 
+
+\textbf{Rationale:}
+\begin{itemize}
+\item Semantics in software agents are necessarily reduced to, and emerge from, the reciprocity between the data and the binary code that operates on them;  
+\item Without explicitly addressing -- at modelling level -- \textbf{all} facets that influence the coherence between the data on the one hand, and the operations that apply on them on the other, the software agent cannot guarantee to maintain the reciprocity between them at the binary level;
+\item Without maintaining the reciprocity between binary code and the data it operates on, the semeiosis performed by the end user on the result of the data processing and their subsequent semantics cannot be guaranteed to be similar as intended by the software engineer.
+\end{itemize}
+\textbf{Implications:}
+\begin{itemize}
+\item The coherence principle is a necessary condition for supporting semantic interoperability;
+\item The scope of semantic validity \& accuracy is addressed explicitly and can be referred to;
+\item Reuse of data often implies reuse of the data processing code, and vice versa. Having established explicit coherence improves the quality of data and code reuse, and facilitates the verification that the scope of the semantic validity \& accuracy applies in the new context as well;
+\item manageability ...?
+\item understandability ...?
+\end{itemize}  
+\end{mmdp}
+Coherence between models can be established with use of a single unique reference against which the truth of the expressions of both models can be verified. In semiotics, this single unique reference is considered reality, as indicated in \cref{fig:semiotic-triangles}(b) by the *trueness* characteristic. Except as toy example in [@Steels:2008tr], this is clearly not possible. The *correctness* characteristic is the only alternative left, taking the conceptualisation node as its principle point of reference. This is exactly what the mathematical branch of *formal semantics* achieves [@Gamut1991; @Genesereth:1987dg] with its three main characteristics, viz. connecting (i) an abstract syntax of a language to (ii) a domain of interpretation (usually a set theoretic framework) by defining (iii) an interpretation function from the abstract syntax onto the set theoretic framework. In terms of the semiotic triangle, \cref{fig:semiotic-triangles}(b), this implies the following:
+
+(i) the *representation* node represents models that can be formulated by use of an abstract syntax (and grammar) as its modelling language. In this reading, a model is a particular constellation of tokens that represent a particular state of affairs;
+(ii) a particular *conceptualisation* can be mathematically formulated as a specific constellation of (unnamed) individuals, sets of individuals, and sets of sets; 
+(iii) the *subjectivation* edge can be formulated as the interpretation function that assigns a mapping from modelling language tokens onto the set elements, enabling the evaluation of a specific model against the intended conceptualisation from (i). 
+
+Formal semantics thus provides a means to formulate a particular conceptualisation as principle point of reference to establish the coherence between two models. In the remainder of this text we will refer to the formulation of the reference conceptualisation as a *conceptual model*.
+
+In conclusion, we explain software semantics as the reciprocity between data and software code, realised by maintaining the coherence between pairs of data and data processing models, by applying formal semantics to formulate a particular conceptualisation as semantic reference, and an interpretation function from the data and operation models to that reference. 
+
+<!-- page additions -->
+[def:softmodelsreal]: src\images\SoftwareModelsReality.png {#fig:software-models-reality}
+## Explicit semantics ##
+Explicit semantics
+
+This shows how the cognitive quality of the conceptualisation could be substituted with a formulation in set theory. The resulting conceptual model essentially remains a representation, albeit a mathematical one. One can argue that such substitution does not resolve the grounding problem, and appropriately so. Still, mathematics provides for a very exact way to express oneself, reducing the ambiguity that comes implicitly with any other language. Furthermore, logical constructs used at the syntactical level can be interpreted into set theoretic operations, facilitating the evaluation of complicated expressions. And thanks to mathematics we can also indicate the exact issues that exist with conceptual modelling, depicted in \cref{fig:4-model-construct-issues}.
+
+![Four different types of construction issues that come with formal semantics][def:constructissues] 
+
+This begs the question what we mean with model, and what criteria we should adopt to represent a conceptual model.
+
+
+
+
+An appropriate definition for ontology is given by \cite{Guarino:1998wq} as a “logical theory accounting for the intended meaning of a formal vocabulary”.
+
+
+
+The triadic model is more suitable to explain the differences between human semantics and semantics in computers, by identifying the semiotic differences between the two as follows. Since humans are capable of making observations from reality, and abstract these into conceptualisations, there is a direct connection between the entity and the conceptualisation. Computers lack that capability, as depicted in \cref{fig:semiotic-differences}. Here, we show the semiotic differences between semantics as they appear for human actors, part (a) of the Figure, and that of software actors in part (b). The comparison is made from the perspective of communication, e.g., how is reality signified into utterances made by the actor, and vice versa, how are utterances signified into what they stand for in reality. We can assume the entity to remain identical over both actors, and the token to remain equivalent to the extent that in terms of computers these are referred to as *data*. The third node, representing the conceptualisation for human agents, for software agents we claim to denote that as the application. Although in its bare form an application is nothing more than tokens that follow a specific language grammar, this bare form is only a representation of its quintessence, i.e., a run-time notion on how to act on the receipt of data.
+
+However, because computers are unable to conceptualise or concretize, the connection between the software’s conceptualisation and the entity does not exist. This “missing link” in artificial intelligence is called *the grounding problem*, named after the inability to ground a conceptualisation in what it refers to in reality. In literature, two exceptions to this rule exist, which we discuss in the box text below. Our stance towards these exceptions is that they are interesting, however currently irrelevant towards the resolution of semantic interoperability due to their many practical shortcomings in implementing an actual connection between the entity and the conceptualisation. 
+
+
+![Semiotic differences in semantics for humans and computers][def:semdiffs]
+
+
+
+
+
+This is known as the *problem of reference*, a manifestation of the *grounding problem*. 
+
+In information systems, addressing the distinction between terms and reality is extremely limited [@Steels:2008tr], or not present at all [@Cregan2007]. 
+
+Artificial intelligence (AI) tries to tackle the grounding problem by building some form of understanding, also known as "strong AI". However, strong AI is expected to emerge on the long term only, if ever [@XiuquanLi2017]. Its counterpart "weak AI", characterised by logic and reasoning, relies on language only and can therefore never make the step to reality on its own [@Scheider:2012tj]. 
+
+
+Hierin duidelijk maken wat de verschillen zijn tussen modellen en ontologie. Semiotiek (eigenlijk de semiotische driehoek) gebruiken wij als methode om te verklaren wat semantiek is bij mensen en bij computers. En zonder semantiek in de architectuur, geen SIOp. 
+
+CONCLUSIE: Architectures will not be able to facilitate semantics and, hence, consolidate SIOp without including semiotics.
+Assumption 1: root cause for SIOp issues is the grounding problem: GP leads to absence of semantics, absence of semantics leads to absence of SIOp.
+Fact: Strong AI could solve GP, but doesn’t exist
+Fact: Weak AI is based on language only, and can never solve GP on its own 
+Observation: Humans can solve GP, semiotics explain why
+Fact: Semiotics studies relation between language (terms) and meaning
+
+
+Thus, weak AI is our only option for the time being in order to achieve semantics and SIOp. 
+
+
+We therefore cannot neglect the existence of the grounding problem and its semiotic origins. Nevertheless, we do. For instance, when we are asked to explain how we address the grounding problem in the design of our software agent, we can’t; when we are asked to point at the semantics parts in the code of our software agent, we can't. The same question however about, e.g., its scalability, will render a lecture with adequate references to the underlying architecture. We thus remain at a loss of how to engineer semantics into software agents. However, without a clear understanding on semantics and its contribution to the software agent, we are lacking the bridgehead within the software agent that is fundamental to the semantic interoperability bridge. 
+
+
+
+
+
+
+In fact, this is a question of philosophy while ICT is “only” faced with its consequence: computers can deal with language only and have no clue about reality. 
+
+
+
+
+
+
+It therefore remains impossible to ground the applied terms in reality, denoted as the *grounding problem*. Its resolution is a major subject in strong AI and in (geographic) information science in general \cite{Scheider:2012tj}. Although \cite{Steels:2008tr} provides for an alternative (weak AI) solution, that only shows the need to refer to  general stance is that the grounding problem remains a big challenge .
+
+
+
+
+<!-- page additions -->
+[def:semdiffs]: src\images\SemioticDifferences.png {#fig:semiotic-diffs }
+
+# Spanning: Alignments #
+Purpose of this Section:
+
+1. Determine that data exchange inevitably breaks the necessary atomic semantic monolith between data and data processing code.
+1. Follow the coherence principle and conclude that the models from which *external* data and *receiving* data processing code are derived, need to be brought into coherence with each other.
+1. 
+
+----
+
+despite the notoriously difficult philosophical questions involved, semantic interoperability can be seen as an engineering problem, namely
+that of effectively constraining interpretations towards the ones that are considered
+allowable.
+
+![The various forms of interoperability][def:2semtriangles]
+
+
+<!-- page additions -->
+[def:2semtriangles]: src\images\2SemioticTriangles.png {#fig:2semiotic-triangles width=90%}
+
+# References {-} 
+\setlength{\parindent}{-0.2in}  
+
+\setlength{\leftskip}{0.2in}  
+
+\setlength{\parskip}{8pt} 
+[^fn1]: Source: http://catless.ncl.ac.uk/Risks/14.57.html#subj1, accessed May 20, 2018
