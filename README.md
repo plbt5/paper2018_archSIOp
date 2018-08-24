@@ -1,3 +1,7 @@
+# Consolidating semantic interoperability in contemporary architectural paradigms
+
+**Status:** Not published, in writing
+
 *Background:* Access-and-Play sIOP is the next glass ceiling in [interoperability/IT-based business collaboration]. We can think of two approaches to break through the ceiling, i.e., using either strong AI (a system that can *think* and has a *mind*, in the philosophical definition of the term) or weak AI (a system that can only *act* like it thinks and has a mind [@Searle:1980hw]). Strong AI is not yet available, while weak AI, despite its current applications in Semantic Web or ontologies, has not yet been embedded in contemporary software architectural paradigms. Current approaches towards sIOP can be considered accepted folklore.  
   
 *Objective:* The objective of this study is to identify and define the (weak AI based) fundamental guidance towards access-and-play semantic interoperability in contemporary architectural paradigms.  
