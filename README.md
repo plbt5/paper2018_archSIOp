@@ -1,80 +1,9 @@
-# Scrivener Starter Repository
-
-[Scrivener](http://www.literatureandlatte.com/scrivener.php) is a writing
-application geared towards structuring and editing novel- and thesis-sized
-works. It is mainly used by writers and academics to organize works that
-would otherwise be unwieldy in a linear editor.
-
-### Usage
-
-Scrivener projects are layed out as application bundles with the .scriv
-extension, and, as it turns out, are amenable to Git version control: That is to
-say, Scrivener stores internal textual assets as separate files in ASCII-encoded
-RTF format. If you would like to use Git to track Scrivener changes, you are
-welcome to bootstrap off of the included `starter.scriv` project. It has the
-benefit of strategically placed .gitignore files to prevent transient metadata
-from cluttering your `git status` view and being incorporated into revision
-history.
-
-The following workflow will send you on your way.
-
-1. *Download*: Clone this git project in the usual way.
-
-        $ git clone https://git.ics.ele.tue.nl/pbrandt/template.scrivener-and-git-project
-
-2. *Initialisation*: Rename the `starter.scriv` project, open with Scrivener, and save. Stage and
-    commit the changes.
-
-        $ # Rename the project.
-        $ git mv -- starter.scriv ${project}.scriv
-        $ git mv -- ${project}.scriv/starter.scrivx \
-          ${project}.scriv/${project}.scrivx
-
-        $ # Open with Scrivener and save.
-        $ open -- ${project}.scriv
-
-        $ git add -u
-        $ git commit -m "Rename the project"
-
-2. *Operation*: Write some stuff, save, and check for untracked textual assets. Stage and
-    commit the changes. Repeat this step as you continue to make revisions.
-
-        $ # Open with Scrivener, write some stuff, and save.
-        $ open -- ${project}.scriv
-
-        $ # Check for untracked textual assets and stage them.
-        $ git add -- ${project}.scriv/Files/Docs/${n}.rtf
-
-        $ git add -u
-        $ git commit -m "Make some changes"
-
-### LaTeX Build Pipeline
-
-If you let Scrivener compile the document into MultiMarkdown (i.e., `File` &rarr; `Compile`
-&rarr; `Compile For` &rarr; `MultiMarkdown`), you can make use of the included
-Makefile to further process the resulting MMD into PDF via `pandoc`. Doing so
-affords greater control over styling through customization of a few locations.
-
-*   The `mmd/preamble.mmd` file contains metadata for LaTeX.
-*   The `tex/latex` directory is where LaTeX support files go (see Fletcher
-    Penney's [peg-multimarkdown-latex-support]
-    (https://github.com/fletcher/peg-multimarkdown-latex-support) project for a
-    superset of what's bundled).
-*   The `mmd/user.mmd` file, should you provide it, contains additional
-    metadata for your purposes.
-
-### License
-
-    Copyright 2012-2014 Roy Liu
-
-    Licensed under the Apache License, Version 2.0 (the "License"); you may not
-    use this file except in compliance with the License. You may obtain a copy
-    of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
-    WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
-    License for the specific language governing permissions and limitations
-    under the License.
+*Background:* Access-and-Play sIOP is the next glass ceiling in [interoperability/IT-based business collaboration]. We can think of two approaches to break through the ceiling, i.e., using either strong AI (a system that can *think* and has a *mind*, in the philosophical definition of the term) or weak AI (a system that can only *act* like it thinks and has a mind [@Searle:1980hw]). Strong AI is not yet available, while weak AI, despite its current applications in Semantic Web or ontologies, has not yet been embedded in contemporary software architectural paradigms. Current approaches towards sIOP can be considered accepted folklore.  
+  
+*Objective:* The objective of this study is to identify and define the (weak AI based) fundamental guidance towards access-and-play semantic interoperability in contemporary architectural paradigms.  
+  
+*Method:* Our approach is based on the discipline of semiotics. After identifying semiotic shortcomings in MDA and view-based architectural paradigms and their subsequent definition as missing concerns, we develop the necessary guiding architectural principles. We finally consolidate their fundamentals as an ISO-42010 Architecture Viewpoint to disclose them for the various architectural paradigms. [We evaluate these principles by designing a reference architecture and proof its use in sIOP between two software agents.]  
+  
+*Results:* The semiotic approach/discipline demonstrates/proves semantics in software to be the result of a reciprocity between data and the software code that operates on them. The major shortcomings in architectural paradigms to account for semantic interoperability are their negligence of semiotic fundamentals and, particularly, the absence of an explicit ontological commitment that stands at the root of semantics. Therefore, the concern about a semantic loose coupling should be added to the architectural paradigms. The supporting principles are (i) semantic transparency, (ii) semantic separation of concerns, and (iii) explicit computational semantics. In view-based architectures their consolidation implies a new semantic view, while the MDA paradigm requires an ontological commitment on M3. Both paradigms need to include a semantic alignment processing mediation capability.  
+  
+*Conclusions:* Access-and-play sIOP can be achieved when considering semiotic fundamentals and adding loosely coupled formal semantics to contemporary architectural paradigms.   
