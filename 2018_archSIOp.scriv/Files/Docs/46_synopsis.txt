@@ -1,14 +1,4 @@
-Purpose of this section: To establish an informal but concrete notion on software semantics that is based on (i) the semiotic triangle and (ii) the reciprocity between data and code (both represented as Term from the semiotic Sign).
+Purpose of this section: To establish an informal but concrete notion on (i) the semiotic triangle and (ii) the relationsbetween its nodes.
 
-1. Explain human semantics in terms of semiotics. 
-1. Explain software semantics as
-    1. "reciprocity between data and software code", as Grice's distinction; and
-    1. OO as initial implementation to consolidate this reciprocity, and the class as implementation of the atomic semantic monolith; 
-1. Explain sIOP as:
-    1. that data exchange = breaking the reciprocity by partitioning the data from its original code, and 
-    1. that sIOP demands that despite this partitioning the reciprocity between the code of the receiving agent and the external data shall be maintained, and
-    1. that Phantom semantics (i.e., the difference in the original reciprocity and the new reciprocity) is to be prevented at all costs.
-1. Explain that standards are large semantic monoliths, and introduce ontological commitment as minimal standard for sIOP. “We look to bound variables in connection with ontology not in order to know *what there is*, but in order to know what a given remark or doctrine, ours or someone else’s, *says* there is” [@Quine:1953er]
-
-
+\end{synopsis}
 

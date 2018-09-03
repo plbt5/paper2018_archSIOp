@@ -1,6 +1,10 @@
-The purpose of this section is to explain software semantics as the "reciprocity between data and software code", and show that to some extent, set theory can replace the conceptualisation node
+The purpose of this section is to explain software semantics as the "reciprocity between data and software code", and show that to some extent, set theory can replace the conceptualisation node.
+Conclude that the reciprocity between data and data processing code represents the smallest (atomic) semantic monolith.
 
-Additionally, optioanlly, show:
+Additionally, optionally, show:
 
     1. the relationship with Grice's distinction in semantics as "what is said" and "pragmatic meaning"
     2. OO as initial implementation to consolidate this reciprocity, and the class as implementation of the atomic semantic monolith; 
+
+
+\end{synopsis}

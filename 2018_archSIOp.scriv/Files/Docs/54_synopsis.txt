@@ -1,5 +1,14 @@
-Explain sIOP:
+1. Explain sIOP:
 
-    1. consequence of data exchange = breaking the reciprocity by partitioning the data from its original code, and 
-    1. sIOP means that despite this partitioning the reciprocity between the code of the receiving agent and the external data has been maintained, and
-    1. Phantom semantics (i.e., the difference in the original reciprocity and the new reciprocity) is the cause of sIOP failure and hence to be prevented at all costs.
+    1.1. that consequence of data exchange = breaking the atomic semantic monolith = breaking the reciprocity by partitioning the data from its original code, and 
+
+    1.2. that sIOP demands that despite this partitioning the reciprocity between the code of the receiving agent and the external data shall be re-installed.
+
+2. We therefore need to extend the semantic coherence Principe into a sIOP coherence principle with a sIOP rational that the result of the semeiosis on receiving agent A’ does not conflict withthe outcome of the semeiosis on agent A: Without maintaining the reciprocity between binary code and the data it operates on, the semeiosis performed by software engineer A’ on the result of the data processing and their subsequent semantics cannot be guaranteed to be similar as intended by the software engineer.
+
+3. Explain the difference with semantic standards which are basically large semantic monoliths
+
+4. Introduce Principle: ontological commitment as minimal standard for sIOP, “(...) not in order to know *what there is*, but in order to know what a given remark or doctrine, ours or someone else’s, *says* there is” [@Quine:1953er]
+
+
+\end{synopsis}

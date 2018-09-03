@@ -4,8 +4,8 @@
         <Document ID="3">
             <Title>meta-data</Title>
             <Text>---
-title:  'Consolidating semantic interoperability in software architectures'  
-subtitle: 'Access-and-play semantic interoperability in contemporary architectural paradigms'  
+title:  'Consolidating semantic interoperability in contemporary architectural paradigms'  
+subtitle:   
 author:  
 - name: Paul Brandt  
   affiliation: Eindhoven University of Technology; Netherlands Organization of Applied Scientific Research TNO, Den Haag, The Netherlands   
@@ -18,15 +18,15 @@ bibliography: src/bib/CitedByMe-2018_archSIOp.bib
 csl: templates/environmental-health-perspectives.csl  
 abstract: |  
   
-  *Background:* Access-and-Play SIOp is the next glass ceiling in [interoperability/IT-based business collaboration]. We can think of two approaches to break through the ceiling, i.e., using either strong AI (a system that can *think* and has a *mind*, in the philosophical definition of the term) or weak AI (a system that can only *act* like it thinks and has a mind [@Searle:1980hw]). Strong AI is not yet available, while weak AI, despite its current applications in Semantic Web or ontologies, has not yet been embedded in contemporary software architectural paradigms. Current approaches towards SIOp can be considered accepted folklore.  
+  *Background:* Access-and-Play sIOP is the next glass ceiling in [interoperability/IT-based business collaboration]. We can think of two approaches to break through the ceiling, i.e., using either strong AI (a system that can *think* and has a *mind*, in the philosophical definition of the term) or weak AI (a system that can only *act* like it thinks and has a mind [@Searle:1980hw]). Strong AI is not yet available, while weak AI, despite its current applications in Semantic Web or ontologies, has not yet been embedded in contemporary software architectural paradigms. Current approaches towards sIOP can be considered accepted folklore.  
   
   *Objective:* The objective of this study is to identify and define the (weak AI based) fundamental guidance towards access-and-play semantic interoperability in contemporary architectural paradigms.  
   
-  *Method:* Our approach is based on the discipline of semiotics. After identifying semiotic shortcomings in MDA and view-based architectural paradigms and their subsequent definition as missing concerns, we develop the necessary guiding architectural principles. We finally consolidate their fundamentals as an ISO-42010 Architecture Viewpoint to disclose them for the various architectural paradigms. [We evaluate these principles by designing a reference architecture and proof its use in SIOp between two software agents.]  
+  *Method:* Our approach is based on the discipline of semiotics. After identifying semiotic shortcomings in MDA and view-based architectural paradigms and their subsequent definition as missing concerns, we develop the necessary guiding architectural principles. We finally consolidate their fundamentals as an ISO-42010 Architecture Viewpoint to disclose them for the various architectural paradigms. [We evaluate these principles by designing a reference architecture and proof its use in sIOP between two software agents.]  
   
   *Results:* The semiotic approach/discipline demonstrates/proves semantics in software to be the result of a reciprocity between data and the software code that operates on them. The major shortcomings in architectural paradigms to account for semantic interoperability are their negligence of semiotic fundamentals and, particularly, the absence of an explicit ontological commitment that stands at the root of semantics. Therefore, the concern about a semantic loose coupling should be added to the architectural paradigms. The supporting principles are (i) semantic transparency, (ii) semantic separation of concerns, and (iii) explicit computational semantics. In view-based architectures their consolidation implies a new semantic view, while the MDA paradigm requires an ontological commitment on M3. Both paradigms need to include a semantic alignment processing mediation capability.  
   
-  *Conclusions:* Access-and-play SIOp can be achieved when considering semiotic fundamentals and adding loosely coupled formal semantics to contemporary architectural paradigms.   
+  *Conclusions:* Access-and-play sIOP can be achieved when considering semiotic fundamentals and adding loosely coupled formal semantics to contemporary architectural paradigms.   
  
 ...</Text>
         </Document>
@@ -36,19 +36,19 @@ abstract: |
 
 &gt; A German steel producer upgraded its industrial process robot. Since the majority of the steel production process is dependent on time, from a security point of view the decision was made to not rely on their own internal clocks but to use the German *Braunschweig Funkuhr* time radio signal as source for the exact time instead. At the end of April 1993, when Germany went on summer time, the computer clock of the steel producer went from 1:59 AM to 3:00 AM in one minute. This resulted in a production line allowing molten ingots to cool for one hour less than normal. When the process controller thought the cooling time had expired, his actions splattered still-molten steel, damaging part of the facility.
 
-In this simple example a tiny difference in the meaning of `time` between the steel producer and the national time provider hampered interoperability to the extend of damaging the steel facility. This tiny difference rooted in the assumption by the steel producer that `time` expressed a continuous scale whilst for the Braunschweig Funkuhr, `time` denoted instant clock time for that time zone and therefore represented a non-continuous scale. In order to achieve that both collaborators, here the Braunschweig Funkuhr and the steel producer, can actually *use* their peers data, the need exists to design and implement wrappers that remove any inconsistency between the variations that may occur in terms, structures, dimensions and what have you. Many such variations exist, leading to a range of failures in so-called *semantic interoperability* (SIOp) and Section/Appendix ## provides for a short overview of SIOp-faults. Unfortunately, it is fundamentally impossible to automate the production of wrappers, because we need a genuine *understanding* upfront, which computers still cannot do.
+In this simple example a tiny difference in the meaning of `time` between the steel producer and the national time provider hampered interoperability to the extend of damaging the steel facility. This tiny difference rooted in the assumption by the steel producer that `time` expressed a continuous scale whilst for the Braunschweig Funkuhr, `time` denoted instant clock time for that time zone and therefore represented a non-continuous scale. In order to achieve that both collaborators, here the Braunschweig Funkuhr and the steel producer, can actually *use* their peers data, the need exists to design and implement wrappers that remove any inconsistency between the variations that may occur in terms, structures, dimensions and what have you. Many such variations exist, leading to a range of failures in so-called *semantic interoperability* (sIOP) and Section/Appendix ## provides for a short overview of sIOP-faults. Unfortunately, it is fundamentally impossible to automate the production of wrappers, because we need a genuine *understanding* upfront, which computers still cannot do.
 
-The most disconcerting consequences of a lack of (automated) SIOp are time-to-deliver, flat interoperability failures, and even seemingly correct but quite invalid data analysis probably leading to devastating system behaviour. Current SIOp implementations are essentially based on the (time-consuming) process of establishing a (local) convention on the semantics of the terms that are exchanged during collaboration, requiring custom solutions and collaboration-dependent software adaptations. Such conventions can be considered a semantic monolith, which makes dealing with data outside the monolith impossible, unless again a time consuming (months) semantic adoption process is applied. Moreover, these semantic conventions consider semantic heterogeneity as a bug instead of a feature necessary to achieve semantic accuracy. But still, this conventions-based approach towards SIOp is accepted folklore in ICT. In view of the large uptake of the Internet, the Internet of Things (IoT), cloud computing and big data, and in view of economical pressure to intensify enterprise collaboration, we consider this approach &quot;too little, too late&quot;. 
+The most disconcerting consequences of a lack of (automated) sIOP are time-to-deliver, flat interoperability failures, and even seemingly correct but quite invalid data analysis probably leading to devastating system behaviour. Current sIOP implementations are essentially based on the (time-consuming) process of establishing a (local) convention on the semantics of the terms that are exchanged during collaboration, requiring custom solutions and collaboration-dependent software adaptations. Such conventions can be considered a semantic monolith, which makes dealing with data outside the monolith impossible, unless again a time consuming (months) semantic adoption process is applied. Moreover, these semantic conventions consider semantic heterogeneity as a bug instead of a feature necessary to achieve semantic accuracy. But still, this conventions-based approach towards sIOP is accepted folklore in ICT. In view of the large uptake of the Internet, the Internet of Things (IoT), cloud computing and big data, and in view of economical pressure to intensify enterprise collaboration, we consider this approach &quot;too little, too late&quot;. 
 
-In comparison, scalability was a big architectural concern in the past, requiring custom solutions as well. In response to this concern, scalability was standardised in the form of architectural patterns, and finally totally embedded and hidden into the infrastructure. Similarly, SIOp can be considered the architectural concern of this decade, and we first need to provide a standardised solution pattern to address semantic concerns, before we can embed it in a technological infrastructure so that SIOp becomes transparent to the developer. Where scalability resulted in a huge increase in performance-demanding applications against a fraction of the original costs and effort, business agility will emerge once the semantic monolith is removed and semantic services exist at the infrastructural level. Then SIOp becomes an access-and-play operation that achieves SIOp in due time with data not anticipated for during software design, at any point in their life cycle. Metaphorically speaking, we consider SIOp as a bridge overarching a (semantic) gap: with *bridgeheads* on each side of the gap, with a *spanning* resting on them to structurally support the bridge and its traffic, and with a *roadway* enabling the crossing of the traffic. Finally, architectural *principles* provide the necessary guidance to the architect for the various design decisions that effectively result in a particular bridge over a particular (semantic) gap. Our contributions to consolidating semantic interoperability in software architectures are fivefold, and represented as architectural principles and concerns, as follows:
+In comparison, scalability was a big architectural concern in the past, requiring custom solutions as well. In response to this concern, scalability was standardised in the form of architectural patterns, and finally totally embedded and hidden into the infrastructure. Similarly, sIOP can be considered the architectural concern of this decade, and we first need to provide a standardised solution pattern to address semantic concerns, before we can embed it in a technological infrastructure so that sIOP becomes transparent to the developer. Where scalability resulted in a huge increase in performance-demanding applications against a fraction of the original costs and effort, business agility will emerge once the semantic monolith is removed and semantic services exist at the infrastructural level. Then sIOP becomes an access-and-play operation that achieves sIOP in due time with data not anticipated for during software design, at any point in their life cycle. Metaphorically speaking, we consider sIOP as a bridge overarching a (semantic) gap: with *bridgeheads* on each side of the gap, with a *spanning* resting on them to structurally support the bridge and its traffic, and with a *roadway* enabling the crossing of the traffic. Finally, architectural *principles* provide the necessary guidance to the architect for the various design decisions that effectively result in a particular bridge over a particular (semantic) gap. Our contributions to consolidating semantic interoperability in software architectures are fivefold, and represented as architectural principles and concerns, as follows:
 
-* Principles: We base SIOp on establishing loose-coupling at the semantic level by introducing principles on semantic separation of concerns and semantic transparency (Section \ref{siop-principles}), and show how these principles can be operationalised;
+* Principles: We base sIOP on establishing loose-coupling at the semantic level by introducing principles on semantic separation of concerns and semantic transparency (Section \ref{siop-principles}), and show how these principles can be operationalised;
 * Semantic concerns (bridgehead): Abstracting semantics from a tacit software implication into a tangible, computational and distinct artifact provides us with the potential to connect to it and to make comparisons with the semantic artifact of the peer software agent. Based on the discipline of semiotics, we explain the shortcomings of the current approach towards software semantics that rely on information models and information views. Instead, we provide for a fundamental notion on the application of ontologies [and ontological commitment] to remedy current semantic shortcomings, and we show [its/their] proper position in the total architecture (Section \ref{bridgehead-semantics});
-* Weak AI concerns (spanning): Since “strong AI” does not yet exist, SIOp remains in demand of human intervention in order to reconcile the semantic differences between collaborating software agents. However, human intervention is time consuming. We reduce the necessary human intervention to complement weak AI to a task that suffices to achieve SIOp, viz. authoring semantic alignments only (Section \ref{spanning-alignments});
+* Weak AI concerns (spanning): Since “strong AI” does not yet exist, sIOP remains in demand of human intervention in order to reconcile the semantic differences between collaborating software agents. However, human intervention is time consuming. We reduce the necessary human intervention to complement weak AI to a task that suffices to achieve sIOP, viz. authoring semantic alignments only (Section \ref{spanning-alignments});
 * Mediation concerns (roadway): We provide for a prototypical implementation of a mediator as the necessary component to automatically translate data when transferred between the collaborating software agents (Section \ref{roadway-mediation});
-* ISO42010 Architecture Viewpoint: We formulate the architectural consequences of the above concerns as a specific SIOp Viewpoint in order to consolidate SIOp for contemporary architectural paradigms (Section \ref{architectural-viewpoint-on-siop});
+* ISO42010 Architecture Viewpoint: We formulate the architectural consequences of the above concerns as a specific sIOP Viewpoint in order to consolidate sIOP for contemporary architectural paradigms (Section \ref{architectural-viewpoint-on-siop});
 
-Based on these contributions we [argue/defend] that access-and-play SIOp can be embedded and hidden in infrastructural services when considering semiotic fundamentals and adding loosely coupled formal semantics to contemporary architectural paradigms. To that end, we first describe the semiotic fundamentals in \cref{the-semiotic-and-philosophical-foundations-of-semantics}.
+Based on these contributions we [argue/defend] that access-and-play sIOP can be embedded and hidden in infrastructural services when considering semiotic fundamentals and adding loosely coupled formal semantics to contemporary architectural paradigms. To that end, we first describe the semiotic fundamentals in \cref{the-semiotic-and-philosophical-foundations-of-semantics}.
 
 </Text>
             <Comments>Source: http://catless.ncl.ac.uk/Risks/14.57.html#subj1, accessed May 20, 2018</Comments>
@@ -68,423 +68,6 @@ The {attributes} should be positioned OUTSIDE the hash-enclosed chapter title.
 The {-} attribute indicates an unnumbered header.
 
 # A level-one header with a [link](/url) and *emphasis*</Text>
-        </Document>
-        <Document ID="6">
-            <Title>Text and Formats</Title>
-            <Text>Letter format
-
-**Bold face**
-
-*Italic face*
-
-`literals`
-
-Text with ^superscript^ and ~subscript~
-
-Text with ~~strike out~~
-
-Code block:
-~~~python // ← this python thingy is optional, but might result in syntax highlighting
-define foobar() {
-    print &quot;Welcome to flavor country!&quot;;
-}
-~~~
-
-Text
-Create lorum ipsum dummy text with \usepackage{blindtext}
-\blindtext
-
-</Text>
-        </Document>
-        <Document ID="7">
-            <Title>Proprietary encodings</Title>
-            <Text>Footnotes
-
-By anchor 
-
-A footnote is a kind of anchor [^1] that refers to the actual text defined at the bottom of the page (or elsewhere in the text), like this:
-
-[^1]: the text of the footnote that the anchor refers to. The anchor id can be anything, as long as the carrot symbol precedes the id, e.g., [^this_is_a_very_long_footnote_id]
-
-Inline without anchor
-
-This inline footnote ^[the text of the footnote is included at the position of the anchor] is defined without anchor. Like the anchored footnote, the position of the placement of the footnote in the document is defined by meta-properties.
-
-Image inclusion
-![image caption.\label{image-link-label}](path\to\image.png)
-
-Or, use a short link in the text to indicate its position, such as:
-![my image]
-And at the bottom of the page, include its definition (dunno where the caption and label goes).
-
-[my image]: path\to\image.png (and this here might be the caption.)
-
-Internal links
-An explicit reference link has two parts, the link itself and the link definition, which may occur elsewhere in the document (either before or after the link).
-* The link consists of link text in square brackets, followed by a label in square brackets. (There can be space between the two.) 
-* The link definition consists of the bracketed label, followed by a colon and a space, followed by the URL, and optionally (after a space) a link title either in quotes or in parentheses.
-* Use the automatically generated identifier (Extension: auto_identifiers)
-	* See the [text about this link](#link-as-title-of-the-section).
-	* Or, implicitly, see the [text about this link] as placeholder and below its definition
-
-[text about this link](#link-as-title-of-the-section)
-
-References to chapter numbers
-This is not possible in MMD, currently. Some initiatives are being considered, though (REF). One way to solve this is to use latex code, as follows:
-
-Blahbllah, see section \ref{the-section-id-as-referenced-by-MMD}. Note the missing #-sign in the reference.
-
-External links
-  Blahblah blah blah blah. See [my website][], or [my website].
-
-[my website]: http://foo.bar.baz
-
-footnotes (extension: footnotes)
-Here’s a footnote reference [^1] and another.[^longnote]
-
-[^1]: Here is the footnote.
-[^longnote]: Here's one with multiple blocks.
-    Subsequent paragraphs are indented to show that they
-belong to the previous footnote.
-
-        { some.code }
-
-    The whole paragraph can be indented, or just the first
-    line.  In this way, multi-paragraph footnotes work like
-    multi-paragraph list items.
-
-This paragraph won't be part of the note, because it
-isn't indented.</Text>
-        </Document>
-        <Document ID="8">
-            <Title>Authors</Title>
-            <Text>Bullits and numbered lists
-
-Bullit lists
-
-The bullets need not be flush with the left margin; they may be indented one, two, or three spaces. The bullet must be followed by whitespace, and preceded by a blank line. A list item may contain multiple paragraphs and other block-level content. However, subsequent paragraphs must be preceded by a blank line and indented four spaces or a tab. 
-
-  * Fruits
-
-    Continued paragraph belonging to Fruits.
-
-List items may include other lists. In this case the preceding blank line is optional. The nested list must be indented four spaces or one tab:
-
-* fruits
-    + apples
-        - macintosh
-        - red delicious
-
-Number lists
-
-Ordered lists work just like bulleted lists, except that the items begin with enumerators (numbers themselves are ignored) rather than bullets:
-2. First item
-1. Second item
-21. Third item
-
-Autonumbers
-
-(@one)  My first example will be numbered (1).
-(@)  My second example will be numbered (2).
-
-Explanation of example (@one).
-
-(@)  My third example will be numbered (3).</Text>
-        </Document>
-        <Document ID="9">
-            <Title>Footnotes, Images and Links</Title>
-            <Text>Tables
-Pipe tables
-Pipe tables look like this:
-| Right | Left | Default | Center |
-|------:|:-----|---------|:------:|
-|   12  |  12  |    12   |    12  |
-|  123  |  123 |   123   |   123  |
-|1|1|1|1
-
-  : Demonstration of pipe table syntax {#anchor-for-its-reference}.
-The syntax is the same as in PHP markdown extra. The beginning and ending pipe characters are optional, but pipes are required between all columns. The colons indicate column alignment as shown. The header can be omitted, but the horizontal line must still be included, as it defines column alignments. Since the pipes indicate column boundaries, columns need not be vertically aligned, as the last row indicates.
-The cells of pipe tables cannot contain block elements like paragraphs and lists, and cannot span multiple lines, nor wrap text within cells.
-
-Grid tables look like this:
-: Sample grid table.
-
-+---------------+---------------+--------------------+
-| Fruit         | Price         | Advantages         |
-+===============+===============+====================+
-| Bananas       | $1.34         | - built-in wrapper |
-|               |               | - bright color     |
-+---------------+---------------+--------------------+
-| Oranges       | $2.10         | - cures scurvy     |
-|               |               | - tasty            |
-+---------------+---------------+--------------------+
-The row of =’s separates the header from the table body, and can be omitted for a headerless table. The cells of grid tables may contain arbitrary block elements (multiple paragraphs, code blocks, lists, etc.). Alignments are not supported, nor are cells that span multiple columns or rows. 
-
-Multiline tables
-Multiline tables are also possible, and allow headers and table rows to span multiple lines of text (but cells that span multiple columns or rows of the table are not supported). Here is an example:
--------------------------------------------------------------
- Centered   Default           Right Left
-  Header    Aligned         Aligned Aligned
------------ ------- --------------- -------------------------
-   First    row                12.0 Example of a row that
-                                    spans multiple lines.
-
-  Second    row                 5.0 Here's another one. Note
-                                    the blank line between
-                                    rows.
--------------------------------------------------------------
-
-   : Here's the caption. It, too, may span
-multiple lines.
-These work like simple tables, but with the following differences:
-They must begin with a row of dashes, before the header text (unless the headers are omitted).
-They must end with a row of dashes, then a blank line.
-The rows must be separated by blank lines.
-In multiline tables, the table parser pays attention to the widths of the columns, and the writers try to reproduce these relative widths in the output. So, if you find that one of the columns is too narrow in the output, try widening it in the markdown source.
-Headers may be omitted in multiline tables as well as simple tables</Text>
-        </Document>
-        <Document ID="10">
-            <Title>References</Title>
-            <Text>Unfortunately, there is as of yet no representation of definition of glossary terms. One definition has been suggested:
-[^glossaryfootnote]: glossary: term (optional sort key)
-    The actual definition belongs on a new line, and can continue on
-    just as other footnotes.
-This would allow for footnotes to be specified as glossary terms. The *term* is the item that belongs in the glossary. The *sort key* is optional, and is used to specify that the term should appear somewhere else in the glossary (which is sorted in alphabetical order).
-References are based on bibtex. To specify a bibliography file use *--bibliography &lt;myCitations.bib&gt;* at the command line, or, the YAML metadata field *bibliography*.
-
-Citations go inside square brackets and are separated by semicolons. Each citation must have a key, composed of ‘@’ + the citation identifier from the database, and may optionally have a prefix, a locator, and a suffix. Examples:
-
-* Blah blah [see @doe99, pp. 33-35; also @smith04, chap. 1].
-* Blah blah [@doe99, pp. 33-35, 38-39 and *passim*].
-* Blah blah [@smith04; @doe99].
-
-The citation identifier may contain special characters.</Text>
-        </Document>
-        <Document ID="11">
-            <Title>Bullits and numbered lists</Title>
-            <Text>Mathematical formulae are not possible in MMD. To that end, apply LateX rules and include appropriate libraries in the latex template, see also https://en.wikibooks.org/wiki/LaTeX/Mathematics. The suggestions below are not MMD cheats but LateX cheats instead.
-
-\usepackage{mathtools}
-
-Mathmode: 
-
-* Inline: TEXT encompassed with \( ... \)
-* Paragraph: 
-
-If you are typing text normally, you are said to be in text mode, but while you are typing within one of those mathematical environments, you are said to be in math mode that has some differences compared to the text mode:
-Most spaces and line breaks do not have any significance, as all spaces are either derived logically from the mathematical expressions, or have to be specified with special commands such as \quad
-Empty lines are not allowed. Only one paragraph per formula.
-Each letter is considered to be the name of a variable and will be typeset as such. If you want to typeset normal text within a formula (normal upright font and normal spacing) then you have to enter the text using dedicated commands.
-The caret (^) character is used to raise something (superscript), and the underscore (_) is for lowering (subscript). If more than one expression is raised or lowered, they should be grouped using curly braces ({ and }).
-
-
-$\mathpzc{ALC}$
-Bullits and numbered lists
-
-Bullit lists
-
-The bullets need not be flush with the left margin; they may be indented one, two, or three spaces. The bullet must be followed by whitespace, and preceded by a blank line. A list item may contain multiple paragraphs and other block-level content. However, subsequent paragraphs must be preceded by a blank line and indented four spaces or a tab. 
-
-  * Fruits
-
-    Continued paragraph belonging to Fruits.
-
-List items may include other lists. In this case the preceding blank line is optional. The nested list must be indented four spaces or one tab:
-
-* fruits
-    + apples
-        - macintosh
-        - red delicious
-
-Number lists
-
-Ordered lists work just like bulleted lists, except that the items begin with enumerators (numbers themselves are ignored) rather than bullets:
-2. First item
-1. Second item
-21. Third item
-
-Autonumbers
-
-(@one)  My first example will be numbered (1).
-(@)  My second example will be numbered (2).
-
-Explanation of example (@one).
-
-(@)  My third example will be numbered (3).</Text>
-        </Document>
-        <Document ID="12">
-            <Title>Tables</Title>
-            <Text>---
-title:  'Neem een titel'  
-subtitle: 'en een ondertitel'  
-author: Paul Brandt  
-affiliation: Eindhoven University of Technology  
-version: '1'  
-category: Mak een eigen categorie, of laat t leeg  
-ack: &lt;!-- This work was supported by the EC, through the RECAP project, part of the Interreg IVB NWE Programme. --&gt;    
-tags: &lt;!-- semantic interoperability, semantic mediations, semantic conflicts, semantic concerns, semantic protocols, remote patient monitoring --&gt;  
-bibliography: src/bib/bibliography.bib  
-csl: templates/my-basic-reference-style.csl  
-abstract: |  Het abstract mag 
-    verschillende regels beslaan.
-  Zolang het maar eindigt met 3 puntjes EN NIKS MEER
-   
-...</Text>
-        </Document>
-        <Document ID="13">
-            <Title>Glossary</Title>
-            <Text>Unfortunately, there is as of yet no representation of definition of glossary terms. One definition has been suggested:
-[^glossaryfootnote]: glossary: term (optional sort key)
-    The actual definition belongs on a new line, and can continue on
-    just as other footnotes.
-This would allow for footnotes to be specified as glossary terms. The *term* is the item that belongs in the glossary. The *sort key* is optional, and is used to specify that the term should appear somewhere else in the glossary (which is sorted in alphabetical order).</Text>
-        </Document>
-        <Document ID="14">
-            <Title>Math</Title>
-            <Text>Mathematical formulae are not possible in MMD. To that end, apply LateX rules and include appropriate libraries in the latex template, see also https://en.wikibooks.org/wiki/LaTeX/Mathematics. The suggestions below are not MMD cheats but LateX cheats instead.
-
-\usepackage{mathtools}
-
-Mathmode: 
-
-* Inline: TEXT encompassed with \( ... \) of $ ... $
-* Paragraph: wat was dit ook alweer?
-
-If you are typing text normally, you are said to be in text mode, but while you are typing within one of those mathematical environments, you are said to be in math mode that has some differences compared to the text mode:
-Most spaces and line breaks do not have any significance, as all spaces are either derived logically from the mathematical expressions, or have to be specified with special commands such as \quad
-Empty lines are not allowed. Only one paragraph per formula.
-Each letter is considered to be the name of a variable and will be typeset as such. If you want to typeset normal text within a formula (normal upright font and normal spacing) then you have to enter the text using dedicated commands.
-The caret (^) character is used to raise something (superscript), and the underscore (_) is for lowering (subscript). If more than one expression is raised or lowered, they should be grouped using curly braces ({ and }).
-
-
-$\mathpzc{ALC}$
-</Text>
-        </Document>
-        <Document ID="15">
-            <Title>Definitions, proofs etc</Title>
-            <Text>Definitions, Theorems, Proofs and more are not possible in MMD. To that end, apply LateX rules and include appropriate libraries in the latex template, see also https://en.wikibooks.org/wiki/LaTeX/Theorems. The suggestions below are therefore not MMD cheats but LateX cheats instead.
-
-As a result, the MMD-lists do not work anymore and we need to make use of Latex-lists, as follows:
-\begin{itemize}[label={-}]
-\item here is the first item
-\item Here is the second item
-\end{itemize}
-
-
-\begin{mmdef}[definitie onderwerp]\label{def:my-unique-reference}
-Here is a new definition
-\end{mmdef}
-
-\begin{mmexmp}\label{ex:my-unique-reference}
-Here is a new example
-\end{mmexmp}
-
-\begin{mmdesignprinciple}
-\end{mmdesignprinciple}
-
-\begin{mmprf}
-\end{mmprf}
-
-\begin{mmthrq}\label{:rq:my-unique-reference}
-Here is a new research question
-\end{mmthrq}
-
-## LaTeX header definition ##
-These definitions/proofs/etc. are based on a package for theorems, i.e., amsthm. Before the above definitions/proofs/etc can work, we need to import and configure the Theorem package. This requires a LaTeX header definition, as follows:
-\usepackage{amsthm}
-
-\newtheorem{mmexmp}{Example}[section]
-\newtheorem{mmthrq}{Research Question}
-\newtheorem{mmdef}{Definition}</Text>
-        </Document>
-        <Document ID="16">
-            <Title>-ise/-ize</Title>
-            <Text>* -ise/ -ize*
-
-In British English, most words ending in -ise can also be spelt with ize. Exceptions are words in two syllables, e.g., surprise, and advertise and analyse. Therefore, in BE play safe and consistently use -ise. In American English, only -ize is used. 
-
-* In Americal English, final -l is not usually doubled in an unstressed syllable, whilst in British English it is, e.g., US traveler, leveling, becomes GB traveller, levelling; hence, modelling
-* Some endings in -ter in AE become -tre in BE: US theater, center become GB theatre, centre.
-* Some endings in -or in AE become -our in BE: US labor, color become GB labour, colour.
-* Some endings in -og in AE become -ogue in BE: US catalog, analog become GB catalogue, analogue.
-* Some endings in -ense in AE become -ence in BE: US defense, offense, pretense become BE defence, offence, pretence. However, US practice becomes GB practise.
-
-*That versus which:*
-
-* “that/who” (no comma) is used to single out (restrict) from many possibilities the one and only that is referred to: 
-    * The painting that was hanging in the foyer was stolen --&gt; from all paintings in the house, one hung in the foyer and that particular one was stolen;
-    * The suspect who has red hair committed the crime --&gt; from all suspects indeed the perpetrator was the only red haired person;
-* “which,/who, ” (with comma) is used to add incidental information (unrestricted) about the subject that is referred to, however, not to single it out:
-    * The painting, which was hanging in the foyer, was stolen --&gt; many paintings were hanging in the foyer, and the one that was stolen was one of them;
-    * The suspect, who owns a red car, committed the crime --&gt; although the perpetrator owns a red car, this does not necessarily imply that from all suspects the perpetrator and only the perpetrator owns a red car. Any or all of the suspects might own a red car.
-* hence, “who” refers to a restrictive clause while “who, ” refers to a non-restrictive (informative) clause.
-
-*Plural versus possessive -s:*
-
-Source: https://umanitoba.ca/student/academiclearning/media/Plural_vs_Possessive_S_NEW.pdf
-
-**Plural**
-
-* The most common way to pluralize a noun is to simply add an -s at the end:
-    Hamburger (singular) becomes hamburgers (plural)\\
-    College (singular) becomes colleges (plural)
-* Nouns that end in a vowel followed by a -y take an -s in the plural:
-    Monkey (singular) becomes monkeys (plural) \\
-    Nouns that end in a consonant followed by a -y undergo a more dramatic change. First, the -y changes 
-to an -ie and then an -s is added:
-    Baby (singular) becomes babies (plural)
-* Nouns that end in a sibilant (s, x, z, ch, sh) pluralize by adding an -es:
-    Church (singular) becomes churches (plural)
-* Nouns that end in an -is are replaced by -es in the plural:
-    Thesis (singular) becomes theses (plural)
-* Count nouns that end in -f pluralize by changing to a –ves:
-    Calf (singular) becomes calves (plural) 
-
-**Possessive**
-
-* The possessive -s is used to show belonging: \\
-    Kevin’s coat
-* Add an ’s to the plural forms of nouns that do not end in -s: \\
-    The children’s bedroom
-* Add an ’ to the plural forms of nouns that end in -s: \\
-    The addicts’ support group \\ 
-    The seven Von Trapp kids’ singing nanny
-* Apostrophes should not be used with possessive pronouns (my, yours, hers, his, its, ours). These 
-Pronouns do not need apostrophes because they inherently show possession.
-* *It’s* is a contraction for “it is” and *its* is the possessive pronoun that signifies “belonging to it”. 
-
-&lt;!-- einde opsomming --&gt;</Text>
-        </Document>
-        <Document ID="17">
-            <Title>Progress &amp; Planning</Title>
-            <Text>Because Scrivener (Windows) is not yet capable of calculating the target word count of a section from its subsections, the progress indicator is not very helpful in showing your actual progress. We can realise this by the use of excel.
-
-To that end, you need to add two pieces of information to the scrivener meta-data:
-
-1. Include a custom meta-data parameter, let’s call it ‘level’. The purpose of this parameter is to provide for the level of the section. Unfortunately, you have to fill this manually because the &lt;$hn&gt; placeholder tag (see Scrivener manual, Appendix D, Table D.2) is only effective on compiling, which has no use here. Use level = 1 for all first level scrivenings (document), etc.
-2. Fill the Target parameter as you would expect, however, place a negative number for the section that needs to be calculated from its subsections, e.g., -1
-
-Now export the “Outliner Contents as CSV”, and import it into Excel. Create in excel as many additional columns as levels and name them 1, 2, 3, 4, etc. Just the figure, no additional characters. Then, define in the cells for these columns the following formula’s:
-
-Column 1: =IF($Q2=S$1,IF($Q3&gt;=S$1,IF($N2&gt;0,SUM(S3,$N2),SUM(S3,T3)),$N2),IF($Q2&gt;S$1,S3,0))
-Column 2: =IF($Q2=T$1,IF($Q3&gt;=T$1,IF($N2&gt;0,SUM(T3,$N2),SUM(T3,U3)),$N2),IF($Q2&gt;T$1,T3,0))
-Column 3: =IF($Q2=U$1,IF($Q3&gt;=U$1,IF($N2&gt;0,SUM(U3,$N2),SUM(U3,V3)),$N2),IF($Q2&gt;U$1,U3,0))
-...
-Last column: =IF($Q2=V$1,IF($Q3&gt;=V$1,IF($N2&gt;0,SUM(V3,$N2),V3),$N2),0)
-
-And add one additional column that will give you the True Target (calculated) as:
-Column TrueTarget: =IF(N2&gt;=0,N2,OFFSET(R2,1,Q2+1,1,1))
-
-Explanation:
-Columns 1, 2, 3 etc. will calculate the cumulative figures, from ground to top, for the level that is indicated by the name of the column. It does this from the following parameters (indicated for the first level):
-* Q2 = your ‘level’ parameter
-* S1 = the name of your column == the level that that column will cumulate
-* N2 = the Target parameter (with negative numbers indicating the sections of interest)
-* T3 = the previous level, the value of which represents the cumulative targets of the subsections
-
-
-
-</Text>
         </Document>
         <Document ID="18">
             <Title>References {-}</Title>
@@ -520,12 +103,12 @@ Paul Brandt[^a]^,^[^b], Eric Grandy [^c], (Johan Lukkien[^a]), Twan Basten[^a]
 
 
 
-Concerning the grounding problem, since strong AI does not yet exists, and weak AI is not strong enough, the only tool to ground the terms from which semantics can emerge, therefore, remains the human brain that complements the shortcomings of weak AI. And that is exactly the current state of the art in software engineering: being aware of the application domain during design-time, the software engineer provides for the necessary semantics and assures, by means of their encoding in software constraints, schemata, class definitions and matching business and domain rules, that the particular software agent operates on the data in a way that is isomorphic to the reality the software agent is about. Although this may solve the grounding problem for the agent's native data, it does so by sacrificing the software agent's flexibility to process foreign data that commits to another grounding, a flexibility that is the essential condition to SIOp in general, and even more so for access-and-play SIOp. This would call for another solution to the grounding problem, but as just explained, we're &quot;stuck&quot; with weak AI that cannot resolve it differently. When we accept this implicit semantic rigidness of software agents, the question then becomes whether we can deal with the semantic rigidness in another way? Because one cannot deal with tacit knowledge, the assumption underlying the question is that semantics can be made explicit. Fortunately, the Semantic Web (SW) initiative at the one hand [@W3C2015], and the ontology engineering movement on the other [@IAOA2013], stimulate such explicit attention for semantics. We therefore can focus on the issue of semantic rigidness, and consider this question, and particularly its relationship with the SW and ontology technologies, as a software engineering issue that, by its generic nature, should be resolved at the level of architecture.
+Concerning the grounding problem, since strong AI does not yet exists, and weak AI is not strong enough, the only tool to ground the terms from which semantics can emerge, therefore, remains the human brain that complements the shortcomings of weak AI. And that is exactly the current state of the art in software engineering: being aware of the application domain during design-time, the software engineer provides for the necessary semantics and assures, by means of their encoding in software constraints, schemata, class definitions and matching business and domain rules, that the particular software agent operates on the data in a way that is isomorphic to the reality the software agent is about. Although this may solve the grounding problem for the agent's native data, it does so by sacrificing the software agent's flexibility to process foreign data that commits to another grounding, a flexibility that is the essential condition to sIOP in general, and even more so for access-and-play sIOP. This would call for another solution to the grounding problem, but as just explained, we're &quot;stuck&quot; with weak AI that cannot resolve it differently. When we accept this implicit semantic rigidness of software agents, the question then becomes whether we can deal with the semantic rigidness in another way? Because one cannot deal with tacit knowledge, the assumption underlying the question is that semantics can be made explicit. Fortunately, the Semantic Web (SW) initiative at the one hand [@W3C2015], and the ontology engineering movement on the other [@IAOA2013], stimulate such explicit attention for semantics. We therefore can focus on the issue of semantic rigidness, and consider this question, and particularly its relationship with the SW and ontology technologies, as a software engineering issue that, by its generic nature, should be resolved at the level of architecture.
 
 
 
 
-* Contemporary solutions are investigated along three different reconciliation techniques [@Silva2007, @Hameed2004]: merging, alignment [@Balachandar2013, @Taye2010] and integration. The merging and integration techniques are characterized by their producing a new, unified world view from the existing ones. In contrast, the alignment technique brings the different views &quot;(...) into mutual agreement, making them consistent and coherent&quot; [@Hameed2004]. From an architectural point of view, the alignment technique brings about a significant higher form of *loose coupling* than the other two techniques. That is the precise reason why we defend to found SIOp on the former one and reject the latter techniques. Furthermore, although any design time reconciliation technique is contrasting with the *access-and-play* capability that we imply when we speak about SIOp, by introducing alignments, progress towards access-and-play is still being made: (i) required modifications are lifted from the implementation level to the configuration level; (ii) SIOp functionality can be abstracted and collected into a distinct component for reuse; (iii) designing and developing semantic mappings becomes a distinct and domain-independent engineering discipline with dedicated research, tooling and artifacts, and, finally, (iv) reconciliation has been recognized as a plausible solution for a long time [@Euzenat:2013ie]. What remains open, however, is its architectural perspective, notably about agreeing on the concerns that are pursued and the principles for their underpinning, the services that result, the standards that such services would require and the available initiatives that represent potential candidate standards. An architecture for SIOp should be designed to consolidate related architectural concerns about data re-use and independent application development for collaborating software agents, bringing secondary benefits on concerns about semantic maintainability and modifiability. Certainly, the semantic web initiative at the one hand [@W3C2015], and the ontology engineering movement on the other [@IAOA2013], stimulate explicit attention for semantics. Still, in order for (legacy) applications to respond, in ever decreasing time-spans, to ever increasing demands for collaboration, those explicit semantics need (i) to be brought into coherence with (extra-)functional aspects of the system and its components, (ii) to align with all data models and data representations as they occur in their many different forms in distributed systems, and (iii) to become synchronized with the system life cycle. In other words, semantics require to become properly and explicitly embedded into the architectures of the underlying systems and components. Only then we can claim to have coped with the semantic reminiscences of the monolithic beast and provide for semantic interoperability on an *access-and-play* bases.
+* Contemporary solutions are investigated along three different reconciliation techniques [@Silva2007, @Hameed2004]: merging, alignment [@Balachandar2013, @Taye2010] and integration. The merging and integration techniques are characterized by their producing a new, unified world view from the existing ones. In contrast, the alignment technique brings the different views &quot;(...) into mutual agreement, making them consistent and coherent&quot; [@Hameed2004]. From an architectural point of view, the alignment technique brings about a significant higher form of *loose coupling* than the other two techniques. That is the precise reason why we defend to found sIOP on the former one and reject the latter techniques. Furthermore, although any design time reconciliation technique is contrasting with the *access-and-play* capability that we imply when we speak about sIOP, by introducing alignments, progress towards access-and-play is still being made: (i) required modifications are lifted from the implementation level to the configuration level; (ii) sIOP functionality can be abstracted and collected into a distinct component for reuse; (iii) designing and developing semantic mappings becomes a distinct and domain-independent engineering discipline with dedicated research, tooling and artifacts, and, finally, (iv) reconciliation has been recognized as a plausible solution for a long time [@Euzenat:2013ie]. What remains open, however, is its architectural perspective, notably about agreeing on the concerns that are pursued and the principles for their underpinning, the services that result, the standards that such services would require and the available initiatives that represent potential candidate standards. An architecture for sIOP should be designed to consolidate related architectural concerns about data re-use and independent application development for collaborating software agents, bringing secondary benefits on concerns about semantic maintainability and modifiability. Certainly, the semantic web initiative at the one hand [@W3C2015], and the ontology engineering movement on the other [@IAOA2013], stimulate explicit attention for semantics. Still, in order for (legacy) applications to respond, in ever decreasing time-spans, to ever increasing demands for collaboration, those explicit semantics need (i) to be brought into coherence with (extra-)functional aspects of the system and its components, (ii) to align with all data models and data representations as they occur in their many different forms in distributed systems, and (iii) to become synchronized with the system life cycle. In other words, semantics require to become properly and explicitly embedded into the architectures of the underlying systems and components. Only then we can claim to have coped with the semantic reminiscences of the monolithic beast and provide for semantic interoperability on an *access-and-play* bases.
 
 
 &gt; Dan de onderstaande teksten lezen, bekijken welke nieuwe probleemaspecten ze identificeren, en een korte samenvatting van elk geven als apart blokje 
@@ -538,7 +121,7 @@ Concerning the grounding problem, since strong AI does not yet exists, and weak 
 ----
 
 
-The grounding problem in itself has another consequence in relation to the distributed nature of SIOp that we explain as follows. In essence, data are *encodings* about the state of affairs in that part of reality that the software is interested about. With the absence of strong AI, only the software agent that generated the data (or more precisely, the software engineer that produced the software agent) possesses the know-how to &quot;decode&quot; the data, i.e., to connect the signifier with what is signified in reality. The realm of that know-how, denoted here as *background knowledge*, represents the semantic monolith, and it is being demarcated in design time: any software agent that, through its software engineer, is made aware of that background knowledge, through bilateral agreements, domain-specific standards or other conventions, has implemented measures to apply the data in accordance to what they refer to in reality. In conclusion, SIOp cannot exist without sharing the background knowledge that relates the used signifiers (tokens) with what is signified in reality. 
+The grounding problem in itself has another consequence in relation to the distributed nature of sIOP that we explain as follows. In essence, data are *encodings* about the state of affairs in that part of reality that the software is interested about. With the absence of strong AI, only the software agent that generated the data (or more precisely, the software engineer that produced the software agent) possesses the know-how to &quot;decode&quot; the data, i.e., to connect the signifier with what is signified in reality. The realm of that know-how, denoted here as *background knowledge*, represents the semantic monolith, and it is being demarcated in design time: any software agent that, through its software engineer, is made aware of that background knowledge, through bilateral agreements, domain-specific standards or other conventions, has implemented measures to apply the data in accordance to what they refer to in reality. In conclusion, sIOP cannot exist without sharing the background knowledge that relates the used signifiers (tokens) with what is signified in reality. 
 And here we hit the concrete wall of infinite regress, depicted in Figure 2, since communicating background knowledge is equivalent to communicating data: we communicate bare tokens, the decoding of which requires background knowledge itself. It is this infinite regress that makes it impossible to communicate the relation between the signifers (tokens) and the signifed in reality. Ipso facto, where semantics cannot be communicated, semantic interoperability cannot emerge, hence the semantic gap.
 
 
@@ -548,10 +131,10 @@ Where and when to position her is a question of architecture: to balance, e.g., 
 
 
 
-focus on the next best that we *can* influence, being the *ontological commitment*. What we mean with this is the following: When we use a term, and particularly a term from the highest level of abstraction of our (modelling) language, to what *category* of things (or relations) in reality do we refer, i.e., what things in reality do we commit to when using those abstract terms from which all other elements in our model originate. Indeed, to achieve SIOp we side step the grounding problem and apply the ontological commitment in a function of *semantic convention*. This suggests that ontological commitment is absent in contemporary software models. A characteristic of ontological commitment, however, is that its absence is impossible; on introducing a concept, i.e., an element in a (software) model which stands for a particular category of entities (or relations between them) in reality, there always exists background knowledge on the characteristics of that category. For instance, what individuals are considered part of it and how these individuals relate to other categories, or what other categories are contained within it. Such background knowledge, consciously or not, represents the ontological commitment of that concept when it impacts on how the concept plays along with the other elements in the model and, eventually, how individuals that belong to that concept, i.e., data, are being processed by the software. We do not suggest that ontological commitment is absent, but claim that the *explication* of the ontological commitment is either absent, and/or the number of concepts that carry an ontological commitment is *extremely small* in contemporary modeling languages. In other words, every model assumes an underlying ontological commitment; by keeping this implicit, no matter how thoroughly designed the model has been, its underlying ontological commitment is non-existent for the collaborating peer, which clearly ruins SIOp. Acknowledging its significance to SIOp and the architectural concerns that the ontological commitment addresses, the roles it plays, its position within and contributions to other artifacts in the architectural realm, these are necessary criteria to be included in architecture paradigms that claim to support SIOp. To the best of our knowledge, none of the contemporary architectural paradigms, be it view-based models such as Kruchten, IEEE1471-2000, the Zachman Framework [@Zachman1987], RM-ODP [@Linington1995], TOGAF [TBD], DoDAF [TBD], and RASDS-E [TBD] alike, or model-driven architectures that follow from the OMG [TBD] reference architectures, acknowledge the significance of ontological commitment for SIOp and provide for guidelines on how to go about it. 
+focus on the next best that we *can* influence, being the *ontological commitment*. What we mean with this is the following: When we use a term, and particularly a term from the highest level of abstraction of our (modelling) language, to what *category* of things (or relations) in reality do we refer, i.e., what things in reality do we commit to when using those abstract terms from which all other elements in our model originate. Indeed, to achieve sIOP we side step the grounding problem and apply the ontological commitment in a function of *semantic convention*. This suggests that ontological commitment is absent in contemporary software models. A characteristic of ontological commitment, however, is that its absence is impossible; on introducing a concept, i.e., an element in a (software) model which stands for a particular category of entities (or relations between them) in reality, there always exists background knowledge on the characteristics of that category. For instance, what individuals are considered part of it and how these individuals relate to other categories, or what other categories are contained within it. Such background knowledge, consciously or not, represents the ontological commitment of that concept when it impacts on how the concept plays along with the other elements in the model and, eventually, how individuals that belong to that concept, i.e., data, are being processed by the software. We do not suggest that ontological commitment is absent, but claim that the *explication* of the ontological commitment is either absent, and/or the number of concepts that carry an ontological commitment is *extremely small* in contemporary modeling languages. In other words, every model assumes an underlying ontological commitment; by keeping this implicit, no matter how thoroughly designed the model has been, its underlying ontological commitment is non-existent for the collaborating peer, which clearly ruins sIOP. Acknowledging its significance to sIOP and the architectural concerns that the ontological commitment addresses, the roles it plays, its position within and contributions to other artifacts in the architectural realm, these are necessary criteria to be included in architecture paradigms that claim to support sIOP. To the best of our knowledge, none of the contemporary architectural paradigms, be it view-based models such as Kruchten, IEEE1471-2000, the Zachman Framework [@Zachman1987], RM-ODP [@Linington1995], TOGAF [TBD], DoDAF [TBD], and RASDS-E [TBD] alike, or model-driven architectures that follow from the OMG [TBD] reference architectures, acknowledge the significance of ontological commitment for sIOP and provide for guidelines on how to go about it. 
 
 
-This publication presents architectural cornerstones for a highly needed access-and-play SIOp capability. To that end, we discuss the necessity for a human-in-the-loop approach, its contradiction with the access-and-play SIOp capability, and describe how these conflicting SIOp concerns can be architecturally balanced. Furthermore, we discuss the need to acknowledge ontological commitment and provide for suggestions to its integration in view-based and model-driven architectural paradigms. 
+This publication presents architectural cornerstones for a highly needed access-and-play sIOP capability. To that end, we discuss the necessity for a human-in-the-loop approach, its contradiction with the access-and-play sIOP capability, and describe how these conflicting sIOP concerns can be architecturally balanced. Furthermore, we discuss the need to acknowledge ontological commitment and provide for suggestions to its integration in view-based and model-driven architectural paradigms. 
 
 
 &gt;Insert overview of article, where possible combined for each section with shortcomings of related work.
@@ -560,18 +143,18 @@ This publication presents architectural cornerstones for a highly needed access-
 ----------
 
 
-Earlier monolithic aspects of software have always been &quot;abstracted away&quot;. Abstracting from the application code the particulars of the (extra-)functional asset at hand is done by extracting them into a distinct component that can provision the necessary (extra-)functional services outside the monolith. Then, by assuring that these services can be accessed through a *standardized interface*, any application can make use of its (extra-)functional assets, with which the monolithic characteristic was effectively removed. Regarding SIOp, then, the task would be to abstract the particular data semantics from their original application in order to enable re-use of that data outside their original monolithic application. Such approach assumes that agreement can be reached on the subject at hand, which, for many if not all previous monolithic aspects of (hardware and) software hold indeed: the system engineering community had to agree on *how* the abstraction was to take place, as opposed to *what* was being abstracted. Unfortunately, in case of semantics, the debate is primarily on *what* aspect of reality is being abstracted. This comes very close, or is even identical, to a discussion that continues already since Socrates (around 350 BC); philosophers try to understand the metaphysical and physical universe including humans and their world. Without claiming a philosophical origin *per se*, semantic inconsistencies remain widespread, in semantic standards, vocabularies or other conventions about the meaning that should be given to syntax and structure [@Guarino1994a]. More often than not, these inconsistencies are manifestations of our individual background knowledge, believes, cultural entail, and perspectives that led to certain linguistic use. In short, we take the stance that semantic heterogeneity should *not* be considered a bug to be corrected by insisting on one single truth, but a feature that should be exploited to express ourselves as accurately as possible. This sharply contrasts with our departure that we only consider “weak AI”, which assumes that the capability of software towards “understanding” is limited to comparing syntax and following logical rules, only. This contradiction is the first question that we investigate, and to its resolution we present in Section 2 background material on what signifies semantics and the role of semiotics, and set the baseline for this paper by providing for our interpretation on semantics *in* and semantic interoperablity *between* software agents.
+Earlier monolithic aspects of software have always been &quot;abstracted away&quot;. Abstracting from the application code the particulars of the (extra-)functional asset at hand is done by extracting them into a distinct component that can provision the necessary (extra-)functional services outside the monolith. Then, by assuring that these services can be accessed through a *standardized interface*, any application can make use of its (extra-)functional assets, with which the monolithic characteristic was effectively removed. Regarding sIOP, then, the task would be to abstract the particular data semantics from their original application in order to enable re-use of that data outside their original monolithic application. Such approach assumes that agreement can be reached on the subject at hand, which, for many if not all previous monolithic aspects of (hardware and) software hold indeed: the system engineering community had to agree on *how* the abstraction was to take place, as opposed to *what* was being abstracted. Unfortunately, in case of semantics, the debate is primarily on *what* aspect of reality is being abstracted. This comes very close, or is even identical, to a discussion that continues already since Socrates (around 350 BC); philosophers try to understand the metaphysical and physical universe including humans and their world. Without claiming a philosophical origin *per se*, semantic inconsistencies remain widespread, in semantic standards, vocabularies or other conventions about the meaning that should be given to syntax and structure [@Guarino1994a]. More often than not, these inconsistencies are manifestations of our individual background knowledge, believes, cultural entail, and perspectives that led to certain linguistic use. In short, we take the stance that semantic heterogeneity should *not* be considered a bug to be corrected by insisting on one single truth, but a feature that should be exploited to express ourselves as accurately as possible. This sharply contrasts with our departure that we only consider “weak AI”, which assumes that the capability of software towards “understanding” is limited to comparing syntax and following logical rules, only. This contradiction is the first question that we investigate, and to its resolution we present in Section 2 background material on what signifies semantics and the role of semiotics, and set the baseline for this paper by providing for our interpretation on semantics *in* and semantic interoperablity *between* software agents.
 
 
-Literature clarifies that &quot;weak AI&quot; is not capable to resolve semantic heterogeneity at run time, while its counterpart &quot;strong AI&quot; does not yet exist and is expected to emerge in long term only, if ever [@XiuquanLi2017]. Therefore, if we want to bridge the semantic gap at run time, we must prepare such capability at design time and introduce a human in the loop to reconcile the different world views of collaborating software agents. However, design time reconciliation is contrasting with the *access-and-play* capability that we imply when we speak about SIOp. 
+Literature clarifies that &quot;weak AI&quot; is not capable to resolve semantic heterogeneity at run time, while its counterpart &quot;strong AI&quot; does not yet exist and is expected to emerge in long term only, if ever [@XiuquanLi2017]. Therefore, if we want to bridge the semantic gap at run time, we must prepare such capability at design time and introduce a human in the loop to reconcile the different world views of collaborating software agents. However, design time reconciliation is contrasting with the *access-and-play* capability that we imply when we speak about sIOP. 
 
 
 
 
-This contradiction is the second issue that we address, and in Chapter 3 we take a principled approach and investigate the primary concerns that are pursued with an architecture for SIOp and the principles for its underpinning. This gives the necessary foundation for analyzing the optimal balance between design time capabilities for reconciliation and maximizing the run time progress towards the access-and-play demands.
+This contradiction is the second issue that we address, and in Chapter 3 we take a principled approach and investigate the primary concerns that are pursued with an architecture for sIOP and the principles for its underpinning. This gives the necessary foundation for analyzing the optimal balance between design time capabilities for reconciliation and maximizing the run time progress towards the access-and-play demands.
 
 
-the services that result, the standards that such services would require and the available initiatives that represent potential candidate standards. An architecture for SIOp should be designed to consolidate related architectural concerns about data re-use and independent application development for collaborating software agents, bringing secondary benefits on concerns about semantic maintainability and modifiability. . 
+the services that result, the standards that such services would require and the available initiatives that represent potential candidate standards. An architecture for sIOP should be designed to consolidate related architectural concerns about data re-use and independent application development for collaborating software agents, bringing secondary benefits on concerns about semantic maintainability and modifiability. . 
 
 
 an explicit check and balances between 
@@ -579,11 +162,11 @@ an explicit check and balances between
 
 
 
-In this paper we discuss the architectural implications for a definitive SIOp capability in support of such access-and-play potential for software agents, which at some point in their life cycle will be faced with the need to exchange data with other (however unanticipated) software agents. A major concern for semantic interoperability is then to balance between at least three conflicting demands. Firstly, to be able to express oneself as accurately as necessary (but not more), i.e., to adopt a language that is sufficiently adequate to represent the notions that we are interested in but neither less nor more. Secondly, to become independent, to the greatest extent possible, from the syntax that is used to represent semantics, i.e., to remain free from representational conventions. Thirdly, to exchange data between collaborating software agents such that the state of affairs the data refer to, remains the same, i.e., &quot;that data elements are understood in the same way by communicating parties&quot; (extract from EIRA). 
-We elaborate on the consequences of this and similar concerns that we consider the fundamental SIOp concerns in Section 3. We also find (i) that these concerns are not addressed by any of the contemporary, view-based architectural models, i.e., Kruchten, IEEE1471-2000, the Zachman Framework [@Zachman1987], RM-ODP [@Linington1995], TOGAF [TBD], DoDAF [TBD], and RASDS-E [TBD] alike; (ii) that a similar situation holds for the model-based architectural paradigm (MDA/MDE), albeit in a more subtle way that involves philsophy and refers to the relationship with reality; (iii) that generic interoperability (IOP) is already widely acknowledged as an architectural concern by, e.g., software quality models (ISO SQuaRE [TBD] and ISO-9126 extended [@Zeist1996]), as major quality attributes (and related tactics) by [TBD software engineering institute] and [@Bass2013]; (iv) that in order to reach IOP, semantics are identified as its a cornerstone however propose as tactics to manage the interfaces, only, implying some notion of mutual agreement; and (v) that although specific IOP frameworks, such as the EIF and EIRA from the EC, indeed identify a semantic viewpoint, most of the solutions are however based on mutual agreement, usually in the form of standards. These findings, together with our stance to embrace semantic heterogeneity, justify the demand for an explicit and more formal approach towards semantics and SIOp in contemporary architectural paradigms. 
+In this paper we discuss the architectural implications for a definitive sIOP capability in support of such access-and-play potential for software agents, which at some point in their life cycle will be faced with the need to exchange data with other (however unanticipated) software agents. A major concern for semantic interoperability is then to balance between at least three conflicting demands. Firstly, to be able to express oneself as accurately as necessary (but not more), i.e., to adopt a language that is sufficiently adequate to represent the notions that we are interested in but neither less nor more. Secondly, to become independent, to the greatest extent possible, from the syntax that is used to represent semantics, i.e., to remain free from representational conventions. Thirdly, to exchange data between collaborating software agents such that the state of affairs the data refer to, remains the same, i.e., &quot;that data elements are understood in the same way by communicating parties&quot; (extract from EIRA). 
+We elaborate on the consequences of this and similar concerns that we consider the fundamental sIOP concerns in Section 3. We also find (i) that these concerns are not addressed by any of the contemporary, view-based architectural models, i.e., Kruchten, IEEE1471-2000, the Zachman Framework [@Zachman1987], RM-ODP [@Linington1995], TOGAF [TBD], DoDAF [TBD], and RASDS-E [TBD] alike; (ii) that a similar situation holds for the model-based architectural paradigm (MDA/MDE), albeit in a more subtle way that involves philsophy and refers to the relationship with reality; (iii) that generic interoperability (IOP) is already widely acknowledged as an architectural concern by, e.g., software quality models (ISO SQuaRE [TBD] and ISO-9126 extended [@Zeist1996]), as major quality attributes (and related tactics) by [TBD software engineering institute] and [@Bass2013]; (iv) that in order to reach IOP, semantics are identified as its a cornerstone however propose as tactics to manage the interfaces, only, implying some notion of mutual agreement; and (v) that although specific IOP frameworks, such as the EIF and EIRA from the EC, indeed identify a semantic viewpoint, most of the solutions are however based on mutual agreement, usually in the form of standards. These findings, together with our stance to embrace semantic heterogeneity, justify the demand for an explicit and more formal approach towards semantics and sIOP in contemporary architectural paradigms. 
 
 
-We observe that concerns result in basic architectural pattern, and therefore apply concerns on SIOp as main foundation to our work. To that end, we gather in Section 4 these concerns and investigate about the architectural principles that are foundational to the provisioning of a SIOp capability in software agents. We conclude that for the large part it is necessary to provide for *loose coupling* at the semantic level, i.e., become, to the greatest extend possible, independent from how semantics have been expressed in syntax by the collaborating peer. In Section 5 we show how these SIOp principles can be consolidated, first as an additional architectural view and viewpoint for view-based architectures, and in a semantic model with semantic components for model-based architectures. Finally, in Section 6 we evaluate our theory on architectural considerations for the consolidation of semantic interoperablity by its implementation in [a desk mockup/ working prototype]. In Section 7 we discuss the results achieved by the work in Section 5, and arrive at the final conclusion that the explicit architectural support for semantic interoperability is a necessary element for the evolution of IT. But first we will present our interpretation on semantics in software, and semantic interoperablity between software components.
+We observe that concerns result in basic architectural pattern, and therefore apply concerns on sIOP as main foundation to our work. To that end, we gather in Section 4 these concerns and investigate about the architectural principles that are foundational to the provisioning of a sIOP capability in software agents. We conclude that for the large part it is necessary to provide for *loose coupling* at the semantic level, i.e., become, to the greatest extend possible, independent from how semantics have been expressed in syntax by the collaborating peer. In Section 5 we show how these sIOP principles can be consolidated, first as an additional architectural view and viewpoint for view-based architectures, and in a semantic model with semantic components for model-based architectures. Finally, in Section 6 we evaluate our theory on architectural considerations for the consolidation of semantic interoperablity by its implementation in [a desk mockup/ working prototype]. In Section 7 we discuss the results achieved by the work in Section 5, and arrive at the final conclusion that the explicit architectural support for semantic interoperability is a necessary element for the evolution of IT. But first we will present our interpretation on semantics in software, and semantic interoperablity between software components.
 
 
 &gt; In addition to the architecture fwk you mention, you might also consider specific IOP frameworks, such as the EIF and EIRA from the EC, which is also architecture centric. IOP is addressed from 4 viewpoints: technical, semantics, organisational and legal. Semantic interoperability is defined as &quot;enables organisations to process information from external sources in a meaningful manner. It ensures that the precise meaning of exchanged information is understood and preserved throughout exchanges between parties.
@@ -602,13 +185,13 @@ Most of the solutions are however based on mutual agreement, usually in the form
         </Document>
         <Document ID="22">
             <Title>The root of the semantic gap</Title>
-            <Text>￼![Infinite regress in semantics: background knowledge is yet another conceptualization (denoted *I*) that requires a token (*R*) to communicate, the interpretation of which requires another conceptualization albeit on a higher conceptual level.](https://i.imgur.com/eFy5pg4.png)
+            <Text>![Infinite regress in semantics: background knowledge is yet another conceptualization (denoted *I*) that requires a token (*R*) to communicate, the interpretation of which requires another conceptualization albeit on a higher conceptual level.](https://i.imgur.com/eFy5pg4.png)
 
 
-The corollary of such semiotic stance is of architectural nature: what are its ramifications on the dependencies between software, data, software engineering and business operations? How can contemporary weak AI technologies such as the Semantic Web, ontologies and model driven architectures, contribute to SIOp and what place should they get in the overall software architecture? To what extend can architectural patterns and techniques, such as abstraction and loose coupling, contribute to its realization, and where do they fall short and what is missing, exactly?
+The corollary of such semiotic stance is of architectural nature: what are its ramifications on the dependencies between software, data, software engineering and business operations? How can contemporary weak AI technologies such as the Semantic Web, ontologies and model driven architectures, contribute to sIOP and what place should they get in the overall software architecture? To what extend can architectural patterns and techniques, such as abstraction and loose coupling, contribute to its realization, and where do they fall short and what is missing, exactly?
 
 
-Before we dive into these architectural considerations, we first present the limitations of current approaches towards SIOp.
+Before we dive into these architectural considerations, we first present the limitations of current approaches towards sIOP.
 
 * Vocabularies and linked data
 
@@ -654,15 +237,15 @@ Note that according to our definition, semantics does not imply validity, i.e., 
         </Document>
         <Document ID="26">
             <Title>Semantic interoperability</Title>
-            <Text>&gt; Indeed, to achieve SIOp both collaborating partners must share something that extends beyond the domain of application. The higher this shared abstraction, the more generic the SIOp capability. 
+            <Text>&gt; Indeed, to achieve sIOP both collaborating partners must share something that extends beyond the domain of application. The higher this shared abstraction, the more generic the sIOP capability. 
 
 
 - [INSERT notion on communication between two actors about a shared reality] 
 - [INSERT notion that each application is about its own domain]
-- [INSERT notion that SIOp is only possible when the domains of application of both software components have some overlap; they do not need to have identical domains of application, nor do they need to have identical levels of aggregation etc.]
-- [INSERT notion that the business concern on SIOp is about its ad-hoc capability, e.g., process anything published by anybody anytime and anywhere. Implies that only the reality is shared, and not its conceptualization nor its representation]
+- [INSERT notion that sIOP is only possible when the domains of application of both software components have some overlap; they do not need to have identical domains of application, nor do they need to have identical levels of aggregation etc.]
+- [INSERT notion that the business concern on sIOP is about its ad-hoc capability, e.g., process anything published by anybody anytime and anywhere. Implies that only the reality is shared, and not its conceptualization nor its representation]
 - Semantic interoperability, then, denotes the capability of software to process external data in such a particular way that its semantics is in accordance with the state of affairs about its domain of application.
-- [INSERT the notion that SIOp is in essence independent on the way that it is realized. However, the usefulness of establishing SIOp *is* related to extra-functionals with which it can be established, ideally as access-and-play capability.]
+- [INSERT the notion that sIOP is in essence independent on the way that it is realized. However, the usefulness of establishing sIOP *is* related to extra-functionals with which it can be established, ideally as access-and-play capability.]
 
 
 DEFINITION: Semantic interoperability
@@ -672,16 +255,16 @@ DEFINITION: Semantic interoperability
 &gt; refer also to EIF/EIRA definition ?</Text>
         </Document>
         <Document ID="27">
-            <Title>SIOp concerns and principles</Title>
+            <Title>sIOP concerns and principles</Title>
             <Text>&gt; The following sections on concerns are very incomplete. They might not even present concerns yet. Some items may evolve into principles, others are just constraints to the solution, or open thoughts...
-&gt; Our first architectural principle is that SIOp should be designed to embrace semantic heterogeneity, to deal with semantics in another way than suggesting yet another semantic convention.</Text>
+&gt; Our first architectural principle is that sIOP should be designed to embrace semantic heterogeneity, to deal with semantics in another way than suggesting yet another semantic convention.</Text>
         </Document>
         <Document ID="28">
             <Title>Semantic concerns</Title>
             <Text>The following concerns relate to an explicit role of semantic in software
 
 1. No universal semantics can exist. Different stakeholders will maintain different world views, each of them equally valid. Therefore, consider semantic heterogeneity a feature as opposed to a bug and thus design for semantic heterogeneity;
-2. Each software component is about a particular application domain. As already indicated in the previous point, each software component will maintain a unique view on its application domain. We need to make that unique view explicit as opposed to leave it as implicit characteristic of the software component. As Quine notes: “We look to [...] ontology not in order to know *what there is*, but in order to know what a given remark or doctrine, ours or someone else’s, *says* there is” [@Quine:1953er]. Thus, prepare for SIOp by specifying your particular world view explicitly, upfront, as Conceptual Model (CM), i.e., local ontology.
+2. Each software component is about a particular application domain. As already indicated in the previous point, each software component will maintain a unique view on its application domain. We need to make that unique view explicit as opposed to leave it as implicit characteristic of the software component. As Quine notes: “We look to [...] ontology not in order to know *what there is*, but in order to know what a given remark or doctrine, ours or someone else’s, *says* there is” [@Quine:1953er]. Thus, prepare for sIOP by specifying your particular world view explicitly, upfront, as Conceptual Model (CM), i.e., local ontology.
 1. Volume – the size of the ontology and the amount of instances,
 2. Velocity – the speed at which data is generated,
 3. Variety – data from multiple domains,
@@ -689,16 +272,16 @@ DEFINITION: Semantic interoperability
 5. Evolution of knowledge and semantics</Text>
         </Document>
         <Document ID="29">
-            <Title>SIOp concerns</Title>
+            <Title>sIOP concerns</Title>
             <Text>The following concerns relate to the support for semantic interoperability
 
-1. Allow for independent software development, i.e., SIOp demands 
+1. Allow for independent software development, i.e., sIOP demands 
 1. a software capability that is open for collaboration, i.e., without a prior established semantic silo. 
 2. an ad-hoc collaboration, i.e., without additional software development for its achievement, i.e., reverse engineering of the semantic silo.
-2. We assume that strong AI, i.e., software that has some form of understanding about reality, will not emerge in the near future, hence, weak AI is all we have (i.e., logic and statistics). Software is therefore 100% dependent on syntax as vehicle for semantics. That inevitably leads to a human in the loop when SIOp is demanded. To get as close to the access-and-play performance of SIOp as possible, the human effort needs to be as small as possible, and out of the actual data communication process.</Text>
+2. We assume that strong AI, i.e., software that has some form of understanding about reality, will not emerge in the near future, hence, weak AI is all we have (i.e., logic and statistics). Software is therefore 100% dependent on syntax as vehicle for semantics. That inevitably leads to a human in the loop when sIOP is demanded. To get as close to the access-and-play performance of sIOP as possible, the human effort needs to be as small as possible, and out of the actual data communication process.</Text>
         </Document>
         <Document ID="30">
-            <Title>Principles that prepare for access-and-play SIOp</Title>
+            <Title>Principles that prepare for access-and-play sIOP</Title>
             <Text>Therefore, design for 
 
 1. a highly automated semantic reconciliation process with the minimum of human authoring as possible, resulting in a formal alignment between the two ontologies, and 
@@ -709,11 +292,11 @@ DEFINITION: Semantic interoperability
         </Document>
         <Document ID="32">
             <Title>Model-based architectures</Title>
-            <Text>This paradigm claims that a separate semantic concern is redundant, since the semantics of each of the models can already be found in their meta-model. Although this is a valid observation for all lower-layered models, it remains abundantly clear that such a meta-model is characteristically unavailable for the top-level model for otherwise it wouldn't be the top-level model. One could argue that the required grounding for the top-level model can be found in descriptive documents, e.g., requirements or vocabularies. Nevertheless, we consider this a poor-men's substitute when it comes to the genuine consolidation of the SIOp concerns. 
+            <Text>This paradigm claims that a separate semantic concern is redundant, since the semantics of each of the models can already be found in their meta-model. Although this is a valid observation for all lower-layered models, it remains abundantly clear that such a meta-model is characteristically unavailable for the top-level model for otherwise it wouldn't be the top-level model. One could argue that the required grounding for the top-level model can be found in descriptive documents, e.g., requirements or vocabularies. Nevertheless, we consider this a poor-men's substitute when it comes to the genuine consolidation of the sIOP concerns. 
 
 
 &gt; EG: When you say &quot;We propose to replace the models from the OMG-MOF with ontologies, for the latter are more accurate when it comes to semantics.&quot;, do you mean here: conceptually using ontologies rather than models ? Are you also referring to the technical stack associated with ontologies ? There are technologies in the MDE space that probably could also make the job (DSL, model transformation), especially when combined with graph technology. 
-&gt; PB: Valid argument, needs to be included. Response: Any MDA approach to SIOp requires that collaborative software agents share a model. This is contradicting concern 3.1. Without such shared model, no transformation can achieve SIOp. Hence, the semantic silo remains. Naturally, if the implications of a semantic silo are acceptable, the MDA approach may show very effective.</Text>
+&gt; PB: Valid argument, needs to be included. Response: Any MDA approach to sIOP requires that collaborative software agents share a model. This is contradicting concern 3.1. Without such shared model, no transformation can achieve sIOP. Hence, the semantic silo remains. Naturally, if the implications of a semantic silo are acceptable, the MDA approach may show very effective.</Text>
         </Document>
         <Document ID="33">
             <Title>View-based architectures</Title>
@@ -724,12 +307,12 @@ We use Kruchten’s 4+1 view model [@Kruchten1995], which underlies the IEEE sta
 &gt; I would here refer to ISO 42010 (IEEE 1471) rather than Kruchten, as it is not limited to 4 views. Meaning you will be able to define an additional view according to the standard to cover the semantics concerns.</Text>
         </Document>
         <Document ID="34">
-            <Title>Basic design pattern to SIOp</Title>
+            <Title>Basic design pattern to sIOP</Title>
             <Text>
-&gt; The following picture provides for the grand picture on SIOp that serves as guidance to my research. Still, I think it is very illuminating as the essential framework for achieving SIOp.
+&gt; The following picture provides for the grand picture on sIOP that serves as guidance to my research. Still, I think it is very illuminating as the essential framework for achieving sIOP.
 
 
-￼![enter image description here](https://i.imgur.com/Ql6yh0T.png)</Text>
+![enter image description here](https://i.imgur.com/Ql6yh0T.png)</Text>
         </Document>
         <Document ID="35">
             <Title>Orphan text</Title>
@@ -742,7 +325,7 @@ the know-how is applied consistently in the comparison with another value that r
 
 ----
 
-Access-and-play SIOp demands a notion on semantics, often denoted in layman’s terms as the “understanding of the data”. Despite the used terms *smart* or *intelligent*, e.g., smart watches, or intelligent autonomous systems, computers are inherently stupid. The notion of understanding is completely alien to them. In fact, it is the IT engineer who performs the understanding of data upfront, and implements the proper response to such understanding in program code. Nevertheless, we do. For instance, when we are asked to explain how we address the grounding problem in the design of our software agent, we can’t; when we are asked to point at the semantics parts in the code of our software agent, we can't. The same question however about, e.g., its scalability, will render a lecture with adequate references to the underlying architecture. We thus remain at a loss of how to engineer semantics into software agents. However, without a clear understanding on semantics and its contribution to the software agent, we are lacking the bridgehead within the software agent that is fundamental to the semantic interoperability bridge. Hence, the first architectural concern to consider is the nature of semantics in software, and we will address that in the next section. 
+Access-and-play sIOP demands a notion on semantics, often denoted in layman’s terms as the “understanding of the data”. Despite the used terms *smart* or *intelligent*, e.g., smart watches, or intelligent autonomous systems, computers are inherently stupid. The notion of understanding is completely alien to them. In fact, it is the IT engineer who performs the understanding of data upfront, and implements the proper response to such understanding in program code. Nevertheless, we do. For instance, when we are asked to explain how we address the grounding problem in the design of our software agent, we can’t; when we are asked to point at the semantics parts in the code of our software agent, we can't. The same question however about, e.g., its scalability, will render a lecture with adequate references to the underlying architecture. We thus remain at a loss of how to engineer semantics into software agents. However, without a clear understanding on semantics and its contribution to the software agent, we are lacking the bridgehead within the software agent that is fundamental to the semantic interoperability bridge. Hence, the first architectural concern to consider is the nature of semantics in software, and we will address that in the next section. 
 
 
 
@@ -752,7 +335,7 @@ Access-and-play SIOp demands a notion on semantics, often denoted in layman’s 
 
 Although technologies such as the Semantic Web and ontologies are available, and despite the principles and practises of the model driven architecture paradigm, no architectural guidance to semantic interoperability exists, neither in terms of architectural principles nor as design practises.
 
-Given the exponential growth in semantic heterogeneity that follows from distributed use of distributed supplied services over distributed resources, information systems are in a desperate need for a managed semantics, which, similar to the principle to store data only once in order to prevent data conflicts, controls the semantic heterogeneity from a central location in your architecture. Information systems are in a desperate need for an automated SIOp capability to break through this ceiling.
+Given the exponential growth in semantic heterogeneity that follows from distributed use of distributed supplied services over distributed resources, information systems are in a desperate need for a managed semantics, which, similar to the principle to store data only once in order to prevent data conflicts, controls the semantic heterogeneity from a central location in your architecture. Information systems are in a desperate need for an automated sIOP capability to break through this ceiling.
 
 
 
@@ -792,7 +375,7 @@ Given the exponential growth in semantic heterogeneity that follows from distrib
         </Document>
         <Document ID="37">
             <Title>Work title The Problem</Title>
-            <Text>A full automation of SIOp in order to deliver access-and-play interoperability is impossible: in order to use the data from nation A, nation B needs their genuine understanding in advance. The major impediments to such automation is laid in the nature of semantics itself: The meaning of a term ultimately relates to what it denotes in reality, whilst this relation cannot be deferred from the shape, structure or other characteristics of the term itself due to its total arbitrariness. This semiotic explanation on semantics is depicted in Figure ##, and confronts us with the inevitable separation between languages (software code, modelling languages and natural languages alike) and entities in reality (e.g., things, events, properties of things). That terms and real entities are fundamentally different is hardly a new insight when dealing with information systems. However, addressing this fundamental distinction is at best extremely academic [@Steels:2008tr] and without practical solutions at all [@Cregan2007]. To overcome the separation between terms and entities is in artificial intelligence (AI) known as the *grounding problem*. And despite the progress of AI, its capability to gain even a beginning of a genuine understanding, also known as &quot;strong AI&quot;, does not yet exist and is expected to emerge on the long term only, if ever [@XiuquanLi2017]. Its counterpart &quot;weak AI&quot; with its otherwise highly relevant and important achievements in reasoning, prediction and analysis, is based on machinery that relies on language only and can therefore never make the step to reality on its own [@Scheider:2012tj]. Negligence of the existence of the grounding problem and its semiotic origins gives rise to two major impediments in information technology, as follows:
+            <Text>A full automation of sIOP in order to deliver access-and-play interoperability is impossible: in order to use the data from nation A, nation B needs their genuine understanding in advance. The major impediments to such automation is laid in the nature of semantics itself: The meaning of a term ultimately relates to what it denotes in reality, whilst this relation cannot be deferred from the shape, structure or other characteristics of the term itself due to its total arbitrariness. This semiotic explanation on semantics is depicted in Figure ##, and confronts us with the inevitable separation between languages (software code, modelling languages and natural languages alike) and entities in reality (e.g., things, events, properties of things). That terms and real entities are fundamentally different is hardly a new insight when dealing with information systems. However, addressing this fundamental distinction is at best extremely academic [@Steels:2008tr] and without practical solutions at all [@Cregan2007]. To overcome the separation between terms and entities is in artificial intelligence (AI) known as the *grounding problem*. And despite the progress of AI, its capability to gain even a beginning of a genuine understanding, also known as &quot;strong AI&quot;, does not yet exist and is expected to emerge on the long term only, if ever [@XiuquanLi2017]. Its counterpart &quot;weak AI&quot; with its otherwise highly relevant and important achievements in reasoning, prediction and analysis, is based on machinery that relies on language only and can therefore never make the step to reality on its own [@Scheider:2012tj]. Negligence of the existence of the grounding problem and its semiotic origins gives rise to two major impediments in information technology, as follows:
 
 * Firstly, we don't understand the characteristics of semantics sufficiently, or in other words, what impact is generated by the grounding problem on the construction of a software agent. If we are asked to point at the semantic parts in a software agent, we can't. While the same question about, e.g., its scalability, will render a lecture about the different principles that are applied and the components that are used to its achievement. Consequently, without clear design principles we are at a loss of how to engineer semantics into software agents, and how to provide for components or artifacts that achieve semantics. 
 * Secondly, without knowing how to engineer semantics into software, we are lacking the bridgehead within the software agent that connects with the semantic bridge. In other words, we do not even know how a semantic bridge looks like. Is it an integrated version of the data schemata of both agents? Is it an as small as possible *third* scheme that addresses the shared parts of both schemata only, to be connected to each of the other two reduced schemata? Do we leave both schemata intact, and introduce a connection between them instead? Only when we have come to a conclusion on the semantic bridge, we can address subsequent issues that relate to other architectural concerns, such as scalability? 
@@ -801,7 +384,7 @@ OMG languages typically have abstract syntax (the metamodel), concrete syntax (n
 
 
 
-In comparison, scalability was a big architectural concern in the past, requiring custom solutions. In response to this concern, scalability was standardised in the form of architectural patterns, and finally totally embedded and hidden into the infrastructure. We now stand for a similar, but completely different situation. It is similar, because, while SIOp currently requires custom solutions, the ultimate goal is its disappearance into the infrastructure. It is completely different, because unlike scalability we are not addressing a concern over which we have complete control. For the first time in ICT we are entering the realm of reality for which, even after several thousands of years of philosophical debate, no unified view can be given. Does a lake continue *to be a lake*, even when all its water have been vaporised in summer? How many tragic *events* does 9-11 represent, one, three or thousands? In almost all situations, there is no one single semantic truth: In the case of the German steel producer, both semantics on what `time` denotes are equally valid from one’s own perspective, and equally less valid from the peer’s perspective. Consequently, lacking the ground for a unified semantics, founding solutions to SIOp on semantic standards may be accepted folklore, it remains a fallacy nonetheless. 
+In comparison, scalability was a big architectural concern in the past, requiring custom solutions. In response to this concern, scalability was standardised in the form of architectural patterns, and finally totally embedded and hidden into the infrastructure. We now stand for a similar, but completely different situation. It is similar, because, while sIOP currently requires custom solutions, the ultimate goal is its disappearance into the infrastructure. It is completely different, because unlike scalability we are not addressing a concern over which we have complete control. For the first time in ICT we are entering the realm of reality for which, even after several thousands of years of philosophical debate, no unified view can be given. Does a lake continue *to be a lake*, even when all its water have been vaporised in summer? How many tragic *events* does 9-11 represent, one, three or thousands? In almost all situations, there is no one single semantic truth: In the case of the German steel producer, both semantics on what `time` denotes are equally valid from one’s own perspective, and equally less valid from the peer’s perspective. Consequently, lacking the ground for a unified semantics, founding solutions to sIOP on semantic standards may be accepted folklore, it remains a fallacy nonetheless. 
 
 ====
 
@@ -812,10 +395,7 @@ How to bridge the gap? Three possibilities:
 
 ====
 
-Still, the most popular solution towards SIOp is to establish a convention on the semantics of the terms that are used during the collaboration. This convention &quot;resolves&quot; the grounding problem in that it represents the know-how to &quot;decode&quot; the data, i.e., to connect the term with what it stands for in reality. Be aware that the realm of that know-how, denoted here as *background knowledge*, represents a semantic monolith, and it is being demarcated by its use in design time only: any software engineer who is made aware of that background knowledge, through bilateral agreements, domain-specific standards or other conventions, can design and implement measures to apply the data in accordance to what they refer to in reality. This solution is not wrong *per se*, and has as bonus that it does away with the consequences of the unresolved grounding problem because each and every term has already been grounded to everybody's satisfaction. In fact, for long-standing and stable collaborations between software agents, which live in business domains that experience only marginal changes in their business, semantic conventions are the most appropriate approach towards SIOp. Nevertheless, when foreign data emerge that are to be used within the semantic monolith, or when the native data are to be used outside the semantic monolith, SIOp, and hence the IT, will fail. SIOp fails because the convention was not shared to these foreign software agents. Moreover, any run-time attempt to communicate the background knowledge that is reflected by the convention is doomed to fail, because knowledge is just data and thus represented by terms that, in this case, are ungrounded. Again, human intervention is required. This time its purpose is not to resolve the grounding problem, but to bridge the semantic gap that originates from differences in groundings between each pair of collaborating software agents. This is called *semantic reconciliation*, and results in an *alignment* between both groundings. Although weak AI can support in that task [@Euzenat:2013ie], due to its inherent limitations it cannot fulfil the task completely without human intervention. In conclusion, to break the semantic monolith and provide a pair of software agents with SIOp, human intervention is required to produce an alignment between the semantic groundings of each software agent. The issues in this matter relate to (i) the inherent conflict between having a human in the loop and an access-and-play demand; (ii) ***analyse the paragraph below and formulate its issues concretely here*** .</Text>
-        </Document>
-        <Document ID="38">
-            <Title>Work title: the Idea</Title>
+Still, the most popular solution towards sIOP is to establish a convention on the semantics of the terms that are used during the collaboration. This convention &quot;resolves&quot; the grounding problem in that it represents the know-how to &quot;decode&quot; the data, i.e., to connect the term with what it stands for in reality. Be aware that the realm of that know-how, denoted here as *background knowledge*, represents a semantic monolith, and it is being demarcated by its use in design time only: any software engineer who is made aware of that background knowledge, through bilateral agreements, domain-specific standards or other conventions, can design and implement measures to apply the data in accordance to what they refer to in reality. This solution is not wrong *per se*, and has as bonus that it does away with the consequences of the unresolved grounding problem because each and every term has already been grounded to everybody's satisfaction. In fact, for long-standing and stable collaborations between software agents, which live in business domains that experience only marginal changes in their business, semantic conventions are the most appropriate approach towards sIOP. Nevertheless, when foreign data emerge that are to be used within the semantic monolith, or when the native data are to be used outside the semantic monolith, sIOP, and hence the IT, will fail. sIOP fails because the convention was not shared to these foreign software agents. Moreover, any run-time attempt to communicate the background knowledge that is reflected by the convention is doomed to fail, because knowledge is just data and thus represented by terms that, in this case, are ungrounded. Again, human intervention is required. This time its purpose is not to resolve the grounding problem, but to bridge the semantic gap that originates from differences in groundings between each pair of collaborating software agents. This is called *semantic reconciliation*, and results in an *alignment* between both groundings. Although weak AI can support in that task [@Euzenat:2013ie], due to its inherent limitations it cannot fulfil the task completely without human intervention. In conclusion, to break the semantic monolith and provide a pair of software agents with sIOP, human intervention is required to produce an alignment between the semantic groundings of each software agent. The issues in this matter relate to (i) the inherent conflict between having a human in the loop and an access-and-play demand; (ii) ***analyse the paragraph below and formulate its issues concretely here*** .</Text>
         </Document>
         <Document ID="39">
             <Title>Related work</Title>
@@ -828,13 +408,13 @@ Still, the most popular solution towards SIOp is to establish a convention on th
 [4] C. Atkinson and T. Kühne, “The Essence of Multilevel Metamodeling,” LNCS, vol. 2185, pp. 19–33, 2001.</Text>
         </Document>
         <Document ID="40">
-            <Title>architectural essentials for access-and-play SIOp</Title>
+            <Title>architectural essentials for access-and-play sIOP</Title>
             <Text>Noodzakelijke elementen:
 
 * ontologies *describe* reality in an open world
     * “not in order to know *what there is*, but in order to know what [...] doctrine, ours or someone else’s, *says* there is”, [@Quine:1953er]
 * models *prescribe* the artifacts that together form our system, in a closed world 
-* if we are only interested in a one-of SIOp that does not require to adapt to changes, a semantic monolith will do; in a dynamic environment where time-to-engage matters, being prepared to SIOp becomes an essential business asset.
+* if we are only interested in a one-of sIOP that does not require to adapt to changes, a semantic monolith will do; in a dynamic environment where time-to-engage matters, being prepared to sIOP becomes an essential business asset.
 
 
 “Semantic heterogeneity is a major problem in realizing interoperability”.
@@ -846,53 +426,49 @@ A.P. Sheth. Changing focus on interoperability in information systems: From syst
             <Synopsis>Purpose of this section: present a list of differences
 Refer , [@Henderson-Sellers2012]
 
-Conclusion as in [@Aßmann2006]: &quot;Specification models focus on the specification, control, and generation of systems; ontologies focus on description and conceptualization (conceptual modelling) of things. Both kinds of models have in common the qualities of abstraction and causal connection.&quot;</Synopsis>
+Conclusion as in [@Aßmann2006]: &quot;Specification models focus on the specification, control, and generation of systems; ontologies focus on description and conceptualization (conceptual modelling) of things. Both kinds of models have in common the qualities of abstraction and causal connection.&quot;
+
+\end{synopsis}</Synopsis>
             <Text>In order to fully appreciate the results of our work, it is necessary to acknowledge the commonalities and notably the differences between ontology and models. This is especially relevant since in contemporary architectural paradigms models are being used as first class citizens to the architectures, MDA and ISP RM/ODP alike. </Text>
         </Document>
         <Document ID="42">
             <Title>Abstract</Title>
-            <Text>*Background:* Access-and-Play SIOp is the next glass ceiling in [interoperability/IT-based business collaboration]. We can think of two approaches to break through the ceiling, i.e., using either strong AI (a system that can *think* and has a *mind*, in the philosophical definition of the term) or weak AI (a system that can only *act* like it thinks and has a mind [@Searle:1980hw]). Strong AI is not yet available, while weak AI, despite its current applications in Semantic Web or ontologies, has not yet been embedded in contemporary software architectural paradigms. Current approaches towards SIOp can be considered accepted folklore.  
+            <Text>*Background:* Access-and-Play sIOP is the next glass ceiling in [interoperability/IT-based business collaboration]. We can think of two approaches to break through the ceiling, i.e., using either strong AI (a system that can *think* and has a *mind*, in the philosophical definition of the term) or weak AI (a system that can only *act* like it thinks and has a mind [@Searle:1980hw]). Strong AI is not yet available, while weak AI, despite its current applications in Semantic Web or ontologies, has not yet been embedded in contemporary software architectural paradigms. Current approaches towards sIOP can be considered accepted folklore.  
   
 *Objective:* The objective of this study is to identify and define the (weak AI based) fundamental guidance towards access-and-play semantic interoperability in contemporary architectural paradigms.  
   
-*Method:* Our approach is based on the discipline of semiotics. After identifying semiotic shortcomings in MDA and view-based architectural paradigms and their subsequent definition as missing concerns, we develop the necessary guiding architectural principles. We finally consolidate their fundamentals as an ISO-42010 Architecture Viewpoint to disclose them for the various architectural paradigms. [We evaluate these principles by designing a reference architecture and proof its use in SIOp between two software agents.]  
+*Method:* Our approach is based on the discipline of semiotics. After identifying semiotic shortcomings in MDA and view-based architectural paradigms and their subsequent definition as missing concerns, we develop the necessary guiding architectural principles. We finally consolidate their fundamentals as an ISO-42010 Architecture Viewpoint to disclose them for the various architectural paradigms. [We evaluate these principles by designing a reference architecture and proof its use in sIOP between two software agents.]  
   
 *Results:* The semiotic approach/discipline demonstrates/proves semantics in software to be the result of a reciprocity between data and the software code that operates on them. The major shortcomings in architectural paradigms to account for semantic interoperability are their negligence of semiotic fundamentals and, particularly, the absence of an explicit ontological commitment that stands at the root of semantics. Therefore, the concern about a semantic loose coupling should be added to the architectural paradigms. The supporting principles are (i) semantic transparency, (ii) semantic separation of concerns, and (iii) explicit computational semantics. In view-based architectures their consolidation implies a new semantic view, while the MDA paradigm requires an ontological commitment on M3. Both paradigms need to include a semantic alignment processing mediation capability.  
   
-*Conclusions:* Access-and-play SIOp can be achieved when considering semiotic fundamentals and adding loosely coupled formal semantics to contemporary architectural paradigms.   
-</Text>
-        </Document>
-        <Document ID="43">
-            <Title>sectionx</Title>
-            <Text># SectionX
-The new section X is about X and nothing but the X. Or maybe it also addresses Y?
-
+*Conclusions:* Access-and-play sIOP can be achieved when considering semiotic fundamentals and adding loosely coupled formal semantics to contemporary architectural paradigms.   
 </Text>
         </Document>
         <Document ID="44">
-            <Title>SIOp Principles</Title>
+            <Title>sIOP Principles</Title>
             <Synopsis>Purpose of this section: 
 
 * Define &amp; Address semantic concerns
-</Synopsis>
-            <Text>The main (business) requirement is to achieve SIOp as quickly as possible, with as minimal effort as possible, for collaborations that had not been foreseen and consequently could not be anticipated for during design time of the (two or more) software agents.
+
+\end{synopsis}</Synopsis>
+            <Text>The main (business) requirement is to achieve sIOP as quickly as possible, with as minimal effort as possible, for collaborations that had not been foreseen and consequently could not be anticipated for during design time of the (two or more) software agents.
 
 Consequently, the software agents have been developed totally and completely independent from each other. 
 
 This raises the following semantic concerns:
 
 I. Loosely coupled semantics:
-    * Define semantics once during software design phase, and achieve SIOp many times with many different peers
+    * Define semantics once during software design phase, and achieve sIOP many times with many different peers
     * EW Dijkstra: Connected but as independent as possible: peer agents shall only publish *what* is meant with semantics, not *how* it is represented
-I. Scalable SIOp:
+I. Scalable sIOP:
     * Variable in number of peers
     * Variable in level of semantic heterogeneity
 
   
 1. Define the four semantic concerns (see \cref{fig:3Concerns} for three related ones):
     i. Explicit and computational semantics by *conceptual modelling*: Bridgehead 
-    ii. Managed and controlled SIOp by *semantic reconciliation*: Spanning
-    iii. Automated SIOp by *semantic mediation*: Roadway
+    ii. Managed and controlled sIOP by *semantic reconciliation*: Spanning
+    iii. Automated sIOP by *semantic mediation*: Roadway
         * Address semantic issue about the non-equivalence between an alignment and a transcription (refer to [@Brandt2018])
           
 ***Achieve loosely coupled semantics***
@@ -905,7 +481,7 @@ Loose coupling is founded on principles about (i) separation of concerns, and (i
         i. with minimal functional overlap
     * Semantical:
         i. Separate your own semantics (i.e., conceptualisations, viz. let each software agent manage its own abstraction from reality)
-        i. from establishing SIOp 
+        i. from establishing sIOP 
 * Principle *Transparency*
     * Classical: 
         i. Agnostic to *how* its functions are being achieved
@@ -925,7 +501,7 @@ Ad.semantic separation of concern. Where in its classical application the result
     * use human brain where necessary (but not more): ontology engineering @ design time; alignment authoring @ pre-runtime
 
  
-*** Achieve Scalable SIOp***
+*** Achieve Scalable sIOP***
 
 Ensure that different semantic topologies remain possible:
  
@@ -933,10 +509,10 @@ i. Star alignments (central domain ontology, aligned to local ontologies) for re
     * Good: easy semantic governance
     * Bad: very similar to a semantic monolith
 ii. Mesh alignments (bilateral alignments) for very dynamic and heterogeneous (domain) semantics, or low number of peers
-    * Good: quickly established bilateral SIOp; granularity-on-demand, viz. intricate where necessary, coarse-grained where possible
+    * Good: quickly established bilateral sIOP; granularity-on-demand, viz. intricate where necessary, coarse-grained where possible
     * Bad: complicated semantic governance
 iii. Mix-n-Match (coarse-grained star-alignment with specialised bilateral alignments) for the 70% bulk 
-    * Good: controllable semantic governance; after central alignment, quickly established bilateral SIOp
+    * Good: controllable semantic governance; after central alignment, quickly established bilateral sIOP
     * Bad: slightly more complicated mediation due to double alignment support
 
 
@@ -970,17 +546,13 @@ iii. Mix-n-Match (coarse-grained star-alignment with specialised bilateral align
             <Title>Bridgehead: Semantics</Title>
             <Synopsis>Purpose of this section: 
 
-1. From a semiotic perspective, explain what we mean with semantics in software agents, i.e., the reciprocity between data and data processing code.
+1. From a semiotic perspective, explain what we mean with semantics in software agents, i.e., the reciprocity between data and data processing code (both represented as Term from the semiotic Sign).
 1. Establish that for representing semantics, descriptive models (i.e., ontologies) trump prescriptive models (all 42010 models).
 1. Conclude that ontologies need their place as single point of reference (trueness) in architectures, and identify their relationship with the rest of the architectures, i.e., all other prescriptive models. Note the issue on Open World Assumption (ontologies) and CWA (prescriptive models).
-</Synopsis>
-            <Text>Purpose of this section: 
 
-1. From a semiotic perspective, explain what we mean with semantics in software agents, i.e., the reciprocity between data and data processing code.
-1. Establish that for representing semantics, descriptive models (i.e., ontologies) trump prescriptive models (all 42010 models).
-1. Conclude that ontologies need their place as single point of reference (trueness) in architectures, and identify their relationship with the rest of the architectures, i.e., all other prescriptive models.
-
-Argument:
+&lt;!-- end of list --&gt;
+\end{synopsis}</Synopsis>
+            <Notes>Argument:
 
 
 1. The reciprocity between code and data manifests itself as software semantics
@@ -997,42 +569,19 @@ Argument:
 1. Clarify relationship/transition from ontologies to prescriptive system models
     1. Make use of [@Carraretto2012a]
     1. Note the issue on Open World Assumption (ontologies) and CWA (prescriptive models).
-
-&lt;!-- end of list --&gt;
-</Text>
+</Notes>
         </Document>
         <Document ID="46">
             <Title>The semiotic and philosophical foundations of semantics</Title>
-            <Synopsis>Purpose of this section: To establish an informal but concrete notion on software semantics that is based on (i) the semiotic triangle and (ii) the reciprocity between data and code (both represented as Term from the semiotic Sign).
+            <Synopsis>Purpose of this section: To establish an informal but concrete notion on (i) the semiotic triangle and (ii) the relationsbetween its nodes.
 
-1. Explain human semantics in terms of semiotics. 
-1. Explain software semantics as
-    1. &quot;reciprocity between data and software code&quot;, as Grice's distinction; and
-    1. OO as initial implementation to consolidate this reciprocity, and the class as implementation of the atomic semantic monolith; 
-1. Explain SIOp as:
-    1. that data exchange = breaking the reciprocity by partitioning the data from its original code, and 
-    1. that SIOp demands that despite this partitioning the reciprocity between the code of the receiving agent and the external data shall be maintained, and
-    1. that Phantom semantics (i.e., the difference in the original reciprocity and the new reciprocity) is to be prevented at all costs.
-1. Explain that standards are large semantic monoliths, and introduce ontological commitment as minimal standard for SIOp. “We look to bound variables in connection with ontology not in order to know *what there is*, but in order to know what a given remark or doctrine, ours or someone else’s, *says* there is” [@Quine:1953er]
-
-
+\end{synopsis}
 
 </Synopsis>
         </Document>
         <Document ID="47">
             <Title>Spanning: Alignments</Title>
-            <Synopsis>Purpose of this section:
-
-</Synopsis>
-            <Text>Purpose of this Section:
-
-1. Determine that data exchange inevitably breaks the necessary atomic semantic monolith between data and data processing code.
-1. Follow the coherence principle and conclude that the models from which *external* data and *receiving* data processing code are derived, need to be brought into coherence with each other.
-1. Since coherence demands a single unique reference against which the truth of the expressions of both models can be verified
-1. Extend the semantic coherence Principe into a SIOp coherence principle with a SIOp rational that semeiosis on receiving agent A’ does not conflict with semeiosis on sending agent A: Without maintaining the reciprocity between binary code and the data it operates on, the semeiosis performed by software engineer A’ on the result of the data processing and their subsequent semantics cannot be guaranteed to be similar as intended by the software engineer.
-
-----
-
+            <Text>
 Rephrase: despite the notoriously difficult philosophical questions involved, semantic interoperability can be seen as an engineering problem, namely that of effectively constraining interpretations towards the ones that are considered allowable [@Kuhn2009].
 
 ![The various forms of interoperability][def:2semtriangles]
@@ -1044,6 +593,9 @@ Rephrase: despite the notoriously difficult philosophical questions involved, se
         </Document>
         <Document ID="48">
             <Title>Roadway: Mediation</Title>
+            <Synopsis>Purpose of this section: Establish requirements for a *generic* mediator.
+
+1. </Synopsis>
         </Document>
         <Document ID="49">
             <Title>Discussion &amp; future work</Title>
@@ -1064,6 +616,11 @@ Guizzardi2005</Text>
         </Document>
         <Document ID="51">
             <Title>Semiotics</Title>
+            <Synopsis>Present concrete notion on (i) the semiotic triangle and (ii) the relationsbetween its nodes.
+Show abstraction/generalisation as stacking of triangles vertically, and representational metalevels as stacking them horizontally.
+
+\end{synopsis}
+</Synopsis>
             <Text>The discipline of semiotics is the study of signs, reality and meaning. The meaning of a *token* (text, graphics, sound) ultimately relates to what it denotes in reality (the *entity*), whilst this relation cannot be deferred from the shape, structure or other characteristics of the token itself due to its total arbitrariness. In the early 1900s, De Saussure used a dyadic model that stressed that the token and the entity in reality were as inseparable as the two sides of a piece of paper [@Saussure:1983ka]. This piece of paper he called the ***semiotic sign***, denoting the whole. This ‘self-containment of the sign’ remains one of the major principles of semiotics. Constructing the semiotic sign from its distinct parts is called ***semeiosis***. The token, in combination with their ability for semeiosis, provides humans with the tool to converse with each other. The tokens provide humans with a vocabulary, the semeiosis makes them understand about what entities they talk about. Semantics, then, emerges as a result of the semeiosis that connects the distinct parts of the inseparable semiotic sign. 
 
 Sanders Peirce [in: @Sowa:2000di] developed another model to further investigate the semeiosis part of semantics. He built a triadic model of the semiotic sign, including a representamen (the token) and object (the entity), and introduced the *interpretant* which expresses the mental and, hence, individual sense making. This triadic model of the semiotic sign was coined by Peirce as the *semiotic triangle* (ibid.), depicted in \cref{fig:semiotic-triangles}(a), and subsequently used and modified by Ullmann [@Ullmann:1979sL], Ogden and Richards [@Ogden1989], and many others, also in recent years [@Kuhn2009]. We introduce our modifications, as depicted in \cref{fig:semiotic-triangles}(b), which mainly focus on naming conventions in IT architectures, as follows. 
@@ -1082,17 +639,23 @@ Peirce also recognised that multiple triangles could be linked together in vario
         </Document>
         <Document ID="52">
             <Title>What is software semantics</Title>
-            <Synopsis>The purpose of this section is to explain software semantics as the &quot;reciprocity between data and software code&quot;, and show that to some extent, set theory can replace the conceptualisation node
+            <Synopsis>The purpose of this section is to explain software semantics as the &quot;reciprocity between data and software code&quot;, and show that to some extent, set theory can replace the conceptualisation node.
+Conclude that the reciprocity between data and data processing code represents the smallest (atomic) semantic monolith.
 
 Additionally, optioanlly, show:
 
     1. the relationship with Grice's distinction in semantics as &quot;what is said&quot; and &quot;pragmatic meaning&quot;
-    2. OO as initial implementation to consolidate this reciprocity, and the class as implementation of the atomic semantic monolith; </Synopsis>
+    2. OO as initial implementation to consolidate this reciprocity, and the class as implementation of the atomic semantic monolith; 
+
+
+\end{synopsis}</Synopsis>
             <Text>We take the position that strong AI is not yet available, if ever [@XiuquanLi2017], and conclude that weak AI is essentially a token-based machine without the ability to close the gap between token and reality. Also called the Grounding Problem [@Harnad1990], addressing this fundamental distinction in software engineering about semantics is at best extremely narrow [@Steels:2008tr], or not present at all [@Cregan2007]. This implies that the semiotic triangle is denied its conceptualisation vertex, and the sign remains incomplete. This is confirmed by the software engineering discipline herself implicitly, since it consistently speaks of ‘models that represent reality’ without factoring the conceptualisation into the equation, e.g., “*a model is a representation of reality intended for some definite purpose*” and similar quotes that are collected by [@Aßmann2006]. Consequently, the edges that connect the conceptualisation remain vague or necessarily conflate on the relationship between the model and reality, depicted in \cref{fig:software-models-reality}. This beheaded sign cuts-off our “knowledge about our given remark or doctrine *says* there is”. We have removed the “ontological level” [@Guarino1994b], and with that, the fact that “terminological competence can be gained by formally expressing the ontological commitment of a knowledge base” (ibid.). Since we make do with weak AI and its beheaded sign necessarily, this suggests that genuine semantics can not ever exist in current software agents.  
 
 ![Software engineering applies a beheaded semiotic triangle in which its edges remain vague or conflate in the single relation between model and reality.][def:softmodelsreal]
 
-During the use of a software agent the semeiosis is taken care of by the human-in-the-loop, viz. the end user at the human-machine interface (HMI) whom interprets the tokens that are displayed (subjectivation). During development of a software agent the semeiosis is taken care of by another human-in-the-loop, viz. the software engineer whom implicitly performs the conceptualisation and explicitly represents this conceptualisation into tokens, i.e., *models*. Consequently, all models are representations of engineers’ conceptualisations. From the many models that software engineering typically generates we focus on a pair of models: the information or data models that refer to the *information entities* in reality, paired with the process or business models that represent the *event entities* that operate on the information entities. At this modelling level, semantics still exist by virtue of the designer. However, when the software agent is subsequently compiled, its binary code originate from the process model of the model pair (operations, algorithms), and the memory allocation for the data originates from the information model of the model pair (size, format, encoding). At this binary level the software engineer has left the building, and with him the conceptualisation vertex and the subsequent capability for semeiosis and, thus, semantics. In other words, at binary level we have lost the capability to verify the semantic coherence between the code and the data while the reciprocity between data and software code determines the semantic validity of the data processing. For instance, consider a data element $t$ to represent temperature, and an algorithm to establish fever, e.g., `t &gt; 37.0` $\to$ `fever`. The one and only means to keep the software from failing is that both the data and the algorithm (i) are expressed in the same unit of dimension ($\si{\degree}C$ in this example), apply the same (ii) resolution and (iii) accuracy, to name a few obvious constraints. We, therefore, take the stance that semantics can only exist in software by virtue of the semeiosis by the human-in-the-loop, while in the software agent itself semantics are necessarily reduced to the reciprocity between data and software code. Still, the software agent acts as transport medium for the semantics as intended by the software engineer to the semantics as experienced by the end user at the HMI. We therefore consider the coherence between data models and data processing models essential for enforcing the software agent to maintain a semantic valid reciprocity between binary code and the data it operates on. 
+During the use of a software agent the semeiosis is taken care of by the human-in-the-loop, viz. the end user at the human-machine interface (HMI) whom interprets the tokens that are displayed (subjectivation). During development of a software agent the semeiosis is taken care of by another human-in-the-loop, viz. the software engineer whom implicitly performs the conceptualisation and explicitly represents this conceptualisation into tokens, i.e., *models*. Consequently, all models are representations of engineers’ conceptualisations. From the many models that software engineering typically generates we focus on a pair of models: the information or data models that refer to the *information entities* in reality, paired with the process or business models that represent the *event entities* that operate on the information entities. Such data processing is in its bare form nothing more than tokens that follow a specific language grammar. This bare form is a representation of its quintessence, viz. a run-time notion on how to operate on the data. Together, these models comprise the smallest atomic union that can represent meaning, indicated by Grice as the semantic meaning, or “what is said” and the pragmatic meaning
+
+At the modelling level, semantics still exist by virtue of the designer. However, when the software agent is subsequently compiled, its binary code originate from the process model of the model pair (operations, algorithms), and the memory allocation for the data originates from the information model of the model pair (size, format, encoding). At this binary level the software engineer has left the building, and with her the conceptualisation vertex and the subsequent capability for semeiosis and, thus, semantics. In other words, at binary level we have lost the capability to verify the semantic coherence between the code and the data while the reciprocity between data and software code determines the semantic validity of the data processing. For instance, consider a data element $t$ to represent temperature, and an algorithm to establish fever, e.g., `t &gt; 37.0` $\to$ `fever`. The one and only means to keep the software from failing is that both the data and the algorithm (i) are expressed in the same unit of dimension ($\si{\degree}C$ in this example), apply the same (ii) resolution and (iii) accuracy, to name a few obvious constraints. We, therefore, take the stance that semantics can only exist in software by virtue of the semeiosis by the human-in-the-loop, while in the software agent itself semantics are necessarily reduced to the reciprocity between data and software code. Still, the software agent acts as transport medium for the semantics as intended by the software engineer to the semantics as experienced by the end user at the HMI. We therefore consider the coherence between data models and data processing models essential for enforcing the software agent to maintain a semantic valid reciprocity between binary code and the data it operates on. 
 
 \begin{mmdef}[Atomic semantic monolith]\label{def:atomic-semantic-monolith}
 An Atomic Semantic Monolith (ASM) denotes the smallest, highest grained pair of models (a data model and a data processing model) that remains faithful to the entity in reality that it refers to.
@@ -1133,11 +696,17 @@ Formal semantics thus provides a means to formulate a particular conceptualisati
 
 In conclusion, we explain software semantics as the reciprocity between data and software code, realised by maintaining the coherence between pairs of data and data processing models, by applying formal semantics to formulate a particular conceptualisation as semantic reference, and an interpretation function from the data and operation models to that reference. 
 
+
+&lt;Elaborate on OO to consolidate the reciprocity; take the class as example of a semantic monolith, the minimal, atomic one.&gt;
+
 &lt;!-- page additions --&gt;
 [def:softmodelsreal]: src\images\SoftwareModelsReality.png {#fig:software-models-reality}</Text>
         </Document>
         <Document ID="53">
             <Title>Ontological commitment</Title>
+            <Synopsis>Purpose of this section is to show the relevance of the modelling language: a language is used to convey differences. Modelling languages need to show differences that are of relevance to the purpose of modelling: Aristotelian sextet can be considered the most basic one.
+ 
+\end{synopsis}</Synopsis>
             <Text>Apart from this strict semiotics notion, semantics are also influenced by philosophy and need consensus on the question “when are we committed to the existence of certain entities?”. It is relevant to acknowledge that humans maintain assumptions and background knowledge, both of which impact the semeiosis and, hence, semantics. This is where the conceptualisation plays an important role as frame of reference to our understanding, also denoted as the *ontological commitment*. Consider the following classical sentences:
 
 * Sentence 1: “the king of France is bald”. This sentence has got a useful meaning, being that in case of a king of France, the dear fellow is as bald as a coot. We did not say *that* a king of France exists, nor *that* bald men exist; we only used these two phrases to *refer* to things that might or might not exist. Hence, we do not need to commit to the existence of a king of France, nor to the existence of bald men, before we can formulate the sentence that *if* there is a king of France, he must be bald. Still, and despite being a meaningful sentence, “the king of France” does not refer to something (as France is a republic), and therefore we cannot render the truth of the sentence.
@@ -1150,11 +719,29 @@ The contrast exemplified by these sentences shows that only when we commit to so
         </Document>
         <Document ID="54">
             <Title>What is semantic interoperabiity</Title>
-            <Synopsis>Explain SIOp:
+            <Synopsis>1. Explain sIOP:
 
-    1. consequence of data exchange = breaking the reciprocity by partitioning the data from its original code, and 
-    1. SIOp means that despite this partitioning the reciprocity between the code of the receiving agent and the external data has been maintained, and
-    1. Phantom semantics (i.e., the difference in the original reciprocity and the new reciprocity) is the cause of SIOp failure and hence to be prevented at all costs.</Synopsis>
+    1. that consequence of data exchange = breaking the atomic semantic monolith = breaking the reciprocity by partitioning the data from its original code, and 
+    1. that sIOP demands that despite this partitioning the reciprocity between the code of the receiving agent and the external data shall be re-installed, and
+    1. (Phantom semantics (i.e., the difference in the original reciprocity and the new reciprocity) is the cause of sIOP failure and hence is to be prevented at all costs.)
+
+1. We therefore need to extend the semantic coherence Principe into a sIOP coherence principle with a sIOP rational that the result of the semeiosis on receiving agent A’ does not conflict withthe outcome of the semeiosis on agent A: Without maintaining the reciprocity between binary code and the data it operates on, the semeiosis performed by software engineer A’ on the result of the data processing and their subsequent semantics cannot be guaranteed to be similar as intended by the software engineer.
+
+
+1. Explain the difference with semantic standards which are basically large semantic monoliths
+1. Introduce Principle: ontological commitment as minimal standard for sIOP, “(...) not in order to know *what there is*, but in order to know what a given remark or doctrine, ours or someone else’s, *says* there is” [@Quine:1953er]
+
+
+\end{synopsis}</Synopsis>
+            <Text>Purpose of this section:
+
+1. Explain sIOP as:
+    1. that data exchange breaks the atomic semantic monolith = breaking the reciprocity by partitioning the data from its original code, and 
+    1. that sIOP demands that despite this partitioning the reciprocity between the code of the receiving agent and the external data shall be maintained, and
+    1. that Phantom semantics (i.e., the difference in the original reciprocity and the new reciprocity) is to be prevented at all costs.
+1. Explain that standards are large semantic monoliths, and introduce Principle: ontological commitment as minimal standard for sIOP. “We look to bound variables in connection with ontology not in order to know *what there is*, but in order to know what a given remark or doctrine, ours or someone else’s, *says* there is” [@Quine:1953er]
+
+</Text>
         </Document>
         <Document ID="55">
             <Title>Progress &amp; Planning</Title>
@@ -1196,13 +783,6 @@ Columns 1, 2, 3 etc. will calculate the cumulative figures, from ground to top, 
             <Title>Definitions, proofs etc</Title>
             <Text>Definitions, Theorems, Proofs and more are not possible in MMD. To that end, apply LateX rules and include appropriate libraries in the latex template, see also https://en.wikibooks.org/wiki/LaTeX/Theorems. The suggestions below are therefore not MMD cheats but LateX cheats instead.
 
-As a result, the MMD-lists do not work anymore and we need to make use of Latex-lists, as follows:
-\begin{itemize}[label={-}]
-\item here is the first item
-\item Here is the second item
-\end{itemize}
-
-
 \begin{mmdef}[definitie onderwerp]\label{def:my-unique-reference}
 Here is a new definition
 \end{mmdef}
@@ -1211,15 +791,30 @@ Here is a new definition
 Here is a new example
 \end{mmexmp}
 
-\begin{mmdp}
+\begin{mmdp}[My first design principle]
 \end{mmdp}
 
 \begin{mmprf}
+Write your proof
 \end{mmprf}
 
 \begin{mmthrq}\label{:rq:my-unique-reference}
 Here is a new research question
 \end{mmthrq}
+
+
+## KNOWN BUG ##
+
+Unfortunately, the MMD format, e.g., MMD-lists, does not work within a Theorem environment, and we need to make use of Latex command. For instance, include a list in the Definition envionment as follows:
+\begin{mmdef}
+My definition includes the following items:
+ \begin{itemize}[label={-}]
+   \item here is the first item
+   \item Here is the second item
+ \end{itemize}
+\end{mmdef}
+
+Note that the indentation is only for maintaining an overview of the number of \begin{}-\end{} pairs 
 
 ## LaTeX header definition ##
 These definitions/proofs/etc. are based on a package for theorems, i.e., amsthm. Before the above definitions/proofs/etc can work, we need to import and configure the Theorem package. This requires a LaTeX header definition, as follows:
@@ -1556,10 +1151,12 @@ Pronouns do not need apostrophes because they inherently show possession.
 
 &lt;!-- einde opsomming --&gt;</Text>
         </Document>
-        <Document ID="70"/>
         <Document ID="71">
-            <Title>Architectural viewpoint on SIOp </Title>
-            <Synopsis>with the current new insights (thanks to you) I decided to consolidate the ideas on the bridgehead, spanning, roadway and principles into an additional Section, an ISO42010 Architectural Viewpoint that summarises all 4 previous Sections as concerns on semantics and SIOp. I think we then make a significant contribution to SIOp for the many architectural paradigms. </Synopsis>
+            <Title>Architectural viewpoint on sIOP </Title>
+            <Synopsis>with the current new insights (thanks to you) I decided to consolidate the ideas on the bridgehead, spanning, roadway and principles into an additional Section, an ISO42010 Architectural Viewpoint that summarises all 4 previous Sections as concerns on semantics and sIOP. I think we then make a significant contribution to sIOP for the many architectural paradigms. 
+
+
+\end{synopsis}</Synopsis>
         </Document>
         <Document ID="72">
             <Title>Modeling</Title>
@@ -1568,7 +1165,9 @@ Refer , [@Henderson-Sellers2012]
 
 Conclusions:
 1 - ontologies are more appropriate artefacts for conceptual models than system models
-2 - as in [@Aßmann2006]: &quot;Specification models focus on the specification, control, and generation of systems; ontologies focus on description and conceptualization (conceptual modelling) of things. Both kinds of models have in common the qualities of abstraction and causal connection.&quot;</Synopsis>
+2 - as in [@Aßmann2006]: &quot;Specification models focus on the specification, control, and generation of systems; ontologies focus on description and conceptualization (conceptual modelling) of things. Both kinds of models have in common the qualities of abstraction and causal connection.&quot;
+
+\end{synopsis}</Synopsis>
             <Text>
 
 In order to fully appreciate the results of our work, it is necessary to acknowledge the commonalities and notably the differences between ontology and models. This is especially relevant since in contemporary architectural paradigms models are being used as first class citizens to the architectures, MDA and ISP RM/ODP alike.      
@@ -1607,19 +1206,23 @@ Interestingly, according to [@Grice:1991BT;@Schulz2007], two subtypes of meaning
 
 Elaborate on the reciprocity as software semantics
 
-Elaborate on OO to consolidate the reciprocity; take the class as example of a semantic monolith, the minimal, atomic one.
 
 &lt;!-- page additions --&gt;</Text>
         </Document>
         <Document ID="73">
             <Title>Explicit semantics</Title>
-            <Text>Explicit semantics
+            <Synopsis>The purpose of this section is to establish that for representing semantics, descriptive models (i.e., ontologies) trump prescriptive models (all 42010 models)
 
-This shows how the cognitive quality of the conceptualisation could be substituted with a formulation in set theory. The resulting conceptual model essentially remains a representation, albeit a mathematical one. One can argue that such substitution does not resolve the grounding problem, and appropriately so. Still, mathematics provides for a very exact way to express oneself, reducing the ambiguity that comes implicitly with any other language. Furthermore, logical constructs used at the syntactical level can be interpreted into set theoretic operations, facilitating the evaluation of complicated expressions. And thanks to mathematics we can also indicate the exact issues that exist with conceptual modelling, depicted in \cref{fig:4-model-construct-issues}.
+First make the distinction between descriptive and prescriptive models [@Henderson-Sellers2012], and in [@Aßmann2006]: &quot;Specification models focus on the specification, control, and generation of systems; ontologies focus on description and conceptualization (conceptual modelling) of things. Both kinds of models have in common the qualities of abstraction and causal connection.&quot;
+
+FIrst argument shows that (i) the trueness of a model is laid in reality, which is impossible to achieve, and that (ii) the next best we can achieve is establishing the correctness of a model against its conceptualisation node. Finally, observe that (iii) 4 issues will influence the correctness of the model. Then conclude that the best tool to control these issues are the logics from descriptive models (viz. ontologies) at the one hand, and its use as ontological commitment for the prescriptive models (viz. the 42010 models)
+
+\end{synopsis}</Synopsis>
+            <Text>This shows how the cognitive quality of the conceptualisation could be substituted with a formulation in set theory. The resulting conceptual model essentially remains a representation, albeit a mathematical one. One can argue that such substitution does not resolve the grounding problem, and appropriately so. Still, mathematics provides for a very exact way to express oneself, reducing the ambiguity that comes implicitly with any other language. Furthermore, logical constructs used at the syntactical level can be interpreted into set theoretic operations, facilitating the evaluation of complicated expressions. And thanks to mathematics we can also indicate the exact issues that exist with conceptual modelling, depicted in \cref{fig:4-model-construct-issues}.
 
 ![Four different types of construction issues that come with formal semantics][def:constructissues] 
 
-This begs the question what we mean with model, and what criteria we should adopt to represent a conceptual model.
+This begs the question what we mean with model, and what criteria we should adopt to represent a conceptual model. This is especially relevant since in contemporary architectural paradigms models are being used as first class citizens to the architectures, MDA and ISP RM/ODP alike. 
 
 
 
@@ -1628,7 +1231,6 @@ An appropriate definition for ontology is given by \cite{Guarino:1998wq} as a �
 
 
 
-The triadic model is more suitable to explain the differences between human semantics and semantics in computers, by identifying the semiotic differences between the two as follows. Since humans are capable of making observations from reality, and abstract these into conceptualisations, there is a direct connection between the entity and the conceptualisation. Computers lack that capability, as depicted in \cref{fig:semiotic-differences}. Here, we show the semiotic differences between semantics as they appear for human actors, part (a) of the Figure, and that of software actors in part (b). The comparison is made from the perspective of communication, e.g., how is reality signified into utterances made by the actor, and vice versa, how are utterances signified into what they stand for in reality. We can assume the entity to remain identical over both actors, and the token to remain equivalent to the extent that in terms of computers these are referred to as *data*. The third node, representing the conceptualisation for human agents, for software agents we claim to denote that as the application. Although in its bare form an application is nothing more than tokens that follow a specific language grammar, this bare form is only a representation of its quintessence, i.e., a run-time notion on how to act on the receipt of data.
 
 However, because computers are unable to conceptualise or concretize, the connection between the software’s conceptualisation and the entity does not exist. This “missing link” in artificial intelligence is called *the grounding problem*, named after the inability to ground a conceptualisation in what it refers to in reality. In literature, two exceptions to this rule exist, which we discuss in the box text below. Our stance towards these exceptions is that they are interesting, however currently irrelevant towards the resolution of semantic interoperability due to their many practical shortcomings in implementing an actual connection between the entity and the conceptualisation. 
 
@@ -1646,17 +1248,17 @@ In information systems, addressing the distinction between terms and reality is 
 Artificial intelligence (AI) tries to tackle the grounding problem by building some form of understanding, also known as &quot;strong AI&quot;. However, strong AI is expected to emerge on the long term only, if ever [@XiuquanLi2017]. Its counterpart &quot;weak AI&quot;, characterised by logic and reasoning, relies on language only and can therefore never make the step to reality on its own [@Scheider:2012tj]. 
 
 
-Hierin duidelijk maken wat de verschillen zijn tussen modellen en ontologie. Semiotiek (eigenlijk de semiotische driehoek) gebruiken wij als methode om te verklaren wat semantiek is bij mensen en bij computers. En zonder semantiek in de architectuur, geen SIOp. 
+Hierin duidelijk maken wat de verschillen zijn tussen modellen en ontologie. Semiotiek (eigenlijk de semiotische driehoek) gebruiken wij als methode om te verklaren wat semantiek is bij mensen en bij computers. En zonder semantiek in de architectuur, geen sIOP. 
 
-CONCLUSIE: Architectures will not be able to facilitate semantics and, hence, consolidate SIOp without including semiotics.
-Assumption 1: root cause for SIOp issues is the grounding problem: GP leads to absence of semantics, absence of semantics leads to absence of SIOp.
+CONCLUSIE: Architectures will not be able to facilitate semantics and, hence, consolidate sIOP without including semiotics.
+Assumption 1: root cause for sIOP issues is the grounding problem: GP leads to absence of semantics, absence of semantics leads to absence of sIOP.
 Fact: Strong AI could solve GP, but doesn’t exist
 Fact: Weak AI is based on language only, and can never solve GP on its own 
 Observation: Humans can solve GP, semiotics explain why
 Fact: Semiotics studies relation between language (terms) and meaning
 
 
-Thus, weak AI is our only option for the time being in order to achieve semantics and SIOp. 
+Thus, weak AI is our only option for the time being in order to achieve semantics and sIOP. 
 
 
 We therefore cannot neglect the existence of the grounding problem and its semiotic origins. Nevertheless, we do. For instance, when we are asked to explain how we address the grounding problem in the design of our software agent, we can’t; when we are asked to point at the semantics parts in the code of our software agent, we can't. The same question however about, e.g., its scalability, will render a lecture with adequate references to the underlying architecture. We thus remain at a loss of how to engineer semantics into software agents. However, without a clear understanding on semantics and its contribution to the software agent, we are lacking the bridgehead within the software agent that is fundamental to the semantic interoperability bridge. 
@@ -1681,6 +1283,17 @@ It therefore remains impossible to ground the applied terms in reality, denoted 
 &lt;!-- page additions --&gt;
 [def:semdiffs]: src\images\SemioticDifferences.png {#fig:semiotic-diffs }
 </Text>
+        </Document>
+        <Document ID="74">
+            <Title>Expicit sIOP by alignments</Title>
+            <Synopsis>Thus:
+
+1. Follow the coherence principle and conclude that the models from which *external* data and *receiving* data processing code are derived, need to be brought into coherence with each other.
+1. The coherence principle already enforced a single unique reference for each agent. Re-installing coherence demands a semantic alignment between those single unique references. 
+1. The purpose of that alignment is to establish how the truth of expressions that are formulated in terms of agent A, can be estabished by using formulations in terms of agent A' against the single unique reference from A'. 
+
+
+\end{synopsis}</Synopsis>
         </Document>
     </Documents>
 </SearchIndexes>
