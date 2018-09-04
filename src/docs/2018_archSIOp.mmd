@@ -47,7 +47,7 @@ Based on these contributions we [argue/defend] that access-and-play sIOP can be 
 
 # The semiotic and philosophical foundations of semantics #
 \begin{synopsis}
-Purpose of this section: To establish an informal but concrete notion on (i) the semiotic triangle and (ii) the relationsbetween its nodes.
+Purpose of this section: To establish an informal but concrete notion on (i) the semiotic triangle and the relationsbetween its nodes, and (ii) ontological commitment and its relation to modelling languages.
 
 \end{synopsis}
 
@@ -79,11 +79,13 @@ Peirce also recognised that multiple triangles could be linked together in vario
 ## Ontological commitment ##
 \begin{synopsis}
 Purpose of this section is to show the relevance of a (modelling) language: a language is used to convey distinctions. The distinctions that are aticulated by a language are denoted as its ontologcal commitment. Modelling languages need to show distinctions that are of relevance to the purpose of modelling. The predominant purpose of modelling is to describe (a particular domain in) reality by distinguishing the entities of interest. The ontological commitment for a modelling language therefore should be of ontological nature, “(...) not in order to know *what there is*, but in order to know what a given remark or doctrine, ours or someone else’s, *says* there is” [@Quine:1953er]. The ontological square or its extension into the ontological sextet [describe it] can be considered the most basic one, which have been specialized into several flavours, all called upper-level, or top-level, or foundational, ontologies, e.g., UFO, BFO, DOLCE and more. 
+
+Show how MDE/MDA applies an ontological commitment as defined in M3, which facilitates an equivalent distinction as the ontological square, but less than the ontol.sextet.
  
 \end{synopsis}
 
 
-Apart from this strict semiotics notion, semantics are also influenced by philosophy and need consensus on the question “when are we committed to the existence of certain entities?”. It is relevant to acknowledge that humans maintain assumptions and background knowledge, both of which impact the semeiosis and, hence, semantics. This is where the conceptualisation plays an important role as frame of reference to our understanding, also denoted as the *ontological commitment*. Consider the following classical sentences:
+Apart from this strict semiotics notion, semantics are also influenced by philosophy and need consensus on the question “when are we committed to the existence of certain entities?”. It is relevant to acknowledge that humans maintain assumptions and background knowledge, both of which impact the semeiosis and, hence, semantics. This is where the conceptualisation plays an important role as frame of reference to our understanding, also denoted as the *ontological commitment*. Consider the following classical sentences\todo{ brandtp, 9/3/2018 This is too philosophcal for the readin gublic. Skip this and describe it as in the synopsis.} :
 
 * Sentence 1: “the king of France is bald”. This sentence has got a useful meaning, being that in case of a king of France, the dear fellow is as bald as a coot. We did not say *that* a king of France exists, nor *that* bald men exist; we only used these two phrases to *refer* to things that might or might not exist. Hence, we do not need to commit to the existence of a king of France, nor to the existence of bald men, before we can formulate the sentence that *if* there is a king of France, he must be bald. Still, and despite being a meaningful sentence, “the king of France” does not refer to something (as France is a republic), and therefore we cannot render the truth of the sentence.
 * Sentence 2: “the species *leo* (lions) is extinct”. Despite the similarity with the linguistic structure of the previous sentence, in this case we do need to commit to the existence of the species leo. The reason for this is that we do not imply here something about one individual but about something that many individuals have in common, i.e., that which defines an entity as member of the leo species. Without accepting that “there is something” that we consider characteristic of the species of leo and leo alone, we defy the group as a whole, i.e., the universal type that each of them instantiates. And if we defy the existence of the universal type, we defy that “there is something”. But if we defy that “there is something”, it would be nonsense to even speak about any of its qualities, in this case extinction. Therefore, by defying the existence of the species, we defy the meaning of the sentence itself. We therefore are forced to commit to the existence of the species.
@@ -95,12 +97,12 @@ The contrast exemplified by these sentences shows that only when we commit to so
 # Bridgehead: Semantics #
 \begin{synopsis}
 Purpose of this section: 
+\begin{itemize}
+\item From a semiotic perspective, explain what we mean with semantics in software agents, i.e., the reciprocity between data and data processing code (both represented as Term from the semiotic Sign).
+\item Establish that for representing semantics, descriptive models (i.e., ontologies) trump prescriptive models (all 42010 models).
+\item Conclude that ontologies need their place as single point of reference (trueness) in architectures, and identify their relationship with the rest of the architectures, i.e., all other prescriptive models. Note the issue on Open World Assumption (ontologies) and CWA (prescriptive models).
+\end{itemize}
 
-1. From a semiotic perspective, explain what we mean with semantics in software agents, i.e., the reciprocity between data and data processing code (both represented as Term from the semiotic Sign).
-1. Establish that for representing semantics, descriptive models (i.e., ontologies) trump prescriptive models (all 42010 models).
-1. Conclude that ontologies need their place as single point of reference (trueness) in architectures, and identify their relationship with the rest of the architectures, i.e., all other prescriptive models. Note the issue on Open World Assumption (ontologies) and CWA (prescriptive models).
-
-<!-- end of list -->
 \end{synopsis}
 
 
@@ -251,56 +253,37 @@ It therefore remains impossible to ground the applied terms in reality, denoted 
 
 ### Modeling ###
 \begin{synopsis}
-Purpose of this section: present a list of differences, and notably, that formal semantics can to some extend take the role as conceptualisation
-Refer , [@Henderson-Sellers2012]
+Purpose of this section: present a list of differences, and notably, that formal semantics can to some extend take the role as conceptualisation.
+Refer to [@Henderson-Sellers2012]
 
 Conclusions:
-1 - ontologies are more appropriate artefacts for conceptual models than system models
-2 - as in [@Aßmann2006]: "Specification models focus on the specification, control, and generation of systems; ontologies focus on description and conceptualization (conceptual modelling) of things. Both kinds of models have in common the qualities of abstraction and causal connection."
-
+\begin{itemize}
+\item ontologies are more appropriate artefacts for conceptual models than system models
+\item as in [@Aßmann2006]: "Specification models focus on the specification, control, and generation of systems; ontologies focus on description and conceptualization (conceptual modelling) of things. Both kinds of models have in common the qualities of abstraction and causal connection."
+\end{itemize}
 \end{synopsis}
 
 
 
-
-In order to fully appreciate the results of our work, it is necessary to acknowledge the commonalities and notably the differences between ontology and models. This is especially relevant since in contemporary architectural paradigms models are being used as first class citizens to the architectures, MDA and ISP RM/ODP alike.      
-
-                   
-
-* Identify differences between prescriptive models and descriptive ontologies here? Maybe only “the” requirements that follow from the coherence principle.
-* Second essential grain is the ontological commitment.  
-
-
-
-
-
-It is thus one of the responsibilities of the software engineer to keep the information model and the process model in strict coherence with each other. In the world of Model Driven Engineering (MDE), the object orientation (OO) way of formulating models indeed seems to enforce adherence to this principle. However, this is not completely true since OO enforces only some form of correctness between the methods and the data object they act upon.
+     
+1. Explain: difference between ontologies and models
+    i. Models lack an elaborate ontological commitment, domain ontologies naturally evolve on foundational ontologies (that express an ontological commitment)
+    ii. For prescriptive models, truth lies in meta-models (good for deterministic behaviour); ontologies are descriptive models for which the truth lies in reality (good for semantics)
+    iii. ontologies have open world assumption (semantic under-specification), models have closed world assumption (data remain consistent, good for performance)
+    iv. Models specify systems, ontologies conceptualise reality (entities) 
+    * Try to also connect the onto/model distinction with above principles 
+    * Induced problem: from OWA (domain ontologies) to CWA (information/data models), viz. how to get closure?
+    * Principle: use domain and business ontologies for “computational independent”-ish models [@Aßmann2006]
+    * Bridge descriptive --> prescriptive models by grounding all prescriptive model elements with concepts from descriptive model (see e.g. \cref{fig:OntosInMDE}).
 
 
 
-
-Regarding the grain’s process models, this falls apart in two other model categories, viz. models that directly operate on data in order to infer other facts (conclusions), and models that act on those conclusions and initiate some business oriented activities. We will call the latter the *pragmatics* of the software agent, and we will not further elaborate on that. Regarding the data model and the inference model, we explain them to represent the two subtypes of meaning according to [@Grice:1991BT;@Schulz2007]: firstly, *semantic* meaning, meaning as conveyed by the tokens, explained by Grice as *what is said*, are directly related to the data models. Secondly, *pragmatic* meaning, explained by Grice as what a speaker adds by implication and/or intention when uttering a sentence in a particular context [@smith2003, p.50], are directly related to models that infer new data. For instance, consider a heart rate reading of 128BPM. The semantic meaning that is carried is exactly what is said, viz. the number of times a heart beats during one minute. In case of the pragmatic meaning, though, the same bits will refer to a very different health condition in the context of a sleeping elderly (triggering an alarm) than in the context of a sleeping new-born (indicating perfect health). We like to consider the pragmatic meaning as the meaning that is required to draw conclusions, demanding the specific *context of use*. 
-
-
-
-However, as soon as the semeiosis has taken place,  As we have seen in the previous section, linking between triangles exists horizontally and vertically alike. In this case, subsequent software engineering will conceptualise the models in different representational metalevels as well as built different levels of abstractions and generalisations.      
-
-
-
-the  the *signification* of the software agent. Although genuine semantics does not exist in software, a software agent can definitely fail in its signification part. When such failure happen  
-
-
-one of her major responsibilities are to assure that the data and the code operating on that data remain coherent with each other. In fact, one of the main arguments for the introduction of object-orientation (OO) was to dispose of a means that could enforce this “data-code coherence” in a natural way. Introducing a class to represent a particular entity in reality, and its methods that operated on it, enforces the software engineer to maintain one single conceptualisation that is represented by a set of two tightly coupled tokens: the data and the code operating on that data.   
-
-  
-
-
-Interestingly, according to [@Grice:1991BT;@Schulz2007], two subtypes of meaning exist:  
-
-Elaborate on the reciprocity as software semantics
-
+![The use of ontologies in MDA, from [@Aßmann2006]][def:ontoMDA]
 
 <!-- page additions -->
+[def:ontoMDA]: src\images\OntosInMDE.png {#fig:OntosInMDE  width=568px height=346px}
+[def:3Concerns]: src\images\3SemanticConcerns.png {#fig:3Concerns width=495px height=693px} 
+
 # Spanning: Alignments #
 
 Rephrase: despite the notoriously difficult philosophical questions involved, semantic interoperability can be seen as an engineering problem, namely that of effectively constraining interpretations towards the ones that are considered allowable [@Kuhn2009].
@@ -313,59 +296,55 @@ Rephrase: despite the notoriously difficult philosophical questions involved, se
 
 ## What is semantic interoperabiity ##
 \begin{synopsis}
-1. Explain sIOP:
-
-    1.1. that consequence of data exchange = breaking the atomic semantic monolith = breaking the reciprocity by partitioning the data from its original code, and 
-
-    1.2. that sIOP demands that despite this partitioning the reciprocity between the code of the receiving agent and the external data shall be re-installed.
-
-2. We therefore need to extend the semantic coherence Principe into a sIOP coherence principle with a sIOP rational that the result of the semeiosis on receiving agent A’ does not conflict withthe outcome of the semeiosis on agent A: Without maintaining the reciprocity between binary code and the data it operates on, the semeiosis performed by software engineer A’ on the result of the data processing and their subsequent semantics cannot be guaranteed to be similar as intended by the software engineer.
-
-3. Explain the difference with semantic standards which are basically large semantic monoliths
-
-4. Introduce Principle: ontological commitment as minimal standard for sIOP, “(...) not in order to know *what there is*, but in order to know what a given remark or doctrine, ours or someone else’s, *says* there is” [@Quine:1953er]
-
+\begin{itemize}
+  \item Explain sIOP:
+  \begin{\itemize}
+    \item that consequence of data exchange = breaking the atomic semantic monolith = breaking the reciprocity by partitioning the data from its original code, and explain that standards are large semantic monoliths that roofs that point but are as manouverable as an oil tanker, and 
+    \item that sIOP demands that despite this partitioning the reciprocity between the code of the receiving agent and the external data shall be re-installed.
+    \item Optionally, give a definition on phantom semantics
+  \end{itemize}
+  \item We therefore need to extend the semantic coherence Principe into a sIOP coherence principle with a sIOP rational that the result of the semeiosis on receiving agent A’ does not conflict withthe outcome of the semeiosis on agent A: Without maintaining the reciprocity between binary code and the data it operates on, the semeiosis performed by software engineer A’ on the result of the data processing and their subsequent semantics cannot be guaranteed to be similar as intended by the software engineer.
+  \item Explain the difference with semantic standards which are basically large semantic monoliths
+  \item Introduce Principle: ontological commitment as minimal standard for sIOP, “(...) not in order to know *what there is*, but in order to know what a given remark or doctrine, ours or someone else’s, *says* there is” [@Quine:1953er]
+\end{itemize}
 
 \end{synopsis}
-
-
-Purpose of this section:
-
-1. Explain sIOP as:
-    1. that data exchange breaks the atomic semantic monolith = breaking the reciprocity by partitioning the data from its original code, and 
-    1. that sIOP demands that despite this partitioning the reciprocity between the code of the receiving agent and the external data shall be maintained, and
-    1. that Phantom semantics (i.e., the difference in the original reciprocity and the new reciprocity) is to be prevented at all costs.
-1. Explain that standards are large semantic monoliths, and introduce Principle: ontological commitment as minimal standard for sIOP. “We look to bound variables in connection with ontology not in order to know *what there is*, but in order to know what a given remark or doctrine, ours or someone else’s, *says* there is” [@Quine:1953er]
-
-
 ## Expicit sIOP by alignments ##
 \begin{synopsis}
 Thus:
 
-1. Follow the coherence principle and conclude that the models from which *external* data and *receiving* data processing code are derived, need to be brought into coherence with each other.
-
-2. The coherence principle already enforced a single unique reference for each agent. Re-installing coherence demands a semantic alignment between those single unique references. 
-
-3. The purpose of that alignment is to establish how the truth of expressions that are formulated in terms of agent A, can be estabished by using formulations in terms of agent A' against the single unique reference from A'. 
-
-4. The language that is used for expressing the alignment should be fit for its purpose. Refer to EDOAL [@Scharffe2011] as the currently most complete one.
-
+\begin{itemize}
+\item Follow the coherence principle and conclude that the models from which *external* data and *receiving* data processing code are derived, need to be brought into coherence with each other.
+\item The coherence principle already enforced a single unique reference for each agent. Re-installing coherence demands a semantic alignment between those single unique references. 
+\item The purpose of that alignment is to establish how the truth of expressions that are formulated in terms of agent A, can be estabished by using formulations in terms of agent A' against the single unique reference from A'. 
+\item The language that is used for expressing the alignment should be fit for its purpose. Refer to EDOAL [@Scharffe2011] as the currently most complete one.
+\end{itemize}
 
 \end{synopsis}
+
+
+
+
+
+
+![The three semantic concerns are related: conceptual modelling, semantic reconciliation, and semantic mediation][def:3Concerns]
+
+
+<!-- page additions -->
+[def:3Concerns]: src\images\3SemanticConcerns.png {#fig:3Concerns width=495px height=693px} 
+
 # Roadway: Mediation #
 \begin{synopsis}
 Purpose of this section: Establish requirements for a *generic* mediator.
 
 With mediation we denote the process of transcribing a data term that originates from Agent A into a data term that matches a term familiair to Agent A', based on both agents' ontologies and the alignment between them. The main issue here is that although many different types of relation can be defined between the concepts of ontology A and A', e.g., superset of, a transcription of a token from A into a token from A' is a complete replacement and, hence, implements an equivalence relation. In [@Brandt2018b], we show a semantic valid transcription process. The requirements of a mediator are:
 
-1. Being a generic service
-
-2. Fully defined by two ontologies and their alignments
-
-3. Allows for semantic valid transcriptions only, where 'validity' refers to absence of inducing phantom semantics.
-
-4. Appropriate behaviour for non-translatable content, which should apply only as result of an incomplete alignment, a logical incorrect alignment, or attempts to communicate content that is considered irrelevant for the receiving agent.
-
+\begin{itemize}
+\item Being a generic service
+\item Fully defined by two ontologies and their alignments
+\item Allows for semantic valid transcriptions only, where 'validity' refers to absence of inducing phantom semantics.
+\item Appropriate behaviour for non-translatable content, which should apply only as result of an incomplete alignment, a logical incorrect alignment, or attempts to communicate content that is considered irrelevant for the receiving agent.
+\end{itemize}
 \end{synopsis}
 # sIOP Principles #
 \begin{synopsis}
@@ -387,18 +366,19 @@ Consequently, the software agents have been developed totally and completely ind
 This raises the following semantic concerns:
 
 I. Loosely coupled semantics:
+
     * Define semantics once during software design phase, and achieve sIOP many times with many different peers
     * EW Dijkstra: Connected but as independent as possible: peer agents shall only publish *what* is meant with semantics, not *how* it is represented
+
 I. Scalable sIOP:
     * Variable in number of peers
     * Variable in level of semantic heterogeneity
 
   
-1. Define the four semantic concerns (see \cref{fig:3Concerns} for three related ones):
+1. Repeat the four semantic concerns (see \cref{fig:3Concerns} for three related ones):
     i. Explicit and computational semantics by *conceptual modelling*: Bridgehead 
     ii. Managed and controlled sIOP by *semantic reconciliation*: Spanning
-    iii. Automated sIOP by *semantic mediation*: Roadway
-        * Address semantic issue about the non-equivalence between an alignment and a transcription (refer to [@Brandt2018])
+    iii. Automated sIOP by *semantic mediation*: Roadway. Address semantic issue about the non-equivalence between an alignment and a transcription (refer to \cite{Brandt2018b})
           
 ***Achieve loosely coupled semantics***
   
@@ -419,18 +399,24 @@ Loose coupling is founded on principles about (i) separation of concerns, and (i
         i. Agnostic to *how* semantics are being achieved
         i. Communicate with minimal syntactic dependency, i.e., without agreements on semantic representation  
 
+
 Formulate the principles in the format according to [@Greefhorst2011]
 
-Ad.semantic separation of concern. Where in its classical application the result of applying the principle is that atomic functions are defined, designed and implemented only once and remain unique, in its semantic application the result of applying this principle is that every software agent maintains its own semantics. Semantics are, therefore, distributed all over the place. This seems counterintuitive or even plain wrong, however, it is necessary for complying with the concern about semantic scalability (in support of heterogeneous semantics). Besides that, it is a direct consequence of the demand to allow for independent software development
+*Ad.semantic separation of concern*. Where in its classical application the result of applying the principle is that atomic functions are defined, designed and implemented only once and remain unique, in its semantic application the result of applying this principle is that every software agent maintains its own semantics. Semantics are, therefore, distributed all over the place. This seems counterintuitive or even plain wrong, however, it is necessary for complying with the concern about semantic scalability (in support of heterogeneous semantics). Besides that, it is a direct consequence of the demand to allow for independent software development
 
     * Principle: specify ontological commitment as basic 
-    * Refer to (and partly reuse?) semantic architecture from [@Brandt2013]
+    * Refer to (and partly reuse?) semantic architecture from [@Brandt2013], depicted in \cref{fig:sSoC}
+
+![An architecture for loosely coupled semantics, founded on semantic SoC and semantic transparency [@Brandt2013]][def:sSoC]
+
+
 1. Complement weak AI with human brain:
+
     * use AI where possible (computational semantics for software agent; supporting semantic reconciliation)
     * use human brain where necessary (but not more): ontology engineering @ design time; alignment authoring @ pre-runtime
 
  
-*** Achieve Scalable sIOP***
+***Achieve Scalable sIOP***
 
 Ensure that different semantic topologies remain possible:
  
@@ -445,29 +431,9 @@ iii. Mix-n-Match (coarse-grained star-alignment with specialised bilateral align
     * Bad: slightly more complicated mediation due to double alignment support
 
 
-     
-1. Explain: difference between ontologies and models
-    i. Models lack an elaborate ontological commitment, domain ontologies naturally evolve on foundational ontologies (that express an ontological commitment)
-    ii. For prescriptive models, truth lies in themselves (deterministic software); ontologies are descriptive models for which the  truth lies in reality (good for semantics)
-    iii. ontologies have open world assumption (semantic under-specification), models have closed world assumption (data remain consistent)
-    iv. Models specify systems, ontologies conceptualise entities 
-    * Try to also connect the onto/model distinction with above principles 
-    * Induced problem: from OWA (domain ontologies) to CWA (information/data models)
-    * Principle: use domain and business ontologies for CIM [@Aßmann2006]
-    * Principle: prescribe requirements model with concepts that are defined by CIM-DO and CIM-BO (see \cref{fig:OntosInMDE}).
-
-
-
-![The use of ontologies in MDA, from [@Aßmann2006]][def:ontoMDA]
-
-
-![The three semantic concerns are related: conceptual modelling, semantic reconciliation, and semantic mediation][def:3Concerns]
-
 
 <!-- page additions -->
-[def:ontoMDA]: src\images\OntosInMDE.png {#fig:OntosInMDE}
-[def:3Concerns]: src\images\3SemanticConcerns.png {#fig:3Concerns} 
-
+[def:sSoc]: src\images\SemanticSoC.png {#fig:sSoC width=448px height=426px} 
 
 
 # Architectural viewpoint on sIOP  #

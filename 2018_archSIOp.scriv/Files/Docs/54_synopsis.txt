@@ -1,14 +1,13 @@
-1. Explain sIOP:
-
-    1.1. that consequence of data exchange = breaking the atomic semantic monolith = breaking the reciprocity by partitioning the data from its original code, and 
-
-    1.2. that sIOP demands that despite this partitioning the reciprocity between the code of the receiving agent and the external data shall be re-installed.
-
-2. We therefore need to extend the semantic coherence Principe into a sIOP coherence principle with a sIOP rational that the result of the semeiosis on receiving agent A’ does not conflict withthe outcome of the semeiosis on agent A: Without maintaining the reciprocity between binary code and the data it operates on, the semeiosis performed by software engineer A’ on the result of the data processing and their subsequent semantics cannot be guaranteed to be similar as intended by the software engineer.
-
-3. Explain the difference with semantic standards which are basically large semantic monoliths
-
-4. Introduce Principle: ontological commitment as minimal standard for sIOP, “(...) not in order to know *what there is*, but in order to know what a given remark or doctrine, ours or someone else’s, *says* there is” [@Quine:1953er]
-
+\begin{itemize}
+  \item Explain sIOP:
+  \begin{\itemize}
+    \item that consequence of data exchange = breaking the atomic semantic monolith = breaking the reciprocity by partitioning the data from its original code, and explain that standards are large semantic monoliths that roofs that point but are as manouverable as an oil tanker, and 
+    \item that sIOP demands that despite this partitioning the reciprocity between the code of the receiving agent and the external data shall be re-installed.
+    \item Optionally, give a definition on phantom semantics
+  \end{itemize}
+  \item We therefore need to extend the semantic coherence Principe into a sIOP coherence principle with a sIOP rational that the result of the semeiosis on receiving agent A’ does not conflict withthe outcome of the semeiosis on agent A: Without maintaining the reciprocity between binary code and the data it operates on, the semeiosis performed by software engineer A’ on the result of the data processing and their subsequent semantics cannot be guaranteed to be similar as intended by the software engineer.
+  \item Explain the difference with semantic standards which are basically large semantic monoliths
+  \item Introduce Principle: ontological commitment as minimal standard for sIOP, “(...) not in order to know *what there is*, but in order to know what a given remark or doctrine, ours or someone else’s, *says* there is” [@Quine:1953er]
+\end{itemize}
 
 \end{synopsis}
