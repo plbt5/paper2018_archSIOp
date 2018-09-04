@@ -97,11 +97,11 @@ The contrast exemplified by these sentences shows that only when we commit to so
 # Bridgehead: Semantics #
 \begin{synopsis}
 Purpose of this section: 
-\begin{itemize}
+\begin{enumerate}
 \item From a semiotic perspective, explain what we mean with semantics in software agents, i.e., the reciprocity between data and data processing code (both represented as Term from the semiotic Sign).
 \item Establish that for representing semantics, descriptive models (i.e., ontologies) trump prescriptive models (all 42010 models).
 \item Conclude that ontologies need their place as single point of reference (trueness) in architectures, and identify their relationship with the rest of the architectures, i.e., all other prescriptive models. Note the issue on Open World Assumption (ontologies) and CWA (prescriptive models).
-\end{itemize}
+\end{enumerate}
 
 \end{synopsis}
 
@@ -146,19 +146,19 @@ Establish explicit coherence between the models that are contained in a semantic
 \textbf{Quality attributes:} (semantic) accuracy, reusability, manageability, understandability 
 
 \textbf{Rationale:}
-\begin{itemize}
+\begin{enumerate}
 \item Semantics in software agents are necessarily reduced to, and emerge from, the reciprocity between the data and the binary code that operates on them;  
 \item Without explicitly addressing -- at modelling level -- \textbf{all} facets that influence the coherence between the data on the one hand, and the operations that apply on them on the other, the software agent cannot guarantee to maintain the reciprocity between them at the binary level;
 \item Without maintaining the reciprocity between binary code and the data it operates on, the semeiosis performed by the end user on the result of the data processing and their subsequent semantics cannot be guaranteed to be similar as intended by the software engineer.
-\end{itemize}
+\end{enumerate}
 \textbf{Implications:}
-\begin{itemize}
+\begin{enumerate}
 \item The coherence principle is a necessary condition for supporting semantic interoperability;
 \item The scope of semantic validity \& accuracy is addressed explicitly and can be referred to;
 \item Reuse of data often implies reuse of the data processing code, and vice versa. Having established explicit coherence improves the quality of data and code reuse, and facilitates the verification that the scope of the semantic validity \& accuracy applies in the new context as well;
 \item manageability ...?
 \item understandability ...?
-\end{itemize}  
+\end{enumerate}  
 \end{mmdp}
 Coherence between models can be established with use of a single unique reference against which the truth of the expressions of both models can be verified. In semiotics, this single unique reference is considered reality, as indicated in \cref{fig:semiotic-triangles}(b) by the *trueness* characteristic. Except as toy example in [@Steels:2008tr], this is clearly not possible. The *correctness* characteristic is the only alternative left, taking the conceptualisation node as its principle point of reference. This is exactly what the mathematical branch of *formal semantics* achieves [@Gamut1991; @Genesereth:1987dg] with its three main characteristics, viz. connecting (i) an abstract syntax of a language to (ii) a domain of interpretation (usually a set theoretic framework) by defining (iii) an interpretation function from the abstract syntax onto the set theoretic framework. In terms of the semiotic triangle, \cref{fig:semiotic-triangles}(b), this implies the following:
 
@@ -257,10 +257,10 @@ Purpose of this section: present a list of differences, and notably, that formal
 Refer to [@Henderson-Sellers2012]
 
 Conclusions:
-\begin{itemize}
+\begin{enumerate}
 \item ontologies are more appropriate artefacts for conceptual models than system models
 \item as in [@Aßmann2006]: "Specification models focus on the specification, control, and generation of systems; ontologies focus on description and conceptualization (conceptual modelling) of things. Both kinds of models have in common the qualities of abstraction and causal connection."
-\end{itemize}
+\end{enumerate}
 \end{synopsis}
 
 
@@ -296,29 +296,29 @@ Rephrase: despite the notoriously difficult philosophical questions involved, se
 
 ## What is semantic interoperabiity ##
 \begin{synopsis}
-\begin{itemize}
+\begin{enumerate}
   \item Explain sIOP:
-  \begin{\itemize}
+  \begin{enumerate}
     \item that consequence of data exchange = breaking the atomic semantic monolith = breaking the reciprocity by partitioning the data from its original code, and explain that standards are large semantic monoliths that roofs that point but are as manouverable as an oil tanker, and 
     \item that sIOP demands that despite this partitioning the reciprocity between the code of the receiving agent and the external data shall be re-installed.
     \item Optionally, give a definition on phantom semantics
-  \end{itemize}
+  \end{enumerate}
   \item We therefore need to extend the semantic coherence Principe into a sIOP coherence principle with a sIOP rational that the result of the semeiosis on receiving agent A’ does not conflict withthe outcome of the semeiosis on agent A: Without maintaining the reciprocity between binary code and the data it operates on, the semeiosis performed by software engineer A’ on the result of the data processing and their subsequent semantics cannot be guaranteed to be similar as intended by the software engineer.
   \item Explain the difference with semantic standards which are basically large semantic monoliths
   \item Introduce Principle: ontological commitment as minimal standard for sIOP, “(...) not in order to know *what there is*, but in order to know what a given remark or doctrine, ours or someone else’s, *says* there is” [@Quine:1953er]
-\end{itemize}
+\end{enumerate}
 
 \end{synopsis}
 ## Expicit sIOP by alignments ##
 \begin{synopsis}
 Thus:
 
-\begin{itemize}
+\begin{enumerate}
 \item Follow the coherence principle and conclude that the models from which *external* data and *receiving* data processing code are derived, need to be brought into coherence with each other.
 \item The coherence principle already enforced a single unique reference for each agent. Re-installing coherence demands a semantic alignment between those single unique references. 
 \item The purpose of that alignment is to establish how the truth of expressions that are formulated in terms of agent A, can be estabished by using formulations in terms of agent A' against the single unique reference from A'. 
 \item The language that is used for expressing the alignment should be fit for its purpose. Refer to EDOAL [@Scharffe2011] as the currently most complete one.
-\end{itemize}
+\end{enumerate}
 
 \end{synopsis}
 
@@ -339,12 +339,12 @@ Purpose of this section: Establish requirements for a *generic* mediator.
 
 With mediation we denote the process of transcribing a data term that originates from Agent A into a data term that matches a term familiair to Agent A', based on both agents' ontologies and the alignment between them. The main issue here is that although many different types of relation can be defined between the concepts of ontology A and A', e.g., superset of, a transcription of a token from A into a token from A' is a complete replacement and, hence, implements an equivalence relation. In [@Brandt2018b], we show a semantic valid transcription process. The requirements of a mediator are:
 
-\begin{itemize}
+\begin{enumerate}
 \item Being a generic service
 \item Fully defined by two ontologies and their alignments
 \item Allows for semantic valid transcriptions only, where 'validity' refers to absence of inducing phantom semantics.
 \item Appropriate behaviour for non-translatable content, which should apply only as result of an incomplete alignment, a logical incorrect alignment, or attempts to communicate content that is considered irrelevant for the receiving agent.
-\end{itemize}
+\end{enumerate}
 \end{synopsis}
 # sIOP Principles #
 \begin{synopsis}
