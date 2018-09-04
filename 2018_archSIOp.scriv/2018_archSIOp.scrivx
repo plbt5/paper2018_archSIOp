@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.8.0" Device="PC-17875" Modified="2018-09-04 10:25:50 +0200" ModID="5DEFD655-1168-421D-9B3B-868ED1B7E98E">
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.8.0" Device="PC-17875" Modified="2018-09-04 14:43:09 +0200" ModID="1AB6F6AF-B27E-4D1D-984B-E22575BFA465">
     <Binder>
         <BinderItem ID="5" UUID="B892768D-F62D-4A48-8846-84245826AF35" Created="2017-04-10 12:05:49 +0200" Modified="2017-04-10 12:05:49 +0200" Type="Text">
             <Title>MMD cheat sheet</Title>
@@ -277,7 +277,7 @@
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="73" UUID="1FA218EA-B4C1-4D21-B2D0-A35B75920BBE" Created="2018-08-22 11:19:51 +0200" Modified="2018-08-30 16:01:27 +0200" Type="Text">
+                        <BinderItem ID="73" UUID="1FA218EA-B4C1-4D21-B2D0-A35B75920BBE" Created="2018-08-22 11:19:51 +0200" Modified="2018-09-04 14:43:07 +0200" Type="Text">
                             <Title>Explicit semantics</Title>
                             <MetaData>
                                 <LabelID>0</LabelID>
@@ -285,7 +285,7 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>67,0</TextSelection>
+                                <TextSelection>1326,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                             <Children>
@@ -296,7 +296,7 @@
                                         <FileExtension>rtf</FileExtension>
                                     </MetaData>
                                     <TextSettings>
-                                        <TextSelection Caret="1376">1173,203</TextSelection>
+                                        <TextSelection Caret="1281">1256,25</TextSelection>
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                 </BinderItem>
