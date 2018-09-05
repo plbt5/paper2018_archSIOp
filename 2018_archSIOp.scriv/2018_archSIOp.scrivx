@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.8.0" Device="PC-17875" Modified="2018-09-05 12:42:13 +0200" ModID="E2747ADB-C22D-4A81-81D8-A539C7BA759E">
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.8.0" Device="PC-17875" Modified="2018-09-05 13:03:35 +0200" ModID="0C22715B-09D7-42FB-8F9C-13BD726A1972">
     <Binder>
         <BinderItem ID="5" UUID="B892768D-F62D-4A48-8846-84245826AF35" Created="2017-04-10 12:05:49 +0200" Modified="2017-04-10 12:05:49 +0200" Type="Text">
             <Title>MMD cheat sheet</Title>
@@ -267,7 +267,7 @@
                         <Target Type="Words">0</Target>
                     </TextSettings>
                     <Children>
-                        <BinderItem ID="52" UUID="7E8CD1DC-958E-405D-941C-B09DF79ECCAC" Created="2018-07-04 20:31:19 +0200" Modified="2018-09-05 10:35:32 +0200" Type="Text">
+                        <BinderItem ID="52" UUID="7E8CD1DC-958E-405D-941C-B09DF79ECCAC" Created="2018-07-04 20:31:19 +0200" Modified="2018-09-05 12:45:59 +0200" Type="Text">
                             <Title>What is software semantics</Title>
                             <MetaData>
                                 <LabelID>0</LabelID>
@@ -276,7 +276,7 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>2467,0</TextSelection>
+                                <TextSelection>1325,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
@@ -354,7 +354,7 @@
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="44" UUID="201AFA4C-53AE-47AB-B517-A9B5DC091947" Created="2018-05-25 14:22:13 +0200" Modified="2018-09-05 12:35:21 +0200" Type="Text">
+                <BinderItem ID="44" UUID="201AFA4C-53AE-47AB-B517-A9B5DC091947" Created="2018-05-25 14:22:13 +0200" Modified="2018-09-05 12:47:45 +0200" Type="Text">
                     <Title>sIOP Principles</Title>
                     <MetaData>
                         <StatusID>0</StatusID>
@@ -362,12 +362,12 @@
                         <FileExtension>rtf</FileExtension>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>1694,0</TextSelection>
+                        <TextSelection>2056,0</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="71" UUID="FBDCE642-2BBA-4C2D-91BB-8133BEAE49CD" Created="2018-07-20 15:43:03 +0200" Modified="2018-09-05 12:37:18 +0200" Type="Text">
-                    <Title>ISO42010  architectural viewpoint on sIOP </Title>
+                <BinderItem ID="71" UUID="FBDCE642-2BBA-4C2D-91BB-8133BEAE49CD" Created="2018-07-20 15:43:03 +0200" Modified="2018-09-05 13:03:33 +0200" Type="Text">
+                    <Title>ISO42010 viewpoint on sIOP </Title>
                     <MetaData>
                         <StatusID>0</StatusID>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -405,7 +405,7 @@
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>92,0</TextSelection>
+                        <TextSelection>99,0</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>

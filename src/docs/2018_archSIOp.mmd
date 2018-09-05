@@ -142,7 +142,7 @@ Purpose of this section:
 ## What is software semantics ##
 
 * *Created:*	Wednesday, July 4, 2018 8:31:19 PM
-* *Modified:*	Wednesday, September 5, 2018 10:35:32 AM
+* *Modified:*	Wednesday, September 5, 2018 12:45:59 PM
 * *Status:*	First Draft
 * *Label:*	Concept
 
@@ -151,10 +151,10 @@ The purpose of this section is to explain software semantics as the "reciprocity
 Conclude that the reciprocity between data and data processing code represents the smallest (atomic) semantic monolith.
 
 Additionally, optionally, show:
-
-    1. the relationship with Grice's distinction in semantics as "what is said" and "pragmatic meaning"
-    2. OO as initial implementation to consolidate this reciprocity, and the class as implementation of the atomic semantic monolith; 
-
+\begin{enumerate}
+\item the relationship with Grice's distinction in semantics as "what is said" and "pragmatic meaning"
+\item OO as initial implementation to consolidate this reciprocity, and the class as implementation of the atomic semantic monolith; 
+\end{enumerate}
 
 \end{synopsis}
 
@@ -371,7 +371,7 @@ With mediation we denote the process of transcribing a data term that originates
 # sIOP Principles #
 
 * *Created:*	Friday, May 25, 2018 2:22:13 PM
-* *Modified:*	Wednesday, September 5, 2018 12:35:21 PM
+* *Modified:*	Wednesday, September 5, 2018 12:47:45 PM
 * *Status:*	To Do
 * *Label:*	No Label
 
@@ -390,13 +390,13 @@ The main (business) requirement is to achieve sIOP as quickly as possible, with 
 
 Consequently, the software agents have been developed totally and completely independent from each other. This raises the following semantic concerns:
 
-I. Loosely coupled semantics:
+1. Loosely coupled semantics:
     i. Define semantics once during software design phase, and achieve sIOP many times with many different peers
     i. EW Dijkstra: Connected but as independent as possible. In its original reading this implies only defining the *what* but leaving the *how* transparent. For semantics the implication is a more abstract one: the semantics of what is being communicated shall remain transparent to *how* it is represented. More specifically, agents shall rely on an external oracle that can change the semantic vehicle from its original source native representation to the destined target representation, without changing the semantic cargo. Agents, then, can communicate in their own native representations without the need to learn or integrate their peers’ representations.
-I. Scalable sIOP:
+1. Scalable sIOP:
     i. Variable in number of peers
     i. Variable in level of semantic heterogeneity
-I. Semantic concerns are foundational to sIOP (see \cref{fig:3Concerns} for three related ones):
+1. Semantic concerns are foundational to sIOP (see \cref{fig:3Concerns} for three related ones):
     i. Explicit and computational semantics by *conceptual modelling*: Bridgehead 
     ii. Managed and controlled sIOP by *semantic reconciliation*: Spanning
     iii. Automated sIOP by *semantic mediation*: Roadway. Address semantic issue about the non-equivalence between an alignment and a transcription (refer to \cite{Brandt2018b})
@@ -457,10 +457,10 @@ iii. Mix-n-Match (coarse-grained star-alignment with specialised bilateral align
 [def:sSoc]: src\images\SemanticSoC.png {#fig:sSoC width=448px height=426px} 
 
 
-# ISO42010  architectural viewpoint on sIOP  #
+# ISO42010 viewpoint on sIOP  #
 
 * *Created:*	Friday, July 20, 2018 3:43:03 PM
-* *Modified:*	Wednesday, September 5, 2018 12:37:18 PM
+* *Modified:*	Wednesday, September 5, 2018 1:03:33 PM
 * *Status:*	To Do
 * *Label:*	No Label
 
