@@ -46,12 +46,14 @@ In comparison, scalability was a big architectural concern in the past, requirin
 * Weak AI concerns (spanning): Since “strong AI” does not yet exist, sIOP remains in demand of human intervention in order to reconcile the semantic differences between collaborating software agents. However, human intervention is time consuming. We reduce the necessary human intervention to complement weak AI to a task that suffices to achieve sIOP, viz. authoring semantic alignments only (Section \ref{spanning-alignments});
 * Mediation concerns (roadway): We provide for a prototypical implementation of a mediator as the necessary component to automatically translate data when transferred between the collaborating software agents (Section \ref{roadway-mediation});
 * Principles: We base sIOP on establishing loose-coupling at the semantic level by introducing principles on semantic separation of concerns and semantic transparency (Section \ref{siop-principles}), and show how these principles can be operationalised;
-* ISO42010 Architecture Viewpoint: We formulate the architectural consequences of the above concerns as a specific sIOP Viewpoint in order to consolidate sIOP for contemporary architectural paradigms (Section \ref{architectural-viewpoint-on-siop}).
+* ISO42010 Architecture Viewpoint: We formulate the architectural consequences of the above concerns as a specific sIOP Viewpoint in order to consolidate sIOP for contemporary architectural paradigms (Section \ref{iso42010-viewpoint-on-siop}).
 
 Based on these contributions we [argue/defend] that access-and-play sIOP can be embedded and hidden in infrastructural services when considering semiotic fundamentals and adding loosely coupled formal semantics to contemporary architectural paradigms. To that end, we first describe the semiotic fundamentals in \cref{the-semiotic-and-philosophical-foundations-of-semantics}.
 
 </Text>
-            <Comments>Source: http://catless.ncl.ac.uk/Risks/14.57.html#subj1, accessed May 20, 2018</Comments>
+            <Comments>brandtp, 9/5/2018 We can apply another example, I’m open to that. Indeed a TOOP example could be appropriate. However, I cannot think of one but maybe Eric can?
+Source: http://catless.ncl.ac.uk/Risks/14.57.html#subj1, accessed May 20, 2018
+brandtp, 9/5/2018 Add sIOP-faults as appendix.</Comments>
         </Document>
         <Document ID="5">
             <Title>MMD cheat sheet</Title>
@@ -701,7 +703,8 @@ In conclusion, we explain software semantics as the reciprocity between data and
 &lt;!-- page additions --&gt;
 [def:softmodelsreal]: src\images\SoftwareModelsReality.png {#fig:software-models-reality}</Text>
             <Comments>brandtp, 8/30/2018 Make use of 42010 terminology
-brandtp, 8/30/2018 ... ditto ...</Comments>
+brandtp, 8/30/2018 ... ditto ...
+brandtp, 9/5/2018 Another design principle should be added to stimulate to make the ASM as small as possible, but not smaller than required. This is about finding a balance between level of aggregation and semantic resolution. Maybe add it not here but in section on sIOP Princples, where the balancing can be made more explicit.</Comments>
         </Document>
         <Document ID="53">
             <Title>Ontological commitment</Title>
