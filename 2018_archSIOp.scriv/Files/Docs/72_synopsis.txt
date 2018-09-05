@@ -1,4 +1,4 @@
-Purpose of this section: present a list of differences, and notably, that formal semantics can to some extend take the role as conceptualisation.
+Purpose of this section: present a list of differences.
 Refer to [@Henderson-Sellers2012]
 
 Conclusions:

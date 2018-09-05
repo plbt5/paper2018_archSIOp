@@ -26,6 +26,12 @@ abstract: |
 ...
 
 # Introduction #
+
+* *Created:*	Wednesday, December 28, 2016 1:23:05 PM
+* *Modified:*	Wednesday, August 29, 2018 5:29:56 PM
+* *Status:*	Revised Draft
+* *Label:*	No Label
+
 Never before, data were so ubiquitous, and managed access to external data was so easy. Because current ICT is unable to *use* all that same external, non-native data as access-and-play service, agility in business collaboration is hampered in all domains. For instance, consider the following (allegedly real) example of an interoperability failure.
 
 > A German steel producer upgraded its industrial process robot. Since the majority of the steel production process is dependent on time, from a security point of view the decision was made to not rely on their own internal clocks but to use the German *Braunschweig Funkuhr* time radio signal as source for the exact time instead. At the end of April 1993, when Germany went on summer time, the computer clock of the steel producer went from 1:59 AM to 3:00 AM in one minute. This resulted in a production line allowing molten ingots to cool for one hour less than normal. When the process controller thought the cooling time had expired, his actions splattered still-molten steel, damaging part of the facility.[^fn1]
@@ -46,6 +52,12 @@ Based on these contributions we [argue/defend] that access-and-play sIOP can be 
 
 
 # The semiotic and philosophical foundations of semantics #
+
+* *Created:*	Friday, May 25, 2018 3:01:46 PM
+* *Modified:*	Wednesday, September 5, 2018 12:22:10 PM
+* *Status:*	Under construction
+* *Label:*	No Label
+
 \begin{synopsis}
 Purpose of this section: To establish an informal but concrete notion on (i) the semiotic triangle and the relationsbetween its nodes, and (ii) ontological commitment and its relation to modelling languages.
 
@@ -53,6 +65,12 @@ Purpose of this section: To establish an informal but concrete notion on (i) the
 
 
 ## Semiotics ##
+
+* *Created:*	Wednesday, July 4, 2018 8:30:48 PM
+* *Modified:*	Wednesday, August 29, 2018 5:30:03 PM
+* *Status:*	Revised Draft
+* *Label:*	No Label
+
 \begin{synopsis}
 Present concrete notion on (i) the semiotic triangle and (ii) the relationsbetween its nodes.
 Show abstraction/generalisation as stacking of triangles vertically, and representational metalevels as stacking them horizontally.
@@ -77,6 +95,12 @@ Peirce also recognised that multiple triangles could be linked together in vario
 [def:semtriangles]: src\images\SemioticTriangles.png {#fig:semiotic-triangles width=600px height=200px}
 [def:linkedtriangles]: src\images\LinkedTriangles.png {#fig:linked-triangles width=600px height=230px}
 ## Ontological commitment ##
+
+* *Created:*	Wednesday, July 4, 2018 8:31:55 PM
+* *Modified:*	Wednesday, September 5, 2018 12:23:38 PM
+* *Status:*	To Do
+* *Label:*	No Label
+
 \begin{synopsis}
 Purpose of this section is to show the relevance of a (modelling) language: a language is used to convey distinctions. The distinctions that are aticulated by a language are denoted as its ontologcal commitment. Modelling languages need to show distinctions that are of relevance to the purpose of modelling. The predominant purpose of modelling is to describe (a particular domain in) reality by distinguishing the entities of interest. The ontological commitment for a modelling language therefore should be of ontological nature, “(...) not in order to know *what there is*, but in order to know what a given remark or doctrine, ours or someone else’s, *says* there is” [@Quine:1953er]. The ontological square or its extension into the ontological sextet [describe it] can be considered the most basic one, which have been specialized into several flavours, all called upper-level, or top-level, or foundational, ontologies, e.g., UFO, BFO, DOLCE and more. 
 
@@ -95,6 +119,12 @@ The contrast exemplified by these sentences shows that only when we commit to so
 
 
 # Bridgehead: Semantics #
+
+* *Created:*	Friday, May 25, 2018 2:59:48 PM
+* *Modified:*	Wednesday, September 5, 2018 12:24:23 PM
+* *Status:*	To Do
+* *Label:*	Concept
+
 \begin{synopsis}
 Purpose of this section: 
 \begin{enumerate}
@@ -110,6 +140,12 @@ Purpose of this section:
 
 
 ## What is software semantics ##
+
+* *Created:*	Wednesday, July 4, 2018 8:31:19 PM
+* *Modified:*	Wednesday, September 5, 2018 10:35:32 AM
+* *Status:*	First Draft
+* *Label:*	Concept
+
 \begin{synopsis}
 The purpose of this section is to explain software semantics as the "reciprocity between data and software code", and show that to some extent, set theory can replace the conceptualisation node.
 Conclude that the reciprocity between data and data processing code represents the smallest (atomic) semantic monolith.
@@ -176,12 +212,20 @@ In conclusion, we explain software semantics as the reciprocity between data and
 <!-- page additions -->
 [def:softmodelsreal]: src\images\SoftwareModelsReality.png {#fig:software-models-reality}
 ## Explicit semantics ##
+
+* *Created:*	Wednesday, August 22, 2018 11:19:51 AM
+* *Modified:*	Wednesday, September 5, 2018 12:32:54 PM
+* *Status:*	To Do
+* *Label:*	Concept
+
 \begin{synopsis}
 The purpose of this section is to establish that for representing semantics, descriptive models (i.e., ontologies) trump prescriptive models (all 42010 models)
 
-First make the distinction between descriptive and prescriptive models [@Henderson-Sellers2012], and in [@Aßmann2006]: "Specification models focus on the specification, control, and generation of systems; ontologies focus on description and conceptualization (conceptual modelling) of things. Both kinds of models have in common the qualities of abstraction and causal connection."
+Firstly, describe that formal semantics can to some extend take the role as conceptualisation, and hence using set theory as conceptualisation is the best option we have to address semantics. Consequently, show that semantic ambiguity then "only" follows from 4 construction issues (already presented in text below).
 
-FIrst argument shows that (i) the trueness of a model is laid in reality, which is impossible to achieve, and that (ii) the next best we can achieve is establishing the correctness of a model against its conceptualisation node. Finally, observe that (iii) 4 issues will influence the correctness of the model. Then conclude that the best tool to control these issues are the logics from descriptive models (viz. ontologies) at the one hand, and its use as ontological commitment for the prescriptive models (viz. the 42010 models)
+Secondly, make the distinction between descriptive and prescriptive models [@Henderson-Sellers2012], and in [@Aßmann2006]: "Specification models focus on the specification, control, and generation of systems; ontologies focus on description and conceptualization (conceptual modelling) of things. Both kinds of models have in common the qualities of abstraction and causal connection."
+
+Second argument shows that (i) the trueness of a model is laid in reality, which is impossible to achieve, and that (ii) the next best we can achieve is establishing the correctness of a model against its conceptualisation node. Finally, observe that (iii) 4 issues will influence the correctness of the model. Then conclude that the best tool to control these issues are the logics from descriptive models (viz. ontologies) at the one hand, and its use as ontological commitment for the prescriptive models (viz. the 42010 models)
 
 \end{synopsis}
 
@@ -197,8 +241,14 @@ This begs the question what we mean with model, and what criteria we should adop
 [def:constructissues]: src\images\ConstructIssues.png {#fig:construct-issues  width=533px height=210px}
 
 ### Modeling ###
+
+* *Created:*	Thursday, August 16, 2018 8:44:32 AM
+* *Modified:*	Wednesday, September 5, 2018 12:33:24 PM
+* *Status:*	To Do
+* *Label:*	No Label
+
 \begin{synopsis}
-Purpose of this section: present a list of differences, and notably, that formal semantics can to some extend take the role as conceptualisation.
+Purpose of this section: present a list of differences.
 Refer to [@Henderson-Sellers2012]
 
 Conclusions:
@@ -231,15 +281,21 @@ Conclusions:
 
 # Spanning: Alignments #
 
-Rephrase: despite the notoriously difficult philosophical questions involved, semantic interoperability can be seen as an engineering problem, namely that of effectively constraining interpretations towards the ones that are considered allowable [@Kuhn2009].
+* *Created:*	Friday, May 25, 2018 3:04:29 PM
+* *Modified:*	Wednesday, September 5, 2018 12:34:17 PM
+* *Status:*	No Status
+* *Label:*	No Label
 
-![The various forms of interoperability][def:2semtriangles]
 
 
-<!-- page additions -->
-[def:2semtriangles]: src\images\2SemioticTriangles.png {#fig:2semiotic-triangles width=510px height=216px}
 
 ## What is semantic interoperabiity ##
+
+* *Created:*	Wednesday, July 4, 2018 8:40:57 PM
+* *Modified:*	Wednesday, September 5, 2018 12:34:22 PM
+* *Status:*	To Do
+* *Label:*	No Label
+
 \begin{synopsis}
 \begin{enumerate}
   \item Explain sIOP:
@@ -254,7 +310,22 @@ Rephrase: despite the notoriously difficult philosophical questions involved, se
 \end{enumerate}
 
 \end{synopsis}
+
+
+Rephrase: despite the notoriously difficult philosophical questions involved, semantic interoperability can be seen as an engineering problem, namely that of effectively constraining interpretations towards the ones that are considered allowable [@Kuhn2009].
+
+![The various forms of interoperability][def:2semtriangles]
+
+
+<!-- page additions -->
+[def:2semtriangles]: src\images\2SemioticTriangles.png {#fig:2semiotic-triangles width=510px height=216px}
 ## Expicit sIOP by alignments ##
+
+* *Created:*	Tuesday, August 28, 2018 10:29:09 AM
+* *Modified:*	Wednesday, September 5, 2018 11:03:49 AM
+* *Status:*	To Do
+* *Label:*	No Label
+
 \begin{synopsis}
 Thus:
 
@@ -279,6 +350,12 @@ Thus:
 [def:3Concerns]: src\images\3SemanticConcerns.png {#fig:3Concerns width=495px height=693px} 
 
 # Roadway: Mediation #
+
+* *Created:*	Friday, May 25, 2018 3:04:50 PM
+* *Modified:*	Wednesday, September 5, 2018 11:51:47 AM
+* *Status:*	To Do
+* *Label:*	No Label
+
 \begin{synopsis}
 Purpose of this section: Establish requirements for a *generic* mediator.
 
@@ -292,15 +369,20 @@ With mediation we denote the process of transcribing a data term that originates
 \end{enumerate}
 \end{synopsis}
 # sIOP Principles #
+
+* *Created:*	Friday, May 25, 2018 2:22:13 PM
+* *Modified:*	Wednesday, September 5, 2018 12:35:21 PM
+* *Status:*	To Do
+* *Label:*	No Label
+
 \begin{synopsis}
 Purpose of this section: 
-
-* Show the semantic architecture as an additional layer that is orthogonal to current layers, expressing a separation of concerns between syntax and semantics (see [@Brandt:2013jh])
-
-* Define loosely coupled semantics as a result of applying the 2 principles 'semantic separation of concerns' and 'semantic transparency' (see [@Brandt:2013jh])
-
-* Repeat the Coherence Principle, the sIOP Coherence Principle, and the Ontological Commitment Principle, and show how they fit in the semantic architecture
-
+\begin{itemize}
+\item Show the semantic architecture as an additional layer that is orthogonal to current layers, expressing a separation of concerns between syntax and semantics (see [@Brandt:2013jh])
+\item Define loosely coupled semantics as a result of applying the 2 principles 'semantic separation of concerns' and 'semantic transparency' (see [@Brandt:2013jh])
+\item Repeat the Coherence Principle, the sIOP Coherence Principle, and the Ontological Commitment Principle, and show how they fit in the semantic architecture
+\item Better structure informal text below, towards more Principle definitions.
+\end{itemize}
 \end{synopsis}
 
 
@@ -319,7 +401,7 @@ I. Semantic concerns are foundational to sIOP (see \cref{fig:3Concerns} for thre
     ii. Managed and controlled sIOP by *semantic reconciliation*: Spanning
     iii. Automated sIOP by *semantic mediation*: Roadway. Address semantic issue about the non-equivalence between an alignment and a transcription (refer to \cite{Brandt2018b})
 
-*Ad. Dijkstra’s “Connected but as independent as possible”. Complement weak AI with human brain:
+*Ad. Dijkstra’s “Connected but as independent as possible”*. Complement weak AI with human brain:
 
  * use AI where possible (computational semantics for software agent; supporting semantic reconciliation)
  * use human brain where necessary (but not more): ontology engineering @ design time; alignment authoring @ pre-runtime
@@ -375,12 +457,30 @@ iii. Mix-n-Match (coarse-grained star-alignment with specialised bilateral align
 [def:sSoc]: src\images\SemanticSoC.png {#fig:sSoC width=448px height=426px} 
 
 
-# Architectural viewpoint on sIOP  #
+# ISO42010  architectural viewpoint on sIOP  #
+
+* *Created:*	Friday, July 20, 2018 3:43:03 PM
+* *Modified:*	Wednesday, September 5, 2018 12:37:18 PM
+* *Status:*	To Do
+* *Label:*	No Label
+
 \begin{synopsis}
-Consolidate the ideas on the bridgehead, spanning, roadway and principles into an additional ISO42010 Architectural Viewpoint (sIOP) that summarises all previous Sections as concerns on semantics and sIOP. Preferrably written by Eric.
+Consolidate the ideas on the bridgehead, spanning, roadway and principles into an additional ISO42010 Architectural Viewpoint (sIOP) that summarises all previous Sections as concerns on semantics and sIOP. ***Preferrably written by Eric.***
 
 \end{synopsis}
 # Related work #
+
+* *Created:*	Sunday, April 22, 2018 5:06:37 PM
+* *Modified:*	Wednesday, September 5, 2018 12:39:44 PM
+* *Status:*	Under construction
+* *Label:*	No Label
+
+\begin{synopsis}
+Group the papers into 3 (?) categories, and discuss their strong and weak points in relation to sIOP and architecture in general, and our paper specifically.
+
+\end{synopsis}
+
+
 Discuss the following papers:
 
 1. M. B. Almeida, C. P. Pessanha, and R. Barcelos, “Information Architecture for Organizations: An Ontological Approach,” in Ontology in Information Science, C. Thomas, Ed. IntechOpen, 2018, pp. 1–27.
@@ -394,6 +494,12 @@ Discuss the following papers:
 1. D. Gasevic, D. Djuric, and V. Devedzic, Eds., Model Driven Architecture and Ontology Development. Springer Berlin Heidelberg New York, 2006. Particularly Part II: The Model Driven Architecture and Ontologies
 
 # Discussion & future work #
+
+* *Created:*	Friday, May 25, 2018 3:05:09 PM
+* *Modified:*	Wednesday, September 5, 2018 11:51:47 AM
+* *Status:*	To Do
+* *Label:*	No Label
+
 \begin{synopsis}
 Address shortcomings that we discover throughout writing the sections. 
 
@@ -401,9 +507,17 @@ Conclude that by identifying a specific 42010 viewpoint on sIOP, a necessary con
 
 \end{synopsis}
 # References {-} 
+
+* *Created:*	Sunday, March 4, 2018 4:08:55 PM
+* *Modified:*	Wednesday, September 5, 2018 12:42:11 PM
+* *Status:*	Under construction
+* *Label:*	No Label
+
 \setlength{\parindent}{-0.2in}  
 
 \setlength{\leftskip}{0.2in}  
 
 \setlength{\parskip}{8pt} 
+Note:\todo{ brandtp, 9/5/2018 Also show the ref-id per reference *duh*} 
+
 [^fn1]: Source: http://catless.ncl.ac.uk/Risks/14.57.html#subj1, accessed May 20, 2018
