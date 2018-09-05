@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.8.0" Device="PC-17875" Modified="2018-09-04 14:43:09 +0200" ModID="1AB6F6AF-B27E-4D1D-984B-E22575BFA465">
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.8.0" Device="PC-17875" Modified="2018-09-05 09:57:32 +0200" ModID="4C6BED67-4A2A-4013-95FC-77937408D72D">
     <Binder>
         <BinderItem ID="5" UUID="B892768D-F62D-4A48-8846-84245826AF35" Created="2017-04-10 12:05:49 +0200" Modified="2017-04-10 12:05:49 +0200" Type="Text">
             <Title>MMD cheat sheet</Title>
@@ -277,7 +277,7 @@
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="73" UUID="1FA218EA-B4C1-4D21-B2D0-A35B75920BBE" Created="2018-08-22 11:19:51 +0200" Modified="2018-09-04 14:43:07 +0200" Type="Text">
+                        <BinderItem ID="73" UUID="1FA218EA-B4C1-4D21-B2D0-A35B75920BBE" Created="2018-08-22 11:19:51 +0200" Modified="2018-09-05 09:57:30 +0200" Type="Text">
                             <Title>Explicit semantics</Title>
                             <MetaData>
                                 <LabelID>0</LabelID>
@@ -285,7 +285,7 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>1326,0</TextSelection>
+                                <TextSelection Caret="1351">1327,24</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                             <Children>
@@ -304,13 +304,13 @@
                         </BinderItem>
                     </Children>
                 </BinderItem>
-                <BinderItem ID="47" UUID="0DF8B2A4-7CBA-4EED-BAB8-92256266A582" Created="2018-05-25 15:04:29 +0200" Modified="2018-08-28 10:20:21 +0200" Type="Text">
+                <BinderItem ID="47" UUID="0DF8B2A4-7CBA-4EED-BAB8-92256266A582" Created="2018-05-25 15:04:29 +0200" Modified="2018-09-05 09:19:56 +0200" Type="Text">
                     <Title>Spanning: Alignments</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>321,0</TextSelection>
+                        <TextSelection>450,0</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                     <Children>
@@ -345,14 +345,14 @@
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="44" UUID="201AFA4C-53AE-47AB-B517-A9B5DC091947" Created="2018-05-25 14:22:13 +0200" Modified="2018-09-04 10:19:43 +0200" Type="Text">
+                <BinderItem ID="44" UUID="201AFA4C-53AE-47AB-B517-A9B5DC091947" Created="2018-05-25 14:22:13 +0200" Modified="2018-09-05 09:41:29 +0200" Type="Text">
                     <Title>sIOP Principles</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                         <FileExtension>rtf</FileExtension>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>3090,0</TextSelection>
+                        <TextSelection>4848,0</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
@@ -365,14 +365,14 @@
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="39" UUID="8F4B7735-9D99-4F71-86D2-9A37E019A353" Created="2018-04-22 17:06:37 +0200" Modified="2018-09-04 09:28:19 +0200" Type="Text">
+                <BinderItem ID="39" UUID="8F4B7735-9D99-4F71-86D2-9A37E019A353" Created="2018-04-22 17:06:37 +0200" Modified="2018-09-05 09:54:19 +0200" Type="Text">
                     <Title>Related work</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                         <FileExtension>rtf</FileExtension>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>777,0</TextSelection>
+                        <TextSelection>1885,0</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
@@ -462,7 +462,7 @@
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>5695,0</TextSelection>
+                                <TextSelection>9608,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
@@ -619,7 +619,7 @@
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>265,0</TextSelection>
+                                <TextSelection>34,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
@@ -681,7 +681,7 @@
         </Collection>
         <Collection Type="RecentSearch" ID="DEADBEEF-0000-0000-0000-000000000000" Color="0.901961 0.901961 0.980392">
             <Title>Search Results</Title>
-            <SearchSettings Operator="Exact" Type="All" Scope="All" CompileSetting="All" CaseSensitive="No">SIOp</SearchSettings>
+            <SearchSettings Operator="Exact" Type="All" Scope="All" CompileSetting="All" CaseSensitive="No">RM-ODP</SearchSettings>
         </Collection>
         <Collection Type="Arbitrary" ID="18AB1D71-1C6E-4B63-93E1-6A8BEF516D46" Color="0.992157 0.972549 0.819608">
             <Title>Updated Documents</Title>

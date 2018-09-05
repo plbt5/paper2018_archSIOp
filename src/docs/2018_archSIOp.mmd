@@ -190,11 +190,11 @@ We have seen how the cognitive quality of the conceptualisation can be substitut
 
 ![Four different types of construction issues that come with formal semantics. Which one is more clear: (a)[@CarvalhoeSilva2012] or (b) [@Azevedo2015]?][def:constructissues] 
 
-This begs the question what we mean with model, and what criteria we should adopt to represent a conceptual model. This is especially relevant since in contemporary architectural paradigms models are being used as first class citizens to the architectures, MDA and ISP RM/ODP alike. 
+This begs the question what we mean with model, and what criteria we should adopt to represent a conceptual model. This is especially relevant since in contemporary architectural paradigms models are being used as first class citizens to the architectures, MDA, IEEE1471 and ISP RM/ODP alike. 
 
 
 <!-- page additions -->
-[def:constructissues]: src\images\ConstructIssues.png {#fig:construct-issues  width=792px height=566px}
+[def:constructissues]: src\images\ConstructIssues.png {#fig:construct-issues  width=533px height=210px}
 
 ### Modeling ###
 \begin{synopsis}
@@ -237,7 +237,7 @@ Rephrase: despite the notoriously difficult philosophical questions involved, se
 
 
 <!-- page additions -->
-[def:2semtriangles]: src\images\2SemioticTriangles.png {#fig:2semiotic-triangles width=90%}
+[def:2semtriangles]: src\images\2SemioticTriangles.png {#fig:2semiotic-triangles width=510px height=216px}
 
 ## What is semantic interoperabiity ##
 \begin{synopsis}
@@ -306,25 +306,25 @@ Purpose of this section:
 
 The main (business) requirement is to achieve sIOP as quickly as possible, with as minimal effort as possible, for collaborations that had not been foreseen and consequently could not be anticipated for during design time of the (two or more) software agents.
 
-Consequently, the software agents have been developed totally and completely independent from each other. 
-
-This raises the following semantic concerns:
+Consequently, the software agents have been developed totally and completely independent from each other. This raises the following semantic concerns:
 
 I. Loosely coupled semantics:
-
-    * Define semantics once during software design phase, and achieve sIOP many times with many different peers
-    * EW Dijkstra: Connected but as independent as possible: peer agents shall only publish *what* is meant with semantics, not *how* it is represented
-
+    i. Define semantics once during software design phase, and achieve sIOP many times with many different peers
+    i. EW Dijkstra: Connected but as independent as possible. In its original reading this implies only defining the *what* but leaving the *how* transparent. For semantics the implication is a more abstract one: the semantics of what is being communicated shall remain transparent to *how* it is represented. More specifically, agents shall rely on an external oracle that can change the semantic vehicle from its original source native representation to the destined target representation, without changing the semantic cargo. Agents, then, can communicate in their own native representations without the need to learn or integrate their peers’ representations.
 I. Scalable sIOP:
-    * Variable in number of peers
-    * Variable in level of semantic heterogeneity
-
-  
-1. Repeat the four semantic concerns (see \cref{fig:3Concerns} for three related ones):
+    i. Variable in number of peers
+    i. Variable in level of semantic heterogeneity
+I. Semantic concerns are foundational to sIOP (see \cref{fig:3Concerns} for three related ones):
     i. Explicit and computational semantics by *conceptual modelling*: Bridgehead 
     ii. Managed and controlled sIOP by *semantic reconciliation*: Spanning
     iii. Automated sIOP by *semantic mediation*: Roadway. Address semantic issue about the non-equivalence between an alignment and a transcription (refer to \cite{Brandt2018b})
-          
+
+*Ad. Dijkstra’s “Connected but as independent as possible”. Complement weak AI with human brain:
+
+ * use AI where possible (computational semantics for software agent; supporting semantic reconciliation)
+ * use human brain where necessary (but not more): ontology engineering @ design time; alignment authoring @ pre-runtime
+
+     
 ***Achieve loosely coupled semantics***
   
 Loose coupling is founded on principles about (i) separation of concerns, and (ii) transparency:
@@ -347,18 +347,12 @@ Loose coupling is founded on principles about (i) separation of concerns, and (i
 
 Formulate the principles in the format according to [@Greefhorst2011]
 
-*Ad.semantic separation of concern*. Where in its classical application the result of applying the principle is that atomic functions are defined, designed and implemented only once and remain unique, in its semantic application the result of applying this principle is that every software agent maintains its own semantics. Semantics are, therefore, distributed all over the place. This seems counterintuitive or even plain wrong, however, it is necessary for complying with the concern about semantic scalability (in support of heterogeneous semantics). Besides that, it is a direct consequence of the demand to allow for independent software development
+*Ad. semantic separation of concern*. Where in its classical application the result of applying the principle is that atomic functions are defined, designed and implemented only once and remain unique, in its semantic application the result of applying this principle is that every software agent maintains its own semantics. Semantics are, therefore, distributed all over the place. This seems counterintuitive or even plain wrong, however, it is necessary for complying with the concern about semantic scalability (in support of heterogeneous semantics). Besides that, it is a direct consequence of the demand to allow for independent software development
 
-    * Principle: specify ontological commitment as basic 
-    * Refer to (and partly reuse?) semantic architecture from [@Brandt2013], depicted in \cref{fig:sSoC}
+ * Principle: specify ontological commitment as basic 
+ * Refer to (and partly reuse?) semantic architecture from [@Brandt2013], depicted in \cref{fig:sSoC}
 
 ![An architecture for loosely coupled semantics, founded on semantic SoC and semantic transparency [@Brandt2013]][def:sSoC]
-
-
-1. Complement weak AI with human brain:
-
-    * use AI where possible (computational semantics for software agent; supporting semantic reconciliation)
-    * use human brain where necessary (but not more): ontology engineering @ design time; alignment authoring @ pre-runtime
 
  
 ***Achieve Scalable sIOP***
@@ -367,7 +361,7 @@ Ensure that different semantic topologies remain possible:
  
 i. Star alignments (central domain ontology, aligned to local ontologies) for relative stable and homogeneous domain semantics
     * Good: easy semantic governance
-    * Bad: very similar to a semantic monolith
+    * Bad: very big semantic monolith, hence, low agility in dynamic environments
 ii. Mesh alignments (bilateral alignments) for very dynamic and heterogeneous (domain) semantics, or low number of peers
     * Good: quickly established bilateral sIOP; granularity-on-demand, viz. intricate where necessary, coarse-grained where possible
     * Bad: complicated semantic governance
@@ -387,13 +381,18 @@ Consolidate the ideas on the bridgehead, spanning, roadway and principles into a
 
 \end{synopsis}
 # Related work #
-[1] M. B. Almeida, C. P. Pessanha, and R. Barcelos, “Information Architecture for Organizations: An Ontological Approach,” in Ontology in Information Science, C. Thomas, Ed. IntechOpen, 2018, pp. 1–27.
+Discuss the following papers:
 
-[2] S. Yang, J. Guo, and R. Wei, “Semantic interoperability with heterogeneous information systems on the internet through automatic tabular document exchange,” Inf. Syst., vol. 69, pp. 195–217, Sep. 2017.
+1. M. B. Almeida, C. P. Pessanha, and R. Barcelos, “Information Architecture for Organizations: An Ontological Approach,” in Ontology in Information Science, C. Thomas, Ed. IntechOpen, 2018, pp. 1–27.
+2. S. Yang, J. Guo, and R. Wei, “Semantic interoperability with heterogeneous information systems on the internet through automatic tabular document exchange,” Inf. Syst., vol. 69, pp. 195–217, Sep. 2017.
+3. U. Aßmann, S. Zschaler, and G. Wagner, “Ontologies, Meta-models, and the Model-Driven Paradigm,” in Ontologies for Software Engineering and Software Technology, C. Calero, F. Ruiz, and M. Piattini, Eds. Springer-Verlag Berlin Heidelberg, 2006, pp. 249–273.
+4. C. Atkinson and T. Kühne, “The Essence of Multilevel Metamodeling,” LNCS, vol. 2185, pp. 19–33, 2001.
+1. H. Carvalho e Silva, R. de Cassia Cordeiro de Castro, M. J. Negreiros Gomes, and A. Salles Garcia, Well-Founded IT Architecture Ontology: An Approach from a Service Continuity Perspective, vol. 294. Springer-Verlag Berlin Heidelberg, 2012.
+1. R. Carraretto, “Separating Ontological and Informational Concerns : A Model-driven Approach for Conceptual Modeling,” Federal University of Espírito Santo, 2012.
+1. C. L. B. Azevedo, M. E. Iacob, J. P. A. Almeida, M. J. van Sinderen, L. F. Pires, and G. Guizzardi, “Modeling resources and capabilities in enterprise architecture: A well-founded ontology-based proposal for ArchiMate,” Inf. Syst., vol. 54, pp. 235–262, 2015.
+1. M. B. Almeida, C. P. Pessanha, and R. Barcelos, “Information Architecture for Organizations: An Ontological Approach,” in Ontology in Information Science, C. Thomas, Ed. IntechOpen, 2018, pp. 1–27.
+1. D. Gasevic, D. Djuric, and V. Devedzic, Eds., Model Driven Architecture and Ontology Development. Springer Berlin Heidelberg New York, 2006. Particularly Part II: The Model Driven Architecture and Ontologies
 
-[3] U. Aßmann, S. Zschaler, and G. Wagner, “Ontologies, Meta-models, and the Model-Driven Paradigm,” in Ontologies for Software Engineering and Software Technology, C. Calero, F. Ruiz, and M. Piattini, Eds. Springer-Verlag Berlin Heidelberg, 2006, pp. 249–273.
-
-[4] C. Atkinson and T. Kühne, “The Essence of Multilevel Metamodeling,” LNCS, vol. 2185, pp. 19–33, 2001.
 # Discussion & future work #
 \begin{synopsis}
 Address shortcomings that we discover throughout writing the sections. 
