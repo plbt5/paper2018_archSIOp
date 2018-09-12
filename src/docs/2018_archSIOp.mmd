@@ -28,9 +28,9 @@ abstract: |
 # Introduction #
 
 * *Created:*	Wednesday, December 28, 2016 1:23:05 PM
-* *Modified:*	Wednesday, September 5, 2018 1:25:44 PM
-* *Status:*	Revised Draft
-* *Label:*	No Label
+* *Modified:*	Friday, September 7, 2018 2:39:27 PM
+* *Status:*	No Status
+Phase:	Revised draft
 
 Never before, data were so ubiquitous, and managed access to external data was so easy. Because current ICT is unable to *use* all that same external, non-native data as access-and-play service, agility in business collaboration is hampered in all domains. For instance, consider the following (allegedly real) example of an interoperability failure.\todo{ brandtp, 9/5/2018 We can apply another example, I’m open to that. Indeed a TOOP example could be appropriate. However, I cannot think of one but maybe Eric can?} 
 
@@ -54,9 +54,9 @@ Based on these contributions we [argue/defend] that access-and-play sIOP can be 
 # The semiotic and philosophical foundations of semantics #
 
 * *Created:*	Friday, May 25, 2018 3:01:46 PM
-* *Modified:*	Wednesday, September 5, 2018 12:22:10 PM
-* *Status:*	Under construction
-* *Label:*	No Label
+* *Modified:*	Friday, September 7, 2018 2:39:27 PM
+* *Status:*	No Status
+Phase:	No Label
 
 \begin{synopsis}
 Purpose of this section: To establish an informal but concrete notion on (i) the semiotic triangle and the relationsbetween its nodes, and (ii) ontological commitment and its relation to modelling languages.
@@ -67,9 +67,9 @@ Purpose of this section: To establish an informal but concrete notion on (i) the
 ## Semiotics ##
 
 * *Created:*	Wednesday, July 4, 2018 8:30:48 PM
-* *Modified:*	Wednesday, August 29, 2018 5:30:03 PM
-* *Status:*	Revised Draft
-* *Label:*	No Label
+* *Modified:*	Friday, September 7, 2018 2:39:27 PM
+* *Status:*	No Status
+Phase:	Revised draft
 
 \begin{synopsis}
 Present concrete notion on (i) the semiotic triangle and (ii) the relationsbetween its nodes.
@@ -97,9 +97,9 @@ Peirce also recognised that multiple triangles could be linked together in vario
 ## Ontological commitment ##
 
 * *Created:*	Wednesday, July 4, 2018 8:31:55 PM
-* *Modified:*	Wednesday, September 5, 2018 12:23:38 PM
-* *Status:*	To Do
-* *Label:*	No Label
+* *Modified:*	Wednesday, September 12, 2018 1:28:06 PM
+* *Status:*	No Status
+Phase:	Argumentation
 
 \begin{synopsis}
 Purpose of this section is to show the relevance of a (modelling) language: a language is used to convey distinctions. The distinctions that are aticulated by a language are denoted as its ontologcal commitment. Modelling languages need to show distinctions that are of relevance to the purpose of modelling. The predominant purpose of modelling is to describe (a particular domain in) reality by distinguishing the entities of interest. The ontological commitment for a modelling language therefore should be of ontological nature, “(...) not in order to know *what there is*, but in order to know what a given remark or doctrine, ours or someone else’s, *says* there is” [@Quine:1953er]. The ontological square or its extension into the ontological sextet [describe it] can be considered the most basic one, which have been specialized into several flavours, all called upper-level, or top-level, or foundational, ontologies, e.g., UFO, BFO, DOLCE and more. 
@@ -109,21 +109,33 @@ Show how MDE/MDA applies an ontological commitment as defined in M3, which facil
 \end{synopsis}
 
 
-Apart from this strict semiotics notion, semantics are also influenced by philosophy and need consensus on the question “when are we committed to the existence of certain entities?”. It is relevant to acknowledge that humans maintain assumptions and background knowledge, both of which impact the semeiosis and, hence, semantics. This is where the conceptualisation plays an important role as frame of reference to our understanding, also denoted as the *ontological commitment*. Consider the following classical sentences\todo{ brandtp, 9/3/2018 This is too philosophcal for the readin gublic. Skip this and describe it as in the synopsis.} :
+Apart from this strict semiotics notion, semantics are also influenced by philosophy and need consensus on the question “when are we committed to the existence of certain entities?”. It is relevant to acknowledge that humans maintain assumptions and background knowledge, both of which impact their semeiosis and, hence, semantics. This is where the conceptualisation plays an important role as frame of reference to our understanding, also denoted as the *ontological commitment*. 
 
-* Sentence 1: “the king of France is bald”. This sentence has got a useful meaning, being that in case of a king of France, the dear fellow is as bald as a coot. We did not say *that* a king of France exists, nor *that* bald men exist; we only used these two phrases to *refer* to things that might or might not exist. Hence, we do not need to commit to the existence of a king of France, nor to the existence of bald men, before we can formulate the sentence that *if* there is a king of France, he must be bald. Still, and despite being a meaningful sentence, “the king of France” does not refer to something (as France is a republic), and therefore we cannot render the truth of the sentence.
-* Sentence 2: “the species *leo* (lions) is extinct”. Despite the similarity with the linguistic structure of the previous sentence, in this case we do need to commit to the existence of the species leo. The reason for this is that we do not imply here something about one individual but about something that many individuals have in common, i.e., that which defines an entity as member of the leo species. Without accepting that “there is something” that we consider characteristic of the species of leo and leo alone, we defy the group as a whole, i.e., the universal type that each of them instantiates. And if we defy the existence of the universal type, we defy that “there is something”. But if we defy that “there is something”, it would be nonsense to even speak about any of its qualities, in this case extinction. Therefore, by defying the existence of the species, we defy the meaning of the sentence itself. We therefore are forced to commit to the existence of the species.
+When the domain analyst asks questions in order to determine the entities that play a role for a particular (domain of) application, the resulting model (of the conceptualisation) represents the commitment that the domain users have about the entities that they consider relevant to discern. We denote this the *domain commitment* from the users to their domain. In philosophy [@Bricker2016], similar questions are asked that relate to “life, the universe and everything” as opposed to a single domain of application: What *kind* of entities exist? Are the universal aspects that seem to be shared between individual entities, e.g., colour of weight, taken to be *sui generis*? These are questions of ontology. However, in a somewhat more pragmatic view these questions can be asked in a more constrained, methodological nature: What kinds of entity exist *according to a given theory or discourse*? This is a matter of *meta-ontology* and its answers provide for a generic framework of distinction that represents a useful meta-model to the domain analyst, denoted the *ontological commitment. *A language is used to convey distinctions, distinctions that are articulated by its ontological commitment.  
 
-The contrast exemplified by these sentences shows that only when we commit to something (here “the species *leo*”), the theory that we propose (here “is extinct”) can *refer* to that something in order to *establish its validity*; clearly, in our world the theory is invalid, i.e., renders `False`, given the many counter examples of lions being alive. We consider this the philosophical cornerstone for semantics: we can assess the semantic validity of any proposition if and only if the underlying ontological commitment can be referred to. Furthermore, any assessment towards semantic interoperability of two semantic theories cannot be made without an assessment of the similarity between their underlying ontological commitments. Note, however, that “We look to (…) Ontology not in order to know *what there is*, but in order to know what a given remark or doctrine, ours or someone else’s, *says* there is” [@Quine:1953er].   
+Modelling languages need to show distinctions that are of relevance to the purpose of modelling. The predominant purpose of modelling is to describe (a particular domain in) reality by distinguishing the entities of interest. The ontological commitment for a modelling language therefore should be of ontological nature, “(...) not in order to know *what there is*, but in order to know what a given remark or doctrine, ours or someone else’s, *says* there is” [@Quine:1953er]. The ontological square [@Lowe2006b] can be considered the most basic one, which is obtained by considering two formal but independent distinctions: that between *types* (or *Universals*) and *individuals* (or *Particulars*), and that between *characteristics* (or *Properties*) and their *bearers* (or *Substrates*). The resulting four categories are depicted in \cref{fig:onto-square-and-sextet}(a) with causal relations that exist between them. Its extension into the ontological sextet [@Smith2005] is just to acknowledge that at some point the influence of time should be incorporated as well. This has been depicted in \cref{fig:onto-square-and-sextet}(b). Clearly, similar formal distinctions can be observed in contemporary modelling paradigms at their uppermost meta-level: OMG’s MOF M3 metametamodel distinguishes between the *Association* and the *Class*, while the Resource Description Framework’s language distinguishes primarily between a *subject*, an *object*, and the directed *property* relation between them. All these ontological commitments are very generic, intended to be applicable for all circumstances. Unfortunately, being very generic, the ontological commitments remain very sparse regarding their capability as a language to distinguish; for all examples above, it is impossible to differentiate, for example, between the cup and the coffee that it holds, while intuitively, these are very different from each other. The more extended an ontological commitment becomes, the more it can distinguish as a language between things that we are interested in. However, the more extended, the more it impacts the differentiations might become irrelevant or even 
 
+![The ontological square (a) according to [@Lowe2006b], and its extension into a sextet (a)&(b) according to [@Smith2005]][def:osas]
+
+which have been specialised into several flavours, all called { upper-level | top-level | foundational } ontologies, e.g., UFO, SUMO, BFO, DOLCE and more [@Jansen2008]. 
+
+ that the conceptual model commits to, and can be found as meta-model or modelling language in modelling paradigms.
+
+
+
+We consider this the philosophical cornerstone for semantics: we can assess the semantic validity of any proposition if and only if the underlying ontological commitment can be referred to. Furthermore, any assessment towards semantic interoperability of two semantic theories cannot be made without an assessment of the similarity between their underlying ontological commitments. Note, however, that “We look to (…) Ontology not in order to know *what there is*, but in order to know what a given remark or doctrine, ours or someone else’s, *says* there is” [@Quine:1953er].   
+
+
+<!-- page additions -->
+[def:osas]: src\images\OntoSquareAndSextet.png {#fig:onto-square-and-sextet width=600px height=300px}
 
 
 # Bridgehead: Semantics #
 
 * *Created:*	Friday, May 25, 2018 2:59:48 PM
-* *Modified:*	Wednesday, September 5, 2018 12:24:23 PM
-* *Status:*	To Do
-* *Label:*	Concept
+* *Modified:*	Friday, September 7, 2018 2:39:27 PM
+* *Status:*	No Status
+Phase:	No Label
 
 \begin{synopsis}
 Purpose of this section: 
@@ -142,9 +154,9 @@ Purpose of this section:
 ## What is software semantics ##
 
 * *Created:*	Wednesday, July 4, 2018 8:31:19 PM
-* *Modified:*	Wednesday, September 5, 2018 1:31:58 PM
-* *Status:*	First Draft
-* *Label:*	Concept
+* *Modified:*	Friday, September 7, 2018 2:39:27 PM
+* *Status:*	No Status
+Phase:	1st draft
 
 \begin{synopsis}
 The purpose of this section is to explain software semantics as the "reciprocity between data and software code", and show that to some extent, set theory can replace the conceptualisation node.
@@ -214,9 +226,9 @@ In conclusion, we explain software semantics as the reciprocity between data and
 ## Explicit semantics ##
 
 * *Created:*	Wednesday, August 22, 2018 11:19:51 AM
-* *Modified:*	Wednesday, September 5, 2018 12:32:54 PM
-* *Status:*	To Do
-* *Label:*	Concept
+* *Modified:*	Friday, September 7, 2018 2:39:27 PM
+* *Status:*	No Status
+Phase:	Argumentation
 
 \begin{synopsis}
 The purpose of this section is to establish that for representing semantics, descriptive models (i.e., ontologies) trump prescriptive models (all 42010 models)
@@ -243,9 +255,9 @@ This begs the question what we mean with model, and what criteria we should adop
 ### Modeling ###
 
 * *Created:*	Thursday, August 16, 2018 8:44:32 AM
-* *Modified:*	Wednesday, September 5, 2018 12:33:24 PM
-* *Status:*	To Do
-* *Label:*	No Label
+* *Modified:*	Friday, September 7, 2018 2:39:27 PM
+* *Status:*	No Status
+Phase:	Argumentation
 
 \begin{synopsis}
 Purpose of this section: present a list of differences.
@@ -284,7 +296,7 @@ Conclusions:
 * *Created:*	Friday, May 25, 2018 3:04:29 PM
 * *Modified:*	Wednesday, September 5, 2018 12:34:17 PM
 * *Status:*	No Status
-* *Label:*	No Label
+Phase:	No Label
 
 
 
@@ -292,9 +304,9 @@ Conclusions:
 ## What is semantic interoperabiity ##
 
 * *Created:*	Wednesday, July 4, 2018 8:40:57 PM
-* *Modified:*	Wednesday, September 5, 2018 12:34:22 PM
-* *Status:*	To Do
-* *Label:*	No Label
+* *Modified:*	Friday, September 7, 2018 2:39:27 PM
+* *Status:*	No Status
+Phase:	Argumentation
 
 \begin{synopsis}
 \begin{enumerate}
@@ -322,9 +334,9 @@ Rephrase: despite the notoriously difficult philosophical questions involved, se
 ## Expicit sIOP by alignments ##
 
 * *Created:*	Tuesday, August 28, 2018 10:29:09 AM
-* *Modified:*	Wednesday, September 5, 2018 11:03:49 AM
-* *Status:*	To Do
-* *Label:*	No Label
+* *Modified:*	Friday, September 7, 2018 2:39:27 PM
+* *Status:*	No Status
+Phase:	Argumentation
 
 \begin{synopsis}
 Thus:
@@ -352,9 +364,9 @@ Thus:
 # Roadway: Mediation #
 
 * *Created:*	Friday, May 25, 2018 3:04:50 PM
-* *Modified:*	Wednesday, September 5, 2018 11:51:47 AM
-* *Status:*	To Do
-* *Label:*	No Label
+* *Modified:*	Friday, September 7, 2018 2:39:27 PM
+* *Status:*	No Status
+Phase:	Argumentation
 
 \begin{synopsis}
 Purpose of this section: Establish requirements for a *generic* mediator.
@@ -371,9 +383,9 @@ With mediation we denote the process of transcribing a data term that originates
 # sIOP Principles #
 
 * *Created:*	Friday, May 25, 2018 2:22:13 PM
-* *Modified:*	Wednesday, September 5, 2018 12:47:45 PM
-* *Status:*	To Do
-* *Label:*	No Label
+* *Modified:*	Friday, September 7, 2018 2:39:27 PM
+* *Status:*	No Status
+Phase:	Argumentation
 
 \begin{synopsis}
 Purpose of this section: 
@@ -460,9 +472,9 @@ iii. Mix-n-Match (coarse-grained star-alignment with specialised bilateral align
 # ISO42010 viewpoint on sIOP  #
 
 * *Created:*	Friday, July 20, 2018 3:43:03 PM
-* *Modified:*	Wednesday, September 5, 2018 1:03:33 PM
-* *Status:*	To Do
-* *Label:*	No Label
+* *Modified:*	Friday, September 7, 2018 2:39:27 PM
+* *Status:*	No Status
+Phase:	Argumentation
 
 \begin{synopsis}
 Consolidate the ideas on the bridgehead, spanning, roadway and principles into an additional ISO42010 Architectural Viewpoint (sIOP) that summarises all previous Sections as concerns on semantics and sIOP. ***Preferrably written by Eric.***
@@ -471,9 +483,9 @@ Consolidate the ideas on the bridgehead, spanning, roadway and principles into a
 # Related work #
 
 * *Created:*	Sunday, April 22, 2018 5:06:37 PM
-* *Modified:*	Wednesday, September 5, 2018 12:39:44 PM
-* *Status:*	Under construction
-* *Label:*	No Label
+* *Modified:*	Friday, September 7, 2018 2:39:27 PM
+* *Status:*	No Status
+Phase:	Argumentation
 
 \begin{synopsis}
 Group the papers into 3 (?) categories, and discuss their strong and weak points in relation to sIOP and architecture in general, and our paper specifically.
@@ -496,9 +508,9 @@ Discuss the following papers:
 # Discussion & future work #
 
 * *Created:*	Friday, May 25, 2018 3:05:09 PM
-* *Modified:*	Wednesday, September 5, 2018 11:51:47 AM
-* *Status:*	To Do
-* *Label:*	No Label
+* *Modified:*	Friday, September 7, 2018 2:39:27 PM
+* *Status:*	No Status
+Phase:	Argumentation
 
 \begin{synopsis}
 Address shortcomings that we discover throughout writing the sections. 
@@ -509,9 +521,9 @@ Conclude that by identifying a specific 42010 viewpoint on sIOP, a necessary con
 # References {-} 
 
 * *Created:*	Sunday, March 4, 2018 4:08:55 PM
-* *Modified:*	Wednesday, September 5, 2018 12:42:11 PM
-* *Status:*	Under construction
-* *Label:*	No Label
+* *Modified:*	Friday, September 7, 2018 2:39:27 PM
+* *Status:*	No Status
+Phase:	No Label
 
 \setlength{\parindent}{-0.2in}  
 
