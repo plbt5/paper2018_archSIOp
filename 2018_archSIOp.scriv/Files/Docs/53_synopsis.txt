@@ -2,4 +2,5 @@ Purpose of this section is to show the relevance of a (modelling) language: a la
 
 Show how MDE/MDA applies an ontological commitment as defined in M3, which facilitates an equivalent distinction as the ontological square, but less than the ontol.sextet.
  
+Optionally, provide for the distinctions/theories that are foundational to the two most appropriate ontological commitments / foundational ontologies: BFO and UFO.
 \end{synopsis}
