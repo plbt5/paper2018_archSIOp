@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.8.0" Device="PC-17875" Modified="2018-09-18 11:46:22 +0200" ModID="F58EF37B-2F67-459E-B609-7493F330AC75">
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.8.0" Device="PC-17875" Modified="2018-09-18 11:52:49 +0200" ModID="780F0E41-2964-433E-9678-DCDE0FE93287">
     <Binder>
         <BinderItem ID="5" UUID="B892768D-F62D-4A48-8846-84245826AF35" Created="2017-04-10 12:05:49 +0200" Modified="2017-04-10 12:05:49 +0200" Type="Text">
             <Title>MMD cheat sheet</Title>
@@ -179,7 +179,7 @@
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
             <Children>
-                <BinderItem ID="3" UUID="FDE3A400-F9AC-4C43-9E25-1275886F76DE" Created="2016-12-28 13:11:59 +0200" Modified="2018-09-17 14:16:52 +0200" Type="Text">
+                <BinderItem ID="3" UUID="FDE3A400-F9AC-4C43-9E25-1275886F76DE" Created="2016-12-28 13:11:59 +0200" Modified="2018-09-18 11:49:28 +0200" Type="Text">
                     <Title>meta-data</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -187,7 +187,7 @@
                         <IconFileName>Information.tiff</IconFileName>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>2754,0</TextSelection>
+                        <TextSelection>1417,0</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
@@ -235,15 +235,15 @@
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="53" UUID="2B718AB0-8CA6-4D53-8005-936639FDFE18" Created="2018-07-04 20:31:55 +0200" Modified="2018-09-13 08:59:18 +0200" Type="Text">
+                        <BinderItem ID="53" UUID="2B718AB0-8CA6-4D53-8005-936639FDFE18" Created="2018-07-04 20:31:55 +0200" Modified="2018-09-18 11:52:39 +0200" Type="Text">
                             <Title>Ontological commitment</Title>
                             <MetaData>
-                                <LabelID>5</LabelID>
+                                <LabelID>6</LabelID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>1519,0</TextSelection>
+                                <TextSelection>1572,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
@@ -259,15 +259,15 @@
                         <Target Type="Words">0</Target>
                     </TextSettings>
                     <Children>
-                        <BinderItem ID="52" UUID="7E8CD1DC-958E-405D-941C-B09DF79ECCAC" Created="2018-07-04 20:31:19 +0200" Modified="2018-09-18 11:46:20 +0200" Type="Text">
+                        <BinderItem ID="52" UUID="7E8CD1DC-958E-405D-941C-B09DF79ECCAC" Created="2018-07-04 20:31:19 +0200" Modified="2018-09-18 11:52:47 +0200" Type="Text">
                             <Title>What is software semantics</Title>
                             <MetaData>
-                                <LabelID>5</LabelID>
+                                <LabelID>6</LabelID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection Caret="5153">5137,16</TextSelection>
+                                <TextSelection>9349,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
@@ -672,7 +672,7 @@
     <ProjectTargets>
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-04-24 00:00:00 +0000" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="No" WritingDays="">0</SessionTarget>
-        <PreviousSession Words="98" Characters="677" Date="2018-09-17 10:43:18 +0200"/>
+        <PreviousSession Words="98" Characters="680" Date="2018-09-17 10:43:18 +0200"/>
     </ProjectTargets>
     <Collections>
         <Collection Type="Binder" ID="CAFEBABE-0000-0000-0000-000000000000" Color="0.901961 0.917647 0.933333">
