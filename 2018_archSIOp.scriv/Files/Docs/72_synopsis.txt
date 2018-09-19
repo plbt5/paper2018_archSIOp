@@ -1,9 +1,0 @@
-Purpose of this section: present a list of differences.
-Refer to [@Henderson-Sellers2012]
-
-Conclusions:
-\begin{enumerate}
-\item ontologies are more appropriate artefacts for conceptual models than system models
-\item as in [@Aßmann2006]: "Specification models focus on the specification, control, and generation of systems; ontologies focus on description and conceptualization (conceptual modelling) of things. Both kinds of models have in common the qualities of abstraction and causal connection."
-\end{enumerate}
-\end{synopsis}
