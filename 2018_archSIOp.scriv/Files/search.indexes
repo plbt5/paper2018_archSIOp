@@ -620,7 +620,7 @@ Guizzardi2005</Text>
         <Document ID="51">
             <Title>Semiotics</Title>
             <Synopsis>Present concrete notion on (i) the semiotic triangle and (ii) the relationsbetween its nodes.
-Show abstraction/generalisation as stacking of triangles vertically, and representational metalevels as stacking them horizontally.
+Show abstraction/generalisation as stacking of triangles vertically, and representational meta-levels as stacking them horizontally.
 
 \end{synopsis}
 </Synopsis>
@@ -634,7 +634,7 @@ Where Peirce denotes the *object*, we prefer the use of *entity* due to the ambi
 
 ![Linking triadic models together.][def:linkedtriangles]
 
-Peirce also recognised that multiple triangles could be linked together in various ways [in: @Sowa:2000di]. By stacking them together, as depicted in \cref{fig:linked-triangles}(a), a conceptualisation is made of “representing an entity”: the original concept of a [|cat] named “Yojo”, depicted in \cref{fig:semiotic-triangles}(c), is being conceptualised as the concept of a [|cat named “Yojo”] and represented by [|cat:Yojo]. In [@Eco1976], Eco uses the term *unlimited semeiosis* to refer to the succession of stacking signs that emerge from that, ad infinitum. We consider unlimited semeiosis as addressing a dimension of comprehension about abstraction and generalisation, with an eventual finish in the ultimate [|Thing] concept. Linking the triangles horizontally results in different representational metalevels, depicted in \cref{fig:linked-triangles}(b): From right to left, the characters “Y” “o” “j” and “o” are conceptualised as a single [|word] and represented as “Yojo”, which is conceptualised as a [|name] and represented as “name:Yojo”, which is conceptualised as an [|identifier] that might be represented as “Id=’name:Yojo’ ”.    
+Peirce also recognised that multiple triangles could be linked together in various ways [in: @Sowa:2000di]. By stacking them together, as depicted in \cref{fig:linked-triangles}(a), a conceptualisation is made of “representing an entity”: the original concept of a [|cat] named “Yojo”, depicted in \cref{fig:semiotic-triangles}(c), is being conceptualised as the concept of a [|cat named “Yojo”] and represented by [|cat:Yojo]. In [@Eco1976], Eco uses the term *unlimited semeiosis* to refer to the succession of stacking signs that emerge from that, ad infinitum. We consider unlimited semeiosis as addressing a dimension of comprehension about abstraction and generalisation, with an eventual finish in the ultimate [|Thing] concept. Linking the triangles horizontally results in different representational meta-levels, depicted in \cref{fig:linked-triangles}(b): From right to left, the characters “Y” “o” “j” and “o” are conceptualised as a single [|word] and represented as “Yojo”, which is conceptualised as a [|name] and represented as “name:Yojo”, which is conceptualised as an [|identifier] that might be represented as “Id=’name:Yojo’ ”.    
 
 &lt;!-- page additions --&gt;
 [def:semtriangles]: src\images\SemioticTriangles.png {#fig:semiotic-triangles width=600px height=200px}
@@ -689,17 +689,17 @@ Establish explicit coherence between the models that are contained in a semantic
 \item understandability ...?
 \end{enumerate}  
 \end{mmdp}
-Coherence between models can be established with use of a single unique reference against which the truth of the expressions of both models can be verified. In semiotics, this single unique reference is considered reality, as indicated in \cref{fig:semiotic-triangles}(b) by the *trueness* characteristic. Except as toy example in [@Steels:2008tr], this is clearly not possible. The *correctness* characteristic is the only alternative left, taking the conceptualisation node as its principle point of reference, as depicted in \cref{fig:single-semantic-reference}(b). This is exactly what the mathematical branch of *formal semantics* achieves [@Gamut1991; @Genesereth:1987dg] with its three main characteristics, viz. connecting (i) an abstract syntax of a language to (ii) a domain of interpretation (usually a set theoretic framework) by defining (iii) an interpretation function from the abstract syntax onto the set theoretic framework. In terms of the semiotic triangle, \cref{fig:semiotic-triangles}(b), this implies the following:
+Coherence between models can be established with use of a single unique reference against which the truth of the expressions of both models can be verified. In semiotics, this single unique reference is considered reality, as indicated in \cref{fig:semiotic-triangles}(b) by the *trueness* characteristic. Except as toy example in [@Steels:2008tr], this is clearly not possible. The *correctness* characteristic is the only alternative left, taking the conceptualisation node as its principle point of reference, as depicted in \cref{fig:single-semantic-reference}(b). This is exactly what the mathematical branch of *formal semantics* achieves [@Gamut1991; @Genesereth:1987dg] with its three main characteristics, depicted in \cref{fig:single-semantic-reference}(a), viz. connecting (i) an abstract syntax of a language to (ii) a domain of interpretation (usually a set theoretic framework) by defining (iii) an interpretation function from the abstract syntax onto the set theoretic framework. In terms of the semiotic triangle, \cref{fig:semiotic-triangles}(b), this implies the following:
 
 (i) the *representation* node represents models that can be formulated by use of an abstract syntax (and grammar) as its modelling language. In this reading, a model is a particular constellation of tokens that represent a particular state of affairs;
 (ii) a particular *conceptualisation* can be mathematically formulated as a specific constellation of (unnamed) individuals, sets of individuals, and sets of sets; 
 (iii) the *subjectivation* edge can be formulated as the interpretation function that assigns a mapping from modelling language tokens onto the set elements, enabling the evaluation of a specific model against the intended conceptualisation from (i). 
 
-Formal semantics thus provides a means to formulate a particular conceptualisation as principle point of reference. The particular conceptualisation is then used to establish the coherence between two models. In the remainder of this text we will refer to the formulation of the reference conceptualisation as a *conceptual model*.
+In this way, the cognitive quality of the conceptualisation can be substituted with set theory. Formulating the conceptualisation as a set theoretic model essentially remains a representation, albeit a mathematical one. One can argue that such substitution does not resolve the grounding problem, and appropriately so. Still, mathematics provide for a very exact way to express oneself, reducing the ambiguity that comes implicitly with any other language, and such mathematical constructs come as close to the conceptualisation as we possibly can get with a token-based machine. Furthermore, logical constructs used at the syntactical level can be interpreted into set theoretic operations, facilitating the evaluation of (complicated) expressions. Formal semantics thus provides a domain of discourse about a particular conceptualisation as principle point of reference for both the data model and the data processing model. The particular conceptualisation is then replaced with a particular Domain of Interest (DoI), and both subjectivation relations are replaced with their interpretation function on the abstract syntax of the models. 
 
-![Maintaining the reciprocity between data and data processing models through a single semantic reference, viz. the conceptualisation (b), represented as Domain of Interpretation, viz. a selection of individuals with domain specific characteristics defined as sets (a).][def:ssref]
+![Maintaining the reciprocity between data and data processing models through a single semantic reference, viz. the conceptualisation (b), represented as DoI, viz. a selection of individuals with domain specific characteristics defined as sets (a).][def:ssref]
 
-In conclusion, we explain software semantics as the reciprocity between data and software code, realised by maintaining the coherence between pairs of data and data processing models, by applying formal semantics to formulate a particular conceptualisation as semantic reference, and interpretation functions which perform the subjectivation from the data and operation models to that reference.
+In conclusion, we explain software semantics as the reciprocity between data and software code, realised by maintaining the coherence between pairs of data and data processing models, by applying formal semantics to formulate a particular conceptualisation as a DoI that can act as semantic reference, and interpretation functions which perform the subjectivation from the data and operation models to that reference.
 
 &lt;2nd Principle: Make the ASM as small as possible, but not smaller than required to express a semantic element. Too vague, yet. Not necessary to convey the primary message, imo.&gt;
 
@@ -1177,8 +1177,16 @@ Pronouns do not need apostrophes because they inherently show possession.
         </Document>
         <Document ID="72">
             <Title>Modeling</Title>
-            <Synopsis>Purpose of this section: present a list of differences.
-Refer to [@Henderson-Sellers2012]
+        </Document>
+        <Document ID="73">
+            <Title>Explicit semantics</Title>
+            <Synopsis>The purpose of this section is to establish that for representing semantics, descriptive models (i.e., ontologies) trump prescriptive models (all 42010 models)
+
+Firstly, describe that formal semantics can to some extend take the role as conceptualisation, and hence using set theory as conceptualisation is the best option we have to address semantics. Consequently, show that semantic ambiguity then &quot;only&quot; follows from 4 construction issues (already presented in text below).
+
+Secondly, make the distinction between descriptive and prescriptive models [@Henderson-Sellers2012], and in [@Aßmann2006]: &quot;Specification models focus on the specification, control, and generation of systems; ontologies focus on description and conceptualization (conceptual modelling) of things. Both kinds of models have in common the qualities of abstraction and causal connection.&quot;
+
+Second argument shows that (i) the trueness of a model is laid in reality, which is impossible to achieve, and that (ii) the next best we can achieve is establishing the correctness of a model against its conceptualisation node. Finally, observe that (iii) 4 issues will influence the correctness of the model. Then conclude that the best tool to control these issues are the logics from descriptive models (viz. ontologies) at the one hand, and its use as ontological commitment for the prescriptive models (viz. the 42010 models)
 
 Conclusions:
 \begin{enumerate}
@@ -1186,7 +1194,22 @@ Conclusions:
 \item as in [@Aßmann2006]: &quot;Specification models focus on the specification, control, and generation of systems; ontologies focus on description and conceptualization (conceptual modelling) of things. Both kinds of models have in common the qualities of abstraction and causal connection.&quot;
 \end{enumerate}
 \end{synopsis}</Synopsis>
-            <Text>
+            <Text>Once we have established a conceptualisation, it needs a representation because, despite being a mathematical representation, the sets and individuals in the DoI remain nameless. It is necessary to represent them in a (pair of) model(s) that is tangible, computational and a distinct artifact in order for the software agent to use it and, eventually, make comparisons with the semantic artifact of the peer software agent. We denote the model that represents a conceptualisation a *conceptual model*. The conceptual model that describes semantics best is a model that is as faithful to reality as possible. This begs the questions about the nature of a conceptual model and the nature of faithfulness. To start with the latter and as indicated in \cref{fig:semiotic-triangles}(b), we equate faithfulness with trueness between the representation and the entity in reality. Since this aspect is a characteristic of an indirect relationship, it can only emerge as a result of the adequacy and correctness characteristics. The former one concerns the conceptualisation aspect; in this section we address the correctness and show how differences can emerge between the conceptualisation and the model when constructing the latter. In literature, four construct issues are considered between a conceptualisations and its representation in a model, depicted in \cref{fig:construct-issues}. An exhaustive treatment can be found in [@Guizzardi:2005vt], see also [@CarvalhoeSilva2012; or @Azevedo2015].
+
+![Four different types of construction issues that come with formal semantics. Which one is more clear: (a)[@CarvalhoeSilva2012] or (b) [@Azevedo2015]?][def:constructissues] 
+
+The more precise the representation of the conceptualisation, the higher its comprehensibility appropriateness. Semantic accuracy improves when minimising the four construct issues:
+
+* Construct overload, or non-lucidity, emerges when the interpretation function maps an element from the abstract syntax onto more than one element (individual, subset) from the conceptualisation: One token can mean more than one thing, e.g., [|bank];
+* Construct excess, or unsoundness, represents an abstract syntax element that does not map onto an element from the conceptualisation: One token does not have a meaning at all;
+* Construct redundancy, or non-laconicity, occurs when more than one abstract syntax element can be used to represent an element from the conceptualisation: More tokens mean the same, e.g., ...;
+* Construct deficit, or incompleteness, specifies the situation where a conceptual element does not map onto a token: It is impossible to express a concept because the language has no token for it, e.g., [|....] (example intentionally left blank).
+
+The best representation of a conceptualisation, then, is a model that is lucid, sound, laconic and complete, i.e., the interpretation/representation mapping is isomorphic. This is difficult to achieve, and due to the complete, accurate and complementary categories of how its carves-out the DoI, using the ontological commitment of the modelling language proves a useful tool in that respect.   
+
+In contemporary architectural paradigms, models are being used as first class citizens to the architectures, MDA, IEEE-1471 and ISP RM/ODP alike. It is therefore imperative to decide upon the major characteristics of a model. The distinction between descriptive and prescriptive models is broadly accepted, where a prescriptive model is used to specify its subject, and a descriptive model is used to describe its subject. As explained by [@Gonzalez-Perez2007], this distinction only addresses how the model is being used and does not express a complementary, disjunct property. In stead, a genuine dichotomy emerges when considering the role that the model plays (ibid.). Then, a specification model generally takes a forward-looking role, specifying how the subject is supposed to be. A descriptive model, on the other hand, generally takes a backward-looking role and addresses the subject as it currently is, or once has been. In [@Aßmann2006], the relationship that a forward-looking model has with its subject is characterised as an instance-of relation, and that of a backward-looking model as an is-represented-by relation. Although we acknowledge the differences that exist, we consider both terms confusing when semiotics are involved since we cannot substantiate their suggested equivalence with the instantiation relation from the ontological square/sextet or the representation relation from the semiotic triangle. Instead, we observe that the characteristics of the refers-to relation will specialise into a declarative relation for a forward-looking model: The entity is deemed to follow the rules that are specified by the model. Similarly, for a backward-looking model that provides for a representation of “what a given remark or doctrine, ours or someone else’s, says there is”, the refers-to relation specialises into a descriptive relation. We thus observe that the refers-to relation is a causal relation, the direction of which is dependent on the model’s characteristic: declarative towards the entity for a forward-looking model, while descriptive towards the token for a backward-looking model. As a consequence, we conclude that for forward-looking models their truth lies in their meta-models, as depicted in \cref{fig:linked-triangles}(b). Mutatis mutandis, the truth for backward-looking models lies in the entities they describe. 
+
+
      
 1. Explain: difference between ontologies and models
     i. Models lack an elaborate ontological commitment, domain ontologies naturally evolve on foundational ontologies (that express an ontological commitment)
@@ -1199,39 +1222,16 @@ Conclusions:
     * Bridge descriptive --&gt; prescriptive models by grounding all prescriptive model elements with concepts from descriptive model (see e.g. \cref{fig:OntosInMDE}).
 
 
+In the remainder of this text we will refer to the formulation of the reference conceptualisation as a *conceptual model*.
 
 ![The use of ontologies in MDA, from [@Aßmann2006]][def:ontoMDA]
 
 &lt;!-- page additions --&gt;
 [def:ontoMDA]: src\images\OntosInMDE.png {#fig:OntosInMDE  width=568px height=346px}
-[def:3Concerns]: src\images\3SemanticConcerns.png {#fig:3Concerns width=495px height=693px} 
-</Text>
-        </Document>
-        <Document ID="73">
-            <Title>Explicit semantics</Title>
-            <Synopsis>The purpose of this section is to establish that for representing semantics, descriptive models (i.e., ontologies) trump prescriptive models (all 42010 models)
-
-Firstly, describe that formal semantics can to some extend take the role as conceptualisation, and hence using set theory as conceptualisation is the best option we have to address semantics. Consequently, show that semantic ambiguity then &quot;only&quot; follows from 4 construction issues (already presented in text below).
-
-Secondly, make the distinction between descriptive and prescriptive models [@Henderson-Sellers2012], and in [@Aßmann2006]: &quot;Specification models focus on the specification, control, and generation of systems; ontologies focus on description and conceptualization (conceptual modelling) of things. Both kinds of models have in common the qualities of abstraction and causal connection.&quot;
-
-Second argument shows that (i) the trueness of a model is laid in reality, which is impossible to achieve, and that (ii) the next best we can achieve is establishing the correctness of a model against its conceptualisation node. Finally, observe that (iii) 4 issues will influence the correctness of the model. Then conclude that the best tool to control these issues are the logics from descriptive models (viz. ontologies) at the one hand, and its use as ontological commitment for the prescriptive models (viz. the 42010 models)
-
-\end{synopsis}</Synopsis>
-            <Text>We have seen how the cognitive quality of the conceptualisation can be substituted with set theory. Formulating the set theoretic model essentially remains a representation, albeit a mathematical one. One can argue that such substitution does not resolve the grounding problem, and appropriately so. Still, mathematics provide for a very exact way to express oneself, reducing the ambiguity that comes implicitly with any other language, and such mathematical constructs come as close to the conceptualisation as we possibly can get with a token-based machine. Furthermore, logical constructs used at the syntactical level can be interpreted into set theoretic operations, facilitating the evaluation of (complicated) expressions. Despite being a mathematical representation, we choose to conflate that particular representation with the conceptualisation, resulting in an 
-
-
-And thanks to mathematics we can also indicate the exact issues that exist with representing conceptualisations as conceptual model, depicted in \cref{fig:construct-issues}.
-
-![Four different types of construction issues that come with formal semantics. Which one is more clear: (a)[@CarvalhoeSilva2012] or (b) [@Azevedo2015]?][def:constructissues] 
-
-The more precise the representation of the conceptualisation, the higher the comprehensibility appropriateness 
-This begs the question what we mean with model, and what criteria we should adopt to represent a conceptual model. This is especially relevant since in contemporary architectural paradigms models are being used as first class citizens to the architectures, MDA, IEEE-1471 and ISP RM/ODP alike. 
-
-
-&lt;!-- page additions --&gt;
 [def:constructissues]: src\images\ConstructIssues.png {#fig:construct-issues  width=533px height=210px}
 </Text>
+            <Comments>brandtp, 9/19/2018 describe/explain the term
+brandtp, 9/19/2018 find proper example</Comments>
         </Document>
         <Document ID="74">
             <Title>Expicit sIOP by alignments</Title>
