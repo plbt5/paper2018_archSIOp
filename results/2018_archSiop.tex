@@ -1,6 +1,6 @@
 \documentclass[a4paper,11pt,oneside,oldfontcommands]{memoir}
-\usepackage{ecis2015}
-\usepackage{datetime}    			% sourced from; http://ftp.snt.utwente.nl/pub/software/tex/macros/latex/contrib/datetime/
+\usepackage{mystyle2015}
+\usepackage[en-GB,datesep={-}]{datetime2}    
 \usepackage{longtable}
 
 %\usepackage{amssymb, setspace, rotating, titlesec, adjustbox, array, threeparttable}
@@ -19,9 +19,9 @@
 \usepackage[mathcal]{euscript}		% tbv de gecalligrafeerde mathcal{O} en W(orld) en (M)odel etc. Refer to http://texdoc.net/texmf-dist/doc/fonts/amsfonts/euscript.pdf
 									% Note that, in fact, eucal and euscript are identical, except that they use different commands (\mathcal and \mathscr). By using euscript 
 									% we only provide \mathscr{} and leave \mathcal{} from amsmath unchanged
-\usepackage{pgothic}				% Used for modern gothic that has a readible S
+\usepackage{pgothic}				% Used for modern gothic that has a readable S
 \DeclareMathAlphabet{\mathgoth}{T1}{pgoth}{m}{n}	% Declaring the pgothic family as math alphabet
-%\usepackage{addfont}				% This would be an alternative for the readible S font, but not working
+%\usepackage{addfont}				% This would be an alternative for the readable S font, but not working
 %\addfont[1.25]{OT1}{hge}{\hge}
 %\DeclareMathAlphabet{\mathgoth}{OT1}{hge}{m}{n}	% Declaring the hge family as math alphabet
 
@@ -51,7 +51,6 @@
 \usepackage[ntheorem]{empheq}
 \usepackage[thmmarks]{ntheorem}		% Easier handling of theorem-like environments. refer to ftp://ftp.dante.de/pub/tex/macros/latex/contrib/ntheorem/ntheorem.pdf
 
-\usepackage{datetime}    			 % sourced from; http://ftp.snt.utwente.nl/pub/software/tex/macros/latex/contrib/datetime/
 \usepackage{mdframed}
 
 %% Figures and table placement		% Sourced from http://tug.ctan.org/tex-archive/info/epslatex/english/epslatex.pdf page 55
@@ -246,17 +245,13 @@
 
 
 %%% Enter Document Info here: %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%datetime package config %%%
-\renewcommand{\dateseparator}{-}
-%\renewcommand{\timeseparator}{}
-\settimeformat{hhmmsstime}  
 
-\maintitle{Consolidating semantic interoperability in software architectures} % ← Don't use UPPERCASE here, we do that automatically.
-\subtitle{Access-and-play semantic interoperability in contemporary architectural
-paradigms}
+\maintitle{Consolidating semantic interoperability in contemporary architectural
+paradigms} % ← Don't use UPPERCASE here, we do that automatically.
+\subtitle{}
 \shorttitle{} % ← This goes into the header.
 \category{} % 
-
+\versionmgt{version: v0.3-15}
 \date{\today}
 
 
@@ -295,47 +290,42 @@ Eindhoven University of Technology, Eindhoven, The Netherlands,
 
 % --- Abstract --- --- --- --- ---
 \begin{abstract}
-\emph{Background:} Access-and-Play SIOp is the next glass ceiling in
-{[}interoperability/IT-based business collaboration{]}. We can think of
-two approaches to break through the ceiling, i.e., using either strong
-AI (a system that can \emph{think} and has a \emph{mind}, in the
-philosophical definition of the term) or weak AI (a system that can only
-\emph{act} like it thinks and has a mind (Searle 1980)). Strong AI is
-not yet available, while weak AI, despite its current applications in
-Semantic Web or ontologies, has not yet been embedded in contemporary
-software architectural paradigms. Current approaches towards SIOp can be
-considered accepted folklore.
+\emph{Context:} Access-and-Play semantic interoperability (sIOP) is the
+next glass ceiling in IT-based business collaboration. Current
+approaches towards sIOP rely on conventions on the semantics of the
+exchanged terms, which can be considered accepted folklore. Approaches
+to break through the ceiling require some level of automation, and
+artificial intelligence (AI) can make a difference.
 
 \emph{Objective:} The objective of this study is to identify and define
-the (weak AI based) fundamental guidance towards access-and-play
-semantic interoperability in contemporary architectural paradigms.
+AI-based fundamental guidance towards access-and-play sIOP in
+contemporary architectural paradigms.
 
-\emph{Method:} Our approach is based on the discipline of semiotics.
-After identifying semiotic shortcomings in MDA and view-based
-architectural paradigms and their subsequent definition as missing
-concerns, we develop the necessary guiding architectural principles. We
-finally consolidate their fundamentals as an ISO-42010 Architecture
-Viewpoint to disclose them for the various architectural paradigms.
-{[}We evaluate these principles by designing a reference architecture
-and proof its use in SIOp between two software agents.{]}
+\emph{Method:} Our approach is based on the discipline of semiotics. We
+identify semiotic shortcomings in architectures, establish a semiotic
+explanation on software semantics and, subsequently, on sIOP. Based on
+these considerations, we develop guiding architectural principles in
+support of software semantics and sIOP. We evaluate these principles by
+designing and formulating an ISO-42010 Architecture Viewpoint and View
+on sIOP.
 
-\emph{Results:} The semiotic approach/discipline demonstrates/proves
-semantics in software to be the result of a reciprocity between data and
-the software code that operates on them. The major shortcomings in
-architectural paradigms to account for semantic interoperability are
-their negligence of semiotic fundamentals and, particularly, the absence
-of an explicit ontological commitment that stands at the root of
-semantics. Therefore, the concern about a semantic loose coupling should
-be added to the architectural paradigms. The supporting principles are
-(i) semantic transparency, (ii) semantic separation of concerns, and
-(iii) explicit computational semantics. In view-based architectures
-their consolidation implies a new semantic view, while the MDA paradigm
-requires an ontological commitment on M3. Both paradigms need to include
-a semantic alignment processing mediation capability.
+\emph{Results:} The semiotic approach demonstrates semantics in software
+to be the result of a reciprocity between data and the software code
+that operates on them. Data exchange breaks that reciprocity and the
+main concern of sIOP is to re-establish a valid reciprocity. Loosely
+coupled semantics, semantic alignments and an ontological commitment of
+the modelling language can be considered the cornerstone to achieve
+sIOP. The supporting principles are (i) semantic transparency, (ii)
+semantic separation of concerns, and (iii) explicit computational
+semantics. The resulting ISO-42010 Architecture Viewpoint and View on
+sIOP, including a semantic mediation capability, can be considered a
+pattern to consolidate sIOP in contemporary architectural paradigms.
 
-\emph{Conclusions:} Access-and-play SIOp can be achieved when
-considering semiotic fundamentals and adding loosely coupled formal
-semantics to contemporary architectural paradigms.\\
+\emph{Conclusions:} The major shortcomings in architectural paradigms to
+account for sIOP are their negligence of semiotic fundamentals and the
+absence of an explicit ontological commitment that stands at the root of
+semantics. By their explicit inclusion, access-and-play sIOP can be
+consolidated in contemporary architectural paradigms.\\
 \end{abstract}
 
 
@@ -357,12 +347,22 @@ semantics to contemporary architectural paradigms.\\
 \hypertarget{introduction}{%
 \chapter{Introduction}\label{introduction}}
 
+\begin{itemize}
+\tightlist
+\item
+  \emph{Created:} woensdag 28 december 2016 13:23:05
+\item
+  \emph{Modified:} maandag 17 september 2018 14:56:57 Status: No Status
+\item
+  \emph{Phase:} Revised draft
+\end{itemize}
+
 Never before, data were so ubiquitous, and managed access to external
 data was so easy. Because current ICT is unable to \emph{use} all that
 same external, non-native data as access-and-play service, agility in
 business collaboration is hampered in all domains. For instance,
 consider the following (allegedly real) example of an interoperability
-failure.
+failure.\todo{ brandtp, 9/5/2018 We can apply another example, I’m open to that. Indeed a TOOP example could be appropriate. However, I cannot think of one but maybe Eric can?}
 
 \begin{quote}
 A German steel producer upgraded its industrial process robot. Since the
@@ -392,16 +392,16 @@ producer, can actually \emph{use} their peers data, the need exists to
 design and implement wrappers that remove any inconsistency between the
 variations that may occur in terms, structures, dimensions and what have
 you. Many such variations exist, leading to a range of failures in
-so-called \emph{semantic interoperability} (SIOp) and Section/Appendix
-\#\# provides for a short overview of SIOp-faults. Unfortunately, it is
-fundamentally impossible to automate the production of wrappers, because
-we need a genuine \emph{understanding} upfront, which computers still
-cannot do.
+so-called \emph{semantic interoperability} (sIOP) and Section/Appendix
+\#\#\todo{ brandtp, 9/5/2018 Add sIOP-faults as appendix.} provides for
+a short overview of sIOP-faults. Unfortunately, it is fundamentally
+impossible to automate the production of wrappers, because we need a
+genuine \emph{understanding} upfront, which computers still cannot do.
 
-The most disconcerting consequences of a lack of (automated) SIOp are
+The most disconcerting consequences of a lack of (automated) sIOP are
 time-to-deliver, flat interoperability failures, and even seemingly
-correct but quite invalid data analysis probably leading to devastating
-system behaviour. Current SIOp implementations are essentially based on
+correct but quite invalid data analysis probably leading to faulty
+system behaviour. Current sIOP implementations are essentially based on
 the (time-consuming) process of establishing a (local) convention on the
 semantics of the terms that are exchanged during collaboration,
 requiring custom solutions and collaboration-dependent software
@@ -410,30 +410,44 @@ which makes dealing with data outside the monolith impossible, unless
 again a time consuming (months) semantic adoption process is applied.
 Moreover, these semantic conventions consider semantic heterogeneity as
 a bug instead of a feature necessary to achieve semantic accuracy. But
-still, this conventions-based approach towards SIOp is accepted folklore
+still, this conventions-based approach towards sIOP is accepted folklore
 in ICT. In view of the large uptake of the Internet, the Internet of
 Things (IoT), cloud computing and big data, and in view of economical
 pressure to intensify enterprise collaboration, we consider this
-approach ``too little, too late''.
+approach ``too little, too late''. Some form of automation is required
+to resolve these issues, and we place artificial intelligence (AI) at
+its core. With the separation (coined by Searle 1980) between
+\emph{strong} AI (a system that can \emph{think} and has a \emph{mind},
+in the philosophical definition of the term) or \emph{weak} AI (a system
+that can only \emph{act} like it thinks and has a mind), we take the
+position that --unfortunately-- strong AI is not yet available, if ever
+(Xiuquan Li and Tao Zhang 2017). We therefore make do with weak AI and
+show that despite its limitations it still has got a fundamental role to
+fulfil as carrier for semantics and sIOP, both facilitating the required
+automation. Weak AI, despite its current applications in Semantic Web or
+ontologies, has not yet been embedded in contemporary software
+architectural paradigms.
 
 In comparison, scalability was a big architectural concern in the past,
 requiring custom solutions as well. In response to this concern,
 scalability was standardised in the form of architectural patterns, and
 finally totally embedded and hidden into the infrastructure. Similarly,
-SIOp can be considered the architectural concern of this decade, and we
+sIOP can be considered the architectural concern of this decade. We
 first need to provide a standardised solution pattern to address
-semantic concerns, before we can embed it in a technological
-infrastructure so that SIOp becomes transparent to the developer. Where
+semantic concerns before we can embed it in a technological
+infrastructure. Only then we can claim that sIOP becomes transparent to
+the developer and that the semantic monolith is taken down. Where
 scalability resulted in a huge increase in performance-demanding
 applications against a fraction of the original costs and effort,
 business agility will emerge once the semantic monolith is removed and
-semantic services exist at the infrastructural level. Then SIOp becomes
-an access-and-play operation that achieves SIOp in due time with data
-not anticipated for during software design, at any point in their life
-cycle. Metaphorically speaking, we consider SIOp as a \emph{bridge}
-overarching a (semantic) gap: with \emph{bridgeheads} on each side of
-the gap, with a \emph{spanning} resting on them to structurally support
-the bridge and its traffic, and with a \emph{roadway} enabling the
+semantic services exist at the infrastructural level. Then sIOP becomes
+an access-and-play operation that can be achieved with data not
+anticipated for during software design in due time, at any point in
+their life cycle. Metaphorically speaking, we consider sIOP as a
+\emph{bridge} overarching a (semantic) gap: with \emph{bridgeheads}
+(semantic concerns) on each side of the gap, with a \emph{spanning}
+(semantic aligments) resting on them to structurally support the bridge
+and its traffic, and with a \emph{roadway} (data mediation) enabling the
 crossing of the traffic. Finally, architectural \emph{principles}
 provide the necessary guidance to the architect for the various design
 decisions that effectively result in a particular bridge over a
@@ -444,84 +458,124 @@ as architectural principles and concerns, as follows:
 \begin{itemize}
 \tightlist
 \item
-  \emph{Principles}: We base SIOp on establishing loose-coupling at the
-  semantic level by introducing principles on semantic separation of
-  concerns and semantic transparency (Section \ref{siop-principles}),
-  and show how these principles can be operationalised;
-\item
   \emph{Semantic concerns (bridgehead)}: Abstracting semantics from a
   tacit software implication into a tangible, computational and distinct
   artifact provides us with the potential to connect to it and to make
   comparisons with the semantic artifact of the peer software agent.
-  Based on the discipline of semiotics, we explain the shortcomings of
-  the current approach towards software semantics that rely on
-  information models and information views. Instead, we provide for a
-  fundamental notion on the application of ontologies {[}and ontological
-  commitment{]} to remedy current semantic shortcomings, and we show
-  {[}its/their{]} proper position in the total architecture (Section
-  \ref{bridgehead-semantics});
+  Based on the discipline of semiotics, we explain why semantics are
+  irrelevant to software. Instead, we should focus on the reciprocity
+  between data and the data processing code of software. This explains,
+  too, the shortcomings of the current approach towards software
+  semantics that rely on prescriptive information models. We argument
+  that the application of ontologies and ontological commitment are
+  fundamental to remedy current semantic shortcomings
+  (\cref{bridgehead-semantics});
 \item
   \emph{Weak AI concerns (spanning)}: Since ``strong AI'' does not yet
-  exist, SIOp remains in demand of human intervention in order to
+  exist, sIOP remains in demand of human intervention in order to
   reconcile the semantic differences between collaborating software
   agents. However, human intervention is time consuming. We reduce the
   necessary human intervention to complement weak AI to a task that
-  suffices to achieve SIOp, viz. authoring semantic alignments only
-  (Section \ref{spanning-alignments});
+  suffices to achieve sIOP, viz. authoring semantic alignments only
+  (\cref{spanning-alignments});
 \item
   \emph{Mediation concerns (roadway)}: We provide for a prototypical
   implementation of a mediator as the necessary component to
   automatically translate data when transferred between the
-  collaborating software agents (Section \ref{roadway-mediation});
+  collaborating software agents (\cref{roadway-mediation});
 \item
-  \emph{ISO42010 Architecture Viewpoint}: We formulate the architectural
-  consequences of the above concerns as a specific SIOp Viewpoint in
-  order to consolidate SIOp for contemporary architectural paradigms
-  (Section \ref{architectural-viewpoint-on-siop});
+  \emph{Principles}: We base sIOP on establishing loose-coupling at the
+  semantic level by introducing principles on semantic separation of
+  concerns and semantic transparency (\cref{siop-principles}), and show
+  how these principles can be operationalised;
+\item
+  \emph{ISO42010 Architecture Viewpoint}: We verify the applicability of
+  the above concerns and principles by formulating their architectural
+  consequences as a specific ISO42010* *sIOP Viewpoint, and we show
+  their proper position in the total architecture as corresponding sIOP
+  view. As ISO42010 is considered a set of best practises for
+  architecture description, and therefore is used with architecture
+  frameworks such as MoDAF, TOGAF, DoDAF, RM-ODP and so on, we conclude
+  that our sIOP Viewpoint and View can be considered to consolidate sIOP
+  for contemporary architectural paradigms
+  (\cref{iso42010-viewpoint-on-siop}).
 \end{itemize}
 
-Based on these contributions we {[}argue/defend{]} that access-and-play
-SIOp can be embedded and hidden in infrastructural services when
-considering semiotic fundamentals and adding loosely coupled formal
-semantics to contemporary architectural paradigms. To that end, we first
-describe the semiotic fundamentals in
-\cref{semiotics-explanation-on-semantics}.
+Based on these contributions we defend that access-and-play sIOP can be
+embedded and hidden in infrastructural services when considering
+semiotic fundamentals and adding loosely coupled formal semantics to
+contemporary architectural paradigms. To that end, we first describe the
+semiotic fundamentals in
+\cref{the-semiotic-and-philosophical-foundations-of-semantics}.
 
 \hypertarget{the-semiotic-and-philosophical-foundations-of-semantics}{%
 \chapter{The semiotic and philosophical foundations of
 semantics}\label{the-semiotic-and-philosophical-foundations-of-semantics}}
 
+\begin{itemize}
+\tightlist
+\item
+  \emph{Created:} vrijdag 25 mei 2018 15:01:46
+\item
+  \emph{Modified:} vrijdag 7 september 2018 14:39:27 Status: No Status
+\item
+  \emph{Phase:} No Label
+\end{itemize}
+
+\begin{synopsis}
+Purpose of this section: To establish an informal but concrete notion on (i) the semiotic triangle and the relationsbetween its nodes, and (ii) ontological commitment and its relation to modelling languages.
+
+\end{synopsis}
+
 \hypertarget{semiotics}{%
 \section{Semiotics}\label{semiotics}}
 
+\begin{itemize}
+\tightlist
+\item
+  \emph{Created:} woensdag 4 juli 2018 20:30:48
+\item
+  \emph{Modified:} vrijdag 21 september 2018 11:54:42 Status: No Status
+\item
+  \emph{Phase:} Revised draft
+\end{itemize}
+
+\begin{synopsis}
+Present concrete notion on (i) the semiotic triangle and (ii) the relationsbetween its nodes.
+Show abstraction/generalisation as stacking of triangles vertically, and representational meta-levels as stacking them horizontally.
+
+\end{synopsis}
+
 The discipline of semiotics is the study of signs, reality and meaning.
-The meaning of a token ultimately relates to what it denotes in reality,
-whilst this relation cannot be deferred from the shape, structure or
-other characteristics of the token itself due to its total
-arbitrariness. In the early 1900s, De Saussure used a dyadic model that
-stressed that the token (the \textbf{\emph{signifier}}) and the entity
-in reality (the \textbf{\emph{signified}}) were as inseparable as the
-two sides of a piece of paper (Saussure 1959). This piece of paper he
-called the \textbf{\emph{semiotic sign}}, denoting the whole. This
+The meaning of a \emph{token} (text, graphics, sound) ultimately relates
+to what it denotes in reality (the \emph{entity}), whilst this relation
+cannot be deferred from the shape, structure or other characteristics of
+the token itself due to its total arbitrariness. In the early 1900s, De
+Saussure used a dyadic model that stressed that the token and the entity
+in reality were as inseparable as the two sides of a piece of paper
+(Saussure 1959). This piece of paper he called the
+\textbf{\emph{semiotic sign}}, denoting the whole. This
 `self-containment of the sign' remains one of the major principles of
 semiotics. Constructing the semiotic sign from its distinct parts is
-called \textbf{\emph{semeiosis}}. The signifier, in combination with
-their ability for semeiosis, provides humans with the tool to converse
-with each other. The tokens provide humans with a vocabulary, the
-semeiosis makes them understand about what entities they talk about.
-Semantics, then, emerges as a result of the semeiosis that connects the
-distinct parts of the inseparable semiotic sign.
+called \textbf{\emph{semeiosis}}. The token, in combination with their
+ability for semeiosis, provides humans with the tool to converse with
+each other. The tokens provide humans with a vocabulary, the semeiosis
+makes them understand about what entities they talk about. Semantics,
+then, emerges as a result of the semeiosis that connects the distinct
+parts of the inseparable semiotic sign.
 
 Sanders Peirce (in: Sowa 2000) developed another model to further
 investigate the semeiosis part of semantics. He built a triadic model of
-the semiotic sign, including signifier and signified, and the
-\emph{interpretant} which expresses the mental and, hence, individual
-sense making. This triadic model of the semiotic sign was coined by
-Peirce as the \emph{semiotic triangle} (ibid.), depicted in
-\cref{fig:semiotic-triangles}(a), and subsequently used and modified by
-Ogden and Richards (Ogden and Richards 1989), Ullman (Ullmann 1962), and
-many others. We introduce our modifications, as depicted in
-\cref{fig:semiotic-triangles}(b).
+the semiotic sign, including a representamen (the token) and object (the
+entity), and introduced the \emph{interpretant} which expresses the
+mental and, hence, individual sense making. This triadic model of the
+semiotic sign was coined by Peirce as the \emph{semiotic triangle}
+(ibid.), depicted in \cref{fig:semiotic-triangles}(a), and subsequently
+used and modified by Ullmann (Ullmann 1962), Ogden and Richards (Ogden
+and Richards 1989), and many others, also in recent years (Kuhn 2009).
+We introduce our modifications, as depicted in
+\cref{fig:semiotic-triangles}(b), which mainly focus on naming
+conventions in IT architectures, as follows.
 
 \begin{figure}
 \hypertarget{fig:semiotic-triangles}{%
@@ -547,9 +601,15 @@ the edges that are connected to the conceptualisation vertex, and use
 names that underline the individual and mental nature of the sense
 making. Note that these names are directional, and must be read as the
 transformations that takes place in that direction. Finally, we add the
-causal characteristics that the edges represent, as introduced by (Ogden
-and Richards 1989). Whenever we use ``sign'' we refer to the semiotic
-sign.
+causal characteristics that the edges represent, introduced by (Ogden
+and Richards 1989), as \emph{adequacy}, \emph{correctness} and
+\emph{trueness}. Observe that the connection between the token and the
+entity is drawn as a dashed line to stress that its existence is
+indirectly only through the conceptualisation and does not exist in any
+direct means. Whenever we use ``sign'' we refer to the semiotic
+self-contained sign. A well-known example of a sign is depicted in
+\cref{fig:semiotic-triangles}(c), which shows that when we talk about
+``Yojo'', our cognition interprets it as our cat.
 
 \begin{figure}
 \hypertarget{fig:linked-triangles}{%
@@ -560,46 +620,212 @@ sign.
 \end{figure}
 
 Peirce also recognised that multiple triangles could be linked together
-in various ways (Sowa 2000). By stacking them together a
-conceptualisation is made of ``representing an entity'': the original
-concept of a \mywordbox{cat} named ``Yojo'', depicted in
-\cref{fig:semiotic-triangles}(c), is being conceptualised in (a) as the
-concept of a \mywordbox{cat named “Yojo”} and represented by
-\mywordbox{cat:Yojo}. In (Eco 1976), Eco uses the term \emph{unlimited
-semeiosis} to refer to the succession of stacking signs that emerge from
-that, ad infinitum. We consider unlimited semeiosis as addressing a
-dimension of comprehension about abstraction and generalisation, with an
-eventual finish in the ultimate \mywordbox{Thing} concept. Linking the
-triangles horizontally results in different representational metalevels,
-depicted in \cref{fig:linked-triangles}(b): From right to left, the
-characters ``Y'' ``o'' ``j'' and ``o'' are conceptualised as a single
-\mywordbox{word} and represented as ``Yojo'', which is conceptualised as
-a \mywordbox{name} and represented as ``name:Yojo'', which is
+in various ways (in: Sowa 2000). By stacking them together, as depicted
+in \cref{fig:linked-triangles}(a), a conceptualisation is made of
+``representing an entity'': the original concept of a \mywordbox{cat}
+named ``Yojo'', depicted in \cref{fig:semiotic-triangles}(c), is being
+conceptualised as the concept of a \mywordbox{cat named “Yojo”} and
+represented by \mywordbox{cat:Yojo}. In (Eco 1976), Eco uses the term
+\emph{unlimited semeiosis} to refer to the succession of stacking signs
+that emerge from that, ad infinitum. We consider unlimited semeiosis as
+addressing a dimension of comprehension about abstraction and
+generalisation, with an eventual finish in the ultimate
+\mywordbox{Thing} concept. Linking the triangles horizontally results in
+different representational meta-levels, depicted in
+\cref{fig:linked-triangles}(b): From right to left, the characters ``Y''
+``o'' ``j'' and ``o'' are conceptualised as a single \mywordbox{word}
+and represented as ``Yojo'', which is conceptualised as a
+\mywordbox{name} and represented as ``name:Yojo'', which is
 conceptualised as an \mywordbox{identifier} that might be represented as
 ``Id='name:Yojo'''.
+
+\hypertarget{ontological-commitment}{%
+\section{Ontological commitment}\label{ontological-commitment}}
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Created:} woensdag 4 juli 2018 20:31:55
+\item
+  \emph{Modified:} dinsdag 18 september 2018 11:52:39 Status: No Status
+\item
+  \emph{Phase:} Revised draft
+\end{itemize}
+
+\begin{synopsis}
+Purpose of this section is to show the relevance of a (modelling) language: a language is used to convey distinctions. The distinctions that are aticulated by a language are denoted as its ontologcal commitment. Modelling languages need to show distinctions that are of relevance to the purpose of modelling. The predominant purpose of modelling is to describe (a particular domain in) reality by distinguishing the entities of interest. The ontological commitment for a modelling language therefore should be of ontological nature, “(...) not in order to know *what there is*, but in order to know what a given remark or doctrine, ours or someone else’s, *says* there is” [@Quine:1953er]. The ontological square or its extension into the ontological sextet [describe it] can be considered the most basic one, which have been specialized into several flavours, all called upper-level, or top-level, or foundational, ontologies, e.g., UFO, BFO, DOLCE and more. 
+
+Show how MDE/MDA applies an ontological commitment as defined in M3, which facilitates an equivalent distinction as the ontological square, but less than the ontol.sextet.
+ 
+Optionally, provide for the distinctions/theories that are foundational to the two most appropriate ontological commitments / foundational ontologies: BFO and UFO.
+\end{synopsis}
+
+Apart from this strict semiotics notion, semantics are also influenced
+by philosophy and need consensus on the question ``when are we committed
+to the existence of certain entities?''. It is relevant to acknowledge
+that humans maintain assumptions and background knowledge, both of which
+impact their semeiosis and, hence, semantics. This is where the
+conceptualisation plays an important role as frame of reference to our
+understanding, also denoted as the \emph{ontological commitment}.
+
+When the domain analyst asks questions in order to determine the
+entities that play a role for a particular (domain of) application, the
+resulting model (of the conceptualisation) represents the commitment
+that the domain users have about the entities that they consider
+relevant to discern. We denote this the \emph{domain commitment} from
+the users to their domain. In philosophy (Bricker 2016), similar
+questions are asked that relate to ``life, the universe and everything''
+as opposed to a single domain of application: What \emph{kind} of
+entities exist? Are the universal aspects that seem to be shared between
+individual entities, e.g., colour of weight, taken to be \emph{sui
+generis}? These are questions of ontology. However, in a somewhat more
+pragmatic view these questions can be asked in a more constrained,
+methodological nature: What kinds of entity exist \emph{according to a
+given theory or discourse}? This is a matter of \emph{meta-ontology} and
+its answers provide for a generic framework of distinction that
+represents a useful meta-model to the domain analyst, denoted the
+\emph{ontological commitment. }A language is used to convey
+distinctions, distinctions that are articulated by its ontological
+commitment.
+
+Modelling languages need to show distinctions that are of relevance to
+the purpose of modelling. The predominant purpose of modelling is to
+describe (a particular domain in) reality by distinguishing the entities
+of interest. The ontological commitment for a modelling language
+therefore should be of ontological nature, ``(\ldots{}) not in order to
+know \emph{what there is}, but in order to know what a given remark or
+doctrine, ours or someone else's, \emph{says} there is'' (Quine 1961).
+The ontological square ({\textbf{???}}) can be considered the most basic
+one, which is obtained by considering two formal but independent
+distinctions: that between \emph{types} (or \emph{Universals}) and
+\emph{individuals} (or \emph{Particulars}), and that between
+\emph{characteristics} (or \emph{Properties}) and their \emph{bearers}
+(or \emph{Substrates}). The resulting four categories are depicted in
+\cref{fig:onto-square-and-sextet}(a) with causal relations that exist
+between them. Its extension into the ontological sextet (Smith 2005) is
+just to acknowledge that at some point the influence of time should be
+incorporated as well. This has been depicted in
+\cref{fig:onto-square-and-sextet}(b). Clearly, similar formal
+distinctions can be observed in contemporary modelling paradigms at
+their uppermost meta-level: OMG's MOF M3 metametamodel distinguishes
+between the \emph{Association} and the \emph{Class}, while the Resource
+Description Framework's language distinguishes primarily between a
+\emph{subject}, an \emph{object}, and the directed \emph{property}
+relation between them. All these ontological commitments are very
+generic, intended to be applicable for all circumstances. Unfortunately,
+being very generic, the ontological commitments remain very sparse
+regarding their capability as a language to distinguish; for all
+examples above, it is impossible to differentiate, for example, between
+the cup and the coffee that it holds, while intuitively, these are very
+different from each other. The more extended an ontological commitment
+becomes, the more it can distinguish as a language between things that
+we are interested in.
+
+\begin{figure}
+\hypertarget{fig:onto-square-and-sextet}{%
+\centering
+\includegraphics[width=5.20833in,height=2.60417in]{src/images/OntoSquareAndSextet.png}
+\caption{The ontological square (a) according to ({\textbf{???}}), and
+its extension (b) producing the ontological sextet according to (Smith
+2005).}\label{fig:onto-square-and-sextet}
+}
+\end{figure}
+
+The ontological sextet has been specialised into several flavours, all
+called \{ upper-level \textbar{} top-level \textbar{} foundational
+\}\footnote{Please select the term you like best.} ontologies, e.g., UFO
+(Guizzardi et al. 2015), SUMO, YAMAYATO, BFO, DOLCE and more, and with
+their similarities and differences between them (Jansen 2008). Not all
+of them are intended to provide for a complete foundation (UFO, BFO);
+several are only facilitating (DOLCE), or the result of (YAMAYATO),
+research into particular philosophical theories. No matter the reason
+for their existence, they all assume a certain philosophical viewpoint
+with the purpose to accurately describe categories that exist in reality
+according to their viewpoint.
+
+We consider this the philosophical cornerstone for semantics: we can
+assess the semantic validity of any proposition if and only if the
+underlying ontological commitment can be referred to. Furthermore, any
+assessment towards semantic interoperability of two semantic theories
+cannot be made without an assessment of the similarity between their
+underlying ontological commitments. Note, however, that ``We look to
+(\ldots{}) Ontology not in order to know \emph{what there is}, but in
+order to know what a given remark or doctrine, ours or someone else's,
+\emph{says} there is'' (Quine 1961). It then remains the responsibility
+of the (domain) analyst or ontology engineer to select the viewpoint
+that is most appropriate for its purpose, in order to select the
+modelling language that describes the types of things that exist in the
+domain of application the most accurate.
+
+\hypertarget{bridgehead-semantics}{%
+\chapter{Bridgehead: Semantics}\label{bridgehead-semantics}}
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Created:} vrijdag 25 mei 2018 14:59:48
+\item
+  \emph{Modified:} vrijdag 7 september 2018 14:39:27 Status: No Status
+\item
+  \emph{Phase:} No Label
+\end{itemize}
+
+\begin{synopsis}
+Purpose of this section: 
+\begin{enumerate}
+\item From a semiotic perspective, explain what we mean with semantics in software agents, i.e., the reciprocity between data and data processing code (both represented as Term from the semiotic Sign).
+\item Establish that for representing semantics, descriptive models (i.e., ontologies) trump prescriptive models (all 42010 models).
+\item Conclude that ontologies need their place as single point of reference (trueness) in architectures, and identify their relationship with the rest of the architectures, i.e., all other prescriptive models. Note the issue on Open World Assumption (ontologies) and CWA (prescriptive models).
+\end{enumerate}
+
+\end{synopsis}
 
 \hypertarget{what-is-software-semantics}{%
 \section{What is software semantics}\label{what-is-software-semantics}}
 
-We take the position that strong AI is not yet available, if ever
-(Xiuquan Li and Tao Zhang 2017), and conclude that weak AI is
-essentially a token-based machine without the ability to close the gap
-between token and reality. Also called the Grounding Problem (Harnad
-1990), addressing this fundamental distinction in software engineering
-is at best extremely narrow (Steels 2012), or not present at all (Cregan
-2007). This implies that the semiotic triangle is denied its
-conceptualisation vertex, and the sign remains incomplete. This leads us
-to the conclusion that semantics can not ever exist in software when
-based on weak AI. Unfortunately, we make do with weak AI and its
-beheaded sign necessarily. This is confirmed by the software engineering
-discipline herself since it consistently speaks of models that represent
-reality without factoring the conceptualisation into the equation, e.g.,
-``\emph{a model is a representation of reality intended for some
-definite purpose}'' and similar quotes that are collected by (Aßmann et
-al. 2006). Consequently, the edges that connect the conceptualisation
-remain vague or necessarily conflate on the then explicit relationship
-between the model and reality, depicted in
-\cref{fig:software-models-reality}.
+\begin{itemize}
+\tightlist
+\item
+  \emph{Created:} woensdag 4 juli 2018 20:31:19
+\item
+  \emph{Modified:} vrijdag 21 september 2018 11:09:55 Status: No Status
+\item
+  \emph{Phase:} Revised draft
+\end{itemize}
+
+\begin{synopsis}
+The purpose of this section is to explain software semantics as the "reciprocity between data and software code", and show that to some extent, set theory can replace the conceptualisation node.
+Conclude that the reciprocity between data and data processing code represents the smallest (atomic) semantic monolith.
+
+Additionally, optionally, show:
+\begin{enumerate}
+\item the relationship with Grice's distinction in semantics as "what is said" and "pragmatic meaning": DONE
+\item OO as initial implementation to consolidate this reciprocity, and the class as implementation of the atomic semantic monolith; 
+\end{enumerate}
+
+\end{synopsis}
+
+We take the position that weak AI is essentially a token-based machine
+without the ability to close the gap between token and reality. Also
+called the Grounding Problem (Harnad 1990), addressing this fundamental
+issue in software engineering about semantics is at best extremely
+narrow (Steels 2012), or not present at all (Cregan 2007). This implies
+that the semiotic triangle is denied its conceptualisation vertex, and
+the sign remains incomplete. This is confirmed by the software
+engineering discipline herself implicitly, since it consistently speaks
+of `models that represent reality' in a certain purposeful context
+\emph{without} factoring the conceptualisation into the equation (Aßmann
+et al. 2006). Consequently, the edges that connect the conceptualisation
+remain vague or necessarily conflate on the relationship between the
+model and reality, depicted in \cref{fig:software-models-reality}. In
+terms of (Quine 1961) above, we have beheaded the sign and cut-off our
+``knowledge about our given remark or doctrine'', we deleted that what
+``we \emph{say} there is''. We have removed the ``ontological level''
+(Guarino 1994), and with that our ``terminological competence {[}that{]}
+can be gained by formally expressing the ontological commitment of a
+knowledge base'' (ibid.). However, since we make do with weak AI and
+therefore with this beheaded sign necessarily, we must conclude that
+genuine semantics can not ever exist in current software agents.
 
 \begin{figure}
 \hypertarget{fig:software-models-reality}{%
@@ -611,351 +837,559 @@ model and reality.}\label{fig:software-models-reality}
 }
 \end{figure}
 
-If we look from a semiotics perspective at the practice of software
-engineering, we observe that the semeiosis is taken care of by the
-software engineer whom implicitly performs the conceptualisation and
-explicitly represents the conceptualisation into tokens, i.e.,
-\emph{models}. The many models that software engineering typically
-generate can be distinguished into those modelling the \emph{information
-elements} that play a role (information or data models), and those
-modelling the \emph{operations that apply} on these information elements
-(process and/or business models). It is one of the responsibility of the
-software engineer to keep both models in strict coherence. Eventually,
-those models become code that apply on data (operations, algorithms) and
-the data themselves. In case of the German steel producer, time was
-represented by the information model as a continues dimension, which was
-processed by the cool-down process model as a
-\texttt{setWakeUpTime(currentTime\ +\ 3H)}, viz. a continues. Both
-models are perfectly coherent without any reason to expect failures.
-Guaranteeing this coherence is particularly important because on
-run-time the software engineer has left the building, and with him the
-conceptualisation vertex and the subsequent capability for semeiosis.
-What remain are the model and the world that it refers to, the relation
-between the two being an implicit one. The coherence between the state
-of affairs in the world, viz. the data, and how this data should be
-processed, is the one and only means to keep the software from failing.
+During the use of a software agent the semeiosis is taken care of by the
+human-in-the-loop, viz. the end user at the human-machine interface
+(HMI) whom interprets the tokens that are displayed (subjectivation).
+During development of a software agent the semeiosis is taken care of by
+another human-in-the-loop, viz. the software engineer whom implicitly
+performs the conceptualisation and explicitly represents this
+conceptualisation into tokens, i.e., \emph{models}. Consequently, all
+models are representations of the engineers' conceptualisations. From
+the many models that software engineering typically generates we focus
+on a pair of models that constitute the engineers' semantics: the
+information or data
+models\todo{ brandtp, 8/30/2018 Make use of 42010 terminology} that
+refer to the \emph{information entities} in reality, paired with the
+process or business models\todo{ brandtp, 8/30/2018 ... ditto ...} that
+represent the \emph{event entities} that operate on the information
+entities. Data processing is in its bare form nothing more than tokens
+that follow a specific language grammar. This bare form is a
+representation of its quintessence, viz. a run-time notion on the proper
+way to operate on the data. Together, these models comprise the smallest
+atomic union that can represent meaning, indicated by (Grice 1989) as a
+twofold: the \emph{semantic} meaning, or ``what is said'', and the
+\emph{pragmatic} meaning, what we like to understand as ``how it relates
+to our intentions''.
 
-In fact, the latter falls apart in two other model categories, viz.
-models that directly operate on information in order to infer other
-facts (conclusions), and models that act on those conclusions and
-initiate some business oriented activities. We will call the latter the
-\emph{pragmatics} of the software agent, and we will not further
-elaborate on that. Regarding the former two models we explain them to
-represent the two subtypes of meaning according to (Grice 1989; Schulz
-2007): firstly, \emph{semantic} meaning, meaning as conveyed by the
-tokens, explained by Grice as \emph{what is said}, are directly related
-to the information models. Secondly, \emph{pragmatic} meaning, explained
-by Grice as what a speaker adds by implication and/or intention when
-uttering a sentence in a particular context (Smith 2003 p. 50), are
-directly related to models that infer new data. For instance, consider a
-heart rate reading of 128BPM. The semantic meaning that is carried is
-exactly what is said, viz. the number of times a heart beats during one
-minute. In case of the pragmatic meaning, though, the same bits will
-refer to a very different health condition in the context of a sleeping
-elderly (triggering an alarm) than in the context of a sleeping new-born
-(indicating perfect health). We like to consider the pragmatic meaning
-as the meaning that is required to draw conclusions, demanding the
-specific \emph{context of use}.
+\begin{mmdef}[Atomic semantic monolith]\label{def:atomic-semantic-monolith}
+An Atomic Semantic Monolith (ASM) denotes the smallest, highest grained pair of models (a data model and a data processing model) that remains faithful to the entity in reality that it refers to.
+\end{mmdef}
 
-However, as soon as the semeiosis has taken place, As we have seen in
-the previous section, linking between triangles exists horizontally and
-vertically alike. In this case, subsequent software engineering will
-conceptualise the models in different representational metalevels as
-well as built different levels of abstractions and generalisations.
+At the modelling level, semantics still exist by virtue of the designer.
+However, when the software agent is subsequently compiled, its binary
+code originate from the process model of the model pair (operations,
+algorithms), and the memory allocation for the data originates from the
+information model of the model pair (size, format, encoding). At this
+binary level the software engineer has left the building, and with her
+the conceptualisation vertex and the subsequent capability for semeiosis
+and, thus, semantics. In other words, at binary level we have lost the
+capability to verify the semantic coherence between the code and the
+data while the reciprocity between data and software code determines the
+semantic validity of the data processing. For instance, consider a data
+element \(t\) to represent temperature, and a data algorithm to
+establish fever, e.g., \texttt{t\ \textgreater{}\ 37.0} \(\to\)
+\texttt{fever}. The one and only means to keep the software from failing
+is that both the data and the algorithm (i) are expressed in the same
+unit of dimension (\(\si{\degree}C\) in this example), apply the same
+(ii) resolution and (iii) accuracy, to name a few obvious constraints.
+We, therefore, take the stance that semantics can only exist in software
+by virtue of the semeiosis by the human-in-the-loop, while in the
+software agent itself semantics are necessarily reduced to the
+reciprocity between data and software code. Still, the software agent
+acts as transport medium for the semantics as intended by the software
+engineer to the semantics as experienced by the end user at the HMI. We
+therefore consider the coherence between data models and data processing
+models essential for enforcing the software agent to maintain a semantic
+valid reciprocity between binary code and the data it operates on.
 
-the the \emph{signification} of the software agent. Although genuine
-semantics does not exist in software, a software agent can definitely
-fail in its signification part. When such failure happen
+This leads to the definition of a (normative (Greefhorst and Proper
+2011)) design principle to its effect:
 
-one of her major responsibilities are to assure that the data and the
-code operating on that data remain coherent with each other. In fact,
-one of the main arguments for the introduction of object-orientation
-(OO) was to dispose of a means that could enforce this ``data-code
-coherence'' in a natural way. Introducing a class to represent a
-particular entity in reality, and its methods that operated on it,
-enforces the software engineer to maintain one single conceptualisation
-that is represented by a set of two tightly coupled tokens: the data and
-the code operating on that data.
+\begin{mmdp}[Semantic coherence principle]\label{dp:semantic-coherence-principle}
 
-Interestingly, according to (Grice 1989; Schulz 2007), two subtypes of
-meaning exist:
+Establish explicit coherence between the models that are contained in a semantic monolith.
 
-Elaborate on the reciprocity as software semantics
+\textbf{Type of information:} business
 
-Elaborate on OO to consolidate the reciprocity; take the class as
-example of a semantic monolith, the minimal, atomic one.
+\textbf{Quality attributes:} (semantic) accuracy, reusability, manageability, understandability 
 
-\hypertarget{ontological-commitment}{%
-\section{Ontological commitment}\label{ontological-commitment}}
+\textbf{Rationale:}
+\begin{enumerate}
+\item Semantics in software agents are necessarily reduced to, and emerge from, the reciprocity between the data and the binary code that operates on them;  
+\item Without explicitly addressing -- at modelling level -- \textbf{all} facets that influence the coherence between the data on the one hand, and the operations that apply on them on the other, the software agent cannot guarantee to maintain the reciprocity between them at the binary level;
+\item Without maintaining the reciprocity between binary code and the data it operates on, the semeiosis performed by the end user on the result of the data processing and their subsequent semantics cannot be guaranteed to be similar as intended by the software engineer.
+\end{enumerate}
+\textbf{Implications:}
+\begin{enumerate}
+\item The coherence principle is a necessary condition for supporting semantic interoperability;
+\item The scope of semantic validity \& accuracy is addressed explicitly and can be referred to;
+\item Reuse of data often implies reuse of the data processing code, and vice versa. Having established explicit coherence improves the quality of data and code reuse, and facilitates the verification that the scope of the semantic validity \& accuracy applies in the new context as well;
+\item manageability ...?
+\item understandability ...?
+\end{enumerate}  
+\end{mmdp}
 
-Apart from this strict semiotics notion, semantics are also influenced
-by philosophy and need consensus on the question ``when are we committed
-to the existence of certain entities?''. It is relevant to acknowledge
-that humans maintain assumptions and background knowledge, both of which
-impact the semeiosis and, hence, semantics. This is where the
-conceptualisation plays an important role as frame of reference to our
-understanding, also denoted as the \emph{ontological commitment}.
-Consider the following classical sentences:
+Coherence between models can be established with use of a single unique
+reference against which the truth of the expressions of both models can
+be verified. In semiotics, this single unique reference is considered
+reality, as indicated in \cref{fig:semiotic-triangles}(b) by the
+\emph{trueness} characteristic. Except as toy example in (Steels 2012),
+this is clearly not possible. The \emph{correctness} characteristic is
+the only alternative left, taking the conceptualisation node as its
+principle point of reference, as depicted in
+\cref{fig:single-semantic-reference}(b). This is exactly what the
+mathematical branch of \emph{formal semantics} achieves (Gamut 1991;
+Genesereth and Nilsson 1987) with its three main characteristics,
+depicted in \cref{fig:single-semantic-reference}(a), viz. connecting (i)
+an abstract syntax of a language to (ii) a domain of interpretation
+(usually a set theoretic framework) by defining (iii) an interpretation
+function from the abstract syntax onto the set theoretic framework. In
+terms of the semiotic triangle, \cref{fig:semiotic-triangles}(b), this
+implies the following:
+
+\begin{enumerate}
+\def\labelenumi{(\roman{enumi})}
+\tightlist
+\item
+  the \emph{representation} node represents models that can be
+  formulated by use of an abstract syntax (and grammar) as its modelling
+  language. In this reading, a model is a particular constellation of
+  tokens that represent a particular state of affairs;
+\item
+  a particular \emph{conceptualisation} can be mathematically formulated
+  as a specific constellation of (unnamed) individuals, sets of
+  individuals, and sets of sets;
+\item
+  the \emph{subjectivation} edge can be formulated as the interpretation
+  function that assigns a mapping from modelling language tokens onto
+  the set elements, enabling the evaluation of a specific model against
+  the intended conceptualisation from (i).
+\end{enumerate}
+
+In this way, the cognitive quality of the conceptualisation can be
+substituted with set theory. Formulating the conceptualisation as a set
+theoretic model essentially remains a representation, albeit a
+mathematical one. One can argue that such substitution does not resolve
+the grounding problem, and appropriately so. Still, mathematics provide
+for a very exact way to express oneself, reducing the ambiguity that
+comes implicitly with any other language, and such mathematical
+constructs come as close to the conceptualisation as we possibly can get
+with a token-based machine. Furthermore, logical constructs used at the
+syntactical level can be interpreted into set theoretic operations,
+facilitating the evaluation of (complicated) expressions. Formal
+semantics thus provides a domain of discourse about a particular
+conceptualisation as principle point of reference for both the data
+model and the data processing model. The particular conceptualisation is
+then replaced with a particular Domain of Interest (DoI), and both
+subjectivation relations are replaced with their interpretation function
+on the abstract syntax of the models.
+
+\begin{figure}
+\hypertarget{fig:single-semantic-reference}{%
+\centering
+\includegraphics{src/images/SingleSemanticReference.png}
+\caption{Maintaining the reciprocity between data and data processing
+models through a single semantic reference, viz. the conceptualisation
+(b), represented as DoI, viz. a selection of individuals with domain
+specific characteristics defined as sets
+(a).}\label{fig:single-semantic-reference}
+}
+\end{figure}
+
+In conclusion, we explain software semantics as the reciprocity between
+data and software code, realised by maintaining the coherence between
+pairs of data and data processing models, by applying formal semantics
+to formulate a particular conceptualisation as a DoI that can act as
+semantic reference, and interpretation functions which perform the
+subjectivation from the data and operation models to that reference.
+
+\textless{}2nd Principle: Make the ASM as small as possible, but not
+smaller than required to express a semantic element. Too vague, yet. Not
+necessary to convey the primary message, imo.\textgreater{}
+
+\textless{}Elaborate on OO to consolidate the reciprocity; take the
+class as example of a semantic monolith, the minimal, atomic
+one.\textgreater{}
+
+\hypertarget{explicit-semantics}{%
+\section{Explicit semantics}\label{explicit-semantics}}
 
 \begin{itemize}
 \tightlist
 \item
-  Sentence 1: ``the king of France is bald''. This sentence has got a
-  useful meaning, being that in case of a king of France, the dear
-  fellow is as bald as a coot. We did not say \emph{that} a king of
-  France exists, nor \emph{that} bald men exist; we only used these two
-  phrases to \emph{refer} to things that might or might not exist.
-  Hence, we do not need to commit to the existence of a king of France,
-  nor to the existence of bald men, before we can formulate the sentence
-  that \emph{if} there is a king of France, he must be bald. Still, and
-  despite being a meaningful sentence, ``the king of France'' does not
-  refer to something (as France is a republic), and therefore we cannot
-  render the truth of the sentence.
+  \emph{Created:} woensdag 22 augustus 2018 11:19:51
 \item
-  Sentence 2: ``the species \emph{leo} (lions) is extinct''. Despite the
-  similarity with the linguistic structure of the previous sentence, in
-  this case we do need to commit to the existence of the species leo.
-  The reason for this is that we do not imply here something about one
-  individual but about something that many individuals have in common,
-  i.e., that which defines an entity as member of the leo species.
-  Without accepting that ``there is something'' that we consider
-  characteristic of the species of leo and leo alone, we defy the group
-  as a whole, i.e., the universal type that each of them instantiates.
-  And if we defy the existence of the universal type, we defy that
-  ``there is something''. But if we defy that ``there is something'', it
-  would be nonsense to even speak about any of its qualities, in this
-  case extinction. Therefore, by defying the existence of the species,
-  we defy the meaning of the sentence itself. We therefore are forced to
-  commit to the existence of the species.
+  \emph{Modified:} dinsdag 25 september 2018 10:55:37 Status: No Status
+\item
+  \emph{Phase:} Argumentation
 \end{itemize}
 
-The contrast exemplified by these sentences shows that only when we
-commit to something (here ``the species \emph{leo}''), the theory that
-we propose (here ``is extinct'') can \emph{refer} to that something in
-order to \emph{establish its validity}; clearly, in our world the theory
-is invalid, i.e., renders \texttt{False}, given the many counter
-examples of lions being alive. We consider this the philosophical
-cornerstone for semantics: we can assess the semantic validity of any
-proposition if and only if the underlying ontological commitment can be
-referred to. Furthermore, any assessment towards semantic
-interoperability of two semantic theories cannot be made without an
-assessment of the similarity between their underlying ontological
-commitments. Note, however, that ``We look to (\ldots{}) Ontology not in
-order to know \emph{what there is}, but in order to know what a given
-remark or doctrine, ours or someone else's, \emph{says} there is''
-(Quine 1961).
+\begin{synopsis}
+The purpose of this section is to establish that for representing semantics, descriptive models (i.e., ontologies) trump prescriptive models (all 42010 models)
 
-\hypertarget{what-is-semantic-interoperabiity}{%
-\section{What is semantic
-interoperabiity}\label{what-is-semantic-interoperabiity}}
+Firstly, describe that formal semantics can to some extend take the role as conceptualisation, and hence using set theory as conceptualisation is the best option we have to address semantics. Consequently, show that semantic ambiguity then "only" follows from 4 construction issues (already presented in text below).
 
-\hypertarget{bridgehead-semantics}{%
-\chapter{Bridgehead: Semantics}\label{bridgehead-semantics}}
+Secondly, make the distinction between descriptive and prescriptive models [@Henderson-Sellers2012], and in [@Aßmann2006]: "Specification models focus on the specification, control, and generation of systems; ontologies focus on description and conceptualization (conceptual modelling) of things. Both kinds of models have in common the qualities of abstraction and causal connection."
+
+Second argument shows that (i) the trueness of a model is laid in reality, which is impossible to achieve, and that (ii) the next best we can achieve is establishing the correctness of a model against its conceptualisation node. Finally, observe that (iii) 4 issues will influence the correctness of the model. Then conclude that the best tool to control these issues are the logics from descriptive models (viz. ontologies) at the one hand, and its use as ontological commitment for the prescriptive models (viz. the 42010 models)
+
+Conclusions:
+\begin{enumerate}
+\item ontologies are more appropriate artefacts for conceptual models than system models
+\item as in [@Aßmann2006]: "Specification models focus on the specification, control, and generation of systems; ontologies focus on description and conceptualization (conceptual modelling) of things. Both kinds of models have in common the qualities of abstraction and causal connection."
+\end{enumerate}
+\end{synopsis}
+
+Once we have established a conceptualisation, it needs a representation
+because, despite being a mathematical representation, the sets and
+individuals in the DoI remain nameless. It is necessary to represent
+them in a (pair of) model(s) that is tangible, computational and a
+distinct artifact in order for the software agent to use it, and
+eventually, make comparisons with the semantic artifact of the peer
+software agent. The model that represents a conceptualisation is denoted
+a \emph{conceptual model}. The conceptual model that describes semantics
+best is a model that is as faithful to reality as possible. This begs
+the question about the nature of a conceptual model at the one hand, and
+that of faithfulness at the other.
+
+*** Faithfulness ***
+
+To start with the latter and as indicated in
+\cref{fig:semiotic-triangles}(b), we equate faithfulness with trueness
+between the representation and the entity in reality. Since this aspect
+is a characteristic of an indirect relationship, it can only emerge as a
+result of the adequacy and correctness characteristics in that same
+Figure. Adequacy concerns the quality of the abstraction, which we do
+not address here. Correctness concerns the quality of the
+representation, and in this section we show how differences can emerge
+between the conceptualisation and the model when constructing the latter
+from the former.
+
+In literature, four construct issues are considered between a
+conceptualisations and its representation in a model, depicted in
+\cref{fig:construct-issues}. An exhaustive treatment can be found in
+(Guizzardi 2005), see also (Carvalho e Silva et al. 2012; or Azevedo et
+al. 2015).
+
+\begin{figure}
+\hypertarget{fig:construct-issues}{%
+\centering
+\includegraphics[width=5.55208in,height=2.1875in]{src/images/ConstructIssues.png}
+\caption{Four different types of construction issues that come with
+formal semantics. Which one is more clear: (a)(Carvalho e Silva et al.
+2012) or (b) (Azevedo et al. 2015)?}\label{fig:construct-issues}
+}
+\end{figure}
+
+Semantic accuracy improves when minimising the four construct issues:
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Construct overload}, or \emph{non-lucidity}, emerges when the
+  interpretation function maps an element from the abstract syntax onto
+  more than one element (individual, subset) from the conceptualisation:
+  One token can mean more than one thing, e.g.,
+  \(\CMcal{I}\left(\text{\mywordbox{bank}}\right) = \left\{ \, S, F, E \, \right\}\),
+  with \(S=\) sofa, \(F=\) financial institute, and \(E=\) rising edge;
+\item
+  \emph{Construct excess}, or \emph{unsoundness}, represents an abstract
+  syntax element that does not map onto an element from the
+  conceptualisation: One token does not have a meaning at all,
+  \(\CMcal{I}\left(\text{\mywordbox{pf\^.h}}\right) = \left\{ \, \varnothing \, \right\}\);
+\item
+  \emph{Construct redundancy}, or \emph{non-laconicity}, occurs when
+  more than one abstract syntax element can be used to represent an
+  element from the conceptualisation: More tokens mean the same, e.g.,
+  \(\CMcal{I}\left(\text{\mywordbox{xx?}}\right) = \text{ zz? }\) and
+  \(\CMcal{I}\left(\text{\mywordbox{yy?}}\right) = \text{ zz? }\);
+\item
+  \emph{Construct deficit}, or \emph{incompleteness}, specifies the
+  situation where a conceptual element does not map onto a token: It is
+  impossible to express a concept because the language has no token for
+  it, e.g., \$\CMcal{I}\^{}\{-1\}\left(\text{c}\right) =
+  \(\mywordbox{\);\$\}, with \(c\) some conceptual element and
+  \mywordbox{$\;$} intentionally left blank.
+\end{itemize}
+
+The best representation of a conceptualisation, then, is a model that is
+lucid, sound, laconic and complete, i.e., the
+subjectivation/representation mapping is isomorphic. This is difficult
+to achieve, and due to the complete, accurate and complementary
+categories of how its carves-out the DoI, using the ontological
+commitment of the modelling language proves a useful tool in that
+respect.
+
+*** Models ***
+
+In contemporary architectural paradigms, models are being used as first
+class citizens to the architectures, MDA, IEEE-1471 and ISP RM/ODP
+alike. It is therefore imperative to decide upon the major
+characteristics of a model. The distinction between descriptive and
+prescriptive models is broadly accepted, where a prescriptive model is
+used to \emph{specify} its subject, and a descriptive model is used to
+\emph{describe} its subject. As explained by (Gonzalez-Perez and
+Henderson-Sellers 2007), this distinction only addresses how the model
+is being used and does not express a complementary, disjunct property.
+In stead, a genuine dichotomy emerges when considering the \emph{role}
+that the model plays (ibid.). Then, a specification model generally
+takes a forward-looking role, specifying how the subject is supposed to
+be. A descriptive model, on the other hand, generally takes a
+backward-looking role and addresses the subject as it currently is, or
+once has been. Additionally, in (Aßmann et al. 2006), the
+\emph{relationship} that a forward-looking model has with its subject is
+characterised as an \emph{instance-of} relation, and that of a
+backward-looking model as an \emph{is-represented-by} relation. Although
+we acknowledge the differences that exist, we consider both terms
+confusing when semiotics are involved since we cannot substantiate their
+suggested equivalence with the instantiation relation from the
+ontological square/sextet or the representation relation from the
+semiotic triangle. Instead, we observe that the characteristics of the
+\emph{refers-to} relation will specialise into a \emph{declarative}
+relation for a forward-looking model: The entity is deemed to follow the
+rules that are specified by the model. Similarly, for a backward-looking
+model that provides for a representation of ``what a given remark or
+doctrine, ours or someone else's, \emph{says} there is'', the refers-to
+relation specialises into a \emph{descriptive} relation. We thus observe
+that the refers-to relation is a causal relation, the direction of which
+is dependent on the model's characteristic: declarative towards the
+entity for a forward-looking model, while descriptive towards the token
+for a backward-looking model. This is consequential for the location of
+the truth of a model: For forward-looking models their truth lies in
+their meta-models. Mutatis mutandis, the truth for backward-looking
+models lies in the entities they describe.
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Explain shortcomings of 42010:2011 in terms of semiotic triangle:
+  Explain: difference between ontologies and models
 
   \begin{enumerate}
-  \def\labelenumii{\arabic{enumii}.}
+  \def\labelenumii{\roman{enumii}.}
   \tightlist
   \item
-    All models are representations of engineers' conceptualisations
+    Models lack an elaborate ontological commitment, domain ontologies
+    naturally evolve on foundational ontologies (that express an
+    ontological commitment)
   \item
-    In MDA, ``models represent reality'' makes the semiotic triangle
-    conflate in a \mywordbox{model}
-    \textless{}---{[}\representation{]}---\textgreater{}
-    \mywordbox{reality} dimension,
+    For prescriptive models, truth lies in meta-models (good for
+    deterministic behaviour); ontologies are descriptive models for
+    which the truth lies in reality (good for semantics)
   \item
-    This cuts-off the conceptualisation vertex and with that our
-    ``knowledge about our given remark or doctrine \emph{says} there
-    is''. We have removed the ``ontological level'' (Guarino 1994), and
-    with that, the fact that ``terminological competence can be gained
-    by formally expressing the ontological commitment of a knowledge
-    base'' (ibid.)
+    ontologies have open world assumption (semantic
+    under-specification), models have closed world assumption (data
+    remain consistent, good for performance)
   \item
-    (Meta-)model instantiation, and hence level transition, therefore
-    remains at the Term/Model vertex
-  \item
-    The CIM models both semantics (Domain Model) and pragmatics
-    (Business Model)
-  \item
-    Models, including the CIM, are validated in other models, while
-    ontologies are interpreted in their conceptualisation (sets and set
-    theory)
-  \item
-    Models are ultimately expressed as either Data or Code, both located
-    at the Term/Model vertex.
+    Models specify systems, ontologies conceptualise reality (entities)
   \end{enumerate}
-\item
-  Clarify that the reciprocity between code and data manifests itself as
-  software semantics
 
-  \begin{enumerate}
-  \def\labelenumii{\arabic{enumii}.}
+  \begin{itemize}
   \tightlist
   \item
-    The relationship between Data and Code is very closely coupled in
-    order to maintain consistency between each other. Inconsistency
-    results in software malfunction or crashes. Maintaining/controlling
-    that consistency is one of the main goals of MDA/MDE.
+    Try to also connect the onto/model distinction with above principles
   \item
-    Inconsistency between Code and Data has either pragmatic grounds
-    (i.e., code assumes different reality than data resulting in
-    incorrect operations on the data) or semantic grounds (i.e., data
-    assumes different reality than the code resulting in incorrect data
-    being correctly operated on).
-  \end{enumerate}
+    Induced problem: from OWA (domain ontologies) to CWA
+    (information/data models), viz. how to get closure?
+  \item
+    Principle: use domain and business ontologies for ``computational
+    independent''-ish models (Aßmann et al. 2006)
+  \item
+    Bridge descriptive --\textgreater{} prescriptive models by grounding
+    all prescriptive model elements with concepts from descriptive model
+    (see e.g. \cref{fig:OntosInMDE}).
+  \end{itemize}
 \end{enumerate}
 
-An appropriate definition for ontology is given by \cite{Guarino:1998wq}
-as a ``logical theory accounting for the intended meaning of a formal
-vocabulary''.
-
-The triadic model is more suitable to explain the differences between
-human semantics and semantics in computers, by identifying the semiotic
-differences between the two as follows. Since humans are capable of
-making observations from reality, and abstract these into
-conceptualisations, there is a direct connection between the entity and
-the conceptualisation. Computers lack that capability, as depicted in
-\cref{fig:semiotic-differences}. Here, we show the semiotic differences
-between semantics as they appear for human actors, part (a) of the
-Figure, and that of software actors in part (b). The comparison is made
-from the perspective of communication, e.g., how is reality signified
-into utterances made by the actor, and vice versa, how are utterances
-signified into what they stand for in reality. We can assume the entity
-to remain identical over both actors, and the token to remain equivalent
-to the extent that in terms of computers these are referred to as
-\emph{data}. The third node, representing the conceptualisation for
-human agents, for software agents we claim to denote that as the
-application. Although in its bare form an application is nothing more
-than tokens that follow a specific language grammar, this bare form is
-only a representation of its quintessence, i.e., a run-time notion on
-how to act on the receipt of data.
-
-However, because computers are unable to conceptualise or concretize,
-the connection between the software's conceptualisation and the entity
-does not exist. This ``missing link'' in artificial intelligence is
-called \emph{the grounding problem}, named after the inability to ground
-a conceptualisation in what it refers to in reality. In literature, two
-exceptions to this rule exist, which we discuss in the box text below.
-Our stance towards these exceptions is that they are interesting,
-however currently irrelevant towards the resolution of semantic
-interoperability due to their many practical shortcomings in
-implementing an actual connection between the entity and the
-conceptualisation.
+In the remainder of this text we will refer to the formulation of the
+reference conceptualisation as a \emph{conceptual model}.
 
 \begin{figure}
-\hypertarget{fig:semiotic-diffs}{%
+\hypertarget{fig:OntosInMDE}{%
 \centering
-\includegraphics{src/images/SemioticDifferences.png}
-\caption{Semiotic differences in semantics for humans and
-computers}\label{fig:semiotic-diffs}
+\includegraphics[width=5.91667in,height=3.60417in]{src/images/OntosInMDE.png}
+\caption{The use of ontologies in MDA, from (Aßmann et al.
+2006)}\label{fig:OntosInMDE}
 }
 \end{figure}
-
-This is known as the \emph{problem of reference}, a manifestation of the
-\emph{grounding problem}.
-
-In information systems, addressing the distinction between terms and
-reality is extremely limited (Steels 2012), or not present at all
-(Cregan 2007).
-
-Artificial intelligence (AI) tries to tackle the grounding problem by
-building some form of understanding, also known as ``strong AI''.
-However, strong AI is expected to emerge on the long term only, if ever
-(Xiuquan Li and Tao Zhang 2017). Its counterpart ``weak AI'',
-characterised by logic and reasoning, relies on language only and can
-therefore never make the step to reality on its own (Scheider 2012).
-
-Hierin duidelijk maken wat de verschillen zijn tussen modellen en
-ontologie. Semiotiek (eigenlijk de semiotische driehoek) gebruiken wij
-als methode om te verklaren wat semantiek is bij mensen en bij
-computers. En zonder semantiek in de architectuur, geen SIOp.
-
-CONCLUSIE: Architectures will not be able to facilitate semantics and,
-hence, consolidate SIOp without including semiotics. Assumption 1: root
-cause for SIOp issues is the grounding problem: GP leads to absence of
-semantics, absence of semantics leads to absence of SIOp. Fact: Strong
-AI could solve GP, but doesn't exist Fact: Weak AI is based on language
-only, and can never solve GP on its own Observation: Humans can solve
-GP, semiotics explain why Fact: Semiotics studies relation between
-language (terms) and meaning
-
-Thus, weak AI is our only option for the time being in order to achieve
-semantics and SIOp.
-
-We therefore cannot neglect the existence of the grounding problem and
-its semiotic origins. Nevertheless, we do. For instance, when we are
-asked to explain how we address the grounding problem in the design of
-our software agent, we can't; when we are asked to point at the
-semantics parts in the code of our software agent, we can't. The same
-question however about, e.g., its scalability, will render a lecture
-with adequate references to the underlying architecture. We thus remain
-at a loss of how to engineer semantics into software agents. However,
-without a clear understanding on semantics and its contribution to the
-software agent, we are lacking the bridgehead within the software agent
-that is fundamental to the semantic interoperability bridge.
-
-In fact, this is a question of philosophy while ICT is ``only'' faced
-with its consequence: computers can deal with language only and have no
-clue about reality.
-
-It therefore remains impossible to ground the applied terms in reality,
-denoted as the \emph{grounding problem}. Its resolution is a major
-subject in strong AI and in (geographic) information science in general
-\cite{Scheider:2012tj}. Although \cite{Steels:2008tr} provides for an
-alternative (weak AI) solution, that only shows the need to refer to
-general stance is that the grounding problem remains a big challenge .
-
-despite the notoriously difficult philosophical questions involved,
-semantic interoperability can be seen as an engineering problem, namely
-that of effectively constraining interpretations towards the ones that
-are considered allowable.
 
 \hypertarget{spanning-alignments}{%
 \chapter{Spanning: Alignments}\label{spanning-alignments}}
 
+\begin{itemize}
+\tightlist
+\item
+  \emph{Created:} vrijdag 25 mei 2018 15:04:29
+\item
+  \emph{Modified:} woensdag 5 september 2018 12:34:17 Status: No Status
+\item
+  \emph{Phase:} No Label
+\end{itemize}
+
+\hypertarget{what-is-semantic-interoperabiity}{%
+\section{What is semantic
+interoperabiity}\label{what-is-semantic-interoperabiity}}
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Created:} woensdag 4 juli 2018 20:40:57
+\item
+  \emph{Modified:} maandag 17 september 2018 15:35:43 Status: No Status
+\item
+  \emph{Phase:} Argumentation
+\end{itemize}
+
+\begin{synopsis}
+\begin{enumerate}
+  \item Explain sIOP:
+  \begin{enumerate}
+    \item that consequence of data exchange = breaking the atomic semantic monolith = breaking the reciprocity by partitioning the data from its original code, and explain that standards are large semantic monoliths that roofs that point but are as manouverable as an oil tanker, and 
+    \item that sIOP demands that despite this partitioning the reciprocity between the code of the receiving agent and the external data shall be re-installed.
+    \item Optionally, give a definition on phantom semantics
+  \end{enumerate}
+  \item We therefore need to extend the semantic coherence Principe into a sIOP coherence principle with a sIOP rational that the result of the semeiosis on receiving agent A’ does not conflict withthe outcome of the semeiosis on agent A: Without maintaining the reciprocity between binary code and the data it operates on, the semeiosis performed by software engineer A’ on the result of the data processing and their subsequent semantics cannot be guaranteed to be similar as intended by the software engineer.
+  \item Explain the difference with semantic standards which are basically large semantic monoliths
+  \item Introduce Principle: ontological commitment as minimal standard for sIOP, “(...) not in order to know *what there is*, but in order to know what a given remark or doctrine, ours or someone else’s, *says* there is” [@Quine:1953er]
+\end{enumerate}
+
+\end{synopsis}
+
+Rephrase: despite the notoriously difficult philosophical questions
+involved, semantic interoperability can be seen as an engineering
+problem, namely that of effectively constraining interpretations towards
+the ones that are considered allowable (Kuhn 2009).
+
 \begin{figure}
 \hypertarget{fig:2semiotic-triangles}{%
 \centering
-\includegraphics[width=6.25in,height=\textheight]{src/images/2SemioticTriangles.png}
+\includegraphics[width=5.3125in,height=2.25in]{src/images/2SemioticTriangles.png}
 \caption{The various forms of
 interoperability}\label{fig:2semiotic-triangles}
+}
+\end{figure}
+
+\hypertarget{expicit-siop-by-alignments}{%
+\section{Expicit sIOP by alignments}\label{expicit-siop-by-alignments}}
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Created:} dinsdag 28 augustus 2018 10:29:09
+\item
+  \emph{Modified:} vrijdag 7 september 2018 14:39:27 Status: No Status
+\item
+  \emph{Phase:} Argumentation
+\end{itemize}
+
+\begin{synopsis}
+Thus:
+
+\begin{enumerate}
+\item Follow the coherence principle and conclude that the models from which *external* data and *receiving* data processing code are derived, need to be brought into coherence with each other.
+\item The coherence principle already enforced a single unique reference for each agent. Re-installing coherence demands a semantic alignment between those single unique references. 
+\item The purpose of that alignment is to establish how the truth of expressions that are formulated in terms of agent A, can be estabished by using formulations in terms of agent A' against the single unique reference from A'. 
+\item The language that is used for expressing the alignment should be fit for its purpose. Refer to EDOAL [@Scharffe2011] as the currently most complete one.
+\end{enumerate}
+
+\end{synopsis}
+
+\begin{figure}
+\hypertarget{fig:3Concerns}{%
+\centering
+\includegraphics[width=5.15625in,height=7.21875in]{src/images/3SemanticConcerns.png}
+\caption{The three semantic concerns are related: conceptual modelling,
+semantic reconciliation, and semantic mediation}\label{fig:3Concerns}
 }
 \end{figure}
 
 \hypertarget{roadway-mediation}{%
 \chapter{Roadway: Mediation}\label{roadway-mediation}}
 
-\hypertarget{siop-principles}{%
-\chapter{SIOp Principles}\label{siop-principles}}
+\begin{itemize}
+\tightlist
+\item
+  \emph{Created:} vrijdag 25 mei 2018 15:04:50
+\item
+  \emph{Modified:} vrijdag 7 september 2018 14:39:27 Status: No Status
+\item
+  \emph{Phase:} Argumentation
+\end{itemize}
 
-The main (business) requirement is to achieve SIOp as quickly as
+\begin{synopsis}
+Purpose of this section: Establish requirements for a *generic* mediator.
+
+With mediation we denote the process of transcribing a data term that originates from Agent A into a data term that matches a term familiair to Agent A', based on both agents' ontologies and the alignment between them. The main issue here is that although many different types of relation can be defined between the concepts of ontology A and A', e.g., superset of, a transcription of a token from A into a token from A' is a complete replacement and, hence, implements an equivalence relation. In [@Brandt2018b], we show a semantic valid transcription process. The requirements of a mediator are:
+
+\begin{enumerate}
+\item Being a generic service
+\item Fully defined by two ontologies and their alignments
+\item Allows for semantic valid transcriptions only, where 'validity' refers to absence of inducing phantom semantics.
+\item Appropriate behaviour for non-translatable content, which should apply only as result of an incomplete alignment, a logical incorrect alignment, or attempts to communicate content that is considered irrelevant for the receiving agent.
+\end{enumerate}
+\end{synopsis}
+
+\hypertarget{siop-principles}{%
+\chapter{sIOP Principles}\label{siop-principles}}
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Created:} vrijdag 25 mei 2018 14:22:13
+\item
+  \emph{Modified:} vrijdag 7 september 2018 14:39:27 Status: No Status
+\item
+  \emph{Phase:} Argumentation
+\end{itemize}
+
+\begin{synopsis}
+Purpose of this section: 
+\begin{itemize}
+\item Show the semantic architecture as an additional layer that is orthogonal to current layers, expressing a separation of concerns between syntax and semantics (see [@Brandt:2013jh])
+\item Define loosely coupled semantics as a result of applying the 2 principles 'semantic separation of concerns' and 'semantic transparency' (see [@Brandt:2013jh])
+\item Repeat the Coherence Principle, the sIOP Coherence Principle, and the Ontological Commitment Principle, and show how they fit in the semantic architecture
+\item Better structure informal text below, towards more Principle definitions.
+\end{itemize}
+\end{synopsis}
+
+The main (business) requirement is to achieve sIOP as quickly as
 possible, with as minimal effort as possible, for collaborations that
 had not been foreseen and consequently could not be anticipated for
 during design time of the (two or more) software agents.
 
 Consequently, the software agents have been developed totally and
-completely independent from each other.
-
-This raises the following semantic concerns:
-
-I. Loosely coupled semantics: * Define semantics once during software
-design phase, and achieve SIOp many times with many different peers * EW
-Dijkstra: Connected but as independent as possible: peer agents shall
-only publish \emph{what} is meant with semantics, not \emph{how} it is
-represented I. Scalable SIOp: * Variable in number of peers * Variable
-in level of semantic heterogeneity
+completely independent from each other. This raises the following
+semantic concerns:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Define the four semantic concerns (see \cref{fig:3Concerns} for three
-  related ones):
+  Loosely coupled semantics:
+
+  \begin{enumerate}
+  \def\labelenumii{\roman{enumii}.}
+  \tightlist
+  \item
+    Define semantics once during software design phase, and achieve sIOP
+    many times with many different peers
+  \item
+    EW Dijkstra: Connected but as independent as possible. In its
+    original reading this implies only defining the \emph{what} but
+    leaving the \emph{how} transparent. For semantics the implication is
+    a more abstract one: the semantics of what is being communicated
+    shall remain transparent to \emph{how} it is represented. More
+    specifically, agents shall rely on an external oracle that can
+    change the semantic vehicle from its original source native
+    representation to the destined target representation, without
+    changing the semantic cargo. Agents, then, can communicate in their
+    own native representations without the need to learn or integrate
+    their peers' representations.
+  \end{enumerate}
+\item
+  Scalable sIOP:
+
+  \begin{enumerate}
+  \def\labelenumii{\roman{enumii}.}
+  \tightlist
+  \item
+    Variable in number of peers
+  \item
+    Variable in level of semantic heterogeneity
+  \end{enumerate}
+\item
+  Semantic concerns are foundational to sIOP (see \cref{fig:3Concerns}
+  for three related ones):
 
   \begin{enumerate}
   \def\labelenumii{\roman{enumii}.}
@@ -964,14 +1398,27 @@ in level of semantic heterogeneity
     Explicit and computational semantics by \emph{conceptual modelling}:
     Bridgehead
   \item
-    Managed and controlled SIOp by \emph{semantic reconciliation}:
+    Managed and controlled sIOP by \emph{semantic reconciliation}:
     Spanning
   \item
-    Automated SIOp by \emph{semantic mediation}: Roadway * Address
+    Automated sIOP by \emph{semantic mediation}: Roadway. Address
     semantic issue about the non-equivalence between an alignment and a
-    transcription (refer to (Brandt et al. 2018))
+    transcription (refer to \cite{Brandt2018b})
   \end{enumerate}
 \end{enumerate}
+
+\emph{Ad. Dijkstra's ``Connected but as independent as possible''}.
+Complement weak AI with human brain:
+
+\begin{itemize}
+\tightlist
+\item
+  use AI where possible (computational semantics for software agent;
+  supporting semantic reconciliation)
+\item
+  use human brain where necessary (but not more): ontology engineering @
+  design time; alignment authoring @ pre-runtime
+\end{itemize}
 
 \textbf{\emph{Achieve loosely coupled semantics}}
 
@@ -1006,7 +1453,7 @@ concerns, and (ii) transparency:
       Separate your own semantics (i.e., conceptualisations, viz. let
       each software agent manage its own abstraction from reality)
     \item
-      from establishing SIOp
+      from establishing sIOP
     \end{enumerate}
   \end{itemize}
 \item
@@ -1048,40 +1495,37 @@ concerns, and (ii) transparency:
 Formulate the principles in the format according to (Greefhorst and
 Proper 2011)
 
-Ad.semantic separation of concern. Where in its classical application
-the result of applying the principle is that atomic functions are
-defined, designed and implemented only once and remain unique, in its
-semantic application the result of applying this principle is that every
-software agent maintains its own semantics. Semantics are, therefore,
-distributed all over the place. This seems counterintuitive or even
-plain wrong, however, it is necessary for complying with the concern
-about semantic scalability (in support of heterogeneous semantics).
-Besides that, it is a direct consequence of the demand to allow for
-independent software development
+\emph{Ad. semantic separation of concern}. Where in its classical
+application the result of applying the principle is that atomic
+functions are defined, designed and implemented only once and remain
+unique, in its semantic application the result of applying this
+principle is that every software agent maintains its own semantics.
+Semantics are, therefore, distributed all over the place. This seems
+counterintuitive or even plain wrong, however, it is necessary for
+complying with the concern about semantic scalability (in support of
+heterogeneous semantics). Besides that, it is a direct consequence of
+the demand to allow for independent software development
 
-\begin{verbatim}
-* Principle: specify ontological commitment as basic 
-* Refer to (and partly reuse?) semantic architecture from [@Brandt2013]
-\end{verbatim}
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
+\begin{itemize}
 \tightlist
 \item
-  Complement weak AI with human brain:
+  Principle: specify ontological commitment as basic
+\item
+  Refer to (and partly reuse?) semantic architecture from (Brandt et al.
+  2013), depicted in \cref{fig:sSoC}
+\end{itemize}
 
-  \begin{itemize}
-  \tightlist
-  \item
-    use AI where possible (computational semantics for software agent;
-    supporting semantic reconciliation)
-  \item
-    use human brain where necessary (but not more): ontology engineering
-    @ design time; alignment authoring @ pre-runtime
-  \end{itemize}
-\end{enumerate}
+\begin{figure}
+\hypertarget{fig:sSoC}{%
+\centering
+\includegraphics[width=4.66667in,height=4.4375in]{src/images/SemanticSoC.png}
+\caption{An architecture for loosely coupled semantics, founded on
+semantic SoC and semantic transparency (Brandt et al.
+2013)}\label{fig:sSoC}
+}
+\end{figure}
 
-*** Achieve Scalable SIOp***
+\textbf{\emph{Achieve Scalable sIOP}}
 
 Ensure that different semantic topologies remain possible:
 
@@ -1097,7 +1541,8 @@ Ensure that different semantic topologies remain possible:
   \item
     Good: easy semantic governance
   \item
-    Bad: very similar to a semantic monolith
+    Bad: very big semantic monolith, hence, low agility in dynamic
+    environments
   \end{itemize}
 \item
   Mesh alignments (bilateral alignments) for very dynamic and
@@ -1106,7 +1551,7 @@ Ensure that different semantic topologies remain possible:
   \begin{itemize}
   \tightlist
   \item
-    Good: quickly established bilateral SIOp; granularity-on-demand,
+    Good: quickly established bilateral sIOP; granularity-on-demand,
     viz. intricate where necessary, coarse-grained where possible
   \item
     Bad: complicated semantic governance
@@ -1115,76 +1560,126 @@ Ensure that different semantic topologies remain possible:
   Mix-n-Match (coarse-grained star-alignment with specialised bilateral
   alignments) for the 70\% bulk * Good: controllable semantic
   governance; after central alignment, quickly established bilateral
-  SIOp * Bad: slightly more complicated mediation due to double
+  sIOP * Bad: slightly more complicated mediation due to double
   alignment support
 \end{enumerate}
+
+\hypertarget{iso42010-viewpoint-on-siop}{%
+\chapter{ISO42010 viewpoint on sIOP}\label{iso42010-viewpoint-on-siop}}
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Created:} vrijdag 20 juli 2018 15:43:03
+\item
+  \emph{Modified:} vrijdag 7 september 2018 14:39:27 Status: No Status
+\item
+  \emph{Phase:} Argumentation
+\end{itemize}
+
+\begin{synopsis}
+Consolidate the ideas on the bridgehead, spanning, roadway and principles into an additional ISO42010 Architectural Viewpoint (sIOP) that summarises all previous Sections as concerns on semantics and sIOP. ***Preferrably written by Eric.***
+
+\end{synopsis}
+
+\hypertarget{related-work}{%
+\chapter{Related work}\label{related-work}}
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Created:} zondag 22 april 2018 17:06:37
+\item
+  \emph{Modified:} vrijdag 7 september 2018 14:39:27 Status: No Status
+\item
+  \emph{Phase:} Argumentation
+\end{itemize}
+
+\begin{synopsis}
+Group the papers into 3 (?) categories, and discuss their strong and weak points in relation to sIOP and architecture in general, and our paper specifically.
+
+\end{synopsis}
+
+Discuss the following papers:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Explain: difference between ontologies and models
-
-  \begin{enumerate}
-  \def\labelenumii{\roman{enumii}.}
-  \tightlist
-  \item
-    Models lack an elaborate ontological commitment, domain ontologies
-    naturally evolve on foundational ontologies (that express an
-    ontological commitment)
-  \item
-    For prescriptive models, truth lies in themselves (deterministic
-    software); ontologies are descriptive models for which the truth
-    lies in reality (good for semantics)
-  \item
-    ontologies have open world assumption (semantic
-    under-specification), models have closed world assumption (data
-    remain consistent)
-  \item
-    Models specify systems, ontologies conceptualise entities
-  \end{enumerate}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Try to also connect the onto/model distinction with above principles
-  \item
-    Induced problem: from OWA (domain ontologies) to CWA
-    (information/data models)
-  \item
-    Principle: use domain and business ontologies for CIM (Aßmann et al.
-    2006)
-  \item
-    Principle: prescribe requirements model with concepts that are
-    defined by CIM-DO and CIM-BO (see \cref{fig:OntosInMDE}).
-  \end{itemize}
+  M. B. Almeida, C. P. Pessanha, and R. Barcelos, ``Information
+  Architecture for Organizations: An Ontological Approach,'' in Ontology
+  in Information Science, C. Thomas, Ed. IntechOpen, 2018, pp.~1--27.
+\item
+  S. Yang, J. Guo, and R. Wei, ``Semantic interoperability with
+  heterogeneous information systems on the internet through automatic
+  tabular document exchange,'' Inf. Syst., vol.~69, pp.~195--217,
+  Sep.~2017.
+\item
+  U. Aßmann, S. Zschaler, and G. Wagner, ``Ontologies, Meta-models, and
+  the Model-Driven Paradigm,'' in Ontologies for Software Engineering
+  and Software Technology, C. Calero, F. Ruiz, and M. Piattini, Eds.
+  Springer-Verlag Berlin Heidelberg, 2006, pp.~249--273.
+\item
+  C. Atkinson and T. Kühne, ``The Essence of Multilevel Metamodeling,''
+  LNCS, vol.~2185, pp.~19--33, 2001.
+\item
+  H. Carvalho e Silva, R. de Cassia Cordeiro de Castro, M. J. Negreiros
+  Gomes, and A. Salles Garcia, Well-Founded IT Architecture Ontology: An
+  Approach from a Service Continuity Perspective, vol.~294.
+  Springer-Verlag Berlin Heidelberg, 2012.
+\item
+  R. Carraretto, ``Separating Ontological and Informational Concerns : A
+  Model-driven Approach for Conceptual Modeling,'' Federal University of
+  Espírito Santo, 2012.
+\item
+  C. L. B. Azevedo, M. E. Iacob, J. P. A. Almeida, M. J. van Sinderen,
+  L. F. Pires, and G. Guizzardi, ``Modeling resources and capabilities
+  in enterprise architecture: A well-founded ontology-based proposal for
+  ArchiMate,'' Inf. Syst., vol.~54, pp.~235--262, 2015.
+\item
+  M. B. Almeida, C. P. Pessanha, and R. Barcelos, ``Information
+  Architecture for Organizations: An Ontological Approach,'' in Ontology
+  in Information Science, C. Thomas, Ed. IntechOpen, 2018, pp.~1--27.
+\item
+  D. Gasevic, D. Djuric, and V. Devedzic, Eds., Model Driven
+  Architecture and Ontology Development. Springer Berlin Heidelberg New
+  York, 2006. Particularly Part II: The Model Driven Architecture and
+  Ontologies
 \end{enumerate}
 
-\begin{figure}
-\hypertarget{fig:OntosInMDE}{%
-\centering
-\includegraphics{src/images/OntosInMDE.png}
-\caption{The use of ontologies in MDA, from (Aßmann et al.
-2006)}\label{fig:OntosInMDE}
-}
-\end{figure}
+\hypertarget{discussion-future-work}{%
+\chapter{Discussion \& future work}\label{discussion-future-work}}
 
-\begin{figure}
-\hypertarget{fig:3Concerns}{%
-\centering
-\includegraphics{src/images/3SemanticConcerns.png}
-\caption{The three semantic concerns are related: conceptual modelling,
-semantic reconciliation, and semantic mediation}\label{fig:3Concerns}
-}
-\end{figure}
+\begin{itemize}
+\tightlist
+\item
+  \emph{Created:} vrijdag 25 mei 2018 15:05:09
+\item
+  \emph{Modified:} vrijdag 7 september 2018 14:39:27 Status: No Status
+\item
+  \emph{Phase:} Argumentation
+\end{itemize}
 
-\hypertarget{architectural-viewpoint-on-siop}{%
-\chapter{Architectural viewpoint on
-SIOp}\label{architectural-viewpoint-on-siop}}
+\begin{synopsis}
+Address shortcomings that we discover throughout writing the sections. 
+
+Conclude that by identifying a specific 42010 viewpoint on sIOP, a necessary condition towards the preparation of a sIOP capability in a software agent has been identified which can be applied to all MDE and view-based software architectures.
+
+\end{synopsis}
 
 \hypertarget{references}{%
 \chapter*{References}\label{references}}
 \addcontentsline{toc}{chapter}{References}
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Created:} zondag 4 maart 2018 16:08:55
+\item
+  \emph{Modified:} vrijdag 7 september 2018 14:39:27 Status: No Status
+\item
+  \emph{Phase:} No Label
+\end{itemize}
 
 \setlength{\parindent}{-0.2in}
 
@@ -1192,16 +1687,38 @@ SIOp}\label{architectural-viewpoint-on-siop}}
 
 \setlength{\parskip}{8pt}
 
+Note:\todo{ brandtp, 9/5/2018 Also show the ref-id per reference *duh*}
+
 \hypertarget{refs}{}
+\leavevmode\hypertarget{ref-Azevedo2015}{}%
+Azevedo CL, Iacob ME, Almeida JPA, Sinderen MJ van, Pires LF, Guizzardi
+G. 2015. Modeling resources and capabilities in enterprise architecture:
+A well-founded ontology-based proposal for ArchiMate. Inf. Syst.
+54:235--262;
+doi:\href{https://doi.org/10.1016/j.is.2015.04.008}{10.1016/j.is.2015.04.008}.
+
 \leavevmode\hypertarget{ref-Auxdfmann2006}{}%
 Aßmann U, Zschaler S, Wagner G. 2006. Ontologies, Meta-models, and the
 Model-Driven Paradigm. In \emph{Ontol. Softw. Eng. Softw. Technol.} (C.
 Calero, F. Ruiz, and M. Piattinieds. ), pp. 249--273, Springer-Verlag
 Berlin Heidelberg.
 
-\leavevmode\hypertarget{ref-Brandt2018}{}%
-Brandt P, Sinderen M van, Basten T. 2018. Semantic mediation: from
-alignment relation to semantic identity.
+\leavevmode\hypertarget{ref-Brandt2013}{}%
+Brandt P, Basten T, Stuiik S. 2013. Semantic interoperability in sensor
+applications making sense of sensor data. \ldots{} healthc. E- \ldots{}
+5: 34--41.
+
+\leavevmode\hypertarget{ref-Bricker2016}{}%
+Bricker P. 2016. Ontological Commitment. In \emph{Stanford encycl.
+Philos.} (E.N. Zaltaed. ),
+\(\backslash\)url\{https://plato.stanford.edu/archives/win2016/entries/ontological-commitment/\};
+Metaphysics Research Lab, Stanford University.
+
+\leavevmode\hypertarget{ref-CarvalhoeSilva2012}{}%
+Carvalho e Silva H, Cassia Cordeiro de Castro R de, Negreiros Gomes MJ,
+Salles Garcia A. 2012. \emph{Well-Founded IT Architecture Ontology: An
+Approach from a Service Continuity Perspective}. R. Benlamried..
+Springer-Verlag Berlin Heidelberg.
 
 \leavevmode\hypertarget{ref-Cregan2007}{}%
 Cregan AM. 2007. Symbol grounding for the semantic web. W. Franconi, E
@@ -1210,6 +1727,20 @@ and Kifer, M and Mayed.. Semant. WEB res. Appl. Proc. 4519: 429--442.
 \leavevmode\hypertarget{ref-Eco1976}{}%
 Eco U. 1976. \emph{A theory of semiotics}. Indiana University Press /
 London: Macmillam, Bloomington, IN.
+
+\leavevmode\hypertarget{ref-Gamut1991}{}%
+Gamut L. 1991. \emph{Logic, Language and Meaning, volume 1: Introduction
+to Logic}. The University of Chicago Press.
+
+\leavevmode\hypertarget{ref-Genesereth:1987dg}{}%
+Genesereth MR, Nilsson NJ. 1987. \emph{Logical foundations of artificial
+intelligence}. Morgan Kaufmann Publishers Inc.
+
+\leavevmode\hypertarget{ref-Gonzalez-Perez2007}{}%
+Gonzalez-Perez C, Henderson-Sellers B. 2007. Modelling software
+development methodologies: A conceptual foundation. J. Syst. Softw.
+80:1778--1796;
+doi:\href{https://doi.org/10.1016/j.jss.2007.02.048}{10.1016/j.jss.2007.02.048}.
 
 \leavevmode\hypertarget{ref-Greefhorst2011}{}%
 Greefhorst D, Proper E. 2011. \emph{Architecture Principles, The
@@ -1225,8 +1756,29 @@ Whiteeds. Philos. Cogn. Sci. Proc. 16th int. Wittgenstein symp.
 443--456;
 doi:\href{https://doi.org/10.1007/978-3-642-02463-4}{10.1007/978-3-642-02463-4}.
 
+\leavevmode\hypertarget{ref-Guizzardi:2005vt}{}%
+Guizzardi G. 2005. Ontological foundations for structural conceptual
+models. PhD thesis, University of Twente, The Netherlands; CTIT,
+Enschede, The Netherlands.
+
+\leavevmode\hypertarget{ref-Guizzardi:2015ky}{}%
+Guizzardi G, Wagner G, Almeida JPA, Guizzardi RSS. 2015. Towards
+ontological foundations for conceptual modeling: The unified
+foundational ontology (UFO) story. Appl. Ontol. 10:259--271;
+doi:\href{https://doi.org/10.3233/AO-150157}{10.3233/AO-150157}.
+
 \leavevmode\hypertarget{ref-Harnad1990}{}%
 Harnad S. 1990. The Symbol Grounding Problem. Physica D 42. 335--346.
+
+\leavevmode\hypertarget{ref-Jansen2008}{}%
+Jansen L. 2008. Categories : The Top-Level Ontology. In \emph{Appl.
+Ontol. An introd.} (K. Munn and B. Smitheds. ), pp. 173--196, De
+Gruyter.
+
+\leavevmode\hypertarget{ref-Kuhn2009}{}%
+Kuhn W. 2009. Semantic engineering. In \emph{Res. Trends geogr. Inf.
+Sci. Lect. Notes geoinf. Cartogr.} (G. Navratiled. ), pp. 63--76,
+Springer Berlin Heidelberg.
 
 \leavevmode\hypertarget{ref-Ogden1989}{}%
 Ogden CK, Richards IA. 1989. \emph{The Meaning of Meaning: A Study of
@@ -1240,22 +1792,13 @@ Quine WVO. 1961. From a logical point of view. Br. Dent. J. 195: 229.
 Saussure F de. 1959. \emph{Course in general linguistics}. C. Bally and
 A. Sechehayeeds.. Philosophical Library, New York, USA.
 
-\leavevmode\hypertarget{ref-Scheider:2012tj}{}%
-Scheider S. 2012. Grounding geographic information in perceptual
-operations. Dissertation, Westfälische Wilhelms-Universität Münster; IOS
-Press.
-
-\leavevmode\hypertarget{ref-Schulz2007}{}%
-Schulz K. 2007. Minimal Models in Semantics and Pragmatics.
-Dissertation, Universiteit van Amsterdam.
-
 \leavevmode\hypertarget{ref-Searle:1980hw}{}%
 Searle JR. 1980. Minds, brains, and programs. Behav. Brain Sci. 3:
 417--424.
 
-\leavevmode\hypertarget{ref-smith2003}{}%
-Smith CS. 2003. \emph{Modes of Discourse: The Local Structure of Texts}.
-Cambridge University Press, Cambridge, MA.
+\leavevmode\hypertarget{ref-Smith2005}{}%
+Smith B. 2005. Against fantology. In \emph{Exp. Anal.} (M. Reicher and
+J. Marekeds. ), pp. 153--170, HPT\&ÖPV, Vienna.
 
 \leavevmode\hypertarget{ref-Sowa:2000di}{}%
 Sowa JF. 2000. Ontology, metadata, and semiotics. Lect. Notes Comput.
