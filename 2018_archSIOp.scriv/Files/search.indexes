@@ -1230,6 +1230,7 @@ In the remainder of this text we will refer to the formulation of the reference 
 [def:ontoMDA]: src\images\OntosInMDE.png {#fig:OntosInMDE  width=568px height=346px}
 [def:constructissues]: src\images\ConstructIssues.png {#fig:construct-issues  width=533px height=210px}
 </Text>
+            <Notes>Additionally, in [@Aßmann2006], the relationship that a forward-looking model has with its subject is characterised as an instance-of relation, and that of a backward-looking model as an is-represented-by relation. Although we acknowledge the differences that exist, we consider both terms confusing when semiotics are involved since we cannot substantiate their suggested equivalence with the instantiation relation from the ontological square/sextet or the representation relation from the semiotic triangle. Instead, we observe that the characteristics of the refers-to relation will specialise into a declarative relation for a forward-looking model: The entity is deemed to follow the rules that are specified by the model. Similarly, for a backward-looking model that provides for a representation of “what a given remark or doctrine, ours or someone else’s, says there is”, the refers-to relation specialises into a descriptive relation. </Notes>
             <Comments>brandtp, 9/19/2018 describe/explain the term
 brandtp, 9/19/2018 find proper example</Comments>
         </Document>
