@@ -1,0 +1,3 @@
+Consolidate the ideas on the bridgehead, spanning, roadway and principles into an additional ISO42010 Architectural Viewpoint (sIOP) that summarises all previous Sections as concerns on semantics and sIOP. ***Preferrably written by Eric.***
+
+\end{synopsis}

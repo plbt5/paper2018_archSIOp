@@ -1,0 +1,14 @@
+The purpose of this section is to establish that for representing semantics, descriptive models (i.e., ontologies) trump prescriptive models (all 42010 models)
+
+Firstly, describe that formal semantics can to some extend take the role as conceptualisation, and hence using set theory as conceptualisation is the best option we have to address semantics. Consequently, show that semantic ambiguity then "only" follows from 4 construction issues (already presented in text below).
+
+Secondly, make the distinction between descriptive and prescriptive models [@Henderson-Sellers2012], and in [@Aßmann2006]: "Specification models focus on the specification, control, and generation of systems; ontologies focus on description and conceptualization (conceptual modelling) of things. Both kinds of models have in common the qualities of abstraction and causal connection."
+
+Second argument shows that (i) the trueness of a model is laid in reality, which is impossible to achieve, and that (ii) the next best we can achieve is establishing the correctness of a model against its conceptualisation node. Finally, observe that (iii) 4 issues will influence the correctness of the model. Then conclude that the best tool to control these issues are the logics from descriptive models (viz. ontologies) at the one hand, and its use as ontological commitment for the prescriptive models (viz. the 42010 models)
+
+Conclusions:
+\begin{enumerate}
+\item ontologies are more appropriate artefacts for conceptual models than system models
+\item as in [@Aßmann2006]: "Specification models focus on the specification, control, and generation of systems; ontologies focus on description and conceptualization (conceptual modelling) of things. Both kinds of models have in common the qualities of abstraction and causal connection."
+\end{enumerate}
+\end{synopsis}

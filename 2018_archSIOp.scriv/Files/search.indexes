@@ -502,6 +502,19 @@ brandtp, 9/5/2018 Add sIOP-faults as appendix.</Comments>
 [def:3Concerns]: src\images\3SemanticConcerns.png {#fig:3Concerns width=495px height=693px} 
 </Text>
         </Document>
+        <Document ID="16">
+            <Title>That versus which</Title>
+            <Text>
+* “that/who” (no comma) is used to single out (restrict) from many possibilities the one and only that is referred to: 
+    * The painting that was hanging in the foyer was stolen --&gt; from all paintings in the house, one hung in the foyer and that particular one was stolen;
+    * The suspect who has red hair committed the crime --&gt; from all suspects indeed the perpetrator was the only red haired person;
+* “, which /, who” (with comma) is used to add incidental information (unrestricted) about the subject that is referred to, however, not to single it out:
+    * The painting, which was hanging in the foyer, was stolen --&gt; many paintings were hanging in the foyer, and the one that was stolen was one of them;
+    * The suspect, who owns a red car, committed the crime --&gt; although the perpetrator owns a red car, this does not necessarily imply that from all suspects the perpetrator and only the perpetrator owns a red car. Any or all of the suspects might own a red car.
+* hence, “who” refers to a restrictive clause while “, who” refers to a non-restrictive (informative) clause.
+
+&lt;!-- einde opsomming --&gt;</Text>
+        </Document>
         <Document ID="23">
             <Title>Semiotics</Title>
             <Synopsis>Present concrete notion on (i) the semiotic triangle and (ii) the relationsbetween its nodes.
@@ -527,19 +540,6 @@ Linking the triangles horizontally results in different representational meta-le
 &lt;!-- page additions --&gt;
 [def:semtriangles]: src\images\SemioticTriangles.png {#fig:semiotic-triangles width=600px height=200px}
 [def:linkedtriangles]: src\images\LinkedTriangles.png {#fig:linked-triangles width=600px height=230px}</Text>
-        </Document>
-        <Document ID="16">
-            <Title>That versus which</Title>
-            <Text>
-* “that/who” (no comma) is used to single out (restrict) from many possibilities the one and only that is referred to: 
-    * The painting that was hanging in the foyer was stolen --&gt; from all paintings in the house, one hung in the foyer and that particular one was stolen;
-    * The suspect who has red hair committed the crime --&gt; from all suspects indeed the perpetrator was the only red haired person;
-* “, which /, who” (with comma) is used to add incidental information (unrestricted) about the subject that is referred to, however, not to single it out:
-    * The painting, which was hanging in the foyer, was stolen --&gt; many paintings were hanging in the foyer, and the one that was stolen was one of them;
-    * The suspect, who owns a red car, committed the crime --&gt; although the perpetrator owns a red car, this does not necessarily imply that from all suspects the perpetrator and only the perpetrator owns a red car. Any or all of the suspects might own a red car.
-* hence, “who” refers to a restrictive clause while “, who” refers to a non-restrictive (informative) clause.
-
-&lt;!-- einde opsomming --&gt;</Text>
         </Document>
         <Document ID="17">
             <Title>Plural versus possessive -s</Title>

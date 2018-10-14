@@ -1,0 +1,76 @@
+{\rtf1\ansi\ansicpg1252\uc1\deff0
+{\fonttbl{\f0\fmodern\fcharset0\fprq2 CourierNewPSMT;}}
+{\colortbl;\red0\green0\blue0;\red255\green255\blue255;}
+\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\fet2\ftnbj\aenddoc
+\pgnrestart\pgnstarts0
+\pard\plain \ltrch\loch {\f0\fs24\b0\i0 The main (business) requirement is to achieve sIOP as quickly as possible, with as minimal effort as possible, for collaborations that had not been foreseen and consequently could not be anticipated for during design time of the (two or more) software agents.}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 Consequently, the software agents have been developed totally and completely independent from each other. This raises the following semantic concerns:}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 1. Loosely coupled semantics:}
+\par\plain {\f0\fs24\b0\i0     i. Define semantics once during software design phase, and achieve sIOP many times with many different peers}
+\par\plain {\f0\fs24\b0\i0     i. EW Dijkstra: Connected but as independent as possible. In its original reading this implies only defining the *what* but leaving the *how* transparent. For semantics the implication is a more abstract one: the semantics of what is being communicated shall remain transparent to *how* it is represented. More specifically, agents shall rely on an external oracle that can change the semantic vehicle from its original source native representation to the destined target representation, without changing the semantic cargo. Agents, then, can communicate in their own native representations without the need to learn or integrate their peers\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92 representations.}
+\par\plain {\f0\fs24\b0\i0 1. Scalable sIOP:}
+\par\plain {\f0\fs24\b0\i0     i. Variable in number of peers}
+\par\plain {\f0\fs24\b0\i0     i. Variable in level of semantic heterogeneity}
+\par\pard\plain \ri-10760\ql\ltrch\loch {\f0\fs24\b0\i0 1. Semantic concerns are foundational to sIOP (see \\cref\{fig:3Concerns\} for three related ones):}
+\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0     i. Explicit and computational semantics by *conceptual modelling*: Bridgehead }
+\par\plain {\f0\fs24\b0\i0     ii. Managed and controlled sIOP by *semantic reconciliation*: Spanning}
+\par\plain {\f0\fs24\b0\i0     iii. Automated sIOP by *semantic mediation*: Roadway. Address semantic issue about the non-equivalence between an alignment and a transcription (refer to \\cite\{Brandt2018b\})}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 *Ad. Dijkstra\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92s \u8220\'93Connected but as independent as possible\u8221\'94*. Complement weak AI with human brain:}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0  * use AI where possible (computational semantics for software agent; supporting semantic reconciliation)}
+\par\plain {\f0\fs24\b0\i0  * use human brain where necessary (but not more): ontology engineering @ design time; alignment authoring @ pre-runtime}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0      }
+\par\plain {\f0\fs24\b0\i0 ***Achieve loosely coupled semantics***}
+\par\plain {\f0\fs24\b0\i0   }
+\par\plain {\f0\fs24\b0\i0 Loose coupling is founded on principles about (i) separation of concerns, and (ii) transparency:}
+\par\plain {\f0\fs24\b0\i0    }
+\par\plain {\f0\fs24\b0\i0 * Principle *Separation of concerns*:}
+\par\plain {\f0\fs24\b0\i0     * Classical: }
+\par\plain {\f0\fs24\b0\i0         i. Decompose system in parts}
+\par\plain {\f0\fs24\b0\i0         i. with minimal functional overlap}
+\par\plain {\f0\fs24\b0\i0     * Semantical:}
+\par\plain {\f0\fs24\b0\i0         i. Separate your own semantics (i.e., conceptualisations, viz. let each software agent manage its own abstraction from reality)}
+\par\plain {\f0\fs24\b0\i0         i. from establishing sIOP }
+\par\plain {\f0\fs24\b0\i0 * Principle *Transparency*}
+\par\plain {\f0\fs24\b0\i0     * Classical: }
+\par\plain {\f0\fs24\b0\i0         i. Agnostic to *how* its functions are being achieved}
+\par\plain {\f0\fs24\b0\i0         1. Communicate with minimal mutual dependency}
+\par\plain {\f0\fs24\b0\i0     * Semantical:}
+\par\pard\plain \li450\fi-450\ltrch\loch {\f0\fs24\b0\i0         i. Agnostic to *how* semantics are being achieved}
+\par\plain {\f0\fs24\b0\i0         i. Communicate with minimal syntactic dependency, i.e., without agreements on semantic representation  }
+\par\pard\plain \ql\ltrch\loch \f0\fs24\b0\i0
+\par\pard\plain \ltrch\loch \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 Formulate the principles in the format according to [@Greefhorst2011]}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 *Ad. semantic separation of concern*. Where in its classical application the result of applying the principle is that atomic functions are defined, designed and implemented only once and remain unique, in its semantic application the result of applying this principle is that every software agent maintains its own semantics. Semantics are, therefore, distributed all over the place. This seems counterintuitive or even plain wrong, however, it is necessary for complying with the concern about semantic scalability (in support of heterogeneous semantics). Besides that, it is a direct consequence of the demand to allow for independent software development}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0  * Principle: specify ontological commitment as basic }
+\par\pard\plain \ri-10760\ql\ltrch\loch {\f0\fs24\b0\i0  * Refer to (and partly reuse?) semantic architecture from [@Brandt2013], depicted in \\cref\{fig:sSoC\}}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 ![An architecture for loosely coupled semantics, founded on semantic SoC and semantic transparency [@Brandt2013]][def:sSoC]}
+\par\pard\plain \ri-16872\ql\ltrch\loch \f0\fs24\b0\i0
+\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0  }
+\par\plain {\f0\fs24\b0\i0 ***Achieve Scalable sIOP***}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 Ensure that different semantic topologies remain possible:}
+\par\plain {\f0\fs24\b0\i0  }
+\par\plain {\f0\fs24\b0\i0 i. Star alignments (central domain ontology, aligned to local ontologies) for relative stable and homogeneous domain semantics}
+\par\plain {\f0\fs24\b0\i0     * Good: easy semantic governance}
+\par\plain {\f0\fs24\b0\i0     * Bad: very big semantic monolith, hence, low agility in dynamic environments}
+\par\plain {\f0\fs24\b0\i0 ii. Mesh alignments (bilateral alignments) for very dynamic and heterogeneous (domain) semantics, or low number of peers}
+\par\plain {\f0\fs24\b0\i0     * Good: quickly established bilateral sIOP; granularity-on-demand, viz. intricate where necessary, coarse-grained where possible}
+\par\plain {\f0\fs24\b0\i0     * Bad: complicated semantic governance}
+\par\plain {\f0\fs24\b0\i0 iii. Mix-n-Match (coarse-grained star-alignment with specialised bilateral alignments) for the 70% bulk }
+\par\plain {\f0\fs24\b0\i0     * Good: controllable semantic governance; after central alignment, quickly established bilateral sIOP}
+\par\plain {\f0\fs24\b0\i0     * Bad: slightly more complicated mediation due to double alignment support}
+\par\plain \f0\fs24\b0\i0
+\par\plain \f0\fs24\b0\i0
+\par\plain \f0\fs24\b0\i0
+\par\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0 <!-- page additions -->}
+\par\pard\plain \ri-10760\ql\ltrch\loch {\f0\fs24\b0\i0 [def:sSoc]: src\\images\\SemanticSoC.png \{#fig:sSoC width=448px height=426px\} }
+\par\pard\plain \ql\ltrch\loch \f0\fs24\b0\i0
+\par\pard\plain \ltrch\loch \f0\fs24\b0\i0}
