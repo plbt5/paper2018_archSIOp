@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.8.0" Device="PC-17875" Modified="2018-10-15 16:07:05 +0200" ModID="0F7659DA-05BF-4578-90C8-F24EBFB7A4F7">
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.8.0" Device="PC-17875" Modified="2018-10-15 16:13:23 +0200" ModID="19EA7DEF-6A16-416A-8A90-DC6E145E6766">
     <Binder>
         <BinderItem ID="5" UUID="B892768D-F62D-4A48-8846-84245826AF35" Created="2017-04-10 12:05:49 +0200" Modified="2017-04-10 12:05:49 +0200" Type="Text">
             <Title>MMD cheat sheet</Title>
@@ -269,7 +269,6 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>11576,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
@@ -281,11 +280,10 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>876,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                             <Children>
-                                <BinderItem ID="75" UUID="0D64A671-23AE-4F47-BCE2-F914A86348AD" Created="2018-10-10 13:00:42 +0200" Modified="2018-10-15 15:27:18 +0200" Type="Text">
+                                <BinderItem ID="75" UUID="0D64A671-23AE-4F47-BCE2-F914A86348AD" Created="2018-10-10 13:00:42 +0200" Modified="2018-10-15 16:12:27 +0200" Type="Text">
                                     <Title>The nature of faithfulness</Title>
                                     <MetaData>
                                         <LabelID>4</LabelID>
@@ -297,7 +295,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem ID="76" UUID="A7B8413B-C6C7-412E-AB31-916B3445B40F" Created="2018-10-10 13:01:11 +0200" Modified="2018-10-15 15:30:16 +0200" Type="Text">
+                                <BinderItem ID="76" UUID="A7B8413B-C6C7-412E-AB31-916B3445B40F" Created="2018-10-10 13:01:11 +0200" Modified="2018-10-15 16:13:00 +0200" Type="Text">
                                     <Title>The nature of models</Title>
                                     <MetaData>
                                         <LabelID>4</LabelID>
@@ -305,7 +303,7 @@
                                         <FileExtension>rtf</FileExtension>
                                     </MetaData>
                                     <TextSettings>
-                                        <TextSelection>6973,0</TextSelection>
+                                        <TextSelection>5385,0</TextSelection>
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                 </BinderItem>
@@ -708,7 +706,7 @@
     <ProjectTargets>
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-04-24 00:00:00 +0000" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="No" WritingDays="">0</SessionTarget>
-        <PreviousSession Words="0" Characters="1395" Date="2018-10-15 16:06:44 +0200"/>
+        <PreviousSession Words="0" Characters="135" Date="2018-10-15 16:11:15 +0200"/>
     </ProjectTargets>
     <Collections>
         <Collection Type="Binder" ID="CAFEBABE-0000-0000-0000-000000000000" Color="0.901961 0.917647 0.933333">
