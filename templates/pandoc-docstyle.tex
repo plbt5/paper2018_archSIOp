@@ -1,6 +1,6 @@
 \documentclass[a4paper,11pt,oneside,oldfontcommands]{memoir}
-\usepackage{ecis2015}
-\usepackage{datetime}    			% sourced from; http://ftp.snt.utwente.nl/pub/software/tex/macros/latex/contrib/datetime/
+\usepackage{mystyle2015}
+\usepackage[en-GB,datesep={-}]{datetime2}    
 \usepackage{longtable}
 
 %\usepackage{amssymb, setspace, rotating, titlesec, adjustbox, array, threeparttable}
@@ -19,9 +19,9 @@
 \usepackage[mathcal]{euscript}		% tbv de gecalligrafeerde mathcal{O} en W(orld) en (M)odel etc. Refer to http://texdoc.net/texmf-dist/doc/fonts/amsfonts/euscript.pdf
 									% Note that, in fact, eucal and euscript are identical, except that they use different commands (\mathcal and \mathscr). By using euscript 
 									% we only provide \mathscr{} and leave \mathcal{} from amsmath unchanged
-\usepackage{pgothic}				% Used for modern gothic that has a readible S
+\usepackage{pgothic}				% Used for modern gothic that has a readable S
 \DeclareMathAlphabet{\mathgoth}{T1}{pgoth}{m}{n}	% Declaring the pgothic family as math alphabet
-%\usepackage{addfont}				% This would be an alternative for the readible S font, but not working
+%\usepackage{addfont}				% This would be an alternative for the readable S font, but not working
 %\addfont[1.25]{OT1}{hge}{\hge}
 %\DeclareMathAlphabet{\mathgoth}{OT1}{hge}{m}{n}	% Declaring the hge family as math alphabet
 
@@ -51,7 +51,6 @@
 \usepackage[ntheorem]{empheq}
 \usepackage[thmmarks]{ntheorem}		% Easier handling of theorem-like environments. refer to ftp://ftp.dante.de/pub/tex/macros/latex/contrib/ntheorem/ntheorem.pdf
 
-\usepackage{datetime}    			 % sourced from; http://ftp.snt.utwente.nl/pub/software/tex/macros/latex/contrib/datetime/
 \usepackage{mdframed}
 
 %% Figures and table placement		% Sourced from http://tug.ctan.org/tex-archive/info/epslatex/english/epslatex.pdf page 55
@@ -246,10 +245,6 @@
 
 
 %%% Enter Document Info here: %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%datetime package config %%%
-\renewcommand{\dateseparator}{-}
-%\renewcommand{\timeseparator}{}
-\settimeformat{hhmmsstime}  
 
 \maintitle{$title$} % ← Don't use UPPERCASE here, we do that automatically.
 \subtitle{$subtitle$}
