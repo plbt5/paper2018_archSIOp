@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.8.0" Device="PC-17875" Modified="2018-10-15 11:05:28 +0200" ModID="5DC70A91-7482-47D0-8BAE-03357130595E">
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.8.0" Device="PC-17875" Modified="2018-10-01 10:27:42 +0200" ModID="E45452F7-C65D-4E78-8E2D-C541D285682A">
     <Binder>
         <BinderItem ID="5" UUID="B892768D-F62D-4A48-8846-84245826AF35" Created="2017-04-10 12:05:49 +0200" Modified="2017-04-10 12:05:49 +0200" Type="Text">
             <Title>MMD cheat sheet</Title>
@@ -150,14 +150,13 @@
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="69" UUID="374DE017-592D-423F-914D-C4E0E980FA1F" Created="2018-07-08 16:53:28 +0200" Modified="2018-10-12 14:51:27 +0200" Type="Text">
+                        <BinderItem ID="69" UUID="374DE017-592D-423F-914D-C4E0E980FA1F" Created="2018-07-08 16:53:28 +0200" Modified="2018-07-08 16:53:28 +0200" Type="Text">
                             <Title>Plural versus possessive -s</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>1419,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
@@ -225,7 +224,7 @@
                         <Target Type="Words">0</Target>
                     </TextSettings>
                     <Children>
-                        <BinderItem ID="51" UUID="2AB0C2B8-3CFD-4894-A03C-FE35456D8EEB" Created="2018-07-04 20:30:48 +0200" Modified="2018-10-10 11:46:47 +0200" Type="Text">
+                        <BinderItem ID="51" UUID="2AB0C2B8-3CFD-4894-A03C-FE35456D8EEB" Created="2018-07-04 20:30:48 +0200" Modified="2018-09-25 11:25:25 +0200" Type="Text">
                             <Title>Semiotics</Title>
                             <MetaData>
                                 <LabelID>6</LabelID>
@@ -233,11 +232,11 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>2993,0</TextSelection>
+                                <TextSelection>3625,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="53" UUID="2B718AB0-8CA6-4D53-8005-936639FDFE18" Created="2018-07-04 20:31:55 +0200" Modified="2018-10-10 13:10:18 +0200" Type="Text">
+                        <BinderItem ID="53" UUID="2B718AB0-8CA6-4D53-8005-936639FDFE18" Created="2018-07-04 20:31:55 +0200" Modified="2018-09-18 11:52:39 +0200" Type="Text">
                             <Title>Ontological commitment</Title>
                             <MetaData>
                                 <LabelID>6</LabelID>
@@ -245,7 +244,7 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>4032,0</TextSelection>
+                                <TextSelection>2675,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
@@ -261,7 +260,7 @@
                         <Target Type="Words">0</Target>
                     </TextSettings>
                     <Children>
-                        <BinderItem ID="52" UUID="7E8CD1DC-958E-405D-941C-B09DF79ECCAC" Created="2018-07-04 20:31:19 +0200" Modified="2018-10-12 16:51:46 +0200" Type="Text">
+                        <BinderItem ID="52" UUID="7E8CD1DC-958E-405D-941C-B09DF79ECCAC" Created="2018-07-04 20:31:19 +0200" Modified="2018-09-21 11:09:55 +0200" Type="Text">
                             <Title>What is software semantics</Title>
                             <MetaData>
                                 <LabelID>6</LabelID>
@@ -269,11 +268,11 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>11576,0</TextSelection>
+                                <TextSelection>10302,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="73" UUID="1FA218EA-B4C1-4D21-B2D0-A35B75920BBE" Created="2018-08-22 11:19:51 +0200" Modified="2018-10-15 11:05:26 +0200" Type="Text">
+                        <BinderItem ID="73" UUID="1FA218EA-B4C1-4D21-B2D0-A35B75920BBE" Created="2018-08-22 11:19:51 +0200" Modified="2018-09-28 17:10:01 +0200" Type="Text">
                             <Title>Explicit semantics</Title>
                             <MetaData>
                                 <LabelID>4</LabelID>
@@ -281,35 +280,9 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>1022,0</TextSelection>
+                                <TextSelection>6167,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
-                            <Children>
-                                <BinderItem ID="75" UUID="0D64A671-23AE-4F47-BCE2-F914A86348AD" Created="2018-10-10 13:00:42 +0200" Modified="2018-10-12 16:39:43 +0200" Type="Text">
-                                    <Title>The nature of faithfulness</Title>
-                                    <MetaData>
-                                        <LabelID>4</LabelID>
-                                        <IncludeInCompile>Yes</IncludeInCompile>
-                                        <FileExtension>rtf</FileExtension>
-                                    </MetaData>
-                                    <TextSettings>
-                                        <TextSelection>746,0</TextSelection>
-                                        <Target Type="Words">0</Target>
-                                    </TextSettings>
-                                </BinderItem>
-                                <BinderItem ID="76" UUID="A7B8413B-C6C7-412E-AB31-916B3445B40F" Created="2018-10-10 13:01:11 +0200" Modified="2018-10-10 13:38:15 +0200" Type="Text">
-                                    <Title>The nature of models</Title>
-                                    <MetaData>
-                                        <LabelID>4</LabelID>
-                                        <IncludeInCompile>Yes</IncludeInCompile>
-                                        <FileExtension>rtf</FileExtension>
-                                    </MetaData>
-                                    <TextSettings>
-                                        <TextSelection>9110,0</TextSelection>
-                                        <Target Type="Words">0</Target>
-                                    </TextSettings>
-                                </BinderItem>
-                            </Children>
                         </BinderItem>
                     </Children>
                 </BinderItem>
@@ -323,7 +296,7 @@
                         <Target Type="Words">0</Target>
                     </TextSettings>
                     <Children>
-                        <BinderItem ID="54" UUID="A0A0F74F-2F3E-43C5-B39C-096154C952F8" Created="2018-07-04 20:40:57 +0200" Modified="2018-10-08 10:56:53 +0200" Type="Text">
+                        <BinderItem ID="54" UUID="A0A0F74F-2F3E-43C5-B39C-096154C952F8" Created="2018-07-04 20:40:57 +0200" Modified="2018-09-17 15:35:43 +0200" Type="Text">
                             <Title>What is semantic interoperabiity</Title>
                             <MetaData>
                                 <LabelID>4</LabelID>
@@ -331,7 +304,7 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>1871,0</TextSelection>
+                                <TextSelection>321,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
@@ -698,7 +671,7 @@
     <ProjectTargets>
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-04-24 00:00:00 +0000" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="No" WritingDays="">0</SessionTarget>
-        <PreviousSession Words="1067" Characters="7683" Date="2018-10-03 10:19:50 +0200"/>
+        <PreviousSession Words="184" Characters="1762" Date="2018-09-26 10:34:02 +0200"/>
     </ProjectTargets>
     <Collections>
         <Collection Type="Binder" ID="CAFEBABE-0000-0000-0000-000000000000" Color="0.901961 0.917647 0.933333">
@@ -706,7 +679,7 @@
         </Collection>
         <Collection Type="RecentSearch" ID="DEADBEEF-0000-0000-0000-000000000000" Color="0.901961 0.901961 0.980392">
             <Title>Search Results</Title>
-            <SearchSettings Operator="Exact" Type="All" Scope="All" CompileSetting="All" CaseSensitive="No">lowe2006</SearchSettings>
+            <SearchSettings Operator="Exact" Type="All" Scope="All" CompileSetting="All" CaseSensitive="No">atkinson</SearchSettings>
         </Collection>
         <Collection Type="Arbitrary" ID="18AB1D71-1C6E-4B63-93E1-6A8BEF516D46" Color="0.992157 0.972549 0.819608">
             <Title>Updated Documents</Title>
