@@ -1,0 +1,3 @@
+Differentiate between an information model with “semantic meaning” from the process model with “pragmatic meaning”, and maintain their semantic coherence by having one ontology available as their single unique reference (either formally the domain of interpretation for $\int_d$ and $\int_p$, or pragmatically, using one single conceptual model, viz. an ontology)
+
+\end{synopsis}
