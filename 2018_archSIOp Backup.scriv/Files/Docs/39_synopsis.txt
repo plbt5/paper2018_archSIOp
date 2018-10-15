@@ -1,0 +1,3 @@
+Group the papers into 3 (?) categories, and discuss their strong and weak points in relation to sIOP and architecture in general, and our paper specifically.
+
+\end{synopsis}

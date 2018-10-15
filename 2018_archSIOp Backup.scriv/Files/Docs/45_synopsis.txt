@@ -1,0 +1,8 @@
+Purpose of this section: 
+\begin{enumerate}
+\item From a semiotic perspective, explain what we mean with semantics in software agents, i.e., the reciprocity between data and data processing code (both represented as Term from the semiotic Sign).
+\item Establish that for representing semantics, descriptive models (i.e., ontologies) trump prescriptive models (all 42010 models).
+\item Conclude that ontologies need their place as single point of reference (trueness) in architectures, and identify their relationship with the rest of the architectures, i.e., all other prescriptive models. Note the issue on Open World Assumption (ontologies) and CWA (prescriptive models).
+\end{enumerate}
+
+\end{synopsis}

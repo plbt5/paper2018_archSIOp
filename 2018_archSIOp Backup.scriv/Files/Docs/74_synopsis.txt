@@ -1,0 +1,10 @@
+Thus:
+
+\begin{enumerate}
+\item Follow the coherence principle and conclude that the models from which *external* data and *receiving* data processing code are derived, need to be brought into coherence with each other.
+\item The coherence principle already enforced a single unique reference for each agent. Re-installing coherence demands a semantic alignment between those single unique references. 
+\item The purpose of that alignment is to establish how the truth of expressions that are formulated in terms of agent A, can be estabished by using formulations in terms of agent A' against the single unique reference from A'. 
+\item The language that is used for expressing the alignment should be fit for its purpose. Refer to EDOAL [@Scharffe2011] as the currently most complete one.
+\end{enumerate}
+
+\end{synopsis}
