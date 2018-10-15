@@ -1,8 +1,32 @@
-{\rtf1\ansi\ansicpg1252\uc1\deff0
-{\fonttbl{\f0\fmodern\fcharset0\fprq2 CourierNewPSMT;}}
-{\colortbl;\red0\green0\blue0;\red255\green255\blue255;}
-\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\fet2\ftnbj\aenddoc
-\pgnrestart\pgnstarts0
-\pard\plain \ltrch\loch {\f0\fs24 Semantics are often denoted as the understanding of the data. Despite the often used terms *smart* or *intelligent*, e.g., smart watches, or intelligent autonomous systems, computers are inherently stupid. The notion of understanding is completely alien to them. In fact, it is the IT engineer who performs the understanding of data upfront, and implements the proper response to such understanding in program code. \line \line }
-\par\plain {\f0\fs24 To get a better grip on the meaning of semantics and semantic interoperability, we address first what signifies semantics before addressing semantic interoperability. For that, we use the tools that are provided by the discipline of semiotics, which denotes the study of signs, reality and meaning.\line \line }
-\par\plain {\f0\fs24 In response to earlier distributed demands, the software engineering discipline introduced the component-based development paradigm, subsequently followed by the service-oriented composition paradigm and the contemporary micro-service architectures. Although compositions and (micro-)services replace monolithic applications and enable distributed use, each contemporary software agent still implements a monolith, albeit a semantic one. This can be explained in terms of the semiotic[^1] sign, depicted in Figure 1, as follows. Data, be them numerical values, text strings, identifiers or even pictures and images, are to be considered as *signifiers* only, i.e., tokens *representing* what is signified in the real world.}}
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;}
+{\colortbl;\red255\green255\blue255;\red255\green252\blue128;}
+{\*\expandedcolortbl;;\csgenericrgb\c100000\c98700\c50000;}
+\deftab720
+\pard\pardeftab720\ri-16872\partightenfactor0
+
+\f0\fs24 \cf0 The discipline of semiotics is the study of signs, reality and meaning. The meaning of a *token* (text, graphics, sound) ultimately relates to what it denotes in reality (the *entity*), whilst this relation cannot be deferred from the shape, structure or other characteristics of the token itself due to its total arbitrariness. De Saussure used a dyadic model, the ***semiotic sign***,that stressed that the token and the entity in reality were as inseparable as the two sides of a piece of piece of paper (Saussure 1959). This \'91self-containment of the sign\'92 remains one of the major principles of semiotics. Constructing the semiotic sign from its distinct parts is called ***semeiosis***. The token, in combination with their ability for semeiosis, provides humans with the tool to converse with each other. Semantics, then, emerges as a result of the semeiosis that connects the distinct parts of the inseparable semiotic sign.\
+\
+Sanders Peirce (in: Sowa 2000) developed a triadic model of the semiotic sign, the semiotic triangle: a representamen (the token), an object (the entity), and the interpretant which expresses the mental and, hence, individual sense making (Figure 2.1(a)). The semiotic triangle was used and modified by Ullmann (Ullmann 1962), Ogden and Richards (Ogden and Richards 1989)and many others, also in recent years (Kuhn 2009). We introduce our modifications, as depicted in Figure 2.1(b), which mainly focus on naming conventions in IT architectures, as follows.\
+\
+\
+\pard\pardeftab720\ri-10760\partightenfactor0
+\cf0 ![The triadic model of the semiotic sign, according to Peirce (a), and modified by us (b). Example (c) shows the concept of a cat named \'93Yojo\'94][def:semtriangles]\
+\pard\pardeftab720\ri-16872\partightenfactor0
+\cf0 \
+We prefer the use of *entity* due to the ambiguous nature of *object* in IT. We consider an entity to stand for a thing or event, but also a category of entities, a relation between entities and a property of an entity. We refer to the *interpretant* component as the *conceptualisation*, to underline the individual conceptualisation that is being formed during requirements analysis and conceptual modeling. And we prefer *token* over *representamen*, and consider it both an atomic element and a particular composition of atomic elements. We include denotations for the edges that are connected to the conceptualisation \cb2 vertex\cb1 , and names that underline the individual and mental nature of the sense making. These names are directional, and must be read as the transformation that takes place in that direction. Finally, we add the causal characteristics that the edges represent, introduced by [@Ogden1989], as *adequacy*, *correctness* and *trueness*. The connection between the token and the entity is a dashed line because its existence is indirectly only through the conceptualisation and does not exist in any direct means. With \'93sign\'94 we mean the semiotic self-contained sign. A well-known example of a sign is depicted in \\cref\{fig:semiotic-triangles\}(c): when we talk about \'93Yojo\'94, our cognition interprets it as our cat. \
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+\pard\pardeftab720\ri-10760\partightenfactor0
+\cf0 ![Linking triadic models together.][def:linkedtriangles]\
+\pard\pardeftab720\ri-16872\partightenfactor0
+\cf0 \
+\pard\pardeftab720\partightenfactor0
+\cf0 Multiple triangles can be linked together in various ways [Peirce in: @Sowa:2000di]. By stacking them together (\\cref\{fig:linked-triangles\}(a)) a conceptualisation is made of \'93representing an entity\'94: the original concept of a [|cat] named \'93Yojo\'94(\\cref\{fig:semiotic-triangles\}(c)) is being conceptualised as the concept of a [|cat named \'93Yojo\'94] and represented by [\cb2 |cat:Yojo\cb1 ]. Eco [@Eco1976] uses the term *unlimited semeiosis* for the succession of stacking signs that emerge from that, ad infinitum. We consider unlimited semeiosis as addressing a dimension of comprehension about abstraction and generalisation, with an eventual finish in the ultimate [|Thing] concept. \
+\
+Linking the triangles horizontally results in different representational meta-levels, depicted in \\cref\{fig:linked-triangles\}(b): From right to left, the characters \'93Y\'94 \'93o\'94 \'93j\'94 and \'93o\'94 are conceptualised as a single [|word] and represented as \'93Yojo\'94, which is conceptualised as a [|name] and represented as \'93name:Yojo\'94, which is conceptualised as an [|identifier] that might be represented as \'93Id=\'92name:Yojo\'92 \'94.    \
+\
+<!-- page additions -->\
+\pard\pardeftab720\ri-10760\partightenfactor0
+\cf0 [def:semtriangles]: src\\images\\SemioticTriangles.png \{#fig:semiotic-triangles width=600px height=200px\}\
+[def:linkedtriangles]: src\\images\\LinkedTriangles.png \{#fig:linked-triangles width=600px height=230px\}}
