@@ -58,14 +58,14 @@ Show abstraction/generalisation as stacking of triangles vertically, and represe
 \end{synopsis}
 
 
-The discipline of semiotics is the study of signs, reality and meaning. The meaning of a *token* (text, graphics, sound) ultimately relates to what it denotes in reality (the *entity*), whilst this relation cannot be deferred from the shape, structure or other characteristics of the token itself due to its total arbitrariness. De Saussure used a dyadic model, the ***semiotic sign***,that stressed that the token and the entity in reality were as inseparable as the two sides of a piece of piece of paper (Saussure 1959). This ‘self-containment of the sign’ remains one of the major principles of semiotics. Constructing the semiotic sign from its distinct parts is called ***semeiosis***. The token, in combination with their ability for semeiosis, provides humans with the tool to converse with each other. Semantics, then, emerges as a result of the semeiosis that connects the distinct parts of the inseparable semiotic sign.
+The discipline of semiotics is the study of signs, reality and meaning. The meaning of a *token* (text, graphics, sound) ultimately relates to what it denotes in reality (the *entity*), whilst this relation cannot be deferred from the shape, structure or other characteristics of the token itself due to its total arbitrariness. De Saussure used a dyadic model, called the ***semiotic sign***, that stressed that the token and the entity in reality were as inseparable as the two sides of a piece of paper (Saussure 1959). This ‘self-containment of the sign’ remains one of the major principles of semiotics. Constructing the semiotic sign from its distinct parts is called ***semeiosis***. The token, in combination with their ability for semeiosis, provides humans with the tool to converse with each other. Semantics, then, emerges as a result of the semeiosis that connects the distinct parts of the inseparable semiotic sign.
 
 Sanders Peirce (in: Sowa 2000) developed a triadic model of the semiotic sign, the semiotic triangle: a representamen (the token), an object (the entity), and the interpretant which expresses the mental and, hence, individual sense making (Figure 2.1(a)). The semiotic triangle was used and modified by Ullmann (Ullmann 1962), Ogden and Richards (Ogden and Richards 1989)and many others, also in recent years (Kuhn 2009). We introduce our modifications, as depicted in Figure 2.1(b), which mainly focus on naming conventions in IT architectures, as follows.
 
 
 ![The triadic model of the semiotic sign, according to Peirce (a), and modified by us (b). Example (c) shows the concept of a cat named “Yojo”][def:semtriangles]
 
-We prefer the use of *entity* due to the ambiguous nature of *object* in IT. We consider an entity to stand for a thing or event, but also a category of entities, a relation between entities and a property of an entity. We refer to the *interpretant* component as the *conceptualisation*, to underline the individual conceptualisation that is being formed during requirements analysis and conceptual modeling. And we prefer *token* over *representamen*, and consider it both an atomic element and a particular composition of atomic elements. We include denotations for the edges that are connected to the conceptualisation vertex, and names that underline the individual and mental nature of the sense making. These names are directional, and must be read as the transformation that takes place in that direction. Finally, we add the causal characteristics that the edges represent, introduced by [@Ogden1989], as *adequacy*, *correctness* and *trueness*. The connection between the token and the entity is a dashed line because its existence is indirectly only through the conceptualisation and does not exist in any direct means. With “sign” we mean the semiotic self-contained sign. A well-known example of a sign is depicted in \cref{fig:semiotic-triangles}(c): when we talk about “Yojo”, our cognition interprets it as our cat. 
+We prefer the use of *entity* due to the ambiguous nature of *object* in IT. We consider an entity to stand for a thing or event, but also a category of entities, a relation between entities and a property of an entity. We refer to the *interpretant* component as the *conceptualisation*, to underline the individual conceptualisation that is being formed during requirements analysis and conceptual modeling. And we prefer *token* over *representamen*, and consider it both an atomic element and a particular composition of atomic elements. We include denotations for the edges that are connected to the conceptualisation component, and use names that underline the individual and mental nature of the sense making. These names are directional, and must be read as the transformation that takes place in that direction. Finally, we add the causal characteristics that the edges represent, introduced by [@Ogden1989], as *adequacy*, *correctness* and *trueness*. The connection between the token and the entity is a dashed line because its existence is indirectly only through the conceptualisation and does not exist in any direct means. With “sign” we mean the semiotic self-contained sign. A well-known example of a sign is depicted in \cref{fig:semiotic-triangles}(c): when we talk about “Yojo”, our cognition interprets it as our cat. 
 
 ![Linking triadic models together.][def:linkedtriangles]
 
@@ -187,46 +187,13 @@ Conclusions:
 \end{enumerate}
 \end{synopsis}
 
-Once we have established a conceptualisation, it needs a representation because, despite being a mathematical representation, the sets and individuals in the DoI remain nameless. It is necessary to represent them in a (pair of) model(s) that is tangible, computational and a distinct artifact in order for the software agent to use it and, eventually, make comparisons with the semantic artifact of the peer software agent. We denote the model that represents a conceptualisation a *conceptual model*. The conceptual model that describes semantics best is a model that is as faithful to reality as possible. This begs the questions about the nature of a conceptual model and the nature of faithfulness. To start with the latter and as indicated in \cref{fig:semiotic-triangles}(b), we equate faithfulness with trueness between the representation and the entity in reality. Since this aspect is a characteristic of an indirect relationship, it can only emerge as a result of the adequacy and correctness characteristics. The former one concerns the conceptualisation aspect; in this section we address the correctness and show how differences can emerge between the conceptualisation and the model when constructing the latter. In literature, four construct issues are considered between a conceptualisations and its representation in a model, depicted in \cref{fig:construct-issues}. An exhaustive treatment can be found in [@Guizzardi:2005vt], see also [@CarvalhoeSilva2012; or @Azevedo2015].
+Once we have established a conceptualisation, it needs a representation because, despite being a mathematical representation, the sets and individuals in the DoI remain nameless. It is necessary to represent them in a (pair of) model(s) that is tangible, computational and a distinct artifact in order for the software agent to use it and, eventually, make comparisons with the semantic artifact of the peer software agent. The model that describes semantics best is a model that is as faithful to reality as possible. This begs the question about the nature of a conceptual model at the one hand, and that of faithfulness at th other, which will be addressed in the next two sections. The final section will discuss how to attain one single semantic reference, necessary to establish explicit coherence between the models that are contained in a semantic monolith. 
 
-![Four different types of construction issues that come with formal semantics. Which one is more clear: (a)[@CarvalhoeSilva2012] or (b) [@Azevedo2015]?][def:constructissues] 
-
-The more precise the representation of the conceptualisation, the higher its *comprehensibility appropriateness\todo{ *brandtp, 9/19/2018 describe/explain the term} *.* Semantic accuracy improves when minimising the four construct issues:
-
-* *Construct overload*, or *non-lucidity*, emerges when the interpretation function maps an element from the abstract syntax onto more than one element (individual, subset) from the conceptualisation: One token can mean more than one thing, e.g., \mywordbox{bank};
-* *Construct excess*, or *unsoundness*, represents an abstract syntax element that does not map onto an element from the conceptualisation: One token does not have a meaning at all;
-* *Construct redundancy*, or *non-laconicity*, occurs when more than one abstract syntax element can be used to represent an element from the conceptualisation: More tokens mean the same, e.g., ...\todo{ brandtp, 9/19/2018 find proper example} ;
-* *Construct deficit*, or *incompleteness*, specifies the situation where a conceptual element does not map onto a token: It is impossible to express a concept because the language has no token for it, e.g., \mywordbox{....} (example intentionally left blank).
-
-The best representation of a conceptualisation, then, is a model that is lucid, sound, laconic and complete, i.e., the interpretation/representation mapping is isomorphic. This is difficult to achieve, and due to the complete, accurate and complementary categories of how its carves-out the DoI, using the ontological commitment of the modelling language proves a useful tool in that respect.   
-
-In contemporary architectural paradigms, models are being used as first class citizens to the architectures, MDA, IEEE-1471 and ISP RM/ODP alike. It is therefore imperative to decide upon the major characteristics of a model. The distinction between descriptive and prescriptive models is broadly accepted, where a prescriptive model is used to *specify* its subject, and a descriptive model is used to *describe* its subject. As explained by [@Gonzalez-Perez2007], this distinction only addresses how the model is being used and does not express a complementary, disjunct property. In stead, a genuine dichotomy emerges when considering the *role* that the model plays (ibid.). Then, a specification model generally takes a forward-looking role, specifying how the subject is supposed to be. A descriptive model, on the other hand, generally takes a backward-looking role and addresses the subject as it currently is, or once has been. In [@Aßmann2006], the relationship that a forward-looking model has with its subject is characterised as an *instance-of* relation, and that of a backward-looking model as an *is-represented-by* relation. Although we acknowledge the differences that exist, we consider both terms confusing when semiotics are involved since we cannot substantiate their suggested equivalence with the instantiation relation from the ontological square/sextet or the representation relation from the semiotic triangle. Instead, we observe that the characteristics of the *refers-to* relation will specialise into a *declarative* relation for a forward-looking model: The entity is deemed to follow the rules that are specified by the model. Similarly, for a backward-looking model that provides for a representation of “what a given remark or doctrine, ours or someone else’s, *says* there is”, the refers-to relation specialises into a *descriptive* relation. We thus observe that the refers-to relation is a causal relation, the direction of which is dependent on the model’s characteristic: declarative towards the entity for a forward-looking model, while descriptive towards the token for a backward-looking model. As a consequence, we conclude that for forward-looking models their truth lies in their meta-models, as depicted in \cref{fig:linked-triangles}(b). Mutatis mutandis, the truth for backward-looking models lies in the entities they describe. 
-
-
-     
-1. Explain: difference between ontologies and models
-    i. Models lack an elaborate ontological commitment, domain ontologies naturally evolve on foundational ontologies (that express an ontological commitment)
-    ii. For prescriptive models, truth lies in meta-models (good for deterministic behaviour); ontologies are descriptive models for which the truth lies in reality (good for semantics)
-    iii. ontologies have open world assumption (semantic under-specification), models have closed world assumption (data remain consistent, good for performance)
-    iv. Models specify systems, ontologies conceptualise reality (entities) 
-    * Try to also connect the onto/model distinction with above principles 
-    * Induced problem: from OWA (domain ontologies) to CWA (information/data models), viz. how to get closure?
-    * Principle: use domain and business ontologies for “computational independent”-ish models [@Aßmann2006]
-    * Bridge descriptive --> prescriptive models by grounding all prescriptive model elements with concepts from descriptive model (see e.g. \cref{fig:OntosInMDE}).
-
-
-In the remainder of this text we will refer to the formulation of the reference conceptualisation as a *conceptual model*.
-
-![The use of ontologies in MDA, from [@Aßmann2006]][def:ontoMDA]
-
-<!-- page additions -->
-[def:ontoMDA]: src\images\OntosInMDE.png {#fig:OntosInMDE  width=568px height=346px}
-[def:constructissues]: src\images\ConstructIssues.png {#fig:construct-issues  width=533px height=210px}
 
 ### The nature of faithfulness ###
 To start with the latter and as indicated in \cref{fig:semiotic-triangles}(b), we equate faithfulness with trueness between the representation and the entity in reality. Since this aspect is a characteristic of an indirect relationship, it can only emerge as a result of the adequacy and correctness characteristics in that same Figure. Adequacy concerns the quality of the abstraction, which we do not address here. Correctness concerns the quality of the representation, and in this section we show how differences can emerge between the conceptualisation and the model when constructing the latter from the former.
 
-In literature, four construct issues are considered between a conceptualisations and its representation in a model, depicted in \cref{fig:construct-issues}. An exhaustive treatment can be found in [@Guizzardi:2005vt], see also [@CarvalhoeSilva2012; or @Azevedo2015].
+In literature, four construct issues are considered between a conceptualisations and its representation in a model, depicted in\todo{ brandtp, 15-10-2018 What is more clear, (a) or (b)?}  \cref{fig:construct-issues}. An exhaustive treatment can be found in [@Guizzardi:2005vt], see also [@CarvalhoeSilva2012; or @Azevedo2015].
 
 ![Four different types of construction issues that come with formal semantics. (a)[@CarvalhoeSilva2012], (b) [@Azevedo2015]][def:constructissues] 
 
@@ -237,7 +204,7 @@ The correctness with which tokens represent the conceptualisation improves when 
 * *Construct redundancy*, or *non-laconicity*, occurs when more than one abstract syntax element can be used to represent an element from the conceptualisation: More tokens mean the same, e.g., $\CMcal{I}\left(\text{“xx?”}\right) = \text{\mywordbox{zz?} }$ and $\CMcal{I}\left(\text{“yy?”}\right) = \text{\mywordbox{zz?}}$;
 * *Construct deficit*, or *incompleteness*, specifies the situation where a conceptual element does not map onto a token: It is impossible to express a concept because the language has no token for it, e.g., $\CMcal{I}^{-1}\left(\text{\mywordbox{c}}\right) = \text{“\quad”}$, with $c$ some conceptual element and token “\quad” intentionally left blank.
 
-The best representation of a conceptualisation, then, is a model that is lucid, sound, laconic and complete, i.e., the subjectivation/representation mapping is isomorphic. This strongly depends on the modelling language, and particularly its appropriateness on how it carves-out the reality of the DoI, viz. its ontological commitment. We turn this into the following design principle.
+The best representation of a conceptualisation, then, is a model that is lucid, sound, laconic and complete, i.e., the subjectivation/representation mapping is isomorphic. This strongly depends on the modelling language, and particularly its appropriateness with which it carves-out the reality of the DoI, viz. its ontological commitment. We turn this into the following design principle.
 
 \begin{mmdp}[Domain appropriateness principle]\label{dp:domain-appropriateness-principle}
 
@@ -266,8 +233,30 @@ The faithfulness of the semantic model depends on the ontological commitment of 
 \end{mmdp}
 
 It is the responsibility of the software engineer to select a modelling language that provides a balance between semantic faithfulness at the one hand and computational (and comprehensibility) complexity for representing the domain model.
+
+
+<!-- page additions -->
+[def:constructissues]: src\images\ConstructIssues.png {#fig:construct-issues  width=533px height=210px}
+
 ### The nature of models ###
-In contemporary architectural paradigms, models are being used as first class citizens to the architectures, MDA, IEEE-1471 and ISP RM/ODP alike. It is therefore imperative to decide upon the major characteristics of a model. A in-depth treatise of models, meta-models, modelling languages and ontologies can be found in [@Henderson-Sellers2012], where the authors identify 6 modes of a model, derived from three dichotomies: the type vs. token modes, the forward- vs. backward-looking modes, and the ontological vs. linguistic modes, as follows.
+Synopsis
+
+1. Explain: difference between ontologies and models
+    i. Models lack an elaborate ontological commitment, domain ontologies naturally evolve on foundational ontologies (that express an ontological commitment)
+    ii. ~~For prescriptive models, truth lies in meta-models~~ (good for deterministic behaviour); ~~ontologies are descriptive models for which the truth lies in reality~~ (good for semantics)
+    iii. ~~ontologies have open world assumption (semantic under-specification), models have closed world assumption (data remain consistent, good for performance)~~
+    iv. ~~Models specify systems, ontologies conceptualise reality (entities)~~ 
+    * Try to also connect the onto/model distinction with above principles 
+    * Induced problem: from OWA (domain ontologies) to CWA (information/data models), viz. how to get closure?
+    * Principle: use domain and business ontologies for “computational independent”-ish models [@Aßmann2006]
+    * Bridge descriptive --> prescriptive models by grounding all prescriptive model elements with concepts from descriptive model (see e.g. \cref{fig:OntosInMDE}).
+    v. Different aggregation levels of ASM:
+
+<!--einde lijst -->
+
+\end{synopsis}
+
+In contemporary architectural paradigms, models are being used as first class citizens to the architectures, MDA, IEEE-1471 and ISP RM/ODP alike. It is therefore imperative to decide upon the major characteristics of a model. An in-depth treatise of models, meta-models, modelling languages and ontologies can be found in [@Henderson-Sellers2012], where the authors identify 6 modes of a model, derived from three dichotomies: the type vs. token modes, the forward- vs. backward-looking modes, and the ontological vs. linguistic modes, as follows.
 
 * Type models represent different categories that exist in the modelled world, whilst token models represent the individuals from the modelling world that are of interest. This distinction essentially represent the *universals -- particulars* dichotomy as identified in the ontological square (refer to \cref{fig:onto-square-and-sextet}). As a result, the relationship that is instantiated with its modelled world by a type model is an *instance-of* relationship, while for a token model this is an *equivalence* relationship;
 * The distinction between descriptive and prescriptive models is broadly accepted, where a prescriptive model is used to *specify* its subject, and a descriptive model is used to *describe* its subject. As explained by [@Gonzalez-Perez2007], a specification model generally takes a *forward-looking* role, specifying how the subject is supposed to be. A descriptive model, on the other hand, generally takes a *backward-looking* role and addresses the subject as it currently is, or once has been. We observe that the characteristics of the *refers-to* relation become declarative for a forward-looking model whereas they become descriptive for a backward-looking model. Therefore, the refers-to relation is a causal relation, the direction of which is dependent on the model’s characteristic. This is consequential for the location of the truth of a model: For forward-looking models their truth lies in their meta-models. Mutatis mutandis, the truth for backward-looking models lies in the entities they describe. 
@@ -315,28 +304,19 @@ Objects of interest  The categories of being which are assumed to      It is the
 
 
 We have already indicated in \cref{ontological-commitment} the importance of the ontological commitment for the modelling language. Contemporary modelling frameworks yield meta-models that have a clear engineering focus which is very suitable for forward-looking, prescriptive (system) models. At the same time, these ontological commitments fall short for backward-looking, descriptive models. We consider domain ontologies, which naturally evolve on foundational ontologies (that express an ontological commitment), a necessary component to faithfully describe the domain of interpretation and formally represent the domain of interest. It is in the interest of the 
-     
-1. Explain: difference between ontologies and models
-    i. Models lack an elaborate ontological commitment, domain ontologies naturally evolve on foundational ontologies (that express an ontological commitment)
-    ii. For prescriptive models, truth lies in meta-models (good for deterministic behaviour); ontologies are descriptive models for which the truth lies in reality (good for semantics)
-    iii. ontologies have open world assumption (semantic under-specification), models have closed world assumption (data remain consistent, good for performance)
-    iv. Models specify systems, ontologies conceptualise reality (entities) 
-    * Try to also connect the onto/model distinction with above principles 
-    * Induced problem: from OWA (domain ontologies) to CWA (information/data models), viz. how to get closure?
-    * Principle: use domain and business ontologies for “computational independent”-ish models [@Aßmann2006]
-    * Bridge descriptive --> prescriptive models by grounding all prescriptive model elements with concepts from descriptive model (see e.g. \cref{fig:OntosInMDE}).
-    v. Different aggregation levels of ASM: 
-    vi. Differentiate between an information model with “semantic meaning” from the process model with “pragmatic meaning”, and maintain their semantic coherence by having one ontology available as their single unique reference (either formally the domain of interpretation for $\int_d$ and $\int_p$, or pragmatically, using one single ontology as conceptual model). 
 
 
-In the remainder of this text we will refer to the formulation of the reference conceptualisation as a *conceptual model*.
+In the remainder of this text we will refer to the formulation of the reference conceptualisation as a *conceptual model*.We denote the model that represents a conceptualisation a *conceptual model*. 
 
 ![The use of ontologies in MDA, from [@Aßmann2006]][def:ontoMDA]
 
 <!-- page additions -->
 [def:ontoMDA]: src\images\OntosInMDE.png {#fig:OntosInMDE  width=568px height=346px}
-[def:constructissues]: src\images\ConstructIssues.png {#fig:construct-issues  width=533px height=210px}
 
+### Maintaining coherence in the semantic monolith ###
+\begin{synopsis}Differentiate between an information model with “semantic meaning” from the process model with “pragmatic meaning”, and maintain their semantic coherence by having one ontology available as their single unique reference (either formally the domain of interpretation for $\int_d$ and $\int_p$, or pragmatically, using one single conceptual model, viz. an ontology)
+
+\end{synopsis}
 # Spanning: Alignments #
 
 
@@ -357,13 +337,14 @@ Synopsis
 
 \end{synopsis}
 
-Rephrase: despite the notoriously difficult philosophical questions involved, semantic interoperability can be seen as an engineering problem, namely that of effectively constraining interpretations towards the ones that are considered allowable [@Kuhn2009].
+Communication between agents is based solely on exchanging tokens. To that end, the inseparability of the semiotic sign will be broken and its token part becomes partitioned from its conceptualisation & entity part. However, we concluded in \cref{what-is-software-semantics} that software semantics reduces to the reciprocity between two signs, the tokens of which form a semantic monolith. Therefore, communication does not only break the semiotic sign but also this semantic monolith. Why it is useless to communicate the semantic monolith in order to establish SIOp, is left as an exercises to the reader ^[Answer: {\rotatebox{180}{Communicating the semantic monolith would result in both agents to perform the exact same functionality with regards to the data.}}]. We conclude from this that semantic interoperability demands that, despite the partitioning, the reciprocity between the pragmatic meaning of the receiving agent and the semantic meaning that originates from the external data shall be re-installed. The resulting semantic monolith of the receiving agent will be different from original semantic monolith from the transmitting agent, although they share the same semantic meaning.
 
-![The various forms of interoperability][def:2semtriangles]
+![Syntactic interoperability between two actors, essentially, snaps the data token off the atomic semantic monolith and off the sign. After its reception, the token must be meant with the receivers atomic monolith and sign before it can be subjectivated and, subsequently, used.][def:2semtriangles]
 
+Despite the notoriously difficult philosophical questions involved, semantic interoperability can be seen as an engineering problem, namely that of effectively constraining interpretations towards the ones that are considered allowable\todo{ brandtp, 8-10-2018 Bring quote forward to Introduction}  [@Kuhn2009].
 
 <!-- page additions -->
-[def:2semtriangles]: src\images\2SemioticTriangles.png {#fig:2semiotic-triangles width=510px height=216px}
+[def:2semtriangles]: src\images\2SemioticTriangles.png {#fig:2semiotic-triangles width=90%}
 ## Expicit sIOP by alignments ##
 \begin{synopsis}Thus:
 
