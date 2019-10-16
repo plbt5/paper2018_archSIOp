@@ -1,13 +1,24 @@
+Purpose of this section:
+
 \begin{enumerate}
   \item Explain sIOP:
   \begin{enumerate}
-    \item that consequence of data exchange = breaking the atomic semantic monolith = breaking the reciprocity by partitioning the data from its original code, and explain that standards are large semantic monoliths that roofs that point but are as manouverable as an oil tanker, and 
-    \item that sIOP demands that despite this partitioning the reciprocity between the code of the receiving agent and the external data shall be re-installed.
-    \item Optionally, give a definition on phantom semantics
+    \item the consequence of data exchange = breaking the atomic semantic monolith = breaking the coherence between data and code, i.e., data leaving this monolith is the root cause of current sIOP problems;
+    \item receiving external data implies a new reciprocity to emerge with the code of the receiving agent, and 
+    \item sIOP demands that the external data shall be brought into coherence with the code of the receiving agent; without coherence, phantom semantics will emerge.
   \end{enumerate}
-  \item We therefore need to extend the semantic coherence Principe into a sIOP coherence principle with a sIOP rational that the result of the semeiosis on receiving agent A’ does not conflict withthe outcome of the semeiosis on agent A: Without maintaining the reciprocity between binary code and the data it operates on, the semeiosis performed by software engineer A’ on the result of the data processing and their subsequent semantics cannot be guaranteed to be similar as intended by the software engineer.
-  \item Explain the difference with semantic standards which are basically large semantic monoliths
-  \item Introduce Principle: ontological commitment as minimal standard for sIOP, “(...) not in order to know *what there is*, but in order to know what a given remark or doctrine, ours or someone else’s, *says* there is” [@Quine:1953er]
+  \item sIOP objectives:
+  \begin{enumerate}
+    \item prime objective is to assure that, from the perspective of the receiving agent and after receipt of data, the reciprocity between data and code remain truthful to the state of affairs in reality. This relates to both the external data and the data that can be inferred from them;
+    \item allow for heterogeneity: since distinct agents will maintain alternative but equally legitimate points of view on reality, semantic heterogeneity is a feature to preserve necessarily;
+    \item maintain loose coupling between both agents: the ASM's from both agents shall remain independent from each other;
+    \item (allow for maintainability and semantic evolution)
+    \item strive for access-and-play sIOP: ideally, sIOP between agents can be achieved instantaneously, also for unforeseen collaborations
+  \end{enumerate}
+  \item approach to sIOP:
+  \begin{enumerate}
+    \item Alignments: 
+  \end{enumerate}
 \end{enumerate}
 
 \end{synopsis}

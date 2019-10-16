@@ -1,3 +1,12 @@
-Differentiate between an information model with “semantic meaning” from the process model with “pragmatic meaning”, and maintain their semantic coherence by having one ontology available as their single unique reference (either formally the domain of interpretation for $\int_d$ and $\int_p$, or pragmatically, using one single conceptual model, viz. an ontology)
+
+Elaborate on the relationship between architectural levels (classification, instantiation, generalisation, conformance, type-of), and specify what relations are required and appropriate and what not.
+
+Conclusions:
+
+* Conceptual models address/support functional requirements; prescriptive models address/support extra-functional requirements;
+* Prescriptive models shall maintain coherence in ASM as established by the conceptual model, hence, do not alter their reciprocity; This also implies that the relationships that are appled by the prescriptive models are grounded in the conceptual model;
+* Ontological instantiation (principle of application) is preserved for conceptual model only and prohibited for prescritive models;
+* Summarise outcomes on relations between and within layers
+
 
 \end{synopsis}

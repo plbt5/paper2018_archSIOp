@@ -1,8 +1,13 @@
 Purpose of this section: 
+Summarise [@Brandt2018a], and notably address:
 \begin{enumerate}
-\item From a semiotic perspective, explain what we mean with semantics in software agents, i.e., the reciprocity between data and data processing code (both represented as Term from the semiotic Sign).
-\item Establish that for representing semantics, descriptive models (i.e., ontologies) trump prescriptive models (all 42010 models).
-\item Conclude that ontologies need their place as single point of reference (trueness) in architectures, and identify their relationship with the rest of the architectures, i.e., all other prescriptive models. Note the issue on Open World Assumption (ontologies) and CWA (prescriptive models).
+  \item explain what we mean with semantics in software agents, i.e., the reciprocity between data and data processing code. Reciprocity denotes the degree with which the collective outcome of processing all potential data tokens by the process token refers to the intended states of affairs in reality.
+  \item valid semantics demand a coherent reciprocity;
+  \item representing semantics require descriptive models (i.e., ontologies);
+  \item Conclude that coherence between the data and its processing code makes for an inevitable semantic monolith. Atomicity refers to the level of granularity at which the entity that is referred to by the data token is considered a non-dividable whole;
+  \item Conclude that ontologies need their place as single point of reference (trueness) in architectures;
 \end{enumerate}
+
+For sIOP, we assume the existence of a semantic bridgehead per agent, i.e., ontology, following the principle of taking responsibility for ones own data.
 
 \end{synopsis}

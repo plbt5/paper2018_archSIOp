@@ -1,10 +1,22 @@
-Thus:
+Purpose for this section: 
+
+Explain how to re-install coherence between "external" data and "internal" data processing code. The most obvious approach is to match the semantic meaning of the external data with that of the internal data, and rely on a generic mediator that translates the data from the vocabulary of the sender to the vocabulary of the receiver.
+
 
 \begin{enumerate}
-\item Follow the coherence principle and conclude that the models from which *external* data and *receiving* data processing code are derived, need to be brought into coherence with each other.
-\item The coherence principle already enforced a single unique reference for each agent. Re-installing coherence demands a semantic alignment between those single unique references. 
-\item The purpose of that alignment is to establish how the truth of expressions that are formulated in terms of agent A, can be estabished by using formulations in terms of agent A' against the single unique reference from A'. 
-\item The language that is used for expressing the alignment should be fit for its purpose. Refer to EDOAL [@Scharffe2011] as the currently most complete one.
+  \item Introduce Principle: ontological commitment as minimal standard for sIOP, “(...) not in order to know *what there is*, but in order to know what a given remark or doctrine, ours or someone else’s, *says* there is” [@Quine:1953er];
+  \item provide for logic-based correspondences between the exchanged concepts from the ontologies of the sending and receiving agent;
+  \item assure that the correspondence language is sufficiently expressive to align all the types of differences in representation that can occur;
+  \item Follow the coherence principle and conclude that the models from which *external* data and *receiving* data processing code are derived, need to be brought into coherence with each other.
+  \item The coherence principle already enforced a single unique semantic reference for each agent. Re-installing coherence demands a semantic alignment between those single unique references. 
+  \item The purpose of that alignment is to establish how the truth of expressions that are formulated in terms of agent A, can be estabished by using formulations in terms of agent A'. 
+  \item List the languages that are used for expressing the alignment should be fit for its purpose, incl. owl contrstructs. Refer to EDOAL [@Scharffe2011] as the currently most complete one.
+  \item Explain the difference with semantic standards:
+  \begin{enumerate}
+    \item ASM's involves data *and* code, standards describe data in terms of their semantic meaning only;
+    \item standards are currently applied to produce one single data schema that specify message syntax and structure;
+    \item standards are large and as manouverable as an oil tanker
+  \end{enumerate}
 \end{enumerate}
 
 \end{synopsis}
