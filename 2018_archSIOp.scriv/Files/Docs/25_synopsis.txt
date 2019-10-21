@@ -1,5 +1,8 @@
 Purpose of this section: 
-Summarise [@Brandt2018a], and notably address:
+
+What preparations about semantics are required for an agent before being able to engage in semantic interoperability?
+
+Approach: Summarise [@Brandt2018a], and notably address:
 \begin{enumerate}
   \item explain what we mean with semantics in software agents, i.e., the reciprocity between data and data processing code. Reciprocity denotes the degree with which the collective outcome of processing all potential data tokens by the process token refers to the intended states of affairs in reality.
   \item valid semantics demand a coherent reciprocity;
@@ -8,6 +11,6 @@ Summarise [@Brandt2018a], and notably address:
   \item Conclude that ontologies need their place as single point of reference (trueness) in architectures;
 \end{enumerate}
 
-For sIOP, we assume the existence of a semantic bridgehead per agent, i.e., ontology, following the principle of taking responsibility for ones own data.
+For sIOP, we assume the existence of a semantic bridgehead per agent, i.e., ontology, following the principle of taking responsibility for one's own data.
 
 \end{synopsis}
