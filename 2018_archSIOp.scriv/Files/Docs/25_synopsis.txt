@@ -8,6 +8,7 @@ Approach: Summarise [@Brandt2018a], and notably address:
   \item valid semantics demand a coherent reciprocity;
   \item representing semantics require descriptive models (i.e., ontologies);
   \item Conclude that coherence between the data and its processing code makes for an inevitable semantic monolith. Atomicity refers to the level of granularity at which the entity that is referred to by the data token is considered a non-dividable whole;
+  \item Introduce Principle: ontological commitment as minimal standard for sIOP, “(...) not in order to know *what there is*, but in order to know what a given remark or doctrine, ours or someone else’s, *says* there is” [@Quine:1953er];
   \item Conclude that ontologies need their place as single point of reference (trueness) in architectures;
 \end{enumerate}
 
