@@ -12,7 +12,7 @@ author:
   affiliation: Eindhoven University of Technology, Eindhoven, The Netherlands  
 category:   
 bibliography: src/bib/CitedByMe-2018_archSIOp.bib  
-csl: templates/environmental-health-perspectives.csl  
+csl: templates/my-basic-reference-style.csl  
 abstract: |   
   
   *Background:* Access-and-Play semantic interoperability (sIOP) is the next glass ceiling in IT-based business collaboration. Current approaches towards sIOP still rely on conventions on the semantics of the exchanged terms, which can be considered accepted folklore. To break through the ceiling an initial agreement is required on the foundations of semantics and SIOp. Unfortunately, semantics and software are on odds with each other: software can only operate on a token-based machine whereas semantics require an interpretation outside the realm of tokens. This fundamental incompatibility depends for its resolution on the human-in-the-loop. With current artificial intelligence (AI) the fundamental incompatibility cannot be solved. However, the effort of the inevitable human-in-the-loop can be reduced and her position improved. This is a matter of software architecture, and it should address how semantic interoperability can be consolidated by it.       
@@ -57,12 +57,11 @@ In comparison, scalability was a big architectural concern in the past, requirin
 (semantic reconciliation) and roadway (semantic mediation), (a), and a legend explaining the used constructs (b).}
   \label{fig:semantic-concerns}
 \end{figure}
-Our contributions to consolidating semantic interoperability in software architectures are fivefold, and represented as architectural principles and concerns, as follows:
+Our contributions to consolidating semantic interoperability in software architectures are fourfold, and represented as architectural principles and concerns, as follows:
 
 * *Semantic concerns (bridgehead)*: Abstracting semantics from a tacit software implication into a tangible, computational and distinct artifact provides us with the potential to connect to it and to make comparisons with the semantic artifact of the peer software agent. Based on the disciplines of semiotics, philosophy, modelling and mathematics we elaborate in [@Brandt2018a] how to achieve a semantic bridgehead. We formulate the principle of assuming responsibility on the semantics on data, and conclude what preparations about semantics are required for an agent before being able to engage in semantic interoperability (\cref{bridgehead-semantics});
 * *sIOP concerns (spanning)*: Since computers remain incapable of true understanding, sIOP remains in demand of human intervention in order to reconcile the semantic differences between collaborating software agents. However, human intervention is time consuming. We reduce the necessary human intervention to complement formal semantics to a task that suffices to achieve sIOP, viz. authoring semantic alignments only (\cref{spanning-semantic-interoperability});
 * *Mediation concerns (roadway)*: We determine the demands for a generic component that allows for communication with the peer agent in one’s native vocabulary only, by considering both ontological models and the alignment. Such approach applies the principle *connectivity without dependency* at the semantic level. This consolidates the agent’s potential to collaborate to any unforeseen applications without the need to adopt external semantic definitions, and remain scalable in the process (\cref{roadway-mediation});
-* *Semantic principles*: In order to consistently address the above concerns, it is necessary to derive and collect their founding architectural principles. In addition to those already identified in earlier sections, we introduce principles on semantic separation of concerns and semantic transparency in order to establish loose-coupling at the semantic level, and show how these principles can be operationalised (\cref{siop-principles});
 * *ISO42010 Architecture Viewpoint*: We verify the applicability of the above concerns and principles by formulating their architectural consequences as a specific ISO42010 sIOP Viewpoint, and we show their proper position in the total architecture as corresponding sIOP view. As ISO42010 is considered a set of best practises for architecture description, and therefore is used with architecture frameworks such as MoDAF, TOGAF, DoDAF, RM-ODP and so on, we conclude that our sIOP Viewpoint and View can be considered to consolidate sIOP for contemporary architectural paradigms (\cref{iso42010-viewpoint-on-siop}).
 
 Based on these contributions we defend that access-and-play sIOP can be embedded and hidden in infrastructural services when considering semiotic fundamentals and adding loosely coupled formal semantics to contemporary architectural paradigms. To that end, we first describe some background on the semantic foundations in the following section.
@@ -100,8 +99,8 @@ This leads to the definition of a design principle to its effect, applying the n
 
 When it is reasonable to expect that the software agent will be engaged in collaboration or otherwise will interoperate with (an)other software agent(s), it is the responsibility of the software architect to serve the quantity, relation and manner of the potential interoperability by specifying the semantics of the data in advance. 
 
-\textbf{Type of information:} business  \\
-\textbf{Quality attributes:} semantics, semantic interoperability   \\
+\textbf{Type of information:} business, data  \\
+\textbf{Quality attributes:} semantics, semantic interoperability, usability, efficiency   \\
 \textbf{Rationale:}
 \begin{enumerate}
   \item Data represent the state of affairs of some part of the world, viewed from a particular perspective of use. Such view is just one particular perspective out of many equally legitimate ones;
@@ -132,8 +131,8 @@ Moreover, we showed (ibid.) that the predominant purpose of a model is to descri
 
 The language constructs that are used to formulate a model always represent an ontological commitment, explicitly or implicitly.
 
-\textbf{Type of information:} business  \\
-\textbf{Quality attributes:} semantics, semantic interoperability   \\
+\textbf{Type of information:} business, application, data  \\
+\textbf{Quality attributes:} semantics, semantic interoperability, reliability   \\
 \textbf{Rationale:}
 \begin{enumerate}
   \item The particular reciprocity that emerges in the ASM is influenced by the ontological commitment of the modelling language;
@@ -187,9 +186,9 @@ Semantic interoperability is about two software agents that share a particular r
  
 We have seen that software semantics is necessarily reduced to the reciprocity that exists between data and code in the so-called atomic semantic monolith. Such ASM guarantees the coherence between the data and their processing code. Unfortunately, when communicating data they are necessarily separated from the ASM they belong to. (Why it is useless to exchange the complete semantic monolith in order to establish SIOp, is left as an exercises to the reader ^[Answer: \rotatebox{180}{Communicating the semantic monolith would result in both agents to perform the exact same functionality with regards to the data.}].) The consequence of data exchange on the semantic meaning (data), therefore, is twofold: it loses its coherence with its original pragmatic meaning (data processing code), and, a new reciprocity with the pragmatic meaning belonging to the receiving agent emerges. Unless it can be guaranteed that this new emerging reciprocity is as coherent as it needs to be, semantic interoperability cannot emerge from the data exchange and phantom semantics will emerge in stead. From this we conclude that the main task about establishing sIOP is to re-establish coherence between the external semantic meaning and the internal pragmatic meaning. Note that the resulting semantic monolith of the receiving agent will be different from the original semantic monolith, although they share the same semantic meaning. For example, by exchanging a heartbeat both agents share the a semantic meaning about the number of beats per second, however the pragmatic meaning can vary between an indication of health for an health-care application or an indication of performance potential in a sports application. 
 
-The **prime objective** from the perspective of the receiving agent is to assure that the reciprocity between data and code remains truthful to the state of affairs in reality. This relates for both the external data and the data that can be inferred from them. The two possible approaches are, (i) to modify the pragmatic meaning such that it can operate in a valid way on the external semantic meaning, or (ii) to modify the semantic meaning such that it can be operated on in valid way by the existing pragmatic meaning. The first approach clearly breaks one of the fundamental principles of software engineering, *low coupling, high cohesion* [e.g., @Hitz1995], by allowing\todo{ brandtp, 21-10-2019 put otherwise: to adopt an externally defined perspective on reality in order to process its data}  external definitions to influence internal workings. The second approach only adapts that what was already external to the receiver, and thereby doesn’t breach the integrity of its own software. By pursuing the second approach we also maintain a **second objective** for sIOP: ensure that the ASM’s from both agents remain independent from each other, viz. establishing a semantical loose coupling between both agents. Such loose coupling does not require one single homogeneous view on reality, which aligns neatly with the **third objective** for sIOP to allow for semantic heterogeneity: distinct agents will probably maintain alternative but equally legitimate points of view on reality, implying that semantic heterogeneity is a feature to preserve necessarily. The **fourth objective** of sIOP is to strive for access-and-play sIOP: ideally, sIOP between agents can be achieved instantaneously, also for unforeseen collaborations. This objective is very hard to achieve because when we accept that software is incapable of genuine understanding, and when we accept that correct use of data is to be preceded by its understanding, a human-in-the-loop to provide that understanding becomes a necessary condition for sIOP. The **fifth and final objective** of sIOP is to allow for semantic evolution and, consequently, the maintainability of sIOP.
+The **prime objective** from the perspective of the receiving agent is to assure that the reciprocity between data and code remains truthful to the state of affairs in reality. This relates for both the external data and the data that can be inferred from them. The two possible approaches are, (i) to modify the pragmatic meaning such that it can operate in a valid way on the external semantic meaning, or (ii) to modify the semantic meaning such that it can be operated on in valid way by the existing pragmatic meaning. The first approach clearly breaks one of the fundamental principles of software engineering, *low coupling, high cohesion* [e.g., @Hitz1995], by allowing\todo{ brandtp, 21-10-2019 put otherwise: to adopt an externally defined perspective on reality in order to process its data}  external definitions to influence internal workings. The second approach only adapts that what was already external to the receiver, and thereby doesn’t breach the integrity of its own software. By pursuing the second approach we also maintain a **second objective** for sIOP: ensure that the ASM’s from both agents remain independent from each other, viz. establishing a semantical loose coupling between both agents. Such loose coupling does not require one single homogeneous view on reality, which aligns neatly with the **third objective** for sIOP to allow for semantic heterogeneity: distinct agents will probably maintain alternative but equally legitimate points of view on reality, implying that semantic heterogeneity is a feature to preserve necessarily. The **fourth objective** of sIOP is to strive for access-and-play sIOP: ideally, sIOP between agents can be achieved instantaneously, also for unforeseen collaborations. This objective is very hard to achieve because when we accept that software is incapable of genuine understanding, and when we accept that correct use of data is to be preceded by its understanding, a human-in-the-loop to provide that understanding becomes a necessary condition for sIOP. The **fifth objective** of sIOP is to allow for semantic evolution and, consequently, the maintainability of sIOP. Finally, we consider that semantic heterogeneity brings about an issue of scalability, since semantics won’t be a centrally coordinated anymore; in stead, semantic definitions will be distributed all over the place. We therefore include as **sixth objective** of sIOP to allow for scalable semantics.
 
-We conclude that from these 5 objectives, only the first (re-establish reciprocity) and fourth (access-and-play) are concerned with genuine understanding of semantics, where the others are engineering challenges. In the subsequent section we focus only on achieving the re-establishing reciprocity and access-and-play objectives. We investigate the latter three later on, since they neatly coincide with the roadway part of the semantic bridge.  
+We conclude that from these six objectives, only the first (re-establish reciprocity) and fourth (access-and-play) are concerned with genuine understanding of semantics, leaving the others as engineering challenges. Our focus in the subsequent section is only on achieving the re-establishing reciprocity and access-and-play objectives. We address the latter four as evaluation of the principles that have been introduced to achieve the two core objectives.  
 
 
 
@@ -216,37 +215,43 @@ Explain how to re-install coherence between "external" data and "internal" data 
 
 \end{synopsis}
 
-Regarding the fourth objective of sIOP (access-and-play) we maintain the position that computers lack the capability of genuine understanding. We subsequently defend that with the current state of the art in AI the human-in-the-loop remains a necessary element in sIOP in order to cater for the understanding of the semantic differences between the interoperating agents. In its pure sense, an access-and-play capability can therefore not be established. However, current solutions on semantic standards solidify the understanding in the syntax of the data. In this way, semantics are carried by a message definition that is primarily designed to exchange the data. We consider this a significant neglect of the principle on separation of concerns, conflating the semantic interoperability concerns with the data communication concerns. The consequence of coinciding sIOP and data communication concerns is that source code which is concerned primarily with parsing, storage, and other data communication related tasks becomes dependent on semantics as well. In a message-oriented paradigm, for instance, any difference in semantic structure will have a significant impact on how to (de)compose the message. Any new data source to connect to will proliferate into a new software release. We thus observe that the current approach to data understanding results in an architecture which imposes a significant complication on interoperability (and other -ilities as well), impeding access-and-play. And despite the current limitations of software to genuinely understand, a significant gain towards the software agent’s access-and-play characteristics can be achieved by separating the sIOP concerns from the data communication concerns, and we propose the following design principle to its effect:
+We maintain the position that computers lack the capability of genuine understanding. We subsequently defend that with the current state of the art in AI the human-in-the-loop remains a necessary element in sIOP in order to cater for the understanding of the semantic differences between the interoperating agents. In its pure sense, an access-and-play capability can therefore not be established. However, current solutions on semantic standards solidify the understanding in the syntax of the data. In this way, semantics are carried by a data schema that is primarily designed to serialise data and to support data transfer by message construction and exchange. We consider this a significant neglect of the principle on separation of concerns, conflating the semantic interoperability concerns with the data communication concerns. The consequence of conflating these concerns is that source code which should concerned primarily with message construction, parsing, storage, and other data communication related tasks, becomes dependent on how semantics influence the syntax. In a message-oriented paradigm, for instance, any difference in structure in order to reflect the local perspective on semantic structure will have a significant impact on how to (de)compose the message. And any new data source to connect to will proliferate into a new software release. We thus observe that the current approach to data understanding results in an architecture which imposes a significant complication on interoperability (and other -ilities as well), impeding access-and-play. And despite the current limitations of AI-software to genuinely understand, a significant gain towards the software agent’s access-and-play capabilities can be achieved by untangling the syntax and semantics through separation of the sIOP concerns from the data communication concerns. We propose the following design principle to its effect:
 
-\begin{mmdp}[Align semantics, not data]\label{dp:alignment}
+\begin{mmdp}[Abstract semantics from communication syntax]\label{dp:ssoc}
 
 When a software agent engages in interoperation with (an)other software agent(s), resolve their semantic differences independently from the syntax of the exchanged data.   
 
-\textbf{Type of information:} semantic reconciliation  \\
-\textbf{Quality attributes:} semantic interoperability   \\
+\textbf{Type of information:} data, technology  \\
+\textbf{Quality attributes:} semantic interoperability, portability, maintainability, efficiency, usability (reuse), reliability, functionality   \\
 \textbf{Rationale:}
 \begin{enumerate}
-  \item ...;
-  \item ... .
+  \item Data schemata are defined to support the (de)serialisation processes that consolidate the data communications concern;
+  \item Neglecting the principle of separation of concerns solidifies dependency between otherwise disjoint concerns, here the semantic level and the syntactic level of data communication;
+  \item Access-and-play capabilities are supported by assuring minimal impact on software code when introducing semantic modifications;
+  \item Minimising impact on software code that is concerned with data communication is realised by abstracting semantics away from the data schemata.
 \end{enumerate}
 \textbf{Implications:}
 \begin{enumerate}
-  \item ... ;
-  \item  ;
-  \item ... .
+  \item Separation of concerns has a strong positive effect on software quality, including but not limited to sIOP;
+  \item Removing any dependency between semantics and data syntax enables to support multiple communication paradigms without the need to modify the semantic abstraction;
+  \item Similarly, modifications in the semantic representation, or supporting multiple semantic representations become possible without the need to modify the communication layer;
+  \item Align semantics, not data schemata: Semantic reconciliation is applied at a higher conceptual level and abstracts away from data communication schemata;
+  \item Heterogeneous semantics from multiple data sources are more easily supported;
+  \item Semantic alignments imply the need for a mediation capability between the semantic representations of the communicating agents.
 \end{enumerate}  
 \end{mmdp}
 
-Current sIOP practises already require humans-in-the-loop to reconcile the semantic differences that occur. Often, the subject of reconciliation is the differences in data schemata, and the result of the reconciliation is laid down as a canonical data model. 
-By applying semantic reconciliation on the conceptual level, the dependency on the (data) syntax, and vice-versa, is minimised. Moreover, by representing the result of the reconciliation as an alignment (between ontologies) as opposed to a canonical semantic model (core ontology), the influence of the peer agent’s semantics on one’s own semantics is minimised as well. An alignment, thus, functions as an interface that enforces loosely coupled semantics by enabling semantic transparency between communicating peers. Reducing the human-in-the-loop to author an alignment only, (i) accelerates the deployment of sIOP by removing all human effort that is concerned with implementation activities, and (ii) decouples the sIOP scope to bilateral alignments only. This process has been depicted in \cref{fig:dt-reconciliation}.
+This principle is in clear contrast with principle A.20\todo{ brandtp, 18-11-2019 Move this paragraph to section Related Work?} , Data that are exchanged adhere to a canonical data model, as determined in the Principles Catalogue from [@Greefhorst2011]. Indeed principle A.20 reflects the current practises to achieve interoperability. It is not necessarily wrong, since following it results in achieving interoperability, as justified by the many if not all interoperable systems that exist today. However, its application impedes access-and-play interoperability since such capability require more specification and less implementation, more generic infrastructural solutions based on meta-standards as opposed to local solutions that rely on data standards.
+
+Current sIOP practises already require humans-in-the-loop to reconcile the semantic differences that occur. Often, the subject of reconciliation is the differences in data schemata, and the result of the reconciliation is laid down as a canonical data model. By applying semantic reconciliation on the conceptual level, the dependency on the (data) syntax, and vice-versa, is minimised. Moreover, by representing the result of the reconciliation as an alignment (between ontologies) as opposed to a canonical semantic model (core ontology), the influence of the peer agent’s semantics on one’s own semantics is minimised as well. An alignment, thus, functions as an interface that enforces loosely coupled semantics by enabling semantic transparency between communicating peers. Reducing the human-in-the-loop to author an alignment only, (i) accelerates the deployment of sIOP by removing all human effort that is concerned with implementation activities, and (ii) decouples the sIOP scope to bilateral alignments only. This process has been depicted in \cref{fig:dt-reconciliation}.
 
 ![Semantic reconciliation results in an alignment between the semantic representations of two ontologies. We defend that semantic reconciliation is a computer-aided but ultimately human-authored task.][def:DTReconciliation]
 
 From the perspective of the receiving agent the first objective of sIOP is to guarantee that the reciprocity between the external semantic meaning and (our) internal pragmatic meaning remains faithful to reality. We’ve determined that we can only convert the external semantic meaning, and we need to do it such that the result becomes coherent with the internal semantic meaning. We can assume that the quality of our own agent software is such that the internal semantic meaning is in coherence with the internal pragmatic meaning. Contrarily, we cannot assume that any extension of the internal semantic meaning, no matter how small, will remain in coherence with the internal pragmatic meaning. Founded on this essential disposition we conclude that aligning the external semantic meaning with the internal semantic meaning such that the former does not overlap the latter, is the only approach that can guarantee sIOP. We reflect this with the following principle:
 
-\begin{mmdp}[Align the semantic meaning of the exchanged data between interoperating peers]\label{dp:alignment}
+\begin{mmdp}[Align the internal and external semantic meaning of the exchanged data]\label{dp:alignment}
 
-When a software agent engages in interoperation with (an)other software agent(s), establish for the exchanged data maximal coherence between external semantic meaning and internal pragmatic meaning by formalising the alignment between the external and internal semantic meaning.   
+When a software agent engages in interoperation with (an)other software agent(s), establish for the exchanged data a maximal coherence between external semantic meaning and internal pragmatic meaning by formalising the alignment between the external and internal semantic meaning.   
 
 \textbf{Type of information:} application, data  \\
 \textbf{Quality attributes:} semantics, semantic interoperability   \\
@@ -266,12 +271,12 @@ When a software agent engages in interoperation with (an)other software agent(s)
 \end{mmdp}
 
 
-A *correspondence* specifies as accurately as possible the semantic difference (out of those listed in Appendix A) that exists between a pair of related concepts, i.e., it aligns between the semantic meanings of interoperating agents. By exhaustively addressing all semantic differences that exist between both agents, the set of correspondences collectively specify the *alignment* that holds between two agents. For the purpose of this Section we differentiate between two categories of differences:
+A *correspondence* specifies as accurately as possible the semantic difference (out of those listed in Appendix A) that exists between a pair of related concepts, i.e., it aligns between the semantic meanings of interoperating agents. By exhaustively addressing all semantic differences that exist between both agents, the set of correspondences collectively specify the *alignment* that holds between two agents. The purpose of the alignment is to establish how the truth of expressions that are formulated in terms of agent A, can be established by using formulations in terms of agent A’, and to capture their potential difference as a relation. To that end we differentiate between two categories of semantic differences:
 
 1. *Conceptual differences*: variations that can be specified as logical relation between (constructions of) concepts from both ontologies, e.g., naming conventions or structural engineering variations; 
 1. *Value differences*: variations in conventions on how to represent values with or without magnitudes, e.g., differences in value scales, units of measure or nominal properties.
 
-The language used to specify the correspondences must be expressive enough to identify the atomic elements of the ontologies, to combine them into logical combinations as well as to formulate the relationship that holds between them. In [@Euzenat2007;@Scharffe2011], an investigation has been reported towards the requirements for such an alignment language with which we are in agreement, and summarise as follows. A *correspondence* denotes a single particular inter-ontological relation, prescribed, and assumed to represent a semantically valid relation between both concepts, as: 
+The language used to specify the correspondences must be expressive enough to identify the atomic elements of the ontologies, to combine them into logical combinations as well as to formulate the relationship that holds between them. In [@Euzenat2007;@Scharffe2011], an investigation has been reported towards the requirements for such an alignment language, summarised as follows. A *correspondence* denotes a single particular inter-ontological relation, prescribed, and assumed to represent a semantically valid relation between both concepts, as: 
 \begin{equation*}\label{eq:correspondence}
 \mu = \tuple{ e, e’, \theta }
 \end{equation*}
@@ -281,14 +286,14 @@ with:
 * The source and target *entity constructions*, $e$, are build on the atomic elements of the ontology language. An entity construction connects concepts by applying:
     * conceptual connectors:
         * logical connectors \token{AND}, \token{OR}, and \token{NOT};
-        * a path connector as a sequence of zero or more Object Relations, \token{R}, possibly ending with an Object Property \token{P}, summarised as follows: \token{R^*[P]}$^{0..1}$;
+        * a path connector as a sequence of zero or more Object Relations, \token{R}, optionally ending with an Object Property \token{P}, summarised as follows: \token{R^*[P]};
         * property construction operators (inverse, composition, reflexive, transitive and symmetric closures);
         * constraints (through domain, range, cardinality and value restrictions);
-    * value connectors:
-        * mathematical connectors operating on one or more values having a magnitude for, e.g., unit conversion;
-        * connectors operating on one or more nominal values without magnitude, e.g., ISO two-letter country code, or blood type.
+    * value functions:
+        * mathematical calculations operating on one or more values having a magnitude for, e.g., unit conversion;
+        * transcriptors operating on one or more nominal values without magnitude, e.g., ISO two-letter country code, or blood type.
 
-Without the conceptual connectors it is only possible to address a single concept or individual as defined by the ontology, representing an aggregation level that is relevant for the software agent but might not be relevant in terms of the interoperating agent, and hence, for their mutual sIOP. By application of conceptual connectors the architecture gains the capability to address a specific compound of individuals in either the source or target ontology that relate to the semantic difference at hand. Similarly, with the application of value connectors the architecture gains the capability to specify transformations between conventions on value representations and nominal properties.
+Without the conceptual connectors it is only possible to address a single concept or individual as defined by the ontology, representing an aggregation level that is relevant for the software agent but might not be relevant in terms of the interoperating agent, and hence, for their mutual sIOP. By application of conceptual connectors the architecture gains the capability to address a specific compound of individuals in either the source or target ontology that relate to the semantic difference at hand. Similarly, with the application of value functions the architecture gains the capability to specify transformations between conventions on value representations and nominal properties.
 
 
 <!-- page additions -->
@@ -310,7 +315,7 @@ With mediation we denote the process of transcribing a data term that originates
 
 The mediation pattern has already been described in [@Gamma1994], albeit in the context of object-orientation as opposed to sIOP. It is described as “an object that encapsulates how a set of objects interact”, and it promotes loose coupling “by keeping objects from referring to each other explicitly” and by enabling you to “vary their interaction independently”. In this way, the mediator turns a many-to-many interaction into a many-to-one interaction, each of which is easier to understand, maintain and evolve. The fundamental idea behind the pattern, viz. trading the complexity of the interactions with the complexity in the mediator, can also be applied on a semantic level, and we formulate the following principle to its effect:
 
-\begin{mmdp}[Encapsulate how agents exchange semantic meaning]\label{dp:alignment}
+\begin{mmdp}[Encapsulate how agents exchange semantic meaning]\label{dp:mediation}
 
 When software agents engage in interoperation, encapsulate how the representation of their semantic meaning should be transcribed without inducing phantom semantics.   
 
@@ -318,36 +323,34 @@ When software agents engage in interoperation, encapsulate how the representatio
 \textbf{Quality attributes:} semantic interoperability   \\
 \textbf{Rationale:}
 \begin{enumerate}
-  \item ...;
-  \item ... .
+  \item The semantic meaning can only be codified in (onto)logical representations;
+  \item Keeping agents from referring to each others representation therefore requires transcription between representations;
+  \item A solution where each agent needs to implement one transcription component between its own representation and each of its interoperating peer, increases unnecessary complications;
+  \item An intermediary that maintains a separation between representations creates representational transparency between communicating agents;
 \end{enumerate}
 \textbf{Implications:}
 \begin{enumerate}
   \item A mediator keeps agents from using each others representations during interaction;
-  \item This enable independent development of the individual agent’s semantic meaning;
-  \item The need to enforce a canonical semantic representation expires, allowing semantic heterogeneity to become the norm;
+  \item This enables independent development of the individual agent’s semantic meaning;
+  \item The need to enforce a canonical semantic representation, viz. semantic homogeneity, expires, allowing semantic heterogeneity to become the norm;
   \item Each agent can reuse its semantic bridgehead in any other interoperation;
-  \item Loose coupling at the semantic level emerges;
-  \item The agents do not need to implement semantic wrappers or similar data transcription logic since this now can be pushed to the communication infrastructure.
+  \item The agents do not need to implement semantic wrappers or similar data transcription logic since this becomes a generic service from the communication infrastructure;
+  \item Each agent can communicate with any other agent in its own native semantic representation;
+  \item Loose coupling at the semantic level emerges.
 \end{enumerate}  
 \end{mmdp}
 
 In this reading a mediator encapsulates how a pair of agents represent their semantic meaning and provides for a generic transcription logic to mediate between native semantic representations. However, one paramount issue must be resolved by the transcription logic of the mediator, as follows.
 
-![Semantic mediation encapsulates how agents exchange semantic meaning and transcribes between the particular representations of data between both agents. It depends on the representations of the semantic meaning from both agents (ontogies) and the alignment that holds between them.][def:RTMediation]
+![Semantic mediation encapsulates how agents exchange semantic meaning. It implements a generic transcription service between the particular representations of data between both agents. It depends only on the representations of the semantic meaning from both agents (ontologies) and the alignment that holds between them.][def:RTMediation]
 
-We have seen in the previous sections that a correspondence assures the semantic validity between the different semantic meanings of both agents. It can do so by token of the broad correspondence relations that can be specified, both for the conceptual and the value differences that may exist. Unfortunately, this is in shear contrast with the fact that a transcription can only replace one term for another, which basically implements an equivalence relation between both terms. In [@Brandt2018b], we make a distinction between a naive transcription, which ignores this inconsistency, and a semantic valid transcription that can establish under what conditions this inconsistency does not produce invalid semantics. These conditions are independent on the actual ontologies and can be formulated as generic rules that apply for any transcription. Nevertheless, a set of conditions remain for which a semantic valid transcription cannot be guaranteed, either due to an incomplete alignment or to  (onto)logical incorrect correspondences. It follows that a semantic mediation service must provide for options about the resolution for these remaining issues. We suggest at least the following options: Firstly, as run-time options we consider (i) fall-back to naive transcription, and (ii) fall-back to no transcription; both represent necessary service implementations that might satisfy scenarios that have either less or more stringent semantic demands. Secondly, as design-time option, it is necessary to generate an exhaustive list of shortcomings of the transcription in terms of semantic constructs that are impossible to transcribe without introducing invalid semantics. This will provide the semantics engineer with sufficient information to adapt the alignment, or introduce modifications to one or both of the semantic bridgeheads, in order to remove transcription issues that are considered vital to the business. Finally, the fourth option would be to try to resolve the transcription issue by starting a dialogue-based semantic reconciliation process in run-time with the aim to improve upon the shortcomings of the current alignment. Despite our insistence on the need for a human to author the genuine understanding, it might still be worthwhile to have the system meticulously, consistently and methodologically negotiate logical and ontological constructs in order to find additional correspondences [@Diggelen:2007vd].
-
-
-----
-
-We now evaluate the consequences of the introduction of alignments at the semantic level on objective two: *loose coupling at semantic level*, three: *allow for semantic heterogeneity* and five (support to semantic evolution). We have already determined that the principle to align semantics as opposed to data models breaks the conflation of semantics and syntax. By also abstaining from a canonical model as vehicle for the alignment, the potential to enforce semantic structures or ... are vaporised.
+We have seen in the previous sections that a correspondence assures the semantic validity between the different semantic meanings of both agents. It can do so by token of the broad correspondence relations that can be specified, both for the conceptual and the value differences that may exist between them. Unfortunately, this is in shear contrast with the fact that a transcription can only replace one term for another, which basically implies that an equivalence relation holds between both terms. As can be seen from the correspondence relation, this is not necessarily true. In [@Brandt2018b], we make a distinction between a naive transcription, which ignores this inconsistency, and a semantic valid transcription that can establish under what conditions this inconsistency does not produce invalid semantics. We show that these conditions rely on logical constructs only and, consequently, are independent on the actual ontologies that apply. We have formulated these logical constructs as rules that generically apply for any transcription. Unfortunately, a set of conditions remain for which a semantic valid transcription cannot be guaranteed, either due to an incomplete alignment or to (onto)logical incorrect correspondences. It follows that a semantic mediation service must provide for options about the resolution for these remaining issues. We suggest at least the following options: Firstly, as run-time options we consider (i) a fall-back to the application of naive transcriptions, or (ii) to raise a Transcription Error and refrain from data exchange; both represent necessary service implementations that might satisfy scenarios that have either less or more stringent semantic demands. Secondly, as design-time option, it serves as a necessary tool to generate an exhaustive list of shortcomings of the transcription that will emerge with the current ontologies and alignment. Such list will provide the semantics engineer with sufficient information to adapt the alignment, or introduce modifications to one or both of the semantic bridgeheads in order to remove transcription issues that are considered vital to the business. Finally, the third option is to try to resolve the transcription issue by starting a dialogue-based semantic reconciliation process in run-time with the aim to improve upon the shortcomings of the current alignment. Despite our insistence on the need for a human to author the genuine understanding, it might still be worthwhile to have the system meticulously, consistently and methodologically negotiate logical and ontological constructs in order to find additional correspondences [@Diggelen:2007vd].
 
 
 <!-- page additions -->
 [def:RTMediation]: src\images\RunTimeMediation.png {#fig:rt-mediation width=75%} 
 
-# sIOP Principles #
+# Principle evaluation #
 \begin{synopsis}Purpose of this section: 
 \begin{itemize}
 \item Show the semantic architecture as an additional layer that is orthogonal to current layers, expressing a separation of concerns between syntax and semantics (see [@Brandt:2013jh])
@@ -357,7 +360,13 @@ We now evaluate the consequences of the introduction of alignments at the semant
 \end{itemize}
 \end{synopsis}
 
-The main (business) requirement is to achieve sIOP as quickly as possible, with as minimal effort as possible, for collaborations that had not been foreseen and consequently could not be anticipated for during design time of the (two or more) software agents.
+The main (business) requirement is to achieve sIOP as quickly as possible, with as minimal effort as possible, for collaborations that had not been foreseen and consequently could not be anticipated for during design time of the (two or more) software agents. We have introduced some new principles to its support in the previous sections, and now evaluate their consequences on objectives two (loose coupling at semantic level), three (allow for semantic heterogeneity), five (support to semantic evolution) and six (scalable semantics).
+## Loosely coupled semantics ##
+Consolidating sIOP demands the emergence of *loosely coupled semantics*: Loose coupling in the classical sense is realised through the principles of separation of concerns, and transparency. In its original reading this implies separating, without duplication, *what* functionality the components are capable of, while leaving *how* such capability is realised completely transparent. Contrarily, semantic separation of concerns is not about maintaining complementary semantics; in fact, the agents are required to have an overlap in the domain of interest, since interoperation would be completely useless otherwise. Instead, separation of concerns refer to enforce an explicit separation between syntax and semantics. Additionally, it refers to keeping each other’s representations of the semantic meaning strictly separated. Semantic transparency, then, refers to remaining transparent about how the semantic meaning is represented. As analogy, consider a vehicle (the representation of semantics) with its cargo (the semantic meaning that it bears). Logistics rely on an external transfer service that can change the vehicle from a truck into a ship or aircraft, without ruining the cargo. Similarly, software agents should rely on an infrastructural mediation service that can transcribe the semantic representation from its native form into a foreign form without introducing invalid semantics. Then, agents can communicate in their own native representations without the need to learn or integrate foreign representations.
+
+----
+Below sections are under construction.
+
 
 Consequently, the software agents have been developed totally and completely independent from each other. This raises the following semantic concerns:
 
@@ -367,10 +376,7 @@ Consequently, the software agents have been developed totally and completely ind
 1. Scalable sIOP:
     i. Variable in number of peers
     i. Variable in level of semantic heterogeneity
-1. Semantic concerns are foundational to sIOP (see \cref{fig:3Concerns} for three related ones):
-    i. Explicit and computational semantics by *conceptual modelling*: Bridgehead 
-    ii. Managed and controlled sIOP by *semantic reconciliation*: Spanning
-    iii. Automated sIOP by *semantic mediation*: Roadway. Address semantic issue about the non-equivalence between an alignment and a transcription (refer to \cite{Brandt2018b})
+
 
 *Ad. Dijkstra’s “Connected but as independent as possible”*. Complement weak AI with human brain:
 
@@ -400,35 +406,13 @@ Loose coupling is founded on principles about (i) separation of concerns, and (i
 
 Formulate the principles in the format according to [@Greefhorst2011]
 
-*Ad. semantic separation of concern*. Where in its classical application the result of applying the principle is that atomic functions are defined, designed and implemented only once and remain unique, in its semantic application the result of applying this principle is that every software agent maintains its own semantics. Semantics are, therefore, distributed all over the place. This seems counterintuitive or even plain wrong, however, it is necessary for complying with the concern about semantic scalability (in support of heterogeneous semantics). Besides that, it is a direct consequence of the demand to allow for independent software development
+*Ad. semantic separation of concern*. Where in its classical application the result of applying the principle is that atomic functions are defined, designed and implemented only once and remain unique, in its semantic application the result of applying this principle is that every software agent maintains its own semantics. Semantics are, therefore, distributed all over the place. This seems counterintuitive or even plain wrong, however, it is necessary for complying with the concern about semantic scalability (in support of heterogeneous semantics). Besides that, it is a direct consequence of the demand to allow for independent software development.
 
- * Principle: specify ontological commitment as basic 
- * Refer to (and partly reuse?) semantic architecture from [@Brandt2013], depicted in \cref{fig:sSoC}
-
-![An architecture for loosely coupled semantics, founded on semantic SoC and semantic transparency [@Brandt2013]][def:sSoC]
-
- 
-***Achieve Scalable sIOP***
-
-Ensure that different semantic topologies remain possible:
- 
-i. Star alignments (central domain ontology, aligned to local ontologies) for relative stable and homogeneous domain semantics
-    * Good: easy semantic governance
-    * Bad: very big semantic monolith, hence, low agility in dynamic environments
-ii. Mesh alignments (bilateral alignments) for very dynamic and heterogeneous (domain) semantics, or low number of peers
-    * Good: quickly established bilateral sIOP; granularity-on-demand, viz. intricate where necessary, coarse-grained where possible
-    * Bad: complicated semantic governance
-iii. Mix-n-Match (coarse-grained star-alignment with specialised bilateral alignments) for the 70% bulk 
-    * Good: controllable semantic governance; after central alignment, quickly established bilateral sIOP
-    * Bad: slightly more complicated mediation due to double alignment support
-
-
-
-<!-- page additions -->
-[def:sSoc]: src\images\SemanticSoC.png {#fig:sSoC width=448px height=426px} 
-
-
-# Scalability #
+## Semantic heterogeneity ##
+We have already determined that the principle to align semantics as opposed to data schemata breaks the conflation of semantics and syntax, enabling to consider semantics on its own terms^[Pun not intended]. Abstaining from a canonical model by introducing a semantic alignment between pairs of semantic meanings (ontologies) introduces the capability for each agent to develop its semantic representation in a way that fits its local perspective optimally. By also encapsulating the particular means to provide valid semantic transcriptions only and refrain from naive transcriptions between communicating agents, the necessary elements to support semantic heterogeneity are present;
+## Semantic evolution ##
+Consider an agent who’s local semantics are in demand for a change. Assume that the agent has modified its internal pragmatic meaning to accommodate the evolved semantics. This implies a change in what we called the semantic bridgehead, which acts as semantic interface to any sIOP concerns. The semantic change can be considered an altered or additional difference with the semantic bridgehead from interoperating peer agents. In order to not destroy the sIOP that had been established before, it is necessary to reflect the new difference as modifications to the alignments that apply. By having performed the necessary modifications, and by relying on the semantic validity of the own ontology, the mediator is now capable of transcribing the data in accordance to the evolved semantics.
+## Scalable sIOP ##
 \begin{synopsis}Purpose of this section: 
 
 scalability by topology
@@ -437,6 +421,25 @@ scalability by topology
 \item Show how multiple agents can collaborate by cascading, or by introducing a core semantic specification, or by augmenting a centralised topology with a peer-2-peer topology
 \end{itemize}
 \end{synopsis}
+
+Scalable sIOP
+
+Ensure that different semantic topologies remain possible:
+ 
+i. Star alignments (central domain ontology, aligned to local ontologies) for relative stable and homogeneous domain semantics
+    * Good: easy semantic governance
+    * Bad: very big semantic monolith, hence, low agility in dynamic environments
+i. Mesh alignments (bilateral alignments) for very dynamic and heterogeneous (domain) semantics, or low number of peers
+    * Good: quickly established bilateral sIOP; granularity-on-demand, viz. intricate where necessary, coarse-grained where possible
+    * Bad: complicated semantic governance
+i. Mix-n-Match (coarse-grained star-alignment with specialised bilateral alignments) for the 70% bulk
+    * Good: controllable semantic governance; after central alignment, quickly established bilateral sIOP
+    * Bad: slightly more complicated mediation due to double alignment support
+
+
+
+
+
 # ISO42010 viewpoint on sIOP  #
 \begin{synopsis}Consolidate the ideas on the bridgehead, spanning, roadway and principles into an additional ISO42010 Architectural Viewpoint (sIOP) that summarises all previous Sections as concerns on semantics and sIOP. ***Preferrably written by Eric.***
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.15.0" Device="PC-17875" Modified="2019-11-11 18:43:53 +0100" ModID="C43BABDC-0A0B-4C52-AD28-9098F6870DE2">
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.16.0" Device="PC-17875" Modified="2019-11-18 18:06:55 +0100" ModID="EBC0A84F-43DF-458F-8CB7-78A6D265D092">
     <Binder>
         <BinderItem ID="5" UUID="B892768D-F62D-4A48-8846-84245826AF35" Created="2017-04-10 13:05:49 +0100" Modified="2017-04-10 13:05:49 +0100" Type="Text">
             <Title>MMD cheat sheet</Title>
@@ -181,7 +181,7 @@
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
             <Children>
-                <BinderItem ID="19" UUID="FDE3A400-F9AC-4C43-9E25-1275886F76DE" Created="2016-12-28 12:11:59 +0100" Modified="2019-10-16 13:26:33 +0100" Type="Text">
+                <BinderItem ID="19" UUID="FDE3A400-F9AC-4C43-9E25-1275886F76DE" Created="2016-12-28 12:11:59 +0100" Modified="2019-11-18 12:58:43 +0100" Type="Text">
                     <Title>meta-data</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -189,7 +189,7 @@
                         <IconFileName>Information.tiff</IconFileName>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>699,0</TextSelection>
+                        <TextSelection>4262,0</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
@@ -204,25 +204,25 @@
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="21" UUID="D1B1F11F-646F-4B47-9C11-9FEFCBFD8870" Created="2016-12-28 12:23:05 +0100" Modified="2019-11-06 16:01:49 +0100" Type="Text">
+                <BinderItem ID="21" UUID="D1B1F11F-646F-4B47-9C11-9FEFCBFD8870" Created="2016-12-28 12:23:05 +0100" Modified="2019-11-18 17:48:45 +0100" Type="Text">
                     <Title>Introduction</Title>
                     <MetaData>
                         <LabelID>6</LabelID>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>9077,0</TextSelection>
+                        <TextSelection>8659,0</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="25" UUID="72A16B35-CC3A-4148-B226-4BDD855A4808" Created="2018-05-25 15:59:48 +0100" Modified="2019-11-06 18:21:29 +0100" Type="Text">
+                <BinderItem ID="25" UUID="72A16B35-CC3A-4148-B226-4BDD855A4808" Created="2018-05-25 15:59:48 +0100" Modified="2019-11-18 12:32:59 +0100" Type="Text">
                     <Title>Bridgehead: Semantics</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                         <FileExtension>rtf</FileExtension>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>7069,0</TextSelection>
+                        <TextSelection>8742,0</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
@@ -236,7 +236,7 @@
                         <Target Type="Words">0</Target>
                     </TextSettings>
                     <Children>
-                        <BinderItem ID="29" UUID="A0A0F74F-2F3E-43C5-B39C-096154C952F8" Created="2018-07-04 21:40:57 +0100" Modified="2019-11-11 18:42:55 +0100" Type="Text">
+                        <BinderItem ID="29" UUID="A0A0F74F-2F3E-43C5-B39C-096154C952F8" Created="2018-07-04 21:40:57 +0100" Modified="2019-11-18 18:05:47 +0100" Type="Text">
                             <Title>Objectives of semantic interoperability</Title>
                             <MetaData>
                                 <LabelID>4</LabelID>
@@ -244,54 +244,94 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>5033,0</TextSelection>
+                                <TextSelection>5334,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="30" UUID="3C639D7D-01EF-46D3-8B14-B6228F49EED8" Created="2018-08-28 11:29:09 +0100" Modified="2019-11-11 18:43:16 +0100" Type="Text">
+                        <BinderItem ID="30" UUID="3C639D7D-01EF-46D3-8B14-B6228F49EED8" Created="2018-08-28 11:29:09 +0100" Modified="2019-11-18 16:53:18 +0100" Type="Text">
                             <Title>Explicit sIOP by alignment</Title>
                             <MetaData>
                                 <LabelID>4</LabelID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>10071,0</TextSelection>
+                                <TextSelection Caret="1992">1985,7</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
                     </Children>
                 </BinderItem>
-                <BinderItem ID="31" UUID="08414A79-F463-4C0D-875A-EE278CF6555A" Created="2018-05-25 16:04:50 +0100" Modified="2019-11-11 18:43:37 +0100" Type="Text">
+                <BinderItem ID="31" UUID="08414A79-F463-4C0D-875A-EE278CF6555A" Created="2018-05-25 16:04:50 +0100" Modified="2019-11-18 17:47:25 +0100" Type="Text">
                     <Title>Roadway: Mediation</Title>
                     <MetaData>
                         <LabelID>4</LabelID>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>4356,0</TextSelection>
+                        <TextSelection>5808,0</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="32" UUID="201AFA4C-53AE-47AB-B517-A9B5DC091947" Created="2018-05-25 15:22:13 +0100" Modified="2019-09-30 13:21:12 +0100" Type="Text">
-                    <Title>sIOP Principles</Title>
+                <BinderItem ID="32" UUID="201AFA4C-53AE-47AB-B517-A9B5DC091947" Created="2018-05-25 15:22:13 +0100" Modified="2019-11-18 17:58:25 +0100" Type="Text">
+                    <Title>Principle evaluation</Title>
                     <MetaData>
                         <LabelID>4</LabelID>
                         <IncludeInCompile>Yes</IncludeInCompile>
                         <FileExtension>rtf</FileExtension>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>2056,0</TextSelection>
+                        <TextSelection>537,0</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
-                </BinderItem>
-                <BinderItem ID="78" UUID="50CF2C29-3765-4192-B2C9-101DBF7353D4" Created="2019-10-10 09:04:56 +0100" Modified="2019-10-10 18:53:51 +0100" Type="Text">
-                    <Title>Scalability</Title>
-                    <MetaData>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                    </MetaData>
-                    <TextSettings>
-                        <Target Type="Words">0</Target>
-                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="79" UUID="6B63CC51-673A-4758-B997-CDC815A1364E" Created="2019-11-18 17:49:12 +0100" Modified="2019-11-18 18:06:53 +0100" Type="Text">
+                            <Title>Loosely coupled semantics</Title>
+                            <MetaData>
+                                <LabelID>4</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>3818,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="80" UUID="4A264261-C0FF-472B-BA2D-DCC08A88F4CD" Created="2019-11-18 17:50:37 +0100" Modified="2019-11-18 17:53:33 +0100" Type="Text">
+                            <Title>Semantic heterogeneity</Title>
+                            <MetaData>
+                                <LabelID>4</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>684,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="81" UUID="F2C7BF8E-1AAF-417A-9BF1-418C756993EA" Created="2019-11-18 17:53:33 +0100" Modified="2019-11-18 17:55:23 +0100" Type="Text">
+                            <Title>Semantic evolution</Title>
+                            <MetaData>
+                                <LabelID>4</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>790,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="82" UUID="B10AA845-E61D-4069-A0D5-776ADF4CE68B" Created="2019-11-18 17:55:23 +0100" Modified="2019-11-18 17:55:41 +0100" Type="Text">
+                            <Title>Scalable sIOP</Title>
+                            <MetaData>
+                                <LabelID>4</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
                 </BinderItem>
                 <BinderItem ID="33" UUID="FBDCE642-2BBA-4C2D-91BB-8133BEAE49CD" Created="2018-07-20 16:43:03 +0100" Modified="2019-10-16 13:18:41 +0100" Type="Text">
                     <Title>ISO42010 viewpoint on sIOP </Title>
@@ -685,6 +725,15 @@
                         </BinderItem>
                     </Children>
                 </BinderItem>
+                <BinderItem ID="78" UUID="50CF2C29-3765-4192-B2C9-101DBF7353D4" Created="2019-10-10 09:04:56 +0100" Modified="2019-11-18 17:55:34 +0100" Type="Text">
+                    <Title>Scalability</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
             </Children>
         </BinderItem>
     </Binder>
@@ -711,7 +760,7 @@
     <ProjectTargets>
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-04-24 00:00:00 +0000" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="No" WritingDays="">0</SessionTarget>
-        <PreviousSession Words="1431" Characters="9935" Date="2019-11-08 12:02:14 +0100"/>
+        <PreviousSession Words="1187" Characters="8767" Date="2019-11-18 11:14:56 +0100"/>
     </ProjectTargets>
     <Collections>
         <Collection Type="Binder" ID="CAFEBABE-0000-0000-0000-000000000000" Color="0.901961 0.917647 0.933333">
@@ -719,7 +768,7 @@
         </Collection>
         <Collection Type="RecentSearch" ID="DEADBEEF-0000-0000-0000-000000000000" Color="0.901961 0.901961 0.980392">
             <Title>Search Results</Title>
-            <SearchSettings Operator="Exact" Type="All" Scope="All" CompileSetting="All" CaseSensitive="No">space</SearchSettings>
+            <SearchSettings Operator="Exact" Type="All" Scope="All" CompileSetting="All" CaseSensitive="No">dp:alignment</SearchSettings>
         </Collection>
         <Collection Type="Arbitrary" ID="18AB1D71-1C6E-4B63-93E1-6A8BEF516D46" Color="0.992157 0.972549 0.819608">
             <Title>Updated Documents</Title>
