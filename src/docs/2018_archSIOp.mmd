@@ -57,14 +57,15 @@ In comparison, scalability was a big architectural concern in the past, requirin
 (semantic reconciliation) and roadway (semantic mediation), (a), and a legend explaining the used constructs (b).}
   \label{fig:semantic-concerns}
 \end{figure}
-Our contributions to consolidating semantic interoperability in software architectures are fourfold, and represented as architectural principles and concerns, as follows:
+Our contributions to consolidating semantic interoperability in software architectures are fivefold, and represented as architectural principles and concerns, as follows:
 
 * *Semantic concerns (bridgehead)*: Abstracting semantics from a tacit software implication into a tangible, computational and distinct artifact provides us with the potential to connect to it and to make comparisons with the semantic artifact of the peer software agent. Based on the disciplines of semiotics, philosophy, modelling and mathematics we elaborate in [@Brandt2018a] how to achieve a semantic bridgehead. We formulate the principle of assuming responsibility on the semantics on data, and conclude what preparations about semantics are required for an agent before being able to engage in semantic interoperability (\cref{bridgehead-semantics});
 * *sIOP concerns (spanning)*: Since computers remain incapable of true understanding, sIOP remains in demand of human intervention in order to reconcile the semantic differences between collaborating software agents. However, human intervention is time consuming. We reduce the necessary human intervention to complement formal semantics to a task that suffices to achieve sIOP, viz. authoring semantic alignments only (\cref{spanning-semantic-interoperability});
 * *Mediation concerns (roadway)*: We determine the demands for a generic component that allows for communication with the peer agent in one’s native vocabulary only, by considering both ontological models and the alignment. Such approach applies the principle *connectivity without dependency* at the semantic level. This consolidates the agent’s potential to collaborate to any unforeseen applications without the need to adopt external semantic definitions, and remain scalable in the process (\cref{roadway-mediation});
+* *Evaluation of semantic principles*: In order to consistently address the above concerns, their founding architectural principles have been derived. It is a matter of architectural hygiene to evaluate how these principles .... (\cref{siop-principles});
 * *ISO42010 Architecture Viewpoint*: We verify the applicability of the above concerns and principles by formulating their architectural consequences as a specific ISO42010 sIOP Viewpoint, and we show their proper position in the total architecture as corresponding sIOP view. As ISO42010 is considered a set of best practises for architecture description, and therefore is used with architecture frameworks such as MoDAF, TOGAF, DoDAF, RM-ODP and so on, we conclude that our sIOP Viewpoint and View can be considered to consolidate sIOP for contemporary architectural paradigms (\cref{iso42010-viewpoint-on-siop}).
 
-Based on these contributions we defend that access-and-play sIOP can be embedded and hidden in infrastructural services when considering semiotic fundamentals and adding loosely coupled formal semantics to contemporary architectural paradigms. To that end, we first describe some background on the semantic foundations in the following section.
+Based on these contributions we conclude that there is a lot to gain towards access-and-play sIOP, despite the fundamental impediments in ICT to create an automated genuine understanding. By separating syntactical from semantic concerns and turning semiotic fundamentals into architectural principles, loosely coupled formal semantics emerges and can be consolidated in contemporary architectural paradigms. From that position it is only a small step towards embedding standard semantic services into the communication infrastructure. We first describe some background on the semantic foundations in the following section.
 
 
 # Bridgehead: Semantics #
@@ -95,7 +96,7 @@ Despite the precise meaning of the term ‘semantics’ in semantic interoperabi
 
 This leads to the definition of a design principle to its effect, applying the normative notation from [@Greefhorst2011]:
 
-\begin{mmdp}[The responsibility for the semantic meaning of data lays with the source]\label{dp:responsibility-for-meaning}
+\begin{mmdp}[The responsibility for the semantic meaning of data lays with the source]\label{dp:rfsm}
 
 When it is reasonable to expect that the software agent will be engaged in collaboration or otherwise will interoperate with (an)other software agent(s), it is the responsibility of the software architect to serve the quantity, relation and manner of the potential interoperability by specifying the semantics of the data in advance. 
 
@@ -127,7 +128,7 @@ Regarding the quality of the data and code models we reasoned that the data mode
 
 Moreover, we showed (ibid.) that the predominant purpose of a model is to describe reality by distinguishing the entities of interest. These distinctions can be modelled, but the (modelling) language itself is also used to convey distinctions. The distinctions that are already articulated by the elementary language constructs define the expressiveness of that language; the more distinctions the language elements can convey, the more differences can be represented by that language. The (fundamental) categories that the language elements can discern apply during modelling as a *commitment*, e.g., the language commits to the intuitive difference between the cup and the coffee that it holds. When the modelling language does not commit to such distinctions, the user of the language is forced to specify these distinctions in the model itself. This so-called *ontological commitment* of the language [@Bricker2016; @Guarino1994,Guarino:1998wq] lays the foundations for the model and its data and, consequently, for the code to process the data. Interoperating peer agents that apply different ontological commitments will therefore show major differences in the construction and internals of their respective ASM’s. This observation leads to the following design principle:
 
-\begin{mmdp}[Maintain an explicit ontological commitment]\label{dp:responsibility-for-meaning}
+\begin{mmdp}[Maintain an explicit ontological commitment]\label{dp:meoc}
 
 The language constructs that are used to formulate a model always represent an ontological commitment, explicitly or implicitly.
 
@@ -323,20 +324,19 @@ When software agents engage in interoperation, encapsulate how the representatio
 \textbf{Quality attributes:} semantic interoperability   \\
 \textbf{Rationale:}
 \begin{enumerate}
-  \item The semantic meaning can only be codified in (onto)logical representations;
+  \item The semantic meaning is codified in (onto)logical representations;
   \item Keeping agents from referring to each others representation therefore requires transcription between representations;
-  \item A solution where each agent needs to implement one transcription component between its own representation and each of its interoperating peer, increases unnecessary complications;
-  \item An intermediary that maintains a separation between representations creates representational transparency between communicating agents;
+  \item A solution where each agent needs to implement one transcription component between its own representation and each of its interoperating peer, increases complexity;
+  \item Encapsulating the transcription into an alignment-based intermediary component results in less communication complexity and relieves the agents from development and maintenance of local wrappers;
 \end{enumerate}
 \textbf{Implications:}
 \begin{enumerate}
-  \item A mediator keeps agents from using each others representations during interaction;
+  \item A mediator creates representational transparency between communicating agents, keeping agents from using each others representations;
   \item This enables independent development of the individual agent’s semantic meaning;
   \item The need to enforce a canonical semantic representation, viz. semantic homogeneity, expires, allowing semantic heterogeneity to become the norm;
   \item Each agent can reuse its semantic bridgehead in any other interoperation;
-  \item The agents do not need to implement semantic wrappers or similar data transcription logic since this becomes a generic service from the communication infrastructure;
-  \item Each agent can communicate with any other agent in its own native semantic representation;
-  \item Loose coupling at the semantic level emerges.
+  \item Data transcription logic can become a generic service provided by the communication infrastructure;
+  \item Each agent can communicate with any other agent in its own native semantic representation.
 \end{enumerate}  
 \end{mmdp}
 
@@ -344,13 +344,13 @@ In this reading a mediator encapsulates how a pair of agents represent their sem
 
 ![Semantic mediation encapsulates how agents exchange semantic meaning. It implements a generic transcription service between the particular representations of data between both agents. It depends only on the representations of the semantic meaning from both agents (ontologies) and the alignment that holds between them.][def:RTMediation]
 
-We have seen in the previous sections that a correspondence assures the semantic validity between the different semantic meanings of both agents. It can do so by token of the broad correspondence relations that can be specified, both for the conceptual and the value differences that may exist between them. Unfortunately, this is in shear contrast with the fact that a transcription can only replace one term for another, which basically implies that an equivalence relation holds between both terms. As can be seen from the correspondence relation, this is not necessarily true. In [@Brandt2018b], we make a distinction between a naive transcription, which ignores this inconsistency, and a semantic valid transcription that can establish under what conditions this inconsistency does not produce invalid semantics. We show that these conditions rely on logical constructs only and, consequently, are independent on the actual ontologies that apply. We have formulated these logical constructs as rules that generically apply for any transcription. Unfortunately, a set of conditions remain for which a semantic valid transcription cannot be guaranteed, either due to an incomplete alignment or to (onto)logical incorrect correspondences. It follows that a semantic mediation service must provide for options about the resolution for these remaining issues. We suggest at least the following options: Firstly, as run-time options we consider (i) a fall-back to the application of naive transcriptions, or (ii) to raise a Transcription Error and refrain from data exchange; both represent necessary service implementations that might satisfy scenarios that have either less or more stringent semantic demands. Secondly, as design-time option, it serves as a necessary tool to generate an exhaustive list of shortcomings of the transcription that will emerge with the current ontologies and alignment. Such list will provide the semantics engineer with sufficient information to adapt the alignment, or introduce modifications to one or both of the semantic bridgeheads in order to remove transcription issues that are considered vital to the business. Finally, the third option is to try to resolve the transcription issue by starting a dialogue-based semantic reconciliation process in run-time with the aim to improve upon the shortcomings of the current alignment. Despite our insistence on the need for a human to author the genuine understanding, it might still be worthwhile to have the system meticulously, consistently and methodologically negotiate logical and ontological constructs in order to find additional correspondences [@Diggelen:2007vd].
+We have seen in the previous sections that a correspondence assures the semantic validity between the different semantic meanings of both agents. It can do so by token of the broad correspondence relations that can be specified, both for the conceptual and the value differences that may exist between them. Unfortunately, this is in shear contrast with the fact that a transcription can only replace one term for another, which basically implies that an equivalence relation holds between both terms. As can be seen from the correspondence relation, this is not necessarily true. In [@Brandt2018b], we make a distinction between a naive transcription, which ignores this inconsistency, and a semantic valid transcription that can establish under what conditions this inconsistency does not produce invalid semantics. We show that these conditions rely on logical constructs only and, consequently, are independent on the actual ontologies that apply. We have formulated these logical constructs as rules that generically apply for any transcription. Unfortunately, a set of conditions remain for which a semantic valid transcription cannot be guaranteed, either due to an incomplete alignment or to (onto)logical incorrect correspondences. It follows that a semantic mediation service must provide for options about the resolution for these remaining issues. We suggest at least the following options: Firstly, as run-time options we consider (i) a means to fall-back to the application of naive transcriptions and continue the data exchange, or (ii) to raise a Transcription Error and refrain from data exchange. Both represent necessary service implementations that might satisfy scenarios that have either less or more stringent semantic demands. Secondly, as design-time option, it serves as a necessary tool to generate an exhaustive list of shortcomings of the transcription as a result of the current ontologies and alignment. Such list will provide the semantics engineer with sufficient information to adapt the alignment, or introduce modifications to one or both of the semantic bridgeheads in order to remove transcription issues that are considered vital to the business. Finally, the third option is to try to resolve the transcription issue by starting a dialogue-based semantic reconciliation process in run-time with the aim to improve upon the shortcomings of the current alignment. Despite our insistence on the need for a human to author the genuine understanding, it might still be worthwhile to have the system meticulously, consistently and methodologically negotiate logical and ontological constructs in order to find additional correspondences [@Diggelen:2007vd].
 
 
 <!-- page additions -->
 [def:RTMediation]: src\images\RunTimeMediation.png {#fig:rt-mediation width=75%} 
 
-# Principle evaluation #
+# Evaluation of sIOP principles #
 \begin{synopsis}Purpose of this section: 
 \begin{itemize}
 \item Show the semantic architecture as an additional layer that is orthogonal to current layers, expressing a separation of concerns between syntax and semantics (see [@Brandt:2013jh])
@@ -362,56 +362,25 @@ We have seen in the previous sections that a correspondence assures the semantic
 
 The main (business) requirement is to achieve sIOP as quickly as possible, with as minimal effort as possible, for collaborations that had not been foreseen and consequently could not be anticipated for during design time of the (two or more) software agents. We have introduced some new principles to its support in the previous sections, and now evaluate their consequences on objectives two (loose coupling at semantic level), three (allow for semantic heterogeneity), five (support to semantic evolution) and six (scalable semantics).
 ## Loosely coupled semantics ##
-Consolidating sIOP demands the emergence of *loosely coupled semantics*: Loose coupling in the classical sense is realised through the principles of separation of concerns, and transparency. In its original reading this implies separating, without duplication, *what* functionality the components are capable of, while leaving *how* such capability is realised completely transparent. Contrarily, semantic separation of concerns is not about maintaining complementary semantics; in fact, the agents are required to have an overlap in the domain of interest, since interoperation would be completely useless otherwise. Instead, separation of concerns refer to enforce an explicit separation between syntax and semantics. Additionally, it refers to keeping each other’s representations of the semantic meaning strictly separated. Semantic transparency, then, refers to remaining transparent about how the semantic meaning is represented. As analogy, consider a vehicle (the representation of semantics) with its cargo (the semantic meaning that it bears). Logistics rely on an external transfer service that can change the vehicle from a truck into a ship or aircraft, without ruining the cargo. Similarly, software agents should rely on an infrastructural mediation service that can transcribe the semantic representation from its native form into a foreign form without introducing invalid semantics. Then, agents can communicate in their own native representations without the need to learn or integrate foreign representations.
+Consolidating sIOP demands the emergence of *loosely coupled semantics*. As analogy, consider a vehicle with its cargo. Logistics rely on external transfer services that allow the cargo to be transported over different vehicles, from a truck into an aircraft into ship into a truck again, without ruining the cargo. This requires the cargo to be firmly connected to the vehicle, but at the same time to be completely independent from any particular vehicle in order to complete the transport. “Connected but as independent as possible”, also known as loosely coupled, is a need for sIOP as well. When software agents interact they exchange meaning. Loosely coupled semantics implies that the semantic meaning (the cargo) remains as independent from the representation of semantics (the vehicle) as possible. Similarly to logistics, sIOP should rely on infrastructural services that can transcribe the semantic representation from its native form into a foreign form without invalidating the semantics that it bears. Loose coupling is known as a strong characteristic which brings many advantages. This applies to its semantic variety as well: agents can now communicate in their own native representations without the need to learn or integrate foreign representations; define semantics once and achieve sIOP many times with many different peers; development of the agents’ semantic representations can be locally isolated to fit their particular domain and application; and it enables local re-use which on its turn increases its quality.
 
-----
-Below sections are under construction.
+Loose coupling in the classical sense is realised through the principles of separation of concerns and transparency. In its original reading separation of concerns turns complex functionalities into simple, atomic and complementary functional capabilities. In a semantic reading separation of concerns is not about maintaining complementary semantics; in fact, the domain of interest of the agents are required to overlap, since interoperation would be completely useless otherwise. Instead, semantic separation of concerns refer to enforce an explicit division between syntax and semantics, as discussed in \cref{explicit-siop-by-alignment}. Additionally, it refers to keeping each other’s representations of the semantic meaning strictly separated. We described how this can be achieved in \cref{roadway-mediation}. The classical results of applying the principle is the emergence of unique functions that are implemented only once and used many times. In its semantic application this results in every software agent to maintain its own semantics. Collectively, all agents make that semantics become distributed all over the place which seems counterintuitive or even plain wrong. We come back to that intuition when we talk about scalability, \cref{scalable-siop}, but we can already see that this is an indirect consequence of the demand to enable sIOP with agents that were not anticipated for during software design; this, on its turn, requires that independent development of semantics shall be possible without disabling sIOP.
 
+The classical reading on transparency separates access to the unique functions from the particular design and implementation of the functions. Remaining agnostic to *how* its function are achieved makes it possible to communicate with minimal mutual dependency. Semantic transparency remains agnostic to how semantics are *represented*, which makes it possible to communicate with minimal syntactic dependency and without prior mutual agreements on semantic representation. In its classical reading, transparency requires the introduction of standards in the components’ API. Semantic transparency, contradictory, requires the total absence of any standard on representation. In stead, semantic transparency, too, requires to separate semantics from syntax. Furthermore, a need emerges for a semantic oracle that knows how to align distinct representations and to translate between them subsequently. The latter has already been discussed in \cref{roadway-mediation} while the former is directly related to the human-in-the-loop as authoring authority as discussed in \cref{spanning-semantic-interoperability}.
 
-Consequently, the software agents have been developed totally and completely independent from each other. This raises the following semantic concerns:
+From the above discussion we draw the conclusion that all demands necessary to allow for semantic separation of concerns and semantic transparency are met by the sIOP principles \cref{dp:ssoc;dp:alignment;dp:mediation}. Therefore, loosely coupled semantics should emerge between agents that comply to these principles. 
 
-1. Loosely coupled semantics:
-    i. Define semantics once during software design phase, and achieve sIOP many times with many different peers
-    i. EW Dijkstra: Connected but as independent as possible. In its original reading this implies only defining the *what* but leaving the *how* transparent. For semantics the implication is a more abstract one: the semantics of what is being communicated shall remain transparent to *how* it is represented. More specifically, agents shall rely on an external oracle that can change the semantic vehicle from its original source native representation to the destined target representation, without changing the semantic cargo. Agents, then, can communicate in their own native representations without the need to learn or integrate their peers’ representations.
-1. Scalable sIOP:
-    i. Variable in number of peers
-    i. Variable in level of semantic heterogeneity
-
-
-*Ad. Dijkstra’s “Connected but as independent as possible”*. Complement weak AI with human brain:
-
- * use AI where possible (computational semantics for software agent; supporting semantic reconciliation)
- * use human brain where necessary (but not more): ontology engineering @ design time; alignment authoring @ pre-runtime
-
-     
-***Achieve loosely coupled semantics***
-  
-Loose coupling is founded on principles about (i) separation of concerns, and (ii) transparency:
-   
-* Principle *Separation of concerns*:
-    * Classical: 
-        i. Decompose system in parts
-        i. with minimal functional overlap
-    * Semantical:
-        i. Separate your own semantics (i.e., conceptualisations, viz. let each software agent manage its own abstraction from reality)
-        i. from establishing sIOP 
-* Principle *Transparency*
-    * Classical: 
-        i. Agnostic to *how* its functions are being achieved
-        1. Communicate with minimal mutual dependency
-    * Semantical:
-        i. Agnostic to *how* semantics are being achieved
-        i. Communicate with minimal syntactic dependency, i.e., without agreements on semantic representation  
-
-
-Formulate the principles in the format according to [@Greefhorst2011]
-
-*Ad. semantic separation of concern*. Where in its classical application the result of applying the principle is that atomic functions are defined, designed and implemented only once and remain unique, in its semantic application the result of applying this principle is that every software agent maintains its own semantics. Semantics are, therefore, distributed all over the place. This seems counterintuitive or even plain wrong, however, it is necessary for complying with the concern about semantic scalability (in support of heterogeneous semantics). Besides that, it is a direct consequence of the demand to allow for independent software development.
 
 ## Semantic heterogeneity ##
-We have already determined that the principle to align semantics as opposed to data schemata breaks the conflation of semantics and syntax, enabling to consider semantics on its own terms^[Pun not intended]. Abstaining from a canonical model by introducing a semantic alignment between pairs of semantic meanings (ontologies) introduces the capability for each agent to develop its semantic representation in a way that fits its local perspective optimally. By also encapsulating the particular means to provide valid semantic transcriptions only and refrain from naive transcriptions between communicating agents, the necessary elements to support semantic heterogeneity are present;
+We have already determined that the principle to align semantics as opposed to data schemata, \cref{dp:ssoc}, breaks the conflation of semantics and syntax, enabling to consider semantics on its own terms^[Pun not intended]. Abstaining from a canonical model by introducing a semantic alignment between pairs of semantic meanings, \cref{dp:alignment} introduces the capability for each agent to develop its semantic representation in a way that fits its local perspective optimally. By also encapsulating the particular means to provide valid semantic transcriptions only and refrain from naive transcriptions between communicating agents, \cref{dp:mediation}, the necessary elements to support semantic heterogeneity are present.
+
+
 ## Semantic evolution ##
 Consider an agent who’s local semantics are in demand for a change. Assume that the agent has modified its internal pragmatic meaning to accommodate the evolved semantics. This implies a change in what we called the semantic bridgehead, which acts as semantic interface to any sIOP concerns. The semantic change can be considered an altered or additional difference with the semantic bridgehead from interoperating peer agents. In order to not destroy the sIOP that had been established before, it is necessary to reflect the new difference as modifications to the alignments that apply. By having performed the necessary modifications, and by relying on the semantic validity of the own ontology, the mediator is now capable of transcribing the data in accordance to the evolved semantics.
+
+The consequence of allowing semantic heterogeneity is therefore a sufficient condition to also enable local semantic evolution and remaining semantic interoperable with existing counterparts in the process.
+
+
 ## Scalable sIOP ##
 \begin{synopsis}Purpose of this section: 
 
@@ -422,23 +391,27 @@ scalability by topology
 \end{itemize}
 \end{synopsis}
 
-Scalable sIOP
+Many definitions exist to constrain the semantics of *scalability*, academic [e.g., @Neuman1994] and popular^[http://www.linfo.org/scalable.html, accessed Nov. 2019]^[https://en.wikipedia.org/wiki/Scalability, accessed Nov. 2019] alike. Our summary refers to increasing the demand that is placed on a system, and/or adding resources to a system, without experiencing loss of performance or increase in management to an extent that defeats its primary objective. We consider scalable sIOP as the capability to allow for increase in number of communicating agents as well as in the level of semantic heterogeneity without degrading the agent’s communication performance or its ability to manage and control the semantic differences with its interoperating peers. 
 
-Ensure that different semantic topologies remain possible:
+If we consider the agent’s communicating performance degradation, we argue that since complexity of the connections have been traded with the complexity in the mediator (\cref{roadway-mediation}), the agent will only experience communication degradation when the mediator experiences transcription latencies that exceed communication parameters. In other words, the performance bottleneck is with the mediator, not with the agent. Transcription latency will result from complexity in the transcription algorithm, or from the number of transcription request that exceeds the capacity of a single mediator. In case of the latter, no particular mechanism in a mediator impedes horizontal scaling to increase the collective processing capacity to match the transcription demands. In case of the former ...\todo{ brandtp, 20-11-2019 Address the computational demands for a single transcription. Or address it in [@Brandt2018b]refer to it here.} . 
+
+Regarding the ability to manage and control the semantic differences with all interoperating peers, the root cause for potential scalability issues are laid in the need to establish an alignment with each peer agent an agent engages in semantic interoperation with. This might become impractical due to our insistence on the need for a human-in-the-loop to author the alignment. We discern different solutions for different semantic topologies: 
  
-i. Star alignments (central domain ontology, aligned to local ontologies) for relative stable and homogeneous domain semantics
-    * Good: easy semantic governance
-    * Bad: very big semantic monolith, hence, low agility in dynamic environments
+i. Star alignments (core domain ontology, aligned to local ontologies) for relative stable and homogeneous domain semantics
+    * Good: semantic governance remains controllable independent from the number of actors;
+    * Bad: very big semantic monolith, hence, low agility in dynamic environments. Moreover, the more actors involved, the higher the need for semantic compromises, and the lower the overall semantic accuracy. 
 i. Mesh alignments (bilateral alignments) for very dynamic and heterogeneous (domain) semantics, or low number of peers
-    * Good: quickly established bilateral sIOP; granularity-on-demand, viz. intricate where necessary, coarse-grained where possible
-    * Bad: complicated semantic governance
-i. Mix-n-Match (coarse-grained star-alignment with specialised bilateral alignments) for the 70% bulk
-    * Good: controllable semantic governance; after central alignment, quickly established bilateral sIOP
-    * Bad: slightly more complicated mediation due to double alignment support
+    * Good: quickly established bilateral sIOP; granularity-on-demand, viz. intricate where necessary, coarse-grained where possible;
+    * Bad: semantic governance may become an issue to the level where it becomes impractical.
+i. Mix-n-Match (coarse-grained star-alignment with intricate bilateral alignments as specialisations to the core domain ontology) for the 70% bulk
+    * Good: controllable semantic governance; after central alignment, quickly established bilateral sIOP;
+    * Bad: slightly more complicated mediation due to double alignment support.
+i. Daisy-chained alignments (when A is aligned to B, and B is aligned to C, A and C are indirectly aligned as well)
+    * Good: self-organised alignments emerge, and an instantaneous access-and-play becomes possible;
+    * Bad: No guarantees can be given on the completeness of the indirect alignment. Furthermore, more intermediate alignments will increase the chance of impossible end-to-end transcriptions that would not occur with a direct alignment.
 
-
-
-
+In conclusion, scalable sIOP can be guaranteed when considering the communication performance. With respect to the ability of a single agent to manage and control the number of alignments with increasing number of interoperating agents, several options exist to support scalable sIOP although no guarantees can be given. 
+ 
 
 # ISO42010 viewpoint on sIOP  #
 \begin{synopsis}Consolidate the ideas on the bridgehead, spanning, roadway and principles into an additional ISO42010 Architectural Viewpoint (sIOP) that summarises all previous Sections as concerns on semantics and sIOP. ***Preferrably written by Eric.***
@@ -473,6 +446,12 @@ Discuss the following papers:
 Conclude that by identifying a specific 42010 viewpoint on sIOP, a necessary condition towards the preparation of a sIOP capability in a software agent has been identified which can be applied to all MDE and view-based software architectures.
 
 \end{synopsis}
+
+Complement weak AI with human brain:
+
+ * use AI where possible (computational semantics for software agent; supporting semantic reconciliation)
+ * use human brain where necessary (but not more): ontology engineering @ design time; alignment authoring @ pre-runtime
+
 # References {-} 
 \setlength{\parindent}{-0.2in}  
 
