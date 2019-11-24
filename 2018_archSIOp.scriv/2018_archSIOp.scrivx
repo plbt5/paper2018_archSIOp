@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.16.0" Device="PC-17875" Modified="2019-11-24 18:01:41 +0100" ModID="1F2690D3-7BBC-499D-83C7-C7799F24E930">
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.16.0" Device="PC-17875" Modified="2019-11-24 18:41:04 +0100" ModID="5FFC0DB8-59F0-4340-A152-853CC2B12D93">
     <Binder>
         <BinderItem ID="5" UUID="B892768D-F62D-4A48-8846-84245826AF35" Created="2017-04-10 13:05:49 +0100" Modified="2017-04-10 13:05:49 +0100" Type="Text">
             <Title>MMD cheat sheet</Title>
@@ -328,7 +328,7 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>2417,0</TextSelection>
+                                <TextSelection>1151,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
@@ -352,7 +352,7 @@
                         <FileExtension>rtf</FileExtension>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>3503,0</TextSelection>
+                        <TextSelection>1902,0</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
@@ -457,6 +457,7 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
+                                <TextSelection>967,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
@@ -493,7 +494,7 @@
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="96" UUID="3B6D31C4-4772-474B-826B-18F4C39D3BA1" Created="2019-11-24 16:47:37 +0100" Modified="2019-11-24 16:49:43 +0100" Type="Text">
+                        <BinderItem ID="96" UUID="3B6D31C4-4772-474B-826B-18F4C39D3BA1" Created="2019-11-24 16:47:37 +0100" Modified="2019-11-24 18:41:02 +0100" Type="Text">
                             <Title>Ariane 501 disaster {-}</Title>
                             <MetaData>
                                 <LabelID>0</LabelID>
@@ -600,7 +601,7 @@
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="115" UUID="91CE0BF6-4126-4B51-9E45-DB02BD8FDB0A" Created="2019-11-24 16:48:22 +0100" Modified="2019-11-24 16:49:44 +0100" Type="Text">
+                        <BinderItem ID="115" UUID="91CE0BF6-4126-4B51-9E45-DB02BD8FDB0A" Created="2019-11-24 16:48:22 +0100" Modified="2019-11-24 18:28:55 +0100" Type="Text">
                             <Title>Distinct semantic grounding {-}</Title>
                             <MetaData>
                                 <LabelID>0</LabelID>
@@ -608,6 +609,7 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
+                                <TextSelection>1191,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
@@ -1015,7 +1017,7 @@
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>1354,0</TextSelection>
+                                <TextSelection>0,4</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
@@ -1109,7 +1111,7 @@
                                         <IncludeInCompile>Yes</IncludeInCompile>
                                     </MetaData>
                                     <TextSettings>
-                                        <TextSelection>356,0</TextSelection>
+                                        <TextSelection>4157,0</TextSelection>
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                 </BinderItem>
@@ -1224,7 +1226,7 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>2996,0</TextSelection>
+                                <TextSelection>1653,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
@@ -1537,7 +1539,7 @@
     <ProjectTargets>
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-04-24 00:00:00 +0000" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="No" WritingDays="">0</SessionTarget>
-        <PreviousSession Words="5612" Characters="38597" Date="2019-11-20 12:00:38 +0100"/>
+        <PreviousSession Words="5619" Characters="38654" Date="2019-11-20 12:00:38 +0100"/>
     </ProjectTargets>
     <Collections>
         <Collection Type="Binder" ID="CAFEBABE-0000-0000-0000-000000000000" Color="0.901961 0.917647 0.933333">
@@ -1545,7 +1547,7 @@
         </Collection>
         <Collection Type="RecentSearch" ID="DEADBEEF-0000-0000-0000-000000000000" Color="0.901961 0.901961 0.980392">
             <Title>Search Results</Title>
-            <SearchSettings Operator="Exact" Type="All" Scope="All" CompileSetting="All" CaseSensitive="No">dp:alignment</SearchSettings>
+            <SearchSettings Operator="Exact" Type="All" Scope="All" CompileSetting="All" CaseSensitive="No">lio</SearchSettings>
         </Collection>
         <Collection Type="Arbitrary" ID="18AB1D71-1C6E-4B63-93E1-6A8BEF516D46" Color="0.992157 0.972549 0.819608">
             <Title>Updated Documents</Title>
