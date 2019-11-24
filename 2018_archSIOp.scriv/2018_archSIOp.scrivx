@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.16.0" Device="PC-17875" Modified="2019-11-24 18:41:04 +0100" ModID="5FFC0DB8-59F0-4340-A152-853CC2B12D93">
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.16.0" Device="PC-17875" Modified="2019-11-24 21:00:13 +0100" ModID="16C24A6B-4527-4DEF-8AF7-78795ECAF702">
     <Binder>
         <BinderItem ID="5" UUID="B892768D-F62D-4A48-8846-84245826AF35" Created="2017-04-10 13:05:49 +0100" Modified="2017-04-10 13:05:49 +0100" Type="Text">
             <Title>MMD cheat sheet</Title>
@@ -367,7 +367,7 @@
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="83" UUID="CAD31DE3-6F81-449F-BFE3-6EC67CDF0BE2" Created="2019-11-24 16:47:37 +0100" Modified="2019-11-24 16:48:44 +0100" Type="Text">
+                <BinderItem ID="83" UUID="CAD31DE3-6F81-449F-BFE3-6EC67CDF0BE2" Created="2019-11-24 16:47:37 +0100" Modified="2019-11-24 19:55:45 +0100" Type="Text">
                     <Title>Appendix - Documented sIOP failures {-}</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -383,7 +383,7 @@
                         <Target Type="Words">0</Target>
                     </TextSettings>
                     <Children>
-                        <BinderItem ID="90" UUID="F8C34041-CCB6-43D5-BEB9-4AA51A3687F0" Created="2019-11-24 16:47:37 +0100" Modified="2019-11-24 16:47:37 +0100" Type="Text">
+                        <BinderItem ID="90" UUID="F8C34041-CCB6-43D5-BEB9-4AA51A3687F0" Created="2019-11-24 16:47:37 +0100" Modified="2019-11-24 20:06:33 +0100" Type="Text">
                             <Title>Insulin pens versus vials {-}</Title>
                             <MetaData>
                                 <LabelID>0</LabelID>
@@ -391,10 +391,11 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
+                                <TextSelection>757,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="101" UUID="4117F214-4609-46A9-B5E0-23F7E36D1136" Created="2019-11-24 16:47:38 +0100" Modified="2019-11-24 16:47:38 +0100" Type="Text">
+                        <BinderItem ID="101" UUID="4117F214-4609-46A9-B5E0-23F7E36D1136" Created="2019-11-24 16:47:38 +0100" Modified="2019-11-24 20:42:56 +0100" Type="Text">
                             <Title>Twin identification {-}</Title>
                             <MetaData>
                                 <LabelID>0</LabelID>
@@ -402,6 +403,7 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
+                                <TextSelection>589,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
@@ -502,6 +504,7 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
+                                <TextSelection>3350,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
@@ -911,7 +914,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="144" UUID="724AC7F2-36F7-4363-B64A-36D53FB7A7DD" Created="2019-11-24 16:48:23 +0100" Modified="2019-11-24 16:48:23 +0100" Type="Text">
+                                        <BinderItem ID="144" UUID="724AC7F2-36F7-4363-B64A-36D53FB7A7DD" Created="2019-11-24 16:48:23 +0100" Modified="2019-11-24 21:00:11 +0100" Type="Text">
                                             <Title>Data provenance {-}</Title>
                                             <MetaData>
                                                 <LabelID>0</LabelID>
@@ -1321,7 +1324,7 @@
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="146" UUID="9C37479C-3B47-49AB-B4B6-D2C630DF812A" Created="2019-11-24 16:48:23 +0100" Modified="2019-11-24 16:48:23 +0100" Type="Text">
+                <BinderItem ID="146" UUID="9C37479C-3B47-49AB-B4B6-D2C630DF812A" Created="2019-11-24 16:48:23 +0100" Modified="2019-11-24 19:55:45 +0100" Type="Text">
                     <Title>Analyse van knelpunten {-}</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1392,7 +1395,7 @@
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="100" UUID="6BFD8393-15B2-43FC-86DF-814663CB66BF" Created="2019-11-24 16:47:38 +0100" Modified="2019-11-24 16:47:38 +0100" Type="Text">
+                <BinderItem ID="100" UUID="6BFD8393-15B2-43FC-86DF-814663CB66BF" Created="2019-11-24 16:47:38 +0100" Modified="2019-11-24 19:55:45 +0100" Type="Text">
                     <Title>Enterprise IT related issues {-}</Title>
                     <MetaData>
                         <StatusID>0</StatusID>
@@ -1426,7 +1429,7 @@
                         </BinderItem>
                     </Children>
                 </BinderItem>
-                <BinderItem ID="91" UUID="75EA1AE3-A703-4971-95C1-1BC43E32EBDD" Created="2019-11-24 16:47:37 +0100" Modified="2019-11-24 16:47:37 +0100" Type="Text">
+                <BinderItem ID="91" UUID="75EA1AE3-A703-4971-95C1-1BC43E32EBDD" Created="2019-11-24 16:47:37 +0100" Modified="2019-11-24 19:55:45 +0100" Type="Text">
                     <Title>Aerospace IT related issues {-}</Title>
                     <MetaData>
                         <StatusID>0</StatusID>
@@ -1539,7 +1542,7 @@
     <ProjectTargets>
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-04-24 00:00:00 +0000" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="No" WritingDays="">0</SessionTarget>
-        <PreviousSession Words="5619" Characters="38654" Date="2019-11-20 12:00:38 +0100"/>
+        <PreviousSession Words="5943" Characters="40746" Date="2019-11-20 12:00:38 +0100"/>
     </ProjectTargets>
     <Collections>
         <Collection Type="Binder" ID="CAFEBABE-0000-0000-0000-000000000000" Color="0.901961 0.917647 0.933333">
