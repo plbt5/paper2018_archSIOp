@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.16.0" Device="PC-17875" Modified="2019-11-20 18:33:24 +0100" ModID="FC07DC52-E15E-4D6B-ADBB-6BD88C600E9F">
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.16.0" Device="PC-17875" Modified="2019-11-24 18:01:41 +0100" ModID="1F2690D3-7BBC-499D-83C7-C7799F24E930">
     <Binder>
         <BinderItem ID="5" UUID="B892768D-F62D-4A48-8846-84245826AF35" Created="2017-04-10 13:05:49 +0100" Modified="2017-04-10 13:05:49 +0100" Type="Text">
             <Title>MMD cheat sheet</Title>
@@ -181,7 +181,7 @@
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
             <Children>
-                <BinderItem ID="19" UUID="FDE3A400-F9AC-4C43-9E25-1275886F76DE" Created="2016-12-28 12:11:59 +0100" Modified="2019-11-18 12:58:43 +0100" Type="Text">
+                <BinderItem ID="19" UUID="FDE3A400-F9AC-4C43-9E25-1275886F76DE" Created="2016-12-28 12:11:59 +0100" Modified="2019-11-24 16:49:43 +0100" Type="Text">
                     <Title>meta-data</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -189,40 +189,40 @@
                         <IconFileName>Information.tiff</IconFileName>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>4262,0</TextSelection>
+                        <TextSelection>120,0</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="20" UUID="2D52C627-6E37-4D52-9851-40E13EBC6C43" Created="2018-05-14 14:04:47 +0100" Modified="2019-10-16 13:25:57 +0100" Type="Text">
+                <BinderItem ID="20" UUID="2D52C627-6E37-4D52-9851-40E13EBC6C43" Created="2018-05-14 14:04:47 +0100" Modified="2019-11-24 16:49:43 +0100" Type="Text">
                     <Title>Abstract</Title>
                     <MetaData>
                         <LabelID>6</LabelID>
                         <FileExtension>rtf</FileExtension>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>2788,0</TextSelection>
+                        <TextSelection>0,4091</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="21" UUID="D1B1F11F-646F-4B47-9C11-9FEFCBFD8870" Created="2016-12-28 12:23:05 +0100" Modified="2019-11-20 13:47:34 +0100" Type="Text">
+                <BinderItem ID="21" UUID="D1B1F11F-646F-4B47-9C11-9FEFCBFD8870" Created="2016-12-28 12:23:05 +0100" Modified="2019-11-24 17:51:21 +0100" Type="Text">
                     <Title>Introduction</Title>
                     <MetaData>
                         <LabelID>6</LabelID>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection Caret="4883">4841,42</TextSelection>
+                        <TextSelection>2027,0</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="25" UUID="72A16B35-CC3A-4148-B226-4BDD855A4808" Created="2018-05-25 15:59:48 +0100" Modified="2019-11-20 15:46:07 +0100" Type="Text">
+                <BinderItem ID="25" UUID="72A16B35-CC3A-4148-B226-4BDD855A4808" Created="2018-05-25 15:59:48 +0100" Modified="2019-11-24 15:58:30 +0100" Type="Text">
                     <Title>Bridgehead: Semantics</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                         <FileExtension>rtf</FileExtension>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>8422,0</TextSelection>
+                        <TextSelection>3439,0</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
@@ -236,7 +236,7 @@
                         <Target Type="Words">0</Target>
                     </TextSettings>
                     <Children>
-                        <BinderItem ID="29" UUID="A0A0F74F-2F3E-43C5-B39C-096154C952F8" Created="2018-07-04 21:40:57 +0100" Modified="2019-11-18 18:05:47 +0100" Type="Text">
+                        <BinderItem ID="29" UUID="A0A0F74F-2F3E-43C5-B39C-096154C952F8" Created="2018-07-04 21:40:57 +0100" Modified="2019-11-24 16:49:43 +0100" Type="Text">
                             <Title>Objectives of semantic interoperability</Title>
                             <MetaData>
                                 <LabelID>4</LabelID>
@@ -244,7 +244,7 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>5334,0</TextSelection>
+                                <TextSelection>4877,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
@@ -328,7 +328,7 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>3905,0</TextSelection>
+                                <TextSelection>2417,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
@@ -344,7 +344,7 @@
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="34" UUID="8F4B7735-9D99-4F71-86D2-9A37E019A353" Created="2018-04-22 18:06:37 +0100" Modified="2019-10-21 18:11:36 +0100" Type="Text">
+                <BinderItem ID="34" UUID="8F4B7735-9D99-4F71-86D2-9A37E019A353" Created="2018-04-22 18:06:37 +0100" Modified="2019-11-24 16:43:01 +0100" Type="Text">
                     <Title>Related work</Title>
                     <MetaData>
                         <LabelID>4</LabelID>
@@ -352,7 +352,7 @@
                         <FileExtension>rtf</FileExtension>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>3305,0</TextSelection>
+                        <TextSelection>3503,0</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
@@ -367,10 +367,581 @@
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
+                <BinderItem ID="83" UUID="CAD31DE3-6F81-449F-BFE3-6EC67CDF0BE2" Created="2019-11-24 16:47:37 +0100" Modified="2019-11-24 16:48:44 +0100" Type="Text">
+                    <Title>Appendix - Documented sIOP failures {-}</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <PageBreakBefore>Yes</PageBreakBefore>
+                        <CustomMetaData>
+                            <MetaDataItem>
+                                <FieldID>pp</FieldID>
+                                <Value></Value>
+                            </MetaDataItem>
+                        </CustomMetaData>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="90" UUID="F8C34041-CCB6-43D5-BEB9-4AA51A3687F0" Created="2019-11-24 16:47:37 +0100" Modified="2019-11-24 16:47:37 +0100" Type="Text">
+                            <Title>Insulin pens versus vials {-}</Title>
+                            <MetaData>
+                                <LabelID>0</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="101" UUID="4117F214-4609-46A9-B5E0-23F7E36D1136" Created="2019-11-24 16:47:38 +0100" Modified="2019-11-24 16:47:38 +0100" Type="Text">
+                            <Title>Twin identification {-}</Title>
+                            <MetaData>
+                                <LabelID>0</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="102" UUID="E273542B-B103-4F83-A1DF-957302707E41" Created="2019-11-24 16:47:38 +0100" Modified="2019-11-24 16:47:38 +0100" Type="Text">
+                            <Title>Account deletion {-}</Title>
+                            <MetaData>
+                                <LabelID>0</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="106" UUID="8F8D076D-FD47-44E5-8A6C-455000A5C3A4" Created="2019-11-24 16:47:38 +0100" Modified="2019-11-24 16:49:44 +0100" Type="Text">
+                            <Title>Daylight saving time {-}</Title>
+                            <MetaData>
+                                <LabelID>0</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="107" UUID="ED3D56C6-FF4F-4590-AD42-8D4D282C8ECE" Created="2019-11-24 16:47:38 +0100" Modified="2019-11-24 16:47:38 +0100" Type="Text">
+                            <Title>Sea level reference {-}</Title>
+                            <MetaData>
+                                <LabelID>0</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="108" UUID="C152CA9D-251F-494A-8B1E-450AC04AA616" Created="2019-11-24 16:47:38 +0100" Modified="2019-11-24 16:49:44 +0100" Type="Text">
+                            <Title>Y2K solution: let's insert month 13 {-}</Title>
+                            <MetaData>
+                                <LabelID>0</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="109" UUID="ACD38C8D-B67A-4ACA-AEFD-A90858E98105" Created="2019-11-24 16:47:38 +0100" Modified="2019-11-24 18:01:39 +0100" Type="Text">
+                            <Title>Divide by zero - ready {-}</Title>
+                            <MetaData>
+                                <LabelID>0</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="93" UUID="CA0A15DA-58EF-4338-B283-791AEC599119" Created="2019-11-24 16:47:37 +0100" Modified="2019-11-24 16:47:37 +0100" Type="Text">
+                            <Title>Space shuttle inversion {-}</Title>
+                            <MetaData>
+                                <LabelID>0</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="94" UUID="78CF5E72-BD24-4AF4-969D-F5D92C6FF743" Created="2019-11-24 16:47:37 +0100" Modified="2019-11-24 16:47:37 +0100" Type="Text">
+                            <Title>Mars Climate Orbiter {-}</Title>
+                            <MetaData>
+                                <LabelID>0</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="95" UUID="C8B44819-3CC3-4A14-B231-5A3F31090099" Created="2019-11-24 16:47:37 +0100" Modified="2019-11-24 16:47:37 +0100" Type="Text">
+                            <Title>Endeavor mission {-}</Title>
+                            <MetaData>
+                                <LabelID>0</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="96" UUID="3B6D31C4-4772-474B-826B-18F4C39D3BA1" Created="2019-11-24 16:47:37 +0100" Modified="2019-11-24 16:49:43 +0100" Type="Text">
+                            <Title>Ariane 501 disaster {-}</Title>
+                            <MetaData>
+                                <LabelID>0</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="97" UUID="7264F511-14F2-48FB-B0B0-09390715C623" Created="2019-11-24 16:47:38 +0100" Modified="2019-11-24 16:49:43 +0100" Type="Text">
+                            <Title>NORAD missile warning failure {-}</Title>
+                            <MetaData>
+                                <LabelID>0</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="98" UUID="E566E6B0-3576-46CA-A84B-1BD35FEE980E" Created="2019-11-24 16:47:38 +0100" Modified="2019-11-24 16:49:43 +0100" Type="Text">
+                            <Title>Patriot Missile Bug February 25th, 1991 {-}</Title>
+                            <MetaData>
+                                <LabelID>0</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="99" UUID="A91B2323-5FA8-4B48-BA83-FEBE92FF12FB" Created="2019-11-24 16:47:38 +0100" Modified="2019-11-24 16:49:43 +0100" Type="Text">
+                            <Title>Undetected hole in ozon layer {-}</Title>
+                            <MetaData>
+                                <LabelID>0</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="92" UUID="240B375C-9BB7-4174-934E-5B85CADCE5FD" Created="2019-11-24 16:47:37 +0100" Modified="2019-11-24 16:47:37 +0100" Type="Text">
+                            <Title>Autopilot test {-}</Title>
+                            <MetaData>
+                                <LabelID>0</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="111" UUID="AE58D494-3C08-421B-A53C-B7819123D40E" Created="2019-11-24 16:48:22 +0100" Modified="2019-11-24 16:49:44 +0100" Type="Text">
+                    <Title>Appendix - sIOP faults {-}</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                        <PageBreakBefore>Yes</PageBreakBefore>
+                        <CustomMetaData>
+                            <MetaDataItem>
+                                <FieldID>pp</FieldID>
+                                <Value></Value>
+                            </MetaDataItem>
+                        </CustomMetaData>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="112" UUID="24CAAE0E-E5E2-4DFC-8906-A4D99E486488" Created="2019-11-24 16:48:22 +0100" Modified="2019-11-24 16:48:22 +0100" Type="Text">
+                            <Title>Different reality {-}</Title>
+                            <MetaData>
+                                <LabelID>0</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="113" UUID="8632C796-B0F7-40F5-AA19-DFA5DAC674BA" Created="2019-11-24 16:48:22 +0100" Modified="2019-11-24 16:49:44 +0100" Type="Text">
+                            <Title>Different circumstances {-}</Title>
+                            <MetaData>
+                                <LabelID>0</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="114" UUID="E8C3F9BC-F263-4109-95E8-5B630EC71787" Created="2019-11-24 16:48:22 +0100" Modified="2019-11-24 16:48:22 +0100" Type="Text">
+                            <Title>Different conventions {-}</Title>
+                            <MetaData>
+                                <LabelID>0</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="115" UUID="91CE0BF6-4126-4B51-9E45-DB02BD8FDB0A" Created="2019-11-24 16:48:22 +0100" Modified="2019-11-24 16:49:44 +0100" Type="Text">
+                            <Title>Distinct semantic grounding {-}</Title>
+                            <MetaData>
+                                <LabelID>0</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="116" UUID="5212A1D4-FA9E-4A11-9481-EE56102E3D11" Created="2019-11-24 16:48:22 +0100" Modified="2019-11-24 16:48:22 +0100" Type="Text">
+                            <Title>Varying use of datafield {-}</Title>
+                            <MetaData>
+                                <LabelID>2</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="117" UUID="2C13D698-05C2-4D8F-9DAC-C6955743B402" Created="2019-11-24 16:48:22 +0100" Modified="2019-11-24 16:49:44 +0100" Type="Text">
+                            <Title>Term overloading {-}</Title>
+                            <MetaData>
+                                <LabelID>0</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="118" UUID="06800AF2-FC18-4FDF-8B6B-C4854959D4C4" Created="2019-11-24 16:48:22 +0100" Modified="2019-11-24 16:48:22 +0100" Type="Text">
+                            <Title>Concept overloading {-}</Title>
+                            <MetaData>
+                                <LabelID>0</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="119" UUID="E8B50E1C-89BC-4BA8-9236-E6146971CC53" Created="2019-11-24 16:48:22 +0100" Modified="2019-11-24 16:49:44 +0100" Type="Text">
+                            <Title>Temporal scalability {-}</Title>
+                            <MetaData>
+                                <LabelID>0</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="120" UUID="29E924E8-CA7D-4FF4-A0A7-AB3EFD1865B2" Created="2019-11-24 16:48:22 +0100" Modified="2019-11-24 17:19:41 +0100" Type="Text">
+                            <Title>Categorisation variety {-}</Title>
+                            <MetaData>
+                                <LabelID>0</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>824,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="121" UUID="36BA9FBA-C89E-481F-9F37-D8385D0B896F" Created="2019-11-24 16:48:22 +0100" Modified="2019-11-24 16:48:22 +0100" Type="Text">
+                            <Title>Semantic granularity variety {-}</Title>
+                            <MetaData>
+                                <LabelID>0</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="122" UUID="3F27C64E-BFB7-41E2-BF2E-2ACA6BB633AD" Created="2019-11-24 16:48:22 +0100" Modified="2019-11-24 17:22:35 +0100" Type="Text">
+                            <Title>Concept-Based Heterogeneity {-}</Title>
+                            <MetaData>
+                                <LabelID>2</LabelID>
+                                <StatusID>0</StatusID>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="123" UUID="5A9CFA23-2249-4673-A23C-842F881B93A3" Created="2019-11-24 16:48:22 +0100" Modified="2019-11-24 17:22:43 +0100" Type="Text">
+                            <Title>Restriction-Based Heterogeneity {-}</Title>
+                            <MetaData>
+                                <LabelID>2</LabelID>
+                                <StatusID>0</StatusID>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="124" UUID="929C9A64-C9BB-4973-9566-F2FBA13568D8" Created="2019-11-24 16:48:22 +0100" Modified="2019-11-24 16:49:44 +0100" Type="Text">
+                            <Title>Low representational homomorphism {-}</Title>
+                            <MetaData>
+                                <LabelID>2</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem ID="125" UUID="21D3C424-5B0B-4344-BE5C-2A4C9A63C57C" Created="2019-11-24 16:48:23 +0100" Modified="2019-11-24 16:49:44 +0100" Type="Text">
+                                    <Title>Soundness and language excess {-}</Title>
+                                    <MetaData>
+                                        <LabelID>0</LabelID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <FileExtension>rtf</FileExtension>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="126" UUID="CE0119EA-3B6E-4092-BABB-067DF43C4262" Created="2019-11-24 16:48:23 +0100" Modified="2019-11-24 16:48:23 +0100" Type="Text">
+                                    <Title>Laconicity and language redundancy {-}</Title>
+                                    <MetaData>
+                                        <LabelID>0</LabelID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <FileExtension>rtf</FileExtension>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="127" UUID="0F7F0F6A-35B1-4972-94C3-BC1D47AEAC2F" Created="2019-11-24 16:48:23 +0100" Modified="2019-11-24 16:48:23 +0100" Type="Text">
+                                    <Title>Lucidity and language overload {-}</Title>
+                                    <MetaData>
+                                        <LabelID>0</LabelID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <FileExtension>rtf</FileExtension>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="128" UUID="FFFC4125-5F8B-49D4-8357-0BBC14AFF6C4" Created="2019-11-24 16:48:23 +0100" Modified="2019-11-24 16:48:23 +0100" Type="Text">
+                                    <Title>Completeness and language expressivity {-}</Title>
+                                    <MetaData>
+                                        <LabelID>0</LabelID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <FileExtension>rtf</FileExtension>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem ID="129" UUID="7881AF9B-358E-4F95-8E71-13157F4F002A" Created="2019-11-24 16:48:23 +0100" Modified="2019-11-24 16:48:23 +0100" Type="Text">
+                            <Title>Representation differences {-}</Title>
+                            <MetaData>
+                                <LabelID>0</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="130" UUID="F17EF8B2-CF59-465C-93EF-38E1D226DF2D" Created="2019-11-24 16:48:23 +0100" Modified="2019-11-24 16:48:23 +0100" Type="Text">
+                            <Title>Lacking semantic provenance {-}</Title>
+                            <MetaData>
+                                <LabelID>2</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="131" UUID="8A254722-8D8D-4FFC-A4B9-771502E10214" Created="2019-11-24 16:48:23 +0100" Modified="2019-11-24 16:48:23 +0100" Type="Text">
+                            <Title>Varying semantic intelligibility {-}</Title>
+                            <MetaData>
+                                <LabelID>0</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="132" UUID="4E104A2F-2251-402A-BAFF-36B28C7F029E" Created="2019-11-24 16:48:23 +0100" Modified="2019-11-24 16:48:23 +0100" Type="Text">
+                            <Title>Low semantic precision {-}</Title>
+                            <MetaData>
+                                <LabelID>1</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="133" UUID="043E61E2-972F-4FD5-9E9D-26C12D2CD0DF" Created="2019-11-24 16:48:23 +0100" Modified="2019-11-24 16:48:23 +0100" Type="Text">
+                            <Title>Low semantic veracity {-}</Title>
+                            <MetaData>
+                                <LabelID>1</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="134" UUID="B14E4658-C2C9-4062-B64B-B52EF0BC2184" Created="2019-11-24 16:48:23 +0100" Modified="2019-11-24 17:26:30 +0100" Type="Text">
+                            <Title>Aspects related to individuals {-}</Title>
+                            <MetaData>
+                                <LabelID>2</LabelID>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem ID="135" UUID="AD57F1C2-DB8D-4BBA-83D0-DBFFF4237753" Created="2019-11-24 16:48:23 +0100" Modified="2019-11-24 16:48:23 +0100" Type="Text">
+                                    <Title>Varying data characteristics {-}</Title>
+                                    <MetaData>
+                                        <LabelID>0</LabelID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <FileExtension>rtf</FileExtension>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="136" UUID="D21905EF-8BCA-436C-80A1-4B01CE0B9F95" Created="2019-11-24 16:48:23 +0100" Modified="2019-11-24 17:28:45 +0100" Type="Text">
+                                    <Title>Low data quality {-}</Title>
+                                    <MetaData>
+                                        <LabelID>0</LabelID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <FileExtension>rtf</FileExtension>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                    <Children>
+                                        <BinderItem ID="137" UUID="96D59F5C-E1FB-4DA9-AC2F-AD923EBA3155" Created="2019-11-24 16:48:23 +0100" Modified="2019-11-24 16:48:23 +0100" Type="Text">
+                                            <Title>Data Correctness {-}</Title>
+                                            <MetaData>
+                                                <LabelID>0</LabelID>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <FileExtension>rtf</FileExtension>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <Target Type="Words">0</Target>
+                                            </TextSettings>
+                                        </BinderItem>
+                                        <BinderItem ID="138" UUID="DFFD6D3C-3DB2-4F89-B25F-6012B46D2E40" Created="2019-11-24 16:48:23 +0100" Modified="2019-11-24 16:48:23 +0100" Type="Text">
+                                            <Title>Data Completeness {-}</Title>
+                                            <MetaData>
+                                                <LabelID>0</LabelID>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <FileExtension>rtf</FileExtension>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <Target Type="Words">0</Target>
+                                            </TextSettings>
+                                        </BinderItem>
+                                        <BinderItem ID="139" UUID="076D3E05-9B58-424C-9B33-867BD400124E" Created="2019-11-24 16:48:23 +0100" Modified="2019-11-24 16:48:23 +0100" Type="Text">
+                                            <Title>Data Consistency {-}</Title>
+                                            <MetaData>
+                                                <LabelID>1</LabelID>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <FileExtension>rtf</FileExtension>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <Target Type="Words">0</Target>
+                                            </TextSettings>
+                                        </BinderItem>
+                                        <BinderItem ID="140" UUID="6B79F910-4B8D-457C-9484-1689CEEBD6C8" Created="2019-11-24 16:48:23 +0100" Modified="2019-11-24 16:48:23 +0100" Type="Text">
+                                            <Title>Data Uniqueness {-}</Title>
+                                            <MetaData>
+                                                <LabelID>6</LabelID>
+                                                <StatusID>0</StatusID>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <FileExtension>rtf</FileExtension>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <Target Type="Words">0</Target>
+                                            </TextSettings>
+                                        </BinderItem>
+                                        <BinderItem ID="141" UUID="3BA6AC0D-AA4D-4CEF-BD58-1320FD3747B8" Created="2019-11-24 16:48:23 +0100" Modified="2019-11-24 16:48:23 +0100" Type="Text">
+                                            <Title>Time of occurrence {-}</Title>
+                                            <MetaData>
+                                                <LabelID>0</LabelID>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <FileExtension>rtf</FileExtension>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <Target Type="Words">0</Target>
+                                            </TextSettings>
+                                        </BinderItem>
+                                        <BinderItem ID="142" UUID="8654A1AA-F977-4625-9AB5-42A3355D3843" Created="2019-11-24 16:48:23 +0100" Modified="2019-11-24 16:48:23 +0100" Type="Text">
+                                            <Title>Data Accuracy {-}</Title>
+                                            <MetaData>
+                                                <LabelID>0</LabelID>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <FileExtension>rtf</FileExtension>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <Target Type="Words">0</Target>
+                                            </TextSettings>
+                                        </BinderItem>
+                                        <BinderItem ID="144" UUID="724AC7F2-36F7-4363-B64A-36D53FB7A7DD" Created="2019-11-24 16:48:23 +0100" Modified="2019-11-24 16:48:23 +0100" Type="Text">
+                                            <Title>Data provenance {-}</Title>
+                                            <MetaData>
+                                                <LabelID>0</LabelID>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <Target Type="Words">0</Target>
+                                            </TextSettings>
+                                        </BinderItem>
+                                    </Children>
+                                </BinderItem>
+                                <BinderItem ID="145" UUID="095BB7C4-0904-42A3-ACBD-6ED23F0A7020" Created="2019-11-24 16:48:23 +0100" Modified="2019-11-24 16:49:44 +0100" Type="Text">
+                                    <Title>Varying data identity {-}</Title>
+                                    <MetaData>
+                                        <LabelID>0</LabelID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <FileExtension>rtf</FileExtension>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>61,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
                 <BinderItem ID="36" UUID="AFC5AB1B-999F-459C-8D19-0E99FEAFA4D9" Created="2018-03-04 15:08:55 +0100" Modified="2019-04-12 12:06:44 +0100" Type="Text">
                     <Title>References {-}</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
                     </MetaData>
                     <TextSettings>
                         <TextSelection>99,0</TextSelection>
@@ -561,7 +1132,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="54" UUID="DD4164CD-5EAA-40D0-A17E-B7847AA47508" Created="2018-04-15 15:27:56 +0100" Modified="2018-04-15 15:28:14 +0100" Type="Text">
+                                        <BinderItem ID="54" UUID="DD4164CD-5EAA-40D0-A17E-B7847AA47508" Created="2018-04-15 15:27:56 +0100" Modified="2019-11-24 16:49:45 +0100" Type="Text">
                                             <Title>View-based architectures</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -736,6 +1307,205 @@
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
+                <BinderItem ID="110" UUID="70B2B8F5-CF86-4B3B-838B-F86C1772FC5D" Created="2019-11-24 16:47:38 +0100" Modified="2019-11-24 16:47:38 +0100" Type="Text">
+                    <Title>Betekenisverandering gedurende registratieperiode {-}</Title>
+                    <MetaData>
+                        <LabelID>6</LabelID>
+                        <StatusID>0</StatusID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="146" UUID="9C37479C-3B47-49AB-B4B6-D2C630DF812A" Created="2019-11-24 16:48:23 +0100" Modified="2019-11-24 16:48:23 +0100" Type="Text">
+                    <Title>Analyse van knelpunten {-}</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="147" UUID="1F61E765-D4C6-4DA2-A3C0-38F44B4B8238" Created="2019-11-24 16:48:23 +0100" Modified="2019-11-24 16:48:23 +0100" Type="Text">
+                            <Title>Aannames rond data {-}</Title>
+                            <MetaData>
+                                <LabelID>6</LabelID>
+                                <StatusID>0</StatusID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="148" UUID="2A5A10A6-9FC6-479D-BAE8-93BA9BB82CED" Created="2019-11-24 16:48:23 +0100" Modified="2019-11-24 16:48:23 +0100" Type="Text">
+                            <Title>Onduidelijke begripsdefinitie {-}</Title>
+                            <MetaData>
+                                <LabelID>6</LabelID>
+                                <StatusID>0</StatusID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="149" UUID="6FDAA66A-8CD0-41AF-99C6-11EABF567371" Created="2019-11-24 16:48:23 +0100" Modified="2019-11-24 17:26:17 +0100" Type="Text">
+                    <Title>Semantic faults, or, semantic heterogeneity {-}</Title>
+                    <MetaData>
+                        <LabelID>6</LabelID>
+                        <StatusID>0</StatusID>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="150" UUID="8610EDF6-234C-4001-A4AA-AA419BC4B68A" Created="2019-11-24 16:48:23 +0100" Modified="2019-11-24 17:26:14 +0100" Type="Text">
+                            <Title>Semantic variety {-}</Title>
+                            <MetaData>
+                                <LabelID>6</LabelID>
+                                <StatusID>0</StatusID>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="143" UUID="62743FD4-52ED-4565-83B7-D8D450E1D693" Created="2019-11-24 16:48:23 +0100" Modified="2019-11-24 16:48:23 +0100" Type="Text">
+                    <Title>Data Precision {-}</Title>
+                    <MetaData>
+                        <LabelID>6</LabelID>
+                        <StatusID>0</StatusID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="100" UUID="6BFD8393-15B2-43FC-86DF-814663CB66BF" Created="2019-11-24 16:47:38 +0100" Modified="2019-11-24 16:47:38 +0100" Type="Text">
+                    <Title>Enterprise IT related issues {-}</Title>
+                    <MetaData>
+                        <StatusID>0</StatusID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="103" UUID="A078E531-2926-4E1E-8B11-AC1FE1FA9484" Created="2019-11-24 16:47:38 +0100" Modified="2019-11-24 17:38:05 +0100" Type="Text">
+                            <Title>Wie behoren tot huishouden {-}</Title>
+                            <MetaData>
+                                <LabelID>1</LabelID>
+                                <StatusID>1</StatusID>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="104" UUID="C1C84837-8307-46F0-984C-884A47D0870F" Created="2019-11-24 16:47:38 +0100" Modified="2019-11-24 17:38:26 +0100" Type="Text">
+                            <Title>Guus Hiddink {-}</Title>
+                            <MetaData>
+                                <LabelID>6</LabelID>
+                                <StatusID>0</StatusID>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="91" UUID="75EA1AE3-A703-4971-95C1-1BC43E32EBDD" Created="2019-11-24 16:47:37 +0100" Modified="2019-11-24 16:47:37 +0100" Type="Text">
+                    <Title>Aerospace IT related issues {-}</Title>
+                    <MetaData>
+                        <StatusID>0</StatusID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="105" UUID="EE01CCA5-F725-4080-A1BB-B8809FCE4904" Created="2019-11-24 16:47:38 +0100" Modified="2019-11-24 17:39:03 +0100" Type="Text">
+                    <Title>Incorrectly determined hardware failure {-}</Title>
+                    <MetaData>
+                        <LabelID>6</LabelID>
+                        <StatusID>0</StatusID>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="84" UUID="44F0B65A-D7DD-4B8F-8211-9370689A49E3" Created="2019-11-24 16:47:37 +0100" Modified="2019-11-24 17:53:36 +0100" Type="Text">
+                    <Title>Health IT related issues {-}</Title>
+                    <MetaData>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="85" UUID="79BEA3BE-A2ED-4CFD-B14F-CF7C50A705AB" Created="2019-11-24 16:47:37 +0100" Modified="2019-11-24 17:35:43 +0100" Type="Text">
+                            <Title>Missing allergy information {-}</Title>
+                            <MetaData>
+                                <LabelID>0</LabelID>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="86" UUID="9DA8AC4C-5829-47C0-9DDF-895466AAD76B" Created="2019-11-24 16:47:37 +0100" Modified="2019-11-24 17:36:14 +0100" Type="Text">
+                            <Title>Incorrect weight {-}</Title>
+                            <MetaData>
+                                <LabelID>0</LabelID>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="87" UUID="257D38EB-8744-4B1E-8E59-594598378482" Created="2019-11-24 16:47:37 +0100" Modified="2019-11-24 17:52:29 +0100" Type="Text">
+                            <Title>Patient Scales that can switch from Pounds (lb) to Kilograms (kg)</Title>
+                            <MetaData>
+                                <LabelID>0</LabelID>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="88" UUID="E502D440-EC0B-44D1-B82E-BDC0FD38B648" Created="2019-11-24 16:47:37 +0100" Modified="2019-11-24 17:36:41 +0100" Type="Text">
+                            <Title>Midnight is when, exactly? {-}</Title>
+                            <MetaData>
+                                <LabelID>0</LabelID>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="89" UUID="5CC7C11B-29FA-40D2-A45D-7A34EFA5A54F" Created="2019-11-24 16:47:37 +0100" Modified="2019-11-24 17:36:51 +0100" Type="Text">
+                            <Title>Allergies did not cross over from the electronic health record</Title>
+                            <MetaData>
+                                <LabelID>6</LabelID>
+                                <StatusID>0</StatusID>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
             </Children>
         </BinderItem>
     </Binder>
@@ -750,6 +1520,9 @@
             <Label ID="6" Color="0.819608 1.000000 0.705882">Revised draft</Label>
             <Label ID="7" Color="0.388235 1.000000 0.580392">Final draft</Label>
             <Label ID="8" Color="0.000000 0.815686 0.215686">Publication ready</Label>
+            <Label ID="0" Color="0.521569 0.776471 0.384314">Final Draft</Label>
+            <Label ID="1" Color="1.000000 0.580392 0.588235">TBD upon: Restructure, purpose, keywords, synopsis</Label>
+            <Label ID="2" Color="1.000000 0.666667 0.000000">Writing</Label>
         </Labels>
     </LabelSettings>
     <StatusSettings>
@@ -757,12 +1530,14 @@
         <DefaultStatusID>-1</DefaultStatusID>
         <StatusItems>
             <Status ID="-1">No Status</Status>
+            <Status ID="0">Under construction</Status>
+            <Status ID="1">Sent to Reviewer</Status>
         </StatusItems>
     </StatusSettings>
     <ProjectTargets>
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-04-24 00:00:00 +0000" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="No" WritingDays="">0</SessionTarget>
-        <PreviousSession Words="114" Characters="648" Date="2019-11-20 12:00:38 +0100"/>
+        <PreviousSession Words="5612" Characters="38597" Date="2019-11-20 12:00:38 +0100"/>
     </ProjectTargets>
     <Collections>
         <Collection Type="Binder" ID="CAFEBABE-0000-0000-0000-000000000000" Color="0.901961 0.917647 0.933333">
