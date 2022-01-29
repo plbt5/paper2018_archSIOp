@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="201AFA4C-53AE-47AB-B517-A9B5DC091947">
+    <Snapshot Date="2018-06-11 13:15:09 +0200">
+        <Title>Pre-External File Sync Overwrite</Title>
+        <Text>Purpose of this section: Loosely coupled semantics, by:
+
+1. Introduce principles on *semantic separation of concerns* and *semantic transparency*
+    * Define both principles
+    * Refer (and partly reuse?) semantic architecture from [Brandt13]
+1. Explain: difference between ontologies and models
+    * Try to also connect the onto/model distinction with above principles
+    * Identify shortcomings of models as foundation for semantics, incl. Absence of ontol.commitmnt
+1. Their operationalisation, presenting an overview of the pattern/components and their purpose
+    1. ontologies as semantic bridgehead for each software agent
+    1. Alignments as spanning
+    1. Mediation component as roadway
+        * include the semantic issue about the non-equivalence between and alignment and a transcription (refer to Brandt18a)
+
+
+[Brandt13] P. Brandt et al., “Semantic interoperability in sensor applications - making sense of sensor data”, in First IEEE Symposium on Computational Intelligence in Healthcare and E-health, CICARE 2013, 2013, vol. 5, pp. 34–41.
+[Brandt18a] Brandt, P., . . . , Sinderen, M. J. van., &amp; Basten, T. (2018). Semantic mediation: from alignment relation to semantic identity. In Preparation.
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

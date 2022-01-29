@@ -1,0 +1,47 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2636
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf0 Although data carry the semantic meaning, it is not identical to it. To that end we formulate the following principle:\
+\
+\\begin\{mmdp\}[Data that are exchanged adhere to their agent\'92s semantic specification]\\label\{dp:semantic-isomorphism\}\
+\
+When it is reasonable to expect that the software agent will be engaged in collaboration or otherwise will interoperate with (an)other software agent(s), its data that take part in the interoperation are isomorphic to their semantic meaning as laid down in their semantic specification. \
+\
+\\textbf\{Type of information:\} data  \\\\\
+\\textbf\{Quality attributes:\} semantics, semantic interoperability   \\\\\
+\\textbf\{Rationale:\}\
+\\begin\{enumerate\}\
+  \\item A datum only represents a point in a certain space, without any reference to its semantic meaning. In fact, it is the predefined structure of the space that signifies the meaning of the data item;\
+  \\item The space represents either a conceptual space which specifies an ontological category to which the data item belongs as an individual (is it my cat, the queen of The Netherlands, or a lump of sugar?), or a data space which represents a dimensional structure of magnitudes (a HSV color space, or the continuous, one-side infinite range of positive natural numbers) .\
+\\end\{enumerate\}\
+\\textbf\{Implications:\}\
+\\begin\{enumerate\}\
+  \\item ...;\
+  \\item ... .\
+\\end\{enumerate\}  \
+\\end\{mmdp\}\
+\
+\
+\
+Argument:\
+\
+\
+1. The reciprocity between code and data manifests itself as software semantics\
+    1. The relationship between Data and Code is very closely coupled in order to maintain consistency between each other. Inconsistency results in software malfunction / crashes. Maintaining/controlling that consistency is one of the main goals of MDA/MDE.\
+    1. Inconsistency between Code and Data has either pragmatic grounds (i.e., code assumes different reality than data resulting in incorrect operations on the data) or semantic grounds (i.e., data assumes different reality than the code resulting in incorrect data being correctly operated on).\
+1. Explain shortcomings of 42010:2011 in terms of semiotic triangle:\
+    1. All models are representations of engineers\'92 conceptualisations\
+    1. In MDA, \'93models represent reality\'94 makes the semiotic triangle conflate in a [|model] <\'97[|representation]\'97> [|reality] dimension, \
+    1. This cuts-off the conceptualisation vertex and with that our \'93knowledge about our given remark or doctrine *says* there is\'94. We have removed the \'93ontological level\'94 [@Guarino1994b], and with that, the fact that \'93terminological competence can be gained by formally expressing the ontological commitment of a knowledge base\'94 (ibid.)\
+    1. (Meta-)model instantiation, and hence level transition, therefore remains at the Term/Model vertex\
+    1. The CIM models both semantics (Domain Model) and pragmatics (Business Model)\
+    1. Models are ultimately expressed as either Data or Code, both located at the Term/Model vertex.\
+    1. The trueness of prescriptive models, i.e., all 42010:2011 models, is established against their meta-models, while the trueness of descriptive models, i.e., ontologies, is established through the interpretation in the conceptualisation of reality (sets and set theory)\
+1. Clarify relationship/transition from ontologies to prescriptive system models\
+    1. Make use of [@Carraretto2012a]\
+    1. Note the issue on Open World Assumption (ontologies) and CWA (prescriptive models).\
+}

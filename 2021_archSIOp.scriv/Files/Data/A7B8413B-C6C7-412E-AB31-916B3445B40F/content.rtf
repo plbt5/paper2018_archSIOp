@@ -1,0 +1,63 @@
+{\rtf1\ansi\ansicpg1252\uc1\deff0
+{\fonttbl{\f0\fmodern\fcharset0\fprq2 CourierNewPSMT;}{\f1\fmodern\fcharset0\fprq2 CourierNewPS-ItalicMT;}}
+{\colortbl;\red0\green0\blue0;\red255\green255\blue255;}
+\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\fet2\ftnbj\aenddoc
+\pgnrestart\pgnstarts0
+\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0 In contemporary architectural paradigms, models are being used as first class citizens to the architectures, MDA, IEEE-1471 and ISP RM/ODP alike. It is therefore imperative to decide upon the major characteristics of a model. The first main characteristic, and already implied by the previous figures, is that a model is just compound tokens. Where one single token refers to a particular entity in reality, a model refers to a particular reality, viz. the domain of interest. In [@Henderson-Sellers2012], an in-depth treatise of models, meta-models, modelling languages and ontologies, further characteristics are derived from three dichotomies, or modes, that pertain to a model: the type vs. token modes, the forward- vs. backward-looking modes, and the ontological vs. linguistic modes, as follows.}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 * Type models represent different categories that exist in the modelled world, whilst token models represent the individuals from the modelling world that are of interest. This distinction essentially represent the }{\f1\fs24\b0\i1 universals -- particulars}{\f0\fs24\b0\i0  dichotomy as identified in the ontological square (refer to \\cref\{fig:onto-square-and-sextet\}). As a result, the relationship that is instantiated with its modelled world by a type model is an }{\f1\fs24\b0\i1 instance-of}{\f0\fs24\b0\i0  relationship, while for a token model this is an }{\f1\fs24\b0\i1 equivalence}{\f0\fs24\b0\i0  relationship;}
+\par\plain {\f0\fs24\b0\i0 * The distinction between descriptive and prescriptive models is broadly accepted, where a prescriptive model is used to }{\f1\fs24\b0\i1 specify}{\f0\fs24\b0\i0  its subject, and a descriptive model is used to }{\f1\fs24\b0\i1 describe}{\f0\fs24\b0\i0  its subject. As explained by [@Gonzalez-Perez2007], a specification model generally takes a }{\f1\fs24\b0\i1 forward-looking}{\f0\fs24\b0\i0  role, specifying how the subject is supposed to be. A descriptive model, on the other hand, generally takes a }{\f1\fs24\b0\i1 backward-looking}{\f0\fs24\b0\i0  role and addresses the subject as it currently is, or once has been. We observe that the characteristics of the }{\f1\fs24\b0\i1 refers-to}{\f0\fs24\b0\i0  relation become declarative for a forward-looking model whereas they become descriptive for a backward-looking model. Therefore, the refers-to relation is a causal relation, the direction of which is dependent on the model\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92s characteristic. This is consequential for the location of the truth of a model: For forward-looking models their truth lies in their meta-models. Mutatis mutandis, the truth for backward-looking models lies in the entities they describe. }
+\par\plain {\f0\fs24\b0\i0 * The distinction between ontological and linguistic mode of a modelling was first coined by [@Atkinson2003]. The distinction often refers to meta-models and ontologies. Essentially, it is about the confusion that emerges between relationships that model }{\f1\fs24\b0\i1 instance-of}{\f0\fs24\b0\i0  relations (a Particular tree that gives rise to a Universal Tree), }{\f1\fs24\b0\i1 collection-of}{\f0\fs24\b0\i0  relations (one or more criteria determine the collective an individual belongs to, e.g., evergreens versus deciduous trees, or the trees that belong to the northern part of the forest) and }{\f1\fs24\b0\i1 generalisation}{\f0\fs24\b0\i0  relations (a taxonomic hierarchy, e.g., in the Linnaean system of classification an oak belongs to }{\f1\fs24\b0\i1 family:Fagaceae}{\f0\fs24\b0\i0 , }{\f1\fs24\b0\i1 order:Fagales, subclass:Hamamelididae}{\f0\fs24\b0\i0 , etc., up to }{\f1\fs24\b0\i1 kingdom:Plantae}{\f0\fs24\b0\i0 ). Linguistic meta-modelling assumes OMG\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92s four layer MOF hierarchy; for each of the adjacent pair of layers the meta layer is considered to model the types that the lower layer can apply in its own model. Adjacent layers are therefore connected though a type-instance relationship, denoted as }{\f1\fs24\b0\i1 linguistic instance-of}{\f0\fs24\b0\i0  but better relabelled }{\f1\fs24\b0\i1 conforms-to}{\f0\fs24\b0\i0  [@Bezivin2004; Favre2004a] in order to prevent ambiguities by overloading the }{\f1\fs24\b0\i1 instance-of}{\f0\fs24\b0\i0  label. Contrarily, ontological meta-modelling acknowledges only one single genuine }{\f1\fs24\b0\i1 instance-of}{\f0\fs24\b0\i0  relationship between the universals and their individuals. At the DoI, the conceptualisation also recognises subsets of supersets, which translates to the generalisation relationship [@Kuhne2006]. Although the author clearly identifies in [@Atkinson2003; and @Atkinson2011] the necessity for both modes of modelling, the method of their integration is not without issues [@Henderson-Sellers2012].}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 An ontology is considered a backward-looking model, which describes almost always a domain of interest as opposed to systems or components thereof. We summarise the distinction between ontologies and (forward-looking) models in \\cref\{tab:onto-versus-model\}.}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 --------------------------------------------------------------------------------------------------------------------------------}
+\par\plain {\f0\fs24\b0\i0 Subject              Ontology                                          Model}
+\par\plain {\f0\fs24\b0\i0 -------------------- ------------------------------------------------- ---------------------------------------------------------}
+\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0 Type vs. tokens mode The main design is a type mode, carrying concepts Type mode and token mode can be applied independently }
+\par\plain {\f0\fs24\b0\i0                      and their relations in terms of Universals.       from each other, or merged into one model as well.}
+\par\plain {\f0\fs24\b0\i0                      Inclusion of individuals is very well possible, }
+\par\plain {\f0\fs24\b0\i0                      providing for a token mode as well.}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 Prescriptive vs.     Mainly backward looking                           Mainly forward looking. Backward looking models often }
+\par\plain {\f0\fs24\b0\i0 descriptive mode                                                       apply a MOF-oriented ontological commitment or similar.}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 Ontological vs.      Ontological modelling.                            Mainly linguistic modelling.}
+\par\plain {\f0\fs24\b0\i0 linguistic mode      }
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 Logical assumption   Open world assumption (OWA) maintains a           Closed world assumption (CWA) maintains data consistency}
+\par\plain {\f0\fs24\b0\i0                      semantic under-specification                      and query performance}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 Logic                Description logic                                 First-order logic}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 Source of truth      Reality                                           Meta-model}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 Focus                Explanatory & understanding                       Constructive & realisation  }
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 Type of Typing       \loch\af0\hich\af0\dbch\af0\uc1\u8220\'93descriptive typing\u8221\'94[^DT], i.e., membership of    \u8220\'93Nominal typing\u8221\'94[^DT], explicit typing relationships  }
+\par\plain {\f0\fs24\b0\i0                      an instance to type T is only dependent on        between individuals and their types: names are  }
+\par\plain {\f0\fs24\b0\i0                      whether or not it has the required properties:    significant and subtyping is explicitly declared. }
+\par\plain {\f0\fs24\b0\i0                      If it walks like a duck, talks like a duck and    Intensions are implicit by name, extensions are  }
+\par\plain {\f0\fs24\b0\i0                      swims like a duck, it \\emph\{is\} a duck. An        explicit enumerations of type incarnation. }
+\par\plain {\f0\fs24\b0\i0                      explicit equivalence relation is established }
+\par\plain {\f0\fs24\b0\i0                      between extension and intension.}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 Constrain purpose    Axioms constrain the possible interpretations,    Constraints enforce integrity of the data, and are used }
+\par\plain {\f0\fs24\b0\i0                      and scopw the automated reasoning.                to optimise processing performance}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 Objects of interest  The categories of being which are assumed to      It is the goal of the information level to define one }
+\par\plain {\f0\fs24\b0\i0                      exist in a certain domain independently of        among the many possible structures of propositions }
+\par\plain {\f0\fs24\b0\i0                      particular information demands                    (information) about a domain and to characterise a }
+\par\plain {\f0\fs24\b0\i0                                                                        certain information demand.}
+\par\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0 --------------------------------------------------------------------------------------------------------------------------------}
+\par\pard\plain \ltrch\loch \f0\fs24\b0\i0
+\par\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0 Table: The main differences between an ontology and a (forward-looking) model. \\label\{tab:onto-versus-model\}}
+\par\pard\plain \ltrch\loch \f0\fs24\b0\i0
+\par\pard\plain \ri-16872\ql\ltrch\loch \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 We have already indicated in \\cref\{ontological-commitment\} the importance of the ontological commitment for the modelling language. Contemporary modelling frameworks yield meta-models that have a clear engineering focus which is very suitable for forward-looking, prescriptive (system) models. At the same time, these ontological commitments fall short for backward-looking, descriptive models. We consider domain ontologies, which naturally evolve on foundational ontologies (that express an ontological commitment), a necessary component to formally represent the domain of interpretation and faithfully describe the domain of interest. We concluded in \\cref\{what-is-software-semantics\} to use one single conceptualisation as reference to both models in the semantic monolith. In order to make this relationship explicit it is useful to represent the reference conceptualisation as a model, which can then be explicitly referred to for all elements that are applied by both models in the semantic monolith. The domain ontology will take on the role of the representation of the reference conceptualisation, denoted in the remainder of the text as the *conceptual model*.  }
+\par\pard\plain \ri-10760\ql\ltrch\loch {\f0\fs24\b0\i0 This leaves the question of the relationship between the conceptual model and both models in the ASM, which will be addressed in the next section.}
+\par\plain \f0\fs24\b0\i0
+\par\pard\plain \ri-16872\ql\ltrch\loch \f0\fs24\b0\i0
+\par\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0 <!-- page additions -->}
+\par\pard\plain \ri-10760\ql\ltrch\loch {\f0\fs24\b0\i0 [def:ontoMDA]: src\\images\\OntosInMDE.png \{#fig:OntosInMDE  width=568px height=346px\}}
+\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0 [^DT]: Coined by \\cite\{Kuhne2018\}}}

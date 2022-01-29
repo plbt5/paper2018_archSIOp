@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="FDE3A400-F9AC-4C43-9E25-1275886F76DE">
+    <Snapshot Date="2018-05-23 15:40:04 +0200">
+        <Title>Pre-Sync External File Version</Title>
+        <Text>---
+title:  'Consolidating semantic interoperability in software architectures'  
+subtitle: 'Access-and-play semantic interoperability in contemporary architectural paradigms'  
+author:  
+- name: Paul Brandt  
+  affiliation: Eindhoven University of Technology; Netherlands Organization of Applied Scientific Research TNO, Den Haag, The Netherlands   
+- name: Eric Grandry  
+  affiliation: Luxembourg Institute of Science and Technology, Esch-sur-Alzette, Luxembourg  
+- name: Twan Basten  
+  affiliation: Eindhoven University of Technology, Eindhoven, The Netherlands  
+category:   
+bibliography: src/bib/CitedByMe-2018_archSIOp.bib  
+csl: templates/environmental-health-perspectives.csl  
+abstract: |  
+  
+  *Background:* Access-and-Play SIOp is the next glass ceiling in ICT. We can think of two approaches to break through the ceiling, i.e., using either strong AI or weak AI. Strong AI is not yet available, while weak AI, despite its current applications in Semantic Web or ontologies, has not yet been embedded in contemporary software architectural paradigms. Current approaches towards SIOp can be considered accepted folklore.  
+  *Objective:* The objective of this study is to identify and define the fundamental guidance towards access-and-play semantic interoperability in contemporary architectural paradigms. 
+  *Method:* Our approach is based on the discipline of semiotics. After identifying semiotic shortcomings in MDA and view-based architectural paradigms and their subsequent definition as missing concerns, we develop the necessary guiding architectural principles. We finally investigate their consolidation in view-based and model-driven architectural paradigms. [We evaluate these principles by designing a reference architecture and proof its use in SIOp between two software agents.]
+  *Results:* The semiotic approach/discipline demonstrates/proves semantics to be the result of a reciprocity between data and the software code that operates on them. The major shortcomings in architectural paradigms to account for semantic interoperability are their negligence of semiotic fundamentals and, particularly, the absence of an explicit ontological commitment that stands at the root of semantics. Therefore, the concern about a semantic loose coupling should be added to the architectural paradigms. The supporting principles are (i) semantic transparency, (ii) semantic separation of concerns, and (iii) explicit computational semantics. In view-based architectures their consolidation implies a new semantic view, while the MDA paradigm requires an ontological commitment on M3. Both paradigms need to include an alignment-based semantic mediation capability. 
+  *Conclusions:* Access-and-play SIOp can be achieved when considering semiotic fundamentals and adding loosely coupled semantics to contemporary architectural paradigms.   
+...</Text>
+    </Snapshot>
+    <Snapshot Date="2018-05-23 15:29:05 +0200">
+        <Title>Pre-Sync External File Version</Title>
+        <Text>---
+title:  'Consolidating semantic interoperability in software architectures'  
+subtitle: 'Access-and-play semantic interoperability in contemporary architectural paradigms'  
+author:  
+- name: Paul Brandt  
+  affiliation: Eindhoven University of Technology; Netherlands Organization of Applied Scientific Research TNO, Den Haag, The Netherlands   
+- name: Eric Grandry  
+  affiliation: Luxembourg Institute of Science and Technology, Esch-sur-Alzette, Luxembourg  
+- name: Johan Lukkien  
+  affiliation: Eindhoven University of Technology, Eindhoven, The Netherlands  
+- name: Twan Basten  
+  affiliation: Eindhoven University of Technology, Eindhoven, The Netherlands  
+category:   
+bibliography: src/bib/CitedByMe-2018_archSIOp.bib  
+csl: templates/environmental-health-perspectives.csl  
+abstract: |  
+  
+  *Background:* Access-and-Play SIOp is the next glass ceiling in ICT. We can think of two approaches to break through the ceiling, i.e., using either strong AI or weak AI. Strong AI is not yet available, while weak AI, despite its current applications in Semantic Web or ontologies, has not yet been embedded in contemporary software architectural paradigms. Current approaches towards SIOp can be considered accepted folklore.  
+  *Objective:* The objective of this study is to identify and define the fundamental guidance towards access-and-play semantic interoperability in contemporary architectural paradigms. 
+  *Method:* Our approach is based on the discipline of semiotics. After identifying semiotic shortcomings in MDA and view-based architectural paradigms and their subsequent definition as missing concerns, we develop the necessary guiding architectural principles. We finally investigate their consolidation in view-based and model-driven architectural paradigms. [We evaluate these principles by designing a reference architecture and proof its use in SIOp between two software agents.]
+  *Results:* The semiotic approach/discipline demonstrates/proves semantics to be the result of a reciprocity between data and the software code that operates on them. The major shortcomings in architectural paradigms to account for semantic interoperability are their negligence of semiotic fundamentals and, particularly, the absence of an explicit ontological commitment that stands at the root of semantics. Therefore, the concern about a semantic loose coupling should be added to the architectural paradigms. The supporting principles are (i) semantic transparency, (ii) semantic separation of concerns, and (iii) explicit computational semantics. In view-based architectures their consolidation implies a new semantic view, while the MDA paradigm requires an ontological commitment on M3. Both paradigms need to include an alignment-based semantic mediation capability. 
+  *Conclusions:* Access-and-play SIOp can be achieved when considering semiotic fundamentals and adding loosely coupled semantics to contemporary architectural paradigms.   
+...</Text>
+    </Snapshot>
+    <Snapshot Date="2018-05-23 15:37:59 +0200">
+        <Title>Pre-External File Sync Overwrite</Title>
+        <Text>---
+title:  'Consolidating semantic interoperability in software architectures'  
+subtitle: 'Access-and-play semantic interoperability in contemporary architectural paradigms'  
+author:  
+- name: Paul Brandt  
+  affiliation: Eindhoven University of Technology; Netherlands Organization of Applied Scientific Research TNO, Den Haag, The Netherlands   
+- name: Eric Grandry  
+  affiliation: Luxembourg Institute of Science and Technology, Esch-sur-Alzette, Luxembourg  
+- name: Twan Basten  
+  affiliation: Eindhoven University of Technology, Eindhoven, The Netherlands  
+category:   
+bibliography: src/bib/CitedByMe-2018_archSIOp.bib  
+csl: templates/environmental-health-perspectives.csl  
+abstract: |  
+  
+  *Background:* Access-and-Play SIOp is the next glass ceiling in ICT. We can think of two approaches to break through the ceiling, i.e., using either strong AI or weak AI. Strong AI is not yet available, while weak AI, despite its current applications in Semantic Web or ontologies, has not yet been embedded in contemporary software architectural paradigms. Current approaches towards SIOp can be considered accepted folklore.  
+  *Objective:* The objective of this study is to identify and define the fundamental guidance towards access-and-play semantic interoperability in contemporary architectural paradigms. 
+  *Method:* Our approach is based on the discipline of semiotics. After identifying semiotic shortcomings in MDA and view-based architectural paradigms and their subsequent definition as missing concerns, we develop the necessary guiding architectural principles. We finally investigate their consolidation in view-based and model-driven architectural paradigms. [We evaluate these principles by designing a reference architecture and proof its use in SIOp between two software agents.]
+  *Results:* The semiotic approach/discipline demonstrates/proves semantics to be the result of a reciprocity between data and the software code that operates on them. The major shortcomings in architectural paradigms to account for semantic interoperability are their negligence of semiotic fundamentals and, particularly, the absence of an explicit ontological commitment that stands at the root of semantics. Therefore, the concern about a semantic loose coupling should be added to the architectural paradigms. The supporting principles are (i) semantic transparency, (ii) semantic separation of concerns, and (iii) explicit computational semantics. In view-based architectures their consolidation implies a new semantic view, while the MDA paradigm requires an ontological commitment on M3. Both paradigms need to include an alignment-based semantic mediation capability. 
+  *Conclusions:* Access-and-play SIOp can be achieved when considering semiotic fundamentals and adding loosely coupled semantics to contemporary architectural paradigms.   
+...</Text>
+    </Snapshot>
+    <Snapshot Date="2014-12-27 13:49:00 +0100">
+        <Title>In transition to Semiotics structure</Title>
+        <Text>---
+title:  'A semiotic protocol for semantic interoperability'  
+subtitle: 'design-time concerns for run-time semantic reconciliation'  
+author: Paul Brandt  
+affiliation: Eindhoven University of Technology  
+chapters: true 
+version: 'v2'  
+ack: This work was supported by the EC, through the RECAP project, part of the Interreg IVB NWE Programme.   
+chapters: true   &lt;!--  This used to work, putting the chapter level to main level, but somehow it broke. 
+                       Now it is taken care of by the pandoc argument --chapters . --&gt;  
+tags: semantic interoperability, semantic dimensions, semantic characteristics, semantic concerns, semantic protocols, remote patient monitoring  
+bibliography: generated/bib/citedDiss.bib  
+csl: templates/environmental-health-perspectives.csl 
+abstract: | 
+    
+
+    &lt;!--
+    Op de vraag van Twan ‘‘wat mijn proefschrift zou moeten bevatten of impliceren, wil ik er trots op zijn’’, is een invalshoek die ik nog niet heb vervat in dit overzicht. Tegelijkertijd dwingt het me wel om een zeer nuttige mentale draai te maken. Een eerste antwoord wil ik daarom hier in dit abstract hebben geformuleerd; niet als blijvende tekst, maar wel om mijzelf bij de les te houden.
+
+    *Ik ben trots op mijn proefschrift wanneer* [^niet als]... :
+
+    Een eerste antwoord ligt op het vlak van het werk: ... *wanneer mijn proefschrift er toe leidt dat mijn afdeling bij TNO de komende jaren een unieke techniek/technologie in handen krijgt dat in vele domeinen innovaties mogelijk maakt op het gebied van SIOp*. Een soortgelijk antwoord is er voor een mogelijk toekomstige rol van mij bij een technische universiteit: ... *wanneer het resulteert in interoperabiliteitsonderzoek waar ik i.s.m. studenten en promovendi aan kan werken*.
+
+    Een tweede antwoord ligt op het vlak van de toepasbaarheid: ... *wanneer het proefschrift voorziet in een theorie, geschaagd door een formeel logische beschrijving van (aspecten van) SIOp, alsmede een implementatie van een referentie-architectuur dat gevalideerd is in minimaal 1 IoT case -- het liefst rond remote patient monitoring*.
+
+    Een derde antwoord ligt op het vlak van de multidisciplinariteit: ... *wanneer het proefschrift een integratie beschrijft van de disciplines (i) filosofie* (i.c., semantic grounding, Grice en (deels) de meta-dialoog over de semantiek tussen de peers), *(ii) informatieanalyse en -modellering* (i.c. conceptual modeling en ontologische analyse), *(iii) mathematische logica* (i.c. de conceptualisatie en onderlinge afstemming ervan), *en (iv) software engineering* (i.c. de implementatie van het reference framework).
+
+    Dat is erg ambitieus, om niet te zeggen groots en meeslepend. Vanuit toekomstgericht oogpunt ligt de prioriteit bij het eerste antwoord. Ik vermoed echter dat dat alleen mogelijk is als het tweede antwoord wordt gerealiseerd, waarmee dat de daadwerkelijke prioriteit krijgt, ook gezien het feit dat dat iets is waar ik zelf regie over heb. --&gt;       
+...</Text>
+        <Comments>Abstract:
+
+The purpose of semantic interoperability is to become independent, to the greatest extent possible, from conventions about meanings of signs when exchanging semantics. The question at hand is whether and to what extent it is possible to complete the semiotic triangle in ICT *at runtime*. Our approach to semantic interoperability is to facilitate a software component that can take on the role of the *thought* component, as opposed to putting a human in the loop at design-time. We have investigated three independent aspects to its answer, because these aspects attribute to the emergence of misunderstanding in the first place. The first (linguistic) aspect is about semantic heterogeneity, an issue that is caused by ambiguity, differences in levels of abstraction and aggregation, and changing perspectives. This issue refers to the relation between *sign* and *thing* intrinsically being non-sound. Semantic heterogeneity, therefore, should not be seen as a flaw that needs correction, but, being intricate to the nature of semantics, our approach should acknowledge and embrace its existence by making it explicit and investigate how it can be accounted for. The second (neurocognitive) aspect emerges as a consequence of taking the semiotic perspective on meaning, and is called the *symbol grounding problem*. This problem is about how to give meaning to symbols (i.c., the signs, such as “prime number” or “car”) that are intrinsically arbitrary. Although symbols can be interpreted to relate to the referent (i.c., the thing in reality), it is important to acknowledge that their shape is arbitrary in relation to their referent. Yet, the thought component possesses the capability to pick the referent that the symbol stands for, something that a symbol system alone is not capable of. The symbol grounding problem refers to how this capability of the thought component can be realised. Although "Computationalism" believes otherwise, this problem cannot be solved from within the symbol system itself, and directs us to an approach that does not depend *solely* on symbol representation and manipulation but calls for the inclusion of perceptual grounding and ostensive definitions where the symbol system falls short. Thirdly, introducing both aspects in itself doesn’t make for systems that can become interoperable on demand; that requires an architectural embedding of the above mentioned concerns such that semantics become explicitly related to software models that are foundational to interoperability, e.g., models about data, processes, dialogues and more. This is the dimension of software architecting that aims to restrict the freedom of design by having principles, patterns and standards guide design decisions such that the unintended but allowed interpretation of models and behaviour can be excluded while required interpretations and behaviour can still be achieved at runtime. Therefore, our approach needs to align the semantic concerns into the overall system architecture because design decisions that are not properly aligned with the semantic concerns, induce semantic variability that impedes semantic interoperability. 
+
+    All three aspects call, in their own way, for a tailored means to constrain the possible interpretations of semantics to its intended interpretation. Constraining semantics, therefore, is the main theme in our work. We show that although being independent, semantic heterogeneity, perceptual grounding and engineering induced semantic variability can be addressed by one single framework on constraining semantics. We provide for a coherent, extensible method, called Cascaded Constrained Semantics, that respects semantic heterogeneity, facilitates symbol grounding and limits engineering induced semantic variability.  
+brandtp, 1-12-2014 9:44:42
+Dit zijn opmerkingen met betrekking waartoe het gaat leiden, niets over het onderwerp zelf!</Comments>
+    </Snapshot>
+    <Snapshot Date="2015-03-25 11:49:04 +0100">
+        <Title>Oude abstract</Title>
+        <Text>---
+title:  'A semiotic protocol for semantic interoperability'  
+subtitle: 'design-time concerns for run-time semantic reconciliation'  
+author: Paul Brandt  
+affiliation: Eindhoven University of Technology  
+version: '0.2'  
+category: 'Probleembeschrijving'  
+ack: &lt;!-- This work was supported by the EC, through the RECAP project, part of the Interreg IVB NWE Programme. --&gt;    
+chapters: true   &lt;!--  This used to work, putting the chapter level to main level, but somehow it broke. 
+                       Now it is taken care of by the pandoc argument --chapters . --&gt;  
+tags: semantic interoperability, semantic dimensions, semantic characteristics, semantic concerns, semantic protocols, remote patient monitoring, blah  
+bibliography: generated/bib/citedDiss.bib  
+csl: templates/environmental-health-perspectives.csl 
+abstract: | 
+    The purpose of semantic interoperability is to become independent, to the greatest extent possible, from conventions about meanings of signs when exchanging semantics. The question at hand is whether and to what extent it is possible to complete the semiotic triangle in ICT *at runtime*. Our approach to semantic interoperability is to facilitate a software component that can take on the role of the *thought* component, as opposed to putting a human in the loop at design-time. We have investigated three independent aspects to its answer, because these aspects attribute to the emergence of misunderstanding in the first place. The first (linguistic) aspect is about semantic heterogeneity, an issue that is caused by ambiguity, differences in levels of abstraction and aggregation, and changing perspectives. This issue refers to the relation between *sign* and *thing* intrinsically being non-sound. Semantic heterogeneity, therefore, should not be seen as a flaw that needs correction, but, being intricate to the nature of semantics, our approach should acknowledge and embrace its existence by making it explicit and investigate how it can be accounted for. The second (neurocognitive) aspect emerges as a consequence of taking the semiotic perspective on meaning, and is called the *symbol grounding problem*. This problem is about how to give meaning to symbols (i.c., the signs, such as “prime number” or “car”) that are intrinsically arbitrary. Although symbols can be interpreted to relate to the referent (i.c., the thing in reality), it is important to acknowledge that their shape is arbitrary in relation to their referent. Yet, the thought component possesses the capability to pick the referent that the symbol stands for, something that a symbol system alone is not capable of. The symbol grounding problem refers to how this capability of the thought component can be realised. Although "Computationalism" believes otherwise, this problem cannot be solved from within the symbol system itself, and directs us to an approach that does not depend *solely* on symbol representation and manipulation but calls for the inclusion of perceptual grounding and ostensive definitions where the symbol system falls short. Thirdly, introducing both aspects in itself doesn’t make for systems that can become interoperable on demand; that requires an architectural embedding of the above mentioned concerns such that semantics become explicitly related to software models that are foundational to interoperability, e.g., models about data, processes, dialogues and more. This is the dimension of software architecting that aims to restrict the freedom of design by having principles, patterns and standards guide design decisions such that the unintended but allowed interpretation of models and behaviour can be excluded while required interpretations and behaviour can still be achieved at runtime. Therefore, our approach needs to align the semantic concerns into the overall system architecture because design decisions that are not properly aligned with the semantic concerns, induce semantic variability that impedes semantic interoperability. 
+
+    All three aspects call, in their own way, for a tailored means to constrain the possible interpretations of semantics to its intended interpretation. Constraining semantics, therefore, is the main theme in our work. We show that although being independent, semantic heterogeneity, perceptual grounding and engineering induced semantic variability can be addressed by one single framework on constraining semantics. We provide for a coherent, extensible method, called Cascaded Constrained Semantics, that respects semantic heterogeneity, facilitates symbol grounding and limits engineering induced semantic variability.  
+   
+...</Text>
+    </Snapshot>
+    <Snapshot Date="2018-06-11 13:15:08 +0200">
+        <Title>Pre-Sync External File Version</Title>
+        <Text>---
+title:  'Consolidating semantic interoperability in software architectures'  
+subtitle: 'Access-and-play semantic interoperability in contemporary architectural paradigms'  
+author:  
+- name: Paul Brandt  
+  affiliation: Eindhoven University of Technology; Netherlands Organization of Applied Scientific Research TNO, Den Haag, The Netherlands   
+- name: Eric Grandry  
+  affiliation: Luxembourg Institute of Science and Technology, Esch-sur-Alzette, Luxembourg  
+- name: Twan Basten  
+  affiliation: Eindhoven University of Technology, Eindhoven, The Netherlands  
+category:   
+bibliography: src/bib/CitedByMe-2018_archSIOp.bib  
+csl: templates/environmental-health-perspectives.csl  
+abstract: |  
+  
+  *Background:* Access-and-Play SIOp is the next glass ceiling in ICT. We can think of two approaches to break through the ceiling, i.e., using either strong AI or weak AI. Strong AI is not yet available, while weak AI, despite its current applications in Semantic Web or ontologies, has not yet been embedded in contemporary software architectural paradigms. Current approaches towards SIOp can be considered accepted folklore.  
+  *Objective:* The objective of this study is to identify and define the fundamental guidance towards access-and-play semantic interoperability in contemporary architectural paradigms. 
+  *Method:* Our approach is based on the discipline of semiotics. After identifying semiotic shortcomings in MDA and view-based architectural paradigms and their subsequent definition as missing concerns, we develop the necessary guiding architectural principles. We finally investigate their consolidation in view-based and model-driven architectural paradigms. [We evaluate these principles by designing a reference architecture and proof its use in SIOp between two software agents.]
+  *Results:* The semiotic approach/discipline demonstrates/proves semantics to be the result of a reciprocity between data and the software code that operates on them. The major shortcomings in architectural paradigms to account for semantic interoperability are their negligence of semiotic fundamentals and, particularly, the absence of an explicit ontological commitment that stands at the root of semantics. Therefore, the concern about a semantic loose coupling should be added to the architectural paradigms. The supporting principles are (i) semantic transparency, (ii) semantic separation of concerns, and (iii) explicit computational semantics. In view-based architectures their consolidation implies a new semantic view, while the MDA paradigm requires an ontological commitment on M3. Both paradigms need to include a semantic mediation capability. 
+  *Conclusions:* Access-and-play SIOp can be achieved when considering semiotic fundamentals and adding loosely coupled semantics to contemporary architectural paradigms.   
+...</Text>
+    </Snapshot>
+    <Snapshot Date="2018-05-23 15:24:26 +0200">
+        <Title>Pre-External File Sync Overwrite</Title>
+        <Text>---
+title:  'Consolidating semantic interoperability in software architectures'  
+subtitle: 'Access-and-play semantic interoperability in contemporary architectural paradigms'  
+author:  
+- name: Paul Brandt  
+  affiliation: Eindhoven University of Technology; Netherlands Organization of Applied Scientific Research TNO, Den Haag, The Netherlands   
+- name: Eric Grandry  
+  affiliation: Luxembourg Institute of Science and Technology, Esch-sur-Alzette, Luxembourg  
+- name: Twan Basten  
+  affiliation: Eindhoven University of Technology, Eindhoven, The Netherlands  
+category:   
+bibliography: src/bib/CitedByMe-2018_archSIOp.bib  
+csl: templates/environmental-health-perspectives.csl  
+abstract: |  
+  
+  *Background:* Access-and-Play SIOp is the next glass ceiling in ICT. We can think of two approaches to break through the ceiling, i.e., using either strong AI or weak AI. Strong AI is not yet available, while weak AI, despite its current applications in Semantic Web or ontologies, has not yet been embedded in contemporary software architectural paradigms. Current approaches towards SIOp can be considered accepted folklore.  
+
+  *Objective:* The objective of this study is to identify and define the fundamental guidance towards access-and-play semantic interoperability in contemporary architectural paradigms. 
+
+  *Method:* Our approach is based on the discipline of semiotics. After identifying semiotic shortcomings in MDA and view-based architectural paradigms and their subsequent definition as missing concerns, we develop the necessary guiding architectural principles. We finally investigate their consolidation in view-based and model-driven architectural paradigms. [We evaluate these principles by designing a reference architecture and proof its use in SIOp between two software agents.]
+
+  *Results:* The semiotic approach/discipline demonstrates/proves semantics to be the result of a reciprocity between data and the software code that operates on them. The major shortcomings in architectural paradigms to account for semantic interoperability are their negligence of semiotic fundamentals and, particularly, the absence of an explicit ontological commitment that stands at the root of semantics. Therefore, the concern about a semantic loose coupling should be added to the architectural paradigms. The supporting principles are (i) semantic transparency, (ii) semantic separation of concerns, and (iii) explicit computational semantics. In view-based architectures their consolidation implies a new semantic view, while the MDA paradigm requires an ontological commitment on M3. Both paradigms need to include an alignment-based semantic mediation capability. 
+
+  *Conclusions:* Access-and-play SIOp can be achieved when considering semiotic fundamentals and adding loosely coupled semantics to contemporary architectural paradigms.   
+
+
+...</Text>
+    </Snapshot>
+    <Snapshot Date="2018-05-23 23:39:14 +0200">
+        <Title>Pre-Sync External File Version</Title>
+        <Text>---
+
+title:  'Consolidating semantic interoperability in software architectures'  
+
+subtitle: 'Access-and-play semantic interoperability in contemporary architectural paradigms'  
+
+author:  
+
+- name: Paul Brandt  
+
+  affiliation: Eindhoven University of Technology; Netherlands Organization of Applied Scientific Research TNO, Den Haag, The Netherlands   
+
+- name: Eric Grandry  
+
+  affiliation: Luxembourg Institute of Science and Technology, Esch-sur-Alzette, Luxembourg  
+
+- name: Twan Basten  
+
+  affiliation: Eindhoven University of Technology, Eindhoven, The Netherlands  
+
+category:   
+
+bibliography: src/bib/CitedByMe-2018_archSIOp.bib  
+
+csl: templates/environmental-health-perspectives.csl  
+
+abstract: |  
+
+  
+
+  *Background:* Access-and-Play SIOp is the next glass ceiling in ICT. We can think of two approaches to break through the ceiling, i.e., using either strong AI or weak AI. Strong AI is not yet available, while weak AI, despite its current applications in Semantic Web or ontologies, has not yet been embedded in contemporary software architectural paradigms. Current approaches towards SIOp can be considered accepted folklore.  
+
+  *Objective:* The objective of this study is to identify and define the fundamental guidance towards access-and-play semantic interoperability in contemporary architectural paradigms. 
+
+  *Method:* Our approach is based on the discipline of semiotics. After identifying semiotic shortcomings in MDA and view-based architectural paradigms and their subsequent definition as missing concerns, we develop the necessary guiding architectural principles. We finally investigate their consolidation in view-based and model-driven architectural paradigms. [We evaluate these principles by designing a reference architecture and proof its use in SIOp between two software agents.]
+
+  *Results:* The semiotic approach/discipline demonstrates/proves semantics to be the result of a reciprocity between data and the software code that operates on them. The major shortcomings in architectural paradigms to account for semantic interoperability are their negligence of semiotic fundamentals and, particularly, the absence of an explicit ontological commitment that stands at the root of semantics. Therefore, the concern about a semantic loose coupling should be added to the architectural paradigms. The supporting principles are (i) semantic transparency, (ii) semantic separation of concerns, and (iii) explicit computational semantics. In view-based architectures their consolidation implies a new semantic view, while the MDA paradigm requires an ontological commitment on M3. Both paradigms need to include an alignment-based semantic mediation capability. 
+
+  *Conclusions:* Access-and-play SIOp can be achieved when considering semiotic fundamentals and adding loosely coupled semantics to contemporary architectural paradigms.   
+
+...</Text>
+    </Snapshot>
+    <Snapshot Date="2018-05-23 23:35:38 +0200">
+        <Title>Pre-Sync External File Version</Title>
+        <Text>---
+title:  'Consolidating semantic interoperability in software architectures'  
+subtitle: 'Access-and-play semantic interoperability in contemporary architectural paradigms'  
+author:  
+- name: Paul Brandt  
+  affiliation: Eindhoven University of Technology; Netherlands Organization of Applied Scientific Research TNO, Den Haag, The Netherlands   
+- name: Eric Grandry  
+  affiliation: Luxembourg Institute of Science and Technology, Esch-sur-Alzette, Luxembourg  
+- name: Twan Basten  
+  affiliation: Eindhoven University of Technology, Eindhoven, The Netherlands  
+category:   
+bibliography: src/bib/CitedByMe-2018_archSIOp.bib  
+csl: templates/environmental-health-perspectives.csl  
+abstract: |  
+  
+  *Background:* Access-and-Play SIOp is the next glass ceiling in ICT. We can think of two approaches to break through the ceiling, i.e., using either strong AI or weak AI. Strong AI is not yet available, while weak AI, despite its current applications in Semantic Web or ontologies, has not yet been embedded in contemporary software architectural paradigms. Current approaches towards SIOp can be considered accepted folklore.  
+  *Objective:* The objective of this study is to identify and define the fundamental guidance towards access-and-play semantic interoperability in contemporary architectural paradigms. 
+  *Method:* Our approach is based on the discipline of semiotics. After identifying semiotic shortcomings in MDA and view-based architectural paradigms and their subsequent definition as missing concerns, we develop the necessary guiding architectural principles. We finally investigate their consolidation in view-based and model-driven architectural paradigms. [We evaluate these principles by designing a reference architecture and proof its use in SIOp between two software agents.]
+  *Results:* The semiotic approach/discipline demonstrates/proves semantics to be the result of a reciprocity between data and the software code that operates on them. The major shortcomings in architectural paradigms to account for semantic interoperability are their negligence of semiotic fundamentals and, particularly, the absence of an explicit ontological commitment that stands at the root of semantics. Therefore, the concern about a semantic loose coupling should be added to the architectural paradigms. The supporting principles are (i) semantic transparency, (ii) semantic separation of concerns, and (iii) explicit computational semantics. In view-based architectures their consolidation implies a new semantic view, while the MDA paradigm requires an ontological commitment on M3. Both paradigms need to include an alignment-based semantic mediation capability. 
+  *Conclusions:* Access-and-play SIOp can be achieved when considering semiotic fundamentals and adding loosely coupled semantics to contemporary architectural paradigms.   
+...</Text>
+    </Snapshot>
+    <Snapshot Date="2018-05-25 15:33:16 +0200">
+        <Title>Pre-Sync External File Version</Title>
+        <Text>---
+title:  'Consolidating semantic interoperability in software architectures'  
+subtitle: 'Access-and-play semantic interoperability in contemporary architectural paradigms'  
+author:  
+- name: Paul Brandt  
+  affiliation: Eindhoven University of Technology; Netherlands Organization of Applied Scientific Research TNO, Den Haag, The Netherlands   
+- name: Eric Grandry  
+  affiliation: Luxembourg Institute of Science and Technology, Esch-sur-Alzette, Luxembourg  
+- name: Twan Basten  
+  affiliation: Eindhoven University of Technology, Eindhoven, The Netherlands  
+category:   
+bibliography: src/bib/CitedByMe-2018_archSIOp.bib  
+csl: templates/environmental-health-perspectives.csl  
+abstract: |  
+  
+  *Background:* Access-and-Play SIOp is the next glass ceiling in ICT. We can think of two approaches to break through the ceiling, i.e., using either strong AI or weak AI. Strong AI is not yet available, while weak AI, despite its current applications in Semantic Web or ontologies, has not yet been embedded in contemporary software architectural paradigms. Current approaches towards SIOp can be considered accepted folklore.  
+  *Objective:* The objective of this study is to identify and define the fundamental guidance towards access-and-play semantic interoperability in contemporary architectural paradigms. 
+  *Method:* Our approach is based on the discipline of semiotics. After identifying semiotic shortcomings in MDA and view-based architectural paradigms and their subsequent definition as missing concerns, we develop the necessary guiding architectural principles. We finally investigate their consolidation in view-based and model-driven architectural paradigms. [We evaluate these principles by designing a reference architecture and proof its use in SIOp between two software agents.]
+  *Results:* The semiotic approach/discipline demonstrates/proves semantics to be the result of a reciprocity between data and the software code that operates on them. The major shortcomings in architectural paradigms to account for semantic interoperability are their negligence of semiotic fundamentals and, particularly, the absence of an explicit ontological commitment that stands at the root of semantics. Therefore, the concern about a semantic loose coupling should be added to the architectural paradigms. The supporting principles are (i) semantic transparency, (ii) semantic separation of concerns, and (iii) explicit computational semantics. In view-based architectures their consolidation implies a new semantic view, while the MDA paradigm requires an ontological commitment on M3. Both paradigms need to include an alignment-based semantic mediation capability. 
+  *Conclusions:* Access-and-play SIOp can be achieved when considering semiotic fundamentals and adding loosely coupled semantics to contemporary architectural paradigms.   
+...</Text>
+    </Snapshot>
+    <Snapshot Date="2018-05-23 23:29:00 +0200">
+        <Title>Pre-External File Sync Overwrite</Title>
+        <Text>---
+title:  'Consolidating semantic interoperability in software architectures'  
+subtitle: 'Access-and-play semantic interoperability in contemporary architectural paradigms'  
+author:  
+- name: Paul Brandt  
+  affiliation: Eindhoven University of Technology; Netherlands Organization of Applied Scientific Research TNO, Den Haag, The Netherlands   
+- name: Eric Grandry  
+  affiliation: Luxembourg Institute of Science and Technology, Esch-sur-Alzette, Luxembourg  
+- name: Twan Basten  
+  affiliation: Eindhoven University of Technology, Eindhoven, The Netherlands  
+category:   
+bibliography: src/bib/CitedByMe-2018_archSIOp.bib  
+csl: templates/environmental-health-perspectives.csl  
+abstract: |  
+  
+  *Background:* Access-and-Play SIOp is the next glass ceiling in ICT. We can think of two approaches to break through the ceiling, i.e., using either strong AI or weak AI. Strong AI is not yet available, while weak AI, despite its current applications in Semantic Web or ontologies, has not yet been embedded in contemporary software architectural paradigms. Current approaches towards SIOp can be considered accepted folklore.  
+  *Objective:* The objective of this study is to identify and define the fundamental guidance towards access-and-play semantic interoperability in contemporary architectural paradigms. 
+  *Method:* Our approach is based on the discipline of semiotics. After identifying semiotic shortcomings in MDA and view-based architectural paradigms and their subsequent definition as missing concerns, we develop the necessary guiding architectural principles. We finally investigate their consolidation in view-based and model-driven architectural paradigms. [We evaluate these principles by designing a reference architecture and proof its use in SIOp between two software agents.]
+  *Results:* The semiotic approach/discipline demonstrates/proves semantics to be the result of a reciprocity between data and the software code that operates on them. The major shortcomings in architectural paradigms to account for semantic interoperability are their negligence of semiotic fundamentals and, particularly, the absence of an explicit ontological commitment that stands at the root of semantics. Therefore, the concern about a semantic loose coupling should be added to the architectural paradigms. The supporting principles are (i) semantic transparency, (ii) semantic separation of concerns, and (iii) explicit computational semantics. In view-based architectures their consolidation implies a new semantic view, while the MDA paradigm requires an ontological commitment on M3. Both paradigms need to include an alignment-based semantic mediation capability. 
+  *Conclusions:* Access-and-play SIOp can be achieved when considering semiotic fundamentals and adding loosely coupled semantics to contemporary architectural paradigms.   
+...</Text>
+    </Snapshot>
+</SnapshotIndexes>

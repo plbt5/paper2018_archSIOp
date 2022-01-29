@@ -1,0 +1,4 @@
+Present concrete notion on (i) the semiotic triangle and (ii) the relationsbetween its nodes.
+Show abstraction/generalisation as stacking of triangles vertically, and representational meta-levels as stacking them horizontally.
+
+\end{synopsis}

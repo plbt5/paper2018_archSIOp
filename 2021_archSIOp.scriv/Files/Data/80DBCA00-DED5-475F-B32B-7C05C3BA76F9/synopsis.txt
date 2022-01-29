@@ -1,0 +1,4 @@
+Purpose of this section: To establish an informal but concrete notion on (i) the semiotic triangle and the relationsbetween its nodes, and (ii) ontological commitment and its relation to modelling languages.
+
+\end{synopsis}
+

@@ -1,0 +1,6 @@
+Purpose of this section is to show the relevance of a (modelling) language: a language is used to convey distinctions. The distinctions that are aticulated by a language are denoted as its ontologcal commitment. Modelling languages need to show distinctions that are of relevance to the purpose of modelling. The predominant purpose of modelling is to describe (a particular domain in) reality by distinguishing the entities of interest. The ontological commitment for a modelling language therefore should be of ontological nature, “(...) not in order to know *what there is*, but in order to know what a given remark or doctrine, ours or someone else’s, *says* there is” [@Quine:1953er]. The ontological square or its extension into the ontological sextet [describe it] can be considered the most basic one, which have been specialized into several flavours, all called upper-level, or top-level, or foundational, ontologies, e.g., UFO, BFO, DOLCE and more. 
+
+Show how MDE/MDA applies an ontological commitment as defined in M3, which facilitates an equivalent distinction as the ontological square, but less than the ontol.sextet.
+ 
+Optionally, provide for the distinctions/theories that are foundational to the two most appropriate ontological commitments / foundational ontologies: BFO and UFO.
+\end{synopsis}

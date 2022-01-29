@@ -1,0 +1,52 @@
+{\rtf1\ansi\ansicpg1252\uc1\deff0
+{\fonttbl{\f0\fmodern\fcharset0\fprq2 CourierNewPSMT;}{\f1\fmodern\fcharset0\fprq2 CourierNewPS-ItalicMT;}}
+{\colortbl;\red0\green0\blue0;\red255\green255\blue255;}
+\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\fet2\ftnbj\aenddoc
+\pgnrestart\pgnstarts0
+\pard\plain \ri-16872\ql\ltrch\loch {\f0\fs24\b0\i0 To start with the latter and as indicated in \\cref\{fig:semiotic-triangles\}(b), we equate faithfulness with trueness between the representation and the entity in reality. Since this aspect is a characteristic of an indirect relationship, it can only emerge as a result of the adequacy and correctness characteristics in that same Figure. Adequacy concerns the quality of the abstraction, which we do not address here. Correctness concerns the quality of the representation, and in this section we show how differences can emerge between the conceptualisation and the model when constructing the latter from the former.}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 In literature, four construct issues are considered between a conceptualisations and its representation in a model, }{\field{\*\fldinst HYPERLINK "scrivcmt://B9E1CE5A-9F37-49D4-988D-63223C14B311"}{\fldrslt\f0\fs24\b0\i0 depicted in}}{\f0\fs24\b0\i0  \\cref\{fig:construct-issues\}. An exhaustive treatment can be found in [@Guizzardi:2005vt], see also [@CarvalhoeSilva2012; or @Azevedo2015].}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 ![Four different types of construction issues that come with formal semantics. (a) [@CarvalhoeSilva2012], (b) [@Azevedo2015]][def:constructissues] }
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 The correctness with which tokens represent the conceptualisation improves when the four construct issues are minimised:}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 * }{\f1\fs24\b0\i1 Construct overload}{\f0\fs24\b0\i0 , or }{\f1\fs24\b0\i1 non-lucidity}{\f0\fs24\b0\i0 , emerges when the interpretation function maps an element from the abstract syntax onto more than one element (individual, subset) from the conceptualisation: One token can mean more than one thing, e.g., $\\CMcal\{I\}\\left(\\text\{\loch\af0\hich\af0\dbch\af0\uc1\u8220\'93bank\u8221\'94\}\\right) = \\left\\\{ \\, \\text\{[|S], [|F], [|E]\} \\, \\right\\\}$, where [|S] stands for sofa, [|F] for a financial institute, and [|E] for a rising edge;}
+\par\pard\plain \tx720\ql\ltrch\loch {\f0\fs24\b0\i0 * }{\f1\fs24\b0\i1 Construct excess}{\f0\fs24\b0\i0 , or }{\f1\fs24\b0\i1 unsoundness}{\f0\fs24\b0\i0 , represents an abstract syntax element that does not map onto an element from the conceptualisation: One token does not have a meaning at all, $\\CMcal\{I\}\\left(\\text\{\loch\af0\hich\af0\dbch\af0\uc1\u8220\'93pf\\^.h\u8221\'94\}\\right) = \\text\{[|$\\bot$]\}$, where the *falsum* concept ([|$\\bot$]) denotes the empty set (the valuation of which is always False);}
+\par\pard\plain \ri-16872\ql\ltrch\loch {\f0\fs24\b0\i0 * }{\f1\fs24\b0\i1 Construct redundancy}{\f0\fs24\b0\i0 , or }{\f1\fs24\b0\i1 non-laconicity}{\f0\fs24\b0\i0 , occurs when more than one abstract syntax element can be used to represent an element from the conceptualisation: More tokens mean the same, e.g., $\\CMcal\{I\}\\left(\\text\{\loch\af0\hich\af0\dbch\af0\uc1\u8220\'93xx?\u8221\'94\}\\right) = \\text\{[|zz?] \}$ and $\\CMcal\{I\}\\left(\\text\{\u8220\'93yy?\u8221\'94\}\\right) = \\text\{[|zz?]\}$;}
+\par\plain {\f0\fs24\b0\i0 * }{\f1\fs24\b0\i1 Construct deficit}{\f0\fs24\b0\i0 , or }{\f1\fs24\b0\i1 incompleteness}{\f0\fs24\b0\i0 , specifies the situation where a conceptual element does not map onto a token: It is impossible to express a concept because the language has no token for it, e.g., $\\CMcal\{I\}^\{-1\}\\left(\\text\{[|c]\}\\right) = \\text\{\loch\af0\hich\af0\dbch\af0\uc1\u8220\'93\\quad\u8221\'94\}$, with $c$ some conceptual element and token \u8220\'93\\quad\u8221\'94 intentionally left blank.}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 The best representation of a conceptualisation, then, is a model that is lucid, sound, laconic and complete, i.e., the subjectivation/representation mapping is isomorphic [@Guizzardi:2005vt]. This strongly depends on the modelling language, and particularly its appropriateness with which it carves-out the reality of the DoI, viz. the \loch\af0\hich\af0\dbch\af0\uc1\u8220\'93ontological level\u8221\'94 [@Guarino1994b], our \u8220\'93terminological competence [that] can be gained by formally expressing the ontological commitment of a knowledge base\u8221\'94 (ibid.). We turn this into the following design principle.}
+\par\plain \f0\fs24\b0\i0
+\par\pard\plain \ri-8561\ql\ltrch\loch {\f0\fs24\b0\i0 \\begin\{mmdp\}[Domain appropriateness principle]\\label\{dp:domain-appropriateness-principle\}}
+\par\plain \f0\fs24\b0\i0
+\par\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0 The faithfulness of the semantic model depends on the ontological commitment of the modelling language: the more appropriate it carves out the domain of interest, the more faithful the domain model can represent the conceptualisation.}
+\par\pard\plain \ri-8561\ql\ltrch\loch \f0\fs24\b0\i0
+\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0 \\textbf\{Type of information:\} business}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 \\textbf\{Quality attributes:\} (semantic) accuracy, re-usability, manageability, understandability }
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 \\textbf\{Rationale:\}}
+\par\plain {\f0\fs24\b0\i0 \\begin\{enumerate\}}
+\par\plain {\f0\fs24\b0\i0 \\item A software agent cannot act effectively without a model of its DoI that represents the DoI. The trueness with which that model refers to the DoI directly reflects the quality of (the results of) the agent\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92s actions. Trueness emerges as the concatenation of the \\emph\{adequacy\} of the abstraction from reality and the \\emph\{correctness\} with which the conceptualisation is represented;  }
+\par\plain {\f0\fs24\b0\i0 \\item The correctness of the representation of the conceptualisation improves by minimising the construct issues that occur in the domain model;}
+\par\plain {\f0\fs24\b0\i0 \\item Construct issues are a direct result of the necessity to model (represent) a characteristic aspect of a concept with a language element that is not suited or even present to express that characteristic. Unable to correctly express a characteristic is a direct consequence of the inadequacy of the underlying ontological commitment;}
+\par\plain {\f0\fs24\b0\i0 \\end\{enumerate\}}
+\par\plain {\f0\fs24\b0\i0 \\textbf\{Implications:\}}
+\par\plain {\f0\fs24\b0\i0 \\begin\{enumerate\}}
+\par\plain {\f0\fs24\b0\i0 \\item The more specific the ontological commitment gets, the higher the semantic accuracy with which the domain model can refer to the DoI;}
+\par\plain {\f0\fs24\b0\i0 \\item The more specific the ontological commitment gets, the higher its complexity which might even turn into a NP-complexity;}
+\par\plain {\f0\fs24\b0\i0 \\item The ability of a software agent for semantic interoperability increases with the domain appropriateness of the domain model;}
+\par\plain {\f0\fs24\b0\i0 \\item The achieved semantic interoperability for a pair of agents depends highly on the correspondence between the ontological commitments of their domain models;}
+\par\plain {\f0\fs24\b0\i0 \\item The re-usability of the agent improves with }
+\par\plain {\f0\fs24\b0\i0 \\item manageability ...?}
+\par\plain {\f0\fs24\b0\i0 \\item understandability ...?}
+\par\plain {\f0\fs24\b0\i0 \\end\{enumerate\}  }
+\par\plain {\f0\fs24\b0\i0 \\end\{mmdp\}}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 It is the responsibility of the software engineer to select a modelling language that provides a balance between semantic faithfulness at the one hand and computational (and comprehensibility) complexity for representing the domain model.}
+\par\plain \f0\fs24\b0\i0
+\par\plain \f0\fs24\b0\i0
+\par\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0 <!-- page additions -->}
+\par\pard\plain \ri-10760\ql\ltrch\loch {\f0\fs24\b0\i0 [def:constructissues]: src\\images\\ConstructIssues.png \{#fig:construct-issues  width=533px height=210px\}}
+\par\pard\plain \ltrch\loch \f0\fs24\b0\i0}

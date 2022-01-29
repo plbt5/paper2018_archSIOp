@@ -1,0 +1,17 @@
+Explain: difference between ontologies and models:
+
+\begin{enumerate}
+ \item Models lack an elaborate ontological commitment, domain ontologies naturally evolve on foundational ontologies (that express an ontological commitment)
+ \item ~~For prescriptive models, truth lies in meta-models~~ (good for deterministic behaviour); ~~ontologies are descriptive models for which the truth lies in reality~~ (good for semantics)
+ \item ~~ontologies have open world assumption (semantic under-specification), models have closed world assumption (data remain consistent, good for performance)~~
+ \item ~~Models specify systems, ontologies conceptualise reality (entities)~~ 
+ \begin{itemize}
+  \item Try to also connect the onto/model distinction with above principles 
+  \item Induced problem: from OWA (domain ontologies) to CWA (information/data models), viz. how to get closure?
+  \item Principle: use domain and business ontologies for “computational independent”-ish models [@Aßmann2006]
+  \item Bridge descriptive --> prescriptive models by grounding all prescriptive model elements with concepts from descriptive model (see e.g. \cref{fig:OntosInMDE}).
+ \end{itemize}
+ \item Different aggregation levels of ASM: vocabuaries as semantic standard vs. single elements
+\end{enumerate}
+
+\end{synopsis}

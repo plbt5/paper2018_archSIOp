@@ -1,0 +1,103 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2636
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;\f1\fmodern\fcharset0 CourierNewPS-ItalicMT;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf0 Never before, data were so ubiquitous, and managed access to external data was so easy. But *understanding precedes use*, and understanding the data requires a human-in-the-loop and, therefore, is time-consuming and hampers agility in business collaboration in all domains. For instance, consider the following (allegedly real) example of an interoperability failure.\
+\
+> A German steel producer upgraded its industrial process robot. Since the majority of the steel production process is dependent on time, from a safety point of view the decision was made to not rely on their own internal clocks but to use the German *Braunschweig Funkuhr* time radio signal as source for the exact time instead. At the end of April 1993, when Germany went on summer time, the computer clock of the steel producer went from 1:59 AM to 3:00 AM in one minute. This resulted in a production line allowing molten ingots to cool for one hour less than normal. When the process controller asserted the cooling time had expired, its actions splattered still-molten steel, damaging part of the {\field{\*\fldinst{HYPERLINK "scrivcmt://A8AB84D2-8C28-4923-8516-C57012DCFBB7"}}{\fldrslt facility.}}\
+\
+In this simple example a tiny difference in the meaning of `time` between the Data Consumer (DC), i.e., steel manufacturer, and the Data Producer (DP), i.e., the Braunschweig Funkuhr, hampered interoperability to the extend of damaging the steel facility. This tiny difference rooted in the assumption by the DC that `time` expressed a continuous scale whilst for the DP, `time` denoted instant clock time for the yearly season, representing a non-continuous scale. In order to achieve that DCs can actually *use* DPs data, the need exists to design and implement wrappers that remove any inconsistency between the variations that may occur in terms, structures, dimensions and what have you. Many such variations exist, leading to a range of failures in so-called *semantic interoperability* (sIOP). Unfortunately, it is fundamentally impossible to automate the production of wrappers, because we need a genuine *understanding* upfront, which computers still cannot do. We accept the need for a human-in-the-loop, but her place in architecture a design choice. Like [@Kuhn2009], as opposed to a philosophical or linguistic subject, we consider semantic interoperability an engineering problem that aims at constraining interpretations towards those that are intended, producing engineering artefacts that can carry sIOP.\
+\
+The most disconcerting consequences of a lack of (automated) sIOP are time-to-deliver, flat interoperability failures, and as seen above, seemingly correct but quite invalid data analysis results leading to faulty system behaviour. Current sIOP implementations are essentially based on the (time-consuming) process of establishing a shared convention on the semantics of the terms that are exchanged, and require custom software solutions and collaboration-dependent software adaptations. Indeed, such conventions result in a pleasant semantic homogeneity, but also in semantic monoliths. The latter makes dealing with data that originated outside the monolith impossible, unless again a time consuming (months) semantic adoption process is applied. Moreover, these semantic conventions consider semantic heterogeneity a bug instead of a feature necessary to achieve semantic accuracy. Nevertheless, this conventions-based approach towards sIOP is considered accepted folklore, even state of the art in ICT, e.g., [@Otto2019]. In view of the large uptake of the Internet, the Internet of Things (IoT), cloud computing and big data, and in view of economical pressure to intensify enterprise collaboration, we consider this approach "too little, too late". Some form of automation is required to resolve these issues, and we place formal semantics at its core.   \
+\
+The main objective of our work is to achieve sIOP as quickly as possible, with as minimal effort as possible, for collaborations that had not been foreseen and consequently could not be anticipated for during design time of the (two or more) software agents. Semantic heterogeneity must be allowed for, \
+\
+In comparison, scalability was a big architectural concern in the past, requiring custom solutions as well. In response to this concern, scalability was standardised in the form of architectural patterns, and finally totally embedded and hidden into the infrastructure. Similarly, sIOP can be considered the architectural concern of this decade. We first need to provide standardised solution patterns that address sIOP concerns before we can embed it in a technological infrastructure. Only then we can claim that sIOP becomes transparent to the developer, and only then we can take down the tight coupling between semantics and the syntax of the shared data scheme. Where scalability resulted in a huge increase in performance-demanding applications against a fraction of the original costs and effort, business agility will emerge once their semantics are accessible and semantic services exist at the infrastructural level to adress them. Then sIOP becomes an access-and-play operation that can be achieved in due time with data not anticipated for during software design, and at any point in their life cycle. Metaphorically speaking, we consider sIOP a 
+\f1\i bridge
+\f0\i0  overarching a semantic gap: with *anchorages* (local semantics according to [@Brandt2018a]) on each side of the gap, with a *spanning* (semantic alignments) resting on them to structurally (semantically) support the interoperability bridge, and with a *roadway* (syntactic transcriptions) enabling the crossing of the (data) traffic. Finally, architectural *principles* provide the necessary guidance to the architect for the various design decisions that effectively result in a particular bridge over a particular semantic gap. This has been depicted in \\cref\{fig:semantic-concerns\}.\
+\pard\pardeftab720\sb240\partightenfactor0
+\cf0 \\begin\{figure\}\
+\pard\pardeftab720\partightenfactor0
+\cf0   \\centering\
+  \\begin\{subfigure\}[b]\{.75\\textwidth\}\
+    \\centering\
+    \\includegraphics[width=\\textwidth]\{src/images/3SemanticConcerns.png\}\
+    \\caption\{\}\
+    \\label\{fig:concernsa\}\
+  \\end\{subfigure\}\
+  \\hfill\
+  \\begin\{subfigure\}[b]\{.15\\textwidth\}\
+    \\centering\
+    \\includegraphics[width=\\textwidth]\{src/images/3ConcernsLegend.png\}\
+    \\caption\{\}\
+    \\label\{fig:concernsb\}\
+  \\end\{subfigure\}\
+\pard\pardeftab720\ri-12932\partightenfactor0
+\cf0   \\caption\{Conceptual overview of the relationships in sIOP between the anchorage (conceptual modelling), its spanning \
+(semantic reconciliation) and roadway (semantic mediation), (a), and a legend explaining the used constructs (b).\}\
+\pard\pardeftab720\partightenfactor0
+\cf0   \\label\{fig:semantic-concerns\}\
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 \\end\{figure\}\
+\pard\pardeftab720\partightenfactor0
+\cf0 Our contributions to consolidating semantic interoperability in software architectures are fivefold, represented as architectural principles and concerns as follows:\
+\
+* 
+\f1\i Semantic concerns (anchorage)
+\f0\i0 : We summarize our work in [@Brandt2018a] on how to achieve a semantic anchorage by a{\field{\*\fldinst{HYPERLINK "scrivcmt://BD2B330C-15A1-42B2-BD43-842247FC5659"}}{\fldrslt bstracting semantics}} from a tacit software implication into a tangible, computational and distinct artifact. This creates the potential to connect to it, to make comparisons with the semantic artifact of the peer software agent. We then formulate the principle of assuming responsibility on the semantics on data, and conclude what preparations about semantics are required for an agent before being able to engage in semantic interoperability (\\cref\{anchorage-semantic-concerns\});\
+* 
+\f1\i sIOP concerns (spanning)
+\f0\i0 : Since computers remain incapable of true understanding, sIOP remains in demand of human intervention in order to reconcile the semantic differences between collaborating software agents. However, human intervention is time consuming. We reduce the necessary human intervention to complement formal semantics to a task that suffices to achieve sIOP, viz. authoring semantic alignments only (\\cref\{spanning-siop-concerns\});\
+* 
+\f1\i Mediation concerns (roadway)
+\f0\i0 : We determine the demands for a generic component that allows for communication with the peer agent in one\'92s native vocabulary only, by considering both ontological models and the alignment. Such approach applies the principle *connectivity without dependency* at the semantic level. This consolidates the agent\'92s potential to collaborate to any unforeseen applications without the need to adopt external semantic definitions, and remain scalable in the process (\\cref\{roadway-mediation-concerns\});\
+* *Evaluation of semantic principles*: In order to consistently address the above concerns, their founding architectural principles have been derived. It is a matter of architectural hygiene to evaluate how these principles support and consolidate the fundamental architectural demands about loose coupling and separation of concerns (notably semantics and communication concerns). We show how the necessary characteristics of semantics, i.e., semantic heterogeneity, semantic evolution and semantic scalability, are supplied by them (\\cref\{evaluation-of-siop-principles\});\
+* 
+\f1\i ISO42010 Architecture Viewpoint
+\f0\i0 : We verify the applicability of the above concerns and principles by formulating their architectural consequences as a specific ISO42010 sIOP Viewpoint that must consolidate their proper position in the total architecture as corresponding sIOP view. As ISO42010 is considered a set of best practises for architecture description, and therefore is used with architecture frameworks such as MoDAF, TOGAF, DoDAF, RM-ODP and more, we conclude that application of this sIOP Viewpoint to formulate the sIOP View can be considered to consolidate sIOP for contemporary architectural paradigms (\\cref\{iso42010-viewpoint-on-siop\}).\
+\
+\
+This could imply just another day in the office, because for ICT architects and software engineers, refactoring the software agent in order to separate distinct functionality into a new, valuable component is one of their core skills. Application of architectural principles bring about the new component, including an API and standard for its access and use. Its adoption by IEEE, W3C, or a governing domain organisation suffices for its integration at the right infrastructural level. 
+\f1\i Quod non est
+\f0\i0  for semantics, at least not that simple. \'93The successful standardisation of protocols made us believe that we should also 
+\f1\i standardise meaning
+\f0\i0  on the Web. This is a fundamental 
+\f1\i misconception
+\f0\i0 .\'94 [@Janowicz:2013ui]. Because, this is the first time in the history of ICT that its discipline, viz. we the ICT community, are not speaking about a concern that belongs to the realm of information and communication technology but to that of the users instead. Consequently, we cannot control it, hence the existence of semantic heterogeneity: how users represent what they mean and what is meant with what is represented, differs between every so many stakeholders. Despite this observation, current viewpoints on semantics defy semantic heterogeneity and strive for semantic homogeneity: one single agreed domain convention on how the syntactic representation and structure of the data or messages shall be semantically interpreted. Despite our, the ICT community, acceptance that semantics is a representation of some part of the world, viewed from a particular perspective of use, we don\'92t acknowledge that this 
+\f1\i particular
+\f0\i0  representation and 
+\f1\i particular
+\f0\i0  perspective is fundamental to the domain users when building semantics and getting an understanding. And equally important, we don\'92t acknowledge that this particular perspective is just one out of many equally legitimate ones that our software are deemed to consider over the software\'92s lifecycle. Some examples are given in \\cref\{tab:perspectives\}.\
+\
+-------------------------------------------------------------------------------------------------------------------\
+Reality to refer to          Perspective #1      Perspective #2       Perspective #3        ...  Perspective #n              \
+---------------------------- ------------------- -------------------- -------------------- ----- ------------------\
+Waves are                    *objects* that      *forces* exerted on  an *accumulation* of  ...  a *relation*      \
+                             I can point at      dikes, walls or      other waves                between water, \
+                                                 oil rigs                                        current, wind and\
+                                                                                                 the seabed\
+\
+$\\;$\
+\
+How many terrorist attacks   1, the number       2, the number        4, the number         ...  2996, the\
+can be counted on 9/11?      of involved         of collapsed         of involved                number of\
+                             terrorist groups    towers               aircraft                   casualties[^1] \
+\
+-------------------------------------------------------------------------------------------------------------------\
+\
+   : Semantics follows many alternative but equally legitimate points of view on reality, implying that no single one true representation exists. Hence, semantic heterogeneity is a feature that should be preserved, as opposed to a bug that should be sought to correct. \\label\{tab:perspectives\}\
+\
+We consider semantic homogeneity not only an illusion, but striving for it brings about several important disadvantages. For instance, implementation of semantic standards involves considerable expenses, and tends to solidify in software by implicit operations on data. Moreover, since semantic standards fix representation, semantics becomes conflated with syntax, making the semantic standard dependent upon variations in syntax and, hence, the architectural paradigm, its implementation or applied technology. Together, this brings about a high impedance to change or evolution, which creates a significant barrier for new business opportunities, obstructing business agility. Finally, it is sheer impossible to create for each particular domain, or part thereof, a semantic standard; even in the highly protocolised health domain that already addressed semantics in 1987 [@Spronk2014], adoption of a standard remains slow and cumbersome [REF]. This becomes all the more clear when comparing with the successful adoption of 2G GSM telecommunication standard, including its evolution to 2.5G, 3G, 3.5G, 4G and 5G standards during roughly the same era. \
+\
+By separating syntactical from semantic concerns and turning semiotic fundamentals into architectural principles, loosely coupled formal semantics emerges and can be consolidated in contemporary architectural paradigms. From that position embedding standard semantic services into the communication infrastructure remains domain-independent; hence, for us, the ICT-discipline, its standardisation can be considered yet another day in the office again. We first describe some background on the semantic foundations in the following section.\
+\
+\
+\
+<!-- Page additions -->\
+\
+[^1]: as mentioned by Wikipedia, https://en.wikipedia.org/wiki/Casualties_of_the_September_11_attacks, accessed Dec 13, 2018\
+\
+}

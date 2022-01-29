@@ -1,0 +1,29 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2636
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf0 Many definitions exist to constrain the semantics of *scalability*, academic [e.g., @Neuman1994] and {\field{\*\fldinst{HYPERLINK "scrivcmt://E619F2AB-A785-4C52-9717-269E5CA41DFB"}}{\fldrslt popular}} alike. Our summary refers to increasing the demand that is placed on a system, and/or adding resources to a system, without experiencing loss of performance or increase in management to an extent that defeats its primary objective. We consider scalable sIOP as the capability to allow for increase in number of communicating agents as well as in the level of semantic heterogeneity without degrading the agent\'92s communication performance or its ability to manage and control the semantic differences with its interoperating peers. \
+\
+If we consider the agent\'92s communicating performance degradation, we argue that since complexity of the connections have been traded with the complexity in the mediator (\\cref\{roadway-mediation\}), the agent will only experience communication degradation when the mediator experiences transcription latencies that exceed communication parameters. In other words, the performance bottleneck is with the mediator, not with the agent. Transcription latency will result from the number of transcription requests that exceeds the capacity of a single mediator. No particular mechanism in a mediator impedes horizontal scaling to increase the collective processing capacity to match the transcription demands. \
+\
+Regarding the ability to manage and control the semantic differences with all interoperating peers, the root cause for potential alignment management issues are laid in the need to establish an alignment with each peer agent an agent collaborates with. This might become impractical due to our insistence on the need for a human-in-the-loop to author the alignment. We discern different solutions for different semantic topologies: \
+ \
+i. Star alignments (core domain ontology, aligned to local ontologies) for relative stable and homogeneous domain semantics\
+    * Good: semantic governance remains controllable independent from the number of actors;\
+    * Bad: very big semantic monolith, hence, low agility in dynamic environments. Moreover, the more actors involved, the higher the need for semantic compromises, and the lower the overall semantic accuracy. \
+i. Mesh alignments (bilateral alignments) for very dynamic and heterogeneous (domain) semantics, or low number of peers\
+    * Good: quickly established bilateral sIOP; granularity-on-demand, viz. intricate where necessary, coarse-grained where possible;\
+    * Bad: semantic governance may become an issue to the level where it becomes impractical.\
+i. Mix-n-Match (coarse-grained star-alignment with intricate bilateral alignments as specialisations to the core domain ontology) for the 70% bulk\
+    * Good: controllable semantic governance; after central alignment, quickly established bilateral sIOP;\
+    * Bad: slightly more complicated mediation due to double alignment support.\
+i. Daisy-chained alignments (when A is aligned to B, and B is aligned to C, A and C are indirectly aligned as well)\
+    * Good: self-organised alignments emerge, and an instantaneous access-and-play becomes possible;\
+    * Bad: No guarantees can be given on the completeness of the indirect alignment. Furthermore, more intermediate alignments will increase the chance of impossible end-to-end transcriptions that would not occur with a direct alignment.\
+\
+In conclusion, scalable sIOP can be guaranteed when considering the communication performance. With respect to the ability of a single agent to manage and control the number of alignments with increasing number of interoperating agents, several options exist to support scalable sIOP although ultimately no guarantees can be given. \
+ \
+}

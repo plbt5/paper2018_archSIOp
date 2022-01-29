@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="AEC2DAED-2F75-476E-B717-09292EB7AE58">
+    <Snapshot Date="2018-09-03 16:21:38 +0200">
+        <Title>Untitled Snapshot</Title>
+        <Text>
+
+In order to fully appreciate the results of our work, it is necessary to acknowledge the commonalities and notably the differences between ontology and models. This is especially relevant since in contemporary architectural paradigms models are being used as first class citizens to the architectures, MDA and ISP RM/ODP alike.      
+
+                   
+
+* Identify differences between prescriptive models and descriptive ontologies here? Maybe only “the” requirements that follow from the coherence principle.
+* Second essential grain is the ontological commitment.  
+
+
+
+
+
+It is thus one of the responsibilities of the software engineer to keep the information model and the process model in strict coherence with each other. In the world of Model Driven Engineering (MDE), the object orientation (OO) way of formulating models indeed seems to enforce adherence to this principle. However, this is not completely true since OO enforces only some form of correctness between the methods and the data object they act upon.
+
+
+
+
+Regarding the grain’s process models, this falls apart in two other model categories, viz. models that directly operate on data in order to infer other facts (conclusions), and models that act on those conclusions and initiate some business oriented activities. We will call the latter the *pragmatics* of the software agent, and we will not further elaborate on that. Regarding the data model and the inference model, we explain them to represent the two subtypes of meaning according to [@Grice:1991BT;@Schulz2007]: firstly, *semantic* meaning, meaning as conveyed by the tokens, explained by Grice as *what is said*, are directly related to the data models. Secondly, *pragmatic* meaning, explained by Grice as what a speaker adds by implication and/or intention when uttering a sentence in a particular context [@smith2003, p.50], are directly related to models that infer new data. For instance, consider a heart rate reading of 128BPM. The semantic meaning that is carried is exactly what is said, viz. the number of times a heart beats during one minute. In case of the pragmatic meaning, though, the same bits will refer to a very different health condition in the context of a sleeping elderly (triggering an alarm) than in the context of a sleeping new-born (indicating perfect health). We like to consider the pragmatic meaning as the meaning that is required to draw conclusions, demanding the specific *context of use*. 
+
+
+
+However, as soon as the semeiosis has taken place,  As we have seen in the previous section, linking between triangles exists horizontally and vertically alike. In this case, subsequent software engineering will conceptualise the models in different representational metalevels as well as built different levels of abstractions and generalisations.      
+
+
+
+the  the *signification* of the software agent. Although genuine semantics does not exist in software, a software agent can definitely fail in its signification part. When such failure happen  
+
+
+one of her major responsibilities are to assure that the data and the code operating on that data remain coherent with each other. In fact, one of the main arguments for the introduction of object-orientation (OO) was to dispose of a means that could enforce this “data-code coherence” in a natural way. Introducing a class to represent a particular entity in reality, and its methods that operated on it, enforces the software engineer to maintain one single conceptualisation that is represented by a set of two tightly coupled tokens: the data and the code operating on that data.   
+
+  
+
+
+Interestingly, according to [@Grice:1991BT;@Schulz2007], two subtypes of meaning exist:  
+
+Elaborate on the reciprocity as software semantics
+
+
+&lt;!-- page additions --&gt;</Text>
+    </Snapshot>
+</SnapshotIndexes>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompileSettings>
+    <ProjectSettings>
+        <Content Scope="Included">
+            <Filter State="Off" Exclude="No" Type="Label">
+                <CollectionID>DEADBEEF-0000-0000-0000-000000000000</CollectionID>
+                <Label>-1</Label>
+                <Status>-1</Status>
+            </Filter>
+        </Content>
+        <Options>
+            <RemoveComments>Yes</RemoveComments>
+            <RemoveAnnotations>Yes</RemoveAnnotations>
+            <ResampleImages DPI="72">No</ResampleImages>
+            <ConvertTablesAndListToMMD>Yes</ConvertTablesAndListToMMD>
+            <PDF>
+                <Cover Source="FrontMatter" Bleed="9.0" BleedUnits="pt"/>
+                <Compression Enabled="No">
+                    <ImageResolutionCompressionType>Set</ImageResolutionCompressionType>
+                    <ImageResolution>150</ImageResolution>
+                    <CompressionQuality>0.5</CompressionQuality>
+                </Compression>
+            </PDF>
+            <Scriptwriting>
+                <IncludeTitles>Yes</IncludeTitles>
+                <IncludeSynopses>Yes</IncludeSynopses>
+                <CommentsAsScriptNotes>Yes</CommentsAsScriptNotes>
+            </Scriptwriting>
+            <Ebook>
+                <StartAfterFrontMatter>Yes</StartAfterFrontMatter>
+                <Cover>
+                    <ImageDocument Source="FrontMatter"/>
+                    <Title>Cover</Title>
+                    <SVG Width="600" Height="800"><![CDATA[]]></SVG>
+                </Cover>
+                <TOC PandocDepth="3">
+                    <HTML Generate="Yes">
+                        <Title>Contents</Title>
+                    </HTML>
+                </TOC>
+            </Ebook>
+        </Options>
+        <MetaData>
+            <ProjectTitle>Consolidating semantic interoperability in contemporary software architectural paradigms</ProjectTitle>
+            <ProjectAbbreviatedTitle>2021_archSIOp</ProjectAbbreviatedTitle>
+            <Authors>
+                <Author FileAs="Brandt, Paul" Role="aut">Paul Brandt</Author>
+            </Authors>
+            <Surname>Brandt</Surname>
+            <Forename>Paul</Forename>
+            <EbookLanguage>en</EbookLanguage>
+            <FountainTitlePageMetaData>
+                <Value Key="Title"><![CDATA[<$projecttitle>]]></Value>
+                <Value Key="Author"><![CDATA[<$author>]]></Value>
+            </FountainTitlePageMetaData>
+        </MetaData>
+    </ProjectSettings>
+    <CurrentFileType>mmd</CurrentFileType>
+    <FormatSettings>
+        <Format ID="DEFAULT">
+            <SectionLayouts>
+                <Type ID="B1F3CB78-4407-4608-BC69-3002C7059BF1">NEW-PAGE-HEADER-WITH-TEXT</Type>
+                <Type ID="BEC0EFBC-ABB8-40AF-A9A4-9A4C16F0C006">TEXT-SECTION</Type>
+                <Type ID="94222364-5F69-4E60-A82D-29399AE3B0B2">NEW-PAGE</Type>
+            </SectionLayouts>
+            <FrontAndBackMatter>
+                <DefaultFrontMatter Add="Yes">AC0E4C16-84DD-46A8-978B-4E68660C32A1</DefaultFrontMatter>
+            </FrontAndBackMatter>
+        </Format>
+        <Format ID="27039EE2-F070-47AA-B0E9-7AB97724E7FC">
+            <SectionLayouts>
+                <Type ID="B1F3CB78-4407-4608-BC69-3002C7059BF1">AS-IS</Type>
+                <Type ID="27094CC6-778E-4B6B-86BF-958D87A28367">AS-IS</Type>
+                <Type ID="8F90131E-7A65-4A45-B2D0-F9310B8E839F">AS-IS</Type>
+                <Type ID="BEC0EFBC-ABB8-40AF-A9A4-9A4C16F0C006">TEXT-WITH-HEADER</Type>
+                <Type ID="94222364-5F69-4E60-A82D-29399AE3B0B2">AS-IS</Type>
+            </SectionLayouts>
+            <FrontAndBackMatter>
+                <DefaultFrontMatter Add="Yes">AC0E4C16-84DD-46A8-978B-4E68660C32A1</DefaultFrontMatter>
+            </FrontAndBackMatter>
+        </Format>
+    </FormatSettings>
+    <LastUsedFormats>
+        <Print>27039EE2-F070-47AA-B0E9-7AB97724E7FC</Print>
+        <mmd-latex>27039EE2-F070-47AA-B0E9-7AB97724E7FC</mmd-latex>
+        <mmd>27039EE2-F070-47AA-B0E9-7AB97724E7FC</mmd>
+    </LastUsedFormats>
+</CompileSettings>

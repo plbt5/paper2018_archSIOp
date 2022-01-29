@@ -1,0 +1,8 @@
+Purpose of this section: 
+
+scalability by topology
+\begin{itemize}
+\item Clarify the use of the alignment and mediation approach as an atomic, peer-to-peer sIOP pattern.
+\item Show how multiple agents can collaborate by cascading, or by introducing a core semantic specification, or by augmenting a centralised topology with a peer-2-peer topology
+\end{itemize}
+\end{synopsis}
