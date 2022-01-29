@@ -1,0 +1,11 @@
+Purpose of this section: Establish requirements for a *generic* mediator.
+
+With mediation we denote the process of transcribing a data term that originates from Agent A into a data term that matches a term familiair to Agent A', based on both agents' ontologies and the alignment between them. The main issue here is that although many different types of relation can be defined between the concepts of ontology A and A', e.g., superset of, a transcription of a token from A into a token from A' is a complete replacement and, hence, implements an equivalence relation. In [@Brandt2018b], we show a semantic valid transcription process. The requirements of a mediator are:
+
+\begin{enumerate}
+\item Being a generic service
+\item Fully defined by two ontologies and their alignments
+\item Allows for semantic valid transcriptions only, where 'validity' refers to absence of inducing phantom semantics.
+\item Appropriate behaviour for non-translatable content, which should apply only as result of an incomplete alignment, a logical incorrect alignment, or attempts to communicate content that is considered irrelevant for the receiving agent.
+\end{enumerate}
+\end{synopsis}

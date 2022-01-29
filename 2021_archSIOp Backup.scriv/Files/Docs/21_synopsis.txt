@@ -1,0 +1,7 @@
+[x] example
+[ ] importance of sIOP
+[ ] sIOP subelements build a bridge
+[ ] Anchorage is our prev. article
+
+
+\end{synopsis}

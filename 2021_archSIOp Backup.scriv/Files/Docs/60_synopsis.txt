@@ -1,0 +1,6 @@
+Purpose of this section: present a list of differences
+Refer , [@Henderson-Sellers2012]
+
+Conclusion as in [@Aßmann2006]: "Specification models focus on the specification, control, and generation of systems; ontologies focus on description and conceptualization (conceptual modelling) of things. Both kinds of models have in common the qualities of abstraction and causal connection."
+
+\end{synopsis}

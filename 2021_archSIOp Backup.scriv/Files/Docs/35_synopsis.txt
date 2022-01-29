@@ -1,0 +1,5 @@
+Address shortcomings that we discover throughout writing the sections. 
+
+Conclude that by identifying a specific 42010 viewpoint on sIOP, a necessary condition towards the preparation of a sIOP capability in a software agent has been identified which can be applied to all MDE and view-based software architectures.
+
+\end{synopsis}

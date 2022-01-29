@@ -1,0 +1,80 @@
+{\rtf1\ansi\ansicpg1252\uc1\deff0
+{\fonttbl{\f0\fmodern\fcharset0\fprq2 CourierNewPSMT;}{\f1\fmodern\fcharset0\fprq2 CourierNewPS-ItalicMT;}}
+{\colortbl;\red0\green0\blue0;\red255\green255\blue255;}
+\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\fet2\ftnbj\aenddoc
+\pgnrestart\pgnstarts0
+\pard\plain \ltrch\loch {\f0\fs24\b0\i0 It is clear that sIOP encompasses a communication between at least two actors. This brings a natural responsibility for both actors in the communication, described by [@Grice:1991BT] as the particular purpose of communication, viz. to serve:}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 1. Quantity: Make your contributions as informative as is required (for the current purpose of the exchange), and not more than is required;}
+\par\plain {\f0\fs24\b0\i0 2. Quality: Do not say what you believe to be false, or for which you lack evidence;}
+\par\plain {\f0\fs24\b0\i0 3. Relation: Be relevant (to the immediate needs);}
+\par\plain {\f0\fs24\b0\i0 4. Manner: Avoid obscurity of expression, ambiguity, and be brief and orderly.}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 The maxim\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92s Quantity and Manner immediately lead to the definition of a design principle to their effect, and applying the normative notation from [@Greefhorst2011] this reads as follows:}
+\par\plain \f0\fs24\b0\i0
+\par\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0 \\begin\{mmdp\}[The responsibility for the semantic meaning of data lays with the source]\\label\{dp:rfsm\}}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 When it is reasonable to expect that the software agent will be engaged in collaboration or otherwise will interoperate with (an)other software agent(s), it is the responsibility of the software architect to serve the quantity and manner of the potential interoperability by specifying the semantics of the data in advance. }
+\par\plain \f0\fs24\b0\i0
+\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0 \\textbf\{Type of information:\} business, data  \\\\}
+\par\plain {\f0\fs24\b0\i0 \\textbf\{Quality attributes:\} semantics, interoperability, usability, efficiency   \\\\}
+\par\plain {\f0\fs24\b0\i0 \\textbf\{Rationale:\}}
+\par\plain {\f0\fs24\b0\i0 \\begin\{enumerate\}}
+\par\plain {\f0\fs24\b0\i0   \\item Data represent the state of affairs of some part of the world, viewed from a particular perspective of use. Such view is just one particular perspective out of many equally legitimate ones;}
+\par\plain {\f0\fs24\b0\i0   \\item Semantic heterogeneity, a direct consequence of the equally legitimate perspectives on reality, should not be considered a bug to resolve, but a feature to preserve and nurture in order to maximise semantic clarity and accuracy;}
+\par\plain {\f0\fs24\b0\i0   \\item Accepting semantic heterogeneity implies the probable uniqueness of the agents view on reality;}
+\par\plain {\f0\fs24\b0\i0   \\item Computers are not capable of genuine understanding, hence cannot establish semantics from data and thus require the human-in-the-loop for that;}
+\par\plain {\f0\fs24\b0\i0   \\item The responsibility for formulating the semantics that are expressed by the data can only lay by the software architect that has taken the particular perspective on reality when carving out the entities of interest to the software application;}
+\par\plain {\f0\fs24\b0\i0   \\item On specifying semantics, Grice\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92s maxims on communication, and particularly on serving the quantity and manner of communication, represent the natural constraints to respect;}
+\par\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0   \\item Without adherence to this principle, the meaning of the data expressed by the software agent can be considered flawed, inaccurate, incomplete or otherwise insufficient in its support for semantic interoperability.}
+\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0 \\end\{enumerate\}}
+\par\plain {\f0\fs24\b0\i0 \\textbf\{Implications:\}}
+\par\plain {\f0\fs24\b0\i0 \\begin\{enumerate\}}
+\par\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0   \\item The specification of the data semantics is only dependent on the agent\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92s own perspective on the application domain, and can therefore be fulfilled before any specific interoperability with communication peers;}
+\par\plain {\f0\fs24\b0\i0   \\item No matter the number of different communication peers, the software agent needs to have the semantics of its data elements specified only once;}
+\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0   \\item By providing an explicit semantic specification of the data, an agent facilitates other components and agents to connect to it and, consequently, grounds its semantic interoperability with them unequivocally.}
+\par\plain {\f0\fs24\b0\i0 \\end\{enumerate\}  }
+\par\plain {\f0\fs24\b0\i0 \\end\{mmdp\}}
+\par\pard\plain \ql\ltrch\loch \f0\fs24\b0\i0
+\par\pard\plain \ri-11066\ql\ltrch\loch {\field{\*\fldinst HYPERLINK "scrivcmt://59E9CC18-C23D-44A8-9895-76D6D48340AD"}{\fldrslt\f0\fs24\b0\i0 We argued}}{\f0\fs24\b0\i0  in [@Brandt2018a] that since software is incapable of genuine understanding, semantics cannot exist in software. Nevertheless, the software agent acts as transport medium for semantics between users. To act as valid transport medium for semantics, we further stated that the reciprocity between code and data does manifest itself as software semantics. This essential disposition discerns in semantics its *semantic meaning*, i.e., what is said and carried by data, and the *pragmatic meaning*, i.e., to connect with our frame of reference, the context of use, carried by code that implements comprehension as an inference process from the semantic meaning [@Grice:1991BT]. We explained that since data and code are always tightly coupled and since their reciprocity emerges as software behaviour, software malfunction originates (amongst others) from a broken reciprocity, i.e., inconsistencies between data and code. Consequently, when the data and code are representations of the things and laws in the application domain and, hence, represents semantic meaning and pragmatic meaning, their reciprocity represents the degree with which the collective outcome of processing all potential data refers to the intended states of affairs in reality. Any incoherent reciprocity equates to unfaithfulness: semantics that are considered invalid in the application domain. }
+\par\pard\plain \ltrch\loch \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 Despite the quality with which the data and the code are developed individually, we can maximise semantic validity by maximising their reciprocity, viz. demanding maximal coherence between code and data. We have called this the *semantic coherence principle*. The consequence of this principle is the emergence of what we denoted the *Atomic Semantic Monolith* (ASM): being a semantic monolith refers to the tight coupling of the reciprocity between data and their processing code which, together, describe the state of affairs in the application domain; Atomicity refers to the level of granularity at which the entity that is referred to by the data token is considered a non-dividable whole in the application domain. Where it is the objective of semantics to maximise and maintain the coherence of the ASM, as elaborated in (ibid.), it is the objective of sIOP to address this monolithic nature of the ASM, as we do in the next section.}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 -------------------------}
+\par\plain {\f0\fs24\b0\i0 More darlings killed:}
+\par\plain {\f0\fs24\b0\i0 * semantics are modelled by ontologies}
+\par\plain {\f0\fs24\b0\i0 * ontological commitment en OC design principle}
+\par\plain {\f0\fs24\b0\i0 -------------------------}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 ~~~}
+\par\plain {\f0\fs24\b0\i0 Regarding the quality of the data and code models we reasoned that the data model should have a backward-looking role (in contrast to forward-looking) [@Gonzalez-Perez2007], present an ontological mode of modelling as opposed to a linguistic mode [@Atkinson2003], and demand a strong type-mode (as opposed to a token-mode) that result in non-transitivity and use the kind of abstraction known as classification [@Henderson-Sellers2012]. From those demands, we concluded that for representing semantics ontologies are best suited [@Brandt2018a]. For example, the trueness of forward-looking models, i.e., all 42010:2011 models, is established against their meta-models, while the trueness of backward-looking models, i.e., ontologies, is established through the interpretation in the conceptualisation of reality. }
+\par\plain \f0\fs24\b0\i0
+\par\plain {\field{\*\fldinst HYPERLINK "scrivcmt://DF39DAB6-C0C9-4D1A-91CA-A1A7EB3F14A4"}{\fldrslt\f0\fs24\b0\i0 Moreover, we showed}}{\f0\fs24\b0\i0  (ibid.) that the predominant purpose of a model is to describe reality by distinguishing the entities of interest. These distinctions can be modelled, but the (modelling) language itself is also used to convey distinctions. The distinctions that are already articulated by the elementary language constructs define the expressiveness of that language; the more distinctions the language elements can convey, the more differences can be represented by that language. The (fundamental) categories that the language elements can discern apply during modelling as a }{\f1\fs24\b0\i1 commitment}{\f0\fs24\b0\i0 , e.g., the language that explicitly differentiate substantials into objects and amounts of matter commits to the intuitive difference between the cup and the coffee that it holds. When the modelling language does not commit to such distinctions, the user of the language is forced to specify these distinctions in the model itself. This so-called *ontological commitment* of the language [@Bricker2016; @Guarino1994,Guarino:1998wq] lays the foundations for the model and its data and, consequently, for the code to process the data. Interoperating peer agents that apply different ontological commitments will therefore show major differences in the construction and internals of their respective ASM\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92s. This observation leads to the following design principle:}
+\par\pard\plain \ql\ltrch\loch \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 \\begin\{mmdp\}[Maintain an explicit ontological commitment]\\label\{dp:meoc\}}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 The language constructs that are used to formulate a model always represent an ontological commitment, explicitly or implicitly.}
+\par\plain \f0\fs24\b0\i0
+\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0 \\textbf\{Type of information:\} business, application, data  \\\\}
+\par\plain {\f0\fs24\b0\i0 \\textbf\{Quality attributes:\} semantics, semantic interoperability, reliability   \\\\}
+\par\plain {\f0\fs24\b0\i0 \\textbf\{Rationale:\}}
+\par\plain {\f0\fs24\b0\i0 \\begin\{enumerate\}}
+\par\plain {\f0\fs24\b0\i0   \\item The particular reciprocity that emerges in the ASM is influenced by the ontological commitment of the modelling language;}
+\par\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0   \\item The purpose of sIOP is to re-establish a coherent reciprocity between the external semantic meaning and the internal pragmatic meaning;}
+\par\plain {\f0\fs24\b0\i0   \\item Incompatibility between the ontological commitments of both interoperating agents creates a sIOP concern on the modelling language level;}
+\par\plain {\f0\fs24\b0\i0   \\item sIOP cannot be established without having addressed this language concern;}
+\par\plain {\f0\fs24\b0\i0   \\item This language concern and its related resolution is independent from any particular sIOP case;}
+\par\plain {\f0\fs24\b0\i0   \\item By maintaining an explicit ontological commitment, its incompatibility with other ontological commitments can be addressed in a generic manner.}
+\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0 \\end\{enumerate\}}
+\par\plain {\f0\fs24\b0\i0 \\textbf\{Implications:\}}
+\par\plain {\f0\fs24\b0\i0 \\begin\{enumerate\}}
+\par\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0   \\item Since the choice for a specific ontological commitment is only dependent on its applicability to the agent\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92s semantics, its specification therefore is independent from any specific interoperability case;}
+\par\plain {\f0\fs24\b0\i0   \\item No matter the number of different communication peers, the software agent needs to specify its ontological commitment only once;}
+\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0   \\item By specifying its ontological commitment explicitly, an agent enables the emergence of a standard and related infrastructural components to address this concern and to provide for reconciliation of differences between ontological commitments.}
+\par\plain {\f0\fs24\b0\i0 \\end\{enumerate\}  }
+\par\plain {\f0\fs24\b0\i0 \\end\{mmdp\}}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 ~~~}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 Based on the principles and arguments in this section, we defend that software agents that might engage in interoperability should provide for a semantic anchorage in the form of a domain ontology and a foundational ontology; the latter to explicate the ontological commitment and the former to specify the semantics of the data. Such ontology provides the ability to connect to the semantics of the agent in a computational manner, consolidating the semantic concerns for semantic interoperability.}
+\par\plain \f0\fs24\b0\i0}
