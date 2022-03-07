@@ -1,0 +1,40 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2636
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Verdana;}
+{\colortbl;\red255\green255\blue255;\red255\green255\blue255;\red53\green134\blue255;}
+{\*\expandedcolortbl;;\cssrgb\c100000\c100000\c100000;\cssrgb\c25490\c61176\c100000;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww20620\viewh11480\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
+\
+here are my first comments on the sIOP paper... \
+\
+Chapter 1\
+- I think it would be valuable to separate between data and service. In your example, the semantics of the service diverges. The service itself is a data service. It might be good to introduce a kind of high-level business architecture already, and concepts such as data provider, data source, data service, data owner, ... The dataspaces association reference model (business viewpoint) might be a reference to use\
+- the paragraph after the plan of contributions is not clear to me. It might be interesting to emphasize that currently the approach is homogeneity, and illustrate through the use of industry reference (data) models or the likes. And explain that it is not always the right approach. The paragraph itself requires clarification (it is quite obscure to me)\
+- the paragraph after table 1.1 on semantic homogeneity. Clarification is required. Typically, I don't think semantic homogeneity is always a bad choice. Sharing semantics in a domain is a good thing, all stakeholders speaking about the same thing. However, as soon as the behaviour is added, or specific usages are introduced, then heterogeneity is valuable. \
+- on the separation of semantics and syntax, the standards do not always mix them. EIF and EIRA recommend separating them. \
+\
+Chapter 2\
+- sometimes the term actor is used sometimes (software) agent. The actors are not always sw agents. Business actors are subject to semantic IOP issues,even without sw. So I do not think they are interchangeable. But maybe the scope is restricted to sw agents communication ? \
+\
+Chapter 3\
+- objectives of sIOP: this could be moved earlier, explaining what it is all about. I think it comes a bit late. \
+- when is sIOP relevant ? Cross-domain ? Standardized domain model is still a good thing \
+- communicating the complete ASM might be relevant in some case, for instance when the same rules are geographically distributed. See EU Regulation: currently only the data structure is shared and the rules are implemented by each MS\
+\
+Design principle 3.1 \
+- contrast with A20 - Data model is to me different than communication syntax, so I do not directly see the relevance of this principle with your principle 3.1. Let's consider eDocument, for instance: its objective is to separate the semantics from the communication, doesn't it ? However, the semantics is still shared amongst the actors in order to interoperate. \
+EIP Canonical data model is also based on separating semantics and format, through the use of a shared data model. {\field{\*\fldinst{HYPERLINK "https://www.enterpriseintegrationpatterns.com/patterns/messaging/CanonicalDataModel.html"}}{\fldrslt \cf3 \ul \ulc3 https://www.enterpriseintegrationpatterns.com/patterns/messaging/CanonicalDataModel.html}}\
+\
+Design principle 3.2\
+- I think metamodel integration (karagianis) is here relevant to introduce. Maybe in related work ? \
+\
+Design principle 4.1\
+Using a common model (canonical data model ?) is a way to implement the semantic mediation. Only the mediator knows the reference model and the required transformation. However, this is in opposition with principle 3.1. So, I am a bit confused with this one... \
+\
+-------------------\
+\
+I am now in the process of designing the architecture, basically in terms of functional components. I will use Archimate, and emphasize the distributed responsibilities amongst the actors. But I still need first to better grasp the principles. And maybe complete with others. I am thinking about a broker pattern that is relevant in order to hide the semantics complexity...\
+}
