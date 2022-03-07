@@ -1,0 +1,31 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2636
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf0 \
+\\begin\{mmdp\}[The responsibility for explicating the semantic meaning of data lays with the DP]\\label\{dp:rfsm\}\
+\
+When it is reasonable to expect that the software agent will be engaged in collaboration or otherwise will interoperate with (an)other software agent(s), it is the responsibility of the software architect to serve the quantity and manner of the potential interoperability by specifying its DM, and particularly the semantic meaning of its data, in advance. \
+\
+\\textbf\{Type of information:\} business, data  \\\\\
+\\textbf\{Quality attributes:\} semantics, interoperability, usability, efficiency   \\\\\
+\\textbf\{Rationale:\}\
+\\begin\{enumerate\}\
+  \\item Computers are not capable of genuine understanding, hence cannot establish semantics from data and thus require the human-in-the-loop for that;\
+  \\item The user of the software agent has a natural, business controlled perspective on the DoA;\
+  \\item This particular perspective is mirrored by the design of the software agent in the way how the entities of interest are carved out from the DoA. This includes the background knowledge that applies, the used terminology and how data from these entities are to be processed;\
+  \\item Consequently, the responsibility for formulating the semantics that are expressed by the data can only lay by the DP;\
+  \\item On specifying semantics, Grice\'92s maxims on communication, and particularly on serving the quantity and manner of communication, represent the natural constraints to respect;\
+  \\item Without adherence to this principle, the meaning of the data expressed by the software agent can be considered flawed, inaccurate, incomplete or otherwise insufficient in its support for semantic interoperability.\
+\\end\{enumerate\}\
+\\textbf\{Implications:\}\
+\\begin\{enumerate\}\
+  \\item The specification of the data semantics is only dependent on the agent\'92s own perspective on the application domain, and can therefore be fulfilled without any specific demands on interoperability with other software agents;\
+  \\item No matter the number of different communication peers, the software agent needs to have the semantics of its data elements specified only once;\
+  \\item By providing an explicit semantic specification of the data in advance, a software agent is prepared to engage in sIOP with other agents that can now connect to its semantics;\
+  \\item By establishing collaboration with other DPs or DCs through its DM, the software agent ensures that the communication is grounded in its own perspective.\
+\\end\{enumerate\}  \
+\\end\{mmdp\}}

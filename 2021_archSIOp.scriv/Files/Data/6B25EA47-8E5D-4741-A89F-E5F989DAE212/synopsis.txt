@@ -1,0 +1,8 @@
+* *concern 3*: subsequent to data exchange, the DC must have the capability to re-establish coherence between the external (DP’s) semantic meaning and its own internal pragmatic meaning, and assure that the reciprocity between DP’s data and DC’s code remains truthful to the state of affairs in reality.
+
+
+
+* *concern 3.2*: Pursuing sIOP involves to ensure that the ASM’s from both agents remain independent from each other, viz. establishing a semantical loose coupling between both agents;
+* *concern 3.3*: Access-and-play sIOP is the ultimate objective: ideally, sIOP between agents can be achieved instantaneously, also for unforeseen collaborations. Despite its conflict with our position that software is incapable of genuine understanding, turning a human-in-the-loop a necessary condition for sIOP, its business benefits are too significant not to continue to strive for it;
+
+concern 4 : sIOP requires to allow for scalable semantics.

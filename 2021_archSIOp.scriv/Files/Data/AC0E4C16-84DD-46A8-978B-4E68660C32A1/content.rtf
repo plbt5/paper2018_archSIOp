@@ -15,11 +15,12 @@
 pandocomatic_:\
   use-template:\
     - elsevier  \
+  preprocessors:\
+    - preprocessors/preludeGitVersion.py\
 title: "<$projecttitle>"\
 tnote: \
-  - \AppleTypeServicesU0 "version 2.0-0\AppleTypeServicesU1 "\
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\sl288\slmult1\partightenfactor0
-\cf0 \AppleTypeServicesU0 #  - "Tables & figures with 2-columns incorrectly placed; will be corrected when submitting."\
+\cf0 \AppleTypeServicesU0   - "Tables & figures with 2-columns incorrectly placed; will be corrected when submitting."\
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\sl288\slmult1\partightenfactor0
 \cf0 \AppleTypeServicesU1 author:\
   - name: Paul Brandt\
@@ -46,21 +47,22 @@ keywords:\
   - interoperability\
   - design principles\
 journalname: Information and Software Technology  \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\sl288\slmult1\partightenfactor0
+\cf0 \AppleTypeServicesU0 version-incr: minor\AppleTypeServicesU1 \
 compiled: <$shortdate>\
 date: <$fulldate>\
 thanks: Do we have acknowedgments to make?\
 abstract: |   \
   \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\sl288\slmult1\partightenfactor0
-\cf0 \AppleTypeServicesU0   *Background:* In today\'92s increase of business digitalisation and system\'92s distribution, absence of access-and-play semantic interoperability (sIOP) is a major hurdle to IT-based business collaboration. Current approaches towards sIOP still rely on conventions on the semantics of the exchanged terms, which can be considered both accepted folklore and an impediment to access-and-play sIOP. A breakthrough for this impasse requires consensus on the foundations of semantics and sIOP. In a previous paper we already conclude that in software, semantics cannot exist and is reduced to the reciprocity between data and data processing code. We showed that semantics can be addressed as separate concern, its reciprocity can be contained and become a tangible artifact from which semantic reusability and interoperability emerge as engineering benefits. For sIOP to emerge, the effort of the inevitable human-in-the-loop is to be reduced and her position improved. This is a matter of software architecture.       \
+\AppleTypeServicesU0   *Background:* In today\'92s increase of business digitalisation and system\'92s distribution, absence of access-and-play semantic interoperability (sIOP) is a major hurdle to IT-based business collaboration. Current approaches towards sIOP not only impede access-and-play sIOP but also its progress towards a standard infrastructural semantic layer. Following [@Brandt2021a], semantics cannot exist in software and is reduced to the reciprocity between data and data processing. Data exchange breaks that reciprocity, failing sIOP. The main concern of sIOP is to re-establish a valid reciprocity between the data consumer\'92s internal data processing and the data producer\'92s external data, while maintaining loosely coupled semantics. The access-and-play concern for sIOP requires the effort of the inevitable human-in-the-loop to be reduced. Both concerns are a matter of software architecture.       \
   \
-  *Objective:* The objective of our study is to identify and formulate the fundamental demands towards access-and-play interoperability, to derive their supporting architectural principles, and their integration in contemporary architectural paradigms.    \
+  *Objective:* The objective of our study is to identify and formulate the fundamental demands on access-and-play sIOP, to derive their supporting architectural principles, and their integration in contemporary architectural paradigms.    \
   \
-  *Method:* We follow a design-science approach and address the business relevance of the problem, and identify six requirements on sIOP, two of which are concerned with a genuine understanding of semantics that demand for the human-in-the-loop. We assume that the collaborating agents have followed the architectural principles on semantics according to our previous study, which results in an explicit representation of an atomic semantic monolith for each of the agents: two semantic anchorages. We subsequently develop four design principles in order to support interoperability between the semantic anchorages, and one design principle to cater for the semantic distinction between a formal semantic correspondence and the necessary data transcription during communication. We finally evaluate these principles by designing and formulating an ISO-42010 Architecture Viewpoint and View on sIOP.   \
+  *Method:* We assume for each agent an explicit representation of their semantics. We assess the problem foundations, and identify six requirements on sIOP, two of which concerned with a genuine understanding of semantics demanding a human-in-the-loop. We develop design principles in support of interoperability between the agents\'92 semantics. We evaluate these principles by designing an ISO-42010 Architecture Viewpoint and View on sIOP.   \
   \
-  *Results:* Semantics in software are the result of a reciprocity between data and the software code that operates on them, resulting in a local semantic monolith [@Brandt2018a]. Data exchange breaks that semantic monolith and hence the aforementioned reciprocity. The main concern of sIOP is to re-establish a valid reciprocity between the internal data processing code from the receiving agent and the external data as received from the producing agent, without extending the semantic monolith from either agents. We show that loosely coupled semantics, semantic alignments and a shared ontological commitment of the applied modelling language can be considered the cornerstone to achieve sIOP. The supporting principles are: (i) assume responsibility for the semantics of one\'92s data, (ii) maintain an explicit ontological commitment, (iii) abstract semantics from the communication syntax, (iv) align the internal and external semantic meaning of the exchanged data, and (v) encapsulate how agents exchange semantic meaning. This results in a loosely coupled semantics that is re-usable for every interoperating peer agent, even those that are not anticipated for during the agent\'92s design. The resulting ISO-42010 Architecture Viewpoint and View on sIOP, including a semantic mediation capability, represents a pattern to consolidate sIOP in contemporary architectural paradigms.  \
+  *Results:* We show that loosely coupled semantics, semantic alignments and accountability about the applied ontological commitment can be considered the cornerstones to achieve sIOP. The supporting principles are: (i) assume responsibility for your data semantics; (ii) maintain an explicit ontological commitment; (iii) abstract semantics from communication; (iv) align the internal and external semantics of exchanged data; (v) encapsulate how agents exchange semantics. The resulting ISO-42010 Architecture Viewpoint and View on sIOP, including a semantic mediation capability, represents a pattern that is capable of consolidating sIOP in contemporary architectural paradigms.  \
   \
-  *Conclusions:* The major shortcomings in architectural paradigms to account for an access-and-play sIOP are their negligence of a separation of concerns between the semantic representation and data communication syntax at the one hand and human-authored alignments and the automated mediation process at the other, and establishing the conditions for their support in advance. By their explicit inclusion, we show that loosely coupled semantics can be consolidated in contemporary architectural paradigms, stimulating access-and-play sIOP.   \
+  *Conclusions:* The major architectural shortcomings for an access-and-play sIOP capability are their negligence of a separation of concerns (i) between semantics and data, and between (ii) human-authored alignments and automated mediation. Establishing the conditions for their support in advance consolidates sIOP by loosely coupled semantics that are re-usable for every collaboration, even those that are not anticipated for. We conclude that loosely coupled semantics can be consolidated in contemporary architectural paradigms, stimulating access-and-play sIOP.   \
      \
   \
 

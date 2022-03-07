@@ -6,28 +6,25 @@
 \pard\pardeftab720\partightenfactor0
 
 \f0\fs24 \cf0 \
-\\begin\{mmdp\}[The responsibility for the semantic meaning of data lays with the source]\\label\{dp:rfsm\}\
-\
-When it is reasonable to expect that the software agent will be engaged in collaboration or otherwise will interoperate with (an)other software agent(s), it is the responsibility of the software architect to serve the quantity and manner of the potential interoperability by specifying the semantics of the data in advance. \
+\\begin\{mmdp\}[Semantic heterogeneity between software agents is a feature that should be preserved]\\label\{dp:shf\}\
 \
 \\textbf\{Type of information:\} business, data  \\\\\
-\\textbf\{Quality attributes:\} semantics, interoperability, usability, efficiency   \\\\\
+\\textbf\{Quality attributes:\} semantics, interoperability, reliability, reusability, efficiency   \\\\\
 \\textbf\{Rationale:\}\
 \\begin\{enumerate\}\
   \\item Data represent the state of affairs of some part of the world, viewed from a particular perspective of use. Such view is just one particular perspective out of many equally legitimate ones;\
-  \\item Semantic heterogeneity, a direct consequence of the equally legitimate perspectives on reality, should not be considered a bug to resolve, but a feature to preserve and nurture in order to maximise semantic clarity and accuracy;\
+  \\item Semantic heterogeneity is a direct consequence of acknowledging equally legitimate perspectives on reality;\
   \\item Accepting semantic heterogeneity implies the probable uniqueness of the agents view on reality;\
-  \\item Computers are not capable of genuine understanding, hence cannot establish semantics from data and thus require the human-in-the-loop for that;\
-  \\item The responsibility for formulating the semantics that are expressed by the data can only lay by the software architect that has taken the particular perspective on reality when carving out the entities of interest to the software application;\
-  \\item On specifying semantics, Grice\'92s maxims on communication, and particularly on serving the quantity and manner of communication, represent the natural constraints to respect;\
-  \\item Without adherence to this principle, the meaning of the data expressed by the software agent can be considered flawed, inaccurate, incomplete or otherwise insufficient in its support for semantic interoperability.\
+  \\item Without adherence to this principle, sIOP can be achieved only for dedicated DC/DP pairs, with collaborations that have been foreseen, for which the semantics are assumed stable over time, implemented with technology or platforms for which no or limited evolution is anticipated, and assuming that new communication channels won\'92t emerge over time.\
 \\end\{enumerate\}\
 \\textbf\{Implications:\}\
 \\begin\{enumerate\}\
-  \\item The specification of the data semantics is only dependent on the agent\'92s own perspective on the application domain, and can therefore be fulfilled before any specific interoperability with communication peers;\
-  \\item No matter the number of different communication peers, the software agent needs to have the semantics of its data elements specified only once;\
-  \\item By providing an explicit semantic specification of the data, an agent facilitates other components and agents to connect to it and, consequently, grounds its semantic interoperability with them unequivocally.\
+  \\item Semantic heterogeneity maximises semantic clarity, accuracy and, consequently, the faithfull representation of the SoA in reality;\
+  \\item A software agent needs to specify the semantics of its data elements only once whilst remaining prepared for any number of distinct communication peers;\
+  \\item Maintenance and evolution of its semantics remain under the DP\'92s own control throughout the whole lifespan of the agent, and only depends on its business interest for investment, no matter the growth and evolution of the domain;\
+  \\item Accepting semantic heterogeneity implies acceptance of semantic mediation and resulting semantic alignments in order to achieve sIOP.\
 \\end\{enumerate\}  \
 \\end\{mmdp\}\
+\
 \
 }

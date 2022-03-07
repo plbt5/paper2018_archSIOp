@@ -5,9 +5,11 @@
 \deftab720
 \pard\pardeftab720\partightenfactor0
 
-\f0\fs24 \cf0 We maintain the position that computers lack the capability for genuine understanding and, hence, need to position the human-in-the-loop as a necessary element in sIOP in order to cater for the understanding of the semantic differences between the interoperating agents. This human is required for one task only: re-establishing reciprocity. The two possible approaches for this task are, (i) to modify the own pragmatic meaning such that it can operate in a valid way on the external semantic meaning, or (ii) to modify the external semantic meaning such that it can be operated on by the existing pragmatic meaning in a manner faithful to the current state of affairs. The consequence of the first approach is that it allows external definitions to influence internal workings. This clearly breaks one of the fundamental principles of software engineering, *low coupling, high cohesion* [e.g., @Hitz1995], and should therefore only be considered as a last resort. The second approach only adapts that what was already external to the receiving software agent, and thereby doesn\'92t breach this fundamental principle. We elaborate on this approach from the perspective of the receiving agent. The task is to convert the representation of the external semantic meaning such that it becomes syntactically identical to the representation of the internal semantic meaning, *and*, that the original external ASM refers to a state of affairs that is also referred to by the state of affairs of the internal ASM when processing the external data. \
+\f0\fs24 \cf0 We maintain the position that computers lack the capability for genuine understanding. Hence, to position the human-in-the-loop in the sIOP architecture is a necessary condition for the understanding of the semantic differences between the interoperating agents. This human is required for concern 3.1: re-establishing reciprocity. The two possible approaches for this task are, (i) to modify the own pragmatic meaning such that it can operate in a valid way on the external semantic meaning, or (ii) to modify the external semantic meaning such that it can be operated on by the existing pragmatic meaning in a manner faithful to the current state of affairs. The first approach allows external definitions to influence internal workings. This clearly breaks one of the fundamental principles of software engineering, *low coupling, high cohesion* [e.g., @Hitz1995], and should be considered a last resort. The second approach respects this fundamental principle, but assumes the semantic variations to be resolvable. We elaborate on this approach from the perspective of the software agent with a DC role. The task is to convert the representation of the semantic meaning as provided by the DP such that it becomes syntactically identical to the representation of the semantic meaning as applied by the DC. A prerequisite to this task is that DP\'92s ASM refers to a SoA that can be addressed by DC\'92s ASM when processing the received data. \
 \
-In order to achieve that, we first assume that the quality of our own software agent is such that the internal semantic meaning is in coherence with the internal pragmatic meaning, i.e., that its concerning ASM is faithful to reality over the complete range of the internal semantic meaning, i.e., the data values that it is designed to process. Contrarily, we *cannot* assume that any variation on the internal semantic meaning, no matter how small, will remain in coherence with the internal pragmatic meaning. Founded on this essential disposition we conclude that aligning the external semantic meaning with the internal semantic meaning such that the former does not overlap the latter, is the only approach that can guarantee sIOP. We reflect this with the following principle:\
+In order to achieve that, we first assume that the quality of DC software agent is such that the internal semantic meaning is in coherence with its internal pragmatic meaning, i.e., that its concerning ASM is faithful to reality over the complete range of the internal semantic meaning, viz. the data values that it is designed to process. Now assume that the semantic meaning that the DP software agent is to exchange, is equivalent to some semantic meaning that is in scope with the DC software agent. By virtue of the coherence that is in place with the DC software agent, the reciprocity between the external semantic meaning with the internal pragmatic meaning can be guaranteed to be re-established since there is no semantic difference with the internal semantic meaning. The only difference to overcome is the differences in representation between the external and internal semantics meanings. This can be achieved by a transcription process that can be generic and only requires a specification of how the external semantic meaning relates to what internal semantic meaning. This specification is known as a semantic alignment. \
+\
+Unfortunately, we cannot assume full equivalence between the semantic meanings of the DP and the DC. Indeed, many variations in semantic meaning can exist. However, there is no reason to assume the existence of semantic variations for which no alignments can be specified. We reflect this with the following principle:\
 \
 \\begin\{mmdp\}[Align the internal and external semantic meaning of the exchanged data]\\label\{dp:alignment\}\
 \
@@ -31,7 +33,7 @@ When a software agent engages in interoperation with (an)other software agent(s)
 \\end\{mmdp\}\
 \
 \
-A *correspondence* specifies as accurately as possible the semantic difference (out of those listed in Appendix A) that exists between a pair of related concepts, i.e., it aligns between the semantic meanings of interoperating agents. By exhaustively addressing all semantic differences that exist between both agents, the set of correspondences collectively specify the *alignment* that holds between two agents. The purpose of the alignment is to establish how the truth of expressions that are formulated in terms of agent A, can be established by using formulations in terms of agent A\'92, and to capture their potential difference as a relation. To that end we differentiate between two categories of semantic differences:\
+A *correspondence* specifies as accurately as possible the semantic differences that exists between a pair of related concepts, i.e., it aligns between the semantic meanings of interoperating agents. By exhaustively addressing all semantic differences that exist between both agents, the set of correspondences collectively specify the *alignment* that holds between two agents. The purpose of the alignment is to establish how the truth of expressions that are formulated in terms of agent A, can be established by using formulations in terms of agent A\'92, and to capture their potential difference as a relation. To that end we differentiate between two categories of semantic differences:\
 \
 1. *Conceptual differences*: variations that can be specified as logical relation between (constructions of) concepts from both ontologies, e.g., naming conventions or variations in structure; \
 1. *Value differences*: variations in conventions on how to represent values with or without magnitudes, e.g., differences in value scales, units of measure or nominal properties.\
@@ -48,7 +50,7 @@ with:\
 \pard\pardeftab720\partightenfactor0
 \cf0     * conceptual connectors:\
         * logical connectors \\token\{AND\}, \\token\{OR\}, and \\token\{NOT\};\
-        * a path connector as a sequence of zero or more Object Relations, \\token\{R\}, optionally ending with an Object Property \\token\{P\}, summarised as follows: \\token\{R^*[P]\};\
+        * a path connector as a sequence of zero or more Object Relations, \\token\{R\}, optionally ending with an Object Property \\token\{P\}, summarised as follows: \\token\{R^*\\[P\\]\};\
         * property construction operators (inverse, composition, reflexive, transitive and symmetric closures);\
         * constraints (through domain, range, cardinality and value restrictions);\
     * value functions:\
@@ -94,6 +96,14 @@ When a software agent engages in interoperation with (an)other software agent(s)
 ![Semantic reconciliation results in an alignment between the semantic representations of two ontologies. We defend that semantic reconciliation is a computer-aided but ultimately human-authored task.][def:DTReconciliation]\
 \
 \
+++++++\
+\
+Furthermore, the three FAIR principles that have been defined in relation to data being interoperable, are:\
+\
+I1. (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation:\
+    meaning that data should be readable for machines without the need for specialised or ad hoc algorithms, translators, or mappings. \
+I2. (meta)data use vocabularies that follow FAIR principles\
+I3. (meta)data include qualified references to other (meta)data \
 \
 <!-- page additions -->\
 [def:DTReconciliation]: src\\images\\DesignTimeReconciliation.png \{#fig:dt-reconciliation width=25%\} \

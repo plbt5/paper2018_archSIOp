@@ -79,10 +79,22 @@
                 <DefaultFrontMatter Add="Yes">AC0E4C16-84DD-46A8-978B-4E68660C32A1</DefaultFrontMatter>
             </FrontAndBackMatter>
         </Format>
+        <Format ID="9345FDB4-149F-498E-B3C7-55093DD8D490">
+            <SectionLayouts>
+                <Type ID="B1F3CB78-4407-4608-BC69-3002C7059BF1">AS-IS</Type>
+                <Type ID="27094CC6-778E-4B6B-86BF-958D87A28367">AS-IS</Type>
+                <Type ID="8F90131E-7A65-4A45-B2D0-F9310B8E839F">AS-IS</Type>
+                <Type ID="BEC0EFBC-ABB8-40AF-A9A4-9A4C16F0C006">TEXT-WITH-HEADER</Type>
+                <Type ID="94222364-5F69-4E60-A82D-29399AE3B0B2">AS-IS</Type>
+            </SectionLayouts>
+            <FrontAndBackMatter>
+                <DefaultFrontMatter Add="Yes">AC0E4C16-84DD-46A8-978B-4E68660C32A1</DefaultFrontMatter>
+            </FrontAndBackMatter>
+        </Format>
     </FormatSettings>
     <LastUsedFormats>
         <Print>27039EE2-F070-47AA-B0E9-7AB97724E7FC</Print>
         <mmd-latex>27039EE2-F070-47AA-B0E9-7AB97724E7FC</mmd-latex>
-        <mmd>27039EE2-F070-47AA-B0E9-7AB97724E7FC</mmd>
+        <mmd>9345FDB4-149F-498E-B3C7-55093DD8D490</mmd>
     </LastUsedFormats>
 </CompileSettings>
