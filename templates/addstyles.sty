@@ -26,24 +26,15 @@
 %%%%%%%%%%%
 
 \usepackage{mySemantics}
-\usepackage{cleveref}		% sourced from http://tug.ctan.org/macros/latex/contrib/cleveref/cleveref.pdf 
-                            % Makes varioref clever, and reuses its work to improve its own workings. 
-							% The cleveref package must be loaded after all other packages that 
-                            % don’t specifically support it. Therefore, to be safe, we declare it as last 
-                            % in the document's preamble.
-							% Also note that all \newtheorem definitions must be placed after the 
-                            % cleveref package is loaded.
-\usepackage{myTheorems}
 \usepackage{myTables}
+\usepackage{myFigures}
+%\usepackage{myGenerics}
 
 \usepackage{pdflscape}      % Extends package <lscape> to add PDF support to the environment `landscape`.  
                             % Applied for table on design Principles
 
 \usepackage{afterpage}      % Causes the commands specified in its argument to be expanded after the current 
                             % page is output. The current page will be filled up with text after \afterpage{...}.
-                            % Applied for table on design Principles
-
-\usepackage{graphicx}       % Optimizes \rotatebox 
                             % Applied for table on design Principles
 
 \usepackage{enumitem}		% List manipulation. Customize the three basic list environments 
@@ -54,6 +45,15 @@
 \usepackage{gensymb}        % The gensymb package provides a number of ‘generic’ macros, 
                             % which produce the same output in text and math mode. 
                             % Used for \celsius
+                            
+\usepackage{cleveref}		% sourced from http://tug.ctan.org/macros/latex/contrib/cleveref/cleveref.pdf 
+                            % Makes varioref clever, and reuses its work to improve its own workings. 
+							% The cleveref package must be loaded after all other packages that 
+                            % don’t specifically support it. Therefore, to be safe, we declare it as last 
+                            % in the document's preamble.
+							% Also note that all \newtheorem definitions must be placed after the 
+                            % cleveref package is loaded.
+\usepackage{myTheorems}
                             
 %%%%%%%%%%%
 %% End of File: addstyles.sty

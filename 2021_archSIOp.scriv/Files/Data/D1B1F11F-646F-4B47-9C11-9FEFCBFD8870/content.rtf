@@ -15,50 +15,46 @@ In this simple example a tiny difference in the meaning of `time` between the Da
 The most disconcerting consequences of a lack of (automated) sIOP are time-to-deliver, flat interoperability failures, and as seen above, seemingly correct but quite invalid data comprehension that leads to faulty system behaviour. Current sIOP implementations are essentially based on the (time-consuming) process of establishing a shared convention on the semantics of the data that are exchanged, and require custom software solutions and collaboration-dependent software adaptations. Indeed, such conventions result in a pleasant semantic homogeneity, but also in huge semantic monoliths that resolve some but far from all interoperability problems [@Renner1996]. And it makes dealing with data that originated outside the monolith impossible, unless again a time consuming (months) semantic adoption process is applied. Moreover, these semantic conventions consider semantic heterogeneity a bug instead of a feature necessary to allow for different but equally valid perspectives as well as to achieve semantic accuracy. Nevertheless, this conventions-based approach towards sIOP is considered accepted folklore, even state of the art in ICT, e.g., [@Otto2019]. In view of the large uptake of the Internet, the Internet of Things (IoT), cloud computing and big data, and in view of economical pressure to intensify enterprise collaboration, we consider this approach insufficient. Automation is required to resolve these issues, and we place formal semantics at its core.\
 \
 The main objective of our work is to achieve sIOP as quickly as possible, with as minimal human effort as possible, for collaborations that had not been foreseen and consequently could not be anticipated for during design time of the (two or more) software agents. Semantic heterogeneity must be allowed for, semantic scalability must become possible. We categorise our work in terms of the Framework for Enterprise Interoperability (FEI) [@Chen2017] as addressing the 
-\f1 <$Scr_Cs::0>
+\f1 <$Scr_Cs::1>
 \f2\i conceptual
-\f1\i0 <!$Scr_Cs::0>
+\f1\i0 <!$Scr_Cs::1>
 \f0  barrier, investigating the 
-\f1 <$Scr_Cs::0>
+\f1 <$Scr_Cs::1>
 \f2\i data
-\f1\i0 <!$Scr_Cs::0>
+\f1\i0 <!$Scr_Cs::1>
 \f0  and 
-\f1 <$Scr_Cs::0>
+\f1 <$Scr_Cs::1>
 \f2\i process
-\f1\i0 <!$Scr_Cs::0>
+\f1\i0 <!$Scr_Cs::1>
 \f0  concerns, and applying a 
-\f1 <$Scr_Cs::0>
+\f1 <$Scr_Cs::1>
 \f2\i federated
-\f1\i0 <!$Scr_Cs::0>
+\f1\i0 <!$Scr_Cs::1>
 \f0  approach.\
 \
 In comparison, system scalability was a big architectural concern in the past, requiring custom solutions as well. In response to this concern, scalability was standardised in the form of architectural patterns, and finally totally embedded and hidden into the infrastructure. Similarly, sIOP can be considered the architectural concern of this decade. We first need to provide standardised solution patterns that address sIOP concerns before we can embed it in a technological infrastructure. Only then we can claim that sIOP becomes transparent to the developer, and only then we can take down the tight coupling between semantics and the syntax of the shared data scheme. Where system scalability resulted in a huge increase in performance-demanding applications against a fraction of the original costs and effort, business agility will emerge once their semantics are accessible and semantic services exist at the infrastructural level to address them. Then sIOP becomes an access-and-play operation that can be achieved in due time with data not anticipated for during software design, and at any point in their life cycle. Metaphorically speaking, we consider sIOP a 
 \f2\i bridge
 \f0\i0  overarching a semantic gap: with *anchorages* (local, tangible semantics according to [@Brandt2021a]) on each side of the gap, with a *spanning* (semantic alignments) resting on them to structurally (semantically) support the interoperability bridge, and with a *roadway* (syntactic transcriptions) enabling the crossing of the (data) traffic. Finally, architectural *principles* provide the necessary guidance to the architect for the various design decisions that effectively result in a particular bridge over a particular semantic gap. This has been depicted in \\cref\{fig:semantic-concerns\}.\
-\pard\pardeftab720\sb240\partightenfactor0
-\cf0 \\begin\{figure\}\
-\pard\pardeftab720\partightenfactor0
-\cf0   \\centering\
-  \\begin\{subfigure\}[b]\{.75\\textwidth\}\
-    \\centering\
-    \\includegraphics[width=\\textwidth]\{src/images/3SemanticConcerns.png\}\
-    \\caption\{\}\
-    \\label\{fig:concernsa\}\
-  \\end\{subfigure\}\
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\sl288\slmult1\partightenfactor0
+
+\f1 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
+\f0 \\begin\{figure\}\
+  \\centering\
+  \\subcaptionbox\{\\label\{\AppleTypeServicesU0 fig:concernsa\AppleTypeServicesU1 \}\}\
+    [\AppleTypeServicesU0 .75\\textwidth]\AppleTypeServicesU1 \{\\includegraphics\{\AppleTypeServicesU0 src/images/3SemanticConcerns\AppleTypeServicesU1 \}\}\
   \\hfill\
-  \\begin\{subfigure\}[b]\{.15\\textwidth\}\
-    \\centering\
-    \\includegraphics[width=\\textwidth]\{src/images/3ConcernsLegend.png\}\
-    \\caption\{\}\
-    \\label\{fig:concernsb\}\
-  \\end\{subfigure\}\
-\pard\pardeftab720\ri-12932\partightenfactor0
-\cf0   \\caption\{{\field{\*\fldinst{HYPERLINK "scrivcmt://3F6CAE36-99E4-4CA3-8D5C-2C8D93B1CD8B"}}{\fldrslt Conceptual overview}} of the relationships in sIOP between the anchorage (conceptual modelling), its spanning \
-(semantic reconciliation) and roadway (semantic mediation), (a), and a legend explaining the used constructs (b).\}\
+  \\subcaptionbox\{\\label\{\AppleTypeServicesU0 fig:concernsb\AppleTypeServicesU1 \}\}\
+    [\AppleTypeServicesU0 .15\\textwidth]\AppleTypeServicesU1 \{\\includegraphics\{src/images/\AppleTypeServicesU0 3ConcernsLegend\AppleTypeServicesU1 \}\}\
+  \\caption\{{\field{\*\fldinst{HYPERLINK "scrivcmt://491F3766-5B58-4884-AF2C-E5666DD15451"}}{\fldrslt \AppleTypeServicesU0 Conceptual overview}}\AppleTypeServicesU0  of the relationships in sIOP between the anchorage (conceptual modelling), its spanning (semantic reconciliation) and roadway (semantic mediation), (a), and a legend explaining the used constructs (b).\AppleTypeServicesU1 \}\\label\{\AppleTypeServicesU0 fig:semantic-concerns\AppleTypeServicesU1 \}\
+\\end\{figure\}\
 \pard\pardeftab720\partightenfactor0
-\cf0   \\label\{fig:semantic-concerns\}\
+
+\f1 \cf0 \AppleTypeServicesU0 <!$Scr_Ps::0>
+\f0 \
 \pard\pardeftab720\sa240\partightenfactor0
-\cf0 \\end\{figure\}\
+\cf0 \
 \pard\pardeftab720\partightenfactor0
 \cf0 Our contributions to consolidating semantic interoperability in software architectures are fivefold, represented as architectural principles and concerns as follows:\
 \
@@ -72,9 +68,9 @@ In comparison, system scalability was a big architectural concern in the past, r
 \f2\i Mediation concerns (roadway)
 \f0\i0 : We determine the demands for a generic component that allows for communication with the peer agent in one\'92s native vocabulary only, by considering both ontological models and the alignment. Such approach applies the principle *connectivity without dependency* at the semantic level. This consolidates the agent\'92s potential to collaborate to any unforeseen applications without the need to adopt external semantic definitions, and remain scalable in the process (\\cref\{roadway-mediation-concerns\});\
 * 
-\f1 <$Scr_Cs::0>
+\f1 <$Scr_Cs::1>
 \f2\i Evaluation of semantic principles
-\f1\i0 <!$Scr_Cs::0>
+\f1\i0 <!$Scr_Cs::1>
 \f0 : In order to consistently address the above concerns, their founding architectural principles have been derived. It is a matter of architectural hygiene to evaluate how these principles support and consolidate the fundamental architectural demands about loose coupling and separation of concerns (notably semantic and communication concerns). We show how the necessary characteristics of semantics, i.e., semantic heterogeneity, semantic evolution and semantic scalability, are supplied by them (\\cref\{evaluation-of-siop-principles\});\
 * 
 \f2\i ISO42010 Architecture Viewpoint

@@ -37,7 +37,7 @@ keywords:
   - interoperability
   - design principles
 journalname: Information and Software Technology  
-version-incr: major # major, minor or commit
+version-incr: commit # major, minor or commit
 compiled: 30/03/2022
 date: Wednesday, 30 March 2022
 thanks: Do we have acknowedgments to make?
@@ -71,25 +71,22 @@ The most disconcerting consequences of a lack of (automated) sIOP are time-to-de
 The main objective of our work is to achieve sIOP as quickly as possible, with as minimal human effort as possible, for collaborations that had not been foreseen and consequently could not be anticipated for during design time of the (two or more) software agents. Semantic heterogeneity must be allowed for, semantic scalability must become possible. We categorise our work in terms of the Framework for Enterprise Interoperability (FEI) [@Chen2017] as addressing the *conceptual* barrier, investigating the *data* and *process* concerns, and applying a *federated* approach.
 
 In comparison, system scalability was a big architectural concern in the past, requiring custom solutions as well. In response to this concern, scalability was standardised in the form of architectural patterns, and finally totally embedded and hidden into the infrastructure. Similarly, sIOP can be considered the architectural concern of this decade. We first need to provide standardised solution patterns that address sIOP concerns before we can embed it in a technological infrastructure. Only then we can claim that sIOP becomes transparent to the developer, and only then we can take down the tight coupling between semantics and the syntax of the shared data scheme. Where system scalability resulted in a huge increase in performance-demanding applications against a fraction of the original costs and effort, business agility will emerge once their semantics are accessible and semantic services exist at the infrastructural level to address them. Then sIOP becomes an access-and-play operation that can be achieved in due time with data not anticipated for during software design, and at any point in their life cycle. Metaphorically speaking, we consider sIOP a bridge overarching a semantic gap: with *anchorages* (local, tangible semantics according to [@Brandt2021a]) on each side of the gap, with a *spanning* (semantic alignments) resting on them to structurally (semantically) support the interoperability bridge, and with a *roadway* (syntactic transcriptions) enabling the crossing of the (data) traffic. Finally, architectural *principles* provide the necessary guidance to the architect for the various design decisions that effectively result in a particular bridge over a particular semantic gap. This has been depicted in \cref{fig:semantic-concerns}.
+
+
+~~~{=latex}
 \begin{figure}
   \centering
-  \begin{subfigure}[b]{.75\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{src/images/3SemanticConcerns.png}
-    \caption{}
-    \label{fig:concernsa}
-  \end{subfigure}
+  \subcaptionbox{\label{fig:concernsa}}
+    [.75\textwidth]{\includegraphics{src/images/3SemanticConcerns}}
   \hfill
-  \begin{subfigure}[b]{.15\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{src/images/3ConcernsLegend.png}
-    \caption{}
-    \label{fig:concernsb}
-  \end{subfigure}
-  \caption{Conceptual overview of the relationships in sIOP between the anchorage (conceptual modelling), its spanning 
-(semantic reconciliation) and roadway (semantic mediation), (a), and a legend explaining the used constructs (b).}
-  \label{fig:semantic-concerns}
+  \subcaptionbox{\label{fig:concernsb}}
+    [.15\textwidth]{\includegraphics{src/images/3ConcernsLegend}}
+  \caption{Conceptual overview of the relationships in sIOP between the anchorage (conceptual modelling), its spanning (semantic reconciliation) and roadway (semantic mediation), (a), and a legend explaining the used constructs (b).}\label{fig:semantic-concerns}
 \end{figure}
+~~~
+
+
+
 Our contributions to consolidating semantic interoperability in software architectures are fivefold, represented as architectural principles and concerns as follows:
 
 * Semantic concerns (anchorage): We summarize our work in [@Brandt2021a] on how to achieve a semantic anchorage by abstracting semantics from a tacit software implication into a tangible, computational and distinct artifact. This creates the potential to connect to it, to make comparisons with the semantic artifact of the peer software agent. We then formulate the principle of assuming responsibility on the semantics on data, and conclude what preparations about semantics are required for an agent before being able to engage in semantic interoperability (\cref{anchorage-semantic-concerns});

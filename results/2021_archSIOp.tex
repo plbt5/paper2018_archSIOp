@@ -246,24 +246,15 @@ architectures, semantics, interoperability, design principles},
 %%%%%%%%%%%
 
 \usepackage{mySemantics}
-\usepackage{cleveref}		% sourced from http://tug.ctan.org/macros/latex/contrib/cleveref/cleveref.pdf 
-                            % Makes varioref clever, and reuses its work to improve its own workings. 
-							% The cleveref package must be loaded after all other packages that 
-                            % don’t specifically support it. Therefore, to be safe, we declare it as last 
-                            % in the document's preamble.
-							% Also note that all \newtheorem definitions must be placed after the 
-                            % cleveref package is loaded.
-\usepackage{myTheorems}
 \usepackage{myTables}
+\usepackage{myFigures}
+%\usepackage{myGenerics}
 
 \usepackage{pdflscape}      % Extends package <lscape> to add PDF support to the environment `landscape`.  
                             % Applied for table on design Principles
 
 \usepackage{afterpage}      % Causes the commands specified in its argument to be expanded after the current 
                             % page is output. The current page will be filled up with text after \afterpage{...}.
-                            % Applied for table on design Principles
-
-\usepackage{graphicx}       % Optimizes \rotatebox 
                             % Applied for table on design Principles
 
 \usepackage{enumitem}		% List manipulation. Customize the three basic list environments 
@@ -274,6 +265,15 @@ architectures, semantics, interoperability, design principles},
 \usepackage{gensymb}        % The gensymb package provides a number of ‘generic’ macros, 
                             % which produce the same output in text and math mode. 
                             % Used for \celsius
+                            
+\usepackage{cleveref}		% sourced from http://tug.ctan.org/macros/latex/contrib/cleveref/cleveref.pdf 
+                            % Makes varioref clever, and reuses its work to improve its own workings. 
+							% The cleveref package must be loaded after all other packages that 
+                            % don’t specifically support it. Therefore, to be safe, we declare it as last 
+                            % in the document's preamble.
+							% Also note that all \newtheorem definitions must be placed after the 
+                            % cleveref package is loaded.
+\usepackage{myTheorems}
                             
 %%%%%%%%%%%
 %% End of File: addstyles.sty
@@ -319,7 +319,7 @@ architectures, semantics, interoperability, design principles},
   \title{Consolidating semantic interoperability in contemporary
 software architectural paradigms\tnoteref{id1,version}}
   \tnotetext[id1]{Tables \& figures with 2-columns incorrectly placed;
-will be corrected when submitting.}\tnotetext[version]{version v1.0-0}
+will be corrected when submitting.}\tnotetext[version]{version v1.0-1}
 %%
 
 %% AUTHOR elements
@@ -533,22 +533,12 @@ semantic gap. This has been depicted in \cref{fig:semantic-concerns}.
 
 \begin{figure}
   \centering
-  \begin{subfigure}[b]{.75\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{src/images/3SemanticConcerns.png}
-    \caption{}
-    \label{fig:concernsa}
-  \end{subfigure}
+  \subcaptionbox{\label{fig:concernsa}}
+    [.75\textwidth]{\includegraphics{src/images/3SemanticConcerns}}
   \hfill
-  \begin{subfigure}[b]{.15\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{src/images/3ConcernsLegend.png}
-    \caption{}
-    \label{fig:concernsb}
-  \end{subfigure}
-  \caption{Conceptual overview of the relationships in sIOP between the anchorage (conceptual modelling), its spanning 
-(semantic reconciliation) and roadway (semantic mediation), (a), and a legend explaining the used constructs (b).}
-  \label{fig:semantic-concerns}
+  \subcaptionbox{\label{fig:concernsb}}
+    [.15\textwidth]{\includegraphics{src/images/3ConcernsLegend}}
+  \caption{Conceptual overview of the relationships in sIOP between the anchorage (conceptual modelling), its spanning (semantic reconciliation) and roadway (semantic mediation), (a), and a legend explaining the used constructs (b).}\label{fig:semantic-concerns}
 \end{figure}
 
 Our contributions to consolidating semantic interoperability in software
