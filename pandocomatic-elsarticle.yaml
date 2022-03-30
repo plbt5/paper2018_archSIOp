@@ -78,8 +78,10 @@ templates:
                                # to elsarticle.latex
     metadata:
       documentclass: 'elsarticle'       # Specifying Elsevier's documentclass.
-      classoption: ['preprint','authoryear','3p','twocolumn'] # Elsevier defines
-#      classoption: ['preprint','authoryear','3p'] # Single column style.
+      twocolumn: true          # Single column (False) or double column (True) style. 
+                               # DO NOT include 'twocolumn' in the classoption parameter;
+                               # that will be taken care of by this parameter.
+      classoption: ['preprint','authoryear','3p'] # Elsevier defines
                                # several options for their various journal styles.
 #      classoption: ['sort&compress','preprint','authoryear','3p'] # 
                                # The `sort&compress` fails on the `&`; refer 
