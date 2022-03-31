@@ -1,0 +1,79 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2638
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;\f1\fswiss\fcharset0 Helvetica;\f2\fmodern\fcharset0 CourierNewPS-ItalicMT;
+}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf0 \'93The successful standardisation of protocols made us believe that we should also 
+\f1 <$Scr_Cs::0>
+\f2\i standardise meaning
+\f1\i0 <!$Scr_Cs::0>
+\f0  on the Web. This is a fundamental 
+\f1 <$Scr_Cs::0>
+\f2\i misconception
+\f1\i0 <!$Scr_Cs::0>
+\f0 .\'94 [@Janowicz:2013ui]. This believe can be witnessed by the many initiatives taken by standards developing organisations (SDO) to develop a myriad on data standards, from e.g., 
+\f1 <$Scr_Cs::0>
+\f2\i Tradelens
+\f1\i0 <!$Scr_Cs::0>
+\f0  in Transport & Logistics domain and 
+\f1 <$Scr_Cs::0>
+\f2\i International Financial Reporting Standards
+\f1\i0 <!$Scr_Cs::0>
+\f0  in Finance & Accounting to, e.g., 
+\f1 <$Scr_Cs::0>
+\f2\i ICEN/EN 13606
+\f1\i0 <!$Scr_Cs::0>
+\f0 , 
+\f1 <$Scr_Cs::0>
+\f2\i SO/TC 215
+\f1\i0 <!$Scr_Cs::0>
+\f0 , and 
+\f1 <$Scr_Cs::0>
+\f2\i ISO/HL7 21731
+\f1\i0 <!$Scr_Cs::0>
+\f0  in the Electronic Health Records domain and the 
+\f1 <$Scr_Cs::0>
+\f2\i smartM2M
+\f1\i0 <!$Scr_Cs::0>
+\f0  standard by the IoT European Platform Initiative [@ETSI2019], to name a few. This current viewpoint on semantics defies semantic heterogeneity and enforce semantic homogeneity: one single agreed domain convention on how the syntactic representation and structure of the data or messages shall be semantically interpreted. Indeed, semantics are a particular representation of some part of the world, viewed from a particular perspective of use, however, we don\'92t acknowledge that the 
+\f1 <$Scr_Cs::0>
+\f2\i particular
+\f1\i0 <!$Scr_Cs::0>
+\f0  representation and 
+\f1 <$Scr_Cs::0>
+\f2\i particular
+\f1\i0 <!$Scr_Cs::0>
+\f0  perspective that the data standard enforces is universally shared by the domain users. And equally important, any particular perspective is just one out of many equally legitimate ones that our software are deemed to consider over the software\'92s lifecycle. Some examples are given in \\cref\{tab:perspectives\}.\
+\
+-------------------------------------------------------------------------------------------------------------------\
+Reality to refer to          Perspective #1      Perspective #2       Perspective #3        ...  Perspective #n              \
+---------------------------- ------------------- -------------------- -------------------- ----- ------------------\
+Waves are                    *objects* that      *forces* exerted on  an *accumulation* of  ...  a *relation*      \
+                             I can point at      dikes, walls or      other waves                between water, \
+                                                 oil rigs                                        current, wind and\
+                                                                                                 the seabed\
+\
+$\\;$\
+\
+How many terrorist attacks   1, the number       2, the number        4, the number         ...  2996, the\
+can be counted on 9/11?      of involved         of collapsed         of involved                number of\
+                             terrorist groups    towers               aircraft                   casualties[^1] \
+\
+-------------------------------------------------------------------------------------------------------------------\
+\
+   : Semantics follow many alternative but equally legitimate points of view on reality, implying that no single one true abstraction exists. Hence, semantic heterogeneity is a feature that should be preserved, as opposed to a bug that should be sought to correct. \\label\{tab:perspectives\}\
+\
+We consider semantic homogeneity only a solution for small scale domains, i.e., with a handfull of actors, and for a short lifespan. For larger domains and/or longer lifespans, it is not only an illusion, but striving for homogeneity brings about several important disadvantages: (i) implementation of semantic standards involves considerable expenses, and tends to solidify in software by implicit operations on data that are expensive to change, slowly setting the standard in stone; (ii) since semantic standards fix representation, semantics become conflated with syntax, making the semantic standard susceptible to variations in syntax that occur with increasing stakeholders or with contextual evolution over time; (iii) conflating semantics and syntax create dependencies of the semantic standard with the architectural paradigm, its particular implementation or applied technology; (iv) the previous three issues bring about a high impedance for the standard to change and to evolve; and they create a significant barrier (v) for new business opportunities, (vi) obstructing business agility, and (vii) disable a level playing field for newcomers that have to invest hugely to adopt the standard and reap its benefits. Essentially, it is sheer impossible to create for each particular domain, or part thereof, a semantic standard; even in the highly protocolised health domain that already addressed semantics in 1987 [@Spronk2014], adoption of its standards remains slow and cumbersome [REF]. This becomes all the more clear when comparing with the successful adoption of 2G GSM telecommunication standard, including its evolution to 2.5G, 3G, 3.5G, 4G and 5G standards during roughly the same era. Finally, these issues only worsen when extending sIOP to support inter-domain interoperability.\
+\
+We formulate the first (semantic) concern on sIOP:\
+\
+* *concern 1*: Acknowledge semantic heterogeneity as point of departure when establishing sIOP.\
+\
+This immediately leads to the definition of \\cref\{dp:shf\} in \\cref\{tab:dps\} to its effect. We do not imply with this principle to abandon each and every use of semantic homogeneity. We consider shared semantic homogeneity a useful element to achieve sIOP. However, the principle encourages to not 
+\f1 <$Scr_Cs::0>
+\f2\i assume
+\f1\i0 <!$Scr_Cs::0>
+\f0  semantic homogeneity a necessary condition nor a point of departure when engineering sIOP.}

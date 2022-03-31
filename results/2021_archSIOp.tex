@@ -319,7 +319,7 @@ architectures, semantics, interoperability, design principles},
   \title{Consolidating semantic interoperability in contemporary
 software architectural paradigms\tnoteref{id1,version}}
   \tnotetext[id1]{Tables \& figures with 2-columns incorrectly placed;
-will be corrected when submitting.}\tnotetext[version]{version v1.0-1}
+will be corrected when submitting.}\tnotetext[version]{version v1.0-2}
 %%
 
 %% AUTHOR elements
@@ -625,6 +625,64 @@ the end of the paper, following the structure in \citep{Greefhorst2011}.
 \section{Anchorage: Semantic
 concerns}\label{anchorage-semantic-concerns}}
 
+Since we here talk about \emph{semantic} interoperability, we first need
+to establish what is meant with semantics in software. We then defend
+the need for semantic heterogeneity and finally
+
+\hypertarget{semantics-in-software}{%
+\subsection{Semantics in software}\label{semantics-in-software}}
+
+With semantics, we refer to real world semantics, RWS for short, and we
+summarise our position towards semantics in software from
+\citep{Brandt2021a} as follows:
+
+\begin{itemize}
+\tightlist
+\item
+  Since software is incapable of genuine understanding, real world
+  semantics cannot exist in software. Nevertheless, the software agent
+  acts as transport medium for RWS between users and must do so without
+  compromising the transported cargo, viz RWS.
+\item
+  Based on \citep{Grice:1991BT}, we discern \emph{semantic meaning},
+  i.e., what is said and carried by data, and \emph{pragmatic meaning},
+  i.e., to connect with our frame of reference and its context of use,
+  implementing comprehension as an inference process from the semantic
+  meaning.
+\item
+  We consider \emph{data} the carrier for semantic meaning, and their
+  \emph{data processing} carrier for pragmatic meaning.
+\item
+  The nature of software dictates that data and their data processing
+  are always intimately connected. We consider the reciprocity between
+  data (semantic meaning) and their processing (pragmatic meaning) the
+  carrier of RWS.
+\item
+  Any incoherent reciprocity, i.e., inconsistencies between data and
+  their processing code, equates to unfaithfulness to reality, viz
+  semantics that are considered invalid in the application domain.
+\item
+  The central disposition of reciprocity in software semantics emerges
+  as an \emph{Atomic Semantic Monolith} (ASM), established with the
+  explicit purpose to guarantee the coherence between the data and their
+  processing code required to achieve data comprehension.
+\item
+  The Domain Model (DM), composed as the combination of the Semantic
+  model, representing the semantic meaning, with the Pragmatic Model,
+  representing the pragmatic meaning, provides the software agent with
+  the level of comprehension necessary to decide upon its behaviour (to
+  achieve the agent's objectives) under the current state of affairs.
+\item
+  In the active, processing, part of an agent we thus separate
+  comprehension, specified by the DM, from behaviour, specified by the
+  System Model (SM). We consider the SM semantically grounded in the DM
+  if all terms that are used by the SM and refer to the DoA, get their
+  comprehension from the DM.
+\end{itemize}
+
+\hypertarget{semantic-heterogeneity}{%
+\subsection{Semantic heterogeneity}\label{semantic-heterogeneity}}
+
 ``The successful standardisation of protocols made us believe that we
 should also \emph{standardise meaning} on the Web. This is a fundamental
 \emph{misconception}.'' \citep{Janowicz:2013ui}. This believe can be
@@ -750,6 +808,10 @@ semantic homogeneity a useful element to achieve sIOP. However, the
 principle encourages to not \emph{assume} semantic homogeneity a
 necessary condition nor a point of departure when engineering sIOP.
 
+\hypertarget{the-four-maxims-of-communication}{%
+\subsection{The four maxims of
+communication}\label{the-four-maxims-of-communication}}
+
 It is clear that sIOP encompasses a communication between at least two
 agents. Communication between human agents brings about a natural
 responsibility for both, described by \citep{Grice:1991BT} in four
@@ -773,52 +835,6 @@ serve:
   orderly.
 \end{enumerate}
 
-Since we here talk about \emph{semantic} interoperability, we first need
-to establish what is meant with semantics in software. With semantics,
-we refer to real world semantics, RWS for short, and we summarise our
-position towards semantics in software from \citep{Brandt2021a} as
-follows:
-
-\begin{itemize}
-\tightlist
-\item
-  Since software is incapable of genuine understanding, real world
-  semantics cannot exist in software. Nevertheless, the software agent
-  acts as transport medium for RWS between users.
-\item
-  The reciprocity between processing code and data does manifest itself
-  to users as RWS.
-\item
-  Based on \citep{Grice:1991BT}, we discern \emph{semantic meaning},
-  i.e., what is said and carried by data, and the \emph{pragmatic
-  meaning}, i.e., to connect with our frame of reference and its context
-  of use, implementing comprehension as an inference process from the
-  semantic meaning.
-\item
-  The nature of software dictates that data and data processing code are
-  always intimately connected, and since their reciprocity emerges as
-  software behaviour, software malfunction originates (amongst others)
-  from a broken reciprocity, i.e., inconsistencies between data and
-  their processing code. Any incoherent reciprocity equates to
-  unfaithfulness, viz semantics that are considered invalid in the
-  application domain.
-\item
-  The Domain Model (DM), composed as the combination of the Semantic
-  model (SM), representing the semantic meaning, with the Pragmatic
-  Model (PM), representing the pragmatic meaning, provides the software
-  agent with the level of comprehension necessary to decide upon its
-  behaviour under the current state of affairs.
-\item
-  The central disposition of reciprocity in software semantics emerges
-  as an \emph{Atomic Semantic Monolith} (ASM) required for data
-  comprehension: being a \emph{semantic monolith} refers to the tight
-  coupling between data and their processing code, which, together,
-  describe the state of affairs in the application domain; Atomicity
-  refers to the level of granularity at which the entity that is
-  referred to by the data token is considered a non-dividable whole in
-  the application domain.
-\end{itemize}
-
 Based on this perspective on software semantics, we formulate the second
 (semantic) concern on sIOP and its elaboration in two subconcerns:
 
@@ -826,7 +842,7 @@ Based on this perspective on software semantics, we formulate the second
 \tightlist
 \item
   \emph{concern 2}: It is a natural responsibility for software agents
-  that engage in collaboration to adhere to Grice's four maxims above
+  that engage in collaboration to adhere to Grice's four maxims
 
   \begin{itemize}
   \tightlist
@@ -839,30 +855,25 @@ Based on this perspective on software semantics, we formulate the second
   \end{itemize}
 \end{itemize}
 
-\begin{quote}
-Note: Maxim 3 relates at the one hand to the software agents'
-interoperation itself as opposed to the semantic concern of one of them;
-this will be addressed in \cref{spanning-siop-concerns}. At the other
-hand, maxim 3 relates to the purpose that the software agent is to
-achieve. Since we assume that any received data refers to the (possibly
-changed) SoA in the shared DoA, hence, relevance to the software agent
-is a matter of fact.
-\end{quote}
+Maxim 3 relates to the purpose that the software agent is to achieve.
+Since we assume that any received data refers to the (possibly changed)
+SoA in the shared DoA, hence, relevance to the software agent can be
+considered a matter of fact. Maxim 3 also relates to the software
+agents' interoperation itself as opposed to the semantic concern of one
+of them; this will be addressed in \cref{spanning-siop-concerns}.
 
 Concern 2.1 immediately leads to the definition of \cref{dp:rfsm} to its
-effect.
-
-Elaborating on concern 2.2: In \citep{Brandt2021a} we have identified
-that each modelling language carries its own ontological commitment,
-i.e., the differences that the language constructs characterise
-represent a commitment to what the language commits to about what exists
-in reality. The choice of modelling language, therefore, has major
-impact on the (accuracy of the) semantics that are modelled. This
-semantic concern is therefore influenced by the ontological commitment.
-We introduce a definition on \emph{semantic compatibility} to its end.
-Merriam-Webster defines \emph{compatibility} as ``being a computer
-designed to operate in the same manner and use the same software as
-another computer''\footnote{Merriam-Webster,
+effect, and we elaborate on concern 2.2 as follows. In
+\citep{Brandt2021a} we have identified that each modelling language
+carries its own ontological commitment, i.e., the differences that the
+language constructs characterise represent a commitment to what the
+language commits to about what exists in reality. The choice of
+modelling language, therefore, has major impact on the (accuracy of the)
+semantics that are modelled. This semantic concern is therefore
+influenced by the ontological commitment. We introduce a definition on
+\emph{semantic compatibility} to its end. Merriam-Webster defines
+\emph{compatibility} as ``being a computer designed to operate in the
+same manner and use the same software as another computer''\footnote{Merriam-Webster,
   https://www.merriam-webster.com/dictionary/compatibility, accessed Jan
   2021}. This leads to the following definition:
 
@@ -906,39 +917,30 @@ is to identify the type of object that the exchanged data belongs to,
 position its values in the proper value space, and derive the
 conclusions based upon which the DSC will act.
 
-++++
-
-Maxim 3 relates at the one hand to the software agents' interoperation
-itself as opposed to the semantic concern of one of them; this will be
-addressed
-
-++++
-
 From this, we establish the sIOP concerns in the first subsection, and
 address them in two subsequent subsections.
 
-\hypertarget{determination-of-siop-concerns}{%
-\subsection{Determination of sIOP
-concerns}\label{determination-of-siop-concerns}}
+\hypertarget{re-establish-semantic-coherence}{%
+\subsection{Re-establish semantic
+coherence}\label{re-establish-semantic-coherence}}
 
 Semantic interoperability is about at least two software agents, in
 their roles as DSP and DSC, that share a particular DoA and exchange
 data that represent a certain SoA in their shared reality. Subsequent to
 the exchange, the data will be processed by the receiving DSC. It stands
 to reason that understanding the data precedes their faithful use, which
-is supported by FAIR's state (a). However, we insist that comprehension
-in software is necessarily reduced to the reciprocity that exists
-between semantic meaning (data) and their pragmatic meaning (processing
-code) in the atomic semantic monolith. Moreover, the ASM has been
-established with the explicit purpose to guarantee the coherence between
-the data and their processing code \citep{Brandt2021a}. By exchanging
-data, the represented semantic meaning are necessarily separated from
-the ASM they belong to. (Why it is useless to exchange the complete
-semantic monolith in order to establish sIOP, is left as an exercises to
-the reader \footnote{\rotatebox{180}{Communicating the semantic monolith, although possible, results in a too narrow solution towards sIOP because this would require each agent to have an exactly equal perspective on reality. Although possible, this will rarely be the case.}}.)
-The consequence on state (a) of exchanging the semantic meaning (data)
-only, therefore, is twofold: it loses its coherence with its original
-pragmatic meaning, and, the necessity emerges for establishing a new
+is supported by FAIR's machine-actionable stance. This also resonates
+with Maxim 3, relevancy of the communication; it addresses the objective
+of the DSC through its application to her pragmatic meaning.
+
+We assume the presence of domain models, one for each collaborating
+software agent, anchoring the semantics of the collaboration. Then, by
+exchanging data, the represented semantic meaning are necessarily
+separated from the DSP's ASM they belong to. (Why it is useless to
+exchange the complete semantic monolith in order to establish sIOP, is
+left as an exercises to the reader \footnote{\rotatebox{180}{Communicating the semantic monolith, although possible, results in a too narrow solution towards sIOP because this would require each agent to have an exactly equal perspective on reality. Although possible, this will rarely be the case.}}.)
+Consequently, it loses its coherence with its original pragmatic
+meaning, and for the DSC, the necessity emerges for establishing a new
 reciprocity with the pragmatic meaning that belongs to the DSC. Unless
 it can be guaranteed that the new reciprocity emerges as coherent as it
 needs to be, it's impossible to establish sIOP without emergence of
@@ -949,8 +951,8 @@ phantom semantics. We repeat our definition on semantic coherence from
 Semantic coherence builds on the consistency with which the [semantic and pragmatic meanings] (...) commit to the same distinctions in their shared reality, and only require each other's knowledge in executing their reciprocity. 
 \end{mmdef}
 
-With this in mind, we reformulate state (a) as our third concern about
-sIOP:
+With this in mind, we reformulate the machine-actionable stance and
+combine it with Maxim 3 as our third concern about sIOP:
 
 \begin{itemize}
 \tightlist
@@ -962,16 +964,14 @@ sIOP:
   code remains truthful to the state of affairs in reality.
 \end{itemize}
 
-\begin{quote}
-Note: Although they share the same semantic meaning, the resulting
-semantic monolith of the DSC must be allowed to differ from the DSP's
-semantic monolith. For example, by exchanging a heartbeat both agents
-share the semantic meaning about the number of beats per second, however
-the pragmatic meaning can vary between an indication of health for an
+Although they share the same semantic meaning, the resulting semantic
+monolith of the DSC must be allowed to differ from the DSP's semantic
+monolith. For example, by exchanging a heartbeat both agents share the
+semantic meaning about the number of beats per second, however the
+pragmatic meaning can vary between an indication of health for an
 health-care application and an indication of performance potential in a
 sports application, with different pragmatic demands, e.g., resolution
 and accuracy.
-\end{quote}
 
 We discern the following subconcerns:
 
@@ -996,10 +996,10 @@ We discern the following subconcerns:
   governance of sIOP;
 \end{itemize}
 
-Additionally, accepting semantic heterogeneity brings about an issue of
-scalability, since semantics won't be centrally coordinated anymore
-resulting in semantic definitions that are distributed all over the
-place, see \cref{dp:shf}.
+Accepting semantic heterogeneity brings about an issue of scalability,
+since semantics won't be centrally coordinated anymore resulting in
+semantic definitions that are distributed all over the place, see
+\cref{dp:shf}.
 
 \begin{mmdef}[Semantic scalability]\label{def:semantic-scalability}
 Semantic scalability is the capability of a system of collaborating actors to adopt and/or consolidate, with acceptable lead time and costs, increasing perspectives on -or more complex semantic heterogeneity about- their shared reality without compromising sIOP between any interacting software agents. 
@@ -1437,8 +1437,8 @@ transparency are met by the sIOP principles
 \cref{dp:ssoc,dp:alignment,dp:mediation}. Therefore, loosely coupled
 semantics should emerge between agents that comply to these principles.
 
-\hypertarget{semantic-heterogeneity}{%
-\subsection{Semantic heterogeneity}\label{semantic-heterogeneity}}
+\hypertarget{semantic-heterogeneity-1}{%
+\subsection{Semantic heterogeneity}\label{semantic-heterogeneity-1}}
 
 We have already determined that the principle to align semantics as
 opposed to data schemata, \cref{dp:ssoc}, breaks the conflation of
