@@ -1,41 +1,49 @@
 {\rtf1\ansi\ansicpg1252\cocoartf2638
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;\f1\fswiss\fcharset0 Helvetica;\f2\fmodern\fcharset0 CourierNewPS-ItalicMT;
+}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \deftab720
 \pard\pardeftab720\partightenfactor0
 
-\f0\fs24 \cf0 Semantic interoperability is about at least two software agents, in their roles as DSP and DSC, that share a particular DoA and exchange data that represent a certain SoA in their shared reality. Subsequent to the exchange, the data will be processed by the receiving DSC. It stands to reason that understanding the data precedes their faithful use, which is supported by FAIR\'92s machine-actionable stance. This also resonates with Maxim 3, relevancy of the communication; it addresses the objective of the DSC through its application to her pragmatic meaning. \
+\f0\fs24 \cf0 Semantic interoperability is about at least two software agents, in their roles as DSP and DSC, that share a particular DoA and exchange data that represent a certain SoA in their shared reality. Subsequent to the exchange, the data will be processed by the receiving DSC. It stands to reason that understanding the data precedes their faithful use, which is supported by FAIR\'92s machine-actionable states. This also resonates with Maxim 3, relevancy of the communication; it addresses the objective of the DSC through its application to her pragmatic meaning. \
 \
-We assume the presence of domain models, one for each collaborating software agent, anchoring the semantics of the collaboration. Then, by exchanging data, the represented semantic meaning are necessarily separated from the DSP\'92s ASM they belong to. (Why it is useless to exchange the complete semantic monolith in order to establish sIOP, is left as an exercises to the reader [^Answer].) Consequently, it loses its coherence with its original pragmatic meaning, and for the DSC, the necessity emerges for establishing a new reciprocity with the pragmatic meaning that belongs to the DSC. Unless it can be guaranteed that the new reciprocity emerges as coherent as it needs to be, it\'92s impossible to establish sIOP without emergence of phantom semantics. We repeat our definition on semantic coherence from [Brandt21a]:\
+We assume the presence of domain models, one for each collaborating software agent, anchoring the semantics of the collaboration. Since data represent semantic meaning only, then by exchanging data, the represented semantic meaning are necessarily separated from the DSP\'92s ASM they belong to. (Why it is useless to exchange the complete ASM in order to establish sIOP, is left as an exercises to the reader [^Answer].) Consequently, it loses its coherence with its original pragmatic meaning. The DSC must establish a new reciprocity with its own pragmatic meaning. Unless it can be guaranteed that the new reciprocity is as coherent as necessary for a faithful comprehension, it\'92s impossible to establish sIOP without emergence of phantom semantics. We repeat our definition on semantic coherence from [@Brandt2021a]:\
 \
 \\begin\{mmdef\}[Semantic coherence]\\label\{def:semantic-coherence\}\
 Semantic coherence builds on the consistency with which the [semantic and pragmatic meanings] (\'85) commit to the same distinctions in their shared reality, and only require each other's knowledge in executing their reciprocity. \
 \\end\{mmdef\}  \
 \
-With this in mind, we reformulate the machine-actionable stance and combine it with Maxim 3 as our third concern about sIOP:\
+We indicated in \\cref(the-four-maxims-of-communication) that Maxim 3, 
+\f1 <$Scr_Cs::0>
+\f2\i be relevant (to the immediate needs)
+\f1\i0 <!$Scr_Cs::0>
+\f0 , also relates to the interoperation between the agents. Apart from its place in the communication protocol (what we do not address here), we consider the ability to establish the relevancy to the immediate needs a prerequisite for sIOP, including its communication protocol. Again, this refers to the purpose that the software agent, now the DSC, is to achieve and, therefore, relates directly to the above semantic coherence. \
 \
-* *concern 3*: subsequent to data exchange, the DSC must have the capability to re-establish semantic coherence between the external (DSP\'92s) semantic meaning and its own internal pragmatic meaning, and assure that the reciprocity between DSP\'92s data and DSC\'92s processing code remains truthful to the state of affairs in reality.\
+Our third concern about sIOP is founded on FAIR\'92s machine-actionable stance and Maxim 3 as:\
 \
-Although they share the same semantic meaning, the resulting semantic monolith of the DSC must be allowed to differ from the DSP\'92s semantic monolith. For example, by exchanging a heartbeat both agents share the semantic meaning about the number of beats per second, however the pragmatic meaning can vary between an indication of health for an health-care application and an indication of performance potential in a sports application, with different pragmatic demands, e.g., resolution and accuracy. \
+* *concern 3*: subsequent to data exchange, the DSC must have the capability to re-establish semantic coherence between the external (DSP\'92s) semantic meaning and its own internal pragmatic meaning, and assure that the reciprocity between DSP\'92s data and DSC\'92s data processing code remains truthful to the state of affairs in reality.\
 \
-We discern the following subconcerns:\
+We note that concern 3:\
 \
-* *concern 3.1*: Re-establishing semantic coherence by the DSC applies to both the data it receives from the DSP as to the data that the DSC can infer from them;\
-* *concern 3.2*: Pursuing sIOP involves to ensure that the ASM\'92s from both agents remain independent from each other, viz establishing a semantical loose coupling between both agents;\
-* *concern 3.3*: The human-in-the-loop remains a necessary condition for sIOP to reconcile semantic differences. Hence, the concern is achieving her most optimal position in architecture;\
-* *concern 3.4*: The primary concern to re-establish coherence with DSP\'92s data is considered a recurring task when sIOP is to allow for semantic evolution which demands for continued maintainability and governance of sIOP;\
+1. applies to both the data it receives from the DSP as to the data that the DSC can infer from them. Although this is implied by the principles that lead to the emergence of what we\'92ve called the Atomic Semantic Monolith in [@Brandt2021a], we make this consequence explicit here;\
+2. is to be considered recurrently when sIOP is to allow for semantic evolution. This demands for continued maintainability and governance of sIOP;\
 \
-Accepting semantic heterogeneity brings about an issue of scalability, since semantics won\'92t be centrally coordinated anymore resulting in semantic definitions that are distributed all over the place, see \\cref\{dp:shf\}. \
+Although they share the same semantic meaning, the resulting semantic monolith of the DSC must be allowed to differ from the DSP\'92s semantic monolith. For example, by exchanging a heartbeat both agents share the semantic meaning about the number of beats per second, however the pragmatic meaning can vary between an indication of health for an health-care application and an indication of performance potential in a sports application, with different demands on semantic meaning, e.g., resolution and accuracy. Semantic heterogeneity thus, brings about the fourth concern about sIOP, i.e., that of scalability, since semantics won\'92t be centrally coordinated anymore resulting in semantic definitions that are distributed all over the place (see \\cref\{dp:shf\}). \
 \
 \\begin\{mmdef\}[Semantic scalability]\\label\{def:semantic-scalability\}\
-Semantic scalability is the capability of a system of collaborating actors to adopt and/or consolidate, with acceptable lead time and costs, increasing perspectives on -or more complex semantic heterogeneity about- their shared reality without compromising sIOP between any interacting software agents. \
+Semantic scalability is the capability of a system of collaborating agents to adopt and/or consolidate, with acceptable lead time and costs, increasing perspectives on -or more complex semantic heterogeneity about- their shared reality without compromising sIOP between any interacting software agents. \
 \\end\{mmdef\}  \
 \
-We formulate this as the fourth concern about sIOP:\
+We elaborate the scalability concern in two subconcerns:\
 \
-* *concern 4*: sIOP requires to allow for scalable semantics.\
+* *concern 4.1*: sIOP requires to allow for scalable semantics.\
+* *concern 4.2*: Pursuing sIOP between heterogeneous semantics requires that the ASM\'92s from both agents remain independent from each other, viz establishing a semantical loose coupling between both agents.\
 \
-We conclude that from these concerns, only 3.1 (re-establish coherence) and 3.3 (reconcile semantics) are concerned with genuine understanding of real-world semantics and calls for a human-in-the-loop. The others are equally important in order to achieve sIOP, however, \'93only\'94 refer to engineering challenges. We address concerns 3.1 and 3.3 in the next section, and then investigate the consequences of concerns 3.2, 3.3 and 4 in its subsequent section.   \
+We identify two complementary aspects from these concerns. One revolves around the human task and, therefore, impede the \'93access-and-play\'94 business demand. Another refers to engineering challenges about mechanisation and efficiency. We address the human tasks concerns in the next section, and then investigate the engineering challenges in its subsequent section.   \
 \
+<!-- page additions -->\
+\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 \AppleTypeServicesU1 [^Answer]: \\rotatebox\{180\}\{\\parbox\{0.44\\textwidth\}\{Communicating the semantic monolith, although possible, results in a too narrow solution towards sIOP because this would require each agent to have an exactly equal perspective on reality. Although possible, this will rarely be the case.\}\}\
 }

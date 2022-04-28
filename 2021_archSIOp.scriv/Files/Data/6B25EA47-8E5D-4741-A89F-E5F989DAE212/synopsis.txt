@@ -1,3 +1,7 @@
+
+
+————
+
 * *concern 3*: subsequent to data exchange, the DC must have the capability to re-establish coherence between the external (DP’s) semantic meaning and its own internal pragmatic meaning, and assure that the reciprocity between DP’s data and DC’s code remains truthful to the state of affairs in reality.
 
 

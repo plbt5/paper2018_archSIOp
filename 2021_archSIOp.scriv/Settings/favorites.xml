@@ -8,4 +8,12 @@
             <UUID Used="2" Date="2022-02-01 18:47:30 +0100">EAFA8C6C-65B5-46A4-B4D4-FD17287AC039</UUID>
         </Popular>
     </MoveTo>
+    <Append>
+        <Recent>
+            <UUID Date="2022-04-22 13:54:55 +0200">517E2512-BC62-4DA4-8FB7-1FE077615E3C</UUID>
+        </Recent>
+        <Popular>
+            <UUID Used="1" Date="2022-04-22 13:54:55 +0200">517E2512-BC62-4DA4-8FB7-1FE077615E3C</UUID>
+        </Popular>
+    </Append>
 </Favorites>
