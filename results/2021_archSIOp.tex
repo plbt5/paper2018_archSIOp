@@ -319,7 +319,7 @@ architectures, semantics, interoperability, design principles},
   \title{Consolidating semantic interoperability in contemporary
 software architectural paradigms\tnoteref{id1,version}}
   \tnotetext[id1]{Tables \& figures with 2-columns incorrectly placed;
-will be corrected when submitting.}\tnotetext[version]{version v1.0-3}
+will be corrected when submitting.}\tnotetext[version]{version v1.0-4}
 %%
 
 %% AUTHOR elements
@@ -342,50 +342,46 @@ Eindhoven, The Netherlands}}
 %% ABSTRACT text
 \begin{abstract}
 \emph{Background:} Absence of access-and-play semantic interoperability
-(sIOP) is a major hurdle to contemporary IT-based business
-collaboration. Current approaches towards sIOP not only impede
-access-and-play sIOP but also its progress towards a standard
-infrastructural semantic layer. Real-world semantics cannot exist in
-software and are reduced to the reciprocity between data and data
-processing. Data exchange breaks that reciprocity, failing sIOP. The
-main concern of sIOP is to re-establish a valid reciprocity between the
-data consumer's internal data processing and the data producer's
-external data, while maintaining loosely coupled semantics. The
-access-and-play concern for sIOP requires the effort of the inevitable
-human-in-the-loop to be reduced. Both concerns are a matter of software
-architecture.
+(sIOP) is a big hurdle to contemporary IT-based business collaboration.
+Current approaches towards sIOP not only impede access-and-play sIOP but
+also its progress towards a standard infrastructural semantic layer.
+Real-world semantics cannot exist in software and are reduced to the
+reciprocity between data and data processing. Data exchange breaks that
+reciprocity, failing sIOP. sIOP demands re-establishing a valid
+reciprocity between the consumer's data processing and the producer's
+data, without dependency on semantic standards. For access-and-play sIOP
+the effort of the human-in-the-loop has to be reduced. This is a matter
+of software architecture.
 
 \emph{Objective:} The objective of our study is to identify and
-formulate the fundamental demands on aboth concerns, to derive their
-supporting architectural principles, and their integration in
-contemporary architectural paradigms.
+formulate the fundamental demands on sIOP, to derive its supporting
+architectural principles, and their integration in contemporary
+architecturals.
 
-\emph{Method:} We assess the fundamental problems and identify six
-requirements on sIOP, two of which are demanding a human-in-the-loop. We
-develop design principles in support of interoperability between the
-agents' semantics. We evaluate these principles by designing an
-ISO-42010 Architecture Viewpoint and View on sIOP.
+\emph{Method:} We assess the problems and identify requirements on sIOP,
+two of which demanding a human-in-the-loop. We develop design principles
+for interoperability between the agents' semantics. We evaluate these
+principles by designing an ISO-42010 Architecture Viewpoint and View on
+sIOP.
 
 \emph{Results:} We show that loosely coupled semantics, semantic
 alignments, and accountability about the applied ontological commitment
-the cornerstones to achieve sIOP. The supporting principles are: (i)
-take responsibility for your data semantics; (ii) maintain an explicit
-ontological commitment; (iii) abstract semantics from communication;
-(iv) align the internal and external semantics of exchanged data; (v)
-encapsulate how agents exchange semantics. The resulting ISO-42010
-Architecture Viewpoint and View on sIOP, including a semantic mediation
-capability, are capable of consolidating sIOP in contemporary
+are the cornerstones to sIOP. The supporting principles are:
+responsibility for your data semantics; an explicit ontological
+commitment; separating semantics from communication; aligning internal
+and external semantics of exchanged data; encapsulate how agents
+exchange semantics. The resulting Architecture Viewpoint and View on
+sIOP, including semantic mediation, consolidates sIOP in contemporary
 architectural paradigms.
 
-\emph{Conclusions:} Our principles correct the major architectural
-shortcomings for an access-and-play sIOP capability, i.e., negligence of
-a separation of concerns between (i) semantics and data, and (ii)
-human-authored alignments and automated mediation. Establishing the
-conditions for their support in advance consolidates sIOP by loosely
-coupled semantics that are re-usable for every collaboration, even those
-that are not anticipated for. We conclude that loosely coupled semantics
-can be consolidated in contemporary architectural paradigms, stimulating
-access-and-play sIOP.
+\emph{Conclusions:} Our principles correct architectural shortcomings
+for an access-and-play sIOP capability. Conditions supporting sIOP have
+to be realised in advance of the data exchange, resulting in loosely
+coupled semantics that are re-usable for different business
+collaborations, even those that are not anticipated for. This paper
+intents to support research into domain-independent standardised
+semantic services and API's, to be adopted and embedded into the
+communication infrastructure.
 \end{abstract}
 
 %%Graphical abstract
@@ -1039,10 +1035,8 @@ that is taken on comprehension, and from our position its resolution
 requires a human-in-the-loop for understanding and resolving the
 semantic differences between the interoperating agents. The
 architectural issue then becomes where to position the dependency on the
-human for the semantic reconciliation.
-
-This human is required for concern 3: re-establishing reciprocity. The
-three possible approaches for the DSC about this task are:
+human for concern 3: semantic reconciliation. The three possible
+approaches for the DSC about this task are:
 
 \begin{enumerate}
 \def\labelenumi{\roman{enumi}.}
@@ -1067,25 +1061,19 @@ allows external definitions to influence internal workings. This clearly
 breaks one of the fundamental principles of software engineering,
 \emph{low coupling, high cohesion} \citep[e.g.,][]{Hitz1995}, which
 complicates concern 4.2, impedes 4.1 and should be considered untenable
-for concern 3, particularly Note 2. Contrarily, the last approach
-respects this fundamental principle and does not impair any of the other
-concerns. It \emph{does} assume the semantic variations to be resolvable
-and representable. Still, re-establishing reciprocity now becomes a
-threefold task: First, to reconcile all semantic differences between the
-representations of the Domain of Interpretation that is shared by the
-DSP and DSC. Second, to represent that reconciliation in a formal
-language that allows for mechanical transcription of the data
+for concern 3, particularly its second Note. Contrarily, the last
+approach respects this fundamental principle and does not impair any of
+the other concerns. It \emph{does} assume the semantic variations to be
+resolvable and representable. Still, re-establishing reciprocity now
+becomes a threefold task: First, to reconcile all semantic differences
+between the representations of the Domain of Interpretation that is
+shared by the DSP and DSC. Second, to represent that reconciliation in a
+formal language that allows for mechanical transcription of the data
 representation provided by the DSP to the data representation applied by
 the DSC, without inducing phantom semantics. Third, to make the former
 two tasks as efficient as possible.
 
 \textbf{Semantic reconciliation}
-
-\textbf{Representing alignments}
-
-\textbf{Efficiency}
-
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 A prerequisite to this task is that DSP's ASM refers to a SoA that can
 be addressed by DSC's ASM when processing the received data. For this to
@@ -1103,6 +1091,12 @@ guaranteed to be re-established since there is no semantic difference
 with the internal semantic meaning. The only difference to overcome is
 the differences in representation between the external and internal
 semantics meanings.
+
+\textbf{Representing alignments}
+
+\textbf{Efficiency}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 ++++++++++++
 

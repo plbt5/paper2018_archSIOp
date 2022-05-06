@@ -6,26 +6,27 @@
 \deftab720
 \pard\pardeftab720\partightenfactor0
 
-\f0\fs24 \cf0 Access-and-play sIOP is the ultimate objective: ideally, sIOP between agents can be achieved instantaneously, particularly for unforeseen collaborations and preferably mechanically, i.e., without human intervention. Despite the latter\'92s conflict with our position, viz that computers lack the capability for genuine comprehension, its business benefits are too significant not to continue to strive for. Still, the purpose of comprehension is to reconcile semantic differences, which remains a distinct concern. Its resolution will depend on the position that is taken on comprehension, and from our position its resolution requires a human-in-the-loop for understanding and resolving the semantic differences between the interoperating agents. The architectural issue then becomes where to position the dependency on the human for the semantic reconciliation.\
-\
-This human is required for concern 3: re-establishing reciprocity. The three possible approaches for the DSC about this task are: \
+\f0\fs24 \cf0 Access-and-play sIOP is the ultimate objective: ideally, sIOP between agents can be achieved instantaneously, particularly for unforeseen collaborations and preferably mechanically, i.e., without human intervention. Despite the latter\'92s conflict with our position, viz that computers lack the capability for genuine comprehension, its business benefits are too significant not to continue to strive for. Still, the purpose of comprehension is to reconcile semantic differences, which remains a distinct concern. Its resolution will depend on the position that is taken on comprehension, and from our position its resolution requires a human-in-the-loop for understanding and resolving the semantic differences between the interoperating agents. The architectural issue then becomes where to position the dependency on the human for concern 3: semantic reconciliation. The three possible approaches for the DSC about this task are: \
 \
 i. To depend on semantic meaning that is solidified in representation: a semantic standard. The human task is then to create the standard and align the semantic meaning of both the DSP and DSC to the semantic standard;\
 ii. To modify the DSC\'92s own pragmatic meaning such that it can operate in a valid way on the external (DSP\'92s) semantic meaning; or \
 iii. To modify the external (DSP\'92s) semantic meaning such that it can be operated on by the DSC\'92s existing pragmatic meaning in a manner faithful to the current state of affairs. \
 \
-We already indicated that the first approach defies semantic heterogeneity and introduces many disadvantages. The second approach allows external definitions to influence internal workings. This clearly breaks one of the fundamental principles of software engineering, *low coupling, high cohesion* [e.g., @Hitz1995], which complicates concern 4.2, impedes 4.1 and should be considered untenable for concern 3, particularly Note 2. Contrarily, the last approach respects this fundamental principle and does not impair any of the other concerns. It *does* assume the semantic variations to be resolvable and representable. Still, re-establishing reciprocity now becomes a threefold task: First, to reconcile all semantic differences between the representations of the Domain of Interpretation that is shared by the DSP and DSC. Second, to represent that reconciliation in a formal language that allows for mechanical transcription of the data representation provided by the DSP to the data representation applied by the DSC, without inducing phantom semantics. Third, to make the former two tasks as efficient as possible. \
+We already indicated that the first approach defies semantic heterogeneity and introduces many disadvantages. The second approach allows external definitions to influence internal workings. This clearly breaks one of the fundamental principles of software engineering, *low coupling, high cohesion* [e.g., @Hitz1995], which complicates concern 4.2, impedes 4.1 and should be considered untenable for concern 3, particularly its second Note. Contrarily, the last approach respects this fundamental principle and does not impair any of the other concerns. It *does* assume the semantic variations to be resolvable and representable. Still, re-establishing reciprocity now becomes a threefold task: First, to reconcile all semantic differences between the representations of the Domain of Interpretation that is shared by the DSP and DSC. Second, to represent that reconciliation in a formal language that allows for mechanical transcription of the data representation provided by the DSP to the data representation applied by the DSC, without inducing phantom semantics. Third, to make the former two tasks as efficient as possible. \
 \
 \pard\pardeftab720\partightenfactor0
 
 \f1 \cf0 <$Scr_Cs::0>
-\f2\b Semantic reconciliation
-\f1\b0 <!$Scr_Cs::0>
-\f0 \
-\
-\
+\f2\b Semantic reconciliation\
+\pard\pardeftab720\partightenfactor0
 
-\f1 <$Scr_Cs::0>
+\f1\b0 \cf0 <!$Scr_Cs::0>
+\f0 \
+A prerequisite to this task is that DSP\'92s ASM refers to a SoA that can be addressed by DSC\'92s ASM when processing the received data. For this to hold, we first require that the quality of the DSC and the DSP is such that their internal semantic meaning is in coherence with their internal pragmatic meaning, i.e., that their concerning ASMs are faithful to reality over the complete value range of their internal semantic meaning. Provided that the principles of [@Brandt2021a] have been followed, this requirement is met. Now assume that the semantic meaning that the DSP is to exchange, is equivalent to some semantic meaning that is in scope with the DSC software agent. By virtue of the coherence that is in place with the DSC software agent, the reciprocity between the external semantic meaning with the internal pragmatic meaning can be guaranteed to be re-established since there is no semantic difference with the internal semantic meaning. The only difference to overcome is the differences in representation between the external and internal semantics meanings. \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf0 <$Scr_Cs::0>
 \f2\b Representing alignments
 \f1\b0 <!$Scr_Cs::0>
 \f0 \
@@ -40,7 +41,7 @@ We already indicated that the first approach defies semantic heterogeneity and i
 \
 \'97\'97\'97\'97\
 \
-A prerequisite to this task is that DSP\'92s ASM refers to a SoA that can be addressed by DSC\'92s ASM when processing the received data. For this to hold, we first require that the quality of the DSC and the DSP is such that their internal semantic meaning is in coherence with their internal pragmatic meaning, i.e., that their concerning ASMs are faithful to reality over the complete value range of their internal semantic meaning. Provided that the principles of [@Brandt2021a] have been followed, this requirement is met. Now assume that the semantic meaning that the DSP is to exchange, is equivalent to some semantic meaning that is in scope with the DSC software agent. By virtue of the coherence that is in place with the DSC software agent, the reciprocity between the external semantic meaning with the internal pragmatic meaning can be guaranteed to be re-established since there is no semantic difference with the internal semantic meaning. The only difference to overcome is the differences in representation between the external and internal semantics meanings. \
+\
 \
 ++++++++++++\
 \
