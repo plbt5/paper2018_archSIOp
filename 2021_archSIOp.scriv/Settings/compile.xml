@@ -9,7 +9,6 @@
             </Filter>
         </Content>
         <Options>
-            <RemoveComments>Yes</RemoveComments>
             <RemoveAnnotations>Yes</RemoveAnnotations>
             <ResampleImages DPI="72">No</ResampleImages>
             <ConvertTablesAndListToMMD>Yes</ConvertTablesAndListToMMD>
