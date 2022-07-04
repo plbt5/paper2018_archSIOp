@@ -1,1 +1,0 @@
-In deze definitie gaat Precision niet over de data (instance) laag, maar over de concept (model) laag. Verder gaat het over de toepasbaarheid ervan, en niet over de data zelf. Dus het is een foute karakteristiek, niet alleen voor mijn onderzoek, maar zelfs als kwaliteitsaspect.

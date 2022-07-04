@@ -47,7 +47,7 @@ templates:
                               # Elsevier only accepts natbib, hence:
       natbib: true            # - enable natbib, and
       citeproc: false         # - turn off the citeproc CSL engine.
-      bibliography: ./src/bib/CitedByMe-2021-archSIOp.bib # The name of your 
+      bibliography: /Users/paulbrandt/Documents/Literature/CitedByMe-2021-archSIOp.bib # The name of your 
                               # bib-file. Respect the directory naming 
                               # conventions of pandocomatic. DON'T USE 
                               # UNDERSCORES IN THE BIBNAME

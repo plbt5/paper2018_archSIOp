@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="8C0780B1-25E9-4144-94AF-7E1CFBE0056E" Version="2.0" Creator="SCRMAC-3.2.3-14869" Device="Pauls-MacBook-Pro" Author="Paul Brandt" Modified="2022-06-29 10:59:14 +0200" ModID="583A9B28-139C-42A1-B50E-B7E1C1F2BE65">
+<ScrivenerProject Identifier="8C0780B1-25E9-4144-94AF-7E1CFBE0056E" Version="2.0" Creator="SCRMAC-3.2.3-14869" Device="Pauls-MacBook-Pro" Author="Paul Brandt" Modified="2022-07-01 15:44:20 +0200" ModID="1ADED470-1752-4C01-B04E-F4B06852E882">
     <Binder>
         <BinderItem UUID="AC0E4C16-84DD-46A8-978B-4E68660C32A1" Type="Text" Created="2018-01-09 02:27:13 +0100" Modified="2022-06-27 16:20:41 +0200">
             <Title>Pandoc metadata</Title>
@@ -195,7 +195,7 @@
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
             <CorkboardAndOutliner>
-                <SelectedSubdocumentUUIDs></SelectedSubdocumentUUIDs>
+                <SelectedSubdocumentUUIDs>2D52C627-6E37-4D52-9851-40E13EBC6C43</SelectedSubdocumentUUIDs>
                 <OutlinerExpandedState>
                     <ItemID>72A16B35-CC3A-4148-B226-4BDD855A4808</ItemID>
                     <ItemID>0DF8B2A4-7CBA-4EED-BAB8-92256266A582</ItemID>
@@ -203,9 +203,10 @@
                 </OutlinerExpandedState>
             </CorkboardAndOutliner>
             <Children>
-                <BinderItem UUID="2D52C627-6E37-4D52-9851-40E13EBC6C43" Type="Text" Created="2018-05-14 16:04:47 +0200" Modified="2022-06-27 16:21:11 +0200">
+                <BinderItem UUID="2D52C627-6E37-4D52-9851-40E13EBC6C43" Type="Text" Created="2018-05-14 16:04:47 +0200" Modified="2022-07-01 15:44:16 +0200">
                     <Title>Abstract</Title>
                     <MetaData>
+                        <SectionType>BCAB201B-6D7C-462B-A2EE-5EB30C8E2B04</SectionType>
                         <LabelID>7</LabelID>
                         <StatusID>2</StatusID>
                         <FileExtension>rtf</FileExtension>
@@ -267,17 +268,17 @@
                         <TextSelection>366,0</TextSelection>
                     </TextSettings>
                     <Children>
-                        <BinderItem UUID="C9AE4D7B-535D-4E46-B0B6-F5C36696405E" Type="Text" Created="2022-03-31 11:06:35 +0200" Modified="2022-06-27 12:19:30 +0200">
+                        <BinderItem UUID="C9AE4D7B-535D-4E46-B0B6-F5C36696405E" Type="Text" Created="2022-03-31 11:06:35 +0200" Modified="2022-07-01 13:19:27 +0200">
                             <Title>Semantics in software</Title>
                             <MetaData>
                                 <LabelID>6</LabelID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>207,0</TextSelection>
+                                <TextSelection>2059,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="1559D0BA-72BA-48C0-96F0-6DEFFBE365E3" Type="Text" Created="2022-03-31 11:08:35 +0200" Modified="2022-06-29 10:59:14 +0200">
+                        <BinderItem UUID="1559D0BA-72BA-48C0-96F0-6DEFFBE365E3" Type="Text" Created="2022-03-31 11:08:35 +0200" Modified="2022-07-01 15:42:30 +0200">
                             <Title>Semantic heterogeneity</Title>
                             <MetaData>
                                 <LabelID>6</LabelID>
@@ -296,10 +297,10 @@
                                 </CustomMetaData>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>4018,0</TextSelection>
+                                <TextSelection>6119,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="C96B2250-05C5-46CB-B573-60B3ABBDF7BD" Type="Text" Created="2022-03-31 11:12:41 +0200" Modified="2022-04-21 16:19:00 +0200">
+                        <BinderItem UUID="C96B2250-05C5-46CB-B573-60B3ABBDF7BD" Type="Text" Created="2022-03-31 11:12:41 +0200" Modified="2022-07-01 15:31:30 +0200">
                             <Title>The four maxims of communication</Title>
                             <MetaData>
                                 <LabelID>6</LabelID>
@@ -318,12 +319,12 @@
                                 </CustomMetaData>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>215,35</TextSelection>
+                                <TextSelection>1361,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
                     </Children>
                 </BinderItem>
-                <BinderItem UUID="0DF8B2A4-7CBA-4EED-BAB8-92256266A582" Type="Text" Created="2018-05-25 18:04:29 +0200" Modified="2022-06-27 12:12:20 +0200">
+                <BinderItem UUID="0DF8B2A4-7CBA-4EED-BAB8-92256266A582" Type="Text" Created="2018-05-25 18:04:29 +0200" Modified="2022-07-01 13:33:58 +0200">
                     <Title>Spanning: sIOP concerns</Title>
                     <MetaData>
                         <LabelID>6</LabelID>
@@ -331,7 +332,7 @@
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>1422,0</TextSelection>
+                        <TextSelection>1718,0</TextSelection>
                     </TextSettings>
                     <Children>
                         <BinderItem UUID="D27DEE11-65D3-4209-9BE8-3686320C16B0" Type="Text" Created="2022-03-23 14:50:57 +0100" Modified="2022-05-20 14:22:41 +0200">
@@ -1342,210 +1343,6 @@
             <MetaData>
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
-            <Children>
-                <BinderItem UUID="70B2B8F5-CF86-4B3B-838B-F86C1772FC5D" Type="Text" Created="2019-11-24 14:47:38 +0100" Modified="2019-11-24 14:47:38 +0100">
-                    <Title>Betekenisverandering gedurende registratieperiode {-}</Title>
-                    <MetaData>
-                        <LabelID>6</LabelID>
-                        <StatusID>0</StatusID>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                        <FileExtension>rtf</FileExtension>
-                    </MetaData>
-                    <TextSettings>
-                        <TextSelection>0,0</TextSelection>
-                    </TextSettings>
-                </BinderItem>
-                <BinderItem UUID="62743FD4-52ED-4565-83B7-D8D450E1D693" Type="Text" Created="2019-11-24 14:48:23 +0100" Modified="2019-11-24 14:48:23 +0100">
-                    <Title>Data Precision {-}</Title>
-                    <MetaData>
-                        <LabelID>6</LabelID>
-                        <StatusID>0</StatusID>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                        <FileExtension>rtf</FileExtension>
-                    </MetaData>
-                    <TextSettings>
-                        <TextSelection>0,0</TextSelection>
-                    </TextSettings>
-                </BinderItem>
-                <BinderItem UUID="6BFD8393-15B2-43FC-86DF-814663CB66BF" Type="Text" Created="2019-11-24 14:47:38 +0100" Modified="2019-11-24 17:55:45 +0100">
-                    <Title>Enterprise IT related issues {-}</Title>
-                    <MetaData>
-                        <StatusID>0</StatusID>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                    </MetaData>
-                    <TextSettings>
-                        <TextSelection>0,0</TextSelection>
-                    </TextSettings>
-                    <Children>
-                        <BinderItem UUID="A078E531-2926-4E1E-8B11-AC1FE1FA9484" Type="Text" Created="2019-11-24 14:47:38 +0100" Modified="2019-11-24 15:38:05 +0100">
-                            <Title>Wie behoren tot huishouden {-}</Title>
-                            <MetaData>
-                                <LabelID>1</LabelID>
-                                <StatusID>1</StatusID>
-                                <FileExtension>rtf</FileExtension>
-                            </MetaData>
-                            <TextSettings>
-                                <TextSelection>0,0</TextSelection>
-                            </TextSettings>
-                        </BinderItem>
-                        <BinderItem UUID="C1C84837-8307-46F0-984C-884A47D0870F" Type="Text" Created="2019-11-24 14:47:38 +0100" Modified="2019-11-24 15:38:26 +0100">
-                            <Title>Guus Hiddink {-}</Title>
-                            <MetaData>
-                                <LabelID>6</LabelID>
-                                <StatusID>0</StatusID>
-                                <FileExtension>rtf</FileExtension>
-                            </MetaData>
-                            <TextSettings>
-                                <TextSelection>0,0</TextSelection>
-                            </TextSettings>
-                        </BinderItem>
-                    </Children>
-                </BinderItem>
-                <BinderItem UUID="EE01CCA5-F725-4080-A1BB-B8809FCE4904" Type="Text" Created="2019-11-24 14:47:38 +0100" Modified="2019-11-24 15:39:03 +0100">
-                    <Title>Incorrectly determined hardware failure {-}</Title>
-                    <MetaData>
-                        <LabelID>6</LabelID>
-                        <StatusID>0</StatusID>
-                        <FileExtension>rtf</FileExtension>
-                    </MetaData>
-                    <TextSettings>
-                        <TextSelection>0,0</TextSelection>
-                    </TextSettings>
-                </BinderItem>
-                <BinderItem UUID="44F0B65A-D7DD-4B8F-8211-9370689A49E3" Type="Text" Created="2019-11-24 14:47:37 +0100" Modified="2019-11-24 15:53:36 +0100">
-                    <Title>Health IT related issues {-}</Title>
-                    <MetaData>
-                        <FileExtension>rtf</FileExtension>
-                    </MetaData>
-                    <TextSettings>
-                        <TextSelection>0,0</TextSelection>
-                    </TextSettings>
-                    <Children>
-                        <BinderItem UUID="79BEA3BE-A2ED-4CFD-B14F-CF7C50A705AB" Type="Text" Created="2019-11-24 14:47:37 +0100" Modified="2019-11-24 15:35:43 +0100">
-                            <Title>Missing allergy information {-}</Title>
-                            <MetaData>
-                                <LabelID>0</LabelID>
-                                <FileExtension>rtf</FileExtension>
-                            </MetaData>
-                            <TextSettings>
-                                <TextSelection>0,0</TextSelection>
-                            </TextSettings>
-                        </BinderItem>
-                        <BinderItem UUID="9DA8AC4C-5829-47C0-9DDF-895466AAD76B" Type="Text" Created="2019-11-24 14:47:37 +0100" Modified="2019-11-24 15:36:14 +0100">
-                            <Title>Incorrect weight {-}</Title>
-                            <MetaData>
-                                <LabelID>0</LabelID>
-                                <FileExtension>rtf</FileExtension>
-                            </MetaData>
-                            <TextSettings>
-                                <TextSelection>0,0</TextSelection>
-                            </TextSettings>
-                        </BinderItem>
-                        <BinderItem UUID="257D38EB-8744-4B1E-8E59-594598378482" Type="Text" Created="2019-11-24 14:47:37 +0100" Modified="2019-11-24 15:52:29 +0100">
-                            <Title>Patient Scales that can switch from Pounds (lb) to Kilograms (kg)</Title>
-                            <MetaData>
-                                <LabelID>0</LabelID>
-                                <FileExtension>rtf</FileExtension>
-                            </MetaData>
-                            <TextSettings>
-                                <TextSelection>0,0</TextSelection>
-                            </TextSettings>
-                        </BinderItem>
-                        <BinderItem UUID="E502D440-EC0B-44D1-B82E-BDC0FD38B648" Type="Text" Created="2019-11-24 14:47:37 +0100" Modified="2019-11-24 15:36:41 +0100">
-                            <Title>Midnight is when, exactly? {-}</Title>
-                            <MetaData>
-                                <LabelID>0</LabelID>
-                                <FileExtension>rtf</FileExtension>
-                            </MetaData>
-                            <TextSettings>
-                                <TextSelection>0,0</TextSelection>
-                            </TextSettings>
-                        </BinderItem>
-                        <BinderItem UUID="5CC7C11B-29FA-40D2-A45D-7A34EFA5A54F" Type="Text" Created="2019-11-24 14:47:37 +0100" Modified="2019-11-24 15:36:51 +0100">
-                            <Title>Allergies did not cross over from the electronic health record</Title>
-                            <MetaData>
-                                <LabelID>6</LabelID>
-                                <StatusID>0</StatusID>
-                            </MetaData>
-                            <TextSettings>
-                                <TextSelection>0,0</TextSelection>
-                            </TextSettings>
-                        </BinderItem>
-                    </Children>
-                </BinderItem>
-                <BinderItem UUID="F8C34041-CCB6-43D5-BEB9-4AA51A3687F0" Type="Text" Created="2019-11-24 14:47:37 +0100" Modified="2020-01-17 11:02:17 +0100">
-                    <Title>Insulin pens versus vials {-}</Title>
-                    <MetaData>
-                        <LabelID>0</LabelID>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                        <FileExtension>rtf</FileExtension>
-                    </MetaData>
-                    <TextSettings>
-                        <TextSelection>1003,0</TextSelection>
-                    </TextSettings>
-                </BinderItem>
-                <BinderItem UUID="FDE3A400-F9AC-4C43-9E25-1275886F76DE" Type="Text" Created="2016-12-28 10:11:59 +0100" Modified="2022-03-07 10:18:26 +0100">
-                    <Title>meta-data</Title>
-                    <MetaData>
-                        <FileExtension>rtf</FileExtension>
-                        <IconFileName>Information</IconFileName>
-                    </MetaData>
-                    <TextSettings>
-                        <TextSelection>749,4215</TextSelection>
-                    </TextSettings>
-                </BinderItem>
-                <BinderItem UUID="A0A0F74F-2F3E-43C5-B39C-096154C952F8" Type="Text" Created="2018-07-04 23:40:57 +0200" Modified="2022-02-01 13:07:50 +0100">
-                    <Title>Objectives of semantic interoperability</Title>
-                    <MetaData>
-                        <LabelID>5</LabelID>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                        <FileExtension>rtf</FileExtension>
-                        <NotesTextSelection>216,0</NotesTextSelection>
-                    </MetaData>
-                    <TextSettings>
-                        <TextSelection>0,0</TextSelection>
-                    </TextSettings>
-                </BinderItem>
-                <BinderItem UUID="4EE0D65F-283D-4B4C-83A6-12CF103ADEE3" Type="Text" Created="2022-03-08 15:05:34 +0100" Modified="2022-03-08 15:06:28 +0100">
-                    <Title>https://internationaldataspaces.org/wp-content/uploads/IDS-Reference-Architecture-Model-3.0-2019.pdf</Title>
-                    <MetaData>
-                        <LabelID>2</LabelID>
-                        <StatusID>0</StatusID>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                        <FileExtension>rtf</FileExtension>
-                        <CustomMetaData>
-                            <MetaDataItem>
-                                <FieldID>who</FieldID>
-                                <Value>Paul</Value>
-                            </MetaDataItem>
-                        </CustomMetaData>
-                    </MetaData>
-                    <TextSettings>
-                        <TextSelection>1392,0</TextSelection>
-                    </TextSettings>
-                </BinderItem>
-                <BinderItem UUID="0DD5E4E6-EB52-4BA3-945D-97624E665097" Type="Text" Created="2022-04-22 13:56:15 +0200" Modified="2022-04-22 13:57:07 +0200">
-                    <Title> This document is about the second part: human efficiency * differences in level of aggregation can only be reconciled by introducing new ontological concepts, either as subconcepts or as superconcepts. Tooling for this includes ANEMONE [@Diggelen:2007vd] * connecting ontological constructs to communication messages is supported by the FIT engine. </Title>
-                    <MetaData>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                    </MetaData>
-                    <TextSettings>
-                        <TextSelection>1,0</TextSelection>
-                    </TextSettings>
-                </BinderItem>
-                <BinderItem UUID="AFC5AB1B-999F-459C-8D19-0E99FEAFA4D9" Type="Text" Created="2018-03-04 13:08:55 +0100" Modified="2022-04-26 12:29:13 +0200">
-                    <Title>References {-}</Title>
-                    <MetaData>
-                        <LabelID>0</LabelID>
-                        <StatusID>4</StatusID>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                        <FileExtension>rtf</FileExtension>
-                    </MetaData>
-                    <TextSettings>
-                        <TextSelection>93,0</TextSelection>
-                    </TextSettings>
-                </BinderItem>
-            </Children>
         </BinderItem>
     </Binder>
     <Collections>
@@ -1554,7 +1351,7 @@
         </Collection>
         <Collection Type="RecentSearch" ID="DEADBEEF-0000-0000-0000-000000000000" Color="0.17693 0.175159 0.133367">
             <Title>Search Results</Title>
-            <SearchSettings Operator="Exact" Type="All" CaseSensitive="No" IgnoreDiacritics="No">[^1</SearchSettings>
+            <SearchSettings Operator="Exact" Type="All" CaseSensitive="No" IgnoreDiacritics="No">dp:meoc</SearchSettings>
         </Collection>
         <Collection Type="Arbitrary" ID="C7B6719B-DBE8-4220-B642-181C4A180E0C" Color="0.996695 0.851959 0.732827">
             <Title>Design Principles</Title>
@@ -1627,12 +1424,12 @@
     </ProjectBookmarks>
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-04-24 02:00:00 +0200" IgnoreDeadline="Yes">14000</DraftTarget>
-        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2022-06-30 01:00:00 +0200" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="0" Characters="5" Date="2022-06-29 10:53:24 +0200"/>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2022-07-02 01:00:00 +0200" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="138" Characters="1011" Date="2022-07-01 12:48:24 +0200"/>
     </ProjectTargets>
-    <RecentWritingHistory Date="2022-06-29 00:00:00 +0200">
-        <DraftWordCount>0</DraftWordCount>
-        <DraftCharCount>5</DraftCharCount>
+    <RecentWritingHistory Date="2022-07-01 00:00:00 +0200">
+        <DraftWordCount>138</DraftWordCount>
+        <DraftCharCount>1011</DraftCharCount>
         <OtherWordCount>0</OtherWordCount>
         <OtherCharCount>0</OtherCharCount>
     </RecentWritingHistory>
