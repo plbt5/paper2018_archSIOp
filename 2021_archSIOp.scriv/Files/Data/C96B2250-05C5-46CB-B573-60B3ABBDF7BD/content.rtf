@@ -1,5 +1,5 @@
 {\rtf1\ansi\ansicpg1252\cocoartf2638
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;\f1\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \deftab720
@@ -14,32 +14,33 @@
 \
 Based on this perspective on software semantics, we formulate the second (semantic) concern on sIOP and its elaboration in two subconcerns:\
 \
-\\begin\{mmconcern\}\\label\{con:concern1\}\
-  Software agents that engage in collaboration shall adhere to Grice\'92s four maxims\
-  \\begin\{mmsubconcern\}\\label\{con:concern1a\}\
-    As DSP, the software agent shall disclose the semantics of its data that are exchanged in the collaboration (maxims 1 and 4);\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\sl288\slmult1\partightenfactor0
+
+\f1 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
+\f0\fs22 \\begin\{mmconcern\}\\label\{cncrn:four-maxims\}\
+  Software agents that engage in collaboration shall adhere to Grice\'92s four maxims, by\
+  \\begin\{mmsubconcern\}\\label\{cncrn:disclose-semantics\}\
+    respecting the need to disclose, as DSP, the semantics of its data that are exchanged in the collaboration (maxims 1 and 4);\
   \\end\{mmsubconcern\}\
 \
-  \\begin\{mmsubconcern\}\\label\{con:concern1b\}\
-    As DSP, the software agent shall ensure the validity and accuracy of its data and their related semantics (maxim 2).\
+  \\begin\{mmsubconcern\}\\label\{cncrn:ensure-validity-accuracy\}\
+    Ensuring, as DSP, the validity and accuracy of its data and their related semantics (maxim 2).\
   \\end\{mmsubconcern\}\
-\\end\{mmconcern\}\
+\\end\{mmconcern\}
+\fs24 \AppleTypeServicesU0 \
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf0 <!$Scr_Ps::0>
+\f0 \
+Maxim 3 relates to the purpose that the software agent is to achieve. Since we assume that any received data refers to the (possibly changed) SoA in the shared DoA, hence, relevance to the software agent can be considered a matter of fact. Maxim 3 also relates to the software agents\'92 interoperation itself as opposed to the semantic concern of one of them; this is addressed in \\cref\{spanning-siop-concerns\}. \
 \
-* *concern 2*: It is a natural responsibility for software agents that engage in collaboration to adhere to Grice\'92s four maxims\
-  * *concern 2.1*: explicitly representing the semantics of their data in their DM (maxims 1 and 4);\
-  * *concern 2.2*: ensuring the validity and accuracy of one\'92s data and related semantics (maxim 2).\
-\
-Maxim 3 relates to the purpose that the software agent is to achieve. Since we assume that any received data refers to the (possibly changed) SoA in the shared DoA, hence, relevance to the software agent can be considered a matter of fact. Maxim 3 also relates to the software agents\'92 interoperation itself as opposed to the semantic concern of one of them; this will be addressed in \\cref\{spanning-siop-concerns\}. \
-\
-Concern 2.1 immediately leads to the definition of \\cref\{dp:rfsm\} in \\cref\{tab:dps\} to its effect. We elaborate on concern 2.2 as follows. In [@Brandt2021a] we have identified that each modelling language carries its own ontological commitment, i.e., the differences that the language constructs characterise represent a commitment to what the language commits to about what exists in reality. The choice of modelling language, therefore, has major impact on the (accuracy of the) semantics that are modelled. This semantic concern is therefore influenced by the ontological commitment. We introduce a definition on *semantic compatibility* to its end. Merriam-Webster defines *compatibility* as \'93being a computer designed to operate in the same manner and use the same software as another computer\'94[^compatibility]. This leads to the following definition:\
+Concern 2.1 immediately leads to the definition of \\cref\{dp:rfsm\} in \\cref\{tab:dps\} to its effect. We elaborate on concern 2.2 as follows. Each modelling language carries its own ontological commitment, i.e., the differences that the language constructs characterise represent a commitment to about what exists in reality. The choice of modelling language, therefore, has major impact on the (accuracy of the) semantics that are modelled. This semantic concern is therefore influenced by the ontological commitment. We introduce a definition on *semantic compatibility* to its end. Merriam-Webster defines *compatibility* as \'93being a computer designed to operate in the same manner and use the same software as another computer\'94[^compatibility]. This leads to the following definition:\
 \
 \\begin\{mmdef\}[semantic compatibility]\\label\{def:semantic-compatibility\}\
-Semantic compatibility reflects that a software agent is designed to interpretate data according to the same semantic principles, distinctions and rules, viz use the same ontological commitment, as another software agent. \
+Semantic compatibility reflects that a software agent is designed to interpret data according to the same semantic principles, distinctions and rules, viz the same ontological commitment, as another software agent. \
 \\end\{mmdef\}\
 \
-We formulate \\cref\{dp:scp\} in order to defend that it should be possible to investigate whether semantic compatibility exists before assessing the validity and applicability of the semantic meaning that is carried by data.\
-\
-Where it is the objective of semantics to maximise and maintain the coherence of the ASM, it is the objective of sIOP to address this monolithic nature of the ASM, as we do in the next section.\
+We formulate \\cref\{dp:scp\} to defend that it should be possible to investigate whether semantic compatibility exists before assessing the validity and applicability of the semantic meaning that is carried by data.\
 \
 \
 <!-- page additions -->\
