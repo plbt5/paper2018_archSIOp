@@ -15,16 +15,27 @@ Semantic coherence builds on the consistency with which the [semantic and pragma
 \\end\{mmdef\}  \
 \
 We indicated in \\cref\{the-four-maxims-of-communication\} that Maxim 3, 
-\f1 <$Scr_Cs::0>
+\f1 <$Scr_Cs::1>
 \f2\i be relevant (to the immediate needs)
-\f1\i0 <!$Scr_Cs::0>
+\f1\i0 <!$Scr_Cs::1>
 \f0 , also relates to the interoperation between the agents. Apart from its place in the communication protocol (what we do not address here), we consider the ability to establish the relevancy to the immediate needs a prerequisite for sIOP, including its communication protocol. Again, this refers to the purpose that the software agent, now the DSC, is to achieve and, therefore, relates directly to the above semantic coherence. \
 \
 Our third concern about sIOP is founded on FAIR\'92s machine-actionable stance and Maxim 3 as:\
 \
-* *concern 3*: subsequent to data exchange, the DSC must have the capability to re-establish semantic coherence between the external (DSP\'92s) semantic meaning and its own internal pragmatic meaning, and assure that the reciprocity between DSP\'92s data and DSC\'92s data processing code remains truthful to the state of affairs in reality.\
-\
-We note that concern 3:\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\pardeftab720\sl288\slmult1\partightenfactor0
+
+\f1 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
+\f0\fs22 \\begin\{mmconcern\}\\label\{cncrn:re-establish-coherence\}\AppleTypeServicesU0 \
+Subsequent to data exchange, the DSC must have the capability to re-establish semantic coherence between the external (DSP\'92s) semantic meaning and its own internal pragmatic meaning, and assure that the reciprocity between DSP\'92s data and DSC\'92s data processing code remains truthful to the state of affairs in reality.\AppleTypeServicesU1 \
+\\end\{\AppleTypeServicesU0 mmconcern\AppleTypeServicesU1 \}
+\fs24 \AppleTypeServicesU0 \
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf0 <!$Scr_Ps::0>
+\f0 \
+We note that \\cref\{
+\fs22 \AppleTypeServicesU1 cncrn:re-establish-coherence\}
+\fs24 \AppleTypeServicesU0 : \
 \
 1. applies to both the data it receives from the DSP as to the data that the DSC can infer from them. Although this is implied by the principles that lead to the emergence of what we\'92ve called the Atomic Semantic Monolith in [@Brandt2021a], we make this consequence explicit here;\
 2. is to be considered recurrently when sIOP is to allow for semantic evolution. This demands for continued maintainability and governance of sIOP;\
@@ -35,10 +46,24 @@ Although they share the same semantic meaning, the resulting semantic monolith o
 Semantic scalability is the capability of a system of collaborating agents to adopt and/or consolidate, with acceptable lead time and costs, increasing perspectives on -or more complex semantic heterogeneity about- their shared reality without compromising sIOP between any interacting software agents. \
 \\end\{mmdef\}  \
 \
-We elaborate the scalability concern in two subconcerns:\
+We elaborate the above in two subconcerns:\
 \
-* *concern 4.1*: sIOP requires to allow for scalable semantics.\
-* *concern 4.2*: Pursuing sIOP between heterogeneous semantics requires that the ASM\'92s from both agents remain independent from each other, viz establishing a semantical loose coupling between both agents.\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\sl288\slmult1\partightenfactor0
+
+\f1 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
+\f0 \\begin\{subtheorem\}\{mmconcern\}\\label\{cncrn:scalability\}\
+  \\begin\{mmconcern\}\\label\{cncrn:scalabilityA\}\
+    sIOP shall allow for semantic scalability;\
+  \\end\{mmconcern\}\
+\
+  \\begin\{mmconcern\}\\label\{cncrn:scalabilityB\}\
+    Pursuing sIOP between heterogeneous semantics requires that the ASM\'92s from both agents remain independent from each other, viz establishing a semantical loose coupling between both agents.\
+  \\end\{mmconcern\}\
+\\end\{subtheorem\}\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf0 \AppleTypeServicesU0 <!$Scr_Ps::0>
+\f0 \
 \
 We identify two complementary aspects from these concerns. One revolves around the human task and, therefore, impede the \'93access-and-play\'94 business demand. Another refers to engineering challenges about mechanisation and efficiency. We address the human tasks concerns in the next section, and then investigate the engineering challenges in its subsequent section.   \
 \

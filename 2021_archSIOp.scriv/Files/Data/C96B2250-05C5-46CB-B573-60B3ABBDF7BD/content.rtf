@@ -20,22 +20,26 @@ Based on this perspective on software semantics, we formulate the second (semant
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\pardeftab720\sl288\slmult1\partightenfactor0
 
 \f1 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
-\f0\fs22 \\begin\{mmconcern\}\\label\{cncrn:four-maxims\}\
+\f0\fs22 \\begin\{subtheorem\}\{mmconcern\}\\label\{cncrn:four-maxims\}\
   Software agents that engage in collaboration shall accept their natural responsibilities brought about by their communication:\
-  \\begin\{mmsubconcern\}\\label\{cncrn:disclose-semantics\}\
+  \\begin\{mmconcern\}\\label\{cncrn:disclose-semantics\}\
     Disclose the semantics of the data that are exchanged by the agents during their collaboration; as DSC about its requests, as DSP about its response to the request (maxims 1 and 4);\
-  \\end\{mmsubconcern\}\
+  \\end\{mmconcern\}\
 \
-  \\begin\{mmsubconcern\}\\label\{cncrn:ensure-validity-accuracy\}\
-    Ensuring, as DSP, the validity and accuracy of its data and their related semantics (maxim 2 and 4).\
-  \\end\{mmsubconcern\}\
-\\end\{mmconcern\}
+  \\begin\{mmconcern\}\\label\{cncrn:ensure-validity-accuracy\}\
+    Ensuring, as DSP, the validity and accuracy of its data and their related semantics (maxims 2 and 4).\
+  \\end\{mmconcern\}\
+\\end\{subtheorem\}
 \fs24 \AppleTypeServicesU0 \
 \pard\pardeftab720\partightenfactor0
 
 \f1 \cf0 <!$Scr_Ps::0>
 \f0 \
-Concern 2.1 immediately leads to the definition of \\cref\{dp:rfsm\} in \\cref\{tab:dps\} to its effect. We elaborate on concern 2.2 as follows. Each modelling language carries its own ontological commitment, i.e., the differences that the language constructs characterise represent a commitment to about what exists in reality. The choice of modelling language, therefore, has major impact on the (accuracy of the) semantics that are modelled. This semantic concern is therefore influenced by the ontological commitment. We introduce a definition on *semantic compatibility* to its end. Merriam-Webster defines *compatibility* as \'93being a computer designed to operate in the same manner and use the same software as another computer\'94[^compatibility]. This leads to the following definition:\
+\\Cref\{
+\fs22 \AppleTypeServicesU1 cncrn:disclose-semantics\}
+\fs24 \AppleTypeServicesU0  immediately leads to the definition of \\cref\{dp:rfsm\} in \\cref\{tab:dps\} to its effect. We elaborate on \\cref\{
+\fs22 \AppleTypeServicesU1 cncrn:ensure-validity-accuracy\} 
+\fs24 \AppleTypeServicesU0 as follows. Each modelling language carries its own ontological commitment, i.e., the differences that the language constructs characterise represent a commitment to about what exists in reality. The choice of modelling language, therefore, has major impact on the (accuracy of the) semantics that are modelled. This semantic concern is therefore influenced by the ontological commitment. We introduce a definition on *semantic compatibility* to its end. Merriam-Webster defines *compatibility* as \'93being a computer designed to operate in the same manner and use the same software as another computer\'94[^compatibility]. This leads to the following definition:\
 \
 \\begin\{mmdef\}[semantic compatibility]\\label\{def:semantic-compatibility\}\
 Semantic compatibility reflects that a software agent is designed to interpret data according to the same semantic principles, distinctions and rules, viz the same ontological commitment, as another software agent. \
