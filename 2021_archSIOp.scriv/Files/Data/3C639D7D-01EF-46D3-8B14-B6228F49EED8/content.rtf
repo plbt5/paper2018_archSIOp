@@ -12,11 +12,17 @@
 \
 i. To depend on semantic meaning that is solidified in representation: a semantic standard. The human task is then to create the standard and align the semantic meaning of both the DSP and DSC to the semantic standard;\
 ii. To modify the DSC\'92s own pragmatic meaning such that it can operate in a valid way on the external (DSP\'92s) semantic meaning; or \
-iii. To modify the external (DSP\'92s) semantic meaning such that it can be operated on by the DSC\'92s existing pragmatic meaning in a manner faithful to the current state of affairs. \
+iii. To modify the external (DSP\'92s) semantic meaning such that it can be operated on by the DSC\'92s existing pragmatic meaning in a manner faithful to the current state of affairs, denoted semantic mediation [@Renner1996]. \
 \
-We already indicated that the first approach defies semantic heterogeneity and introduces many disadvantages. The second approach allows external definitions to influence internal workings. This clearly breaks one of the fundamental principles of software engineering, *low coupling, high cohesion* [e.g., @Hitz1995], which complicates concern 4.2, impedes 4.1 and should be considered untenable for \\cref
+We already indicated that the first approach defies semantic heterogeneity which, by token of \\cref\{
+\fs22 \AppleTypeServicesU1 cncrn:semantic-heterogeneity
+\fs24 \AppleTypeServicesU0 \}, represents a fundamental requirement. The second approach allows external definitions to influence internal workings. This clearly breaks one of the fundamental principles of software engineering, *low coupling, high cohesion* [e.g., @Hitz1995], which complicates \\cref
+\fs22 \AppleTypeServicesU1 \{cncrn:scalabilityB\}
+\fs24 \AppleTypeServicesU0 , impedes \\cref
+\fs22 \AppleTypeServicesU1 \{cncrn:scalabilityA\}
+\fs24 \AppleTypeServicesU0  and should be considered untenable for \\cref
 \fs22 \AppleTypeServicesU1 \{cncrn:re-establish-coherence\}
-\fs24 \AppleTypeServicesU0 , particularly its second Note. Contrarily, the last approach respects this fundamental principle and does not impair any of the other concerns. It *does* assume the semantic variations to be resolvable and representable. Still, re-establishing reciprocity now becomes a threefold task: First, to reconcile all semantic differences between the representations of the Domain of Interpretation that is shared by the DSP and DSC. Second, to represent that reconciliation in a formal language that allows for mechanical transcription of the data representation provided by the DSP to the data representation applied by the DSC, without inducing phantom semantics. Third, to make the former two tasks as efficient as possible. \
+\fs24 \AppleTypeServicesU0 . Clearly, the last approach does not impair any of these or other concerns. It *does* assume the semantic variations to be resolvable and representable. Still, re-establishing reciprocity now becomes a threefold task: First, to reconcile all semantic differences that occur between the semantic meanings established by the DSP and DSC about their shared DoI. Second, to represent that reconciliation in a formal language that is sufficiently expressive and allows for mechanical transcription of the data representation provided by the DSP to the data representation applied by the DSC, without inducing invalid semantics. Third, to make the former two tasks as efficient and mechanically supported as possible. \
 \
 \pard\pardeftab720\partightenfactor0
 
@@ -26,7 +32,15 @@ We already indicated that the first approach defies semantic heterogeneity and i
 
 \f1\b0 \cf0 <!$Scr_Cs::0>
 \f0 \
-A prerequisite to this task is that DSP\'92s ASM refers to a SoA that can be addressed by DSC\'92s ASM when processing the received data. For this to hold, we first require that the quality of the DSC and the DSP is such that their internal semantic meaning is in coherence with their internal pragmatic meaning, i.e., that their concerning ASMs are faithful to reality over the complete value range of their internal semantic meaning. Provided that the principles of [@Brandt2021a] have been followed, this requirement is met. Now assume that the semantic meaning that the DSP is to exchange, is equivalent to some semantic meaning that is in scope with the DSC software agent. By virtue of the coherence that is in place with the DSC software agent, the reciprocity between the external semantic meaning with the internal pragmatic meaning can be guaranteed to be re-established since there is no semantic difference with the internal semantic meaning. The only difference to overcome is the differences in representation between the external and internal semantics meanings. \
+A prerequisite to this task is that DSP\'92s ASM refers to a SoA that can be addressed by DSC\'92s ASM when processing the received data. Since collaboration only requires to exchange the data and their semantic meaning, only two things must be assured: First, for each and every entity that is produced by the DSP in the scope of the collaboration, the DSC must be able to address the same DoA with relatable semantic meaning; Second, for each value that is produced by the DSP throughout the data exchange, the DSC must be able to refer to the same SoA with relatable quality. With quality, we refer to the principled elements that determine how the value is being generated by the DSP and how it is expected to be used by the DSC. This relates to (i) the value scale and interval addressed, the resolution and accuracy with which the value refers to the actual quantity value, the unit of measure with which the value is expressed and more [@Probst:2008hs], and to (ii) facts about the measurement or observation itself, e.g., method, measurement error, drift, sensitivity, update frequency and more [@Anonymous:2008tY]. Of course, the scope of the quality is determined by the DSC, whereas the DSP must produce the required quality attributes. \
+\
+Despite the capabilities of semantic reconciliation engines, e.g., [REFS], the data\'92s semantic meaning and value quality are the only but essential aspects of sIOP that require the human capability to take a glance on reality and reflect on the faithfulness with which the domain models of both agents relate to each other. The result of the human intervention is a specification on how the two domain models relate to each other \'97 a semantic alignment \'97 regarding their semantic meaning and value quality. By virtue of the coherence that is in place with the DSC software agent, and assuming a faithful alignment, the reciprocity between the DSP\'92s semantic meaning with the DSC\'92s pragmatic meaning can be guaranteed to be re-established.\
+\
+This role is not much different from what is required when aligning the agent\'92s data schema to the semantic standard when assuming semantic homogeneity. However, we stress that this role is the one and only need for human involvement in sIOP. \
+\
+Unfortunately, we cannot always assume full equivalence between the semantic meanings of the DSP and the DSC. Indeed, many variations in semantic meaning can exist. However, there is no reason to assume the existence of semantic variations for which no alignments can be specified. In fact, issues with reconciliation are an important indication that both DMs refer to distinct realities. \
+\
+We reflect the above with \\cref\{dp:alignment\}.\
 \
 \pard\pardeftab720\partightenfactor0
 
@@ -35,6 +49,49 @@ A prerequisite to this task is that DSP\'92s ASM refers to a SoA that can be add
 \f1\b0 <!$Scr_Cs::0>
 \f0 \
 \
+A 
+\f1 <$Scr_Cs::1>
+\f3\i correspondence
+\f1\i0 <!$Scr_Cs::1>
+\f0  specifies as accurately as possible the semantic relation that exists between a pair of concepts, in order to align between the semantic meanings of interoperating agents. By exhaustively addressing all semantic relations that exist between pair of concepts of both agents, the set of correspondences collectively specify the 
+\f1 <$Scr_Cs::1>
+\f3\i semantic alignment
+\f1\i0 <!$Scr_Cs::1>
+\f0  that holds between the semantic meanings that are intended by the data that are exchanged between the two agents. The purpose of the alignment is to specify how the truth-value of expressions that are formulated in terms of the DSP, can be established by using formulations in terms of the DSC. To that end, we differentiate between the two categories of semantic differences identified above:\
+\
+1. 
+\f1 <$Scr_Cs::1>
+\f3\i Ontological differences
+\f1\i0 <!$Scr_Cs::1>
+\f0 : Assuming semantic compatibility, \\cref\{def:semantic-compatibility\}, variations in semantic meaning do not root in philosophical principles, but from variations in carving out reality that fit the agent\'92s purpose: perspective, context and background knowledge. These variations can be specified as formal correspondences between (constructions of) concepts from both ontologies, e.g., naming conventions, structural variations, differences in aggregation or Class-vs-Property differences, to name a few; \
+1. 
+\f1 <$Scr_Cs::1>
+\f3\i Value quality differences
+\f1\i0 <!$Scr_Cs::1>
+\f0 : variations in \
+  1. applied 
+\f1 <$Scr_Cs::1>
+\f3\i conventions
+\f1\i0 <!$Scr_Cs::1>
+\f0  on representing a value in its value space, for values with or without magnitudes alike, e.g., differences in value scales, units of measure or nominal properties [@Probst:2008hs]. For these variations, conversion algorithms exist that can translate values from one representation into another without inducing invalid semantics;\
+  1. inherent characteristics of a value that result from the method of measurement or observation, and the measurement system applied. These are 
+\f1 <$Scr_Cs::1>
+\f3\i technology-induced
+\f1\i0 <!$Scr_Cs::1>
+\f0  qualities, and only a one-directional translation from higher to lower quality is possible, implying a technological upgrade for the DSP when the DSC demands higher quality.\
+\
+The language used to specify correspondences must be expressive enough to represent ontological reconciliations and convention-induced value transformations; technology-induced variations can only be identified, not resolved by any correspondence. In [@Euzenat2007;@Scharffe2011], the authors report on an investigation towards the requirements for a language to align ontologies, independent on the ontological content, resulting in EDOAL [@Scharffe2011]. This language clearly shows the distinct formalisations required between representations about ontological correspondences and those about convention-induced value transformations. This vital distinction is absent in, e.g., [@Dimou2014], that, admittedly is not designed with the purpose of specifying ontology alignments but for conversion between a wide variety of data formats and the RDF language, which is a clear example of syntax-only conversion.\
+\
+In conclusion, by application of 
+\f1 <$Scr_Cs::1>
+\f3\i conceptual connectors
+\f1\i0 <!$Scr_Cs::1>
+\f0  the architecture gains the capability to address a specific compound of individuals in either the source or target ontology that relate to the semantic difference at hand, reconciling the above ontological differences. Similarly, with the application of 
+\f1 <$Scr_Cs::1>
+\f3\i value transformation connectors
+\f1\i0 <!$Scr_Cs::1>
+\f0 , the architecture gains the capability to overcome the above convention-induced value differences.\
+\
 \
 
 \f1 <$Scr_Cs::0>
@@ -42,35 +99,15 @@ A prerequisite to this task is that DSP\'92s ASM refers to a SoA that can be add
 \f1\b0 <!$Scr_Cs::0>
 \f0 \
 \
+The current limits of the machine that follow from its token-based foundation, prevents to discharge the human from her responsibility to create an alignment. That does not imply absence of computer assistance in this task. Various technologies exist for this, however, these technologies can never guarantee semantic completeness and correctness of the resulting alignments. \
 \
-\'97\'97\'97\'97\
+(human efficiency) This can be achieved by a transcription process that can be generic and only requires a specification of how the external semantic meaning relates to what internal semantic meaning. \
+\
 \
 \
 \
 ++++++++++++\
 \
-tbv tweede deel van de taak (human efficiency) This can be achieved by a transcription process that can be generic and only requires a specification of how the external semantic meaning relates to what internal semantic meaning. This specification is known as a semantic alignment. \
-\
-Unfortunately, we cannot assume full equivalence between the semantic meanings of the DSP and the DSC. Indeed, many variations in semantic meaning can exist. However, there is no reason to assume the existence of semantic variations for which no alignments can be specified. We reflect this with \\cref\{dp:alignment\}.\
-\
-A *correspondence* specifies as accurately as possible the semantic differences that exists between a pair of related concepts, i.e., it aligns between the semantic meanings of interoperating agents. By exhaustively addressing all semantic differences that exist between both agents, the set of correspondences collectively specify the *alignment* that holds between two agents. The purpose of the alignment is to establish how the truth of expressions that are formulated in terms of the DSP, can be established by using formulations in terms of the DSC, and to capture this as a semantic 
-\f1 <$Scr_Cs::1>
-\f3\i correspondence
-\f1\i0 <!$Scr_Cs::1>
-\f0 . To that end we differentiate between two categories of semantic differences:\
-\
-1. *Ontological differences*: variations that root in philosophical principles[^PhPr] and can be specified as logical relation between (constructions of) concepts from both ontologies, e.g., naming conventions, structural variations, or Class-vs-Property differences; \
-1. *Value differences*: variations in conventions on how to represent values with or without magnitudes, e.g., differences in value scales, units of measure or nominal properties.\
-\
-The language used to specify correspondences must be expressive enough to identify the atomic elements of the ontologies, to combine them into logical combinations as well as to formulate the relationship that holds between them. In [@Euzenat2007], an investigation has been reported towards the requirements for such an alignment language, resulting in EDOAL [@Scharffe2011]. By application of 
-\f1 <$Scr_Cs::1>
-\f3\i conceptual connectors
-\f1\i0 <!$Scr_Cs::1>
-\f0  the architecture gains the capability to address a specific compound of individuals in either the source or target ontology that relate to the semantic difference at hand, resolving the above ontological differences. Similarly, with the application of 
-\f1 <$Scr_Cs::1>
-\f3\i value functions
-\f1\i0 <!$Scr_Cs::1>
-\f0 , the architecture gains the capability to overcome the above value differences by specifying transformations between conventions on value representations, nominal properties or unit conversions.\
 \
 \pard\pardeftab720\partightenfactor0
 {\field{\*\fldinst{HYPERLINK "scrivcmt://D4341080-20C5-413E-BF55-A95125F2D94A"}}{\fldrslt \cf0 Current sIOP practises}} already require humans-in-the-loop to reconcile the semantic differences that occur. Often, the subject of reconciliation is the differences in data schemata, and the result of the reconciliation is laid down as a canonical data model. By applying semantic reconciliation on the conceptual level, the dependency on the (data) syntax, and vice-versa, is minimised. Moreover, by representing the result of the reconciliation as an alignment (between ontologies) as opposed to a canonical semantic model (core ontology), the influence of the peer agent\'92s semantics on one\'92s own semantics is minimised as well. An alignment, thus, functions as an interface that enforces loosely coupled semantics by enabling semantic transparency between communicating peers. Reducing the human-in-the-loop to author an alignment only, (i) accelerates the deployment of sIOP by removing all human effort that is concerned with implementation activities, and (ii) decouples the sIOP scope to bilateral alignments only. This process has been depicted in \\cref\{fig:dt-reconciliation\}.\
@@ -81,6 +118,4 @@ The language used to specify correspondences must be expressive enough to identi
 \
 <!-- page additions -->\
 [def:DTReconciliation]: src\\images\\DesignTimeReconciliation.png \{#fig:dt-reconciliation width=25%\} \
-[^PhPr]: The formal tools of ontological analysis include theories of Essence and Identity; Parts (Mereology); Unity and Plurality; Dependence; Composition and Constitution; Properties and Qualities; and Space and Time.\
-\
 }

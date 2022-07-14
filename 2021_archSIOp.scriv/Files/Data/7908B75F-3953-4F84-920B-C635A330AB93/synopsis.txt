@@ -1,0 +1,11 @@
+voorbeeld, niet exhaustive
+
+ zonder al te veel notaties in een compact voorbeeld alle essentiele aspecten van dit artikel laat zien.:
+- twee ontologie fragments
+- een alignment (fragment)
+- phantom semantics
+- valid transcription
+- mediator
+- confluence
+
+Twee snippets,dan deze relatie / naieve vertaling gaat fout, en met de mediatie gaat het goed.

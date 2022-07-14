@@ -6,27 +6,34 @@
 \deftab720
 \pard\pardeftab720\partightenfactor0
 
-\f0\fs24 \cf0 Semantic interoperability is about at least two software agents, in their roles as DSP and DSC, that share a particular DoA and exchange data that represent a certain SoA in their shared reality. Subsequent to the exchange, the data will be processed by the receiving DSC. It stands to reason that understanding the data precedes their faithful use, which is supported by FAIR\'92s machine-actionable states. This also resonates with Maxim 3, relevancy of the communication; it addresses the objective of the DSC through its application to her pragmatic meaning. \
+\f0\fs24 \cf0 Semantic interoperability is about at least two software agents, in their roles as DSP and DSC, that share a particular DoA and exchange data that represent a certain SoA in their shared reality. Subsequent to the exchange, the data will be processed by the receiving DSC. It stands to reason that data comprehension precedes their faithful use, which is supported by FAIR\'92s machine-actionable states. This also resonates with Maxim 3, relevancy of the communication; it addresses the objective of the DSC through application of its pragmatic meaning. \
 \
-We assume the presence of domain models, one for each collaborating software agent, anchoring the semantics of the collaboration. Since data represent semantic meaning only, then by exchanging data, the represented semantic meaning are necessarily separated from the DSP\'92s ASM they belong to. (Why it is useless to exchange the complete ASM in order to establish sIOP, is left as an exercises to the reader [^Answer].) Consequently, it loses its coherence with its original pragmatic meaning. The DSC must establish a new reciprocity with its own pragmatic meaning. Unless it can be guaranteed that the new reciprocity is as coherent as necessary for a faithful comprehension, it\'92s impossible to establish sIOP without emergence of phantom semantics. We repeat our definition on semantic coherence from [@Brandt2021a]:\
+We assume the presence of domain models, one for each collaborating software agent, anchoring the semantics of the collaboration. Since data represent semantic meaning only, then by exchanging data, the represented semantic meaning are necessarily separated from the DSP\'92s ASM they belong to. (Why it is useless to exchange the complete ASM in order to establish sIOP, is left as an exercises to the reader [^Answer].) Consequently, it loses its coherence with its original pragmatic meaning. The DSC must establish a new reciprocity with its own pragmatic meaning. Unless it can be guaranteed that the new reciprocity is as coherent as necessary for a faithful comprehension, it\'92s impossible to establish sIOP without emergence of invalid semantics. We repeat our definition on semantic coherence from [@Brandt2021a]:\
 \
-\\begin\{mmdef\}[Semantic coherence]\\label\{def:semantic-coherence\}\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\pardeftab720\sl288\slmult1\partightenfactor0
+
+\f1 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
+\f0\fs22 \\begin\{mmdef\}[Semantic coherence]\\label\{def:semantic-coherence\}\
 Semantic coherence builds on the consistency with which the [semantic and pragmatic meanings] (\'85) commit to the same distinctions in their shared reality, and only require each other's knowledge in executing their reciprocity. \
-\\end\{mmdef\}  \
-\
-We indicated in \\cref\{the-four-maxims-of-communication\} that Maxim 3, 
+\\end\{mmdef\}  
+\f1\fs20 \
+\pard\pardeftab720\partightenfactor0
+
+\fs24 \cf0 \AppleTypeServicesU0 <!$Scr_Ps::0>
+\f0 \
+We indicated in \\cref\{the-four-maxims-of-communication\} that maxim 3, 
 \f1 <$Scr_Cs::1>
 \f2\i be relevant (to the immediate needs)
 \f1\i0 <!$Scr_Cs::1>
-\f0 , also relates to the interoperation between the agents. Apart from its place in the communication protocol (what we do not address here), we consider the ability to establish the relevancy to the immediate needs a prerequisite for sIOP, including its communication protocol. Again, this refers to the purpose that the software agent, now the DSC, is to achieve and, therefore, relates directly to the above semantic coherence. \
+\f0 , also relates to the interoperation between the agents. Apart from its place in the communication protocol (which we do not address here), we consider the ability to establish the relevancy to the immediate needs a prerequisite for sIOP. This, too, refers to the purpose that the software agent, now the DSC, is to achieve and, therefore, relates directly to the above semantic coherence. \
 \
-Our third concern about sIOP is founded on FAIR\'92s machine-actionable stance and Maxim 3 as:\
+Our third concern about sIOP is founded on FAIR\'92s machine-actionable stance and maxim 3 as:\
 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\pardeftab720\sl288\slmult1\partightenfactor0
 
 \f1 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
 \f0\fs22 \\begin\{mmconcern\}\\label\{cncrn:re-establish-coherence\}\AppleTypeServicesU0 \
-Subsequent to data exchange, the DSC must have the capability to re-establish semantic coherence between the external (DSP\'92s) semantic meaning and its own internal pragmatic meaning, and assure that the reciprocity between DSP\'92s data and DSC\'92s data processing code remains truthful to the state of affairs in reality.\AppleTypeServicesU1 \
+Subsequent to data exchange, the DSC must have the capability to re-establish semantic coherence between the external (DSP\'92s) semantic meaning and its own internal pragmatic meaning, and assure that the reciprocity between the DSP\'92s data and the DSC\'92s data processing code remains truthful to the state of affairs in reality.\AppleTypeServicesU1 \
 \\end\{\AppleTypeServicesU0 mmconcern\AppleTypeServicesU1 \}
 \fs24 \AppleTypeServicesU0 \
 \pard\pardeftab720\partightenfactor0
@@ -35,23 +42,26 @@ Subsequent to data exchange, the DSC must have the capability to re-establish se
 \f0 \
 We note that \\cref\{
 \fs22 \AppleTypeServicesU1 cncrn:re-establish-coherence\}
-\fs24 \AppleTypeServicesU0 : \
-\
-1. applies to both the data it receives from the DSP as to the data that the DSC can infer from them. Although this is implied by the principles that lead to the emergence of what we\'92ve called the Atomic Semantic Monolith in [@Brandt2021a], we make this consequence explicit here;\
-2. is to be considered recurrently when sIOP is to allow for semantic evolution. This demands for continued maintainability and governance of sIOP;\
+\fs24 \AppleTypeServicesU0  applies to both the data it receives from the DSP as to the data that the DSC can infer from them.\
 \
 Although they share the same semantic meaning, the resulting semantic monolith of the DSC must be allowed to differ from the DSP\'92s semantic monolith. For example, by exchanging a heartbeat both agents share the semantic meaning about the number of beats per second, however the pragmatic meaning can vary between an indication of health for an health-care application and an indication of performance potential in a sports application, with different demands on semantic meaning, e.g., resolution and accuracy. Semantic heterogeneity thus, brings about the fourth concern about sIOP, i.e., that of scalability, since semantics won\'92t be centrally coordinated anymore resulting in semantic definitions that are distributed all over the place (see \\cref\{dp:shf\}). \
 \
-\\begin\{mmdef\}[Semantic scalability]\\label\{def:semantic-scalability\}\
-Semantic scalability is the capability of a system of collaborating agents to adopt and/or consolidate, with acceptable lead time and costs, increasing perspectives on -or more complex semantic heterogeneity about- their shared reality without compromising sIOP between any interacting software agents. \
-\\end\{mmdef\}  \
-\
-We elaborate the above in two subconcerns:\
-\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\sl288\slmult1\partightenfactor0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\pardeftab720\sl288\slmult1\partightenfactor0
 
 \f1 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
-\f0 \\begin\{subtheorem\}\{mmconcern\}\\label\{cncrn:scalability\}\
+\f0\fs22 \\begin\{mmdef\}[Semantic scalability]\\label\{def:semantic-scalability\}\
+Semantic scalability is the capability of a system of collaborating agents to adopt and/or consolidate, with acceptable lead time and costs, increasing perspectives on -or more complex semantic heterogeneity about- their shared reality without compromising sIOP between any interacting software agents. \
+\\end\{mmdef\}  \
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs24 \cf0 \AppleTypeServicesU0 <!$Scr_Ps::0>
+\f0 \
+We elaborate the above in two subconcerns:\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\pardeftab720\sl288\slmult1\partightenfactor0
+
+\f1 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
+\f0\fs22 \\begin\{subtheorem\}\{mmconcern\}\\label\{cncrn:scalability\}\
   \\begin\{mmconcern\}\\label\{cncrn:scalabilityA\}\
     sIOP shall allow for semantic scalability;\
   \\end\{mmconcern\}\
@@ -62,7 +72,7 @@ We elaborate the above in two subconcerns:\
 \\end\{subtheorem\}\
 \pard\pardeftab720\partightenfactor0
 
-\f1 \cf0 \AppleTypeServicesU0 <!$Scr_Ps::0>
+\f1\fs24 \cf0 \AppleTypeServicesU0 <!$Scr_Ps::0>
 \f0 \
 \
 We identify two complementary aspects from these concerns. One revolves around the human task and, therefore, impede the \'93access-and-play\'94 business demand. Another refers to engineering challenges about mechanisation and efficiency. We address the human tasks concerns in the next section, and then investigate the engineering challenges in its subsequent section.   \

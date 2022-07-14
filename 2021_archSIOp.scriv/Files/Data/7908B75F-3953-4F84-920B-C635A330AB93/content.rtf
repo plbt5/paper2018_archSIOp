@@ -1,0 +1,68 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2638
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;\f1\fswiss\fcharset0 Helvetica;\f2\fmodern\fcharset0 CourierNewPS-ItalicMT;
+}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\deftab720
+\pard\tx720\pardeftab720\ri-16872\partightenfactor0
+
+\f0\fs24 \cf0 When considering plants, whether it is categorised as fruit or vegetable depends on assuming a botanical or culinary perspective. The botanical classification is based on the structure and function of the part of the plant in question, whereas the culinary classification takes flavour and structure as its principled means of classification. As a result tomatoes, cucumber and green beans are considered vegetables by a cook whilst these are considered fruit according to botanical discipline. Now assume two software agents, a botanic and culinary one. Each ascribes semantics to their particular data from their different (but equally legitimate) perspectives. The culinary ontology defines an $e$dible plants concept $e$ that subsumes, amongst others, the concept $v$ about $v$egetables. The botanic ontology $\\ont\{O\}_b$ defines a plant $p$arts concept that subsumes, amongst others, $f$ruits. Both applications are to exchange data and, hence, must show sIOP.\
+\
+By excluding poisonous plants such as deadly hemlock and foxglove (*digitalis*), the culinary $e$dible plants can be considered a subclass of the botanic $p$lant parts. A second correspondence $\\mu_2$ specifies $v \\overlap f$, and states that the culinary $v$egetables concept overlaps with the botanic $f$ruit concept: both concepts have common individuals, e.g., tomatoes, cucumbers and green beans, but none is more general than the other in addressing individuals that do not belong to the other concept, e.g., apples as botanic fruit but not as culinary vegetables, and asparagus vice versa. Clearly, both correspondences are semantically valid.\
+\
+\
+When considering plants, whether it is categorised as fruit or vegetable depends on assuming a botanical or culinary perspective. The botanical classification is based on the structure and function of the part of the plant in question, whereas the culinary classification takes flavour and structure as its primary characteristics for classification. As a result tomatoes, cucumber and green beans are considered vegetables by a cook whilst these are considered fruit according to botanical discipline, see \\cref\{fig:cul-venn\} versus \\cref\{fig:bot-venn\}. Now assume two applications, a botanic and culinary one, with their own ontology as their underlying knowledge base, i.e., $\\ont\{O\}_b$ and $\\ont\{O\}_c$, respectively. Each ontology ascribes semantics to their particular data from their different (but equally legitimate) application perspectives, depicted in \\cref\{fig:alignment-a\}. The culinary ontology $\\ont\{O\}_c$ from \\cref\{fig:alignment-a\} defines an $e$dible plants concept $e$ that subsumes, amongst others (the dotted open line), the concept $v$ about $v$egetables. The botanic ontology $\\ont\{O\}_b$ defines a plant $p$arts concept that subsumes, amongst others, $f$ruits. Assume further that both applications are to exchange data and, hence, must show sIOP. \
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+\
+\\begin\{figure\}\
+ \\centering\
+ \\hfill\
+ \\begin\{subfigure\}[b]\{.35\\textwidth\}\
+ \\centering\
+ \\includegraphics[width=\\textwidth]\{src/images/CulinaryVenn.png\}\
+ \\caption\{The culinary categorisation of fruit and vegetables.\}\
+ \\label\{fig:cul-venn\}\
+ \\end\{subfigure\}\
+ \\hfill\
+ \\begin\{subfigure\}[b]\{.2\\textwidth\}\
+ \\centering\
+\pard\tx720\pardeftab720\ri-16872\partightenfactor0
+\cf0  \\includegraphics[width=\\textwidth]\{src/images/AlignmentA.png\}\
+ \\caption\{Aligning the culinary ($\\ont\{O\}_c$) and botanic ($\\ont\{O\}_b$) ontologies.\}\
+ \\label\{fig:alignment-a\}\
+\pard\pardeftab720\partightenfactor0
+\cf0  \\end\{subfigure\}\
+ \\hfill\
+ \\begin\{subfigure\}[b]\{.35\\textwidth\}\
+ \\centering\
+\pard\tx720\pardeftab720\ri-16872\partightenfactor0
+\cf0  \\includegraphics[width=\\textwidth]\{src/images/BotanicVenn.png\}\
+ \\caption\{The botanic categorisation of fruit and non-fruit.\}\
+ \\label\{fig:bot-venn\}\
+\pard\pardeftab720\partightenfactor0
+\cf0  \\end\{subfigure\}\
+ \\caption\{Two perspectives on fruit and vegetables, their ontologies and alignment between them.\}\
+ \\label\{fig:mot-example\}\
+\\end\{figure\}\
+\
+\pard\tx720\pardeftab720\ri-16872\partightenfactor0
+\cf0 By excluding poisonous plants such as deadly hemlock and foxglove (*digitalis*), the culinary $e$dible plants can be considered a subclass of the botanic $p$lant parts, depicted in \\cref\{fig:alignment-a\} as $\\mu_1$, specifying 
+\f1 <$Scr_Cs::0>
+\f2\i correspondence
+\f1\i0 <!$Scr_Cs::0>
+\f0  $e \\sqsubset p$. A second correspondence $\\mu_2$ specifies $v \\overlap f$, and states that the culinary $v$egetables concept overlaps with the botanic $f$ruit concept: both concepts have common individuals, e.g., tomatoes, cucumbers and green beans, but none is more general than the other in addressing individuals that do not belong to the other concept, e.g., apples as botanic fruit but not as culinary vegetables, and asparagus vice versa. Clearly, both correspondences are semantically valid. \
+\
+Turning our attention to the transcription of data, consider data from the culinary ontology: the edible plants on the menu consist of asparagus, carrots and tomatoes. Assume further that the transcription engine is aware of both ontologies and the two correspondences. Clearly, stating the culinary fact that \'93asparagus, carrots and tomatoes are edible plants\'94 can be transcribed into the botanic fact that \'93asparagus, carrots and tomatoes are plant parts\'94; a one-to-one replacement of terms suffices since everything that is considered an edible plant is, according to $\\mu_1$, considered a part of a plant as well, and semantic interoperability has been achieved. Now consider the transcription for the culinary statement \'93asparagus, carrots and tomatoes are vegetables\'94. Simply replacing the culinary term \'93vegetables\'94 with the botanic term \'93fruit\'94 in the transferred data because a valid correspondence *exists* between the two terms, here $\\mu_2$, now results in *phantom semantics*: inducing an erroneous categorisation of individuals, here asparagus and carrots as botanic fruits. Since an ontology embodies the knowledge-base for an application, this phantom semantics will introduce erroneous or conflicting knowledge to the botanic application; semantic interoperability has failed. In conclusion, we consider a valid logic notion on how the two categories relate to each other a necessary but not sufficient condition for transcription: Simply replacing the related terms one-to-one doesn\'92t always achieve faithful semantic interoperability between applications.\
+\
+Based on the transcription context as depicted in \\cref\{fig:alignment-a\}, the only *valid transcription* of \'93asparagus, carrots and tomatoes are vegetables\'94, viz one that is logically sound and remains closest to the individuals that are denoted by the term under transcription, here \'93vegetables\'94, is the botanic term \'93plant parts\'94. To allow for such transcription it is necessary to take into consideration more information than the correspondence relation $\\mu_2$ and its two related concepts only. In fact, to achieve a valid transcription, the total logical context that applies to the two related concepts should be taken into consideration. We call this the *transcription context*, which includes the essence of the correspondence relation, plus fragments of both ontologies as well as other correspondences between those fragments. Although the valid transcription might be more generic than its original fact, no phantom semantics occur. As a result, semantic interoperability will be achieved and the botanic application can process external data without the risk to show more erroneous behaviour than with its internal data only. \
+\
+We note that the transcription context can be considered agnostic to the particular ontologies and alignments since it only depends on the underlying formal logic: the intra-ontological relations and inter-ontological correspondences. A transcription engine, thus, only needs to consider the transcription context in order to produce valid transcriptions. \
+\
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+<!-- Page definitions -->\
+\pard\tx720\pardeftab720\partightenfactor0
+\cf0 \
+\
+}
