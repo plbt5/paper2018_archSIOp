@@ -9,7 +9,13 @@
 \f0\fs24 \cf0 With semantics, we refer to real world semantics (RWS) and we summarise {\field{\*\fldinst{HYPERLINK "scrivcmt://46EDB602-69E3-476F-A69D-2DF8D62D9619"}}{\fldrslt our position towards semantics in software from [@Brandt2021a]}}:\
 \
 * Since software is incapable of genuine understanding, RWS cannot exist in software. Nevertheless, the software agent acts as transport medium for RWS between users and must do so without compromising the transported cargo, viz RWS. \
-* In the active, processing, part of an agent, we distinguish in behaviour between a 
+* The nature of software dictates that data and their data processing are always intimately connected. We consider the 
+\f1 <$Scr_Cs::0>
+\f2\i reciprocity
+\f1\i0 <!$Scr_Cs::0>
+\f0  between data and their processing the carrier of RWS. Any incoherent reciprocity, i.e., inconsistencies between data and their processing, equates to unfaithfulness to reality, viz semantics that are considered invalid by the current SoA in the application domain.\
+* In terms of semantics, we discern *semantic meaning*, i.e., what is said, from *pragmatic meaning*, i.e., to connect with our frame of reference and its context of use. In terms of software, we consider *data* the carrier for semantic meaning, and their *data processing* carrier for pragmatic meaning. For example, \\token\{S\} with value \\token\{t = 38.9\\celsius\} represents semantic meaning whereas \\token\{P1\} with value \\token\{t > 37.0\\celsius\} $\\to$ \\token\{fever\} represents pragmatic meaning. \
+* The active, processing, part of an agent, produces agent behaviour. We separate behaviour into a 
 \f1 <$Scr_Cs::0>
 \f2\i comprehension
 \f1\i0 <!$Scr_Cs::0>
@@ -17,29 +23,23 @@
 \f1 <$Scr_Cs::0>
 \f2\i achievement
 \f1\i0 <!$Scr_Cs::0>
-\f0  part. The latter is behaviour that specifies how to accomplish the agent\'92s purpose based on the former that mirrors the current state of affairs (SoA) in the DoA and the agent\'92s own background knowledge. The resulting simple software model emerges as  \
+\f0  part, the latter of which specifying how to accomplish the agent\'92s purpose, based on the former that mirrors the current state of affairs (SoA) in the DoA and the agent\'92s own background knowledge. The resulting simple software model emerges as  \
 \\resizebox\{\\linewidth\}\{!\}\{\\textsf\{\\textbf\{\\small Input\\ensuremath\{\\twoheadrightarrow\}\\colorbox\{gray!30\}\{Comprehension\}\}\}\\stackedcondtext\{Achievement 2\}\{Achievement 1\}\\textsf\{\\textbf\{\\small Output\}\}\} where \\textsf\{\\colorbox\{gray!30\}\{\\small shaded\}\} represents behaviour, \\textsf\{\\small non-shaded\} represents static structures and \\textsf\{\\textbf\{\\small bold\}\} represents semantics. For instance, consider data token \\token\{S\} and data-processing tokens \\token\{P1\} and \\token\{P2\}:\
   * \\token\{S\} [|temperature]: \\token\{t = 38.9\\celsius\}\
   * \\token\{P1\} [|fever]: \\token\{t > 37.0\\celsius\} $\\to$ \\token\{fever\}\
   * \\token\{P2\} : \\token\{fever\} $\\to$ \\token\{raiseAlarm(now)\}  \
-We consider \\token\{S\} and \\token\{P1\} a representation of comprehension and \\token\{P2\} one of achievement. \
-* We discern *semantic meaning*, i.e., what is said, and *pragmatic meaning*, i.e., to connect with our frame of reference and its context of use. The latter implements 
-\f1 <$Scr_Cs::0>
-\f2\i comprehension
-\f1\i0 <!$Scr_Cs::0>
-\f0  as an inference process from the semantic meaning. This implies that \\token\{S\} with value \\token\{t = 38.9\\celsius\} represents semantic meaning. This fact alone is insufficient to draw conclusions and select particular achievement because the temperature can imply different pragmatic meaning: \\token\{P1\} represents pragmatic meaning and establishes [|fever] in a human context, whereas \\token\{P3\}, \\token\{t > 39.7\\celsius\} $\\to$ \\token\{fever\}, also represents pragmatic meaning but in a feline context instead.\
-* We consider *data* the carrier for semantic meaning, and their *data processing* carrier for pragmatic meaning. \
-* The nature of software dictates that data and their data processing are always intimately connected. We consider the 
-\f1 <$Scr_Cs::0>
-\f2\i reciprocity
-\f1\i0 <!$Scr_Cs::0>
-\f0  between data (semantic meaning) and their processing (pragmatic meaning) the carrier of RWS. Any incoherent reciprocity, i.e., inconsistencies between semantic and pragmatic meaning, equates to unfaithfulness to reality, viz semantics that are considered invalid by the current SoA in the application domain.\
+We consider \\token\{S\} and \\token\{P1\} a representation of comprehension and \\token\{P2\} one of achievement.\
+* Note that *semantic meaning*, e.g., \\token\{S\}, is in itself insufficient to draw conclusions and select particular achievement, since its implication on the software agent depends on the pragmatic meaning that applies. When considering pragmatic meaning \\token\{P1\}, it establishes [|fever] in a human context, whereas \\token\{P3\} with \\token\{t > 39.7\\celsius\} $\\to$ \\token\{fever\} also represents pragmatic meaning, but in a feline context instead, leading to its negation [|$\\righthalfcap$ fever]. Different comprehension leads to different achievement.\
 * The central disposition of reciprocity in software semantics emerges as an *Atomic Semantic Monolith* (ASM), established with the explicit purpose to guarantee the coherence between the data (semantic meaning) and their processing code (pragmatic meaning). The ASM achieves comprehension about its particular semantic meaning in the context of its appropriate use. For instance, \\pair\{S;P1\} and \\pair\{S;P3\} represent two distinct ASMs for two distinct uses of temperature data.\
 * Collectively, the ASMs compose the agent\'92s Domain Model (DM), and provides the software agent with the level of comprehension necessary to decide upon its achievement (to achieve the agent\'92s objectives) under the current SoA. \
 * Where comprehensive behaviour is specified by the DM, the achievement behaviour is specified by (parts of) the System Model (SM). We consider the SM 
 \f1 <$Scr_Cs::0>
 \f2\i semantically grounded
 \f1\i0 <!$Scr_Cs::0>
-\f0  in the DM if all terms that are used by the SM and refer to the SoA and DoA, get their comprehension from the DM.\
+\f0  in the DM if all terms that are used by the SM 
+\f1 <$Scr_Cs::0>
+\f2\i and
+\f1\i0 <!$Scr_Cs::0>
+\f0  refer to the SoA and DoA, get their comprehension from the DM.\
 \
 }
