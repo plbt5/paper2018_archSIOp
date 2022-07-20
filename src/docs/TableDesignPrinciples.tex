@@ -20,6 +20,10 @@
 %
 %
 %
+%%%%%%%%%%%%%
+%%
+%% SEMANTIC HETEROGENEITY PRINCIPLE
+%%
 \begin{mmdp}\label{dp:shf}{\bfseries Semantic heterogeneity principle:}
 \quad sIOP should strive to actively reconcile semantic differences as opposed to enforce semantic homogeneity.
 \end{mmdp}
@@ -50,6 +54,10 @@
 %
 %
 %
+%%%%%%%%%%%%%
+%%
+%% SEMANTIC RESPONSIBILITY PRINCIPLE
+%%
 \begin{mmdp}\label{dp:rfsm}{\bfseries Semantic responsibility principle:}
 \quad When it is reasonable to expect that the software agent will be engaged in collaboration or otherwise will interoperate with (an)other software agent(s), it is the responsibility of the DSP to serve the quantity and manner of the potential interoperability by specifying its DM, and particularly the semantic meaning of its data, in advance.
 \end{mmdp}
@@ -76,6 +84,10 @@
 %
 %
 %
+%%%%%%%%%%%%%
+%%
+%% SEMANTIC COMPATIBILITY PRINCIPLE
+%%
 \begin{mmdp}\label{dp:scp}{\bfseries Semantic compatibility principle}
 \quad Semantic compatibility is a precursor to semantic interoperability. In order to consolidate semantic compatibility between collaborating software agents, both agents must confess to their ontological commitment underlying their domain models.\end{mmdp} 
 &
@@ -102,29 +114,68 @@
 %
 %
 %
-\begin{mmdp}\label{dp:alignment}{\bfseries Alignment principle:}\quad When a software agent engages in interoperation with (an)other software agent(s), establish for the exchanged data a maximal coherence between external semantic meaning and internal pragmatic meaning by formalising the alignment between the external and internal semantic meaning. \end{mmdp}
+%%%%%%%%%%%%%
+%%
+%% ALIGNMENT PRINCIPLE
+%%
+\begin{mmdp}\label{dp:alignment}{\bfseries Alignment principle:}\quad Aligning semantic meanings suffices for re-establishing semantic coherence and, hence, enabling sIOP. \end{mmdp}
 &
 \begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
   \item[Type of information:] Application, Data;
   \item[Quality attributes:] Semantics, semantic interoperability;
 \end{description}\\
 \begin{enumerate}[left=6pt, nosep]
-  \item On processing external data, semantics manifest themselves as the reciprocity between data and processing code;
-  \item Data are considered to carry the semantic meaning as specified by the Domain Model of the software agent;
-  \item Formalising a correspondence relation between the semantic meanings of interoperating software agents effectively connects the external semantic meaning with the internal pragmatic meaning;
-  \item By assuring that the internal semantic meaning encompasses the external semantic meaning, and by assuring that the semantic consequences of the latter extending the former are insignificant, collectively assures the semantic validity of the correspondence relation.
+  \item On processing (external) data, semantics manifest themselves as the reciprocity between semantic meaning (carried by data) and pragmatic meaning (carried by processing code);
+  \item The purpose of an alignment is to re-establish semantic coherence between the DSP's semantic meaning and the DSC's pragmatic meaning, as specified by the DMs of the software agents;
+  \item Formalising a correspondence relation between the semantic meanings of interoperating software agents effectively connects the external semantic meaning with the internal pragmatic meaning, providing the existence of semantic coherence by the DSC;
+  \item By assuring that the internal semantic meaning encompasses the external semantic meaning, and by assuring that the semantic consequences of the latter extending the former are (or can be made) insignificant for the available semantic coherence, consolidates the semantic validity of the correspondence relation.
 \end{enumerate}
 &
 \begin{enumerate}[left=10pt, nosep]
   \item The conversion from external to internal semantic meaning is specified by a correspondence;
   \item The collection of all correspondences specify the semantic alignment that holds between a pair of interoperating agents;
-  \item Software agents that are unable to align their semantic meaning with the external semantic meaning cannot engage in sIOP without introducing phantom semantics, with unforeseen consequences in their data processing;
-    \item Providing that computers are token-based only without the capability to establish semantics, authoring the semantic alignment necessarily remains the \emph{only} human effort in establishing sIOP;
-  \item Transcription of the semantic meaning from the DSP representation and value space into the DSC representation and value space is only dependent on the applied alignment language and agnostic to any particular semantics assigned to it. A mediation component to perform such transcription, therefore, remains generically applicable for all domains. This provides the potential to turn the mediation component and the alignment language into infrastructural elements.
+  \item Software agents that are unable to align their semantic meaning with the external semantic meaning cannot engage in sIOP without introducing invalid semantics, with unforeseen consequences in their data processing;
+  \item Despite the assumption that computers are token-based only without the capability to establish semantics, authoring the semantic alignment necessarily remains the \emph{only} human effort in establishing sIOP.
 \end{enumerate} \\
 %
 %
 %
+%%%%%%%%%%%%%
+%%
+%% CORRESPONDENCE RELATION PRINCIPLE
+%%
+\begin{mmdp}\label{dp:alignment-language}{\bfseries Correspondence relation principle:}\quad A correspondence relation that preserves semantic meaning addresses conceptual differences as well as convention-induced value space differences, the resolution of which is a necessary condition to achieve sIOP (providing faithful DMs from both collaborating agents). \end{mmdp}
+&
+\begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
+  \item[Type of information:] Data;
+  \item[Quality attributes:] Semantics, semantic interoperability;
+\end{description}\\
+\begin{enumerate}[left=6pt, nosep]
+  \item Assume the DSP and DSC each have their semantics faithfully specified by domain models;
+  \item Assume that the DMs of the DSP and the DSC are different ways to represent a similar conceptualisation underlying their semantic meaning;
+  \item Then, assume we ignore:
+  \begin{enumerate}
+    \item the preservation of semantic meaning, then the DSC is allowed to ultimately refer to different individuals and, hence, a different SoA than specified by the DSP; 
+    \item meta-properties of the relation between the concepts, then the DSC is allowed to infer SoA that are not warranted by its premises;
+    \item constraints to falsify possible interpretations, then the DSC allows SoA that are not intended by the DSP; 
+    \item units of measurement, then the DSC allows the Mars Climate Orbiter to crash into the Martian atmosphere \cite{Leveson2004};
+    \item lower value scale resolution, then the value masks distinctions that the DSC can comprehend as a different SoA than it will act upon;
+    \item distinctions between ordinal, interval and ratio scales allows the DSC to make comparisons between incomparable values, resulting in invalid pragmatic meaning;
+  \end{enumerate}
+  \item Without addressing the conceptual and (convention-induced) value space differences, sIOP cannot emerge.
+\end{enumerate}
+&
+\begin{enumerate}[left=10pt, nosep]
+  \item With the exception of value space differences that originate from measurement system characteristics, convention-induced value space differences and conceptual differences can be specified such that preservation of semantic meaning can be guaranteed;
+  \item Although correspondence relations are to be specified for each and every difference that applies in semantic meaning between the DSP and DSC, the modeling language to represent a particular correspondence relation remains agnostic to the specifics of the DMs involved, except for the identification of the atomic concepts in the DM.
+\end{enumerate} \\
+%
+%
+%
+%%%%%%%%%%%%%
+%%
+%% SEMANTIC/SYNTAX SEPARATION PRINCIPLE
+%%
 \begin{mmdp}\label{dp:ssoc}{\bfseries Semantics/syntax separation principle:}\quad When a software agent engages in interoperation with (an)other software agent(s), resolve their semantic differences independently from the syntax of the exchanged data. \end{mmdp}
 &
 \begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
@@ -150,6 +201,10 @@
 %
 %
 %
+%%%%%%%%%%%%%
+%%
+%% SEMANTIC MEDIATION PRINCIPLE
+%%
 \begin{mmdp}\label{dp:mediation}{\bfseries Semantic mediation principle:}\quad When software agents engage in interoperation, encapsulate the transcription between their semantic meaning.\end{mmdp}
 &
 \begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
@@ -157,7 +212,7 @@
 \item[Quality attributes:] Semantic interoperability, Consistency, reusability;
 \end{description} \\
 \begin{enumerate}[left=6pt, nosep]
-  \item The semantic meaning is codified in (onto)logical representations;
+  \item The semantic meaning is codified in ontological representations;
   \item Keeping agents from referring to each others representation therefore requires transcription between representations;
   \item A solution where each agent needs to implement one transcription component between its own representation and each of its interoperating peer, increases complexity;
   \item Encapsulating the transcription into an alignment-based intermediary component results in less communication complexity and relieves the agents from development and maintenance of local wrappers;
@@ -167,8 +222,8 @@
   \item A mediator creates representational transparency between communicating agents, keeping agents from using each others representations;
   \item This enables independent development of the individual agent’s semantic meaning;
   \item The need to enforce a canonical semantic representation, viz. semantic homogeneity, expires, allowing semantic heterogeneity to become the norm;
-  \item Each agent can reuse its semantic anchorage in any other interoperation;
-  \item Data transcription logic can become a generic service provided by the communication infrastructure;
+  \item Each agent can reuse its semantic anchorage in any other interoperation;;
+  \item Transcription of the semantic meaning from the DSP representation and value space into the DSC representation and value space is only dependent on the applied alignment language and agnostic to any particular semantics assigned to it. A mediation component to perform such transcription, therefore, remains generically applicable for all domains. This provides the potential to turn the mediation component and the alignment language into infrastructural elements;
   \item Each agent can communicate with any other agent in its own native semantic representation.
 \end{enumerate}\\
 %

@@ -1,0 +1,23 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2638
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;\f1\fswiss\fcharset0 Helvetica;\f2\fmodern\fcharset0 CourierNewPS-ItalicMT;
+}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf0 We make two assumptions without which semantic reconciliation becomes impossible. First, the DSP\'92s ASM refers to a SoA that can be addressed by DSC\'92s ASM when processing the received data. In other words, the collaborating software agents share a common interest in their DoA, communication about which is considered useful. Second, the constraints of the ontological structures that are applied to represent the underlying conceptualisation of the SoA, must not allow for conflicting interpretations on that SoA; this would allow for the so-called 
+\f1 <$Scr_Cs::0>
+\f2\i false-agreement problem
+\f1\i0 <!$Scr_Cs::0>
+\f0  [@Guarino:1998wq, sec.2.4], i.e., collaborating agents to falsely belief that they agree. \
+\
+We consider these assumptions to be fulfilled by the existence and quality of their DMs. Under that condition, and with a precise understanding of the difference in semantics that apply between the conceptualisations of the DSP and the DSC, the purpose of reconciliation is to restore semantic coherence between the DSP\'92s semantic meaning and the DSC\'92s pragmatic meaning. By virtue of the semantic coherence that is in place with the DSC software agent, specifying the relation that applies between the semantic meanings of the DSP and the DSC is sufficient to re-establish the required semantic coherence, viz the valid reciprocity between the DSP\'92s semantic meaning and the DSC\'92s pragmatic meaning.\
+\
+We note that we cannot always assume full equivalence between the semantic meanings of the DSP and the DSC. In fact, many variations in the relation between semantic meaning can exist. However, there is no reason to assume the existence of semantic variations for which no alignments can be specified (except for the one identified in the next section). In fact, issues with reconciliation are an important indication that one or both assumptions above do not hold and that the DMs refer to distinct realities. This in itself represents a signal to inspect and adapt the prior DMs of both software agents before looking into sIOP between them again. \
+\
+We reflect the above with \\cref\{dp:alignment\}.\
+\
+<!-- page additions -->\
+[def:DTReconciliation]: src\\images\\DesignTimeReconciliation.png \{#fig:dt-reconciliation width=25%\} \
+}
