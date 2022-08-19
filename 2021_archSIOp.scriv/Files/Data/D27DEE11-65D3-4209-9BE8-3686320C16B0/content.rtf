@@ -6,45 +6,27 @@
 \deftab720
 \pard\pardeftab720\partightenfactor0
 
-\f0\fs24 \cf0 Subsequent to the exchange, the data that was sent by the DSP will be processed by the receiving DSC. It stands to reason that data comprehension precedes their faithful use. Under a sIOP context, what is data comprehension about?\
-\
-We assume the presence of domain models, one for each collaborating software agent, anchoring the semantics of the collaboration in terms of ASMs that consolidate reciprocity between data and their data processing. By exchanging data, the DSP must break its ASM and separate the semantic meaning from its pragmatic meaning[^\AppleTypeServicesU1 Exercise\AppleTypeServicesU0 ]. Consequently, data exchange implies the DSC to receive semantic meaning only; since data comprehension precedes its faithful use, the DSC must establish a valid reciprocity between the DSP\'92s semantic meaning with its own pragmatic meaning, e.g., when exchanging temperature, assure that the DSP\'92s semantic meaning and the DSC\'92s pragmatic meaning apply identical scales and units. Unless it can be guaranteed that this reciprocity is as coherent as necessary for a faithful comprehension, it\'92s impossible to establish sIOP without emergence of invalid semantics. We repeat our definition on semantic coherence from [@Brandt2021a, Def.6]:\
+\f0\fs24 \cf0 In \\cref\{semantics-in-software\}, we defend the central disposition of reciprocity between data and data-processing, emerging as an Atomic Semantic Monolith (ASM), with the explicit purpose to guarantee the coherence between the data (semantic meaning) and their processing code (pragmatic meaning). Unfortunately, the DSP must break its ASM and separate the semantic meaning from its pragmatic meaning in order to exchange its data[^\AppleTypeServicesU1 Exercise\AppleTypeServicesU0 ]. Since data comprehension precedes its faithful use, the DSC must establish a valid reciprocity between the DSP\'92s semantic meaning with its own pragmatic meaning, e.g., when exchanging temperature, assure that the DSP\'92s semantic meaning and the DSC\'92s pragmatic meaning apply identical scales and units. Data exchange, thus, implies the DSC to receive semantic meaning only, losing every guarantee that reciprocity between the DSP\'92s data and the DSC\'92s data processing is coherent. Unless it can be guaranteed that this reciprocity is as coherent as necessary for a faithful comprehension by the DSC, it\'92s impossible to establish sIOP without emergence of invalid semantics. We consider maintaining semantic coherence a necessary condition for sIOP to emerge, and formulate the third concern about sIOP as follows.\
 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\pardeftab720\sl288\slmult1\partightenfactor0
 
 \f1 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
-\f0\fs22 \\begin\{mmdef\}[Semantic coherence]\\label\{def:semantic-coherence\}\
-Semantic coherence builds on the consistency with which the [semantic and pragmatic meanings] (\'85) commit to the same distinctions in their shared reality, and only require each other's knowledge in executing their reciprocity (faithfully). \
-\\end\{mmdef\}  
-\f1\fs20 \
+\f0 \\begin\{mmconcern\}[Semantic coherence]\\label\{cncrn:re-establish-coherence\}\AppleTypeServicesU0 \
+The reciprocity between data and their processing is the carrier of RWS. By the nature of data exchange, this reciprocity is broken and semantic coherence is lost. Without semantic coherence, no faithful comprehension of the DSP\'92s semantic meaning can occur, without which the DSC cannot establish how to achieve its purpose.\AppleTypeServicesU1 \
+\\end\{\AppleTypeServicesU0 mmconcern\AppleTypeServicesU1 \}\AppleTypeServicesU0 \
 \pard\pardeftab720\partightenfactor0
 
-\fs24 \cf0 \AppleTypeServicesU0 <!$Scr_Ps::0>
+\f1 \cf0 <!$Scr_Ps::0>
 \f0 \
 When the DSC achieves semantic coherence with the DSP\'92s data, the FAIR conditions (a) and (b) are fulfilled, and condition (d) can commence by its achievement behaviour. Similarly, maxim 3, 
 \f1 <$Scr_Cs::1>
 \f2\i be relevant (to the immediate needs)
 \f1\i0 <!$Scr_Cs::1>
-\f0 , holds: Apart from its place in the communication protocol (which we do not address here), relevancy (to the immediate needs) refers to the purpose that the DSC is to achieve. Consequently, without semantic coherence, no faithful comprehension of the DSP\'92s semantic meaning can occur, without which the DSC cannot establish how to achieve its purpose. \
+\f0 , holds: Apart from its place in the communication protocol (which we do not address here), relevancy (to the immediate needs) refers to the purpose that the DSC is to achieve.  \
 \
-Therefore, we consider semantic coherence a necessary condition for sIOP to emerge, and formulate the third concern about sIOP as:\
-\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\pardeftab720\sl288\slmult1\partightenfactor0
-
-\f1 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
-\f0\fs22 \\begin\{mmconcern\}\\label\{cncrn:re-establish-coherence\}\AppleTypeServicesU0 \
-Subsequent to data exchange, the DSC must have the capability to re-establish semantic coherence between the external (DSP\'92s) semantic meaning and its own internal pragmatic meaning, and assure that the reciprocity between the DSP\'92s data and the DSC\'92s data processing code remains truthful to the state of affairs in reality.\AppleTypeServicesU1 \
-\\end\{\AppleTypeServicesU0 mmconcern\AppleTypeServicesU1 \}
-\fs24 \AppleTypeServicesU0 \
-\pard\pardeftab720\partightenfactor0
-
-\f1 \cf0 <!$Scr_Ps::0>
-\f0 \
 We note that \\cref\{
 \fs22 \AppleTypeServicesU1 cncrn:re-establish-coherence\}
 \fs24 \AppleTypeServicesU0  applies to both the data it receives from the DSP as to the data that the DSC can infer from them.\
-\
-\
 \
 <!-- page additions -->\
 \

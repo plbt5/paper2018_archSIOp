@@ -25,7 +25,7 @@
 %% SEMANTIC HETEROGENEITY PRINCIPLE
 %%
 \begin{mmdp}\label{dp:shf}{\bfseries Semantic heterogeneity principle:}
-\quad sIOP should strive to actively reconcile semantic differences as opposed to enforce semantic homogeneity.
+\quad sIOP should strive to support multiple co-existing perspectives of use as opposed to enforcing one single perspective, and should be founded on the active reconciliation of semantic differences rather than on allowing one homogeneous semantic standard only.
 \end{mmdp}
 &
 \begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
@@ -39,13 +39,12 @@
   \item Such view is just one particular perspective out of many equally legitimate ones;
   \item Equally legitimate perspectives on reality naturally create semantic heterogeneity;
   \item Accepting semantic heterogeneity implies the probable uniqueness of the agents view on reality;
-  \item Without adherence to this principle, sIOP can be achieved only for dedicated DSC/DSP pairs, with collaborations that have been foreseen, for which the semantics are assumed stable over time, implemented with technology or platforms for which no or limited evolution is anticipated, and assuming that new communication channels won't emerge over time.
+  \item Without adherence to this principle, sIOP can be achieved only for dedicated DSC/DSP pairs, with collaborations that have been foreseen, for which the semantics are assumed stable over time, implemented with technology or platforms for which no or limited evolution is anticipated, and assuming that new collaborations won't emerge over time.
 \end{enumerate}
 &
 \begin{enumerate}[left=10pt, nosep]
-  \item Semantic heterogeneity maximises semantic clarity, accuracy and, consequently, the faithfulness of the representation of the SoA in reality;
-  \item Semantic heterogeneity allows for a development of the software agent independently from other, potentially collaborative software agents;
-  \item A software agent needs to specify the semantics of its data elements only once whilst remaining prepared for any number of distinct communication peers;
+  \item Semantic heterogeneity allows software agents to maximise their semantic clarity, accuracy and, consequently, the faithfulness of its representation of the SoA in its DoA;
+  \item Semantic heterogeneity allows software agents to be developed independently from each other, and particularly from potentially collaborative software agents;
   \item Semantic heterogeneity weakens the need to coordinate semantic specifications centrally; in stead, “anyone can say anything about any topic”, resulting in formalising the current state that semantic definitions are highly distributed;
   \item Maintenance and evolution of its semantics remain under the DSP’s own control throughout the whole lifespan of the agent, and only depends on its business interest for investment, no matter the growth and evolution of the domain;
   \item Semantic heterogeneity demands availability of semantic scalability solutions;
@@ -59,7 +58,7 @@
 %% SEMANTIC RESPONSIBILITY PRINCIPLE
 %%
 \begin{mmdp}\label{dp:rfsm}{\bfseries Semantic responsibility principle:}
-\quad When it is reasonable to expect that the software agent will be engaged in collaboration or otherwise will interoperate with (an)other software agent(s), it is the responsibility of the DSP to serve the quantity and manner of the potential interoperability by specifying its DM, and particularly the semantic meaning of its data, in advance.
+\quad When it is reasonable to expect that the software agent will be engaged in collaboration or otherwise will interoperate with (an)other software agent(s), it is the responsibility of the DSP to serve the quantity and manner of the potential interoperability by disclosing its DM, particularly the semantic meaning of its data.
 \end{mmdp}
 &
 \begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
@@ -174,9 +173,9 @@
 %
 %%%%%%%%%%%%%
 %%
-%% SEMANTIC/SYNTAX SEPARATION PRINCIPLE
+%% SEMANTIC SEPARATION OF CONCERNS PRINCIPLE
 %%
-\begin{mmdp}\label{dp:ssoc}{\bfseries Semantics/syntax separation principle:}\quad When a software agent engages in interoperation with (an)other software agent(s), resolve their semantic differences independently from the syntax of the exchanged data. \end{mmdp}
+\begin{mmdp}\label{dp:ssoc}{\bfseries Semantic separation of concerns principle:}\quad When a software agent engages in interoperation with (an)other software agent(s), separate data communication services from data comprehension and business collaboration services, and, separate the domain model in areas that show high cohesion and low coupling. \end{mmdp}
 &
 \begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
 \item[Type of information:] Data, Technology;
@@ -187,16 +186,70 @@
   \item Data schemata are defined to support the (de)serialisation processes that consolidate the data communications concern;
   \item Neglecting the principle of separation of concerns solidifies dependency between otherwise disjoint concerns, here the semantic level and the syntactic level of data communication;
   \item Access-and-play capabilities are supported by assuring minimal impact on software code when introducing semantic modifications;
-  \item Minimising impact on software code that is concerned with data communication is realised by abstracting semantics away from the data schemata.
+  \item Minimising impact on software code that is concerned with data communication is realised by abstracting semantics away from the data schemata;
+  \item When the DM defines a high variety of subjects in the DoA without a clear separation between them, a small change in semantics will induce a proliferation of modifications in the DM;
+  \item Modularisation of the DM minimises the proliferation of a change in one module to other modules.
 \end{enumerate}
 &
 \begin{enumerate}[left=10pt, nosep]
   \item Separation of concerns has a strong positive effect on software quality, including but not limited to sIOP;
   \item Removing any dependency between semantics and data syntax enables to support multiple communication paradigms without the need to modify the semantic representation;
   \item Similarly, modifications in the semantic representation, or supporting multiple semantic representations become possible without the need to modify the communication layer;
-  \item Align semantics, not data schemata: Semantic reconciliation is applied at a higher conceptual level and abstracts away from data communication schemata;
+  \item SoC allows to align semantics as opposed to data schemata resulting the semantic reconciliation to be applied at a higher conceptual level, abstracting away from data communication schemata;
   \item Heterogeneous semantics from multiple data sources are more easily supported;
   \item Semantic alignments imply the need for a mediation capability between the semantic representations of the communicating agents.
+\end{enumerate} \\
+%
+%
+%
+%%%%%%%%%%%%%
+%%
+%% SEMANTIC TRANSPARENCY PRINCIPLE
+%%
+\begin{mmdp}\label{dp:st}{\bfseries Semantic transparency principle:}\quad Remain agnostic to the local conceptualisation(s) and representation(s) of the agent(s) you collaborate with. \end{mmdp}
+&
+\begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
+\item[Type of information:] Data, Technology;
+\item[Quality attributes:] semantic interoperability, portability, maintainability, efficiency, usability (reuse), reliability;
+\end{description}
+\\
+\begin{enumerate}[left=6pt, nosep]
+  \item Semantic heterogeneity is a matter of fact, and implies agents to apply different representations and conceptualisations on the DoA;
+  \item sIOP cannot emerge when differences in conceptualisation and representation apply;
+  \item Enforcing a single representation and conceptual brings about interdependency that impedes semantic evolution and scalability.
+\end{enumerate}
+&
+\begin{enumerate}[left=10pt, nosep]
+  \item Communicate with minimal or no syntactic dependency, in your own local representations;
+  \item Prior mutual agreements on semantic representation is unnecessary, improving access-and-play sIOP;
+  \item sIOP ecan merge without mutual information about the background knowledge that applies to the conceptualisation;
+  \item Semantic transparency implies the need for application of the mediation pattern, encapsulating semantic representations and conceptualisations between agents. Agents no longer agree on a single representation or conceptualisation, but instead make use of the mediator to transcribe between native representations and conceptualisations.
+\end{enumerate} \\
+%
+%
+%
+%%%%%%%%%%%%%
+%%
+%% SEMANTIC PROFILES PRINCIPLE
+%%
+\begin{mmdp}\label{dp:sprof}{\bfseries Semantic profiles principle:}\quad Apply different semantic profiles for different collaborations. \end{mmdp}
+&
+\begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
+\item[Type of information:] Data, Technology;
+\item[Quality attributes:] semantic interoperability, portability, maintainability, efficiency, usability (reuse), reliability;
+\end{description}
+\\
+\begin{enumerate}[left=6pt, nosep]
+  \item ;
+  \item ;
+  \item .
+\end{enumerate}
+&
+\begin{enumerate}[left=10pt, nosep]
+  \item ;
+  \item ;
+  \item ;
+  \item .
 \end{enumerate} \\
 %
 %

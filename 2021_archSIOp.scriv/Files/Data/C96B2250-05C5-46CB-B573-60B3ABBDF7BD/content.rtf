@@ -15,18 +15,18 @@
 Maxim 1 addresses the need for the DSP to not only exchange data, but also to inform the DSC about the semantics of the exchanged data. Naturally, the DSP is expected to limit the exchange of data to what has been requested for by the DSC. Maxim 2 demands from the DSP to only exchange data that are faithful to reality, i.e., reflect the current SoA properly, and, in a timely fashion. Moreover, it also demands to assure that its semantics accurately and faithfully describe the DoA. Maxim 3 relates to the purpose that the DSC is to achieve. Since we assume that any received data refers to the (possibly changed) SoA in the shared DoA, hence, relevance to the software agent can be considered a matter of fact. Maxim 3 also relates to the software agents\'92 interoperation itself as opposed to the semantic concern of one of them; this is addressed in \\cref\{spanning-reconciliation-concerns\}. Maxim 4 is in support of the separation between semantics and syntax such that the semantics of the data remain agnostic to the chosen representation. Furthermore, the semantics of the DSP/DSC must be compatible with each other to avoid obscurity and ambiguity. \
 \
 \
-Based on this perspective on software semantics, we formulate the second (semantic) concern on sIOP and its elaboration in two subconcerns.\
+Based on this perspective on software semantics, we formulate the second (semantic) concern on sIOP and its elaboration in {\field{\*\fldinst{HYPERLINK "scrivcmt://73B00383-EB5C-4BAE-8051-B14C891E738F"}}{\fldrslt two subconcerns}}.\
 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\pardeftab720\sl288\slmult1\partightenfactor0
 
 \f1 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
 \f0\fs22 \\begin\{subtheorem\}\{mmconcern\}\\label\{cncrn:four-maxims\}\
   {\field{\*\fldinst{HYPERLINK "scrivcmt://0B0120C6-B446-4DF0-A252-00C477C72D48"}}{\fldrslt Software agents}} that engage in collaboration shall accept their natural responsibilities brought about by their communication:\
-  \\begin\{mmconcern\}\\label\{cncrn:disclose-semantics\}\
+  \\begin\{mmconcern\}[Semantics of data]\\label\{cncrn:disclose-semantics\}\
     Disclose the semantics of the data that are exchanged by the agents during their collaboration; as DSC about its requests, as DSP about its response to the request (maxims 1 and 4);\
   \\end\{mmconcern\}\
 \
-  \\begin\{mmconcern\}\\label\{cncrn:ensure-validity-accuracy\}\
+  \\begin\{mmconcern\}[Semantic validity and accuracy]\\label\{cncrn:ensure-validity-accuracy\}\
     Ensuring, as DSP, the validity and accuracy of its data and their related semantics (maxims 2 and 4).\
   \\end\{mmconcern\}\
 \\end\{subtheorem\}
@@ -41,7 +41,7 @@ Based on this perspective on software semantics, we formulate the second (semant
 \fs22 \AppleTypeServicesU1 cncrn:ensure-validity-accuracy\} 
 \fs24 \AppleTypeServicesU0 as follows. Each modelling language carries its own ontological commitment, i.e., the differences that the language constructs characterise represent a commitment to about what exists in reality[^PhPr]. The choice of modelling language, therefore, has major impact on the (accuracy of the) semantics that are modelled. This semantic concern is therefore influenced by the ontological commitment. We introduce a definition on *semantic compatibility* to its end. Merriam-Webster defines *compatibility* as \'93being a computer designed to operate in the same manner and use the same software as another computer\'94[^compatibility]. This leads to the following definition:\
 \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\sl288\slmult1\partightenfactor0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\pardeftab720\sl288\slmult1\partightenfactor0
 
 \f1 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
 \f0\fs22 \\begin\{mmdef\}[Semantic compatibility]\\label\{def:semantic-compatibility\}\

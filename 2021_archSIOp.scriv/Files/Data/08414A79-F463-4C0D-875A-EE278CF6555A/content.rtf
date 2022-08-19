@@ -1,19 +1,57 @@
 {\rtf1\ansi\ansicpg1252\cocoartf2638
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;\f1\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \deftab720
 \pard\pardeftab720\partightenfactor0
 
-\f0\fs24 \cf0 The mediation pattern has already been described in [@Gamma1994], albeit in the context of object-orientation as opposed to sIOP. It is described as \'93an object that encapsulates how a set of objects interact\'94, and it promotes loose coupling \'93by keeping objects from referring to each other explicitly\'94 and enables to \'93vary their interaction independently\'94. In this way, the mediator turns a many-to-many interaction into a many-to-one interaction, each of which is easier to understand, maintain and evolve. The fundamental idea behind the pattern, viz trading the complexity of the interactions with the complexity in the mediator, can also be applied on a semantic level, and we formulate \\cref\{dp:mediation\} to its effect.\
+\f0\fs24 \cf0 >> SKETCH THE CONCERN\
 \
-In this reading a mediator encapsulates how a pair of agents represent their semantic meaning and provides for a generic transcription logic to mediate between native semantic representations. However, one paramount issue must be resolved by the transcription logic of the mediator, as follows.\
+In the previous sections we\'92ve identified the need for agents to exchange semantic meaning in their own, local representation of their private conceptualisation that only applies their locally adopted background knowledge. We have identified several semantic reconciliation concerns that have been resolved by introduction of alignments and the need to establish semantic scalability. We first identify the mediation concern, then introduce the mediation pattern and show how to apply that in the semantic setting to alleviate the mediation concern. \
 \
-![Semantic mediation encapsulates how agents exchange semantic meaning. It implements a generic transcription service between the particular representations of data between both agents. It depends only on the representations of the semantic meaning from both agents (ontologies) and the alignment that holds between them.][def:RTMediation]\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\pardeftab720\sl288\slmult1\partightenfactor0
+
+\f1 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
+\f0\fs22 \\begin\{mmconcern\}[Semantic mediation]\\label\{cncrn:mediation\}\
+    Software agents will have their own perspective, conceptualisation and representation on the DoA, despite that the DoA is shared with other, collaborating agents. Collaboration between agents are induced by business demands that may change over time. Collaboration involves the exchange of data between the agents about the SoA in the DoA. A single collaboration may involve several if not many agents, resulting in equally many semantic specifications about the exchanged data that reflect the SoA. Each agent may be involved in more than one collaboration. This pertains to each agent to manage and control a multitude of semantics in order to play its part in the collaboration, which is considered infeasible from a practical point of view as well as a scalability concern. \
+\\end\{mmconcern\}
+\fs24 \AppleTypeServicesU0 \
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf0 <!$Scr_Ps::0>
+\f0 \
 \
-We have seen in the previous sections that a correspondence assures the semantic validity between the different semantic meanings of both agents. It can do so by token of the broad correspondence relations that can be specified, both for the conceptual and the value differences that may exist between them. Unfortunately, this is in shear contrast with the fact that a transcription can only replace one term for another, which basically implies that an equivalence relation holds between both terms. As can be seen from the correspondence relation, this is not necessarily true. In [@Brandt2018b], we make a distinction between a naive transcription, which ignores this inconsistency, and a semantic valid transcription that can establish under what conditions this inconsistency does not yield invalid semantics. We show that these conditions rely on logical constructs only and, consequently, are independent on the actual ontologies that apply. We have formulated these logical constructs as rules that generically apply for any transcription. Unfortunately, a set of conditions remain for which a semantic valid transcription cannot be guaranteed, either due to an incomplete alignment or to (onto)logical incorrect correspondences. It follows that a semantic mediation service must provide for options about the resolution for these remaining issues. We suggest at least the following options: Firstly, as run-time options we consider (i) a means to fall-back to the application of naive transcriptions and continue the data exchange, or (ii) to raise a Transcription Error and refrain from data exchange. Both represent necessary service implementations that might satisfy scenarios that have either less or more stringent semantic demands. Secondly, as design-time option, it serves as a necessary tool to generate an exhaustive list of shortcomings of the transcription as a result of the current ontologies and alignment. Such list will provide the semantics engineer with sufficient information to adapt the alignment, or introduce modifications to one or both of the semantic anchorages in order to remove transcription issues that are considered vital to the business. Finally, the third option is to try to resolve the transcription issue by starting a dialogue-based semantic reconciliation process in run-time with the aim to improve upon the shortcomings of the current alignment. Despite our insistence on the need for a human to author the genuine understanding, it might still be worthwhile to have the system meticulously, consistently and methodologically negotiate logical and ontological constructs in order to find additional correspondences [@Diggelen:2007vd].\
 \
+\
+The mediation pattern is already described in [@Gamma1994], albeit in the context of object-orientation as opposed to sIOP. It is described as \'93an object that encapsulates how a set of objects interact\'94, and it promotes loose coupling \'93by keeping objects from referring to each other explicitly\'94 and enables to \'93vary their interaction independently\'94. In this way, the mediator turns a many-to-many interaction into a many-to-one interaction, each of which is easier to understand, maintain and evolve. The fundamental idea behind the pattern, viz trading the complexity of the interactions with the complexity in the mediator, can also be applied on a semantic level, defined as:\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\pardeftab720\sl288\slmult1\partightenfactor0
+
+\f1 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
+\f0\fs22 \\begin\{mmdef\}[Semantic mediator]\\label\{def:semantic-scalability\}\
+A semantic mediator encapsulates how agents apply different conceptualisations and representations about the same DoA, and how semantic alignments reconcile the differences. It enables a semantic loose coupling by reducing the semantic connections that exist between them. It keeps agents from adhering to prior agreed representations or adopting background knowledge that are applied by foreign conceptualisations, allowing them to communicate in their own local semantics only. \
+\\end\{mmdef\}  \
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs24 \cf0 \AppleTypeServicesU0 <!$Scr_Ps::0>
+\f0 \
+\
+![Semantic mediation encapsulates how agents exchange semantic meaning. It implements a generic transcription service between the particular representations of data between both agents. It depends only on the representations of the semantic meaning from both agents (ontologies) and the alignment that holds between them.][img:RTMediation]\
+\
+In this reading a mediator is required to provide for a generic transcription logic to transcribe between native semantic representations, and to identify which alignments need to be applied for that in a particular collaboration.\
+\
+\
+>> SHOW HOW THE MEDIATION PATTERN RESOLVE THE CONCERN\
+\
+A software agent remains responsible for:\
+1. managing the evolution of its own semantics;\
+2. adaptation of its pragmatic meaning when exchanged semantic meaning is extended to other perspectives or purposes that is of interest for the business that it facilitates;\
+3. managing the alignments that apply for collaboration with the other agents.\
+\
+We formulate \\cref\{dp:mediation\} to its effect.\
+\
+ \
 \
 <!-- page additions -->\
-[def:RTMediation]: src\\images\\RunTimeMediation.png \{#fig:rt-mediation width=75%\} \
+[img:RTMediation]: src\\images\\RunTimeMediation.png \{#fig:rt-mediation width=75%\} \
 }

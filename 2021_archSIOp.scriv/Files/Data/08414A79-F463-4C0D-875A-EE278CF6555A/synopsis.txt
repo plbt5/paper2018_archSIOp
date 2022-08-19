@@ -1,4 +1,8 @@
-Purpose of this section: Establish requirements for a *generic* mediator.
+Purpose of this section: 
+1. Establish concern(s) for a *generic* mediator.
+2. Introduce the mediation pattern and its instantiation at the semantic level.
+3. Show how the mediation patterns resolves the concerns.
+4. Don;t go into the issue of the discrepancy between non-equivalence correspondence and the actual equivalence relation that a transcription implements; that is for P3.
 
 With mediation we denote the process of transcribing a data term that originates from Agent A into a data term that matches a term familiair to Agent A', based on both agents' ontologies and the alignment between them. The main issue here is that although many different types of relation can be defined between the concepts of ontology A and A', e.g., superset of, a transcription of a token from A into a token from A' is a complete replacement and, hence, implements an equivalence relation. In [@Brandt2018b], we show a semantic valid transcription process. The requirements of a mediator are:
 

@@ -5,7 +5,7 @@
 \deftab720
 \pard\pardeftab720\partightenfactor0
 
-\f0\fs24 \cf0 Although they share semantic meaning, the resulting semantic monolith of the DSC must be allowed to differ from the DSP\'92s semantic monolith. In fact, collaboration is all about sharing data that carry similar semantic meaning but allowing for different comprehension and fulfilling different purposes. For example, by exchanging a heartbeat both agents share the semantic meaning about the number of beats per second, however the pragmatic meaning can vary between an indication of health for an health-care application and an indication of performance potential in a sports application, with different demands on semantic meaning, e.g., resolution and accuracy. Additionally, and as identified as \\cref\{
+\f0\fs24 \cf0 Although they share semantic meaning, the resulting semantic monolith of the DSC must be allowed to differ from the DSP\'92s semantic monolith. In fact, collaboration is all about sharing data that carry similar semantic meaning but allowing for different comprehension and fulfilling different purposes. For example, by exchanging a heartbeat both agents share the semantic meaning about the number of beats per second, however the pragmatic meaning can vary between an indication of health for an health-care application and an indication of performance potential in a sports application, with different demands on semantic meaning, e.g., resolution or accuracy. Additionally, and as identified as \\cref\{
 \fs22 \AppleTypeServicesU1 cncrn:semantic-heterogeneity
 \fs24 \AppleTypeServicesU0 \}, semantic meaning can be represented in many different ways. Both aspects bring about a further concern on semantic scalability, since semantics won\'92t be centrally coordinated anymore resulting in semantic definitions that are distributed all over the place (see \\cref\{dp:shf\}). \
 \
@@ -27,12 +27,12 @@ Allowing for distinct ASMs and semantic heterogeneity between the DSP and DSC, t
 
 \f1 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
 \f0\fs22 \\begin\{subtheorem\}\{mmconcern\}\\label\{cncrn:scalability\}\
-  \\begin\{mmconcern\}\\label\{cncrn:scalabilityA\}\
-    sIOP shall allow for semantic scalability;\
+  \\begin\{mmconcern\}[Increasing perspectives]\\label\{cncrn:scalabilityA\}\
+    Semantic definitions are distributed and commit to different perspectives on the DoA while central coordination is not always available and computers lack the capability for genuine understanding. Still, semantic differences between collaborating agents must be reconciled and maintained, without its institutionalization and despite continuing changes in business collaborations.\
   \\end\{mmconcern\}\
 \
-  \\begin\{mmconcern\}\\label\{cncrn:scalabilityB\}\
-    Pursuing sIOP between heterogeneous semantics requires that the ASM\'92s from both agents remain independent from each other, viz establishing a semantical loose coupling between both agents.\
+  \\begin\{mmconcern\}[Semantic independence]\\label\{cncrn:scalabilityB\}\
+    sIOP cannot be established without agreements on the semantics that are intended by the exchanged data; this implies a relationship to exist between software agents, whereas semantic scalability requires them to maximise semantic independence from each other.\
   \\end\{mmconcern\}\
 \\end\{subtheorem\}\
 \pard\pardeftab720\partightenfactor0

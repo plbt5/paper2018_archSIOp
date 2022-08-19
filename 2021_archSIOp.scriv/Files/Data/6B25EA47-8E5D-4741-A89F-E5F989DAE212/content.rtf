@@ -5,32 +5,8 @@
 \deftab720
 \pard\pardeftab720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 Address concerns 3.2, 4.1 and 4.2\
-\
-\
-* *concern 3*: subsequent to data exchange, the DSC must have the capability to re-establish coherence between the external (DSP\'92s) semantic meaning and its own internal pragmatic meaning, and assure that the reciprocity between DSP\'92s data and DSC\'92s code remains truthful to the state of affairs in reality.\
-\
-* *concern 3.3*: Access-and-play sIOP is the ultimate objective: ideally, sIOP between agents can be achieved instantaneously, also for unforeseen collaborations. Despite its conflict with our position that software is incapable of genuine understanding, turning a human-in-the-loop a necessary condition for sIOP, its business benefits are too significant not to continue to strive for it;\
-* *concern 4.1* : sIOP requires to allow for scalable semantics.\
-* *concern 4.2*: Pursuing sIOP involves to ensure that the ASM\'92s from both agents remain independent from each other, viz establishing a semantical loose coupling between both agents;\
-\
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-Furthermore, address the three FAIR principles that have been defined in relation to data being interoperable:\
-\
-* I1. (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation: meaning that data should be readable for machines without the need for specialised or ad hoc algorithms, translators, or mappings. \
-* I2. (meta)data use vocabularies that follow FAIR principles\
-* I3. (meta)data include qualified references to other (meta)data \
-\pard\pardeftab720\pardirnatural\partightenfactor0
-\cf0 \
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-\pard\pardeftab720\partightenfactor0
-{\field{\*\fldinst{HYPERLINK "scrivcmt://4DE26A71-C31B-4052-8FC9-AFB9399BA740"}}{\fldrslt \cf0 Current solutions}} that standardise semantics solidify the understanding in the syntax of the data. In this way, semantics are carried by a data schema that is primarily designed to serialise data and to support data transfer by message construction and exchange. We consider this a significant neglect of the principle on separation of concerns, conflating the semantic interoperability concerns with the data communication concerns. The consequence of conflating these concerns is that source code which should concerned primarily with message construction, parsing, storage, and other data communication related tasks, becomes dependent on how semantics influence the syntax. In a message-oriented paradigm, for instance, any difference in structure in order to reflect the local perspective on semantic structure will have a significant impact on how to (de)compose the message. And any new data source to connect to will proliferate into a new software release. We thus observe that the current approach to data understanding results in an architecture which imposes a significant complication on interoperability (and other -ilities as well), impeding access-and-play. And despite the current limitations of AI-software to genuinely understand, a significant gain towards the software agent\'92s access-and-play capabilities can be achieved by untangling the syntax and semantics through separation of the sIOP concerns from the data communication concerns. We propose \\cref\{dp:ssoc\} to its effect.\
-\
-=====\
-\
-Address:\
-\
-* Scalability also leads to the need to communicate on the meta-level, viz about the requirements that the pragmatic meaning put on the semantic meaning. Without such capability, this must be accounted for at design time, for every new collaboration, resulting in producing one single semantic meaning that fits the most stringent demands of all collaborations. This conflicts with maxims 1, 3 & 4, since the DSP then cannot distinguish between the relevance for exchanging new data that are required for the different pragmatics of the collaborating DSC\'92s\
-* we assume that the quality of the DSC and the DSP is such that semantic coherence applies for both, i.e., that their concerning ASMs are faithful to reality over the complete value range of their internal semantic meaning. }
+\f0\fs24 \cf0 We investigate the impact of \\cref\{
+\fs22 \AppleTypeServicesU1 cncrn:re-establish-coherence
+\fs24 \AppleTypeServicesU0 ,
+\fs22 \AppleTypeServicesU1 cncrn:scalability
+\fs24 \AppleTypeServicesU0 \} on the software engineering process to establish sIOP by first investigating the principles in support of semantic scalability before addressing those in order to re-establish semantic coherence.}
