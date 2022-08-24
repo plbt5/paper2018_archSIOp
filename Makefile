@@ -1,4 +1,4 @@
-BUILD_DIR := TMP
+BUILD_DIR := BUILD
 PROJ := 2022_archSIOp
 ltx_files = $(PROJ).aux $(PROJ).bbl $(PROJ).blg $(PROJ).fdb_latexmk $(PROJ).fls $(PROJ).log $(PROJ).out $(PROJ).spl $(PROJ).thm $(PROJ).xdv
 
