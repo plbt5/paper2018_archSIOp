@@ -1,13 +1,17 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2638
+{\rtf1\ansi\ansicpg1252\cocoartf2639
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \deftab720
 \pard\pardeftab720\pardirnatural\partightenfactor0
-
-\f0\fs24 \cf0 Gebaseerd op alignment is coherence tussen sem.meaning DSP en pragm.meaning DSC alleen gegarandeerd als \
+{\field{\*\fldinst{HYPERLINK "scrivcmt://35DA7E82-BB6E-46DF-865C-013C12F451BE"}}{\fldrslt 
+\f0\fs24 \cf0 Gebaseerd}}
+\f0\fs24  op alignment is coherence tussen sem.meaning DSP en pragm.meaning DSC alleen gegarandeerd als \
+\
 1. de coherence binnen de DSP correct is, en \
 2. de coherence binnen de DSC correct is, ook nadat noodzakelijke pragmatische toevoeging/wijzigingen zijn uitgevoerd op de comprehension en de behaviour agv nieuwe perspectieven.\
+\
+Deze punten kunnen we als aanname doen.\
 \
 \pard\pardeftab720\partightenfactor0
 \cf0 Daarnaast helpt de toepassing van Profiles op het eigen DM (zowel voor DSC als DSP): een Profile voor elk collaboratiekanaal om de specifieke context ervan gescheiden te houden van de andere collaboratiekanalen. Waar bijv. kanaal 1 hoge resolutie en nauwkeurigheid van data verlangt en kanaal 2 niet, zal zonder profielen leiden tot duplicatie van data in 1 DM. Met behulp van profielen hoeft het DM slechts de meest eisende variant te onderkennen, die dan middels profielen in twee varianten wordt gedeeld, elk voor 1 kanaal. Dat geldt niet alleen voor de data value scale, maar ook voor semantisch aggregatienivo: zolang het DM de meest eisende variant onderkent, kan een profiel de minder eisende variant afleiden zonder dat dat in het DM opgenomen hoeft te worden. Kortom, het DM blijft onveranderd als er minder eisen worden gesteld dan voorradig, en behoeft aleen te worden aangepast voor hoger eisende collaboraties.\
@@ -15,7 +19,7 @@
 Address:\
 \
 \pard\pardeftab720\pardirnatural\partightenfactor0
-\cf0 * The reciprocity between data and their processing is the carrier of RWS. By the nature of data exchange, this reciprocity is broken and semantic coherence is lost. Without semantic coherence, no faithful comprehension of the DSP\'92s semantic meaning can occur, without which the DSC cannot establish how to achieve its purpose. \
+\cf0 * \\cref\AppleTypeServicesU1 \{cncrn:re-establish-coherence\} luidt: \'93\AppleTypeServicesU0 The reciprocity between data and their processing is the carrier of RWS. By the nature of data exchange, this reciprocity is broken and semantic coherence is lost. Without semantic coherence, no faithful comprehension of the DSP\'92s semantic meaning can occur, without which the DSC cannot establish how to achieve its purpose.\'94 \
 \pard\pardeftab720\partightenfactor0
 \cf0 * We assume that the quality of the DSC and the DSP is such that semantic coherence applies for both, i.e., that their concerning ASMs are faithful to reality over the complete value range of their internal semantic meaning. \
 \pard\pardeftab720\pardirnatural\partightenfactor0
@@ -23,4 +27,6 @@ Address:\
 \
 DP iets in de vorm van:\
 \
-Each software agent that is expected to engage in interoperation with other agents, must assure that its semantic and pragmatic meaning are in coherence with each other, including the changes made to the pragmatic meaning that follow from newly added perspectives by other agents. Providing the dynamics in amount of different software agents that can apply in a collaboration, or the business need to add new collaborations with new, enhanced or otherwise adapted goals, now or in the future, about the same DoA, }
+Each software agent that is expected to engage in interoperation with other agents, must assure that its semantic and pragmatic meaning are in coherence with each other, including the changes made to the pragmatic meaning that follow from newly added perspectives by other agents. \
+\
+Maar het probleem zit niet zozeer in de coherence, maar in het coherent houden onder invloed van potentieel veel wijzigende perspectieven in de collaboratie: Provided the dynamics in amount of different software agents that can apply in a collaboration, or the business need to add new collaborations with new, enhanced or otherwise adapted goals, now or in the future, about the same DoA, maintaining coherence is a continuous concern. Echter, dit is sterk gerelateerd aan semantic scalability, misschien wel hetzelfde? Volstaat de combinatie van profielen (om variaties in resolutie en nauwkeurigheid beter te managen) en modularisatie (om onderwerpen van elkaar te scheiden) om het aantal wijzigingen en de invloed daarvan op de coherentie en dus de noodzaak dat te onderhouden, terug te brengen tot beheersbare hoeveelheden? }
