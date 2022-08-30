@@ -8,7 +8,6 @@
             <ItemID>C11ADF7C-2255-4971-9724-307657D21E35</ItemID>
             <ItemID>72A16B35-CC3A-4148-B226-4BDD855A4808</ItemID>
             <ItemID>0DF8B2A4-7CBA-4EED-BAB8-92256266A582</ItemID>
-            <ItemID>3C639D7D-01EF-46D3-8B14-B6228F49EED8</ItemID>
             <ItemID>6B25EA47-8E5D-4741-A89F-E5F989DAE212</ItemID>
             <ItemID>C2B3EB57-E7D3-4A80-A10C-064C5FC0C8AC</ItemID>
         </ExpandedItems>
@@ -62,7 +61,7 @@
             <View>
                 <ShowHeader>Yes</ShowHeader>
                 <ShowFooter>Yes</ShowFooter>
-                <GroupsViewMode>Single</GroupsViewMode>
+                <GroupsViewMode>Outliner</GroupsViewMode>
                 <CurrentViewMode>Single</CurrentViewMode>
                 <SelectionAffects>None</SelectionAffects>
                 <Content>
@@ -176,7 +175,7 @@
                 <PageLayout Facing="No">No</PageLayout>
                 <TypewriterScrolling>No</TypewriterScrolling>
                 <LineNumbers Interval="1">No</LineNumbers>
-                <Selection>10106,0</Selection>
+                <Selection>1429,0</Selection>
             </Text>
             <Outliner>
                 <Columns>
