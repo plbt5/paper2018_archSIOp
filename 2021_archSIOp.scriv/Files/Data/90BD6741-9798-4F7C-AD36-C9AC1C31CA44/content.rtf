@@ -1,4 +1,4 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2638
+{\rtf1\ansi\ansicpg1252\cocoartf2639
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;\f1\fswiss\fcharset0 Helvetica;\f2\fmodern\fcharset0 CourierNewPS-ItalicMT;
 \f3\fmodern\fcharset0 CourierNewPS-BoldMT;}
 {\colortbl;\red255\green255\blue255;}
@@ -27,7 +27,7 @@ Loose coupling in the classical sense is realised through the principles of sepa
 \f1 <$Scr_Cs::1>
 \f3\b separation of concerns
 \f1\b0 <!$Scr_Cs::1>
-\f0  turns complex functionalities into simple, atomic and complementary functional capabilities, each showing high internal cohesion and few, preferably none external dependencies. In a semantic reading, separation of concerns refers to providing complementary and atomic functionalities about data communication, data comprehension and business collaboration. The first implements data transfer protocols, e.g., message-based and query-based communication technologies, which can co-exist independently from each other and remains independent from the communicated semantic meaning. Contrarily, data comprehension acts on the data semantics and implements a first phase in a larger collaboration process. Such comprehension process might have its own protocol to verify the shared SoA in the DoA, or even to mechanically reconciliate semantic differences where possible, e.g., ontology negotiation [@Diggelen:2007vd;@Diggelen:2006en;@Wang2010;@Zhu2019], ontology alignment [@Euzenat:2013ie;@Silva2005], or when this fails, to escalate the reconciliation to a human-in-the-loop (\\cref\{semantic-reconciliation\}) and defer further collaboration. Another aspect of semantic separation of concerns is about maintaining complementary knowledge areas in the DoA, each addressing a small, well-defined scope or knowledge focus. {\field{\*\fldinst{HYPERLINK "scrivcmt://DBC462A1-542F-4526-9ED5-29A1DF08E709"}}{\fldrslt This results in modularised semantics}} that show modules with a clear, single focus on, e.g., a phase in or type of collaboration, or knowledge required to achieve a specific result. \
+\f0  turns complex functionalities into simple, atomic and complementary functional capabilities, each showing high internal cohesion and few, preferably none external dependencies. In a semantic reading, separation of concerns refers to providing complementary and atomic functionalities about data communication, data comprehension and business collaboration. The first implements data transfer protocols, e.g., message-based and query-based communication technologies, which can co-exist independently from each other and remains independent from the communicated semantic meaning. Contrarily, data comprehension acts on the data semantics and implements a first phase in a larger collaboration process. Such comprehension process might have its own protocol to verify the shared SoA in the DoA, or even to mechanically reconciliate semantic differences where possible, e.g., ontology negotiation [@Diggelen:2007vd;@Diggelen:2006en;@Wang2010;@Zhu2019], ontology alignment [@Euzenat:2013ie;@Silva2005], or when this fails, to escalate the reconciliation to a human-in-the-loop (\\cref\{semantic-reconciliation\}) and defer further collaboration. Another aspect of semantic separation of concerns is about maintaining complementary knowledge areas in the DoA, each addressing a small, well-defined scope or knowledge focus. This is another application of maxim 1, about the quantity of communication and the subsequent need to identify the overlapping parts of the representation only. {\field{\*\fldinst{HYPERLINK "scrivcmt://DBC462A1-542F-4526-9ED5-29A1DF08E709"}}{\fldrslt Together, this results in modularised semantics}} that show modules with a clear, single focus on, e.g., a phase in or type of collaboration, or knowledge required to achieve a specific result. \
 We propose \\cref\{dp:ssoc\}, semantic separation of concerns. \
 \
 The classical reading on 
@@ -39,7 +39,9 @@ In its classical reading, transparency requires standard API\'92s where the sema
 \f1 <$Scr_Cs::0>
 \f2\i about
 \f1\i0 <!$Scr_Cs::0>
-\f0  semantics, i.e., at the meta-level, in order to maintain the separation between semantics and syntax. Additionally, semantic transparency implies the need to transcribe between different representations, preferably by the infrastructure. We defer how this can be achieved to \\cref\{roadway-mediation-concerns\}. \
+\f0  semantics, i.e., at the meta-level, in order to maintain the separation between semantics and syntax. \
+\
+Additionally, semantic transparency implies the need to transcribe between different representations, preferably by the infrastructure. We defer how this can be achieved to \\cref\{roadway-mediation-concerns\}. \
 We propose \\cref\{dp:st\} to its effect.\
 \
 }
