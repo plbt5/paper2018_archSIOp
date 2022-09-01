@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="8C0780B1-25E9-4144-94AF-7E1CFBE0056E" Version="2.0" Creator="SCRMAC-3.2.3-14869" Device="Pauls-MacBook-Pro" Author="Paul Brandt" Modified="2022-08-30 13:36:40 +0200" ModID="9428BB61-E597-451A-9E9E-DFB68A0D9338">
+<ScrivenerProject Identifier="8C0780B1-25E9-4144-94AF-7E1CFBE0056E" Version="2.0" Creator="SCRMAC-3.2.3-14869" Device="Pauls-MacBook-Pro" Author="Paul Brandt" Modified="2022-09-01 10:49:15 +0200" ModID="324BFF3D-78A6-40AD-BC47-6C5B90AC5132">
     <Binder>
         <BinderItem UUID="AC0E4C16-84DD-46A8-978B-4E68660C32A1" Type="Text" Created="2018-01-09 02:27:13 +0100" Modified="2022-08-24 14:08:38 +0200">
             <Title>Pandoc metadata</Title>
@@ -348,7 +348,7 @@
                                 <TextSelection>1300,30</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="8BAEA080-E0C1-410F-AED6-DDF66067B6ED" Type="Text" Created="2022-03-23 14:50:57 +0100" Modified="2022-08-30 13:07:13 +0200">
+                        <BinderItem UUID="8BAEA080-E0C1-410F-AED6-DDF66067B6ED" Type="Text" Created="2022-03-23 14:50:57 +0100" Modified="2022-08-30 15:12:58 +0200">
                             <Title>Support semantic scalability</Title>
                             <MetaData>
                                 <LabelID>5</LabelID>
@@ -357,7 +357,7 @@
                                 <NotesTextSelection>558,21</NotesTextSelection>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>2484,0</TextSelection>
+                                <TextSelection>1008,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
                         <BinderItem UUID="3C639D7D-01EF-46D3-8B14-B6228F49EED8" Type="Text" Created="2018-08-28 13:29:09 +0200" Modified="2022-08-10 16:56:47 +0200">
@@ -444,7 +444,7 @@
                         </BinderItem>
                     </Children>
                 </BinderItem>
-                <BinderItem UUID="08414A79-F463-4C0D-875A-EE278CF6555A" Type="Text" Created="2018-05-25 18:04:50 +0200" Modified="2022-08-22 13:48:13 +0200">
+                <BinderItem UUID="08414A79-F463-4C0D-875A-EE278CF6555A" Type="Text" Created="2018-05-25 18:04:50 +0200" Modified="2022-08-31 16:25:19 +0200">
                     <Title>Roadway: Mediation concerns</Title>
                     <MetaData>
                         <LabelID>5</LabelID>
@@ -453,7 +453,7 @@
                         <NotesTextSelection>2744,0</NotesTextSelection>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>1135,0</TextSelection>
+                        <TextSelection>824,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="FBDCE642-2BBA-4C2D-91BB-8133BEAE49CD" Type="Text" Created="2018-07-20 18:43:03 +0200" Modified="2022-01-16 18:07:27 +0100">
@@ -473,7 +473,7 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="8F4B7735-9D99-4F71-86D2-9A37E019A353" Type="Text" Created="2018-04-22 20:06:37 +0200" Modified="2022-08-29 18:20:04 +0200">
+                <BinderItem UUID="8F4B7735-9D99-4F71-86D2-9A37E019A353" Type="Text" Created="2018-04-22 20:06:37 +0200" Modified="2022-08-30 16:02:44 +0200">
                     <Title>Related work</Title>
                     <MetaData>
                         <LabelID>5</LabelID>
@@ -488,7 +488,7 @@
                         </CustomMetaData>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>6741,0</TextSelection>
+                        <TextSelection>6928,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="D5111EC4-CDFF-4351-82C3-91A87C673FCD" Type="Text" Created="2018-05-25 18:05:09 +0200" Modified="2022-01-18 12:42:39 +0100">
@@ -575,13 +575,13 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                     <Children>
-                        <BinderItem UUID="AB9D4820-6E28-4781-BE50-A262C6042C7F" Type="Text" Created="2022-01-19 14:02:17 +0100" Modified="2022-03-29 17:23:53 +0200">
+                        <BinderItem UUID="AB9D4820-6E28-4781-BE50-A262C6042C7F" Type="Text" Created="2022-01-19 14:02:17 +0100" Modified="2022-08-30 15:13:03 +0200">
                             <Title>DP 1 Semantic heterogeneity between software agents is a feature that should be preserved</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>1844,0</TextSelection>
+                                <TextSelection>112,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
                         <BinderItem UUID="6B8519D0-D1D8-4F4F-BB59-69747338C00B" Type="Text" Created="2022-02-01 10:40:26 +0100" Modified="2022-08-29 18:20:04 +0200">
@@ -1467,6 +1467,39 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
+                <BinderItem UUID="32E670E4-E38F-4E70-AAFE-CAD0A6905FEA" Type="Folder" Created="2022-08-30 14:56:32 +0200" Modified="2022-08-30 14:56:32 +0200">
+                    <Title>Recovered Files (30 Aug 2022 at 14:56)</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <IconFileName>Warning</IconFileName>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem UUID="16B7BBC4-0AA2-4734-BED5-A90D7C13C832" Type="Other" Created="2022-08-30 14:56:32 +0200" Modified="2022-08-30 14:56:32 +0200">
+                            <Title>Engineering semantic scalability (Conflicts)</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>orig</FileExtension>
+                            </MetaData>
+                        </BinderItem>
+                        <BinderItem UUID="50EE8211-8CC1-4B35-B499-167692E7E175" Type="Other" Created="2022-08-30 14:56:32 +0200" Modified="2022-08-30 14:56:32 +0200">
+                            <Title>Introduction (Conflicts)</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>orig</FileExtension>
+                            </MetaData>
+                        </BinderItem>
+                        <BinderItem UUID="D4A77070-E4C1-4120-8437-4EDB8A45B47D" Type="Other" Created="2022-08-30 14:56:32 +0200" Modified="2022-08-30 14:56:32 +0200">
+                            <Title>Cooperative concern (Conflicts)</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>orig</FileExtension>
+                            </MetaData>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
             </Children>
         </BinderItem>
     </Binder>
@@ -1476,7 +1509,7 @@
         </Collection>
         <Collection Type="RecentSearch" ID="DEADBEEF-0000-0000-0000-000000000000" Color="0.17693 0.175159 0.133367">
             <Title>Search Results</Title>
-            <SearchSettings Operator="Exact" Type="All" CaseSensitive="No" IgnoreDiacritics="No">maxims</SearchSettings>
+            <SearchSettings Operator="Exact" Type="All" CaseSensitive="No" IgnoreDiacritics="No">dp:meoc</SearchSettings>
         </Collection>
         <Collection Type="Arbitrary" ID="C7B6719B-DBE8-4220-B642-181C4A180E0C" Color="0.996695 0.851959 0.732827">
             <Title>Design Principles</Title>
@@ -1550,12 +1583,12 @@
     </ProjectBookmarks>
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-04-24 02:00:00 +0200" IgnoreDeadline="Yes">14000</DraftTarget>
-        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2022-08-31 01:00:00 +0200" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="43" Characters="223" Date="2022-08-30 12:46:04 +0200"/>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2022-09-02 01:00:00 +0200" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="0" Characters="0" Date="2022-09-01 10:49:13 +0200"/>
     </ProjectTargets>
-    <RecentWritingHistory Date="2022-08-30 00:00:00 +0200">
-        <DraftWordCount>43</DraftWordCount>
-        <DraftCharCount>223</DraftCharCount>
+    <RecentWritingHistory Date="2022-09-01 00:00:00 +0200">
+        <DraftWordCount>0</DraftWordCount>
+        <DraftCharCount>0</DraftCharCount>
         <OtherWordCount>0</OtherWordCount>
         <OtherCharCount>0</OtherCharCount>
     </RecentWritingHistory>
