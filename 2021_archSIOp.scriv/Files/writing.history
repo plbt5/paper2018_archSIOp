@@ -67,4 +67,7 @@
     <Day dwc="130" dcc="934" dtwc="0" owc="0" occ="0" dtcc="0">2022-08-26</Day>
     <Day dwc="465" dcc="2701" dtwc="0" owc="0" occ="-1" dtcc="0">2022-08-29</Day>
     <Day dwc="43" dcc="225" dtwc="11438" owc="0" occ="0" dtcc="79503">2022-08-30</Day>
+    <Day dwc="-1" dcc="0" owc="0" occ="0">2022-09-05</Day>
+    <Day dwc="14" dcc="80" owc="0" occ="0">2022-09-06</Day>
+    <Day dwc="12" dcc="87" owc="0" occ="0">2022-09-07</Day>
 </WritingHistory>
