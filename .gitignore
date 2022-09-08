@@ -25,3 +25,11 @@ src/mmd/user.mmd
 **/*.spl
 **/*.thm
 **/*.xdv
+
+results/2021*.*
+results/2022*.*
+src/docs/2022_archSIOp.md
+src/docs/TableDesignPrinciples.tex.bak
+src/images/3SemanticConcerns-old.png
+templates/pandoc-TNOdocstyle.docx
+
