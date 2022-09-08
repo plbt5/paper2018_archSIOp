@@ -29,7 +29,7 @@ In response to the cooperation principle, [@Grice:1991BT] described four *maxims
 4. Manner: Avoid obscurity of expression, ambiguity, and be brief and orderly.\
 \
 We consider these maxims in relation to \\cref
-\fs22 \AppleTypeServicesU1 \{cncrn:cooperation\} and provide for its semantic analogues, however in different order
+\fs22 \AppleTypeServicesU1 \{cncrn:cooperation\} and provide for its semantic analogues
 \fs24 \AppleTypeServicesU0 . \
 \
 \pard\pardeftab720\partightenfactor0
@@ -43,46 +43,59 @@ We consider these maxims in relation to \\cref
 \f2\i0 <!$Scr_Cs::2>
 \f0  This addresses the need for the DSP to not only exchange data, but also to inform the DSC about the semantics of the exchanged data. The DSP is expected to limit the exchange of data to what has been requested for by the DSC. Since the DSP and DSC will change roles during a conversation, this implies that both have the responsibility to provide access to their semantic model at the one hand, but restrict that access to the semantic meaning that only addresses the shared part of their DoA at the other. The latter, restrictive part of this maxim is applied in \\cref\{engineering-semantic-scalability\}, despite being further constrained by maxim 2 below. Its primary part immediately leads to the definition of \\cref\{dp:srp\} in \\cref\{tab:dps\} to its effect.\
 \
-\pard\pardeftab720\partightenfactor0
 
-\f3\b \cf0 Maxim 4 (Manner)
-\f0\b0  is in support of the separation between semantics and syntax such that the semantics of the data remain agnostic to the chosen representation. Furthermore, the semantics of the DSP/DSC must be compatible with each other to avoid obscurity and ambiguity. With this we refer to the fact that each modelling language carries its own ontological commitment: the differences that the language constructs characterise represent a commitment about what exists in reality[^PhPr]. The choice of modelling language, therefore, has major impact on the (accuracy of the) semantics that are modelled. This maxim is therefore influenced by the ontological commitment. We introduce a definition on *semantic compatibility* to its end. Merriam-Webster defines *compatibility* as \'93being a computer designed to operate in the same manner and use the same software as another computer\'94[^compatibility]. This leads to the following definition:\
+\f3\b Maxim 4 (Manner)
+\f0\b0 : 
+\f2 <$Scr_Cs::2>
+\f1\i What semantic principles do we agree upon?
+\f2\i0 <!$Scr_Cs::2>
+\f0  In order to exchange SoAs, the semantic models of the DSP and DSC must be compatible with each other to avoid obscurity and ambiguity. With this we refer to the fact that each modelling language carries its own ontological commitment: the differences that the language constructs characterise represent a commitment about what exists in reality[^PhPr]. The choice of modelling language, therefore, has major impact on the (accuracy of the) semantics that are modelled. This maxim is therefore influenced by the ontological commitment. We introduce a definition on *semantic compatibility* to its end. Merriam-Webster defines *compatibility* as \'93being a computer designed to operate in the same manner and use the same software as another computer\'94[^compatibility]. We propose the following definition:\
 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\pardeftab720\sl288\slmult1\partightenfactor0
 
 \f2 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
 \f0\fs22 \\begin\{mmdef\}[Semantic compatibility]\\label\{def:semantic-compatibility\}\
-Semantic compatibility reflects that a software agent is designed to interpret data according to similar semantic principles, distinctions and rules, viz a similar ontological commitment, as another software agent. \
+Semantic compatibility reflects the level with which a software agent is designed to comprehend data in the same manner and use similar semantic principles, distinctions and rules as another software agent. Viz applying a similar ontological commitment. Additionally, it reflects how a software agent has applied such ontological commitment to the particular semantic model, i.e., implicit and associative or explicit and formal. Finally, it reflects the existence, accuracy and completeness of an alignment between both ontological commitments.\
 \\end\{mmdef\}
 \f2\fs20 \
-\pard\pardeftab720\partightenfactor0
+\pard\pardeftab720\pardirnatural\partightenfactor0
 
 \fs24 \cf0 \AppleTypeServicesU0 <!$Scr_Ps::0>
 \f0 \
-We formulate \\cref\{dp:scp\} to defend that it should be possible to investigate whether semantic compatibility exists before assessing the validity and applicability of the semantic meaning that is carried by data.\
+\pard\pardeftab720\partightenfactor0
+\cf0 > A principled ontological commitment emerges from applying the formal tools of ontological analysis: theories of Essence and Identity; Parts (Mereology); Unity and Plurality; Dependence; Composition and Constitution; Properties and Qualities; and Space and Time. Support to these ontological theories results in things that are distinguished in the DoA, as well as the relationships that apply, while remaining neutral with respect to reality. A formal representation of an ontological commitment applies formal logic to make connections between truth values, while remaining neutral with respect to truth [@Guarino:2014ws]. Ontological commitments are often known as Top-Level, Upper or Foundational Ontologies, and several are in existence today (BFO, GFO, UFO, YAMATO, and more [@Mascardi2007]), whereas only a very few alignments between them exist, e.g., [@Temal2010].\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 \AppleTypeServicesU1 \
+\AppleTypeServicesU0 We formulate \\cref\{dp:scp\} to defend the need to investigate the level of semantic compatibility that applies between collaborating agents before assessing the validity and applicability of the semantic meaning of the exchanged SoAs.\
 \
 \pard\pardeftab720\partightenfactor0
 
 \f3\b \cf0 Maxim 2 (Quality)
-\f0\b0  demands from the DSP to only exchange data that are faithful to reality, i.e., reflect the current SoA properly, and, in a timely fashion. Moreover, it also demands to assure that its Domain Model accurately and faithfully describe the DoA. We assume software agents to not break maxim 2 on purpose, but that does not mean that the conversation does not introduce quality issues. Quality issues can emerge from the so-called 
+\f0\b0 : 
+\f2 <$Scr_Cs::2>
+\f1\i How to accurately refer to the DoA (the SoA) and prevent the occurrence of the false-agreement problem
+\f2\i0 <!$Scr_Cs::2>
+\f0 ? The DSP must assure to only exchange data that are faithful to reality, i.e., reflect the current SoA properly. Moreover, it also demands to assure that its Domain Model accurately and faithfully describe the DoA. We assume software agents to not break this maxim on purpose, but that does not mean that the conversation does not introduce quality issues. Quality issues can emerge from the so-called 
 \f1\i false-agreement problem
-\f0\i0  [@Guarino:1998wq, sec.2.4], resulting in collaborating agents to falsely belief that they agree. This is the case when the DM\'92s of both agents allow for statements about the SoA that are not intended by the DSP or the DSC, but are exchanged as truthful facts nonetheless. For instance, on data value quality, already in our introductory example, the time value was intended to express a continuum by the DSC whilst the DSP intended to answer the question \'93What time is it?\'94. By constraining the value dimension for time to either be continuous or discontinuous but not both, the false agreement would not have occurred. As example on the DM\'92s faithfulness to the DoA, assume both models specify an event as a combination of a verb with a noun, but don\'92t constrain their order. Then, exchanging the event $E$ about the verb $S:$ \'93to Ship\'94 and the noun $B:$ \'93Bank\'94, $E(S,B)$ allows both the intended meaning \'93the bank that shipped\'94 and the allowed meaning \'93the ship that banked\'94. Although the DSP intents to convey the former, the DSC is allowed to comprehend the latter, while they seemingly agree but actually disagree on the SoA. The quality maxim, therefore, can only be adhered to when the intended models of the original 
+\f0\i0  (FAP) [@Guarino:1998wq, sec.2.4], resulting in collaborating agents to falsely belief that they agree. This is the case when the DM\'92s of both agents allow for statements about the SoA that are not intended by the DSP or the DSC, but are exchanged as truthful facts nonetheless. For instance, on data value quality, already in our introductory example, the time value was intended to express a continuum by the DSC whilst the DSP intended to answer the question \'93What time is it?\'94. By constraining the value dimension for time to either be continuous or discontinuous but not both, the false agreement would not have occurred. As example on the DM\'92s faithfulness to the DoA, assume both models specify an event as a combination of a verb with a noun, but don\'92t constrain their order. Then, exchanging the event $E$ about the verb $S:$ \'93to Ship\'94 and the noun $B:$ \'93Bank\'94, $E(S,B)$ allows both the intended meaning \'93the bank that shipped\'94 and the allowed meaning \'93the ship that banked\'94. Although the DSP intents to convey the former, the DSC is allowed to comprehend the latter, while they seemingly agree but actually disagree on the SoA. The quality maxim, therefore, can only be adhered to when the intended models of the original 
 \f1\i conceptualisations
-\f0\i0  overlap. This is a stronger restriction than the restriction from maxim 1 in the sense that overlap in conceptualisation implies overlap in SoA. We formulate \\cref\{dp:ocp\} to cater for the quality maxim.\
+\f0\i0  overlap. This is a stronger restriction than the restriction from maxim 1 in the sense that overlap in conceptualisation implies overlap in SoA. We formulate \\cref\{dp:mfapp\} to cater for the quality maxim.\
 \
 
 \f3\b Maxim 3 (Relation)
-\f0\b0  relates to the purpose that the DSC is to achieve. Since we assume that any received data refers to the (possibly changed) SoA in the shared DoA, hence, relevance to the software agent can be considered a matter of fact. More importantly, the general purpose of the conversation is to influence or direct the action of the DSP to improve on its support for the DSC [@Grice:1991BT, p.47]. This is a first indication that also on the semantic level a protocol exists in order to support the achievement of the collaboration, which is significantly different from protocols that exist at the syntactical level. The purpose of the semantic protocol is to consolidate mutual comprehension, and for that to emerge is can address comprehensive purposes, e.g., semantic reconciliation [@Diggelen:2007vd], or address to query about the SoA, e.g., sparql[^sparql], or an elaborate but generic agent interaction discourse that encapsulates domain, discourse and action ontologies to specify the flow of interaction [@Popp2011]. Without such a semantic protocol, maxim 3 becomes very hard, if not impossible, to achieve. Further research into patterns of agent conversations that apply to business collaboration, particularly about Business Intelligence, is required to fully apreciate this maxim. Still, we formulate an initial \\cref\{dp:spp\} to cater for maxim 3.\
-\
-\
-\
-====\
-Global or Local as View, or alternatives, e.g., BGLaV \\cite\{Xu2004\}.\
+\f0\b0 : 
+\f2 <$Scr_Cs::2>
+\f1\i Why do we say this, i.e., to what purpose are we communicating?
+\f2\i0 <!$Scr_Cs::2>
+\f0  We assume that any received data refers to the (possibly changed) SoA in the shared DoA, and by token of the collaboration, the data relevance to the software agent can be considered a matter of fact. Indeed, such is the overall objective of the conversation, however, in order to achieve that, we need to talk about semantics in order to prepare for the sIOP. For instance, collaboration requires to influence or direct the action of the DSP to improve on its support for the DSC, whereas the DSP is to influence or direct the action of the DSC to achieve the goal of the collaboration [@Grice:1991BT, p.47]. Another purpose of the conversation is to establish agreement between the DSP and DSC on the above three maxims. These are conversations 
+\f2 <$Scr_Cs::2>
+\f1\i about
+\f2\i0 <!$Scr_Cs::2>
+\f0  semantics and require the existence of a protocol on the semantic level, which is significantly different from protocols that exist at the syntactical level. The purpose of the semantic protocol is to consolidate mutual comprehension on the applied semantics, and it shares the characteristics of a bootstrapping process, but now on the semantic level: achieving agreement on the protocol itself when multiple protocols are available, then on the topology of the semantics that apply (see section XXX), followed by the quantity, manner and quality of the maxims (in their semantic connotation); finally, sIOP has been achieved, allowing the exchange of SoAs. Similar to any other protocol, the semantic protocol can go back to a previous phase whenever issues emerge in the process. We formulate \\cref\{dp:spp\} to cater for Maxim 3.\
 \
 <!-- page additions -->\
 \
 [^compatibility]: Merriam-Webster, https://www.merriam-webster.com/dictionary/compatibility, accessed Jan 2022\
-[^PhPr]: A principled ontological commitment emerges from applying the formal tools of ontological analysis: theories of Essence and Identity; Parts (Mereology); Unity and Plurality; Dependence; Composition and Constitution; Properties and Qualities; and Space and Time.\
 [^sparql]: W3C Recommendation 21 March 2013, {\field{\*\fldinst{HYPERLINK "https://www.w3.org/TR/sparql11-query/"}}{\fldrslt https://www.w3.org/TR/sparql11-query/}}, accessed Aug 2022\
 \
 \
