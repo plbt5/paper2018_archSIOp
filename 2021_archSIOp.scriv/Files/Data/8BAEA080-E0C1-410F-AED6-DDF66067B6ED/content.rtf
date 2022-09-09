@@ -5,41 +5,34 @@
 \deftab720
 \pard\pardeftab720\partightenfactor0
 
-\f0\fs24 \cf0 Although they share semantic meaning, the resulting semantic monolith of the DSC must be allowed to differ from the DSP\'92s semantic monolith. In fact, collaboration is all about sharing data that carry similar semantic meaning but allowing for different comprehension and fulfilling different purposes. For example, by exchanging a heartbeat both agents share the semantic meaning about the number of beats per second, however the pragmatic meaning can vary between an indication of health for an health-care application and an indication of performance potential in a sports application, with different demands on semantic meaning, e.g., resolution or accuracy. Additionally, and as identified as \\cref\{
+\f0\fs24 \cf0 Although they share semantic meaning, the resulting semantic monolith of the DSC must be allowed to differ from the DSP\'92s semantic monolith. In fact, collaboration is all about sharing data that carry similar semantic meaning but allowing for different comprehension and fulfilling different purposes. For example, by exchanging a heartbeat both agents share the semantic meaning about the number of beats per second, however the pragmatic meaning can vary between an indication of health for a health-care application and an indication of performance potential in a sports application, with different demands on semantic meaning, e.g., resolution or accuracy. Additionally, and as identified as \\cref\{
 \fs22 \AppleTypeServicesU1 cncrn:semantic-heterogeneity
 \fs24 \AppleTypeServicesU0 \}, semantic meaning can be represented in many different ways. Both aspects bring about a further concern on semantic scalability, since semantics won\'92t be centrally coordinated anymore resulting in semantic definitions that are distributed all over the place (see \\cref\{dp:shp\}). \
 \
-In our pursuit to formulate this concern, we first provide for a definition that draws from the classical formulations on system scalability [@Bondi2000;@Steed2010;@Shivakumar2015]. In its classical interpretation, scalability is about increasing quantity while maintaining the quality of the system, in terms of performance, functionality or efficiency as perceived by the end users. In the same spirit, we address semantic scalability also in terms of quantity, where the number of perspectives on reality have the most impact on semantic diversity and representational variety, more than stakeholders alone. Furthermore, we formulate the quality to maintain not in terms of interoperability itself, but the effort that is required to consolidate sIOP between those many perspectives, notably since this addresses the main feature that sIOP is to support: business agility. This results in the following definition: \
+In our pursuit to formulate this scalability concern, we first provide for a definition that draws from the classical formulations on system scalability [@Bondi2000;@Steed2010;@Shivakumar2015]. In its classical interpretation, scalability is about increasing quantity while maintaining the quality of the system, in terms of performance, functionality or efficiency as perceived by the end users. In the same spirit, we address semantic scalability also in terms of quantity, where the number of perspectives on reality have the most impact on semantic diversity and representational variety, more than stakeholders alone. Furthermore, we formulate the quality to maintain not in terms of interoperability itself, but the effort that is required to consolidate sIOP between those many perspectives, notably since this addresses the main feature that sIOP is to support: business agility. This results in the following definition: \
 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\pardeftab720\sl288\slmult1\partightenfactor0
 
 \f1 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
 \f0\fs22 \\begin\{mmdef\}[Semantic scalability]\\label\{def:semantic-scalability\}\
-Semantic scalability is the capability of a system of collaborating software agents to adopt and/or consolidate, with acceptable lead time and costs, increasing perspectives on -or more complex semantic heterogeneity about- their shared reality without compromising sIOP between any interacting software agents. \
+Semantic scalability is the capability of a system of collaborating software agents to adopt and/or consolidate, with acceptable lead time and costs, additional perspectives on \'97or increasing complexity about\'97 their shared reality without compromising sIOP between any interacting software agents. \
 \\end\{mmdef\}  \
 \pard\pardeftab720\partightenfactor0
 
 \f1\fs24 \cf0 \AppleTypeServicesU0 <!$Scr_Ps::0>
 \f0 \
-Allowing for distinct ASMs and semantic heterogeneity between the DSP and DSC, thus raises the semantic scalability concern, consisting of two subconcerns:\
+Pursuing business agility requires semantic scalability; pursuing business agility in an open world results in heterogeneity and, hence, requires to cope with semantic independence. We formulate two concerns to their effect:\
 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\pardeftab720\sl288\slmult1\partightenfactor0
 
 \f1 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
-\f0\fs22 \\begin\{subtheorem\}\{mmconcern\}\\label\{cncrn:scalability\}\
-  \\begin\{mmconcern\}[Increasing perspectives]\\label\{cncrn:scalabilityA\}\
-    Semantic definitions are distributed and commit to different perspectives on the DoA while central coordination is not always available and computers lack the capability for genuine understanding. Still, semantic differences between collaborating agents must be reconciled and maintained, without its institutionalization and despite continuing changes in business collaborations.\
-  \\end\{mmconcern\}\
-\
-  \\begin\{mmconcern\}[Semantic independence]\\label\{cncrn:scalabilityB\}\
-    sIOP cannot be established without agreements on the semantics that are intended by the exchanged data; this implies a relationship to exist between software agents, whereas semantic scalability requires them to maximise semantic independence from each other.\
-  \\end\{mmconcern\}\
-\\end\{subtheorem\}\
+\f0\fs22 \\begin\{mmconcern\}[Semantic scalability]\\label\{cncrn:scalability\}\
+  In an open world, semantic definitions are distributed and commit to different perspectives on the DoA while central coordination is not always available and computers lack the capability for genuine understanding. Consequently, semantic differences between collaborating agents must be reconciled and maintained, implying agreements about semantics in support of sIOP. Agreements imply a relationship to exist between software agents, as well as their institutionalization to manage them under continuing changes in business collaborations. However, semantic scalability requires collaborative software agents to maximise their semantic independence.\
+\\end\{mmconcern\}\
 \pard\pardeftab720\partightenfactor0
 
 \f1\fs24 \cf0 \AppleTypeServicesU0 <!$Scr_Ps::0>
 \f0 \
-\
 In the following two subsections, we identify two complementary aspects to address \\cref\{
 \fs22 \AppleTypeServicesU1 cncrn:re-establish-coherence
 \fs24 \AppleTypeServicesU0 ,

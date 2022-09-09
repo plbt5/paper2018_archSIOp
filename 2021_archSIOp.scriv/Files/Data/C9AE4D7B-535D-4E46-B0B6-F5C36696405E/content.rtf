@@ -6,7 +6,7 @@
 \deftab720
 \pard\pardeftab720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 With semantics, we refer to real world semantics (RWS) and we summarise {\field{\*\fldinst{HYPERLINK "scrivcmt://46EDB602-69E3-476F-A69D-2DF8D62D9619"}}{\fldrslt our position towards semantics in software from [@Brandt2021a]}}:\
+\f0\fs24 \cf0 With semantics, we refer to real world semantics (RWS) and we summarise our position towards semantics in {\field{\*\fldinst{HYPERLINK "scrivcmt://1418BCCC-2C39-4246-B8EE-8893AEA3E27E"}}{\fldrslt software from [@Brandt2021a]}}:\
 \
 * Since software is incapable of genuine understanding, RWS cannot exist in software. Nevertheless, the software agent acts as transport medium for RWS between users or users and system operations, and must do so without compromising the transported cargo, viz RWS. \
 * The nature of software dictates that data and their data processing are always intimately connected. We consider the 
@@ -14,9 +14,9 @@
 \f2\i reciprocity
 \f1\i0 <!$Scr_Cs::0>
 \f0  between data and their processing the carrier of RWS. Any incoherent reciprocity, i.e., inconsistencies between data and their processing, equates to unfaithfulness to reality, viz semantics that are considered invalid by the current SoA in the application domain.\
-* In terms of semantics, we discern *semantic meaning*, i.e., what is said, from *pragmatic meaning*, i.e., to connect with our frame of reference and its context of use. In terms of software, we consider *data* the carrier for semantic meaning, and their *data processing* carrier for pragmatic meaning. For example, \\token\{S\} with value \\token\{t = 38.9\\celsius\} represents semantic meaning whereas \\token\{P1\} with value \\token\{t > 37.0\\celsius\} $\\to$ \\token\{fever\} represents pragmatic meaning. \
+* In terms of semantics, we discern *semantic meaning*, i.e., what is said, from *pragmatic meaning*, i.e., the connection to our frame of reference and context of use. In terms of software, we consider *data* the carrier for semantic meaning, and their *data processing* carrier for pragmatic meaning. For example, data token \\token\{S\} with value \\token\{t = 38.9\\celsius\} represents semantic meaning whereas data processing token \\token\{P1\} with value \\token\{t > 37.0\\celsius\} $\\to$ \\token\{fever\} represents pragmatic meaning. \
 * 
-\fs22 \AppleTypeServicesU1 Semantic coherence builds on the consistency with which the [semantic and pragmatic meanings] (\'85) commit to the same distinctions in their shared reality, and only require each other's knowledge in executing their reciprocity (faithfully).
+\fs22 \AppleTypeServicesU1 Semantic coherence builds on the consistency with which the semantic and pragmatic meanings commit to the same distinctions in their shared reality, and only require each other's knowledge in executing their reciprocity (faithfully).
 \fs24 \AppleTypeServicesU0 \
 * The active, processing, part of an agent, produces agent behaviour. We separate behaviour into a 
 \f1 <$Scr_Cs::0>
@@ -26,15 +26,15 @@
 \f1 <$Scr_Cs::0>
 \f2\i achievement
 \f1\i0 <!$Scr_Cs::0>
-\f0  processes, the latter of which specifying how to accomplish the agent\'92s purpose, based on the former that mirrors the current state of affairs (SoA) in the DoA and the agent\'92s own background knowledge. The resulting simple software model emerges as  \
-\\resizebox\{\\linewidth\}\{!\}\{\\textsf\{\\textbf\{\\small Input\\ensuremath\{\\twoheadrightarrow\}\\colorbox\{gray!30\}\{Comprehension\}\}\}\\stackedcondtext\{Achievement A\}\{Achievement K\}\\textsf\{\\textbf\{\\small Output\}\}\} where \\textsf\{\\colorbox\{gray!30\}\{\\small shaded\}\} represents behaviour, \\textsf\{\\small non-shaded\} represents static structures and \\textsf\{\\textbf\{\\small bold\}\} represents semantics. For instance, consider data token \\token\{S\} and data-processing tokens \\token\{P1\} and \\token\{P2\}:\
-  * \\token\{S\} [|temperature]: \\token\{t = 38.9\\celsius\}\
-  * \\token\{P1\} [|fever]: \\token\{t > 37.0\\celsius\} $\\to$ \\token\{fever\}\
-  * \\token\{P2\} : \\token\{fever\} $\\to$ \\token\{raiseAlarm(now)\}  \
+\f0  processes, the latter specifying how to accomplish the agent\'92s purpose, based on the former that mirrors the current state of affairs (SoA) in the DoA and the agent\'92s own background knowledge. The resulting simple software model emerges as  \
+\\resizebox\{\\linewidth\}\{!\}\{\\textsf\{\\textbf\{\\small Input\\ensuremath\{\\twoheadrightarrow\}\\colorbox\{gray!30\}\{Comprehension\}\}\}\\stackedcondtext\{Achievement$_i$\}\{Achievement$_j$\}\\textsf\{\\textbf\{\\small Output\}\}\} where \\textsf\{\\colorbox\{gray!30\}\{\\small shaded\}\} represents behaviour, \\textsf\{\\small non-shaded\} represents static structures and \\textsf\{\\textbf\{\\small bold\}\} represents semantics. For instance, consider data token \\token\{S\} and data processing tokens \\token\{P1\} and \\token\{P2\}: \
+  * \\token\{S\} ::[|temperature]: \\token\{t = 38.9\\celsius\}\
+  * \\token\{P1\} ::[|fever]: \\token\{t > 37.0\\celsius\} $\\to$ \\token\{fever\}\
+  * \\token\{P2\} :: \\token\{fever\} $\\to$ \\token\{raiseAlarm(now)\}  \
 We consider \\token\{S\} and \\token\{P1\} a representation of comprehension and \\token\{P2\} one of achievement.\
-* Note that semantic meaning, e.g., \\token\{S\}, is in itself insufficient to draw conclusions and select particular achievement, since its implication on the software agent depends on the pragmatic meaning that applies. When considering pragmatic meaning \\token\{P1\}, it establishes [|fever] in a human context, whereas \\token\{P3\} with \\token\{t > 39.7\\celsius\} $\\to$ \\token\{fever\} also represents pragmatic meaning, but in a feline context instead, leading to its negation [|$\\righthalfcap\\;$fever]. Different comprehension leads to different achievement.\
-* The central disposition of reciprocity in software semantics emerges as an {\field{\*\fldinst{HYPERLINK "scrivcmt://6102C064-0EB0-4FA1-860B-BC9D992ABB36"}}{\fldrslt *Atomic Semantic Monolith* (ASM)}}, established with the explicit purpose to guarantee the coherence between the data (semantic meaning) and their processing code (pragmatic meaning). The ASM achieves comprehension about its particular semantic meaning in the context of its appropriate use. For instance, \\pair\{S;P1\} and \\pair\{S;P3\} represent two distinct ASMs for two distinct uses of temperature data.\
-* The collective semantic meaning is denoted the semantic model, $M_s$; the collective ASMs compose the agent\'92s Domain Model (DM), and provides the software agent with the level of comprehension necessary to decide upon its achievement (to achieve the agent\'92s objectives) under the current SoA. \
+* Note that semantic meaning, e.g., \\token\{S\}, is in itself insufficient to draw conclusions and select particular achievement, since its implication on the software agent depends on the pragmatic meaning that applies. When considering pragmatic meaning \\token\{P1\}, it establishes [|fever] in a human context, whereas \\token\{P3\} with \\token\{t > 39.7\\celsius\} $\\to$ \\token\{fever\} also represents pragmatic meaning, but in a feline context instead, leading to its negation [|$\\righthalfcap\\;$fever] in combination with \\token\{S\}. Hence, no alarm is raised. Different comprehension leads to different achievement.\
+* The central disposition of reciprocity in software semantics emerges as an *Atomic Semantic Monolith* (ASM), established with the explicit purpose to guarantee the coherence between the data (semantic meaning) and their processing code (pragmatic meaning). The ASM achieves comprehension about its particular semantic meaning in the context of its appropriate use. For instance, \\pair\{S;P1\} and \\pair\{S;P3\} represent two distinct ASMs for two distinct uses of temperature data.\
+* The collective semantic meaning is denoted the semantic model, $M_s$; the collective ASMs compose the agent\'92s Domain Model (DM), and provide the software agent with the level of comprehension necessary to decide upon its achievement (to achieve the agent\'92s objectives) under the current SoA. \
 * Where comprehensive behaviour is specified by the DM, the achievement behaviour is specified by (parts of) the System Model (SM). We consider the SM 
 \f1 <$Scr_Cs::0>
 \f2\i semantically grounded

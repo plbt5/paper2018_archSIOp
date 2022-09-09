@@ -58,14 +58,14 @@ Semantic compatibility reflects the level with which a software agent is designe
 \fs24 \cf0 \AppleTypeServicesU0 <!$Scr_Ps::0>
 \f0 \
 \pard\pardeftab720\partightenfactor0
-\cf0 > A principled 
+\cf0 A principled 
 \f2 <$Scr_Cs::2>
 \f1\i ontological commitment
 \f2\i0 <!$Scr_Cs::2>
 \f0  (OC) emerges from applying the formal tools of ontological analysis: theories of Essence and Identity; Parts (Mereology); Unity and Plurality; Dependence; Composition and Constitution; Properties and Qualities; and Space and Time. Support to these ontological theories results in things that are distinguished in reality, as well as the relationships that apply, while remaining neutral with respect to every DoA. The OC of a (domain) model refers to these (generic) distinctions that are carried by the language constructs as a commitment about what exists in reality. A formal representation of an ontological commitment applies formal logic to make connections between truth values, while remaining neutral with respect to truth [@Guarino:2014ws]. Ontological commitments are often implemented as Top-Level Ontologies, a.k.a. Upper or Foundational Ontologies, and several are in existence today, e.g., UFO [@Guizzardi:2015ky], GFO [@Herre2010], SUMO [@Niles:2001], YAMAYATO [@Mizoguchi:2010vv], BFO [@Grenon2004], DOLCE [@Masolo2002], EO [@
 \fs26 \expnd0\expndtw0\kerning0
 Uschold1997
-\fs24 \kerning1\expnd0\expndtw0 ] and more [@Mascardi2007], each with their similarities and differences [@Jansen2008;@DISI-TR-06-21]. Note that foundational ontologies \'93do not ask for 
+\fs24 \kerning1\expnd0\expndtw0 ] and more, each with their similarities and differences [@Jansen2008;@Mascardi2007]. Note that foundational ontologies \'93do not ask for 
 \f2 <$Scr_Cs::2>
 \f1\i what there is
 \f2\i0 <!$Scr_Cs::2>
@@ -83,13 +83,9 @@ This makes semantic compatibility a precursor to sIOP. In order to establish the
 \f2 \cf0 <$Scr_Cs::1>
 \f3\b Maxim 2 (Quality)
 \f2\b0 <!$Scr_Cs::1>
-\f0  states that 
-\f2 <$Scr_Cs::2>
-\f1\i t
-\f2\i0 <!$Scr_Cs::2>
-\f0 he DSP must assure to only exchange data that are faithful to reality, i.e., reflect the current SoA properly. We assume software agents to not break this maxim on purpose, but that does not mean that the conversation does not introduce quality issues. Quality issues can emerge from the so-called 
+\f0  states that the DSP must assure to only exchange data that are faithful to reality, i.e., reflect the current SoA properly. We assume software agents to not break this maxim on purpose, but that does not mean that the conversation does not introduce quality issues. Quality issues can emerge from the so-called 
 \f1\i false-agreement problem
-\f0\i0  (FAP) [@Guarino:1998wq, sec.2.4], resulting in collaborating agents to falsely belief that they agree. This is the case when the DMs of both agents 
+\f0\i0  (FAP) [@Guarino:1998wq, Sec.2.4], resulting in collaborating agents to falsely belief that they agree. This is the case when the DMs of both agents 
 \f2 <$Scr_Cs::2>
 \f1\i allow
 \f2\i0 <!$Scr_Cs::2>
@@ -101,7 +97,7 @@ This makes semantic compatibility a precursor to sIOP. In order to establish the
 \f2 <$Scr_Cs::2>
 \f1\i phantom semantics
 \f2\i0 <!$Scr_Cs::2>
-\f0 : invalid but seemingly valid semantics received by DSC, with consequences all over the gravity scale. For instance, on data value quality, already in our introductory example the time value was intended to express a continuum by the DSC whilst the DSP intended to answer the question \'93What time is it?\'94. By constraining the value dimension for time to either be continuous or discontinuous but not both, the false agreement would not have occurred. As example on the DM\'92s faithfulness to the DoA, assume both models specify an event as a combination of a verb with a noun, but don\'92t constrain their order. Then, exchanging the event $E$ about the verb $S:$ \'93to Ship\'94 and the noun $B:$ \'93Bank\'94, $E(S,B)$ allows for two meanings about the event: meaning one about \'93the bank that shipped\'94 and meaning two about \'93the ship that banked\'94. When the DSP intents to convey the former, the DSC is allowed to comprehend the latter, while they seemingly agree but actually disagree on the SoA. The quality maxim, therefore, creates a responsibility for any software agent that engages in collaboration to minimise the chance to induce the FAP. We formulate \\cref\{dp:mfapp\} to cater for the quality maxim.\
+\f0 : invalid but seemingly valid semantics received by DSC, with consequences all over the gravity scale. For instance, on data value quality, already in our introductory example the time value was intended to express a continuum by the DSC whilst the DSP intended to answer the question \'93What time is it?\'94. By constraining the value dimension for time to either be continuous or discontinuous but not both, the false agreement would not have occurred. As example on the DM\'92s faithfulness to the DoA, assume both models specify an event as a combination of a verb with a noun. Without constraining their order of appearance, then, the intention to exchange the event $E$ about the verb $S:$ \'93to Ship\'94 and the noun $B:$ \'93Bank\'94, $E(S,B)$ allows for two meanings about the event: the intended meaning \'93the bank that shipped\'94 and the allowed, unintended meaning \'93the ship that banked\'94. Since the DSC is allowed to comprehend the latter, while they seemingly agree on the SoA, they actually disagree. The quality maxim, therefore, creates a responsibility for any software agent that engages in collaboration to minimise the chance to induce the FAP. We formulate \\cref\{dp:mfapp\} to cater for the quality maxim.\
 \
 In its semantic readin, 
 \f2 <$Scr_Cs::1>
