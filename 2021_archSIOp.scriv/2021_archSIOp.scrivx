@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="8C0780B1-25E9-4144-94AF-7E1CFBE0056E" Version="2.0" Creator="SCRMAC-3.2.3-14869" Device="Pauls-MacBook-Pro" Author="Paul Brandt" Modified="2022-09-09 16:30:40 +0200" ModID="8452DEA4-96C2-4673-BA99-06080A06FBEA">
+<ScrivenerProject Identifier="8C0780B1-25E9-4144-94AF-7E1CFBE0056E" Version="2.0" Creator="SCRMAC-3.2.3-14869" Device="Pauls-MacBook-Pro" Author="Paul Brandt" Modified="2022-09-26 13:35:03 +0200" ModID="2C7634C6-4A62-4490-A4D1-32A4FA74032B">
     <Binder>
         <BinderItem UUID="AC0E4C16-84DD-46A8-978B-4E68660C32A1" Type="Text" Created="2018-01-09 02:27:13 +0100" Modified="2022-09-09 11:46:59 +0200">
             <Title>Pandoc metadata</Title>
@@ -302,7 +302,7 @@
                                 <TextSelection>6783,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="C96B2250-05C5-46CB-B573-60B3ABBDF7BD" Type="Text" Created="2022-03-31 11:12:41 +0200" Modified="2022-09-09 16:27:58 +0200">
+                        <BinderItem UUID="C96B2250-05C5-46CB-B573-60B3ABBDF7BD" Type="Text" Created="2022-03-31 11:12:41 +0200" Modified="2022-09-26 13:35:03 +0200">
                             <Title>Cooperative concern</Title>
                             <MetaData>
                                 <LabelID>6</LabelID>
@@ -322,7 +322,7 @@
                                 </CustomMetaData>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>6201,0</TextSelection>
+                                <TextSelection>8320,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
                     </Children>
@@ -370,7 +370,7 @@
                                 <NotesTextSelection>84,49</NotesTextSelection>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>1968,0</TextSelection>
+                                <TextSelection>845,0</TextSelection>
                             </TextSettings>
                             <Children>
                                 <BinderItem UUID="CF09F408-ABF9-4D09-BE23-674D11AA2EDA" Type="Text" Created="2022-07-18 18:40:48 +0200" Modified="2022-09-09 13:40:59 +0200">
@@ -1501,6 +1501,14 @@
                         </BinderItem>
                     </Children>
                 </BinderItem>
+                <BinderItem UUID="1693C61D-6847-4988-8EF3-AE58AB78C758" Type="Text" Created="2022-09-26 13:20:33 +0200" Modified="2022-09-26 13:20:33 +0200">
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
             </Children>
         </BinderItem>
     </Binder>
@@ -1584,14 +1592,14 @@
     </ProjectBookmarks>
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-04-24 02:00:00 +0200" IgnoreDeadline="Yes">14000</DraftTarget>
-        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2022-09-10 01:00:00 +0200" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="-10" Characters="-114" Date="2022-09-09 15:43:49 +0200"/>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2022-09-27 01:00:00 +0200" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="39" Characters="283" Date="2022-09-26 12:18:58 +0200"/>
     </ProjectTargets>
-    <RecentWritingHistory Date="2022-09-09 00:00:00 +0200">
-        <DraftWordCount>-10</DraftWordCount>
-        <DraftCharCount>-114</DraftCharCount>
-        <OtherWordCount>11</OtherWordCount>
-        <OtherCharCount>83</OtherCharCount>
+    <RecentWritingHistory Date="2022-09-26 00:00:00 +0200">
+        <DraftWordCount>39</DraftWordCount>
+        <DraftCharCount>283</DraftCharCount>
+        <OtherWordCount>0</OtherWordCount>
+        <OtherCharCount>0</OtherCharCount>
     </RecentWritingHistory>
     <BookmarksFolderUUID>C2B3EB57-E7D3-4A80-A10C-064C5FC0C8AC</BookmarksFolderUUID>
     <PrintSettings PaperSize="595.275567,841.889771" LeftMargin="72.0001" RightMargin="72.0001" TopMargin="90.0002" BottomMargin="90.0002" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="No" ReverseOrder="No" PagesAcross="1" PagesDown="1"/>
