@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="8C0780B1-25E9-4144-94AF-7E1CFBE0056E" Version="2.0" Creator="SCRMAC-3.2.3-14869" Device="Pauls-MacBook-Pro" Author="Paul Brandt" Modified="2022-09-26 17:46:55 +0200" ModID="D01DB8F0-E7EA-4E2A-B2C2-13DC2C4E2B41">
+<ScrivenerProject Identifier="8C0780B1-25E9-4144-94AF-7E1CFBE0056E" Version="2.0" Creator="SCRMAC-3.2.3-14869" Device="Pauls-MacBook-Pro" Author="Paul Brandt" Modified="2022-09-26 18:22:54 +0200" ModID="D862392D-9E6B-4485-A3D8-C023CEC09540">
     <Binder>
         <BinderItem UUID="AC0E4C16-84DD-46A8-978B-4E68660C32A1" Type="Text" Created="2018-01-09 02:27:13 +0100" Modified="2022-09-09 11:46:59 +0200">
             <Title>Pandoc metadata</Title>
@@ -327,7 +327,7 @@
                         </BinderItem>
                     </Children>
                 </BinderItem>
-                <BinderItem UUID="0DF8B2A4-7CBA-4EED-BAB8-92256266A582" Type="Text" Created="2018-05-25 18:04:29 +0200" Modified="2022-09-26 16:30:04 +0200">
+                <BinderItem UUID="0DF8B2A4-7CBA-4EED-BAB8-92256266A582" Type="Text" Created="2018-05-25 18:04:29 +0200" Modified="2022-09-26 18:19:48 +0200">
                     <Title>Spanning: reconciliation concerns</Title>
                     <MetaData>
                         <LabelID>6</LabelID>
@@ -335,7 +335,7 @@
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>300,0</TextSelection>
+                        <TextSelection>691,0</TextSelection>
                     </TextSettings>
                     <Children>
                         <BinderItem UUID="D27DEE11-65D3-4209-9BE8-3686320C16B0" Type="Text" Created="2022-03-23 14:50:57 +0100" Modified="2022-09-26 17:46:55 +0200">
@@ -346,10 +346,10 @@
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>1199,7</TextSelection>
+                                <TextSelection>2038,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="8BAEA080-E0C1-410F-AED6-DDF66067B6ED" Type="Text" Created="2022-03-23 14:50:57 +0100" Modified="2022-09-09 14:04:07 +0200">
+                        <BinderItem UUID="8BAEA080-E0C1-410F-AED6-DDF66067B6ED" Type="Text" Created="2022-03-23 14:50:57 +0100" Modified="2022-09-26 18:22:54 +0200">
                             <Title>Support semantic scalability</Title>
                             <MetaData>
                                 <LabelID>5</LabelID>
@@ -358,7 +358,7 @@
                                 <NotesTextSelection>558,21</NotesTextSelection>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>3288,0</TextSelection>
+                                <TextSelection>3645,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
                         <BinderItem UUID="3C639D7D-01EF-46D3-8B14-B6228F49EED8" Type="Text" Created="2018-08-28 13:29:09 +0200" Modified="2022-09-09 16:30:40 +0200">
@@ -1593,11 +1593,11 @@
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-04-24 02:00:00 +0200" IgnoreDeadline="Yes">14000</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2022-09-27 01:00:00 +0200" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="9" Characters="122" Date="2022-09-26 16:08:41 +0200"/>
+        <PreviousSession Words="85" Characters="660" Date="2022-09-26 16:08:41 +0200"/>
     </ProjectTargets>
     <RecentWritingHistory Date="2022-09-26 00:00:00 +0200">
-        <DraftWordCount>9</DraftWordCount>
-        <DraftCharCount>122</DraftCharCount>
+        <DraftWordCount>85</DraftWordCount>
+        <DraftCharCount>660</DraftCharCount>
         <OtherWordCount>0</OtherWordCount>
         <OtherCharCount>0</OtherCharCount>
     </RecentWritingHistory>
