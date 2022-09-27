@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="8C0780B1-25E9-4144-94AF-7E1CFBE0056E" Version="2.0" Creator="SCRMAC-3.2.3-14869" Device="Pauls-MacBook-Pro" Author="Paul Brandt" Modified="2022-09-27 18:15:08 +0200" ModID="4E105636-1B74-4E30-847A-D5248045EE95">
+<ScrivenerProject Identifier="8C0780B1-25E9-4144-94AF-7E1CFBE0056E" Version="2.0" Creator="SCRMAC-3.2.3-14869" Device="Pauls-MacBook-Pro" Author="Paul Brandt" Modified="2022-09-27 19:35:35 +0200" ModID="503944F9-FF7F-4524-8B23-FE87D3841DE7">
     <Binder>
         <BinderItem UUID="AC0E4C16-84DD-46A8-978B-4E68660C32A1" Type="Text" Created="2018-01-09 02:27:13 +0100" Modified="2022-09-09 11:46:59 +0200">
             <Title>Pandoc metadata</Title>
@@ -431,10 +431,10 @@
                                         <TextSelection>5116,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem UUID="F06D6B80-0546-424C-B04F-D54BE560882C" Type="Text" Created="2022-08-12 13:20:04 +0200" Modified="2022-09-27 10:39:19 +0200">
+                                <BinderItem UUID="F06D6B80-0546-424C-B04F-D54BE560882C" Type="Text" Created="2022-08-12 13:20:04 +0200" Modified="2022-09-27 19:35:33 +0200">
                                     <Title>Engineering semantic coherence</Title>
                                     <MetaData>
-                                        <LabelID>3</LabelID>
+                                        <LabelID>4</LabelID>
                                         <StatusID>0</StatusID>
                                         <IncludeInCompile>Yes</IncludeInCompile>
                                     </MetaData>
@@ -1594,11 +1594,11 @@
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-04-24 02:00:00 +0200" IgnoreDeadline="Yes">14000</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2022-09-28 01:00:00 +0200" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="506" Characters="3448" Date="2022-09-27 18:11:17 +0200"/>
+        <PreviousSession Words="436" Characters="2979" Date="2022-09-27 18:11:17 +0200"/>
     </ProjectTargets>
     <RecentWritingHistory Date="2022-09-27 00:00:00 +0200">
-        <DraftWordCount>506</DraftWordCount>
-        <DraftCharCount>3448</DraftCharCount>
+        <DraftWordCount>436</DraftWordCount>
+        <DraftCharCount>2979</DraftCharCount>
         <OtherWordCount>7</OtherWordCount>
         <OtherCharCount>49</OtherCharCount>
     </RecentWritingHistory>
