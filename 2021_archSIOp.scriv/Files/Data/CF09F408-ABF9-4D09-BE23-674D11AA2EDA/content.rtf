@@ -11,13 +11,27 @@
 \fs24 \})\AppleTypeServicesU0 .\
 \pard\pardeftab720\partightenfactor0
 \cf0 \
-We make two assumptions without which semantic reconciliation becomes impossible. First, the DSP\'92s ASM refers to a SoA that can be addressed by DSC\'92s ASM when processing the received data. In other words, the collaborating software agents share a common interest in their DoA, communication about which is considered useful. Second, the constraints of the ontological structures that are applied to represent the underlying conceptualisation of the SoA, must not allow for conflicting interpretations on that SoA; this would allow for the so-called 
-\f1 <$Scr_Cs::0>
-\f2\i false-agreement problem
-\f1\i0 <!$Scr_Cs::0>
-\f0  [@Guarino:1998wq, sec.2.4], i.e., collaborating agents to falsely belief that they agree. \
+We make two assumptions without which semantic reconciliation becomes impossible. First, the DSP\'92s ASM refers to a SoA that can be addressed by DSC\'92s ASM when processing the received data. In other words, the collaborating software agents share a common interest in their DoA, communication about which is considered useful, and the SoAs that apply can be referred to by both. Second, each agent has taken measures to minimise the chance to induce the false-agreement problem as already considered in \\cref\{cooperative-concern\}. \
 \
-We consider these assumptions to be fulfilled by the existence and quality of their DMs. Under that condition, and with a precise understanding of the difference in semantics that apply between the conceptualisations of the DSP and the DSC, the purpose of reconciliation is to restore semantic coherence between the DSP\'92s semantic meaning and the DSC\'92s pragmatic meaning. By virtue of the semantic coherence that is in place with the DSC agent already, specifying the relation that applies between the semantic meanings of the DSP and the DSC is sufficient to re-establish the required semantic coherence, viz the valid reciprocity between the DSP\'92s semantic meaning and the DSC\'92s pragmatic meaning. This is a complicated problem which demands a primary role for ontology engineers in its resolution. Much research has been conducted in the mechanisation of the so-called ontology reconciliation problem, conveniently summarised by [@Euzenat:2013ie], and much research has been conducted since, [@Shvaiko2020] and many others[^{\field{\*\fldinst{HYPERLINK "http://OM.org"}}{\fldrslt OM.org}}], resulting in many tools in its support[^ORT]. However, ontology reconciliation and, hence, mechanical generation of ontology alignment remains a bridge too far for now. Still, these tools show an indispensable aid in the semantic reconciliation process, and at the same time define the role of the inevitable human-in-the-loop more as an auditor than a full-time author of the alignment. Approaches have been developed for more collaborative approach as well, e.g., [@Xue2017].\
+We have addressed the latter assumption already by \\cref\{dp:mfapp\}. Under that condition, and providing a precise understanding of the difference in semantics that apply between the DMs of the DSP and the DSC, the purpose of reconciliation is to restore semantic coherence between the 
+\f1 <$Scr_Cs::0>
+\f2\i DSP\'92s semantic
+\f1\i0 <!$Scr_Cs::0>
+\f0  meaning and the 
+\f1 <$Scr_Cs::0>
+\f2\i DSC\'92s pragmatic
+\f1\i0 <!$Scr_Cs::0>
+\f0  meaning. By virtue of the semantic coherence that is in place with the DSC agent already, specifying the relation that applies between the semantic meanings of the DSP and the DSC is sufficient to re-establish the required semantic coherence, provided that the value range of the DSP\'92s semantic meaning is encompassed by that of the DSC\'92s semantic meaning. In cases where the latter does not hold, modification of the DSC\'92s pragmatic meaning to cope with the extended value range is unavoidable. Although being a complicated problem and demanding a primary role for ontology engineers in its resolution, it is also a problem for which the solution is not considered inconceivable. \
+\
+The solution is denoted an 
+\f1 <$Scr_Cs::0>
+\f2\i alignment
+\f1\i0 <!$Scr_Cs::0>
+\f0  and specifies each and every 
+\f1 <$Scr_Cs::0>
+\f2\i correspondence
+\f1\i0 <!$Scr_Cs::0>
+\f0  that is involved in all exchanges of semantic meaning that can apply between the DSP and DSC. A correspondence consists of two separate dimensions. First, a conceptual dimension that specifies how to overcome variations in concept abstraction and representation, e.g., \\token\{vehicle\} $\\sqsupseteq$ ( \\token\{bicycle\} $\\sqcup$ \\token\{car\} ). Second, a value dimension that specifies how to overcome variations in data value representations, e.g., applied units, scale resolution and its type and range, and how the values of concerned concepts must be restructured, combined or re-arranged. Both dimensions are not independent from each other: a typical example is the variety in how person names can be structured: a single name concept with value \'93Dame Frances Amelia Yates\'94 versus acknowledging the honor, given, middle and surname as separate concepts with their values. \
 \
 We note that we cannot always assume full equivalence between the semantic meanings of the DSP and the DSC. In fact, many variations in the relation between semantic meaning can exist. However, there is no reason to assume the existence of semantic variations for which no alignments can be specified (except for the one identified in the next section). In fact, issues with reconciliation are an important indication that one or both assumptions above do not hold and that the DMs refer to distinct realities. This in itself represents a signal to inspect and adapt the prior DMs of both software agents before looking into sIOP between them again. \
 \
