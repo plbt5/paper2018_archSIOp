@@ -58,7 +58,7 @@
 %% SEMANTIC RESPONSIBILITY PRINCIPLE
 %%
 \begin{mmdp}\label{dp:srp}{\bfseries Semantic responsibility principle:}
-\quad When it is reasonable to expect that the software agent will be engaged in collaboration or otherwise will interoperate with (an)other software agent(s), it is the responsibility of the DSP to disclose the semantic model of its DM and the ontological commitment that it applies, to the extent necessary for comprehension by the DSC.
+\quad When it is reasonable to expect that the software agent will be engaged in collaboration or otherwise will interoperate with (an)other software agent(s), it is the responsibility of the DSP to disclose the semantics of the exchanged data to the extent necessary to establish the level of semantic compatibility and the subsequent comprehension by the DSC. 
 \end{mmdp}
 &
 \begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
@@ -67,17 +67,22 @@
 \end{description} \\
 \begin{enumerate}[left=6pt, nosep]
   \item Assume semantic heterogeneity to apply, resulting for the software agent in a particular perspective on the DoA;
-  \item The semantic model mirrors the particular perspective taken, and applies a modelling language that expresses a particular OC that fits the perspective best; 
-  \item Data are formulated according to the particular semantic model, and refer by means of it, to the SoAs in the DoA;
-  \item Grice’s maxims on communication, and particularly on serving the quantity and manner of communication, represent the natural constraints to respect. Consequently, the responsibility to disclose the semantic model about the exchanged data, including its applied ontological commitment, can only lay by the DSP;
-  \item Without adherence to this principle, the meaning of the data expressed by the software agent can be considered flawed, inaccurate, incomplete, even unavailable or otherwise insufficient in its support for semantic interoperability.
+  \item The DM mirrors the particular perspective taken, and applies a modelling language that expresses a particular OC. (Making an explicit choice about a particular OC (hence, applying a particular TLO) that fits the perspective best, improves the semantic quality of the DM in its faithfulness to the DoA, see \cite[DP6]{Brandt2021a}.); 
+  \item Data are formulated according to the particular semantic meaning, and refer by means of it to the SoAs in the DoA;
+  \item Grice’s maxims on communication, and particularly on serving the quantity and manner of communication, represent the natural constraints to respect. Consequently, the responsibility to disclose the semantics of the exchanged data can only fall with the DSP, including:
+  \begin{enumerate}
+    \item the semantic meaning of the data,
+    \item the applied ontological commitment, and
+    \item how the OC has been applied, i.e., implicit and associative or explicit and formal;
+  \end{enumerate}
+  \item Without adherence to this principle, the semantic meaning of the data expressed by the software agent can be considered flawed, inaccurate, incomplete, even unavailable or otherwise insufficient in its support for semantic interoperability.
 \end{enumerate}
 &
 \begin{enumerate}[left=10pt, nosep]
-  \item The semantic model, which provides the semantic meaning to the data, is only dependent on the agent's own perspective on the application domain, and can therefore be designed independently from any other software agents;
-  \item No matter the number of different communication peers, the software agent needs to specify the semantics of its data elements only once;
+  \item The domain model, which provides the semantic meaning to the data, is only dependent on the agent's own perspective on the application domain, and can therefore be designed independently from any other software agents;
+  \item No matter the number of different communication peers, the software agent needs to specify the semantic meaning of its data elements only once in order to disclose it as often as necessary;
   \item By developing an explicit semantic specification of the data in advance, a software agent is prepared to engage in sIOP with other agents that can now connect to its semantics;
-  \item By establishing collaboration with other DSPs or DSCs through its semantic model, the software agent ensures that the communication remains grounded in its own perspective.
+  \item By establishing collaboration with other DSPs or DSCs through its semantic meaning, the software agent ensures that the communication remains grounded in its own perspective.
 \end{enumerate} \\
 %
 %
@@ -87,7 +92,7 @@
 %% MINIMISE FAP PRINCIPLE
 %%
 \begin{mmdp}\label{dp:mfapp}{\bfseries Minimise FAP principle:}
-\quad When it is reasonable to expect that the software agent will be engaged in collaboration or otherwise will interoperate with (an)other software agent(s), in order to minimise the False-Agreement Problem, its semantic model must be constrained to minimize the difference between the semantic meaning that it allows and those that is intended.
+\quad When it is reasonable to expect that the software agent will be engaged in collaboration or otherwise will interoperate with (an)other software agent(s), in order to minimise the False-Agreement Problem, its domain model must be constrained to minimize the difference between the semantic meaning that it allows and those that is intended.
 \end{mmdp}
 &
 \begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
@@ -97,20 +102,20 @@
 \begin{enumerate}[left=6pt, nosep]
   \item The quintessential of exchanging data about the overlapping DoA is to indirectly exchange the SoA that the data refer to;
   \item Following \cite{Grice:1991BT}, it testifies to the quality of communication to take measures to prevent the exchange of SoAs that are invalid;
-  \item The meaning that the agent's conceptualisation intends to convey is represented by a semantic model. Such representation can only approximate the intended meaning. 
-  \item Therefore, the SoAs that are allowed by the semantic model do not necessarily represent the meaning that are intended by the conceptualisation. The difference between the allowed and intended meaning equals invalid meaning;
+  \item The meaning that the agent's conceptualisation intends to convey is represented by a domain model. Such representation can only approximate the intended meaning. 
+  \item Therefore, the SoAs that are allowed by the domain model do not necessarily represent the meaning that are intended by the conceptualisation. The difference between the allowed and intended meaning equals invalid meaning;
   \item Therefore, the agent should minimize the difference between the intended and the allowed meaning.
 \end{enumerate}
 &
 \begin{enumerate}[left=10pt, nosep]
-  \item When the allowed meaning of the semantic model encompasses the intended meaning as close as possible:
+  \item When the allowed meaning of the domain model encompasses the intended meaning as close as possible:
   \begin{enumerate}
     \item the DSP allows minimal room to convey invalid semantic meaning;
-    \item the DSC allows minimal room to interpret the exchanged SoA invalidly;
+    \item the DSC allows minimal room to comprehend the exchanged SoA invalidly;
   \end{enumerate}
-  \item An overlap between the DSP's and DSC's semantic models then also implies a maximal overlap in what is intended to convey with a minimal overlap of invalid meaning; 
+  \item An overlap between the DSP's and DSC's domain models then also implies a maximal overlap in what is intended to convey with a minimal overlap of invalid meaning; 
   \item The false agreement problem is reduced to the minimal extent possible;
-  \item Note that this applies for interoperability between agents as well as re-usability of the DM by other agents;
+  \item Note that this applies for interoperability between agents as well as re-usability of the domain model by other agents;
 \end{enumerate} \\
 %
 %
@@ -130,7 +135,7 @@
 \begin{enumerate}[left=6pt, nosep]
   \item Following \cite{Grice:1991BT}, it testifies to the relation of communication to clarify the purpose of the communication;
   \item The essence of sIOP is to exchange SoAs about the DoA;
-  \item Before SoAs can be exchanged, sIOP must be prepared by establishing agreement on the data's semantic meaning, the semantic models used, achieving semantic compatibility and the semantic topology that applies;
+  \item Before SoAs can be exchanged, sIOP must be prepared by establishing agreement on the data's semantic meaning, the domain models used, achieving semantic compatibility and the semantic topology that applies;
   \item This implies to recognise the purpose and subject of communication, and hence, to maintain a shared vocabulary and communication process to denote them and switch between them, viz to rely on a standard semantic protocol.
 \end{enumerate}
 &

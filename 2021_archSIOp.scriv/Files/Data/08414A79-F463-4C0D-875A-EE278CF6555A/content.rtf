@@ -1,67 +1,8 @@
 {\rtf1\ansi\ansicpg1252\cocoartf2639
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;\f1\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \deftab720
 \pard\pardeftab720\partightenfactor0
 
-\f0\fs24 \cf0 >> SKETCH THE CONCERN\
-\
-In the previous sections we\'92ve identified the need for agents to exchange semantic meaning in their own, local representation of their private conceptualisation that only applies their locally adopted background knowledge. We have identified several semantic reconciliation concerns and introduced alignments to their resolution, and established the need for semantic scalability. We first identify the mediation concern, then introduce the mediation pattern and show how to apply that in the semantic setting to alleviate the mediation concern. \
-\
-Mediator:\
-* Applying a mediator pattern to transcribe between native representations and conceptualisations is enabled by semantic loose coupling, and can be adopted by the infrastructure as generic service in support of sIOP;\
-* To support the separation between semantics and syntax, it must be assured that the semantics of the data remain agnostic to the chosen representation, i.e., apply semantic transparency. \
-* primarily transcribes between both native languages of the DSP and the DSC, without introducing phantom semantics;\
-* To that end it needs $\\ont\{O_\{DSP\}\}$ and $\\ont\{O_\{DSC\}\}$, the alignment $\\ont\{A\}$ between them, and the data to transcribe.\
-\
-Concerns:\
-* transcribe without introducing phantom semantics;\
-* where business collaboration involving only 2 stakeholders can be aligned in a point-to-point fashion, with more than 2 stakeholders their alignments can be structured as point-to-point, daisy chain, star, or mesh topologies, or hybrids thereof. \
-\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\pardeftab720\sl288\slmult1\partightenfactor0
-
-\f1 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
-\f0\fs22 \\begin\{mmconcern\}[Semantic mediation]\\label\{cncrn:mediation\}\
-    Software agents will have their own perspective, conceptualisation and representation on the DoA, despite that the DoA is shared with other, collaborating agents. Collaboration between agents are induced by business demands that may change over time. Collaboration involves the exchange of data between the agents about the SoA in the DoA. A single collaboration may involve several if not many agents, resulting in equally many semantic specifications about the exchanged data that reflect the SoA. Each agent may be involved in more than one collaboration. This pertains to each agent to manage and control a multitude of semantics in order to play its part in the collaboration, which is considered infeasible from a practical point of view as well as a scalability concern. \
-\\end\{mmconcern\}
-\fs24 \AppleTypeServicesU0 \
-\pard\pardeftab720\partightenfactor0
-
-\f1 \cf0 <!$Scr_Ps::0>
-\f0 \
-\
-\
-\
-The mediation pattern is already described in [@Gamma1994], albeit in the context of object-orientation as opposed to sIOP. It is described as \'93an object that encapsulates how a set of objects interact\'94, and it promotes loose coupling \'93by keeping objects from referring to each other explicitly\'94 and enables to \'93vary their interaction independently\'94. In this way, the mediator turns a many-to-many interaction into a many-to-one interaction, each of which is easier to understand, maintain and evolve. The fundamental idea behind the pattern, viz trading the complexity of the interactions with the complexity in the mediator, can also be applied on a semantic level, defined as:\
-\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\pardeftab720\sl288\slmult1\partightenfactor0
-
-\f1 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
-\f0\fs22 \\begin\{mmdef\}[Semantic mediator]\\label\{def:semantic-mediator\}\
-A semantic mediator encapsulates how agents apply different conceptualisations and representations about the same DoA, and how semantic alignments reconcile the differences. It enables a semantic loose coupling by reducing the semantic connections that exist between them. It keeps agents from adhering to prior agreed representations or adopting background knowledge that are applied by foreign conceptualisations, allowing them to communicate in their own local semantics only. \
-\\end\{mmdef\}  \
-\pard\pardeftab720\partightenfactor0
-
-\f1\fs24 \cf0 \AppleTypeServicesU0 <!$Scr_Ps::0>
-\f0 \
-\
-![Semantic mediation encapsulates how agents exchange semantic meaning. It implements a generic transcription service between the particular representations of data between both agents. It depends only on the representations of the semantic meaning from both agents (ontologies) and the alignment that holds between them.][img:RTMediation]\
-\
-In this reading a mediator is required to provide for a generic transcription logic to transcribe between native semantic representations, and to identify which alignments need to be applied for that in a particular collaboration.\
-\
-\
->> SHOW HOW THE MEDIATION PATTERN RESOLVE THE CONCERN\
-\
-A software agent remains responsible for:\
-1. managing the evolution of its own semantics;\
-2. adaptation of its pragmatic meaning when exchanged semantic meaning is extended to other perspectives or purposes that is of interest for the business that it facilitates;\
-3. managing the alignments that apply for collaboration with the other agents.\
-\
-We formulate \\cref\{dp:mediation\} to its effect.\
-\
- \
-\
-<!-- page additions -->\
-[img:RTMediation]: src\\images\\RunTimeMediation.png \{#fig:rt-mediation width=75%\} \
-}
+\f0\fs24 \cf0 In the previous sections we\'92ve identified the need for agents to exchange semantic meaning in their own, local representation of their private conceptualisation that only applies their locally adopted background knowledge. We have identified several semantic reconciliation concerns and introduced alignments to their resolution, and established the need for semantic scalability. We first identify the mediation concern, then introduce the mediation pattern and show how to apply that in the semantic setting to alleviate the mediation concern.}
