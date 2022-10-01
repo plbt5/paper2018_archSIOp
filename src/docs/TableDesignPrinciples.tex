@@ -212,7 +212,7 @@
 %% SEMANTIC SEPARATION OF CONCERNS PRINCIPLE
 %%
 \begin{mmdp}\label{dp:ssoc}{\bfseries Semantic separation of concerns principle:}
-\quad When a software agent engages in interoperation with (an)other software agent(s), separate data communication services from data comprehension and business collaboration services, and, separate the domain model in areas that show high cohesion and low coupling. \end{mmdp}
+\quad When a software agent engages in interoperation with (an)other software agent(s), separate data communication services from data comprehension and business conversation services, and, separate the domain model in areas that show high cohesion and low coupling. \end{mmdp}
 &
 \begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
 \item[Type of information:] Data, Technology;
@@ -225,7 +225,8 @@
   \item Access-and-play capabilities are supported by assuring minimal impact on software code when introducing semantic modifications;
   \item Minimising impact on software code that is concerned with data communication is realised by abstracting semantics away from the data schemata;
   \item When the DM defines a high variety of subjects in the DoA without a clear separation between them, a small change in semantics will induce a proliferation of modifications in the DM;
-  \item Modularisation of the DM minimises the proliferation of a change in one module to other modules.
+  \item Modularisation of the DM minimises the proliferation of a change in one module to other modules;
+  \tem Reduce the many-to-many conversations that exist between collaborating agents to many-to-one conversations, by localizing business collaboration logic (apply semantic mediation pattern).
 \end{enumerate}
 &
 \begin{enumerate}[left=10pt, nosep]
@@ -234,7 +235,7 @@
   \item Similarly, modifications in the semantic representation, or supporting multiple semantic representations become possible without the need to modify the communication layer;
   \item SoC allows to align semantics as opposed to data schemata resulting the semantic reconciliation to be applied at a higher conceptual level, abstracting away from data communication schemata;
   \item Heterogeneous semantics from multiple data sources are more easily supported;
-  \item Semantic alignments imply the need for a mediation capability between the semantic representations of the communicating agents.
+  \item Abstracting semantic alignments and collaboration logic away from agents imply the need for a semantic mediation capability in between the collaborating agents.
 \end{enumerate} \\
 %
 %

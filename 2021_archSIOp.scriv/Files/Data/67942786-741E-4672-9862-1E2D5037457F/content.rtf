@@ -5,19 +5,27 @@
 \deftab720
 \pard\pardeftab720\partightenfactor0
 
-\f0\fs24 \cf0 Individual agents don\'92t have a need to be intimately aware of each other; it is sufficient for the agents to deliver what is requested and to receive what they require. Controlling and coordinating the data streams depends on the conversation that applies, and there is no reason for agents to take upon them that responsibility. They *do* have responsibility on behalf of their own, local pragmatic meaning; when they are in need of additional SoA\'92s in order to comprehend received data or achieve their own objective, they have the responsibility to accomplish that demand, using either local or remote knowledge.\
+\f0\fs24 \cf0 Individual agents don\'92t have a need to be intimately aware of each other; it is sufficient for the agents to deliver what is requested and to receive what they require. Controlling and coordinating the data streams depends on the conversation that applies, and although that conversation mut be coordinated and managed, there is no reason for agents to take upon them that responsibility. They *do* have responsibility on behalf of their own, local pragmatic meaning; when they are in need of additional SoA\'92s in order to comprehend received data, finalise a conversation or achieve their own objective, they have the responsibility to accomplish that demand, using either local or remote knowledge.\
 \
 The mediation pattern has already been identified in the context of object-orientation [@Gamma1994]. Described as \'93an object that encapsulates how a set of objects interact\'94, it promotes loose coupling \'93by keeping objects from referring to each other explicitly\'94 and enables to \'93vary their interaction independently\'94. In this way, the mediator turns a many-to-many interaction into a many-to-one interaction, each of which is easier to understand, maintain and evolve. The fundamental idea behind the pattern, viz trading the complexity of the interactions with the complexity in the mediator, can also be applied on a semantic level. \
 \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\pardeftab720\sl288\slmult1\partightenfactor0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\sl288\slmult1\partightenfactor0
 
 \f1 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
 \f0\fs22 \\begin\{mmdef\}[Semantic mediator]\\label\{def:semantic-mediator\}\
-A semantic mediator encapsulates how agents apply different conceptualisations and representations about the same DoA, how semantic alignments reconcile their semantic differences, and what agents are partaking for what purposes in a particular business conversation. It enables a semantic loose coupling by reducing the many-to-many semantic interactions that exist between collaborating agents to many-to-one semantic interactions, i.e., only with the mediator. It keeps agents from adhering to prior agreed representations or adopting background knowledge that are applied by foreign conceptualisations by \AppleTypeServicesU0 providing for a generic transcription logic to transcribe between native semantic representations, involving the relevant alignment. It relieves the DSP from knowing what semantic meaning to exchange to what DSC at what moment in the collaboration process by coordinating and controlling the flow of collaboration\AppleTypeServicesU1 . \
+The semantic mediator pattern encapsulates differences in semantic representations, promotes semantic loose coupling and enables to vary conversations in response to changes in business collaborations. By doing so, it trades the complexity of the conversations and the underlying agent interactions / data exchange with the complexity of the mediator.\
 \\end\{mmdef\}  \
-\pard\pardeftab720\partightenfactor0
+\pard\pardeftab720\pardirnatural\partightenfactor0
 
 \f1\fs24 \cf0 \AppleTypeServicesU0 <!$Scr_Ps::0>
 \f0 \
+\AppleTypeServicesU1 Encapsulating semantic differences requires the mediatior to have knowledge about: how agent have applied conceptualisations and representations about the DoA when formulating their data to represent the SoA; what semantic alignments exist that reconcile the semantic differences that exist between the agents that partake in a conversation; and, how data must be transcribed accordingly without introducing phantom semantics. Promoting semantic loose coupling is realised: by reducing the many-to-many conversations that exist between collaborating agents to many-to-one conversations, i.e., only between the agents and the mediator; by keeping agents from adhering to prior agreed representations. V\AppleTypeServicesU0 arying conversations independently requires the mediator to have knowledge about: the business collaborations that apply; what conversations comprise a business collaboration, and how \AppleTypeServicesU1 those conversations relate to each other\AppleTypeServicesU0 ; \AppleTypeServicesU1 what agents are partaking in a particular business conversation and what semantic meaning they contribute to or require for it.\AppleTypeServicesU0 \
 \
-![Semantic mediation encapsulates how agents exchange semantic meaning. It implements a generic transcription service between the particular representations of data between both agents, and coordinates and controls the business conversations that apply for the particular business collaboration. It depends only on the representations of the semantic meaning from both agents (ontologies), the alignment that holds between them and the collaboration process that is adopted.][img:RTMediation]}
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 \
+\pard\pardeftab720\partightenfactor0
+\cf0 ![Semantic mediation encapsulates how agents exchange semantic meaning. It implements a generic transcription service between the particular representations of data between both agents, and coordinates and controls the business conversations that apply for the particular business collaboration. It depends only on the representations of the semantic meaning from both agents (ontologies), the alignment that holds between them and the collaboration conversations that are adopted.][img:RTMediation]\
+\
+<!-- page additions -->\
+[img:RTMediation]: src\\images\\RunTimeMediation.png \{#fig:rt-mediation width=75%\} \
+}

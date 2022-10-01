@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="8C0780B1-25E9-4144-94AF-7E1CFBE0056E" Version="2.0" Creator="SCRMAC-3.2.3-14869" Device="Pauls-MacBook-Pro" Author="Paul Brandt" Modified="2022-09-30 14:32:53 +0200" ModID="48E9952A-EFF6-419C-9A7D-211C531B7AC7">
+<ScrivenerProject Identifier="8C0780B1-25E9-4144-94AF-7E1CFBE0056E" Version="2.0" Creator="SCRMAC-3.2.3-14869" Device="Pauls-MacBook-Pro" Author="Paul Brandt" Modified="2022-10-01 19:39:40 +0200" ModID="ECF427CE-A1F4-43C2-8580-8D4C58700D72">
     <Binder>
         <BinderItem UUID="AC0E4C16-84DD-46A8-978B-4E68660C32A1" Type="Text" Created="2018-01-09 02:27:13 +0100" Modified="2022-09-09 11:46:59 +0200">
             <Title>Pandoc metadata</Title>
@@ -358,7 +358,7 @@
                                 <NotesTextSelection>558,21</NotesTextSelection>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>2561,829</TextSelection>
+                                <TextSelection>3639,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
                         <BinderItem UUID="3C639D7D-01EF-46D3-8B14-B6228F49EED8" Type="Text" Created="2018-08-28 13:29:09 +0200" Modified="2022-09-27 10:27:44 +0200">
@@ -419,7 +419,7 @@
                                 <TextSelection>115,17</TextSelection>
                             </TextSettings>
                             <Children>
-                                <BinderItem UUID="90BD6741-9798-4F7C-AD36-C9AC1C31CA44" Type="Text" Created="2022-08-12 12:51:12 +0200" Modified="2022-09-29 17:27:22 +0200">
+                                <BinderItem UUID="90BD6741-9798-4F7C-AD36-C9AC1C31CA44" Type="Text" Created="2022-08-12 12:51:12 +0200" Modified="2022-10-01 14:35:24 +0200">
                                     <Title>Engineering semantic scalability</Title>
                                     <MetaData>
                                         <LabelID>5</LabelID>
@@ -428,7 +428,7 @@
                                         <NotesTextSelection>810,0</NotesTextSelection>
                                     </MetaData>
                                     <TextSettings>
-                                        <TextSelection>4771,0</TextSelection>
+                                        <TextSelection>4953,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
                                 <BinderItem UUID="F06D6B80-0546-424C-B04F-D54BE560882C" Type="Text" Created="2022-08-12 13:20:04 +0200" Modified="2022-09-27 19:43:39 +0200">
@@ -447,7 +447,7 @@
                         </BinderItem>
                     </Children>
                 </BinderItem>
-                <BinderItem UUID="08414A79-F463-4C0D-875A-EE278CF6555A" Type="Text" Created="2018-05-25 18:04:50 +0200" Modified="2022-09-29 10:21:21 +0200">
+                <BinderItem UUID="08414A79-F463-4C0D-875A-EE278CF6555A" Type="Text" Created="2018-05-25 18:04:50 +0200" Modified="2022-10-01 19:37:51 +0200">
                     <Title>Roadway: Mediation concerns</Title>
                     <MetaData>
                         <LabelID>5</LabelID>
@@ -456,40 +456,41 @@
                         <NotesTextSelection>2765,0</NotesTextSelection>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>545,0</TextSelection>
+                        <TextSelection>763,0</TextSelection>
                     </TextSettings>
                     <Children>
-                        <BinderItem UUID="79F3E658-539C-43F5-98B5-4F4E7A3ACED6" Type="Text" Created="2022-09-28 21:33:03 +0200" Modified="2022-09-30 14:32:37 +0200">
+                        <BinderItem UUID="79F3E658-539C-43F5-98B5-4F4E7A3ACED6" Type="Text" Created="2022-09-28 21:33:03 +0200" Modified="2022-09-30 14:42:28 +0200">
                             <Title>Formulating the concern</Title>
                             <MetaData>
                                 <LabelID>5</LabelID>
-                                <StatusID>0</StatusID>
+                                <StatusID>1</StatusID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>4506,0</TextSelection>
+                                <TextSelection>4365,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="67942786-741E-4672-9862-1E2D5037457F" Type="Text" Created="2022-09-28 21:31:34 +0200" Modified="2022-09-28 22:16:52 +0200">
-                            <Title>The mediation pattern</Title>
+                        <BinderItem UUID="67942786-741E-4672-9862-1E2D5037457F" Type="Text" Created="2022-09-28 21:31:34 +0200" Modified="2022-10-01 14:35:31 +0200">
+                            <Title>Semantic mediation</Title>
                             <MetaData>
-                                <LabelID>2</LabelID>
-                                <StatusID>0</StatusID>
+                                <LabelID>5</LabelID>
+                                <StatusID>1</StatusID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>1253,0</TextSelection>
+                                <TextSelection>2795,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="D631EFA6-EA10-4EA7-BC58-A2946BC72589" Type="Text" Created="2022-09-28 21:32:40 +0200" Modified="2022-09-30 13:00:25 +0200">
-                            <Title>&gt;&gt; SHOW HOW THE MEDIATION PATTERN RESOLVES THE CONCERN</Title>
+                        <BinderItem UUID="D631EFA6-EA10-4EA7-BC58-A2946BC72589" Type="Text" Created="2022-09-28 21:32:40 +0200" Modified="2022-10-01 19:39:26 +0200">
+                            <Title>Data transcription, coordination interaction and scalability</Title>
                             <MetaData>
-                                <LabelID>2</LabelID>
-                                <StatusID>0</StatusID>
+                                <LabelID>5</LabelID>
+                                <StatusID>1</StatusID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>583,0</NotesTextSelection>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>56,0</TextSelection>
+                                <TextSelection>4338,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
                     </Children>
@@ -1629,12 +1630,12 @@
     </ProjectBookmarks>
     <ProjectTargets Notify="Yes">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-04-24 02:00:00 +0200" IgnoreDeadline="Yes">14000</DraftTarget>
-        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2022-10-01 01:00:00 +0200" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="250" Characters="1802" Date="2022-09-30 10:16:34 +0200"/>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2022-10-02 01:00:00 +0200" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="528" Characters="3565" Date="2022-10-01 17:39:27 +0200"/>
     </ProjectTargets>
-    <RecentWritingHistory Date="2022-09-30 00:00:00 +0200">
-        <DraftWordCount>250</DraftWordCount>
-        <DraftCharCount>1802</DraftCharCount>
+    <RecentWritingHistory Date="2022-10-01 00:00:00 +0200">
+        <DraftWordCount>528</DraftWordCount>
+        <DraftCharCount>3565</DraftCharCount>
         <OtherWordCount>0</OtherWordCount>
         <OtherCharCount>0</OtherCharCount>
     </RecentWritingHistory>
