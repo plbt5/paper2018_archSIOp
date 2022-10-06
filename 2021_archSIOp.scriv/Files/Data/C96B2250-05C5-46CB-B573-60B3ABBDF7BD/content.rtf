@@ -32,19 +32,19 @@ We consider these maxims in relation to \\cref
 \fs22 \AppleTypeServicesU1 \{cncrn:cooperation\} and investigate the semantic responsibilities that apply
 \fs24 \AppleTypeServicesU0 . \
 \
-We have seen in the previous section that the open world assumption allows every software agent to develop its own ontological view on its DoA. Provided that agents collaborate, despite the clear overlap that exists in the DoA, no guarantees can be given on the the existence of any overlap in how they\'92ve build their ontological view, and hence, the semantic meaning of the exchanged data. Following 
+We have seen in the previous section that the open world assumption allows every software agent to develop its own ontological view on its DoA. Provided that agents collaborate, despite the clear overlap that exists in the DoA, no guarantees can be given on the existence of any overlap in how they\'92ve build their ontological view, and hence, the semantic meaning of the exchanged data. Following 
 \f2 <$Scr_Cs::1>
 \f3\b Maxim 1 (Quantity)
 \f2\b0 <!$Scr_Cs::1>
-\f0  the responsibility emerges for a DSP to also inform the DSC about the semantics of the exchanged data, i.e., to provide access to its DM, in order to exchange not data, but SoAs in the shared DoA that the data refer to. This triggers 
+\f0  the responsibility emerges for a DSP to also inform the DSC about the semantic meaning of the exchanged data, i.e., to provide access to its DM, in order to exchange not data, but SoAs in the shared DoA that the data refer to. This triggers 
 \f2 <$Scr_Cs::1>
 \f3\b Maxim 4 (Manner)
 \f2\b0 <!$Scr_Cs::1>
-\f0 , how is being said what is said and begs the question 
+\f0 , how is being said what is said, and begs the question 
 \f2 <$Scr_Cs::2>
 \f1\i What semantic principles do we agree upon?
 \f2\i0 <!$Scr_Cs::2>
-\f0  Because, when exchanging SoAs, the domain models of the DSP and DSC must be compatible with each other because these specify representation of their conceptualisation, and with incompatible conceptualisations obscurity and ambiguity cannot be avoided. Merriam-Webster defines *compatibility* as \'93being a computer designed to operate in the same manner and use the same software as another computer\'94[^compatibility]. We propose the following analogous definition on semantic compatibility, as follows:\
+\f0  Because, when exchanging SoAs, the semantic meaning of the DSP and DSC must be compatible with each other because these specify the representation of their conceptualisation, and with incompatible conceptualisations obscurity and ambiguity cannot be avoided. This makes semantic compatibility a precursor to sIOP. Merriam-Webster defines *compatibility* as \'93being a computer designed to operate in the same manner and use the same software as another computer\'94[^compatibility]. We propose the following analogous definition on semantic compatibility, as follows:\
 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\pardeftab720\sl288\slmult1\partightenfactor0
 
@@ -62,7 +62,24 @@ Semantic compatibility reflects the extent to which a software agent is designed
 \f2 <$Scr_Cs::2>
 \f1\i ontological commitment
 \f2\i0 <!$Scr_Cs::2>
-\f0  (OC). An OC emerges from applying the formal tools of ontological analysis: theories of Essence and Identity; Parts (Mereology); Unity and Plurality; Dependence; Composition and Constitution; Properties and Qualities; and Space and Time. Support to these ontological theories results in distinguishing the types of entities (both the things and their relationships) in reality that are committed to, while remaining neutral with respect to every DoA. The OC of a (domain) model refers to (generic) distinctions that are carried by the language constructs as a commitment about the generic categories that we consider to exist in reality. A formal representation of an ontological commitment applies formal logic to make connections between truth values, while remaining neutral with respect to truth [@Guarino:2014ws]. Ontological commitments are often implemented as Top-Level Ontologies (TLOs), a.k.a. Upper or Foundational Ontologies. Note that TLOs \'93do not ask for 
+\f0  (OC). An OC concerns meta-ontology rather than ontology proper; it asks about the fundamental entities or kinds of entity that exist 
+\f2 <$Scr_Cs::2>
+\f1\i according to a given theory or discourse
+\f2\i0 <!$Scr_Cs::2>
+\f0 . An OC emerges from applying the formal tools of ontological analysis: theories of Essence and Identity; Parts (Mereology); Unity and Plurality; Dependence; Composition and Constitution; Properties and Qualities; and Space and Time. The manner and extent to which support is given to these ontological theories results in distinguishing certain types of entities (both the things and their relationships) in reality. The existence of these types are thus committed to, their existence being neutral with respect to the observed reality, viz any DoA. We provide the following practical definition on an OC.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\pardeftab720\sl288\slmult1\partightenfactor0
+
+\f2 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
+\f0\fs22 \\begin\{mmdef\}[Ontological commitment]\\label\{def:oc\}\
+The OC of a (domain) model refers to (generic) distinctions that are carried by the language constructs as a commitment about the generic categories that are considered to exist in reality according to a given theory. \
+\\end\{mmdef\}
+\f2\fs20 \
+\pard\pardeftab720\partightenfactor0
+
+\fs24 \cf0 \AppleTypeServicesU0 <!$Scr_Ps::0>
+\f0 \
+Ontological commitments are often implemented as Top-Level Ontologies (TLOs), a.k.a. Upper or Foundational Ontologies. Note that TLOs \'93do not ask for 
 \f2 <$Scr_Cs::2>
 \f1\i what there is
 \f2\i0 <!$Scr_Cs::2>
@@ -73,9 +90,9 @@ Semantic compatibility reflects the extent to which a software agent is designed
 \f0  there is\'94 [@Quine:1953er]. Consequently, several are in existence today, e.g., UFO [@Guizzardi:2015ky], GFO [@Herre2010], SUMO [@Niles:2001], YAMAYATO [@Mizoguchi:2010vv], BFO [@Grenon2004], DOLCE [@Masolo2002], EO [@
 \fs26 \expnd0\expndtw0\kerning0
 Uschold1997
-\fs24 \kerning1\expnd0\expndtw0 ] and more, each following their own doctrine, and each with their similarities and differences to other TLOs [@Jansen2008;@Mascardi2007]. \
+\fs24 \kerning1\expnd0\expndtw0 ] and more, each following their own doctrine, and each with their similarities and differences to other TLOs [@Jansen2008;@Mascardi2007]. Note that an OC applies to semantic meaning directly, and to pragmatic meaning indirectly since the latter infers the consequences of the former. \
 \
-This makes semantic compatibility a precursor to sIOP. In order to establish the extent of semantic compatibility between collaborating software agents, both agents must make their ontological commitment underlying their domain models, explicit. In conclusion, Maxim 1 calls for disclosing the semantic meaning of the DM; this subsequently addresses Maxim 4 and calls for the application of an OC, that must also be disclosed in response to Maxim 1 again. We formulate \\cref\{dp:srp\} in \\cref\{tab:dps\} to consolidate these semantic responsibilities of the software agents\'92 DSP role. \
+Consequently, in order to establish the extent of semantic compatibility between collaborating software agents, both agents must make their ontological commitment underlying their domain models, explicit. In conclusion, Maxim 1 calls for disclosing the semantic meaning of the DM; this subsequently addresses Maxim 4 and calls for the application of an OC, that must also be disclosed in response to Maxim 1 again. We formulate \\cref\{dp:srp\} in \\cref\{tab:dps\} to consolidate these semantic responsibilities of the software agents\'92 DSP role. \
 \pard\pardeftab720\pardirnatural\partightenfactor0
 \cf0 \
 \pard\pardeftab720\partightenfactor0

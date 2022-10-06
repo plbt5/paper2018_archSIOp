@@ -58,7 +58,7 @@
 %% SEMANTIC RESPONSIBILITY PRINCIPLE
 %%
 \begin{mmdp}\label{dp:srp}{\bfseries Semantic responsibility principle:}
-\quad When it is reasonable to expect that the software agent will be engaged in collaboration or otherwise will interoperate with (an)other software agent(s), it is the responsibility of the DSP to disclose the semantics of the exchanged data to the extent necessary to establish the level of semantic compatibility and the subsequent comprehension by the DSC. 
+\quad When it is reasonable to expect that the software agent will be engaged in collaboration or otherwise will interoperate with (an)other software agent(s), it is the responsibility of the DSP and the DSC to enable to establish the extent of their semantic compatibility by explicating and disclosing their OCs. Additionally, it is the responsibility of the DSP to disclose the semantic meaning of the exchanged data to allow their comprehension by the DSC. 
 \end{mmdp}
 &
 \begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
@@ -66,14 +66,13 @@
   \item[Quality attributes:] Semantics, interoperability, usability, efficiency;
 \end{description} \\
 \begin{enumerate}[left=6pt, nosep]
-  \item Assume semantic heterogeneity to apply, resulting for the software agent in a particular perspective on the DoA;
+  \item Assume semantic heterogeneity to apply, allowing the software agents to maintain a particular perspective on the DoA;
   \item The DM mirrors the particular perspective taken, and applies a modelling language that expresses a particular OC. (Making an explicit choice about a particular OC (hence, applying a particular TLO) that fits the perspective best, improves the semantic quality of the DM in its faithfulness to the DoA, see \cite[DP6]{Brandt2021a}.); 
-  \item Data are formulated according to the particular semantic meaning, and refer by means of it to the SoAs in the DoA;
-  \item Grice’s maxims on communication, and particularly on serving the quantity and manner of communication, represent the natural constraints to respect. Consequently, the responsibility to disclose the semantics of the exchanged data can only fall with the DSP, including:
+  \item Data are formulated according to the DM's semantic meaning, and refer by means of it to the SoAs in the DoA;
+  \item Grice’s maxims on communication, and particularly on serving the quantity and manner of communication, represent the natural constraints to respect. Consequently:
   \begin{enumerate}
-    \item the semantic meaning of the data,
-    \item the applied ontological commitment, and
-    \item how the OC has been applied, i.e., associative and, hence, implicit or formal and, hence, explicit;
+    \item the responsibility to disclose the semantic meaning of the exchanged data can only fall with the DSP;
+    \item both the DSP and DSC must apply and disclose their applied ontological commitment.
   \end{enumerate}
   \item Without adherence to this principle, the semantic meaning of the data expressed by the software agent can be considered flawed, inaccurate, incomplete, even unavailable or otherwise insufficient in its support for semantic interoperability.
 \end{enumerate}
