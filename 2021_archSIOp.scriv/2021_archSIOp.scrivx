@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="8C0780B1-25E9-4144-94AF-7E1CFBE0056E" Version="2.0" Creator="SCRMAC-3.2.3-14869" Device="Pauls-MacBook-Pro" Author="Paul Brandt" Modified="2022-10-06 20:21:39 +0200" ModID="FDE85224-FCE5-4211-933B-445738483A1E">
+<ScrivenerProject Identifier="8C0780B1-25E9-4144-94AF-7E1CFBE0056E" Version="2.0" Creator="SCRMAC-3.2.3-14869" Device="Pauls-MacBook-Pro" Author="Paul Brandt" Modified="2022-10-10 18:12:48 +0200" ModID="38E4D487-77E5-46C5-BD2C-84730BB77940">
     <Binder>
         <BinderItem UUID="AC0E4C16-84DD-46A8-978B-4E68660C32A1" Type="Text" Created="2018-01-09 02:27:13 +0100" Modified="2022-09-09 11:46:59 +0200">
             <Title>Pandoc metadata</Title>
@@ -226,7 +226,7 @@
                         <TextSelection>2528,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="D1B1F11F-646F-4B47-9C11-9FEFCBFD8870" Type="Text" Created="2016-12-28 10:23:05 +0100" Modified="2022-09-09 12:00:36 +0200">
+                <BinderItem UUID="D1B1F11F-646F-4B47-9C11-9FEFCBFD8870" Type="Text" Created="2016-12-28 10:23:05 +0100" Modified="2022-10-10 12:47:18 +0200">
                     <Title>Introduction</Title>
                     <MetaData>
                         <LabelID>7</LabelID>
@@ -244,7 +244,7 @@
                         </CustomMetaData>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>9467,0</TextSelection>
+                        <TextSelection>10584,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="72A16B35-CC3A-4148-B226-4BDD855A4808" Type="Text" Created="2018-05-25 17:59:48 +0200" Modified="2022-09-09 12:16:50 +0200">
@@ -280,7 +280,7 @@
                                 <TextSelection>3914,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="1559D0BA-72BA-48C0-96F0-6DEFFBE365E3" Type="Text" Created="2022-03-31 11:08:35 +0200" Modified="2022-09-09 13:09:18 +0200">
+                        <BinderItem UUID="1559D0BA-72BA-48C0-96F0-6DEFFBE365E3" Type="Text" Created="2022-03-31 11:08:35 +0200" Modified="2022-10-10 12:48:19 +0200">
                             <Title>Semantic heterogeneity</Title>
                             <MetaData>
                                 <LabelID>7</LabelID>
@@ -299,10 +299,10 @@
                                 </CustomMetaData>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>6783,0</TextSelection>
+                                <TextSelection>210,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="C96B2250-05C5-46CB-B573-60B3ABBDF7BD" Type="Text" Created="2022-03-31 11:12:41 +0200" Modified="2022-10-06 17:46:39 +0200">
+                        <BinderItem UUID="C96B2250-05C5-46CB-B573-60B3ABBDF7BD" Type="Text" Created="2022-03-31 11:12:41 +0200" Modified="2022-10-10 12:49:03 +0200">
                             <Title>Cooperative concern</Title>
                             <MetaData>
                                 <LabelID>6</LabelID>
@@ -322,7 +322,7 @@
                                 </CustomMetaData>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>6149,0</TextSelection>
+                                <TextSelection>5067,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
                     </Children>
@@ -490,7 +490,7 @@
                                 <NotesTextSelection>583,0</NotesTextSelection>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>3321,0</TextSelection>
+                                <TextSelection>3276,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
                     </Children>
@@ -530,7 +530,7 @@
                         <TextSelection>1443,0</TextSelection>
                     </TextSettings>
                     <Children>
-                        <BinderItem UUID="919A5E04-0041-44E5-A1A3-C6F7387E2FB4" Type="Text" Created="2022-10-06 19:58:34 +0200" Modified="2022-10-06 20:03:16 +0200">
+                        <BinderItem UUID="919A5E04-0041-44E5-A1A3-C6F7387E2FB4" Type="Text" Created="2022-10-06 19:58:34 +0200" Modified="2022-10-10 16:57:39 +0200">
                             <Title>State of the art on sIOP in software architectures</Title>
                             <MetaData>
                                 <LabelID>5</LabelID>
@@ -545,7 +545,7 @@
                                 </CustomMetaData>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>2668,0</TextSelection>
+                                <TextSelection>880,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
                         <BinderItem UUID="1E0D8291-B249-458A-9D5B-978F55BCCEF2" Type="Text" Created="2022-10-06 20:01:27 +0200" Modified="2022-10-06 20:03:16 +0200">
@@ -640,7 +640,7 @@
                         </BinderItem>
                     </Children>
                 </BinderItem>
-                <BinderItem UUID="D5111EC4-CDFF-4351-82C3-91A87C673FCD" Type="Text" Created="2018-05-25 18:05:09 +0200" Modified="2022-10-06 18:58:35 +0200">
+                <BinderItem UUID="D5111EC4-CDFF-4351-82C3-91A87C673FCD" Type="Text" Created="2018-05-25 18:05:09 +0200" Modified="2022-10-10 18:10:54 +0200">
                     <Title>Discussion &amp; future work</Title>
                     <MetaData>
                         <LabelID>2</LabelID>
@@ -654,7 +654,8 @@
                         </CustomMetaData>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>1298,0</TextSelection>
+                        <TextMode>Script</TextMode>
+                        <TextSelection>536,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="D495D988-5D26-4D00-B72A-336EBC712546" Type="Text" Created="2022-02-02 11:40:02 +0100" Modified="2022-07-20 17:22:17 +0200">
@@ -1740,12 +1741,12 @@
     </ProjectBookmarks>
     <ProjectTargets Notify="Yes">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-04-24 02:00:00 +0200" IgnoreDeadline="Yes">14000</DraftTarget>
-        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2022-10-07 01:00:00 +0200" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="62" Characters="64" Date="2022-10-06 19:46:28 +0200"/>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2022-10-11 01:00:00 +0200" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="456" Characters="3255" Date="2022-10-10 11:12:25 +0200"/>
     </ProjectTargets>
-    <RecentWritingHistory Date="2022-10-06 00:00:00 +0200">
-        <DraftWordCount>62</DraftWordCount>
-        <DraftCharCount>64</DraftCharCount>
+    <RecentWritingHistory Date="2022-10-10 00:00:00 +0200">
+        <DraftWordCount>456</DraftWordCount>
+        <DraftCharCount>3255</DraftCharCount>
         <OtherWordCount>0</OtherWordCount>
         <OtherCharCount>0</OtherCharCount>
     </RecentWritingHistory>

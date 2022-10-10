@@ -1,23 +1,59 @@
 {\rtf1\ansi\ansicpg1252\cocoartf2639
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;\f1\fswiss\fcharset0 Helvetica;\f2\fmodern\fcharset0 CourierNewPS-ItalicMT;
-}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;\f1\fswiss\fcharset0 Helvetica;\f2\fmodern\fcharset0 CourierNewPS-BoldItalicMT;
+\f3\fmodern\fcharset0 CourierNewPS-ItalicMT;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \deftab720
 \pard\pardeftab720\partightenfactor0
 
-\f0\fs24 \cf0 Complement weak AI with human brain:\
+\f0\fs24 \cf0 Complement AI with human brain:\
 \
- * use AI where possible (computational semantics for software agent; supporting semantic reconciliation)\
+ * use AI where possible (computational semantics for software agent\'92s DM; support for semantic reconciliation)\
  * use human brain where necessary (but not more): ontology engineering @ design time; alignment authoring @ pre-runtime\
-    *  Therefore, and no matter how the human will be positioned in the architecture, in its pure sense, an access-and-play capability can never be established. However, the time-to-deliver sIOP between two interoperating software agents can be dramatically reduced. \
+ * Therefore, and no matter how the human will be positioned in the architecture, in its pure sense, an access-and-play capability can never be established. However, the time-to-deliver sIOP between two interoperating software agents can be dramatically reduced. \
 \
-[@Greefhorst2011] provides for a Principles Catalogue in their appendix which presents almost sixty design principles. Principle A.20 of them reads *Data that are exchanged adhere to a canonical data model*, and one of its rationals states that *A Canonical Data Model standardises the definitions of data that are exchanged (...)*. Indeed, principle A.20 reflects the current practises to achieve interoperability. Although it conflicts with \\cref\{dp:ssoc\}, it is not necessarily wrong, since following it results in achieving interoperability as justified by the many if not all interoperable systems that exist today. However, its application impedes access-and-play interoperability as well as semantic heterogeneity, as we have shown in \\cref\{waar-precies\}.\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf0 <$Scr_Cs::0>
+\f2\i\b Conclude
+\f1\i0\b0 <!$Scr_Cs::0>
+\f0 : \
+\
+* Heterogeneity, apart from being fact of life, exist with the reason for applications to be faithful to reality;\
+* To resolve heterogeneity, human-in-the-loop is necessary, although it impedes access-and-play sIOP by delay by humans. Supporting the human requires first her architectural position and minimal tasks to be settled, before computer aid can be established and realised to speed up the process. This only holds as long as computers cannot genuinely understand.\
+* Software agents have a responsibility about the semantics of their shared data;\
+* Since many aspects are involved to achieve sIOP, at design time as well as run time, for the latter a semantic protocol is required to implement a semantic bootstrapping process between two or more agents;\
+* A sIOP bridge is built upon an agent-specific semantic anchor, applied to connect the arch that reconciles the semantic differences, and a roadway that carries the alignment-based data transcription during the business conversation that is hold between the business stakeholders during their collaboration.\
+* Semantic scalability requires loosely coupled semantics, which is based upon the principles of separation of concerns and transparency applied on the semantic level. Moreover, semantic scalability is also supported by applying the mediation pattern that distinguishes a business collaboration specification used to coordinate and control the conversations that apply between stakeholders within the collaboration.\
+* by identifying a specific 42010 viewpoint on sIOP, a necessary condition towards the preparation of a sIOP capability in a software agent has been identified which can be applied to all MDE and view-based software architectures.\
+\
+\
+
+\f1 <$Scr_Cs::0>
+\f2\i\b Address/discuss shortcomings
+\f1\i0\b0 <!$Scr_Cs::0>
+\f0 :\
+\
+* \'85\
+\
+
+\f1 <$Scr_Cs::0>
+\f2\i\b Future work
+\f1\i0\b0 <!$Scr_Cs::0>
+\f0 :\
+\
+* Semantic compatibility represents a values scale; what criteria can be applies to distinguish between sIOP impossible | sIOP possible? \
+* An alignment that specifies the formal semantic relation between concepts of collaborating agents, is insufficient for data transcription: where the former can select from all logical relationships the most appropriate one, the latter can only replace one concept for (a logical combination of more than one) concept, effectively implementing a semantic equivalence relation. This fundamental difference must be resolved in order to prevent naive transcriptions that insert phantom semantics;\
+* We consider the semantic protocol to show distinct phases, establishing: (i) protocol to use - (ii) semantic compatibility - (iii) required application ontologies - (iv) availability of alignments, incl. probably sem.reconciliation subprotocol. A fifth phase, establishing collaboration process / protocol, limits scope of (ii)-(iv) to separate conversations only, improving simplicity & maintainability by SoC, and significantly improving semantic scalability. Still, this is just a suggestion for an initial outline on meta-semantics for a happy scenario. More research towards an operational and infrastructural sIOP service layer that requires minimal engagement of the software agents (and hence minimal protocol support) is required.\
+\
+\
+\
+\
 \
 \
 \
 Absence of semantic compatibility begs research about the influence of alignments between TLOs on engineering alignments between domain ontologies. The complications that occur when semantic compatibility between the DSP and DSC does 
-\f1 <$Scr_Cs::0>
-\f2\i not
-\f1\i0 <!$Scr_Cs::0>
+\f1 <$Scr_Cs::1>
+\f3\i not
+\f1\i0 <!$Scr_Cs::1>
 \f0  apply and different TLOs are applied as modelling language, the alignment becomes significantly more complicated. Can these semantic complications as they occur in one overall alignment at domain level, be relieved by available alignments on the top level? The complications follow directly from the fact that any semantic variation results from two sources that impact the semantic differences. First, the differences in the fundamental ontological commitments that apply, and second, from the differences in perspectives that apply. Unfortunately, since the semantics of a concept is the result of an amalgamation between the semantics of the ontological commitment and the semantics that follow from the applied perspective on the DoA, it is not straightforward where variations between the semantic meaning of two concepts originate from. It can find its origin in either the OC or the perspective or both. }
