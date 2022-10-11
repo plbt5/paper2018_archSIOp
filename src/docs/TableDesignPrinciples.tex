@@ -225,7 +225,7 @@
   \item Minimising impact on software code that is concerned with data communication is realised by abstracting semantics away from the data schemata;
   \item When the DM defines a high variety of subjects in the DoA without a clear separation between them, a small change in semantics will induce a proliferation of modifications in the DM;
   \item Modularisation of the DM minimises the proliferation of a change in one module to other modules;
-  \tem Reduce the many-to-many conversations that exist between collaborating agents to many-to-one conversations, by localizing business collaboration logic (apply semantic mediation pattern).
+  \item Reduce the many-to-many conversations that exist between collaborating agents to many-to-one conversations, by localizing business collaboration logic (apply semantic mediation pattern).
 \end{enumerate}
 &
 \begin{enumerate}[left=10pt, nosep]
@@ -300,7 +300,7 @@
 %% SEMANTIC MEDIATION PRINCIPLE
 %%
 \begin{mmdp}\label{dp:mediation}{\bfseries Semantic mediation principle:}
-\quad When software agents engage in interoperation, encapsulate the transcription between their semantic meaning.\end{mmdp}
+\quad When software agents engage in interoperation, encapsulate the transcription between their semantic meaning, as well as the coordination and control of their business collaboration.\end{mmdp}
 &
 \begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
 \item[Type of information:] Business, Data;
@@ -309,17 +309,24 @@
 \begin{enumerate}[left=6pt, nosep]
   \item The semantic meaning is codified in ontological representations;
   \item Keeping agents from referring to each others representation therefore requires transcription between representations;
-  \item A solution where each agent needs to implement one transcription component between its own representation and each of its interoperating peer, increases complexity;
+  \item A solution where each agent needs to implement one transcription component between its own representation and each of its interoperating peer, increases the complexity of collaboration and its management for each agent;
   \item Encapsulating the transcription into an alignment-based intermediary component results in less communication complexity and relieves the agents from development and maintenance of local wrappers;
+  \item Similarly, because coordination and control of the business conversations
+  \begin{enumerate}
+    \item can be separated from semantic transcription, and
+    \item will be different for each business collaboration, but can be specified upfront 
+  \end{enumerate}
+  \item their implementation can be encapsulated in a separate component.
 \end{enumerate}
 &
 \begin{enumerate}[left=10pt, nosep]
-  \item A mediator creates representational transparency between communicating agents, keeping agents from using each others representations;
-  \item This enables independent development of the individual agent’s semantic meaning;
-  \item The need to enforce a canonical semantic representation, viz. semantic homogeneity, expires, allowing semantic heterogeneity to become the norm;
-  \item Each agent can reuse its semantic anchorage in any other interoperation;;
+  \item A mediator creates representational transparency between communicating agents, keeping agents from using each others representations. This enables independent development of the individual agent’s semantic meaning;
+  \item The need to enforce a canonical semantic representation, viz. semantic homogeneity, expires, allowing semantic heterogeneity to become the norm. Consequently, each agent can reuse the semantic meaning and representation from its DM for every other interoperation;
   \item Transcription of the semantic meaning from the DSP representation and value space into the DSC representation and value space is only dependent on the applied alignment language and agnostic to any particular semantics assigned to it. A mediation component to perform such transcription, therefore, remains generically applicable for all domains. This provides the potential to turn the mediation component and the alignment language into infrastructural elements;
-  \item Each agent can communicate with any other agent in its own native semantic representation.
+  \item Abstracting the coordination and control of the collaboration into a separate component greatly simplifies the individual agent's logic, since partaking in any collaboration only requires communication with the controlling component;
+  \item Since business collaboration enacts upon exchanging semantic meaning between collaborating agents, combing the collaboration coordinating component and the semantic mediation brings advantages about semantic scalability as well as semantic modularisation of the agent's DM;
+  \item Each agent can collaborate (with any other agent) by communicating with the mediating component only, and in its own native semantic representation;
+  \item Any agent wishing to join a collaboration only requires a specification of its role in the collaborating process, its semantic alignments necessary to partake in the conversations, and adoption of the semantic protocol.
 \end{enumerate}\\
 %
 \bottomrule
