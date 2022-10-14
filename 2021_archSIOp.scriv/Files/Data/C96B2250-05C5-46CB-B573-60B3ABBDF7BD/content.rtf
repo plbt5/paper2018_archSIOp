@@ -44,7 +44,7 @@ We have seen in the previous section that the open world assumption allows every
 \f2 <$Scr_Cs::2>
 \f1\i What semantic principles do we agree upon?
 \f2\i0 <!$Scr_Cs::2>
-\f0  Because, when exchanging SoAs, the semantic meaning of the DSP and DSC must be compatible with each other because these specify the representation of their conceptualisation, and with incompatible conceptualisations obscurity and ambiguity cannot be avoided. This makes semantic compatibility a precursor to sIOP. Merriam-Webster defines *compatibility* as \'93being a computer designed to operate in the same manner and use the same software as another computer\'94[^compatibility]. We propose the following analogous definition on semantic compatibility, as follows:\
+\f0  When exchanging SoAs, the semantic meaning of the DSP and DSC must be compatible with each other because these specify the representation of their conceptualisation. Obscurity and ambiguity cannot be avoided with incompatible conceptualisations. This makes semantic compatibility a precursor to sIOP. Merriam-Webster defines *compatibility* as \'93being a computer designed to operate in the same manner and use the same software as another computer\'94[^compatibility]. We propose the following analogous definition on semantic compatibility, as follows:\
 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\pardeftab720\sl288\slmult1\partightenfactor0
 
@@ -72,7 +72,7 @@ Semantic compatibility reflects the extent to which a software agent is designed
 
 \f2 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
 \f0\fs22 \\begin\{mmdef\}[Ontological commitment]\\label\{def:oc\}\
-The OC of a (domain) model refers to (generic) distinctions that are carried by the language constructs as a commitment about the generic categories that are considered to exist in reality according to a given theory. \
+The OC of a (domain) model refers to (generic) distinctions that are carried by the modeling language constructs as a commitment about the generic categories that are considered to exist in reality according to a given theory. \
 \\end\{mmdef\}
 \f2\fs20 \
 \pard\pardeftab720\partightenfactor0
@@ -114,7 +114,7 @@ Consequently, in order to establish the extent of semantic compatibility between
 \f2 <$Scr_Cs::2>
 \f1\i phantom semantics
 \f2\i0 <!$Scr_Cs::2>
-\f0 : invalid but seemingly valid semantics received by the DSC. For instance, on data value quality, already in our introductory example, the time value was intended to be expressed agnostic to daylight saving time (DST) by the DSC whilst the DSP intended to answer the question \'93What time is it?\'94 and, hence, included DST; a typical example of the FAP. By constraining the value dimension for time to either ignore or include DST but not both, the false agreement would not have occurred. As another example, now on ontological quality, viz the DM\'92s faithfulness to the DoA, assume both models specify an event as a combination of a verb with a noun. Without constraining their order of appearance, then, the intention to exchange an event, denoted $E$, about the verb \'93to Ship\'94, denoted $S$, and the noun \'93the Bank\'94, denoted $B$, statement $E(S,B)$ allows for two meanings about the event: the intended meaning \'93the bank that shipped\'94 and the allowed, unintended meaning \'93the ship that banked\'94. Since the DSC is allowed to comprehend the latter, while they seemingly agree on the SoA, they actually disagree. The quality maxim, therefore, creates a responsibility for any software agent that engages in collaboration to minimise the chance to induce the FAP. We formulate \\cref\{dp:mfapp\} to cater for the quality maxim.\
+\f0 : invalid but seemingly valid semantics received by the DSC. For instance, on data-value quality, already in our introductory example, the time value was intended to be expressed agnostic to daylight saving time (DST) by the DSC whilst the DSP intended to answer the question \'93What time is it?\'94 and, hence, included DST; a typical example of the FAP. By constraining the value dimension for time to either ignore or include DST but not both, the false agreement would not have occurred. As another example, now on ontological quality, viz the DM\'92s faithfulness to the DoA, assume both models specify an event as a combination of a verb with a noun. Without constraining their order of appearance, then, the intention to exchange an event, denoted $E$, about the verb \'93to Ship\'94, denoted $S$, and the noun \'93the Bank\'94, denoted $B$, statement $E(S,B)$ allows for two meanings about the event: the intended meaning \'93the bank that shipped\'94 and the allowed, unintended meaning \'93the ship that banked\'94. Since the DSC is allowed to comprehend the latter, while they seemingly agree on the SoA, they actually disagree. The quality maxim, therefore, creates a responsibility for any software agent that engages in collaboration to minimise the chance to induce the FAP. We formulate \\cref\{dp:mfapp\} to cater for the quality maxim.\
 \
 In its semantic reading, 
 \f2 <$Scr_Cs::1>
@@ -124,7 +124,7 @@ In its semantic reading,
 \f2 <$Scr_Cs::2>
 \f1\i Why do we say this, to what purpose are we communicating?
 \f2\i0 <!$Scr_Cs::2>
-\f0  By token of the collaboration, the relevance of the data exchange for the DSC can be considered a matter of fact, indeed. In fact, the overall objective of the conversation is to exchange the SoAs in order to progress towards the shared objective the collaboration was established for in the first place. However, exchange of a SoA cannot be done directly; only by exchanging data we indirectly refer to the SoA that occur in the DoA. Where the previous two design principles address semantics directly, this maxim addresses the need to talk 
+\f0  By token of the collaboration, the relevance of the data exchange for the DSC can be considered a matter of fact, indeed. In fact, the overall objective of the conversation is to exchange the SoAs in order to progress towards the shared objective the collaboration was established for in the first place. However, exchange of a SoA cannot be done directly; only by exchanging data we indirectly refer to the SoA that occurs in the DoA. Where the previous two design principles address semantics directly, this maxim addresses the need to talk 
 \f2 <$Scr_Cs::2>
 \f1\i about
 \f2\i0 <!$Scr_Cs::2>
@@ -132,7 +132,7 @@ In its semantic reading,
 \f2 <$Scr_Cs::2>
 \f1\i of
 \f2\i0 <!$Scr_Cs::2>
-\f0  semantics. Additionally, collaboration requires to influence or direct the action of the communicating peer: the DSC to make the DSP to improve on its support for the DSC, and the DSP to have the DSC achieve the goal of the collaboration [@Grice:1991BT, p.47]. These conversations require the existence of a protocol on the semantic level, which is significantly different from protocols that exist at the syntactical level. The purpose of the semantic protocol is to consolidate a critical level of semantic compatibility in order to consolidate mutual comprehension on the applied semantics, allowing the sIOP to emerge that is required to indirectly exchange SoAs by exchanging data. Clearly, the semantic protocol shows a bootstrapping process that is independent from the actual domain semantics until sIOP has been achieved. As such, it can become part of the communication infrastructure and only requires the software agent to support its engagement with it. Similar to any other protocol, the semantic protocol can go back to a previous phase whenever issues emerge in the current phase of the process. We formulate \\cref\{dp:spp\} to cater for Maxim 3.\
+\f0  semantics. Additionally, collaboration requires to influence or direct the action of the communicating peer: the DSC to make the DSP to improve on its support for the DSC, and the DSP to have the DSC achieve the goal of the collaboration [@Grice:1991BT, p.47]. These conversations require the existence of a protocol on the semantic level, which is significantly different from protocols that exist at the syntactical level. The purpose of the semantic protocol is to consolidate a critical level of semantic compatibility in order to consolidate mutual comprehension on the applied semantics, allowing the sIOP to emerge that is required to indirectly exchange SoAs by exchanging data. Clearly, the semantic protocol shows a bootstrapping process that is independent on the actual domain semantics until sIOP has been achieved. As such, it can become part of the communication infrastructure and only requires the software agent to support its engagement with it. Similar to any other protocol, the semantic protocol can go back to a previous phase whenever issues emerge in the current phase of the process. We formulate \\cref\{dp:spp\} to cater for Maxim 3.\
 \
 <!-- page additions -->\
 \
