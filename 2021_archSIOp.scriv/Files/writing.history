@@ -84,5 +84,6 @@
     <Day dwc="456" dcc="3255" dtwc="14605" owc="0" occ="0" dtcc="101362">2022-10-10</Day>
     <Day dwc="246" dcc="1661" dtwc="0" owc="0" occ="0" dtcc="0">2022-10-11</Day>
     <Day dwc="228" dcc="1394" dtwc="15079" owc="23" occ="0" dtcc="104415">2022-10-13</Day>
-    <Day dwc="206" dcc="1298" owc="0" occ="-3">2022-10-14</Day>
+    <Day dwc="195" dcc="1251" dtwc="15274" owc="0" occ="-3" dtcc="105666">2022-10-14</Day>
+    <Day dwc="1" dcc="7" owc="0" occ="0">2022-10-15</Day>
 </WritingHistory>

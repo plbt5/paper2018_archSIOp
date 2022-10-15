@@ -15,8 +15,10 @@
 * to include other contexts within which the collaboration is to happen as well.\
 \
 Clearly, a semantic perspective is intimately related to the pragmatic meaning, in the sense that the latter is a causal consequence of the former. Adding another semantic perspective to a collaboration implies, therefore, that the pragmatic meaning of the DSC might change. Its first engineering consequence is the need to separate the pragmatic meaning from the semantic meaning in order to minimise the impact of those changes to the semantic meaning and the other agent behaviour. This design principle has already been identified in \\cref\{semantics-in-software\}. \
-\
-Another consequence of semantic scalability is the need to support *loosely coupled semantics*. As analogy, consider a vehicle with its cargo. Logistics rely on external transfer services that allow the cargo to be transported over different vehicles, transferring cargo from a truck into an aircraft into a ship into a truck again, without ruining the cargo. This requires the cargo to be firmly connected to the vehicle, but at the same time to remain completely independent from any particular vehicle in order to complete the transport. 
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 Another consequence of semantic scalability is the need to support *loosely coupled semantics*. As analogy, consider a vehicle with its cargo. Logistics rely on external transfer services that allow the cargo to be transported over different vehicles, transferring cargo from a truck into an aircraft into a ship into a truck again, without ruining the cargo. This requires the cargo to be firmly connected to the vehicle, but at the same time to remain completely independent from any particular vehicle in order to complete the transport. 
 \f1 <$Scr_Cs::0>
 \f2\i High cohesion and low coupling
 \f1\i0 <!$Scr_Cs::0>
@@ -34,8 +36,12 @@ The classical reading on
 \f1 <$Scr_Cs::1>
 \f3\b transparency
 \f1\b0 <!$Scr_Cs::1>
-\f0  separates access to the unique functions from the particular design and implementation of those functions. Remaining agnostic to *how* its function are achieved makes it possible to communicate with minimal mutual dependency. Semantic transparency, or terminological transparency, remains agnostic to how semantics are *represented* and *conceptualised*, which makes it possible to communicate with minimal syntactic dependency, without prior mutual agreements on semantic representation, and without access to background knowledge that applies to the conceptualisation. Consequently, the need emerges for a semantic oracle that knows how to align distinct representations and to translate between them accordingly. This directly relates to the human in the loop as augmenting authority as discussed in \\cref\{semantic-reconciliation\}. \
-In its classical reading, transparency also requires standard API\'92s where the semantics of each parameter is defined carefully. For semantic transparency, API\'92s are similarly defined but since the parameter values that are passed carry semantics, the parameters\'92 definitions need to be 
+\f0  separates access to the unique functions from the particular design and implementation of those functions. Remaining agnostic to *how* its function are achieved makes it possible to communicate with minimal mutual dependency. Semantic transparency, or terminological transparency, remains agnostic to how semantics are *represented* and *conceptualised*, which makes it possible to communicate with minimal syntactic dependency, without prior mutual agreements on semantic representation, and without access to background knowledge that applies to the conceptualisation. By representing the result of the reconciliation as an alignment between ontologies \'97as opposed to a canonical model of the semantics, a.k.a. a domain or core ontology\'97 the influence of collaborating agent\'92s semantics on one\'92s own semantics via such domain ontology is minimised. An alignment, thus, functions as an interface that enforces semantic transparency between communicating peers. Consequently, the need emerges for a semantic oracle that knows how to align distinct representations, which is exactly the responsibility of the human in the loop as augmenting authority, discussed in \\cref\{semantic-reconciliation\}. \
+In its classical reading, transparency also requires standard API\'92s where the semantics of each parameter is defined carefully. API\'92s are to be similarly defined for semantic transparency, but since the parameter values that are passed 
+\f1 <$Scr_Cs::0>
+\f2\i carry semantic meaning
+\f1\i0 <!$Scr_Cs::0>
+\f0 , the parameters\'92 definitions need to be 
 \f1 <$Scr_Cs::0>
 \f2\i about
 \f1\i0 <!$Scr_Cs::0>

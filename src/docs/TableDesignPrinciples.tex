@@ -58,7 +58,7 @@
 %% SEMANTIC RESPONSIBILITY PRINCIPLE
 %%
 \begin{mmdp}\label{dp:srp}{\bfseries Semantic responsibility principle:}
-\quad When it is reasonable to expect that the software agent will be engaged in collaboration or otherwise will interoperate with (an)other software agent(s), it is the responsibility of the DSP and the DSC to enable to establish the extent of their semantic compatibility by explicating and disclosing their OCs. Additionally, it is the responsibility of the DSP to disclose the semantic meaning of the exchanged data to allow their comprehension by the DSC. 
+\quad When it is reasonable to expect that the software agent will be engaged in collaboration or otherwise will interoperate with (an)other software agent(s), it has the responsibility to explicate and disclose its OC, and, additionally, to disclose the semantic meaning of any exchanged data, to the extent necessary to allow comprehension of its data by the other involved agent(s). 
 \end{mmdp}
 &
 \begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
@@ -67,7 +67,8 @@
 \end{description} \\
 \begin{enumerate}[left=6pt, nosep]
   \item Assume semantic heterogeneity to apply, allowing the software agents to maintain a particular perspective on the DoA;
-  \item The DM mirrors the particular perspective taken, and applies a modelling language that expresses a particular OC. (Making an explicit choice about a particular OC (hence, applying a particular TLO) that fits the perspective best, improves the semantic quality of the DM in its faithfulness to the DoA, see \cite[DP6]{Brandt2021a}.); 
+  \item The DM mirrors the particular perspective taken, and applies a modelling language that expresses a particular OC;
+  \item The extent to which collaborating agents' DMs are semantically compatible, is dependent on their applied OCs. 
   \item Data are formulated according to the DM's semantic meaning, and refer by means of it to the SoAs in the DoA;
   \item Grice’s maxims on communication, and particularly on serving the quantity and manner of communication, represent the natural constraints to respect. Consequently:
   \begin{enumerate}
@@ -124,7 +125,7 @@
 %% SEMANTIC PROTOCOL PRINCIPLE
 %%
 \begin{mmdp}\label{dp:spp}{\bfseries Semantic protocol principle:}
-\quad When it is reasonable to expect that the software agent will be engaged in collaboration or otherwise will interoperate with (an)other software agent(s), the agent should provide the capability to respond to a semantic protocol that has the objective to prepare sIOP by conversing about semantics in order to consolidate semantic compatibility and mutual comprehension of the exchanged data.
+\quad When it is reasonable to expect that the software agent will be engaged in collaboration or otherwise will interoperate with (an)other software agent(s), the agent should provide the capability to respond to a semantic protocol that has the objective to prepare sIOP by conversing about semantics in order to consolidate the degree of semantic compatibility and the mutual comprehension of the exchanged data.
 \end{mmdp}
 &
 \begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
@@ -151,7 +152,7 @@
 %% ALIGNMENT PRINCIPLE
 %%
 \begin{mmdp}\label{dp:alignment}{\bfseries Alignment principle:}
-\quad Aligning semantic meanings suffices for re-establishing semantic coherence and, hence, enabling sIOP. \end{mmdp}
+\quad Align semantic meanings, not data schemata.  \end{mmdp}
 &
 \begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
   \item[Type of information:] Application, Data;
@@ -159,9 +160,9 @@
 \end{description}\\
 \begin{enumerate}[left=6pt, nosep]
   \item On processing (external) data, semantics manifest themselves as the reciprocity between semantic meaning (carried by data) and pragmatic meaning (carried by processing code);
-  \item The purpose of an alignment is to re-establish semantic coherence between the DSP's semantic meaning and the DSC's pragmatic meaning, as specified by the DMs of the software agents;
-  \item Formalising a correspondence relation between the semantic meanings of interoperating software agents effectively connects the external semantic meaning with the internal pragmatic meaning, providing the existence of semantic coherence by the DSC;
-  \item By assuring that the internal semantic meaning encompasses the external semantic meaning, and by assuring that the semantic consequences of the latter extending the former are (or can be made) insignificant for the available semantic coherence, consolidates the semantic validity of the correspondence relation.
+  \item The purpose of semantic reconciliation is to establish semantic coherence between the DSP's semantic meaning and the DSC's pragmatic meaning, as specified by the DMs of the software agents;
+  \item Formalising a correspondence relation between the semantic meanings of interoperating software agents effectively connects the external semantic meaning with the internal pragmatic meaning, providing semantic coherence to exist already by the DSC;
+  \item Assuring that the internal (DSC's) semantic meaning encompasses the external (DSP's) semantic meaning, and assuring that the semantic consequences of the latter extending the former are (or can be made) insignificant for the DSC's existing semantic coherence, are sufficient conditions to consolidate the semantic validity of the correspondence relation and, hence, enable sIOP.
 \end{enumerate}
 &
 \begin{enumerate}[left=10pt, nosep]
@@ -178,7 +179,7 @@
 %% CORRESPONDENCE RELATION PRINCIPLE
 %%
 \begin{mmdp}\label{dp:alignment-language}{\bfseries Correspondence relation principle:}
-\quad A correspondence relation that preserves semantic meaning addresses conceptual differences as well as convention-induced value space differences, the resolution of which is a necessary condition to achieve sIOP (providing faithful DMs from both collaborating agents). \end{mmdp}
+\quad A correspondence relation must preserve semantic meaning by addressing conceptual differences as well as convention-induced value-space differences. The alignment language must be expressive enough to represent those differences, the resolution of which is a necessary condition to achieve sIOP, providing faithful DMs from both collaborating agents. \end{mmdp}
 &
 \begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
   \item[Type of information:] Data;
@@ -227,6 +228,33 @@
 \begin{enumerate}[left=10pt, nosep]
   \item On absent correspondences between concepts on lower abstraction layer, an available correspondence that applies between their subsuming concepts on higher abstraction layer can apply as broader backup correspondence, provided its application \emph{at that abstraction layer};
   \item On engineering a correspondence at a certain abstraction level, guidance can be provided from the correspondence on higher abstraction level.
+\end{enumerate} \\
+%
+%
+%
+%%%%%%%%%%%%%
+%%
+%% CONFIGURATION TRUMPS IMPLEMENTATION PRINCIPLE
+%%
+\begin{mmdp}\label{dp:cti}{\bfseries Configuration trumps implementation principle:}
+\quad When concerned with inevitable human effort required to complement shortcomings of contemporary computers, decide on putting down a computational specification of the outcome of the oracle over a situation-specific implementation of that outcome. Save the implementation effort for a more abstract component that has the ability to instantiate a service that shows situation-specific behaviour in accordance to the specification. \end{mmdp}
+&
+\begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
+\item[Type of information:] Business, Data, Technology;
+\item[Quality attributes:] semantic interoperability, portability, maintainability, efficiency, usability (reuse), reliability;
+\end{description}
+\\
+\begin{enumerate}[left=6pt, nosep]
+  \item What computers cannot do, must be done by humans;
+  \item ;
+  \item .
+\end{enumerate}
+&
+\begin{enumerate}[left=10pt, nosep]
+  \item ;
+  \item ;
+  \item ;
+  \item .
 \end{enumerate} \\
 %
 %
@@ -360,3 +388,5 @@
 %% END Design Principles Table
 %%
 %%%%%%%%%%%%%
+
+
