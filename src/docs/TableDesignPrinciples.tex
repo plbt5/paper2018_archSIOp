@@ -209,52 +209,29 @@
 %
 %%%%%%%%%%%%%
 %%
-%% TOP DOWN ALIGNMENTS
+%% HUMAN EFFICIENCY PRINCIPLE
 %%
-\begin{mmdp}\label{dp:tdc}{\bfseries Top-down correspondence principle:}
-\quad Take a top-down approach during reconciliation. \end{mmdp}
-&
-\begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
-\item[Type of information:] Data, Technology;
-\item[Quality attributes:] semantic interoperability, portability, maintainability, efficiency, usability (reuse), reliability;
-\end{description}
-\\
-\begin{enumerate}[left=6pt, nosep]
-  \item The concepts identified in the TLO subsume those of lower level ontologies;
-  \item The semantic relation that applies to concepts at higher abstraction level must also apply at their subsumed concepts;
-  \item Therefore, correspondences at higher abstraction layer must subsume those at lower abstraction layer.
-\end{enumerate}
-&
-\begin{enumerate}[left=10pt, nosep]
-  \item On absent correspondences between concepts on lower abstraction layer, an available correspondence that applies between their subsuming concepts on higher abstraction layer can apply as broader backup correspondence, provided its application \emph{at that abstraction layer};
-  \item On engineering a correspondence at a certain abstraction level, guidance can be provided from the correspondence on higher abstraction level.
-\end{enumerate} \\
-%
-%
-%
-%%%%%%%%%%%%%
-%%
-%% CONFIGURATION TRUMPS IMPLEMENTATION PRINCIPLE
-%%
-\begin{mmdp}\label{dp:cti}{\bfseries Configuration trumps implementation principle:}
-\quad When concerned with inevitable human effort required to complement shortcomings of contemporary computers, decide on putting down a computational specification of the outcome of the oracle over a situation-specific implementation of that outcome. Save the implementation effort for a more abstract component that has the ability to instantiate a service that shows situation-specific behaviour in accordance to the specification. \end{mmdp}
+\begin{mmdp}\label{dp:he}{\bfseries Human efficiency principle:}
+\quad When engaging in collaboration with other software agent(s), the human responsibility in semantic reconciliation should, to the extent possible, focus on auditing semantic alignments, and minimize their authoring. Reconciliation tools and available alignment information should be (re-)used maximally.\end{mmdp}
 &
 \begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
 \item[Type of information:] Business, Data, Technology;
-\item[Quality attributes:] semantic interoperability, portability, maintainability, efficiency, usability (reuse), reliability;
+\item[Quality attributes:] semantic interoperability, maintainability, efficiency, usability (reuse);
 \end{description}
 \\
 \begin{enumerate}[left=6pt, nosep]
-  \item What computers cannot do, must be done by humans;
-  \item ;
-  \item .
+  \item Computers cannot genuinely understand semantics, therefore, semantic reconciliation require human effort;
+  \item Computer support can significantly improve human efficiency, hence, maximise the use of tools where possible, notably during reconciliation and authoring;
+  \item Further efficiency can be gained by (re-)use of all available information, notably ontologies and their (example) data, already established alignments and shared vocabularies alike;
+  \item Have the tools harness, to the maximal extent possible, the available information;
+  \item Follow all previous DPs in order to maximally prepare the software agents towards sIOP.
 \end{enumerate}
 &
 \begin{enumerate}[left=10pt, nosep]
-  \item ;
-  \item ;
-  \item ;
-  \item .
+  \item The higher the efficiency with which alignments between software agents' DMs can be achieved, the closer one gets to access-and-play sIOP;
+  \item A reconciliation approach based on bilateral alignments only, produces the atomic element from which multi-lateral alignments can be constructed;
+  \item A reconciliation approach based on bilateral alignments only, surfaces concerns on scalability and semantic governance for which solutions must be sought before sIOP can exist in multi-stakeholder collaborations;
+  \item Semantic alignments direct the required syntactic transcriptions that apply at the communication layer, which can be resolved independently from the semantic meaning and the communication protocol that apply. This can, therefore, be pushed into the infrastructure.
 \end{enumerate} \\
 %
 %

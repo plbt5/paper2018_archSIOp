@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="8C0780B1-25E9-4144-94AF-7E1CFBE0056E" Version="2.0" Creator="SCRMAC-3.2.3-14869" Device="Pauls-MacBook-Pro" Author="Paul Brandt" Modified="2022-10-15 15:13:05 +0200" ModID="6A641744-B2B8-43CC-8A45-B25FBC2EC10F">
+<ScrivenerProject Identifier="8C0780B1-25E9-4144-94AF-7E1CFBE0056E" Version="2.0" Creator="SCRMAC-3.2.3-14869" Device="Pauls-MacBook-Pro" Author="Paul Brandt" Modified="2022-10-28 18:24:46 +0200" ModID="4827C866-CCFB-4DD4-AC9B-53B194DD7CA8">
     <Binder>
         <BinderItem UUID="AC0E4C16-84DD-46A8-978B-4E68660C32A1" Type="Text" Created="2018-01-09 02:27:13 +0100" Modified="2022-10-13 14:45:56 +0200">
             <Title>Pandoc metadata</Title>
@@ -195,12 +195,12 @@
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
             <CorkboardAndOutliner>
-                <SelectedSubdocumentUUIDs>8F4B7735-9D99-4F71-86D2-9A37E019A353</SelectedSubdocumentUUIDs>
+                <SelectedSubdocumentUUIDs>D1B1F11F-646F-4B47-9C11-9FEFCBFD8870</SelectedSubdocumentUUIDs>
                 <OutlinerExpandedState>
-                    <ItemID>72A16B35-CC3A-4148-B226-4BDD855A4808</ItemID>
                     <ItemID>0DF8B2A4-7CBA-4EED-BAB8-92256266A582</ItemID>
-                    <ItemID>3C639D7D-01EF-46D3-8B14-B6228F49EED8</ItemID>
                     <ItemID>6B25EA47-8E5D-4741-A89F-E5F989DAE212</ItemID>
+                    <ItemID>08414A79-F463-4C0D-875A-EE278CF6555A</ItemID>
+                    <ItemID>8F4B7735-9D99-4F71-86D2-9A37E019A353</ItemID>
                 </OutlinerExpandedState>
             </CorkboardAndOutliner>
             <Children>
@@ -226,7 +226,7 @@
                         <TextSelection>2528,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="D1B1F11F-646F-4B47-9C11-9FEFCBFD8870" Type="Text" Created="2016-12-28 10:23:05 +0100" Modified="2022-10-14 22:44:46 +0200">
+                <BinderItem UUID="D1B1F11F-646F-4B47-9C11-9FEFCBFD8870" Type="Text" Created="2016-12-28 10:23:05 +0100" Modified="2022-10-28 12:03:08 +0200">
                     <Title>Introduction</Title>
                     <MetaData>
                         <LabelID>7</LabelID>
@@ -244,7 +244,7 @@
                         </CustomMetaData>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>10026,28</TextSelection>
+                        <TextSelection>10603,22</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="72A16B35-CC3A-4148-B226-4BDD855A4808" Type="Text" Created="2018-05-25 17:59:48 +0200" Modified="2022-09-09 12:16:50 +0200">
@@ -327,10 +327,10 @@
                         </BinderItem>
                     </Children>
                 </BinderItem>
-                <BinderItem UUID="0DF8B2A4-7CBA-4EED-BAB8-92256266A582" Type="Text" Created="2018-05-25 18:04:29 +0200" Modified="2022-10-14 22:21:42 +0200">
+                <BinderItem UUID="0DF8B2A4-7CBA-4EED-BAB8-92256266A582" Type="Text" Created="2018-05-25 18:04:29 +0200" Modified="2022-10-28 18:10:04 +0200">
                     <Title>Spanning: reconciliation concerns</Title>
                     <MetaData>
-                        <LabelID>6</LabelID>
+                        <LabelID>7</LabelID>
                         <StatusID>1</StatusID>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
@@ -338,10 +338,10 @@
                         <TextSelection>2518,0</TextSelection>
                     </TextSettings>
                     <Children>
-                        <BinderItem UUID="D27DEE11-65D3-4209-9BE8-3686320C16B0" Type="Text" Created="2022-03-23 14:50:57 +0100" Modified="2022-10-15 12:26:27 +0200">
+                        <BinderItem UUID="D27DEE11-65D3-4209-9BE8-3686320C16B0" Type="Text" Created="2022-03-23 14:50:57 +0100" Modified="2022-10-28 18:10:04 +0200">
                             <Title>Data exchange ruins semantic coherence</Title>
                             <MetaData>
-                                <LabelID>6</LabelID>
+                                <LabelID>7</LabelID>
                                 <StatusID>1</StatusID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
@@ -349,10 +349,10 @@
                                 <TextSelection>2263,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="8BAEA080-E0C1-410F-AED6-DDF66067B6ED" Type="Text" Created="2022-03-23 14:50:57 +0100" Modified="2022-10-13 16:20:14 +0200">
+                        <BinderItem UUID="8BAEA080-E0C1-410F-AED6-DDF66067B6ED" Type="Text" Created="2022-03-23 14:50:57 +0100" Modified="2022-10-28 18:10:04 +0200">
                             <Title>Support semantic scalability</Title>
                             <MetaData>
-                                <LabelID>6</LabelID>
+                                <LabelID>7</LabelID>
                                 <StatusID>1</StatusID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                                 <NotesTextSelection>558,21</NotesTextSelection>
@@ -361,10 +361,10 @@
                                 <TextSelection>2608,17</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="3C639D7D-01EF-46D3-8B14-B6228F49EED8" Type="Text" Created="2018-08-28 13:29:09 +0200" Modified="2022-10-13 18:00:55 +0200">
+                        <BinderItem UUID="3C639D7D-01EF-46D3-8B14-B6228F49EED8" Type="Text" Created="2018-08-28 13:29:09 +0200" Modified="2022-10-28 18:10:04 +0200">
                             <Title>Positioning the human in the loop</Title>
                             <MetaData>
-                                <LabelID>6</LabelID>
+                                <LabelID>7</LabelID>
                                 <StatusID>1</StatusID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                                 <NotesTextSelection>84,49</NotesTextSelection>
@@ -373,10 +373,10 @@
                                 <TextSelection>486,0</TextSelection>
                             </TextSettings>
                             <Children>
-                                <BinderItem UUID="CF09F408-ABF9-4D09-BE23-674D11AA2EDA" Type="Text" Created="2022-07-18 18:40:48 +0200" Modified="2022-10-13 16:32:38 +0200">
+                                <BinderItem UUID="CF09F408-ABF9-4D09-BE23-674D11AA2EDA" Type="Text" Created="2022-07-18 18:40:48 +0200" Modified="2022-10-28 18:10:04 +0200">
                                     <Title>Semantic reconciliation</Title>
                                     <MetaData>
-                                        <LabelID>6</LabelID>
+                                        <LabelID>7</LabelID>
                                         <StatusID>1</StatusID>
                                         <IncludeInCompile>Yes</IncludeInCompile>
                                     </MetaData>
@@ -384,7 +384,7 @@
                                         <TextSelection>3815,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem UUID="4F488ECA-E0B0-4D9B-82FF-D61018C615A9" Type="Text" Created="2022-07-18 18:42:23 +0200" Modified="2022-10-14 22:48:29 +0200">
+                                <BinderItem UUID="4F488ECA-E0B0-4D9B-82FF-D61018C615A9" Type="Text" Created="2022-07-18 18:42:23 +0200" Modified="2022-10-28 18:11:03 +0200">
                                     <Title>Representing alignments</Title>
                                     <MetaData>
                                         <LabelID>6</LabelID>
@@ -392,19 +392,19 @@
                                         <IncludeInCompile>Yes</IncludeInCompile>
                                     </MetaData>
                                     <TextSettings>
-                                        <TextSelection>4334,0</TextSelection>
+                                        <TextSelection>2860,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem UUID="0DAEA518-3557-4596-9C66-D8495667957C" Type="Text" Created="2022-07-18 18:43:05 +0200" Modified="2022-10-15 14:53:43 +0200">
+                                <BinderItem UUID="0DAEA518-3557-4596-9C66-D8495667957C" Type="Text" Created="2022-07-18 18:43:05 +0200" Modified="2022-10-28 18:12:14 +0200">
                                     <Title>Efficiency</Title>
                                     <MetaData>
                                         <LabelID>6</LabelID>
                                         <StatusID>1</StatusID>
                                         <IncludeInCompile>Yes</IncludeInCompile>
-                                        <NotesTextSelection>14,0</NotesTextSelection>
+                                        <NotesTextSelection>20,0</NotesTextSelection>
                                     </MetaData>
                                     <TextSettings>
-                                        <TextSelection>4940,0</TextSelection>
+                                        <TextSelection>3871,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
                             </Children>
@@ -432,7 +432,7 @@
                                         <TextSelection>6224,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem UUID="F06D6B80-0546-424C-B04F-D54BE560882C" Type="Text" Created="2022-08-12 13:20:04 +0200" Modified="2022-10-13 16:31:56 +0200">
+                                <BinderItem UUID="F06D6B80-0546-424C-B04F-D54BE560882C" Type="Text" Created="2022-08-12 13:20:04 +0200" Modified="2022-10-26 20:41:23 +0200">
                                     <Title>Engineering semantic coherence</Title>
                                     <MetaData>
                                         <LabelID>1</LabelID>
@@ -448,11 +448,11 @@
                         </BinderItem>
                     </Children>
                 </BinderItem>
-                <BinderItem UUID="08414A79-F463-4C0D-875A-EE278CF6555A" Type="Text" Created="2018-05-25 18:04:50 +0200" Modified="2022-10-01 19:37:51 +0200">
+                <BinderItem UUID="08414A79-F463-4C0D-875A-EE278CF6555A" Type="Text" Created="2018-05-25 18:04:50 +0200" Modified="2022-10-26 20:41:46 +0200">
                     <Title>Roadway: Mediation concerns</Title>
                     <MetaData>
                         <LabelID>5</LabelID>
-                        <StatusID>0</StatusID>
+                        <StatusID>1</StatusID>
                         <IncludeInCompile>Yes</IncludeInCompile>
                         <NotesTextSelection>2765,0</NotesTextSelection>
                     </MetaData>
@@ -641,12 +641,13 @@
                         </BinderItem>
                     </Children>
                 </BinderItem>
-                <BinderItem UUID="D5111EC4-CDFF-4351-82C3-91A87C673FCD" Type="Text" Created="2018-05-25 18:05:09 +0200" Modified="2022-10-13 14:45:56 +0200">
+                <BinderItem UUID="D5111EC4-CDFF-4351-82C3-91A87C673FCD" Type="Text" Created="2018-05-25 18:05:09 +0200" Modified="2022-10-28 18:17:31 +0200">
                     <Title>Discussion, conclusions &amp; future work</Title>
                     <MetaData>
                         <LabelID>5</LabelID>
                         <StatusID>1</StatusID>
                         <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>134,0</NotesTextSelection>
                         <CustomMetaData>
                             <MetaDataItem>
                                 <FieldID>who</FieldID>
@@ -656,7 +657,7 @@
                     </MetaData>
                     <TextSettings>
                         <TextMode>Script</TextMode>
-                        <TextSelection>5211,0</TextSelection>
+                        <TextSelection>4936,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="D495D988-5D26-4D00-B72A-336EBC712546" Type="Text" Created="2022-02-02 11:40:02 +0100" Modified="2022-07-20 17:22:17 +0200">
@@ -1742,12 +1743,12 @@
     </ProjectBookmarks>
     <ProjectTargets Notify="Yes">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-04-24 02:00:00 +0200" IgnoreDeadline="Yes">14000</DraftTarget>
-        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2022-10-16 01:00:00 +0200" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="230" Characters="1502" Date="2022-10-15 14:40:31 +0200"/>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2022-10-29 01:00:00 +0200" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="-377" Characters="-2415" Date="2022-10-28 18:05:34 +0200"/>
     </ProjectTargets>
-    <RecentWritingHistory Date="2022-10-15 00:00:00 +0200">
-        <DraftWordCount>230</DraftWordCount>
-        <DraftCharCount>1502</DraftCharCount>
+    <RecentWritingHistory Date="2022-10-28 00:00:00 +0200">
+        <DraftWordCount>-377</DraftWordCount>
+        <DraftCharCount>-2415</DraftCharCount>
         <OtherWordCount>0</OtherWordCount>
         <OtherCharCount>0</OtherCharCount>
     </RecentWritingHistory>
