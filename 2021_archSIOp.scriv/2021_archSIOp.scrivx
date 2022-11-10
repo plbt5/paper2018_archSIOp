@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="8C0780B1-25E9-4144-94AF-7E1CFBE0056E" Version="2.0" Creator="SCRMAC-3.2.3-14869" Device="Pauls-MacBook-Pro" Author="Paul Brandt" Modified="2022-11-10 16:35:29 +0100" ModID="5D5163FD-7FE4-411F-B524-6C1166012397">
+<ScrivenerProject Identifier="8C0780B1-25E9-4144-94AF-7E1CFBE0056E" Version="2.0" Creator="SCRMAC-3.2.3-14869" Device="Pauls-MacBook-Pro" Author="Paul Brandt" Modified="2022-11-10 19:05:47 +0100" ModID="65CF56FD-3C28-41DF-A868-78154303DAF1">
     <Binder>
         <BinderItem UUID="AC0E4C16-84DD-46A8-978B-4E68660C32A1" Type="Text" Created="2018-01-09 02:27:13 +0100" Modified="2022-10-13 14:45:56 +0200">
             <Title>Pandoc metadata</Title>
@@ -235,7 +235,7 @@
                         </CustomMetaData>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>8748,0</TextSelection>
+                        <TextSelection>11989,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="72A16B35-CC3A-4148-B226-4BDD855A4808" Type="Text" Created="2018-05-25 17:59:48 +0200" Modified="2022-09-09 12:16:50 +0200">
@@ -411,7 +411,7 @@
                                 <TextSelection>279,0</TextSelection>
                             </TextSettings>
                             <Children>
-                                <BinderItem UUID="90BD6741-9798-4F7C-AD36-C9AC1C31CA44" Type="Text" Created="2022-08-12 12:51:12 +0200" Modified="2022-11-03 17:55:28 +0100">
+                                <BinderItem UUID="90BD6741-9798-4F7C-AD36-C9AC1C31CA44" Type="Text" Created="2022-08-12 12:51:12 +0200" Modified="2022-11-10 18:58:35 +0100">
                                     <Title>Engineering semantic scalability</Title>
                                     <MetaData>
                                         <LabelID>5</LabelID>
@@ -420,7 +420,7 @@
                                         <NotesTextSelection>810,0</NotesTextSelection>
                                     </MetaData>
                                     <TextSettings>
-                                        <TextSelection>4622,47</TextSelection>
+                                        <TextSelection>4410,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
                                 <BinderItem UUID="F06D6B80-0546-424C-B04F-D54BE560882C" Type="Text" Created="2022-08-12 13:20:04 +0200" Modified="2022-10-26 20:41:23 +0200">
@@ -451,7 +451,7 @@
                         <TextSelection>763,0</TextSelection>
                     </TextSettings>
                     <Children>
-                        <BinderItem UUID="79F3E658-539C-43F5-98B5-4F4E7A3ACED6" Type="Text" Created="2022-09-28 21:33:03 +0200" Modified="2022-09-30 14:42:28 +0200">
+                        <BinderItem UUID="79F3E658-539C-43F5-98B5-4F4E7A3ACED6" Type="Text" Created="2022-09-28 21:33:03 +0200" Modified="2022-11-10 18:01:21 +0100">
                             <Title>Formulating the concern</Title>
                             <MetaData>
                                 <LabelID>5</LabelID>
@@ -459,7 +459,7 @@
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>193,0</TextSelection>
+                                <TextSelection>1195,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
                         <BinderItem UUID="67942786-741E-4672-9862-1E2D5037457F" Type="Text" Created="2022-09-28 21:31:34 +0200" Modified="2022-10-01 21:20:12 +0200">
@@ -1735,11 +1735,11 @@
     <ProjectTargets Notify="Yes">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-04-24 02:00:00 +0200" IgnoreDeadline="Yes">14000</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2022-11-11 00:00:00 +0100" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="46" Characters="254" Date="2022-11-10 16:24:53 +0100"/>
+        <PreviousSession Words="137" Characters="845" Date="2022-11-10 16:24:53 +0100"/>
     </ProjectTargets>
     <RecentWritingHistory Date="2022-11-10 00:00:00 +0100">
-        <DraftWordCount>46</DraftWordCount>
-        <DraftCharCount>254</DraftCharCount>
+        <DraftWordCount>137</DraftWordCount>
+        <DraftCharCount>845</DraftCharCount>
         <OtherWordCount>0</OtherWordCount>
         <OtherCharCount>0</OtherCharCount>
     </RecentWritingHistory>
