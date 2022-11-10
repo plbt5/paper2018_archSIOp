@@ -1,6 +1,6 @@
-BUILD_DIR := BUILD
+BUILD_DIR := BUILDDIR
 PROJ := 2022_archSIOp
-ltx_files = $(PROJ).aux $(PROJ).bbl $(PROJ).blg $(PROJ).fdb_latexmk $(PROJ).fls $(PROJ).log $(PROJ).out $(PROJ).spl $(PROJ).thm $(PROJ).xdv
+LATEX_FILES = $(PROJ).aux $(PROJ).bbl $(PROJ).blg $(PROJ).fdb_latexmk $(PROJ).fls $(PROJ).log $(PROJ).out $(PROJ).spl $(PROJ).thm $(PROJ).xdv
 
 $(PROJ).pdf: results/$(PROJ).tex src/docs/$(PROJ).md
 	rm -f ./$(BUILD_DIR)/$(PROJ).pdf
@@ -15,4 +15,4 @@ src/docs/$(PROJ).md:
 	exit 1 
 
 clean:
-	rm -f ./$(BUILD_DIR)/$(ltx_files) src/docs/$(PROJ).md
+	rm -f $(foreach ltx_files,$(LATEX_FILES),./$(BUILD_DIR)/$(ltx_files)) src/docs/$(PROJ).md results/$(PROJ).tex
