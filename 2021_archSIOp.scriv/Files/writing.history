@@ -88,5 +88,10 @@
     <Day dwc="230" dcc="1502" owc="0" occ="0">2022-10-15</Day>
     <Day dwc="-377" dcc="-2415" dtwc="15127" owc="0" occ="0" dtcc="104753">2022-10-28</Day>
     <Day dwc="80" dcc="616" dtwc="15207" owc="0" occ="0" dtcc="105369">2022-11-03</Day>
-    <Day dwc="46" dcc="256" owc="0" occ="0">2022-11-10</Day>
+    <Day dwc="137" dcc="845" dtwc="0" owc="0" occ="0" dtcc="0">2022-11-10</Day>
+    <Day dwc="39" dcc="257" dtwc="15383" owc="0" occ="0" dtcc="106471">2022-11-14</Day>
+    <Day dwc="-31" dcc="-204" dtwc="0" owc="0" occ="0" dtcc="0">2022-11-23</Day>
+    <Day dwc="48" dcc="349" owc="0" occ="0">2022-11-24</Day>
+    <Day dwc="59" dcc="516" owc="0" occ="0">2022-12-01</Day>
+    <Day dwc="7" dcc="71" owc="0" occ="0">2022-12-14</Day>
 </WritingHistory>

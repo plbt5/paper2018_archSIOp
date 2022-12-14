@@ -8,16 +8,16 @@
 \f0\fs24 \cf0 The separation of (semantic) concerns leads to distinct responsibilities for the software agents and the semantic mediator in support of the business collaboration. The mediator takes the responsibility to:\
 \
 * encapsulate collective semantics in a separate mediator object\
-* respect\AppleTypeServicesU1  the topology of collaboration, i.e., the way that the agents and their conversations are organised during their collaboration\AppleTypeServicesU0 \
+* respect\AppleTypeServicesU1  / implement the topology of collaboration, i.e., the way that the agents and their conversations are organised during their collaboration\AppleTypeServicesU0 \
 * scope a mediation (bind one mediatior instance) to conversations that show high coherence and low coupling, providing that a single collaboration can encompass multiple conversations. \
 \
-These responsibilities encapsulate the complexity of the semantics involved in business collaboration into a single central component, abstracting it away from the individual involved agents. At the same time, the software agents remain responsible for:\
+{\field{\*\fldinst{HYPERLINK "scrivcmt://B00D4FE1-7145-4069-BC71-DF801B9D3578"}}{\fldrslt These responsibilities encapsulate the complexity of the semantics involved in business collaboration into a single central component}}, abstracting it away from the individual involved agents. At the same time, the software agents remain responsible for:\
 \
 1. managing the evolution of its own semantics;\
 2. adaptation of its pragmatic meaning when exchanged semantic meaning is extended to other perspectives or purposes that is of interest for the business that it facilitates;\
 3. managing the alignments that apply for collaboration with the other agents.\
 \AppleTypeServicesU1 \
-The capabilities identified in \\cref\{formulating-the-concern\}, transcription and coordination, are realised by the semantic mediator, and provides additional support to the scalability concern, \\cref\{
+The capabilities identified in \\cref\{formulating-the-concern\}, i.e., transcription and coordination, are realised by the semantic mediator. This implies that the mediator becomes another actor in the semantic protocol in order to realise its responsibilities. The protocol should allow the mediator to escalate when alignments are incomplete towards a \AppleTypeServicesU0 mechanical reconciliation process on a bounded set of semantic differences by, e.g., ontology negotiation [@Diggelen:2007vd;@Diggelen:2006en;@Wang2010;@Zhu2019], or ontology alignment [@Euzenat:2013ie;@Silva2005]. And when mechanical reconciliation fails, the protocol should allow the mediator to revert to escalating the reconciliation to a human in the loop (\\cref\{semantic-reconciliation\}) and defer any further collaboration.\AppleTypeServicesU1  Furthermore, the protocol must provide additional support to the scalability concern, \\cref\{
 \fs22 cncrn:scalability\}, as follows.
 \fs24 \
 \
