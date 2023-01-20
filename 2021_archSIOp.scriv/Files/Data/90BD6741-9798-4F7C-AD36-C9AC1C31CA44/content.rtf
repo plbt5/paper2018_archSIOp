@@ -1,70 +1,22 @@
 {\rtf1\ansi\ansicpg1252\cocoartf2639
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;\f1\fswiss\fcharset0 Helvetica;\f2\fmodern\fcharset0 CourierNewPS-BoldMT;
-\f3\fmodern\fcharset0 CourierNewPS-ItalicMT;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \deftab720
 \pard\pardeftab720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \\Cref\{d
+\f0\fs24 \cf0 Based on above engineering principles, we investigate the extent to which they support semantic scalability. \
+\\Cref\{d
 \fs22 \AppleTypeServicesU1 ef:semantic-scalability
-\fs24 \AppleTypeServicesU0 \} requires to allow to adopt or consolidate additional semantic perspectives or more complicated semantic heterogeneity without compromising sIOP. This has ramifications for the pragmatic meaning, because it might:\
+\fs24 \AppleTypeServicesU0 \} (semantic scalability) requires to allow software agents to adopt or consolidate additional semantic perspectives or more complicated semantic heterogeneity without compromising sIOP. This has ramifications for the pragmatic meaning, because it might:\
 \
 * extend the purpose of the collaboration, either by adding different details to the existing purpose, or by adding new goals that are to be achieved by it;\
 * require to consider new background knowledge to improve on one\'92s comprehension of the situation, or on one\'92s ability to achieve the purpose of the collaboration;\
 * include other contexts within which the collaboration is to happen as well.\
 \
-Clearly, a semantic perspective is intimately related to the pragmatic meaning, in the sense that the latter is a causal consequence of the former. Adding another semantic perspective to a collaboration implies, therefore, that the pragmatic meaning of the DSC might change. Its first engineering consequence is the need to separate the pragmatic meaning from the semantic meaning in order to minimise the impact of those changes to the semantic meaning and the other agent behaviour. In this way, pragmatic meaning can reuse existing or introduce new semantic meaning explicitly, improving semantic scalability. This design principle has already been identified and elaborated in \\cref\{semantics-in-software\}. \
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-\pard\pardeftab720\pardirnatural\partightenfactor0
-\cf0 Semantic scalability demands support for *loosely coupled semantics*. As analogy to loosely coupled semantics, consider a vehicle with its cargo. Logistics rely on external vehicle exchange services that allow the cargo to be transported over different vehicles, exchanging vehicles throughout the transport: a truck for an aircraft for a ship for a truck again, without ruining the cargo. This requires the cargo to be firmly connected to the vehicles, but at the same time to remain completely independent from any particular vehicle in order to complete the transport. When software agents interact, they exchange semantic meaning. Loosely coupled semantics implies that the semantic meaning (the cargo) remains as independent from the representation of semantics (the vehicle) as possible. Similarly to logistics, sIOP should rely on infrastructural services that can transcribe the semantic representation (vehicle exchange services) from its native syntax into a foreign syntax without invalidating the semantic meaning that it bears. Loose coupling is known as a strong principle that brings about many advantages. This holds for its semantic reading as well: agents (i) can communicate in their own native representations without the need to learn or integrate foreign representations; (ii) need to define semantics only once for a particular DoA, and use it in concert with every software agent that operates in that DoA; (iii) can define their semantic representations in isolation from global semantics and geared to fit their particular domain and application(s); and (iv) can re-use available, local semantics, improving the economic value of local semantics throughout their lifetime. Moreover, since re-use implies another confrontation with reality, (v) the quality of the local semantics will improve over time.\
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-Loose coupling in the classical sense is realised through the principles of separation of concerns and transparency. \
-\
-In its original reading, 
-\f1 <$Scr_Cs::1>
-\f2\b separation of concerns
-\f1\b0 <!$Scr_Cs::1>
-\f0  turns complex functionalities into simple, atomic and complementary functional capabilities, each showing high internal cohesion and few, preferably none, external dependencies. In a semantic reading, the first aspect of separation of concerns refers to providing complementary and atomic functionalities about data comprehension and business collaboration. 
-\f1 <$Scr_Cs::2>
-\f3\i Data comprehension
-\f1\i0 <!$Scr_Cs::2>
-\f0  measures its validity and success in terms of being able to reconstruct, for all semantic meaning that it receives, all semantic reciprocities that are involved by those ASMs that are addressed by the semantic meaning that the data represent. Such comprehension process requires its own protocol (\\cref\{dp:spp\}) to, e.g., request for semantic meaning that is missing from the DSC\'92s ASMs. 
-\f1 <$Scr_Cs::2>
-\f3\i Business collaboration
-\f1\i0 <!$Scr_Cs::2>
-\f0  concerns are about facilitating (business) conversations that constitute the collaboration, the validity and success of which is measured in terms of the SoAs that have (or have not) been achieved. We define a business conversation as follows:\
-\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\pardeftab720\sl288\slmult1\partightenfactor0
-
-\f1 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
-\f0\fs22 \\begin\{mmdef\}[Business conversation]\\label\{def:business-conversation\}\
-  A business conversation \AppleTypeServicesU0 denotes an exchange of semantic meaning between software agents within the context of a particular business collaboration. The purpose of a conversation is to achieve a prescribed result that contributes to the shared objective of the collaboration. The shared objective refers to a particular (set of) state(s) of affairs in the mutual DoA. Such conversation transpires using data communication processes to exchange semantic meaning, and data comprehension processes to select relevant behaviour towards the shared objective.\AppleTypeServicesU1 \
-\\end\{mmdef\} \AppleTypeServicesU0 \
-\pard\pardeftab720\partightenfactor0
-
-\f1\fs24 \cf0 <!$Scr_Ps::0>
-\f0 \
-In this reading, a business conversation shows similarity with a workflow since it identifies stakeholders, their role as DSP or DSC, the semantic meaning to exchange between them, and the conditions and/or pragmatic meaning that must be met before the proper actions can be taken. Where a business conversation addresses one or more intermediate results, a business collaboration specifies a choreography of business conversations and their intermediate results with the sole purpose to achieve the objective that is shared between the stakeholders.\
-We propose \\cref\{dp:ssoc\}, semantic separation of concerns (which includes aspects from \\cref\{semantic-mediation\}). \
-\
-The classical reading on 
-\f1 <$Scr_Cs::1>
-\f2\b transparency
-\f1\b0 <!$Scr_Cs::1>
-\f0  separates access to the unique functions from the particular design and implementation of those functions. Remaining agnostic to *how* its functions are achieved makes it possible to communicate with minimal mutual dependency. Semantic transparency, or terminological transparency, remains agnostic to how semantics are *represented* and *conceptualised*, which makes it possible to communicate with minimal syntactic dependency, without prior mutual agreements on semantic representation, and without access to background knowledge that applies to the conceptualisation. By representing the result of the reconciliation as an alignment between ontologies, the influence of semantics from collaborating agents on one\'92s own semantics is minimised. An alignment, thus, functions as an interface that enforces semantic transparency between communicating peers. Consequently, the need emerges for a semantic oracle that knows how to align distinct representations, which is exactly the responsibility of the human in the loop as augmenting authority, discussed in \\cref\{semantic-reconciliation\}. \
-\
-In its classical reading, transparency also requires standard API\'92s where the semantics of each parameter is defined carefully. API\'92s are to be similarly defined for semantic transparency, but since the parameter values that are passed 
-\f1 <$Scr_Cs::2>
-\f3\i carry semantic meaning
-\f1\i0 <!$Scr_Cs::2>
-\f0 , the parameters\'92 definitions need to be 
-\f1 <$Scr_Cs::2>
-\f3\i about
-\f1\i0 <!$Scr_Cs::2>
-\f0  semantics, i.e., at the meta-level, in order to maintain the separation between semantics and syntax. Additionally, semantic transparency implies the need to transcribe between different representations, preferably by the infrastructure. We defer how this can be achieved to \\cref\{roadway-mediation-concerns\}. We propose \\cref\{dp:st\} to cater for semantic transparency.\
+Clearly, a semantic perspective is intimately related to the pragmatic meaning, in the sense that the latter is a causal consequence of the former. Adding another semantic perspective to a collaboration implies, therefore, that the pragmatic meaning of the DSC might change. The first engineering consequence to consider is the need to separate the pragmatic meaning from the semantic meaning in order to minimise the impact of those changes to the semantic meaning and the other agent behaviour. In this way, new pragmatic meaning can be created by modifying or extending an existing ASM, or creating a new ASM, only by adding existing or introducing new semantic meaning to it. This already improves semantic scalability, and is a new argument in favour of an already existing design principle, identified and elaborated in \\cref\{semantics-in-software\}, item 3. The second engineering consequence is to minimise the engineering effort required to realise new achievement behaviour, which implies new achievement processes: an alternative start conclusion and/or new way to achieve an existing goal, or a new goal that requires a new achievement process.  \
 \
 \
+\
+To that end, we separate two independent situational dimensions, viz dynamics in stakeholders that contribute to the business collaboration at the one hand, and variation in their perspectives on the DoA on the other. We assume that each stakeholder contributes to (part of) the collaboration. We consider semantic heterogeneity between them, hence each stakeholder is represented by a software agent with its own domain model. We further assume overlap between the DoAs of the different stakeholders, with the consequence that the subject of collaboration is constituted by the overlaps in DoAs as spanned by the stakeholders. We start with the simple case, a static set of stakeholders that share an equivalent perspective. \
 }

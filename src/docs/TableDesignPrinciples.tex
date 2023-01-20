@@ -162,7 +162,11 @@
   \item On processing (external) data, semantics manifest themselves as the reciprocity between semantic meaning (carried by data) and pragmatic meaning (carried by processing code);
   \item The purpose of semantic reconciliation is to establish semantic coherence between the DSP's semantic meaning and the DSC's pragmatic meaning, as specified by the DMs of the software agents;
   \item Formalising a correspondence relation between the semantic meanings of interoperating software agents effectively connects the external semantic meaning with the internal pragmatic meaning, providing semantic coherence to exist already by the DSC;
-  \item Assuring that the internal (DSC's) semantic meaning encompasses the external (DSP's) semantic meaning, and assuring that the semantic consequences of the latter extending the former are (or can be made) insignificant for the DSC's existing semantic coherence, are sufficient conditions to consolidate the semantic validity of the correspondence relation and, hence, enable sIOP.
+  \item Check the existence of one of the two sufficient conditions to consolidate the semantic validity of the correspondence relation: 
+  \begin{enumerate}
+    \item The internal (DSC's) semantic meaning encompasses the external (DSP's) semantic meaning, or
+    \item The semantic consequences that result from the absence of the previous condition are (or can be made) insignificant for the DSC's existing semantic coherence.
+  \end{enumerate}
 \end{enumerate}
 &
 \begin{enumerate}[left=10pt, nosep]
@@ -212,7 +216,7 @@
 %% HUMAN EFFICIENCY PRINCIPLE
 %%
 \begin{mmdp}\label{dp:he}{\bfseries Human efficiency principle:}
-\quad When engaging in collaboration with other software agent(s), the human responsibility in semantic reconciliation should, to the extent possible, focus on auditing semantic alignments, and minimize their authoring. Reconciliation tools and available alignment information should be (re-)used maximally.\end{mmdp}
+\quad When engaging in collaboration with other software agent(s), the human responsibility in semantic reconciliation should, to the extent possible, focus on auditing semantic alignments, and minimize their authoring. Maximise the use of reconciliation and auditing tools as well as the reuse of available alignment information.\end{mmdp}
 &
 \begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
 \item[Type of information:] Business, Data, Technology;
@@ -232,6 +236,33 @@
   \item A reconciliation approach based on bilateral alignments only, produces the atomic element from which multi-lateral alignments can be constructed;
   \item A reconciliation approach based on bilateral alignments only, surfaces concerns on scalability and semantic governance for which solutions must be sought before sIOP can exist in multi-stakeholder collaborations;
   \item Semantic alignments direct the required syntactic transcriptions that apply at the communication layer, which can be resolved independently from the semantic meaning and the communication protocol that apply. This can, therefore, be pushed into the infrastructure.
+\end{enumerate} \\
+%
+%
+%
+%%%%%%%%%%%%%%
+%%
+%% BUSINESS CONVERSATION PROTOCOL PRINCIPLE
+%%
+\begin{mmdp}\label{dp:bcpp}{\bfseries Business conversation protocol principle:}
+\quad When it is reasonable to expect that the software agent will be engaged in collaboration or otherwise will interoperate with (an)other software agent(s), the agent should provide the capability to respond to a pragmatic protocol that has the objective to jointly achieve an intermediate business state by conversing with participating agents about how individual stakeholder's SoAs contribute to the shared business state.
+\end{mmdp}
+&
+\begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
+  \item[Type of information:] Business;
+  \item[Quality attributes:] Semantics, interoperability;
+\end{description} \\
+\begin{enumerate}[left=6pt, nosep]
+  \item ;
+  \item ;
+  \item ;
+  \item .
+\end{enumerate}
+&
+\begin{enumerate}[left=10pt, nosep]
+  \item ;
+  \item ;
+  \item .
 \end{enumerate} \\
 %
 %

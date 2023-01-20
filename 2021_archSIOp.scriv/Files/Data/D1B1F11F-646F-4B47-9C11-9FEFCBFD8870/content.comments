@@ -8,13 +8,27 @@
 \pard\pardeftab720\partightenfactor0
 
 \f0\fs24 \cf0 Source: http://catless.ncl.ac.uk/Risks/14/57#subj1, accessed May 20, 2018}]]></Comment>
+    <Comment ID="92E51B48-0D49-47C1-B47E-C0495402BEEE" Author="Paul Brandt" Footnote="Yes" Color="0.949769 0.949769 0.949769"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 In the remainder of the paper we will use the terms RWS, semantics and real-world semantics interchangeably.}]]></Comment>
+    <Comment ID="AE74DFD5-F8B5-45EA-BA0D-EA9A584F1B15" Author="Paul Brandt" Color="0.99913 0.954826 0.756384"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cspthree\c0\c0\c0;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Paul Brandt 05/01/2023, 
+\fs28 \cf2 Hangt af van bijdrage van Eric. }]]></Comment>
     <Comment ID="98EEE1B2-BFE6-4869-8F15-CE0AE4AE9960" Author="Paul Brandt" Color="0.99913 0.954826 0.756384"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2639
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
 {\*\expandedcolortbl;;\cspthree\c0\c0\c0;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 Twan Basten 16/05/2022, 
-\fs28 \cf2 Claim je nu alleen een Viewpoint (zoals hier) of een Viewpoint en View (als in abstract)?\
-PB: Hangt af van bijdrage van Eric. Dan ook in abstract aanpassen.}]]></Comment>
+\f0\fs24 \cf0 Idem. 
+\fs28 \cf2 Dan ook in abstract aanpassen.}]]></Comment>
 </Comments>

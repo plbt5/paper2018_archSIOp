@@ -6,21 +6,23 @@
 \deftab720
 \pard\pardeftab720\partightenfactor0
 
-\f0\fs24 \cf0 Never before, data were so ubiquitous, and managed access to external data was so easy. But *understanding precedes use*, and understanding the data requires a human in the loop. Therefore, semantic interoperability (sIOP) is time consuming and hampers agility in business collaboration in all domains. The most disconcerting consequences of a lack of (automated) sIOP are time-to-deliver, seemingly correct but quite invalid data comprehension that leads to faulty system behaviour, and received data for which no fit exists in the local data schema. For instance, consider the following example of an interoperability failure.\
+\f0\fs24 \cf0 Never before, data were so ubiquitous, and managed access to external data was so easy. But *understanding precedes use*, and understanding the data requires a human in the loop. Therefore, semantic interoperability (sIOP) is time consuming and hampers agility in business collaboration in all domains. The European Interoperability Framework (EIF)[@EU-ISA2Program2017], the European Interoperability Reference Architecture (EIRA) [@EU-ISA2Program2019] and the FAIR principles [@Wilkinson2016] are three typical examples of contemporary guidelines towards sIOP, recommending, amongst others, the separation of syntactical from semantic concerns. Indeed, this is a valid recommendation that we support. In itself, though, it renders insufficient as to the practice of how to achieve such separation. This paper presents a principled approach to that practice. It is our intention with this paper to stimulate the discussion on how to surface domain-independent and standard semantic services and APIs that, once adopted, can be embedded into the ICT infrastructure. \
+\
+The most disconcerting consequences of a lack of (automated) sIOP are time-to-deliver, seemingly correct but quite invalid data comprehension that leads to faulty system behaviour, and received data for which no fit exists in the local data schema. For instance, consider the following example of an interoperability failure.\
 \
 > A German steel producer upgraded its industrial process robot. Since the majority of the steel production process is dependent on time, from a safety point of view the decision was made to not rely on their own internal clocks but to use the German *Braunschweig Funkuhr* time radio signal as source for the exact time instead. At the end of April 1993, when Germany went on summer time, the computer clock of the steel producer went from 1:59 AM to 3:00 AM in one minute. This resulted in a production line allowing molten ingots to cool for one hour less than normal. When the process controller asserted the cooling time had expired, its actions splattered still-molten steel, damaging part of the {\field{\*\fldinst{HYPERLINK "scrivcmt://A8AB84D2-8C28-4923-8516-C57012DCFBB7"}}{\fldrslt facility.}}\
 \
-In this simple example, a tiny difference in the meaning of `time` between the Data Service Consumer (DSC), i.e., steel manufacturer, and the Data Service Producer (DSP), i.e., the Braunschweig Funkuhr, hampered interoperability to the extent of damaging the steel facility. This tiny difference rooted in the assumption by the DSC that `time` expressed a continuum whilst for the DSP, `time` denoted instant clock time for the yearly season, allowing seasonal corrections. \
+In this simple example, a tiny difference in the meaning of `time` between the Data Service Consumer (DSC), i.e., steel manufacturer, and the Data Service Producer (DSP), i.e., the Braunschweig Funkuhr, hampered semantic interoperability to the extent of damaging the steel facility. This tiny difference rooted in the assumption by the DSC that `time` expressed a continuum whilst for the DSP, `time` denoted instant clock time for the yearly season, allowing seasonal corrections. \
 \
-sIOP refers to the shared and unambiguous understanding of data among socio-technical systems, i.e., systems that have a social part (human agents) and a technical part (software agents). We assume that the data is exchanged between these social-technical systems using an IT infrastructure comprising data communication networks (such as the Internet). sIOP, a property of systems-of-systems, is typically implemented with solutions that have a social and a technical component. In order to provide instant and efficient sIOP, the social component (required manual effort from human agents) should be minimised. The technical component must ensure that the processing of data is in line with the semantic definition of the data, and vice versa. We refer to this as (semantic) reciprocity between data and processing, and acknowledge that reciprocity is a challenge when data is exchanged between a source system that defined the data and a destination system that uses the data.\
+sIOP refers to the shared and unambiguous understanding of data among socio-technical systems, i.e., systems that have a social part (human agents) and a technical part (software agents). We assume that the data is exchanged between these social-technical systems using an IT infrastructure comprising data communication networks (such as the Internet). sIOP, a property of systems-of-systems, is typically implemented with solutions that have a social and a technical component. In order to provide instant and efficient sIOP, the social component (required manual effort from human agents) should be minimised. The technical component must ensure that the processing of data is in line with the semantic definition of the data, and vice versa. We refer to this as (semantic) reciprocity between data and processing, and acknowledge that reciprocity is a challenge when data are exchanged between a source system that produces the data and a destination system that consumes the data.\
 \
 Data represents a certain state of affairs (SoA) in the domain of application (DoA), and the purpose of sIOP is to communicate that SoA such that the DSC can act on it. Unfortunately, between the DSP and the DSC, variations may exist in terms, structures, dimensions and other background knowledge about the exchanged data. Consequentially, one datum might refer to two differently perceived SoAs, deceiving the DSC about its perceived SoA, leading to conclusions that cannot be substantiated in the DoA and, subsequently, to incorrect behaviour. In order to achieve that DSCs can correctly *use* DSPs\'92 data, the need exists to design and implement wrappers that reconcile any differences in SoAs that emerge from the data. Many such differences exist, leading to a range of failures in sIOP. Unfortunately, it is fundamentally impossible to automate the production of wrappers, because we need a genuine *understanding* upfront, which computers still cannot do. When we accept the need for a human in the loop, her place in architecture becomes a design choice. Like [@Kuhn2009], and as opposed to a philosophical or linguistic problem, we consider semantic interoperability an engineering problem that aims at constraining interpretations towards those that are intended, producing engineering artefacts that can carry sIOP.\
 \
-Current sIOP implementations are essentially based on the (time-consuming) process of establishing a shared convention on the semantics of the data that are exchanged, and require custom software solutions and collaboration-dependent software adaptations. Indeed, such conventions result in a pleasant semantic homogeneity, but also in large semantic monoliths that resolve some but not all interoperability problems [@Renner1996]. And it makes dealing with data that originates outside the monolith impossible, unless again a time-consuming semantic adoption process is applied. Worse, sIOP between different but equally legitimate perspectives on reality, denoted 
+Current sIOP implementations are essentially based on the (time-consuming) process of establishing a shared syntactical convention on real-world {\field{\*\fldinst{HYPERLINK "scrivcmt://92E51B48-0D49-47C1-B47E-C0495402BEEE"}}{\fldrslt semantics (RWS)}} that the data that are exchanged, refers to. This requires custom software solutions and collaboration-dependent software adaptations. Indeed, such conventions result in a pleasant semantic homogeneity, but also in semantic monoliths encompassing the stakeholders applications and data sources. This resolve some but not all interoperability problems [@Renner1996]. And it makes dealing with data that originates outside the monolith impossible, unless again a time-consuming semantic adoption process is applied. Worse, sIOP between different but equally legitimate perspectives on reality, denoted 
 \f1 <$Scr_Cs::1>
 \f2\i semantic heterogeneity
 \f1\i0 <!$Scr_Cs::1>
-\f0 , is difficult \'97 if not impossible \'97 to achieve on the basis of semantic homogeneity; this would result in a very complex semantic standard. In view of the large uptake of the Internet, the Internet of Things (IoT), cloud computing and big data, and in view of economical pressure to intensify enterprise collaboration, we consider an approach towards sIOP based on semantic homogeneity insufficient. We defend the need to cope with semantic heterogeneity and reap its inherent support for semantic variety and accuracy. As opposed to standardising semantics on the domain level, we seek in this heterogeneous paradigm to standardise semantics on the meta-level. That is, we provide the means to talk about semantic differences, their reconciliation and subsequent data transformations on the one hand, and on the other hand about semantic 
+\f0 , is difficult \'97 if not impossible \'97 to achieve on the basis of semantic homogeneity; this would result in a very complex semantic standard. In view of the large uptake of the Internet, the Internet of Things (IoT), cloud computing and big data, and in view of economical pressure to intensify business collaboration, we consider an approach towards sIOP based on semantic homogeneity insufficient. We defend the need to cope with semantic heterogeneity and reap its inherent support for semantic variety and accuracy. As opposed to standardising semantics on the domain level, we seek in this heterogeneous paradigm to standardise semantics on the meta-level. That is, we provide the means to talk about semantic differences, their reconciliation and subsequent data transformations on the one hand, and on the other hand about semantic 
 \f1 <$Scr_Cs::1>
 \f2\i scalability
 \f1\i0 <!$Scr_Cs::1>
@@ -53,10 +55,16 @@ The main
 \f1\i0 <!$Scr_Cs::1>
 \f0  approach. \
 \
-\
-Metaphorically speaking, we consider sIOP a 
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf0 <$Scr_Cs::2>
+\f3\b Methodologically
+\f1\b0 <!$Scr_Cs::2>
+\f0 , our approach is depicted in \\cref\{
+\fs22 \AppleTypeServicesU1 fig:concernsa
+\fs24 \AppleTypeServicesU0 \}. We first distinguish three main concerns when addressing sIOP: Semantic concerns (\\cref\{anchorage-semantic-concerns\}), reconciliation concerns (\\cref\{spanning-reconciliation-concerns\}) and mediation concerns (\\cref\{roadway-mediation-concerns\}). We elaborate on these and formulate specific, tangible subconcerns that we consider quintessential to overcome in order to consolidate sIOP. We investigate each concern and propose design principles (DPs) to their alleviation. Throughout these investigations, we collect the DPs in \\cref\{tab:dps\} at the end of the paper, structured according to [@Greefhorst2011]. Finally, we operationalise the DPs by the formulation of a sIOP viewpoint (\\cref\{iso42010-viewpoint-on-siop\}). Metaphorically speaking, we consider sIOP a 
 \f2\i bridge
-\f0\i0  overarching a semantic gap: with *anchorages* (local, tangible semantics) on each side of the gap, with a *spanning* (semantic reconciliation, semantic alignments) resting on them to structurally (semantically) support the interoperability bridge, and with a *roadway* (semantic mediation) enabling the crossing of the traffic (data). Architectural *principles* provide the necessary guidance to the architect for the various design decisions that effectively result in a particular bridge over a particular semantic gap. \
+\f0\i0  overarching a semantic gap (\\cref\{fig:concernsb\}): with *anchorages* (local, tangible semantics) on each side of the gap, with a *spanning* (semantic reconciliation, semantic alignments) resting on them to structurally (semantically) support the interoperability bridge, and with a *roadway* (semantic mediation) enabling the crossing of the traffic (data). ~~Architectural *principles* provide the necessary guidance to the architect for the various design decisions that effectively result in a particular bridge over a particular semantic gap.~~ \
 \
 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\pardeftab720\sl288\slmult1\partightenfactor0
@@ -64,23 +72,22 @@ Metaphorically speaking, we consider sIOP a
 \f1 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
 \f0\fs22 \\begin\{figure\}\
   \\centering\
-  \\begin\{subfigure\}[b]\{0.95\\linewidth\}\
-    \\centering\
-    \\includegraphics[width=.5\\textwidth]\{src/images/OverviewPaper\}\
+  \\begin\{subfigure\}[b]\{0.75\\linewidth\}\
+    \\includegraphics[width=\\textwidth, left]\{src/images/OverviewPaper\}\
     \\caption\{\}\\label\{fig:concernsa\}\
     \\vspace\{.5cm\}\
+  \\end\{subfigure\}%\
+  \\begin\{subfigure\}[b]\{0.25\\linewidth\}\
+    \\includegraphics[width=\\textwidth, right, top]\{src/images/OverviewLegend\}\
   \\end\{subfigure\}\
   \\begin\{subfigure\}[b]\{0.75\\linewidth\}\
-    \\centering\
-    \\includegraphics[width=\\textwidth]\{src/images/3SemanticConcerns\}\
+    \\includegraphics[width=\\textwidth, left]\{src/images/3SemanticConcerns\}\
     \\caption\{\}\\label\{fig:concernsb\}\
   \\end\{subfigure\}%\
   \\begin\{subfigure\}[b]\{0.25\\linewidth\}\
-    \\centering\
-    \\includegraphics[width=\\textwidth]\{src/images/3concernsLegend\}\
-    \\caption\{\}\\label\{fig:concernsc\}\
+    \\includegraphics[width=\\textwidth, right, ]\{src/images/3concernsLegend\}\
   \\end\{subfigure\}\
-  \\caption\{Overview of relationships between concerns, DPs and the sIOP Viewpoint, (a); Conceptual overview of the relationships in sIOP between the anchorage (conceptual modelling), its spanning (semantic reconciliation) and roadway (semantic mediation), (b); and a legend explaining the used constructs, (c).\}\\label\{fig:semantic-concerns\}\
+  \\caption\{Overview of relationships between concerns, DPs and the sIOP Viewpoint, with their position in the paper, (a); Conceptual overview of the relationships in sIOP between the anchorage (conceptual modelling), its spanning (semantic reconciliation) and roadway (semantic mediation), (b).\}\\label\{fig:semantic-concerns\}\
 \\end\{figure\}
 \f1\fs20 \
 \pard\pardeftab720\partightenfactor0
@@ -94,36 +101,28 @@ Metaphorically speaking, we consider sIOP a
 \f1 <$Scr_Cs::2>
 \f3\b contributions
 \f1\b0 <!$Scr_Cs::2>
-\f0  to consolidating semantic interoperability in software architectures are fourfold; elaborating three main concerns (depicted in \\cref\{fig:concernsb\}) and the application of derived principles into an ISO42010 Viewpoint:\
+\f0  to consolidating semantic interoperability in software architectures are fourfold; elaborating three main concerns with their alleviating DPs, and operationalising them into {\field{\*\fldinst{HYPERLINK "scrivcmt://AE74DFD5-F8B5-45EA-BA0D-EA9A584F1B15"}}{\fldrslt an ISO42010 Viewpoint}}:\
 \
 * 
 \f1 <$Scr_Cs::1>
 \f2\i Semantic concerns (anchorage)
 \f1\i0 <!$Scr_Cs::1>
-\f0 : Semantic preparations are required for an agent to be able to engage in semantic interoperability. Canonical data representations and semantic standards are founded on semantic homogeneity to apply. While this approach has its position in sIOP, we consider semantic heterogeneity to exist for good reasons, such as demands for semantic diversity, accuracy, variability and evolvability. We establish what is meant with semantics in software, defend the need for sIOP to address the concern of semantic heterogeneity and derive principles as to its support (\\cref\{anchorage-semantic-concerns\});\
+\f0 : With real-world semantics (RWS), we refer to the indirect relation that exist between the data syntax and an entity that is carved out from reality in a particular way according to our human conceptualisation. For software, however, semantic preparations are required for an agent to be able to engage in semantic interoperability. Canonical data representations shared as semantic standards are often applied to capture data semantics, an approach founded on enforcing semantic homogeneity. While this approach has its position in sIOP, we consider semantic heterogeneity to exist for good reasons, such as demands for semantic diversity, accuracy, variability and evolvability. Elaborating on this concern, we establish what is meant with semantics in software, defend the need for sIOP to address the concern of semantic heterogeneity and derive principles as to its support (\\cref\{anchorage-semantic-concerns\});\
 * 
 \f1 <$Scr_Cs::1>
 \f2\i Reconciliation concerns (spanning)
 \f1\i0 <!$Scr_Cs::1>
-\f0 : Since computers remain incapable of genuine understanding, sIOP remains in demand of human intervention in order to reconcile the semantic differences between collaborating software agents. Unfortunately, human intervention is time consuming. We establish principles to minimise human intervention to a level that suffices to achieve sIOP (\\cref\{spanning-reconciliation-concerns\});\
+\f0 : Semantic reconciliation denotes the (design time) alignment of semantic differences that exist between stakeholders involved in business collaboration. It is a consequential capability to develop when assuming semantic heterogeneity. Since computers remain incapable of genuine understanding, semantic reconciliation becomes a concern because sIOP remains in demand of human intervention to produce a semantic alignment. Unfortunately, human intervention is time consuming, and we therefore investigate the minimum required human involvement. We conclude that the reconciliation effort is causally dependent on the design of the business collaboration, while it can be minimised by lifting the alignent to the conceptual level. Additionally, semantic reconciliation gives rise to scalability concerns in highly dynamic collaboration environments. We propose DPs that are founded on the classical principles of separation of concerns and transparency, but apply those on the semantic level. This allows for semantic scalability which results in maintaining sIOP also in a dynamic business context (\\cref\{spanning-reconciliation-concerns\});\
 * 
 \f1 <$Scr_Cs::1>
 \f2\i Mediation concerns (roadway)
 \f1\i0 <!$Scr_Cs::1>
-\f0 : We determine the demands for a generic component that allows for communication with the peer agent in one\'92s own native vocabulary only, by considering both ontological models and the alignment. Such approach applies the principle of *connectivity without dependency* at the semantic level. This consolidates the agent\'92s potential to collaborate with any unforeseen applications, without the need to adopt external semantic definitions, and remain scalable in the process (\\cref\{roadway-mediation-concerns\});\
+\f0 : Mediation refers to transcribing syntax of the exchanged data without altering the semantics that are carried by it. The main concern is to allow for a generic, semantic-independent and fully automated run-time capability to its effect. We determine DPs for a generic capability that allows for communication with the peer agent in one\'92s own native vocabulary only. To that end we consider the application of the classical principle of *connectivity without dependency* at the semantic level. This consolidates the agent\'92s potential to collaborate with any unforeseen applications, without the need to adopt external semantic definitions, and remain scalable in the process (\\cref\{roadway-mediation-concerns\});\
 * 
 \f1 <$Scr_Cs::1>
-\f2\i Application of principles: ISO42010 Architecture Viewpoint
+\f2\i Operationalisation of principles: ISO42010 Architecture Viewpoint
 \f1\i0 <!$Scr_Cs::1>
-\f0 : We verify the applicability of the above concerns and principles by formulating their architectural consequences as a specific ISO42010 sIOP {\field{\*\fldinst{HYPERLINK "scrivcmt://98EEE1B2-BFE6-4869-8F15-CE0AE4AE9960"}}{\fldrslt Viewpoint}} that must consolidate their proper position in the total architecture as corresponding sIOP view. As ISO42010 is considered a set of best practises for architecture description, and therefore is used with architecture frameworks such as MoDAF, TOGAF, DoDAF, RM-ODP and more, we conclude that application of this sIOP Viewpoint to formulate the sIOP View can be considered to consolidate sIOP for contemporary architectural paradigms (\\cref\{iso42010-viewpoint-on-siop\}).\
-\
-Our 
-\f1 <$Scr_Cs::2>
-\f3\b approach
-\f1\b0 <!$Scr_Cs::2>
-\f0 , depicted in \\cref\{fig:concernsa\}, is to formulate specific, tangible concerns that are fundamental to each of the three main concerns (semantics; semantic reconciliation; semantic mediation). We consider these specific concerns the essential problems to overcome in order to consolidate sIOP. To that end, we investigate each concern, oriented towards the production of one or more design princples (DPs) to its alleviation. Throughout these investigations, we collect the DPs in \\cref\{tab:dps\} at the end of the paper, structured according to [@Greefhorst2011]. We validate the DPs\'92 granularity and ability towards their effective support to construct an ISO42010 architectural viewpoint on sIOP. \
-\
-The European Interoperability Framework (EIF)[@EU-ISA2Program2017] and the European Interoperability Reference Architecture (EIRA) [@EU-ISA2Program2019] address sIOP and recommend the separation of syntactical from semantic concerns. Indeed, this is a valid recommendation that we support. In itself, though, it renders insufficient as to the practice of how to achieve such separation. This paper presents a principled approach to that practice. It is our intention with this paper to stimulate the discussion on how to surface domain-independent and standard semantic services and APIs that can be adopted to provide embedding into the communication infrastructure. \
+\f0 : We propose a way to operationalise and apply the above concerns and principles by formulating their architectural consequences as a specific ISO42010 sIOP {\field{\*\fldinst{HYPERLINK "scrivcmt://98EEE1B2-BFE6-4869-8F15-CE0AE4AE9960"}}{\fldrslt Viewpoint}}. As ISO42010 is considered a set of best practises for architecture description, and therefore is used with architecture frameworks such as MoDAF, TOGAF, DoDAF, RM-ODP and more, we conclude that application of this sIOP Viewpoint to formulate the sIOP View can be considered to consolidate sIOP for contemporary architectural paradigms (\\cref\{iso42010-viewpoint-on-siop\}).\
 \
 \pard\pardeftab720\ri-16974\partightenfactor0
 \cf0 \

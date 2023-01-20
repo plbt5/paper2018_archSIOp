@@ -1,0 +1,117 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;\f1\fswiss\fcharset0 Helvetica;\f2\fmodern\fcharset0 CourierNewPS-BoldMT;
+\f3\fmodern\fcharset0 CourierNewPS-ItalicMT;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\deftab720
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Loose coupling is known as a strong architectural principle that brings about many advantages. This holds for its semantic reading as well: agents that are loosely coupled in their semantics (i) can communicate in their own native representations without the need to learn or integrate foreign representations; (ii) need to define semantics only once for a particular DoA, and use it in concert with every software agent that operates in that DoA; (iii) can define their semantic representations geared to fit their particular domain and application(s) in isolation from global semantics; and (iv) can re-use available, local semantics, improving the economic value of local semantics throughout their lifetime. Moreover, since re-use implies another confrontation with reality, (v) the quality and scope of the local semantics will improve and extend over time. As analogy to describe loosely coupled semantics, consider a vehicle with its cargo. Logistics rely on external vehicle exchange services that allow the cargo to be transported over different vehicles, exchanging vehicles throughout the transport: a truck for an aircraft for a ship for a truck again, without ruining the cargo. This requires the cargo to be firmly connected to the vehicles, but at the same time to remain completely independent from any particular vehicle in order to complete the transport. When software agents interact, they transport semantic meaning by exchanging data. Loosely coupled semantics implies that the semantic meaning (the cargo) remains as independent from the representation of semantics (the vehicle) as possible. Similarly to logistics, sIOP must be able to rely on infrastructural services that can transcribe the semantic representation (vehicle exchange services) from its native syntax into a foreign syntax without invalidating the semantic meaning that it bears. We address that transcription service as mediation concern in \\cref\{roadway-mediation-concerns\}; here, we address how to achieve *loosely coupled semantics*. \
+\
+\pard\pardeftab720\partightenfactor0
+\cf0 Loose coupling in the classical sense is realised through the principles of separation of concerns and transparency. Hence, it stands to reason to investigate how to apply those principles on the semantic level, and whether that brings the advantages as described above.\
+\
+In its original reading, 
+\f1 <$Scr_Cs::1>
+\f2\b separation of concerns
+\f1\b0 <!$Scr_Cs::1>
+\f0  turns complex functionalities into simple, atomic and complementary functional capabilities, each showing high internal cohesion and few, preferably none, external dependencies. In a semantic reading, a first separation of concerns refers to providing complementary and atomic 
+\f1 <$Scr_Cs::2>
+\f3\i semantic
+\f1\i0 <!$Scr_Cs::2>
+\f0  functionalities. These are functionalities that support the primary motive for sIOP, i.e., dynamic business collaboration. In \\cref\{semantics-in-software\}, item 5, we have already distinguished between data comprehension and the subsequent achieving behaviour as two different concerns. \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf0 <$Scr_Cs::2>
+\f3\i Data comprehension
+\f1\i0 <!$Scr_Cs::2>
+\f0  measures its success and validity in terms of being able to reconstruct, for all semantic meaning that it receives, all semantic reciprocities that are involved by those ASMs that are addressed by the semantic meaning that the data represent. Such comprehension process requires its own protocol (\\cref\{dp:spp\}) to, e.g., request for semantic meaning that is missing from the DSC\'92s ASMs but required in the context of its specific pragmatic meaning. Complementary, 
+\f1 <$Scr_Cs::2>
+\f3\i achievement behaviour
+\f1\i0 <!$Scr_Cs::2>
+\f0  provides functionality to achieve a certain result. In our sIOP perspective, such behaviour and its result are geared towards support for business collaboration, denoted a 
+\f1 <$Scr_Cs::2>
+\f3\i business conversation,
+\f1\i0 <!$Scr_Cs::2>
+\f0  in order to distinguish it from other behaviour that achieves, e.g., an agent internal state.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\pardeftab720\sl288\slmult1\partightenfactor0
+
+\f1 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
+\f0\fs22 \\begin\{mmdef\}[Business conversation]\\label\{def:business-conversation\}\
+  A business conversation links achievement behaviour from different software agents together by exchanging semantic meaning, with the intent \AppleTypeServicesU0 to jointly achieve individual states of affairs that collaboratively constitute a necessary intermediate business state towards achieving the objective of a particular business collaboration.\AppleTypeServicesU1 \
+\\end\{mmdef\} 
+\fs24 \AppleTypeServicesU0 \
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf0 <!$Scr_Ps::0>
+\f0 \
+A business conversation measures its success and validity in terms of the SoAs that have, or have not, been achieved by each stakeholder involved in that conversation. Each conversation produces a shared, intermediate business state in the collaboration process, constituted by the individual SoAs that are achieved by each stakeholder. A conversation is concerned only with semantic and pragmatic meaning, and only to produce a business state as 
+\f1 <$Scr_Cs::2>
+\f3\i joined
+\f1\i0 <!$Scr_Cs::2>
+\f0  SoA. It brings together stakeholders, their software agents and roles as DSP or DSC, the semantic meaning to exchange between them, and the conditions and/or pragmatic meaning that must be met by each individual software agent before the proper achievement activities can be taken, and all this in a jointly effort. How the different aspects relate to each other has been depicted in \\cref\{
+\fs22 \AppleTypeServicesU1 fig:soas
+\fs24 \AppleTypeServicesU0 \}. It is important to note that since a business conversation is part of achievement behaviour, it *uses* semantics but does not *produces* semantics. \
+\
+A business conversation is considered atomic when:\
+\
+* at least two stakeholders participate in the conversation that produces a single shared business state;\
+* the shared business state is acknowledged by all participating stakeholders as a necessary state in the business collaboration;\
+* the shared business state is jointly produced, constituted by individual stakeholder SoA achieved by all participating software agents;\
+* the business conversation cannot be decomposed into smaller atomic conversations.\
+\
+Business conversations collectively constitute a business collaboration, and similar to the comprehension process, such requires its own protocol to coordinate achievement behaviours of each participating stakeholder, and orchestrate business conversations towards the shared business goal. This coordination protocol is directed to attain, within each stakeholder, an internal conclusive comprehension that selects agent achievement behaviour that fits the business conversation contributes to the shared SoA. Each such shared (intermediate) SoA is the result of and/or sets in motion a particular business process internal to the stakeholders, and thus represents a hinge between the DSP and DSC. We introduce \\cref\{dp:bcpp\}, the business conversation protocol principle.\
+\
+![Ontological construct (based on gUFO [@Almeida2019]) clarifying the main concepts and their relationships involved in business collaboration.][def:soas]\
+\
+This semantic separation of concerns (sSoC) identifies atomic semantic functionalities about 
+\f1 <$Scr_Cs::2>
+\f3\i comprehension
+\f1\i0 <!$Scr_Cs::2>
+\f0  and 
+\f1 <$Scr_Cs::2>
+\f3\i business conversation
+\f1\i0 <!$Scr_Cs::2>
+\f0  that embodies a separation between 
+\f1 <$Scr_Cs::2>
+\f3\i understanding
+\f1\i0 <!$Scr_Cs::2>
+\f0  and 
+\f1 <$Scr_Cs::2>
+\f3\i use
+\f1\i0 <!$Scr_Cs::2>
+\f0  of semantics, founding the aforementioned credo 
+\f1 <$Scr_Cs::2>
+\f3\i understanding precedes use
+\f1\i0 <!$Scr_Cs::2>
+\f0 . More importantly, with these two atomic functionalities one can build business collaboration as a process involving agents that exchange semantic meaning to achieve a sequence of shared business states that brings about the purpose of the collaboration, whereas how each agent is to achieve their part in such SoA can be left to the discretion of the involved stakeholders. At the same time, such sSoC allows reuse, maintenance and evolution of both semantic functionalities independently from each other. \
+We propose \\cref\{dp:ssoc\}, semantic separation of concerns (which includes aspects from \\cref\{semantic-mediation\}). \
+\
+The classical reading on 
+\f1 <$Scr_Cs::1>
+\f2\b transparency
+\f1\b0 <!$Scr_Cs::1>
+\f0  separates access to the unique functions from the particular design and implementation of those functions. Remaining agnostic to *how* its functions are achieved makes it possible to communicate with minimal mutual dependency. Semantic transparency, or terminological transparency, remains agnostic to how semantics are *represented* and *conceptualised*, which makes it possible to communicate with minimal syntactic dependency, without prior mutual agreements on semantic representation, and without access to background knowledge that applies to the conceptualisation. By representing the result of the reconciliation as an alignment between ontologies, the influence of semantics from collaborating agents on one\'92s own semantics is minimised. An alignment, thus, functions as an interface that enforces semantic transparency between communicating peers. Consequently, the need emerges for a semantic oracle that knows how to align distinct representations, which is exactly the responsibility of the human in the loop as augmenting authority, discussed in \\cref\{semantic-reconciliation\}. \
+\
+In its classical reading, transparency also requires standard API\'92s where the semantics of each parameter is defined carefully. API\'92s are to be similarly defined for semantic transparency, but since the parameter values that are passed 
+\f1 <$Scr_Cs::2>
+\f3\i carry semantic meaning
+\f1\i0 <!$Scr_Cs::2>
+\f0 , the parameters\'92 definitions need to be 
+\f1 <$Scr_Cs::2>
+\f3\i about
+\f1\i0 <!$Scr_Cs::2>
+\f0  semantics, i.e., at the meta-level, in order to maintain the separation between semantics and syntax. \
+This is an important characteristics that shapes the form of the aforementioned business conversation protocol.\
+\
+Additionally, semantic transparency implies the need to transcribe between different representations, preferably by the infrastructure. We defer how this can be achieved to \\cref\{roadway-mediation-concerns\}. \
+We propose \\cref\{dp:st\} to cater for semantic transparency.\
+\
+\
+\
+<!-- Page additions -->\
+[def:soas]: src\\images\\SoAs.png \{#fig:soas width=90%\} \
+\
+}
