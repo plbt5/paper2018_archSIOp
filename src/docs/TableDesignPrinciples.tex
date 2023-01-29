@@ -245,7 +245,7 @@
 %% BUSINESS CONVERSATION PROTOCOL PRINCIPLE
 %%
 \begin{mmdp}\label{dp:bcpp}{\bfseries Business conversation protocol principle:}
-\quad When it is reasonable to expect that the software agent will be engaged in collaboration or otherwise will interoperate with (an)other software agent(s), the agent should provide the capability to respond to a pragmatic protocol that has the objective to jointly achieve an intermediate business state by conversing with participating agents about how individual stakeholder's SoAs contribute to the shared business state.
+\quad When it is reasonable to expect that the software agent will be engaged in collaboration or otherwise will interoperate with (an)other software agent(s), the agent should provide the capability to engage in a business conversation with participating agents, with the objective to jointly achieve a business state that is considered a(n intermediate) necessary step towards the shared business goal.
 \end{mmdp}
 &
 \begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
@@ -253,16 +253,21 @@
   \item[Quality attributes:] Semantics, interoperability;
 \end{description} \\
 \begin{enumerate}[left=6pt, nosep]
-  \item ;
-  \item ;
-  \item ;
-  \item .
+  \item Business collaboration is by definition a matter of separate contributions from individual stakeholders to the desired outcome of the business collaboration;
+  \item The distinction between the collaborating agents is defined by what they can contribute to the collaboration, i.e., the internal SoA that they produce on behalf of their stakeholder;
+  \item In order to achieve a joint result between collaborating agents, coordination between their achievement behaviour is required;
+  \item Such coordination is achieved by a protocol, allowing collaborating agents to exchange demands about SoAs  that are required to produce by other agents in order to achieve a joint business state:
+  \begin{enumerate}
+    \item A stakeholder-internal SoA might be achievable only in dependency on one or more SoAs from one or more collaborating stakeholders, and/or
+    \item A joint business state necessarily collects stakeholder-internal SoAs that are produced by distinct software agents.
+  \end{enumerate}
 \end{enumerate}
 &
 \begin{enumerate}[left=10pt, nosep]
-  \item ;
-  \item ;
-  \item .
+  \item Providing the availability of a business conversation protocol, each individual agent is capable of initiating a business conversation that it deems necessary for achieving its own responsibility in the collaboration;
+  \item Such business conversation protocol can rely on coordination and directions only, i.e., following a business choreography or business orchestration process, or a combination of both;
+  \item This implies that business conversation protocol will converse \emph{about} the SoAs that are subject of such coordination, introducing the pragmatic (business) dimension as meta-level to the semantic dimension of the SoAs;
+  \item This not only improves loose coupling between interoperating agents that act on behalf of stakeholders in their business collaboration, but consolidates a clear separation with the semantic meaning that is exchanged by the business conversation protocol.
 \end{enumerate} \\
 %
 %
@@ -333,26 +338,26 @@
 %%
 %% SEMANTIC PROFILES PRINCIPLE
 %%
-\begin{mmdp}\label{dp:sprof}{\bfseries Semantic profiles principle:}
-\quad Apply different semantic profiles for different collaborations. \end{mmdp}
-&
-\begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
-\item[Type of information:] Data, Technology;
-\item[Quality attributes:] semantic interoperability, portability, maintainability, efficiency, usability (reuse), reliability;
-\end{description}
-\\
-\begin{enumerate}[left=6pt, nosep]
-  \item ;
-  \item ;
-  \item .
-\end{enumerate}
-&
-\begin{enumerate}[left=10pt, nosep]
-  \item ;
-  \item ;
-  \item ;
-  \item .
-\end{enumerate} \\
+%\begin{mmdp}\label{dp:sprof}{\bfseries Semantic profiles principle:}
+%\quad Apply different semantic profiles for different collaborations. \end{mmdp}
+%&
+%\begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
+%\item[Type of information:] Data, Technology;
+%\item[Quality attributes:] semantic interoperability, portability, maintainability, efficiency, usability (reuse), reliability;
+%\end{description}
+%\\
+%\begin{enumerate}[left=6pt, nosep]
+%  \item ;
+%  \item ;
+%  \item .
+%\end{enumerate}
+%&
+%\begin{enumerate}[left=10pt, nosep]
+%  \item ;
+%  \item ;
+%  \item ;
+%  \item .
+%\end{enumerate} \\
 %
 %
 %

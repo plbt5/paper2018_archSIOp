@@ -55,9 +55,8 @@ The main
 \f1\i0 <!$Scr_Cs::1>
 \f0  approach. \
 \
-\pard\pardeftab720\partightenfactor0
 
-\f1 \cf0 <$Scr_Cs::2>
+\f1 <$Scr_Cs::2>
 \f3\b Methodologically
 \f1\b0 <!$Scr_Cs::2>
 \f0 , our approach is depicted in \\cref\{
@@ -72,22 +71,22 @@ The main
 \f1 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
 \f0\fs22 \\begin\{figure\}\
   \\centering\
-  \\begin\{subfigure\}[b]\{0.75\\linewidth\}\
+  \\begin\{subfigure\}[t]\{0.75\\linewidth\}\
     \\includegraphics[width=\\textwidth, left]\{src/images/OverviewPaper\}\
     \\caption\{\}\\label\{fig:concernsa\}\
     \\vspace\{.5cm\}\
   \\end\{subfigure\}%\
-  \\begin\{subfigure\}[b]\{0.25\\linewidth\}\
+  \\begin\{subfigure\}[t]\{0.25\\linewidth\}\
     \\includegraphics[width=\\textwidth, right, top]\{src/images/OverviewLegend\}\
   \\end\{subfigure\}\
-  \\begin\{subfigure\}[b]\{0.75\\linewidth\}\
+  \\begin\{subfigure\}[t]\{0.75\\linewidth\}\
     \\includegraphics[width=\\textwidth, left]\{src/images/3SemanticConcerns\}\
     \\caption\{\}\\label\{fig:concernsb\}\
   \\end\{subfigure\}%\
-  \\begin\{subfigure\}[b]\{0.25\\linewidth\}\
+  \\begin\{subfigure\}[t]\{0.25\\linewidth\}\
     \\includegraphics[width=\\textwidth, right, ]\{src/images/3concernsLegend\}\
   \\end\{subfigure\}\
-  \\caption\{Overview of relationships between concerns, DPs and the sIOP Viewpoint, with their position in the paper, (a); Conceptual overview of the relationships in sIOP between the anchorage (conceptual modelling), its spanning (semantic reconciliation) and roadway (semantic mediation), (b).\}\\label\{fig:semantic-concerns\}\
+  \\caption\{(a) Overview of relationships between concerns, DPs and the sIOP Viewpoint, with their sections in the paper; (b) Conceptual overview of the relationships in sIOP between the anchorage (conceptual modelling), its spanning (semantic reconciliation) and roadway (semantic mediation).\}\\label\{fig:semantic-concerns\}\
 \\end\{figure\}
 \f1\fs20 \
 \pard\pardeftab720\partightenfactor0
@@ -107,17 +106,17 @@ The main
 \f1 <$Scr_Cs::1>
 \f2\i Semantic concerns (anchorage)
 \f1\i0 <!$Scr_Cs::1>
-\f0 : With real-world semantics (RWS), we refer to the indirect relation that exist between the data syntax and an entity that is carved out from reality in a particular way according to our human conceptualisation. For software, however, semantic preparations are required for an agent to be able to engage in semantic interoperability. Canonical data representations shared as semantic standards are often applied to capture data semantics, an approach founded on enforcing semantic homogeneity. While this approach has its position in sIOP, we consider semantic heterogeneity to exist for good reasons, such as demands for semantic diversity, accuracy, variability and evolvability. Elaborating on this concern, we establish what is meant with semantics in software, defend the need for sIOP to address the concern of semantic heterogeneity and derive principles as to its support (\\cref\{anchorage-semantic-concerns\});\
+\f0 : With real-world semantics (RWS), we refer to the indirect relation that exists between the data syntax and an entity that is carved out from reality in a particular way according to our human conceptualisation. For software, however, semantic preparations are required for an agent to be able to engage in semantic interoperability. Canonical data representations shared as semantic standards are often applied to capture data semantics, an approach founded on enforcing semantic homogeneity. While this approach has its position in sIOP, we consider semantic heterogeneity to exist for good reasons, such as demands for semantic diversity, accuracy, variability and evolvability. Elaborating on this concern, we establish what is meant with semantics in software, defend the need for sIOP to address the concern of semantic heterogeneity and derive principles as to its support (\\cref\{anchorage-semantic-concerns\});\
 * 
 \f1 <$Scr_Cs::1>
 \f2\i Reconciliation concerns (spanning)
 \f1\i0 <!$Scr_Cs::1>
-\f0 : Semantic reconciliation denotes the (design time) alignment of semantic differences that exist between stakeholders involved in business collaboration. It is a consequential capability to develop when assuming semantic heterogeneity. Since computers remain incapable of genuine understanding, semantic reconciliation becomes a concern because sIOP remains in demand of human intervention to produce a semantic alignment. Unfortunately, human intervention is time consuming, and we therefore investigate the minimum required human involvement. We conclude that the reconciliation effort is causally dependent on the design of the business collaboration, while it can be minimised by lifting the alignent to the conceptual level. Additionally, semantic reconciliation gives rise to scalability concerns in highly dynamic collaboration environments. We propose DPs that are founded on the classical principles of separation of concerns and transparency, but apply those on the semantic level. This allows for semantic scalability which results in maintaining sIOP also in a dynamic business context (\\cref\{spanning-reconciliation-concerns\});\
+\f0 : Semantic reconciliation denotes the (design time) alignment of semantic differences that exist between stakeholders involved in business collaboration. It is a consequential capability to develop when assuming semantic heterogeneity. Since computers remain incapable of genuine understanding, semantic reconciliation becomes a concern because sIOP remains in demand of human intervention to produce a semantic alignment. Unfortunately, human intervention is time consuming, and we therefore investigate the minimum required human involvement. We conclude that the reconciliation effort is causally dependent on the design of the business collaboration, while it can be minimised by lifting the alignent to the conceptual level. Additionally, semantic reconciliation gives rise to scalability concerns in highly dynamic collaboration environments. We propose DPs that are founded on the classical principles of separation of concerns and transparency, but apply those at the semantic level. This allows for semantic scalability that results in maintaining sIOP also in a dynamic business context (\\cref\{spanning-reconciliation-concerns\});\
 * 
 \f1 <$Scr_Cs::1>
 \f2\i Mediation concerns (roadway)
 \f1\i0 <!$Scr_Cs::1>
-\f0 : Mediation refers to transcribing syntax of the exchanged data without altering the semantics that are carried by it. The main concern is to allow for a generic, semantic-independent and fully automated run-time capability to its effect. We determine DPs for a generic capability that allows for communication with the peer agent in one\'92s own native vocabulary only. To that end we consider the application of the classical principle of *connectivity without dependency* at the semantic level. This consolidates the agent\'92s potential to collaborate with any unforeseen applications, without the need to adopt external semantic definitions, and remain scalable in the process (\\cref\{roadway-mediation-concerns\});\
+\f0 : Mediation refers to transcribing syntax of the exchanged data without altering the semantics that are carried by it. The main concern is to allow for a generic, semantics-independent and fully automated run-time capability to its effect. We determine DPs for a generic capability that allows for communication with the peer agent in one\'92s own native vocabulary only. To that end, we consider the application of the classical principle of *connectivity without dependency* at the semantic level. This consolidates the agent\'92s potential to collaborate with any unforeseen applications, without the need to adopt external semantic definitions, and remain scalable in the process (\\cref\{roadway-mediation-concerns\});\
 * 
 \f1 <$Scr_Cs::1>
 \f2\i Operationalisation of principles: ISO42010 Architecture Viewpoint

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="8C0780B1-25E9-4144-94AF-7E1CFBE0056E" Version="2.0" Creator="SCRMAC-3.2.3-14869" Device="Pauls-MacBook-Pro" Author="Paul Brandt" Modified="2023-01-20 12:07:45 +0100" ModID="A97E9367-9A57-4D59-BCC4-C028051EE2C0">
+<ScrivenerProject Identifier="8C0780B1-25E9-4144-94AF-7E1CFBE0056E" Version="2.0" Creator="SCRMAC-3.2.3-14869" Device="Pauls-MacBook-Pro" Author="Paul Brandt" Modified="2023-01-29 22:40:56 +0100" ModID="3FC87FCF-FCEF-41CF-AF05-C425811E6D97">
     <Binder>
         <BinderItem UUID="AC0E4C16-84DD-46A8-978B-4E68660C32A1" Type="Text" Created="2018-01-09 02:27:13 +0100" Modified="2022-10-13 14:45:56 +0200">
             <Title>Pandoc metadata</Title>
@@ -227,7 +227,7 @@
                         <TextSelection>2528,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="D1B1F11F-646F-4B47-9C11-9FEFCBFD8870" Type="Text" Created="2016-12-28 10:23:05 +0100" Modified="2023-01-12 12:03:48 +0100">
+                <BinderItem UUID="D1B1F11F-646F-4B47-9C11-9FEFCBFD8870" Type="Text" Created="2016-12-28 10:23:05 +0100" Modified="2023-01-29 22:40:45 +0100">
                     <Title>Introduction</Title>
                     <MetaData>
                         <LabelID>7</LabelID>
@@ -245,7 +245,7 @@
                         </CustomMetaData>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>8586,20</TextSelection>
+                        <TextSelection>13673,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="72A16B35-CC3A-4148-B226-4BDD855A4808" Type="Text" Created="2018-05-25 17:59:48 +0200" Modified="2022-09-09 12:16:50 +0200">
@@ -410,7 +410,7 @@
                                 </BinderItem>
                             </Children>
                         </BinderItem>
-                        <BinderItem UUID="6B25EA47-8E5D-4741-A89F-E5F989DAE212" Type="Text" Created="2022-02-01 18:11:14 +0100" Modified="2023-01-19 10:31:30 +0100">
+                        <BinderItem UUID="6B25EA47-8E5D-4741-A89F-E5F989DAE212" Type="Text" Created="2022-02-01 18:11:14 +0100" Modified="2023-01-26 10:44:53 +0100">
                             <Title>sIOP engineering aspects</Title>
                             <MetaData>
                                 <LabelID>5</LabelID>
@@ -418,18 +418,18 @@
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>572,0</TextSelection>
+                                <TextSelection>524,0</TextSelection>
                             </TextSettings>
                             <Children>
-                                <BinderItem UUID="68538BE2-1E44-45D4-8B57-BB27069514E0" Type="Text" Created="2023-01-12 14:17:01 +0100" Modified="2023-01-20 10:53:15 +0100">
+                                <BinderItem UUID="68538BE2-1E44-45D4-8B57-BB27069514E0" Type="Text" Created="2023-01-12 14:17:01 +0100" Modified="2023-01-29 21:22:27 +0100">
                                     <Title>Engineering loosely coupled semantics</Title>
                                     <MetaData>
-                                        <LabelID>2</LabelID>
+                                        <LabelID>5</LabelID>
                                         <IncludeInCompile>Yes</IncludeInCompile>
                                         <NotesTextSelection>616,0</NotesTextSelection>
                                     </MetaData>
                                     <TextSettings>
-                                        <TextSelection>6368,0</TextSelection>
+                                        <TextSelection>3229,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
                                 <BinderItem UUID="F06D6B80-0546-424C-B04F-D54BE560882C" Type="Text" Created="2022-08-12 13:20:04 +0200" Modified="2023-01-19 22:42:19 +0100">
@@ -441,7 +441,7 @@
                                         <NotesTextSelection>609,0</NotesTextSelection>
                                     </MetaData>
                                     <TextSettings>
-                                        <TextSelection>1555,0</TextSelection>
+                                        <TextSelection>1338,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
                                 <BinderItem UUID="90BD6741-9798-4F7C-AD36-C9AC1C31CA44" Type="Text" Created="2022-08-12 12:51:12 +0200" Modified="2023-01-15 22:20:43 +0100">
@@ -491,10 +491,10 @@
                                         </BinderItem>
                                     </Children>
                                 </BinderItem>
-                                <BinderItem UUID="9A3C1B4A-CF94-4CA0-B56E-5A5BEAEF90A1" Type="Text" Created="2022-11-23 17:01:59 +0100" Modified="2023-01-05 11:59:49 +0100">
+                                <BinderItem UUID="9A3C1B4A-CF94-4CA0-B56E-5A5BEAEF90A1" Type="Text" Created="2022-11-23 17:01:59 +0100" Modified="2023-01-29 22:15:07 +0100">
                                     <Title>Engineering business collaboration</Title>
                                     <MetaData>
-                                        <LabelID>4</LabelID>
+                                        <LabelID>9</LabelID>
                                         <StatusID>5</StatusID>
                                     </MetaData>
                                     <TextSettings>
@@ -1825,12 +1825,12 @@
     </ProjectBookmarks>
     <ProjectTargets Notify="Yes">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-04-24 02:00:00 +0200" IgnoreDeadline="Yes">14000</DraftTarget>
-        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2023-01-21 00:00:00 +0100" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="31" Characters="206" Date="2023-01-20 12:07:40 +0100"/>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2023-01-30 00:00:00 +0100" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="119" Characters="805" Date="2023-01-29 22:14:34 +0100"/>
     </ProjectTargets>
-    <RecentWritingHistory Date="2023-01-20 00:00:00 +0100">
-        <DraftWordCount>31</DraftWordCount>
-        <DraftCharCount>206</DraftCharCount>
+    <RecentWritingHistory Date="2023-01-29 00:00:00 +0100">
+        <DraftWordCount>119</DraftWordCount>
+        <DraftCharCount>805</DraftCharCount>
         <OtherWordCount>0</OtherWordCount>
         <OtherCharCount>0</OtherCharCount>
     </RecentWritingHistory>

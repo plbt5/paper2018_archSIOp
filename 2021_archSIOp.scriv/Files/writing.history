@@ -100,5 +100,7 @@
     <Day dwc="-32" dcc="-135" dtwc="0" owc="0" occ="0" dtcc="0">2023-01-12</Day>
     <Day dwc="121" dcc="741" owc="0" occ="0">2023-01-15</Day>
     <Day dwc="148" dcc="1077" dtwc="16123" owc="0" occ="0" dtcc="111828">2023-01-19</Day>
-    <Day dwc="31" dcc="206" owc="0" occ="0">2023-01-20</Day>
+    <Day dwc="33" dcc="214" dtwc="0" owc="0" occ="0" dtcc="0">2023-01-20</Day>
+    <Day dwc="0" dcc="2" dtwc="0" owc="0" occ="0" dtcc="0">2023-01-26</Day>
+    <Day dwc="119" dcc="807" owc="0" occ="0">2023-01-29</Day>
 </WritingHistory>
