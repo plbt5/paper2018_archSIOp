@@ -15,7 +15,7 @@ In its original reading,
 \f1 <$Scr_Cs::1>
 \f2\b separation of concerns
 \f1\b0 <!$Scr_Cs::1>
-\f0  turns complex functionalities into simple, atomic and complementary functional capabilities, each showing high internal cohesion and few, preferably none, external dependencies. In a semantic reading, a {\field{\*\fldinst{HYPERLINK "scrivcmt://B5A4B3FA-59E0-4DAB-8733-8FB1178A99A5"}}{\fldrslt first type of}} separation of concerns refers to providing complementary and atomic 
+\f0  turns complex functionalities into simple, atomic and complementary functional capabilities, each showing high internal cohesion and few, preferably none, external dependencies. In a semantic reading, separation of concerns refers to providing complementary and atomic 
 \f1 <$Scr_Cs::2>
 \f3\i semantic
 \f1\i0 <!$Scr_Cs::2>
@@ -39,14 +39,16 @@ In its original reading,
 
 \f1 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
 \f0\fs22 \\begin\{mmdef\}[Business conversation]\\label\{def:business-conversation\}\
-  A business conversation links achievement behaviour from different software agents together by exchanging semantic meaning, with the intent \AppleTypeServicesU0 to jointly achieve individual states of affairs that collaboratively constitute a necessary intermediate business state towards achieving the objective of a particular business collaboration.\AppleTypeServicesU1 \
+  A business conversation links achievement behaviour from different software agents together by exchanging semantic meaning, with the intent \AppleTypeServicesU0 to jointly achieve individual states of affairs that collaboratively constitute a necessary intermediate 
+\fs24 conversation
+\fs22  state towards achieving the objective of a particular business collaboration.\AppleTypeServicesU1 \
 \\end\{mmdef\} 
 \fs24 \AppleTypeServicesU0 \
 \pard\pardeftab720\partightenfactor0
 
 \f1 \cf0 <!$Scr_Ps::0>
 \f0 \
-A business conversation measures its success and validity in terms of the SoAs that have, or have not, been achieved by each stakeholder involved in that conversation. Each conversation produces a shared business state, the achievement of which involves more than one stakeholder. A business state thus incorporates SoAs that are agent specific: a SoA that is produced by a single agent, on behalf of a stakeholder, representing a SoA internal to that stakeholder. Such stakeholder internal SoA might require a certain SoA internal to another stakeholder. A conversation is concerned only with semantic and pragmatic meaning, and only to produce stakeholder internals states that collaboratively represent a business state as 
+A business conversation measures its success and validity in terms of the SoAs that have, or have not, been achieved by each stakeholder involved in that conversation. Each conversation produces a shared conversation state, the achievement of which involves more than one stakeholder. A conversation state thus incorporates SoAs that are agent specific: a SoA that is produced by a single agent, on behalf of a stakeholder, representing a SoA internal to that stakeholder. Such stakeholder internal SoA might require a certain SoA internal to another stakeholder. A conversation is concerned only with semantic and pragmatic meaning, and only to produce stakeholder internals states that collaboratively represent a conversation state as 
 \f1 <$Scr_Cs::2>
 \f3\i joint
 \f1\i0 <!$Scr_Cs::2>
@@ -56,9 +58,9 @@ A business conversation measures its success and validity in terms of the SoAs t
 \
 A business conversation is considered atomic when:\
 \
-* only stakeholders that produce a single shared business state, participate in the conversation - with a minimum of two stakeholders;\
-* its shared business state is acknowledged by all participating stakeholders as a necessary condition towards the shared business goal;\
-* its shared business state is constituted only by necessary and sufficient SoAs of individual stakeholders, and jointly produced only by them;\
+* only stakeholders that produce a single shared conversation state, participate in the conversation - with a minimum of two stakeholders;\
+* its shared conversation state is acknowledged by all participating stakeholders as a necessary condition towards the shared collaboration goal;\
+* its shared conversation state is constituted only by necessary and sufficient SoAs of individual stakeholders, and jointly produced only by them;\
 * the business conversation cannot be decomposed into smaller atomic conversations.\
 \
 Business conversations collectively constitute a business collaboration. Similar to the comprehension process, such requires its own protocol to 
@@ -69,9 +71,9 @@ Business conversations collectively constitute a business collaboration. Similar
 \f1 <$Scr_Cs::2>
 \f3\i orchestrate business conversations
 \f1\i0 <!$Scr_Cs::2>
-\f0  towards the shared business goal. This coordination protocol is directed to attain, with each stakeholder, the execution of achievement behaviour (from its subordinate software agent(s)) that fits the business conversation in producing the shared business state. We introduce \\cref\{dp:bcpp\}, the business conversation protocol principle.\
+\f0  towards the shared collaboration goal. This coordination protocol is directed to attain, with each stakeholder, the execution of achievement behaviour (from its subordinate software agent(s)) that fits the business conversation in producing the shared conversation state. We introduce \\cref\{dp:bcpp\}, the business conversation protocol principle.\
 \
-![Ontological construct (based on gUFO [@Almeida2019]), clarifying that a SoA is produced by an Action involving an Actor. A Business Collaboration produces the Business Goals shared by Stakeholders. On behalf of a Stakeholder, the Software Agent partakes in a Business Conversation producing a particular Business State towards the Business Goal. On receipt of data, the DSC shows Comprehension Behaviour and subsequently a prescribed Achievement Behaviour to produce a predefined Stakeholder Internal State that contributes to the shared Business State. A DSP might partake in such Achievement Behaviour when deemed necessary by the DSC; the latter will notify the former in the context of the Business Conversation, changing their roles into DSP resp. DSC.][def:soas]\
+![Ontological construct (based on gUFO [@Almeida2019]), clarifying that a SoA is produced by an Action involving an Actor. A Business Collaboration produces the Collaboration Goals shared by Stakeholders. On behalf of a Stakeholder, the Software Agent partakes in a Business Conversation producing a particular Conversation State towards the Collaboration Goal. On receipt of data, the DSC shows Comprehension Behaviour and subsequently a prescribed Achievement Behaviour to produce a predefined Stakeholder State that contributes to the shared Conversation State. A DSP might partake in such Achievement Behaviour when deemed necessary by the DSC, viz when the latter requires for its achievement Behaviour an individual SoA that is produced by the DSP. In such case, the DSP and DSC temporarily change roles.][def:soas]\
 \
 This semantic separation of concerns (sSoC) identifies atomic semantic functionalities about 
 \f1 <$Scr_Cs::2>
@@ -93,7 +95,7 @@ This semantic separation of concerns (sSoC) identifies atomic semantic functiona
 \f1 <$Scr_Cs::2>
 \f3\i understanding precedes use
 \f1\i0 <!$Scr_Cs::2>
-\f0 . More importantly, with these two atomic functionalities, one can build business collaboration as shared processes involving shared business states and constituting stakeholder internal SoAs, without insisting on particular instantiation on agents and their used semantics that collaboratively implement the collaboration. Moreover, 
+\f0 . More importantly, with these two atomic functionalities, one can build business collaboration as shared processes involving shared conversation states and constituting stakeholder SoAs, without insisting on particular instantiation on agents and their used semantics that collaboratively implement the collaboration. Moreover, 
 \f1 <$Scr_Cs::2>
 \f3\i how
 \f1\i0 <!$Scr_Cs::2>
