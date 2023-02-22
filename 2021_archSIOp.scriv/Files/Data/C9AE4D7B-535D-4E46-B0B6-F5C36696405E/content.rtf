@@ -20,22 +20,24 @@
 \fs24 \AppleTypeServicesU0 \
 5. The active (processing) part of an agent produces agent behaviour. We separate behaviour into a 
 \f1 <$Scr_Cs::0>
-\f2\i comprehension
+\f2\i comprehensive
 \f1\i0 <!$Scr_Cs::0>
-\f0  process and 
+\f0  and 
 \f1 <$Scr_Cs::0>
-\f2\i achievement
+\f2\i telic
 \f1\i0 <!$Scr_Cs::0>
-\f0  processes, the latter specifying how to accomplish the agent\'92s purpose, based on the former that mirrors the current state of affairs (SoA) in the DoA and the agent\'92s own background knowledge. The resulting simple software model emerges as  \
-\\resizebox\{\\linewidth\}\{!\}\{\\textsf\{\\textbf\{\\small Input\\ensuremath\{\\twoheadrightarrow\}\\colorbox\{gray!30\}\{Comprehension\}\}\}\\stackedcondtext\{Achievement$_i$\}\{Achievement$_j$\}\\textsf\{\\textbf\{\\small Output\}\}\} where \\textsf\{\\colorbox\{gray!30\}\{\\small shaded\}\} represents behaviour, \\textsf\{\\small non-shaded\} represents static structures and \\textsf\{\\textbf\{\\small bold\}\} represents semantics. For instance, consider data token \\token\{S\} and data processing tokens \\token\{P1\} and \\token\{P2\}: \
+\f0  {\field{\*\fldinst{HYPERLINK "scrivcmt://6C8FC1F7-A128-40A9-9FBC-C6893BF2BDF0"}}{\fldrslt part,}} the latter specifying how to accomplish the agent\'92s purpose, based on the former that mirrors the current state of affairs (SoA) in the DoA and the agent\'92s own background knowledge. The resulting simple software model emerges as  \
+\\resizebox\{\\linewidth\}\{!\}\{\\textsf\{\\textbf\{\\small Input\\ensuremath\{\\twoheadrightarrow\}\\colorbox\{gray!30\}\{Comprehension\}\}\}\\stackedcondtext\{telicity$_i$\}\{telicity$_j$\}\\textsf\{\\textbf\{\\small Output\}\}\} where \\textsf\{\\colorbox\{gray!30\}\{\\small shaded\}\} represents behaviour, \\textsf\{\\small non-shaded\} represents static structures and \\textsf\{\\textbf\{\\small bold\}\} represents semantics. For instance, consider data token \\token\{S\} and data processing tokens \\token\{P1\} and \\token\{P2\}: \
     * \\token\{S\} ::[|temperature]: \\token\{t = 38.9\\celsius\}\
     * \\token\{P1\} ::[|fever]: \\token\{t > 37.0\\celsius\} $\\to$ \\token\{fever\}\
     * \\token\{P2\} :: \\token\{fever\} $\\to$ \\token\{raiseAlarm(now)\}  \
-We consider \\token\{S\} and \\token\{P1\} a representation of comprehension and \\token\{P2\} one of achievement.\
-6. Note that semantic meaning, e.g., \\token\{S\}, is in itself insufficient to draw conclusions and select particular achievement, since its implication on the software agent depends on the pragmatic meaning that applies. When considering pragmatic meaning \\token\{P1\}, it establishes [|fever] in a human context, whereas \\token\{P3\} with \\token\{t > 39.7\\celsius\} $\\to$ \\token\{fever\} also represents pragmatic meaning, but in a feline context instead, leading to its negation [|$\\righthalfcap\\;$fever] in combination with \\token\{S\}. Hence, no alarm is raised. Different comprehension leads to different achievement.\
+We consider \\token\{S\} and \\token\{P1\} a representation of comprehension and \\token\{P2\} one of telicity.\
+6. Note that semantic meaning, e.g., \\token\{S\} above, is in itself insufficient to draw conclusions and to select telic behaviour, since its implication on the software agent depends on the pragmatic meaning that applies. When considering pragmatic meaning \\token\{P1\}, it establishes [|fever] in a human context, whereas when we consider \\token\{P3\} as pragmatic meaning in a feline context:\
+    * \\token\{P3\} ::[|fever]: \\token\{t > 39.7\\celsius\} $\\to$ \\token\{fever\}\
+then, \\token\{S\} would lead to [|$\\righthalfcap\\;$fever], non-fever, instead, without raising an alarm. Hence, different comprehension leads to different telicity.\
 7. The central disposition of reciprocity in software semantics emerges as an *Atomic Semantic Monolith* (ASM), established with the explicit purpose to guarantee the coherence between the data (semantic meaning) and their processing code (pragmatic meaning). The ASM achieves comprehension about its particular semantic meaning in the context of its appropriate use. For instance, (\\token\{S\};\\token\{P1\}) and (\\token\{S\};\\token\{P3\}) represent two distinct ASMs for two distinct uses of temperature data.\
-8. The collective ASMs compose the agent\'92s Domain Model (DM), and provides the software agent with the level of comprehension necessary to decide upon its achievement (to achieve the agent\'92s objectives) under the current SoA. \
-9. Where comprehensive behaviour is specified by the DM, the achievement behaviour is specified by (parts of) the System Model (SM). We consider the SM 
+8. The collective ASMs compose the agent\'92s Domain Model (DM), and provides the software agent with the level of comprehension necessary to decide upon its telic behaviour (to achieve the agent\'92s objectives) under the current SoA. \
+9. Where comprehensive behaviour is specified by the DM, the telic behaviour is specified by (parts of) the System Model (SM). We consider the SM 
 \f1 <$Scr_Cs::0>
 \f2\i semantically grounded
 \f1\i0 <!$Scr_Cs::0>

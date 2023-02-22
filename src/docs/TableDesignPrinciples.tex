@@ -245,7 +245,7 @@
 %% BUSINESS CONVERSATION PROTOCOL PRINCIPLE
 %%
 \begin{mmdp}\label{dp:bcpp}{\bfseries Business conversation protocol principle:}
-\quad When it is reasonable to expect that the software agent will be engaged in collaboration or otherwise will interoperate with (an)other software agent(s), the agent should provide the capability to engage in a business conversation with participating agents, with the objective to jointly achieve a business state that is considered a(n intermediate) necessary step towards the shared business goal.
+\quad When it is reasonable to expect that the software agent will be engaged in collaboration or otherwise will interoperate with (an)other software agent(s), the agent should provide the capability to engage in a business conversation with participating agents, with the objective to jointly achieve a conversation state that is considered a(n intermediate,) necessary step towards the collaboration goal.
 \end{mmdp}
 &
 \begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
@@ -253,13 +253,13 @@
   \item[Quality attributes:] Semantics, interoperability;
 \end{description} \\
 \begin{enumerate}[left=6pt, nosep]
-  \item Business collaboration is by definition a matter of separate contributions from individual stakeholders to the desired outcome of the business collaboration;
-  \item The distinction between the collaborating agents is defined by what they can contribute to the collaboration, i.e., the internal SoA that they produce on behalf of their stakeholder;
-  \item In order to achieve a joint result between collaborating agents, coordination between their achievement behaviour is required;
-  \item Such coordination is achieved by a protocol, allowing collaborating agents to exchange demands about SoAs  that are required to produce by other agents in order to achieve a joint business state:
+  \item Business collaboration is by definition a matter of establishing, in concert, a SoA that represents the collaboration goal of the stakeholders. Such collaboration goal is a causal and/or structural composition of separate contributions from individual stakeholders;
+  \item Such contribution, expressed as the stakeholder's SoA, is produced by telic behaviour of a software agent on behalf of its stakeholder;
+  \item In order to achieve a joint result between collaborating agents, coordination between their telic behaviours is required;
+  \item Such coordination, either specified in advance or defined ad-hoc at run-time or both, requires a protocol to support collaborating agents to express demands about the dependency between SoAs that are produced by other agents in order to achieve a joint conversation state:
   \begin{enumerate}
     \item A stakeholder-internal SoA might be achievable only in dependency on one or more SoAs from one or more collaborating stakeholders, and/or
-    \item A joint business state necessarily collects stakeholder-internal SoAs that are produced by distinct software agents.
+    \item A joint conversation state necessarily collects, causally and structurally, stakeholder-internal SoAs that are produced by distinct software agents.
   \end{enumerate}
 \end{enumerate}
 &
@@ -277,7 +277,7 @@
 %% SEMANTIC SEPARATION OF CONCERNS PRINCIPLE
 %%
 \begin{mmdp}\label{dp:ssoc}{\bfseries Semantic separation of concerns principle:}
-\quad When a software agent engages in interoperation with (an)other software agent(s), separate data communication services from data comprehension and business conversation services. Additionally, apply modularisation to divide the domain model in sub-domains that show high cohesion and low coupling. \end{mmdp}
+\quad When a software agent engages in interoperation with (an)other software agent(s), make sure to understand the semantics of data before their use. To this end, four concerns on meta-semantics must be separated from each other: syntax representing the data payload of the communication from syntax representing the semantic payload of the data; business conversation services; data comprehension behaviour; telic behaviour. A fifth concern separates the domain model in sub-domains that show high cohesion and low coupling. \end{mmdp}
 &
 \begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
 \item[Type of information:] Data, Technology;
@@ -285,18 +285,38 @@
 \end{description}
 \\
 \begin{enumerate}[left=6pt, nosep]
-  \item Data schemata are defined to support the (de)serialisation processes that consolidate the data communications concern;
-  \item Neglecting the principle of separation of concerns solidifies dependency between otherwise disjoint concerns, here the semantic level and the syntactic level of data communication;
-  \item Access-and-play capabilities are supported by assuring minimal impact on software code when introducing semantic modifications;
-  \item Minimising impact on software code that is concerned with data communication is realised by abstracting semantics away from the data schemata;
-  \item When the DM defines a high variety of subjects in the DoA without a clear separation between them, a small change in semantics will induce a proliferation of modifications in the DM;
-  \item Modularisation of the DM minimises the proliferation of a change in one module to other modules;
-  \item Reduce the many-to-many conversations that exist between collaborating agents to many-to-one conversations, by localizing business collaboration logic (apply semantic mediation pattern).
+  \item Neglecting the principle of separation of concerns solidifies dependency between otherwise disjoint concerns, here the semantic level and the syntactic level of communication. The following complementary functionalities can be separated from each other:
+  \item 1 - Separate communication syntax from semantic representation:
+  \begin{enumerate}
+    \item The purpose of communication is to exchange data; the purpose of semantics is to refer to a SoA;
+    \item Both purposes are completely independent from each other, and both are under control of separate disciplines.
+  \end{enumerate}
+  \item 2 - Data comprehension reconstructs, for all semantic meaning that it receives, all semantic reciprocities that are involved by those ASMs that are addressed by the semantic meaning that the data represent.
+  \begin{enumerate}
+    \item This behaviour can only be implemented by the DSC, and gets its foundation from \cref{dp:spp,dp:alignment,dp:alignment-language};
+    \item It will implement \cref{dp:spp} to request semantic meaning from other DSPs fulfil its pragmatic behaviour required to achieve comprehension.
+  \end{enumerate};
+  \item 3 - Telic behaviour produces a SoA in line with the agent's purpose;
+  \begin{enumerate}
+    \item 
+    \item .
+  \end{enumerate}
+  \item 4 - Business conversation services produce the coordination between collaborating necessary to produce a shared conversation state;
+  \begin{enumerate}
+    \item 
+    \item .
+  \end{enumerate}
+  \item 5 - Separate the domain model in disjoint sub-domains
+  \begin{enumerate}
+    \item When the DM defines a high variety of subjects in the DoA without a clear separation between them, a small change in semantics will induce a proliferation of modifications in the DM;
+    \item Modularisation of the DM minimises the proliferation of a change in one module to other modules.
+  \end{enumerate}
 \end{enumerate}
 &
 \begin{enumerate}[left=10pt, nosep]
   \item Separation of concerns has a strong positive effect on software quality, including but not limited to sIOP;
   \item Removing any dependency between semantics and data syntax enables to support multiple communication paradigms without the need to modify the semantic representation;
+  \item Access-and-play capabilities are supported by assuring minimal impact on software code when introducing semantic modifications. Minimising impact on software code that is concerned with data communication is realised by abstracting semantics away from the data schemata;
   \item Similarly, modification in the semantic representation, or supporting multiple semantic representations, becomes possible without the need to modify the communication layer;
   \item Semantic separation of concerns allows to align semantics as opposed to data schemata resulting the semantic reconciliation to be applied at a higher conceptual level, abstracting away from data communication schemata;
   \item Heterogeneous semantics from multiple data sources are more easily supported;

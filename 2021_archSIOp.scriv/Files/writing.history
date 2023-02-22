@@ -104,5 +104,10 @@
     <Day dwc="0" dcc="2" dtwc="0" owc="0" occ="0" dtcc="0">2023-01-26</Day>
     <Day dwc="119" dcc="805" dtwc="0" owc="0" occ="0" dtcc="0">2023-01-29</Day>
     <Day dwc="155" dcc="1130" dtwc="0" owc="0" occ="0" dtcc="0">2023-02-02</Day>
-    <Day dwc="1" dcc="6" owc="0" occ="0">2023-02-04</Day>
+    <Day dwc="20" dcc="68" owc="0" occ="0">2023-02-04</Day>
+    <Day dwc="133" dcc="792" dtwc="0" owc="0" occ="0" dtcc="0">2023-02-09</Day>
+    <Day dwc="155" dcc="1061" dtwc="16738" owc="0" occ="0" dtcc="115900">2023-02-11</Day>
+    <Day dwc="-2" dcc="-9" owc="0" occ="0">2023-02-16</Day>
+    <Day dwc="233" dcc="1554" owc="0" occ="0">2023-02-17</Day>
+    <Day dwc="25" dcc="174" owc="0" occ="0">2023-02-22</Day>
 </WritingHistory>
