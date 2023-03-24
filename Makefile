@@ -8,7 +8,7 @@ $(PROJ).pdf: results/$(PROJ).tex src/docs/$(PROJ).md
 
 results/$(PROJ).tex: src/docs/$(PROJ).md 
 	rm -f results/$(PROJ).tex
-	pandocomatic -c ./pandocomatic-elsarticle.yaml --debug -o results/$(PROJ).tex src/docs/$(PROJ).md
+	pandocomatic -c ./pandocomatic-elsarticle.yaml --debug -o ./results/$(PROJ).tex ./src/docs/$(PROJ).md
 
 src/docs/$(PROJ).md:
 	echo "Create src/docs/$(PROJ).md"

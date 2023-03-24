@@ -1,0 +1,3 @@
+transparency gaat over api’s.
+
+reconc en mediation moest toch adoen, dus dan transparency alleen maar goede APIs invullen

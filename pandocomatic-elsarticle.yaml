@@ -64,8 +64,12 @@ templates:
                               # relevant metadata fields`. Deactivate this for 
                               # paper print.
 #-----------------------------------------------------------------------------
-  elsevier:
-    extends: ['natbib-refs']
+  version:
+    preprocessor:
+      add: preprocessors/preludeGitVersion.py
+#-----------------------------------------------------------------------------
+  elsarticle:
+    extends: ['natbib-refs','version']
     pandoc:
       verbose: true
       from: markdown
@@ -73,15 +77,15 @@ templates:
       standalone: true
       filter:
         - filters/assimilateMetadata.rb # Handle academic metadata.
-      template: elsarticle.latex        # Latex template supporing elsarticle.cls
-      include-in-header: './../../templates/addstyles.sty' # To easily include packages; refer
+      template: templates/elsarticle.latex        # Latex template supporing elsarticle.cls
+      include-in-header: /Users/paulbrandt/Documents/Promotieonderzoek/Papers/2021_archSIOp/templates/addstyles.sty # To easily include packages; refer
                                # to elsarticle.latex
     metadata:
       documentclass: 'elsarticle'       # Specifying Elsevier's documentclass.
       twocolumn: true          # Single column (False) or double column (True) style. 
                                # DO NOT include 'twocolumn' in the classoption parameter;
                                # that will be taken care of by this parameter.
-      classoption: ['preprint','authoryear','3p'] # Elsevier defines
+      classoption: ['preprint','3p','authoryear'] # Elsevier defines
                                # several options for their various journal styles.
 #      classoption: ['sort&compress','preprint','authoryear','3p'] # 
                                # The `sort&compress` fails on the `&`; refer 
@@ -89,6 +93,8 @@ templates:
 #      classoption: ['preprint','authoryear','3p']  # e.g., single column style.
 #      biboptions: [longnamesfirst,angle,semicolon] # Add extra options of natbib.sty
       colorlinks: true         # Deactivate this for paper print.
+#      linestretch: '1.2'       # Line spacing options may conflict with the 
+                               # elsarticle documentclass option
       lang: 'en-GB'
 #-----------------------------------------------------------------------------
  

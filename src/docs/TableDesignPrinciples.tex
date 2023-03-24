@@ -62,8 +62,8 @@
 \end{mmdp}
 &
 \begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
-  \item[Type of information:] Business, Data;
-  \item[Quality attributes:] Semantics, interoperability, usability, efficiency;
+  \item[Type of information:] business, data;
+  \item[Quality attributes:] semantics, interoperability, usability, efficiency;
 \end{description} \\
 \begin{enumerate}[left=6pt, nosep]
   \item Assume semantic heterogeneity to apply, allowing the software agents to maintain a particular perspective on the DoA;
@@ -96,7 +96,7 @@
 \end{mmdp}
 &
 \begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
-  \item[Type of information:] Business;
+  \item[Type of information:] business, data;
   \item[Quality attributes:] Semantics, interoperability, maturity;
 \end{description} \\
 \begin{enumerate}[left=6pt, nosep]
@@ -129,8 +129,8 @@
 \end{mmdp}
 &
 \begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
-  \item[Type of information:] Business;
-  \item[Quality attributes:] Semantics, interoperability, efficiency;
+  \item[Type of information:] business;
+  \item[Quality attributes:] semantics, interoperability, efficiency;
 \end{description} \\
 \begin{enumerate}[left=6pt, nosep]
   \item Following \cite{Grice:1991BT}, it testifies to the relation of communication to clarify the purpose of the communication;
@@ -147,12 +147,95 @@
 %
 %
 %
+%%%%%%%%%%%%%%
+%%
+%% SEPARATE DATA PAYLOAD SYNTAX from SEMANTIC SYNTAX
+%%
+\begin{mmdp}\label{dp:sds-ss}{\bfseries Separate data syntax from semantics syntax principle:}
+\quad When it is reasonable to expect that the software agent will be engaged in collaboration or otherwise will interoperate with (an)other software agent(s), separate syntax representing the data payload in the agent interoperation from syntax representing the semantic payload of the data.
+\end{mmdp}
+&
+\begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
+  \item[Type of information:] business, data;
+  \item[Quality attributes:] semantics, interoperability, maintainability, efficiency;
+\end{description} \\
+\begin{enumerate}[left=6pt, nosep]
+  \item Following \cite{Grice:1991BT}, it testifies to the relation of communication to clarify the purpose of the communication;
+  \item The essence of sIOP is to exchange SoAs about the DoA;
+  \item Before SoAs can be exchanged, sIOP must be prepared by establishing agreement on the data's semantic meaning, the domain models used, achieving semantic compatibility and the semantic topology that applies;
+  \item This implies to recognise the purpose and subject of communication, and hence, to maintain a shared vocabulary and communication process to denote them and switch between them, viz to rely on a standard semantic protocol.
+\end{enumerate}
+&
+\begin{enumerate}[left=10pt, nosep]
+  \item A semantic protocol can be considered a bootstrapping process, from establishing agreement on what protocol and version to use (if more than one is available), to being ready to engage in exchanging SoAs;
+  \item A semantic protocol talks about semantic meaning and can therefore be considered to operate on a meta-semantic level, implying that it is independent from the particular semantics that apply to the exchanged SoA;
+  \item This allows the semantic protocol to become an infrastructural service in support of sIOP.
+\end{enumerate} \\
+%
+%
+%
+%%%%%%%%%%%%%%
+%%
+%% SEMANTIC MODULARITY PRINCIPLE
+%%
+\begin{mmdp}\label{dp:smp}{\bfseries Semantic modularity principle:}
+\quad When it is reasonable to expect that the domain model (DM) of the agent will grow throughout its lifetime, the DM should allow for modularisation methods that simplify and downsize the DM into manageable parts. 
+\end{mmdp}
+&
+\begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
+  \item[Type of information:] business, data;
+  \item[Quality attributes:] functionality (interoperability), efficiency (time behaviour, resource behaviour), maintainability (stability, changeability, manageability);
+\end{description} \\
+\begin{enumerate}[left=6pt, nosep]
+  \item DMs have the tendency to grow. The larger the DM, the more complicated and the more difficult to keep its operational and maintenance traits under critical limits: the agent will be hampered by an increasingly unmanageable DM to the extent that the agent's operational deployment becomes impeded and/or its life time is significantly reduced;
+  \item Modularising the DM into submodules allows for sizes that remain appropriate in terms of performance and maintenance;
+  \item A modularisation method implements a mechanical approach towards either division into modules, or composition into the whole, according to the specific purpose as pursued by the particular modularisation.
+\end{enumerate}
+&
+\begin{enumerate}[left=10pt, nosep]
+  \item For each module, take measures to validate that it doesn't introduce (noticeable or relevant) differences in the outcome of the operation with respect to the whole
+  \item Since a DM is self-contained and because a modularisation of a model doesn't require to adopt a physical divide, several modularisations can be maintained independently from each other, each designed for its own purpose, e.g., performance, scalability, governance;
+  \item This allows for the capability to apply operations over generated modules, and to return their results back into the main repository.
+\end{enumerate} \\
+%
+%
+%
+%%%%%%%%%%%%%
+%%
+%% SEMANTIC TRANSPARENCY PRINCIPLE
+%%
+\begin{mmdp}\label{dp:stp}{\bfseries Semantic transparency principle:}
+\quad Remain agnostic to the local conceptualisation(s) and representation(s) of the agent(s) you collaborate with, by implementing APIs that access semantic functionalities without committing to the particular domain semantics. Standardise communication services and their parameters on the semantic metalevel only, and allow for exchange of domain semantics as payload only.\end{mmdp}
+&
+\begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
+\item[Type of information:] Data, Technology;
+\item[Quality attributes:] functionality (interoperability), portability, maintainability, efficiency, usability (reuse), reliability;
+\end{description}
+\\
+\begin{enumerate}[left=6pt, nosep]
+  \item Semantic heterogeneity is a matter of fact, and implies that agents apply different representations and conceptualisations on the DoA;
+  \item These semantic differences must be reconciled without introducing interdependencies between the DM's of the DSP and DSC on syntax (semantic representation) and semantic principles (conceptualisation);
+  \item Form and function of APIs remain an ICT responsibility, in support of the business collaboration, whereas form and function of the business collaboration remains a business responsibility;
+  \item Changes to the ICT should be minimal when business collaboration and/or domain semantics are modified, and vice versa;
+  \item Since the ICT discipline is not responsible for the domain semantics, implement communication services using meta-semantics that communicate \emph{about} semantics, encapsulating the exchange of domain semantics, only.
+\end{enumerate}
+&
+\begin{enumerate}[left=10pt, nosep]
+  \item Agents can communicate without syntactic or conceptual dependency, in their own local representations founded on their own local conceptualisation;
+  \item Agents do not require re-implementation of their communication services when business or semantics change; vice-versa, technological changes or software modifications do not require change of the semantic and business levels;
+  \item Governance and maintenance on semantics remain under one's own control, without demanding technological or software changes;
+  \item sIOP is realised declaratively, improving consistency of semantics, and allowing infrastructural components for generic semantic services;
+  \item The business/IT alignment improves through a disconnect between exchange of data and of semantics.
+\end{enumerate} \\
+%
+%
+%
 %%%%%%%%%%%%%
 %%
 %% ALIGNMENT PRINCIPLE
 %%
 \begin{mmdp}\label{dp:alignment}{\bfseries Alignment principle:}
-\quad Align semantic meanings, not data schemata.  \end{mmdp}
+\quad Align semantic meanings, not data schemata or data syntax.  \end{mmdp}
 &
 \begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
   \item[Type of information:] Application, Data;
@@ -276,81 +359,54 @@
 %%
 %% SEMANTIC SEPARATION OF CONCERNS PRINCIPLE
 %%
-\begin{mmdp}\label{dp:ssoc}{\bfseries Semantic separation of concerns principle:}
-\quad When a software agent engages in interoperation with (an)other software agent(s), make sure to understand the semantics of data before their use. To this end, four concerns on meta-semantics must be separated from each other: syntax representing the data payload of the communication from syntax representing the semantic payload of the data; business conversation services; data comprehension behaviour; telic behaviour. A fifth concern separates the domain model in sub-domains that show high cohesion and low coupling. \end{mmdp}
-&
-\begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
-\item[Type of information:] Data, Technology;
-\item[Quality attributes:] semantic interoperability, portability, maintainability, efficiency, usability (reuse), reliability, functionality;
-\end{description}
-\\
-\begin{enumerate}[left=6pt, nosep]
-  \item Neglecting the principle of separation of concerns solidifies dependency between otherwise disjoint concerns, here the semantic level and the syntactic level of communication. The following complementary functionalities can be separated from each other:
-  \item 1 - Separate communication syntax from semantic representation:
-  \begin{enumerate}
-    \item The purpose of communication is to exchange data; the purpose of semantics is to refer to a SoA;
-    \item Both purposes are completely independent from each other, and both are under control of separate disciplines.
-  \end{enumerate}
-  \item 2 - Data comprehension reconstructs, for all semantic meaning that it receives, all semantic reciprocities that are involved by those ASMs that are addressed by the semantic meaning that the data represent.
-  \begin{enumerate}
-    \item This behaviour can only be implemented by the DSC, and gets its foundation from \cref{dp:spp,dp:alignment,dp:alignment-language};
-    \item It will implement \cref{dp:spp} to request semantic meaning from other DSPs fulfil its pragmatic behaviour required to achieve comprehension.
-  \end{enumerate};
-  \item 3 - Telic behaviour produces a SoA in line with the agent's purpose;
-  \begin{enumerate}
-    \item 
-    \item .
-  \end{enumerate}
-  \item 4 - Business conversation services produce the coordination between collaborating necessary to produce a shared conversation state;
-  \begin{enumerate}
-    \item 
-    \item .
-  \end{enumerate}
-  \item 5 - Separate the domain model in disjoint sub-domains
-  \begin{enumerate}
-    \item When the DM defines a high variety of subjects in the DoA without a clear separation between them, a small change in semantics will induce a proliferation of modifications in the DM;
-    \item Modularisation of the DM minimises the proliferation of a change in one module to other modules.
-  \end{enumerate}
-\end{enumerate}
-&
-\begin{enumerate}[left=10pt, nosep]
-  \item Separation of concerns has a strong positive effect on software quality, including but not limited to sIOP;
-  \item Removing any dependency between semantics and data syntax enables to support multiple communication paradigms without the need to modify the semantic representation;
-  \item Access-and-play capabilities are supported by assuring minimal impact on software code when introducing semantic modifications. Minimising impact on software code that is concerned with data communication is realised by abstracting semantics away from the data schemata;
-  \item Similarly, modification in the semantic representation, or supporting multiple semantic representations, becomes possible without the need to modify the communication layer;
-  \item Semantic separation of concerns allows to align semantics as opposed to data schemata resulting the semantic reconciliation to be applied at a higher conceptual level, abstracting away from data communication schemata;
-  \item Heterogeneous semantics from multiple data sources are more easily supported;
-  \item Abstracting semantic alignments and collaboration logic away from agents implies the need for a semantic mediation capability in between the collaborating agents.
-\end{enumerate} \\
-%
-%
-%
-%%%%%%%%%%%%%
-%%
-%% SEMANTIC TRANSPARENCY PRINCIPLE
-%%
-\begin{mmdp}\label{dp:st}{\bfseries Semantic transparency principle:}
-\quad Remain agnostic to the local conceptualisation(s) and representation(s) of the agent(s) you collaborate with. \end{mmdp}
-&
-\begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
-\item[Type of information:] Data, Technology;
-\item[Quality attributes:] semantic interoperability, portability, maintainability, efficiency, usability (reuse), reliability;
-\end{description}
-\\
-\begin{enumerate}[left=6pt, nosep]
-  \item Semantic heterogeneity is a matter of fact, and implies agents to apply different representations and conceptualisations on the DoA;
-  \item For scalable sIOP to emerge these differences must be reconciled without introducing interdependencies between the DM's of the DSP and DSC;
-  \item Remaining agnostic to local representations allows for sIOP without syntactic dependency;
-  \item Remaining agnostic to local conceptualisations allows for sIOP without dependency on local semantic principles;
-  \item Semantic differences, particularly about representation and conceptualisation, can then be resolved declaratively, defined only once for each DSP/DSC pair.
-\end{enumerate}
-&
-\begin{enumerate}[left=10pt, nosep]
-  \item Communicate without syntactic or conceptual dependency, in your own local representations founded on your own local conceptualisation;
-  \item Governance and maintenance on semantics remain under one's own control;
-  \item sIOP is realised declaratively, improving consistency of semantics, and allowing infrastructural components for generic semantic services;
-  \item Semantic transparency enforces these semantic services, both infrastructural and agent-specific, to be \emph{about} semantics, demanding standardisation on the level of meta-semantics only.
-\end{enumerate} \\
+%\begin{mmdp}\label{dp:ssoc}{\bfseries Semantic separation of concerns principle:}
+%\quad When a software agent engages in interoperation with (an)other software agent(s), provide support for loosely coupled semantics: data communication precedes data understanding which precedes their use. To this end, discern (i) syntax representing the data payload of the communication from syntax representing the semantic payload of the data; (ii) data comprehension behaviour; (iii) telic behaviour; (iv) business conversation services. A fifth concern separates the domain model in sub-domains that show high cohesion and low coupling. \end{mmdp}
+%&
+%\begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
+%\item[Type of information:] Data, Technology;
+%\item[Quality attributes:] semantic interoperability, portability, maintainability, efficiency, usability (reuse), reliability, functionality;
+%\end{description}
+%\\
+%Neglecting the principle of separation of concerns solidifies dependency between otherwise disjoint concerns, here the semantic level and the syntactic level of communication. The following complementary functionalities can be separated from each other:
+%\begin{enumerate}[left=6pt, nosep]
+%  \item Separate communication syntax from semantic representation:
+%  \begin{enumerate}
+%    \item The purpose of communication is to exchange data; the purpose of semantics is to refer to a SoA;
+%    \item Both purposes are completely independent from each other, and both are under control of separate disciplines.
+%  \end{enumerate}
+%  \item Data comprehension reconstructs, for all semantic meaning that it receives, all semantic reciprocities that are involved by those ASMs that are addressed by the semantic meaning that the data represent.
+%  \begin{enumerate}
+%    \item This behaviour can only be implemented by the DSC, and must gets its foundation from \cref{dp:spp,dp:alignment,dp:alignment-language};
+%    \item It will implement \cref{dp:spp} to request semantic meaning from other DSPs to fulfil its pragmatic behaviour required to achieve comprehension;
+%    \item Comprehension behaviour is geared towards establishing pre-defined agent states, represented by conclusions drawn by the involved agent's ASMs, that are warranted by the observed SoAs.
+%  \end{enumerate};
+%  \item Telic behaviour produces a SoA in line with the agent's purpose;
+%  \begin{enumerate}
+%    \item Agent states that emerge from comprehension behaviour determine the actions that the agent will perform, its telic behaviour;
+%    \item Agent telic behaviour is directed towards achieving its purpose, the result of which represents a particular SoA.
+%  \end{enumerate}
+%  \item Business conversation services produce the coordination between collaborating agents, necessary to produce a shared conversation state;
+%  \begin{enumerate}
+%    \item A business conversation can be expressed as a hierarchical cluster graph or lattice graph over the involved SoAs, specifying the causal and structural dependency between agent-local SoAs and their collectively composed conversation state;
+%    \item Each cluster (node) in such specification identifies an agent's SoA, whereas each edge specifies its dependency on other agent's SoAs;
+%    \item At any point in the conversation, the conversation protocol resembles the Happy Family card game \footnote{Happy Families (card game), https://en.wikipedia.org/wiki/Happy_Families, accessed Feb 2023}, showing how the protocol itself does not involve domain semantics other than exchanging requested SoA, i.e., semantic meaning.
+%  \end{enumerate}
+%  \item Separate the domain model in disjoint sub-domains
+%  \begin{enumerate}
+%    \item When the DM defines a high variety of subjects in the DoA without a clear separation between them, a small change in semantics will induce a proliferation of modifications in the DM;
+%    \item Modularisation of the DM minimises the proliferation of a change in one module to other modules.
+%  \end{enumerate}
+%\end{enumerate}
+%&
+%\begin{enumerate}[left=10pt, nosep]
+%  \item Separation of concerns has a strong positive effect on software quality, including but not limited to sIOP;
+%  \item Removing any dependency between semantics and data syntax enables to support multiple communication paradigms without the need to modify the semantic representation;
+%  \item Access-and-play capabilities are supported by assuring minimal impact on software code when introducing semantic modifications. Minimising impact on software code that is concerned with data communication is realised by abstracting semantics away from the data schemata;
+%  \item Similarly, modification in the semantic representation, or supporting multiple semantic representations, becomes possible without the need to modify the communication layer;
+%  \item Semantic separation of concerns allows to align semantics as opposed to data schemata resulting the semantic reconciliation to be applied at a higher conceptual level, abstracting away from data communication schemata;
+%  \item Heterogeneous semantics from multiple data sources are more easily supported;
+%  \item Abstracting semantic alignments and collaboration logic away from agents implies the need for a semantic mediation capability in between the collaborating agents.
+%\end{enumerate} \\
 %
 %
 %

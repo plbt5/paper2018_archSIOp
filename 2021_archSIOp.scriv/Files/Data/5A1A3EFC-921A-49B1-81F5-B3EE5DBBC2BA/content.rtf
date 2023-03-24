@@ -1,0 +1,52 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;\f1\fswiss\fcharset0 Helvetica;\f2\fmodern\fcharset0 CourierNewPS-ItalicMT;
+}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf0 The objective of collaborating stakeholders is to establish, in concert, a SoA that represents their collaboration goal. This projected SoA is rarely achieved in one single step. Instead, a series of intermediate steps produce subsequent SoAs along which the collaborative goal is achieved. We consider these intermediate SoAs as being composed of local SoAs: states that are local to and produced by the individual stakeholders. An individual stakeholder, though, might require SoAs from other stakeholders in producing its subsequent local SoA, e.g., an invoice cannot be paid without receipt of the partner\'92s invoice, and a bicycle can not be constructed without availability of the externally manufactured proper parts. This means that together, the stakeholders will converse about resolving dependence between their local SoAs. Examples include the order in which serially produced SoAs need to be established, whether a SoA has already been achieved, or what local SoAs contribute to the shared objective. This requires coordination between stakeholders which is geared towards support for business collaboration. We introduce the notion of a 
+\f1 <$Scr_Cs::1>
+\f2\i business conversation
+\f1\i0 <!$Scr_Cs::1>
+\f0  that accomplishes that coordination, as follows:\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\pardeftab720\sl288\slmult1\partightenfactor0
+
+\f1 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
+\f0\fs22 \\begin\{mmdef\}[Business conversation]\\label\{def:business-conversation\}\
+  A business conversation coordinates telic behaviour from different software agents by exchanging semantic meaning, with the intent \AppleTypeServicesU0 to jointly achieve those individual states of affairs that collaboratively constitute a necessary (intermediate) 
+\fs24 conversation
+\fs22  state towards achieving the objective of a particular business collaboration.\AppleTypeServicesU1 \
+\\end\{mmdef\} 
+\fs24 \AppleTypeServicesU0 \
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf0 <!$Scr_Ps::0>
+\f0 \
+A business conversation measures its success and validity in terms of the shared SoAs that have, or have not, been achieved by each stakeholder involved in that conversation, in a necessary order and of a particular quality. Each conversation produces a shared conversation state, the achievement of which is a necessary step towards the collaborative goal and involves more than one stakeholder. A conversation state thus incorporates SoAs that are specific for each agent that contributes to the conversation: a SoA that is produced by a single agent, on behalf of a stakeholder, representing a SoA internal to that stakeholder. And since an internal SoA might involve SoAs internal to other stakeholders, a conversation brings together these stakeholders, their software agents and roles as DSP or DSC, the exchanged semantic meaning, the conditions and/or pragmatic meaning that must be met by each individual software agent in order to select the proper telic processes, and all this in a joint and coordinated effort. \
+\
+![Ontological construct (based on gUFO [@Almeida2019]), clarifying that a SoA is produced by an Action involving an Actor. A Business Collaboration produces the Collaboration Goals shared by Stakeholders. On behalf of a Stakeholder, the Software Agent partakes in a Business Conversation producing a particular Conversation State towards the Collaboration Goal. On receipt of data, the DSC shows Comprehension Behaviour and subsequently a prescribed telic behaviour to produce a predefined Stakeholder State that contributes to the shared Conversation State. A DSP might partake in such telic behaviour when deemed necessary by the DSC, viz when the latter requires for its telic behaviour an individual SoA that is produced by the DSP. In such case, the DSP and DSC temporarily change roles.][def:soas]\
+\
+Business conversations, then, collectively constitute a business collaboration. How these different aspects relate to each other has been depicted in \\cref\{
+\fs22 \AppleTypeServicesU1 fig:soas
+\fs24 \AppleTypeServicesU0 \}. Similar to the comprehension process, such requires its own protocol to 
+\f1 <$Scr_Cs::1>
+\f2\i coordinate telic behaviours
+\f1\i0 <!$Scr_Cs::1>
+\f0  of the participating stakeholders, and 
+\f1 <$Scr_Cs::1>
+\f2\i orchestrate business conversations
+\f1\i0 <!$Scr_Cs::1>
+\f0  towards the shared collaboration goal. This coordination protocol is directed to attain, with each stakeholder, the execution of telic behaviour (from its subordinate software agent(s)) that fits the business conversation in producing the shared conversation state. Note that the protocol is about SoAs, and although the agents must comprehend those SoAs, such comprehension is not part of this protocol. This implies that the protocol is 
+\f1 <$Scr_Cs::1>
+\f2\i about
+\f1\i0 <!$Scr_Cs::1>
+\f0  semantic meaning and thus remains agnostic to the domain semantics itself, allowing it to become part of the infrastructure. We introduce \\cref\{dp:bcpp\}, the business conversation protocol principle.\
+\
+\
+<!-- Page additions -->\
+[def:soas]: src\\images\\SoAs.png \{#fig:soas width=90%\} \
+\
+}

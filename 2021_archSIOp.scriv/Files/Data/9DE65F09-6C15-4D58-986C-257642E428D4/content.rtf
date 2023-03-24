@@ -1,0 +1,57 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;\f1\fswiss\fcharset0 Helvetica;\f2\fmodern\fcharset0 CourierNewPS-ItalicMT;
+}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf0 In its original reading, separation of concerns turns complex functionalities into simple, atomic and complementary functional capabilities, each showing high internal cohesion and few, preferably none, external dependencies. In a semantic reading, semantic separation of concerns (sSoC) refers to providing complementary and atomic 
+\f1 <$Scr_Cs::0>
+\f2\i semantic
+\f1\i0 <!$Scr_Cs::0>
+\f0  functionalities, as follows. \
+\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 In \\cref\{semantics-in-software\}, item 5, we separated agent behaviour into its data comprehension and telic parts. Similarly, item 9 provides for a separation between the DM and the SM with semantic grounding as their only allowed relationship. These are two expressions of creating a watershed between parts of the agent that are about the domain and signify semantics, and those that simply follow-up on this signification and produce their consequences. We consider these a first sSoC for which \\cref\{dp:spp\} has been formulated {\field{\*\fldinst{HYPERLINK "scrivcmt://76FFBE9C-4781-487C-9AD6-A5832BEAFD7F"}}{\fldrslt already}}. \
+\
+\pard\pardeftab720\partightenfactor0
+\cf0 In a similar vein, we already implied a very fundamental sSoC without which \\cref\{dp:shp,dp:srp,dp:mfapp,dp:spp\} couldn\'92t be considered, viz separation between 
+\f1 <$Scr_Cs::0>
+\f2\i data syntax
+\f1\i0 <!$Scr_Cs::0>
+\f0  and the 
+\f1 <$Scr_Cs::0>
+\f2\i semantic meaning
+\f1\i0 <!$Scr_Cs::0>
+\f0  about the DoA. As analogy to describe this separation, consider a vehicle with its cargo. Logistics rely on external transport services that allow the cargo to be moved by different vehicles, changing vehicles throughout the transport: a truck for an aircraft for a ship for a truck again, without ruining the cargo. This requires the cargo to be firmly connected to the vehicles, but at the same time to remain completely independent from any particular vehicle in order to complete the transport. When software agents interact, they transport semantics by exchanging data. Separating semantics from syntax implies that the semantics 
+\f1 <$Scr_Cs::0>
+\f2\i themselves
+\f1\i0 <!$Scr_Cs::0>
+\f0  (the cargo) remain as independent from the 
+\f1 <$Scr_Cs::0>
+\f2\i data syntax
+\f1\i0 <!$Scr_Cs::0>
+\f0  (the vehicle) as possible. Similarly to logistics, sIOP must be able to rely on infrastructural services that can lift the semantic cargo from its native syntactical vehicle and connect it firmly at another, foreign syntactical vehicle without invalidating the semantic cargo. This translates to a separation between 
+\f1 <$Scr_Cs::0>
+\f2\i syntax representing the data payload
+\f1\i0 <!$Scr_Cs::0>
+\f0  of the communication and 
+\f1 <$Scr_Cs::0>
+\f2\i syntax representing the semantic payload
+\f1\i0 <!$Scr_Cs::0>
+\f0  of the data. The purpose of the former syntax is to consolidate an effective and efficient data exchange, a responsibility that belongs to the ICT discipline and for which it can apply different communication technology with standardised syntax and protocols. The purpose of the latter syntax is to represent semantics, the responsibility of which remains outside the scope of the ICT discipline and belongs to the (individual) domain stakeholders instead. We consider this a second sSoC, and propose \\cref\{dp:sds-ss\}: separate data (payload) syntax from syntax for semantic representation; in other words, separate data exchange from exchanging SoAs.\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 \
+\pard\pardeftab720\partightenfactor0
+\cf0 Now consider only domain semantics, formalised by a Domain Model (DM). DMs have the tendency to grow larger over time, due to the invariant drive of users to include more facts as well as knowledge, i.e., data and logical domain axioms, respectively [@Parent2009]. This increase in volume will inevitably lead to issues with managing data and knowledge, scalability, performance and more. We address this increasing volume concern by a separation on domain semantics. This is about 
+\f1 <$Scr_Cs::0>
+\f2\i semantic modularity
+\f1\i0 <!$Scr_Cs::0>
+\f0 , in a generic meaning defined by [@Parent2009] as a means to \'93perceive a large knowledge repository (\'85) as a set of modules, i.e., smaller repositories that, in some way, are parts of and compose the whole thing\'94. Modularisation divides large semantic competencies into smaller and complementary sub-competencies. Its goal is to decrease the volume of the artefact that, therefore, can be subject to operations that don\'92t perform on the whole due to its too large a size. The natural prerequisite for this approach to succeed is that the particular modularisation doesn\'92t introduce (noticeable or relevant) differences in the outcome of the operation between the whole and its parts. The parts are identified by application of 
+\f1 <$Scr_Cs::0>
+\f2\i High Coherence, Low Coupling
+\f1\i0 <!$Scr_Cs::0>
+\f0  on the semantic level, and is directed by the specific purpose of the modularisation. In the context of sIOP, those purposes can be threefold: dynamic business collaboration (addressed in \\cref\{engineering-dynamic-business-collaboration\}); semantic scalability (addressed in \\cref\{engineering-semantic-scalability\}); and reuse, maintenance and evolution (not further addressed here). Contrary to software modularisation, semantic modularity does not result in one particular, physical set of modules but in a logical division instead. This allows the physical domain model to remain as it is while a particular logical modularisation can be applied when the need arises. This implies that for each purpose a specific modularity can be applied. The main issue then is to select, for each distinguished goal, the proper dimensions over which to apply the modularisation: select the characteristics that separate the whole into distinct but coherent areas of concern, and determine which type of connections are involved with tight coupling with respect to the modularisation goal and should remain within one module as much as possible. We propose \\cref\{dp:smp\}, the semantic modularity principle, to cope with this concern.\
+\
+}
