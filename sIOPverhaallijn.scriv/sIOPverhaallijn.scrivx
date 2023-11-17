@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrivenerProject Identifier="7E43282F-3D9C-46E9-956D-B3DFDD76DF71" Version="2.0" Creator="SCRMAC-3.3.6-16305" Device="Pauls-MacBook-Pro" Author="Paul Brandt" Modified="2023-11-16 12:17:55 +0100" ModID="7424E0EF-9211-4D14-8146-DB94A5B7AA43">
+    <Binder>
+        <BinderItem UUID="BF06D8C4-36CC-4552-A70B-4D1C7BD3BFA3" Type="Text" Created="2018-01-09 02:27:13 +0100" Modified="2023-04-20 14:45:06 +0200">
+            <Title>Pandoc metadata</Title>
+            <MetaData>
+                <SectionType>6CC74B77-99E9-4754-B9F3-FADAC52DBCB8</SectionType>
+                <IncludeInCompile>Yes</IncludeInCompile>
+                <IconFileName>Front Matter</IconFileName>
+            </MetaData>
+            <TextSettings>
+                <TextSelection>1440,0</TextSelection>
+            </TextSettings>
+        </BinderItem>
+        <BinderItem UUID="963810D9-ED58-43E6-A8FB-C407644584CB" Type="DraftFolder" Created="2023-04-06 17:07:24 +0200" Modified="2023-04-06 17:07:24 +0200">
+            <Title>Draft</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <CorkboardAndOutliner>
+                <SelectedSubdocumentUUIDs>5C1423B6-3620-4CBD-9953-23401CFBEE08</SelectedSubdocumentUUIDs>
+                <OutlinerExpandedState>
+                    <ItemID>F42E6BA7-8A69-4FC7-BC48-5B9BA64E907E</ItemID>
+                    <ItemID>5BFAD939-A955-4D0C-81C3-2A50C3DD5749</ItemID>
+                    <ItemID>A9750D02-8B4C-4BB8-BE31-12CA41F10F78</ItemID>
+                    <ItemID>92BE1D9F-B6C5-4334-B03A-E3D3697F00DB</ItemID>
+                    <ItemID>A72E2D59-513E-4673-AEB4-4B2F5369CC4A</ItemID>
+                    <ItemID>C3AD1B5A-AE2E-40B5-A163-8C02812626A1</ItemID>
+                    <ItemID>E41FA764-00BE-4EBB-946E-3D2BD6BBF807</ItemID>
+                </OutlinerExpandedState>
+                <CorkboardSettings>
+                    <Arrangement>Linear</Arrangement>
+                    <FreeformCorkboardDocuments>
+                        <IndexCardBinderUUID Position="1.216667,0.7666" TimeStamp="2023-04-20 10:31:51 +0200">A72E2D59-513E-4673-AEB4-4B2F5369CC4A</IndexCardBinderUUID>
+                        <IndexCardBinderUUID Position="1.146667,0.08" TimeStamp="2023-04-20 10:31:51 +0200">F42E6BA7-8A69-4FC7-BC48-5B9BA64E907E</IndexCardBinderUUID>
+                        <IndexCardBinderUUID Position="0.186667,0.7466" TimeStamp="2023-04-20 10:31:51 +0200">92BE1D9F-B6C5-4334-B03A-E3D3697F00DB</IndexCardBinderUUID>
+                        <IndexCardBinderUUID Position="0.046667,0.116667" TimeStamp="2023-04-20 10:31:51 +0200">9EBA4771-F4A1-4F6B-986B-07FD276E8F87</IndexCardBinderUUID>
+                        <IndexCardBinderUUID Position="2.12,0.12" TimeStamp="2023-04-20 10:31:51 +0200">A9750D02-8B4C-4BB8-BE31-12CA41F10F78</IndexCardBinderUUID>
+                        <IndexCardBinderUUID Position="2.223333,0.8066" TimeStamp="2023-04-20 10:31:51 +0200">E41FA764-00BE-4EBB-946E-3D2BD6BBF807</IndexCardBinderUUID>
+                    </FreeformCorkboardDocuments>
+                </CorkboardSettings>
+            </CorkboardAndOutliner>
+            <Children>
+                <BinderItem UUID="9EBA4771-F4A1-4F6B-986B-07FD276E8F87" Type="Text" Created="2023-04-06 17:02:08 +0200" Modified="2023-06-07 10:08:42 +0200">
+                    <Title>sIOP concerns</Title>
+                    <MetaData>
+                        <LabelID>2</LabelID>
+                        <StatusID>5</StatusID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>1691,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>1,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="F42E6BA7-8A69-4FC7-BC48-5B9BA64E907E" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-06-01 17:39:12 +0200">
+                    <Title>Semantic concerns</Title>
+                    <MetaData>
+                        <LabelID>2</LabelID>
+                        <StatusID>5</StatusID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>11,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>93,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem UUID="5C1423B6-3620-4CBD-9953-23401CFBEE08" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-05-25 15:52:56 +0200">
+                            <Title>Semantics in software</Title>
+                            <MetaData>
+                                <LabelID>2</LabelID>
+                                <StatusID>5</StatusID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Bookmarks>
+                                <Bookmark BinderUUID="93B78C86-0D11-4D0F-8F78-35E3323BB4F8"/>
+                                <Bookmark BinderUUID="163DAC9A-7020-47AE-ADA9-E425C96A61DC"/>
+                            </Bookmarks>
+                        </BinderItem>
+                        <BinderItem UUID="B606BA71-12C8-42D2-A205-D8FE45035B57" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-06-01 18:30:15 +0200">
+                            <Title>Dynamic business concern</Title>
+                            <MetaData>
+                                <LabelID>2</LabelID>
+                                <StatusID>8</StatusID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>3410,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Bookmarks>
+                                <Bookmark BinderUUID="C1C65F6B-04FE-4CA9-8673-07A25699C4E4"/>
+                            </Bookmarks>
+                        </BinderItem>
+                        <BinderItem UUID="5BFAD939-A955-4D0C-81C3-2A50C3DD5749" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-05-25 17:20:21 +0200">
+                            <Title>Cooperative concern</Title>
+                            <MetaData>
+                                <LabelID>2</LabelID>
+                                <StatusID>3</StatusID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>175,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>3208,42</TextSelection>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem UUID="65E87C92-94D4-4E3D-911C-D826D0E67F5A" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-06-15 09:41:06 +0200">
+                                    <Title>Semantic sufficiency</Title>
+                                    <MetaData>
+                                        <LabelID>1</LabelID>
+                                        <StatusID>3</StatusID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>2,0</TextSelection>
+                                    </TextSettings>
+                                    <Bookmarks>
+                                        <Bookmark BinderUUID="09C5BA0E-B020-401B-A030-C4CE00F42D11"/>
+                                    </Bookmarks>
+                                </BinderItem>
+                                <BinderItem UUID="DE64DD0C-C647-4982-8CDB-5B2D439274B1" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-05-29 11:39:15 +0200">
+                                    <Title>Semantic faithfulness</Title>
+                                    <MetaData>
+                                        <LabelID>1</LabelID>
+                                        <StatusID>3</StatusID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>406,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                    <Bookmarks>
+                                        <Bookmark BinderUUID="82B65305-C1FD-4F19-91ED-9E6B45462AF3"/>
+                                    </Bookmarks>
+                                </BinderItem>
+                                <BinderItem UUID="DC78AD68-4A16-4278-B5D7-97280450D91F" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-06-07 16:03:24 +0200">
+                                    <Title>Conversation purpose</Title>
+                                    <MetaData>
+                                        <LabelID>1</LabelID>
+                                        <StatusID>3</StatusID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>927,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                    <Bookmarks>
+                                        <Bookmark BinderUUID="DFE7CE91-E753-4104-8ADA-C27E9617D66F"/>
+                                    </Bookmarks>
+                                </BinderItem>
+                                <BinderItem UUID="78C49616-2B38-4B8D-BED8-1558A5396610" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-05-29 13:53:00 +0200">
+                                    <Title>Semantic representation</Title>
+                                    <MetaData>
+                                        <LabelID>1</LabelID>
+                                        <StatusID>3</StatusID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>168,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>592,0</TextSelection>
+                                    </TextSettings>
+                                    <Bookmarks>
+                                        <Bookmark BinderUUID="09C5BA0E-B020-401B-A030-C4CE00F42D11"/>
+                                    </Bookmarks>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem UUID="A9750D02-8B4C-4BB8-BE31-12CA41F10F78" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-06-29 15:47:46 +0200">
+                    <Title>Reconciliation concerns</Title>
+                    <MetaData>
+                        <LabelID>1</LabelID>
+                        <StatusID>1</StatusID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem UUID="72D1DD4E-A2D5-4181-B54F-FBFCEA4C854F" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-06-29 21:18:20 +0200">
+                            <Title>Semantic coherence</Title>
+                            <MetaData>
+                                <LabelID>1</LabelID>
+                                <StatusID>1</StatusID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Bookmarks>
+                                <Bookmark BinderUUID="5D680B73-5A7F-4415-8B6F-D02E5ABD9982"/>
+                                <Bookmark BinderUUID="D0162687-316B-4B82-9AC5-681F6DC27645"/>
+                            </Bookmarks>
+                        </BinderItem>
+                        <BinderItem UUID="6D7A6961-F4BE-4C2D-ACAB-9D4FA4304549" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-06-29 21:18:20 +0200">
+                            <Title>Human involvement</Title>
+                            <MetaData>
+                                <LabelID>1</LabelID>
+                                <StatusID>1</StatusID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Bookmarks>
+                                <Bookmark BinderUUID="C3978DEE-DF48-4F52-830C-5A75D8D374EF"/>
+                            </Bookmarks>
+                        </BinderItem>
+                        <BinderItem UUID="8191B767-5665-4970-9645-B7946DDE02DE" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-05-25 17:44:49 +0200">
+                            <Title>Business coordination</Title>
+                            <MetaData>
+                                <LabelID>1</LabelID>
+                                <StatusID>1</StatusID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>595,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Bookmarks>
+                                <Bookmark BinderUUID="4FC40D23-A758-461E-BD5B-EBE066FBD8F0"/>
+                            </Bookmarks>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem UUID="92BE1D9F-B6C5-4334-B03A-E3D3697F00DB" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-05-25 20:46:09 +0200">
+                    <Title>Mediation concerns</Title>
+                    <MetaData>
+                        <LabelID>1</LabelID>
+                        <StatusID>1</StatusID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>741,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>52,42</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem UUID="58A93F3B-63D7-4A22-98CE-CD8274C95ACA" Type="Text" Created="2023-04-20 12:15:24 +0200" Modified="2023-05-25 20:46:04 +0200">
+                            <Title>Data transcription</Title>
+                            <MetaData>
+                                <LabelID>7</LabelID>
+                                <StatusID>1</StatusID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Bookmarks>
+                                <Bookmark BinderUUID="1AB4D716-EAEE-4ADC-82C3-A40AD259E862"/>
+                            </Bookmarks>
+                        </BinderItem>
+                        <BinderItem UUID="B2AD6C74-88BF-40D3-A33C-04897C76F231" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-05-25 20:46:05 +0200">
+                            <Title>Interaction coordination</Title>
+                            <MetaData>
+                                <LabelID>7</LabelID>
+                                <StatusID>1</StatusID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>566,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Bookmarks>
+                                <Bookmark BinderUUID="5E50F57B-D5F3-4725-9BDC-906540113D14"/>
+                            </Bookmarks>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem UUID="A72E2D59-513E-4673-AEB4-4B2F5369CC4A" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-05-25 17:24:15 +0200">
+                    <Title>Scalability concerns</Title>
+                    <MetaData>
+                        <LabelID>7</LabelID>
+                        <StatusID>1</StatusID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>52,41</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem UUID="F1041452-22C7-4FB9-B0A6-9F6E61A847AF" Type="Text" Created="2023-04-06 18:09:13 +0200" Modified="2023-05-25 20:45:44 +0200">
+                            <Title>Semantic scalability</Title>
+                            <MetaData>
+                                <LabelID>7</LabelID>
+                                <StatusID>1</StatusID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Bookmarks>
+                                <Bookmark BinderUUID="BA40FA54-877C-4BB2-AB9C-3789929405B1"/>
+                            </Bookmarks>
+                        </BinderItem>
+                        <BinderItem UUID="C3AD1B5A-AE2E-40B5-A163-8C02812626A1" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-05-25 17:24:20 +0200">
+                            <Title>Loosely coupled semantic</Title>
+                            <MetaData>
+                                <LabelID>7</LabelID>
+                                <StatusID>1</StatusID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>98,0</TextSelection>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem UUID="F66B00D4-1B71-4C5A-AB14-3E41DBEDB319" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-05-25 20:45:47 +0200">
+                                    <Title>Semantic transparency</Title>
+                                    <MetaData>
+                                        <LabelID>7</LabelID>
+                                        <StatusID>1</StatusID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                    <Bookmarks>
+                                        <Bookmark BinderUUID="C17853A0-BE0A-4CF3-8DDD-4B994186CA48"/>
+                                    </Bookmarks>
+                                </BinderItem>
+                                <BinderItem UUID="812BEA35-76CA-4569-A3B0-7312AF43C26D" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-05-25 20:45:48 +0200">
+                                    <Title>Semantic separation of concerns</Title>
+                                    <MetaData>
+                                        <LabelID>7</LabelID>
+                                        <StatusID>1</StatusID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                    <Bookmarks>
+                                        <Bookmark BinderUUID="E715A7B9-BC0B-40BA-AD8A-B17A0D22FCE8"/>
+                                        <Bookmark BinderUUID="630E793C-54DE-49F0-BF34-798437AD3D38"/>
+                                    </Bookmarks>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem UUID="12CA6B3B-A2F2-4D76-910F-12A96AD61F75" Type="Text" Created="2023-06-01 13:41:22 +0200" Modified="2023-06-01 14:46:23 +0200">
+                    <Title>Operationalisation</Title>
+                    <MetaData>
+                        <LabelID>1</LabelID>
+                        <StatusID>3</StatusID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="E41FA764-00BE-4EBB-946E-3D2BD6BBF807" Type="Text" Created="2023-04-06 17:02:08 +0200" Modified="2023-04-06 17:33:27 +0200">
+                    <Title>DPs</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <CorkboardAndOutliner>
+                        <SelectedSubdocumentUUIDs>BA40FA54-877C-4BB2-AB9C-3789929405B1</SelectedSubdocumentUUIDs>
+                    </CorkboardAndOutliner>
+                    <Children>
+                        <BinderItem UUID="C1C65F6B-04FE-4CA9-8673-07A25699C4E4" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-23 23:13:18 +0200">
+                            <Title>DP1:shp Semantic Heterogeneity Principle</Title>
+                            <MetaData>
+                                <LabelID>2</LabelID>
+                                <StatusID>3</StatusID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Bookmarks>
+                                <Bookmark BinderUUID="B606BA71-12C8-42D2-A205-D8FE45035B57"/>
+                            </Bookmarks>
+                        </BinderItem>
+                        <BinderItem UUID="93B78C86-0D11-4D0F-8F78-35E3323BB4F8" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-23 23:10:44 +0200">
+                            <Title>DP: Separate DM from SM</Title>
+                            <MetaData>
+                                <LabelID>1</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Bookmarks>
+                                <Bookmark BinderUUID="5C1423B6-3620-4CBD-9953-23401CFBEE08"/>
+                            </Bookmarks>
+                        </BinderItem>
+                        <BinderItem UUID="163DAC9A-7020-47AE-ADA9-E425C96A61DC" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-23 23:11:09 +0200">
+                            <Title>DP: Separate comprehension from telic behaviour</Title>
+                            <MetaData>
+                                <LabelID>1</LabelID>
+                                <StatusID>3</StatusID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Bookmarks>
+                                <Bookmark BinderUUID="5C1423B6-3620-4CBD-9953-23401CFBEE08"/>
+                            </Bookmarks>
+                        </BinderItem>
+                        <BinderItem UUID="09C5BA0E-B020-401B-A030-C4CE00F42D11" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-23 23:13:34 +0200">
+                            <Title>DP2:srp Semantic responsibility principle</Title>
+                            <MetaData>
+                                <LabelID>2</LabelID>
+                                <StatusID>3</StatusID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Bookmarks>
+                                <Bookmark BinderUUID="65E87C92-94D4-4E3D-911C-D826D0E67F5A"/>
+                                <Bookmark BinderUUID="78C49616-2B38-4B8D-BED8-1558A5396610"/>
+                            </Bookmarks>
+                        </BinderItem>
+                        <BinderItem UUID="82B65305-C1FD-4F19-91ED-9E6B45462AF3" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-23 23:13:40 +0200">
+                            <Title>DP3:mfapp Minimise FAP principle</Title>
+                            <MetaData>
+                                <LabelID>2</LabelID>
+                                <StatusID>3</StatusID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Bookmarks>
+                                <Bookmark BinderUUID="DE64DD0C-C647-4982-8CDB-5B2D439274B1"/>
+                            </Bookmarks>
+                        </BinderItem>
+                        <BinderItem UUID="DFE7CE91-E753-4104-8ADA-C27E9617D66F" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-05-05 15:10:49 +0200">
+                            <Title>DP4:spp Semantic protocol principle</Title>
+                            <MetaData>
+                                <LabelID>2</LabelID>
+                                <StatusID>3</StatusID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>143,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Bookmarks>
+                                <Bookmark BinderUUID="DC78AD68-4A16-4278-B5D7-97280450D91F"/>
+                            </Bookmarks>
+                        </BinderItem>
+                        <BinderItem UUID="E715A7B9-BC0B-40BA-AD8A-B17A0D22FCE8" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-23 23:14:03 +0200">
+                            <Title>DP5:sds-ss Separate data syntax from semantics syntax principle</Title>
+                            <MetaData>
+                                <LabelID>2</LabelID>
+                                <StatusID>3</StatusID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Bookmarks>
+                                <Bookmark BinderUUID="812BEA35-76CA-4569-A3B0-7312AF43C26D"/>
+                            </Bookmarks>
+                        </BinderItem>
+                        <BinderItem UUID="630E793C-54DE-49F0-BF34-798437AD3D38" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-23 23:14:10 +0200">
+                            <Title>DP6:smp Semantic modularity principle</Title>
+                            <MetaData>
+                                <LabelID>2</LabelID>
+                                <StatusID>3</StatusID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Bookmarks>
+                                <Bookmark BinderUUID="812BEA35-76CA-4569-A3B0-7312AF43C26D"/>
+                            </Bookmarks>
+                        </BinderItem>
+                        <BinderItem UUID="C17853A0-BE0A-4CF3-8DDD-4B994186CA48" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-23 23:14:15 +0200">
+                            <Title>DP7:stp Semantic transparent API principle</Title>
+                            <MetaData>
+                                <LabelID>2</LabelID>
+                                <StatusID>3</StatusID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Bookmarks>
+                                <Bookmark BinderUUID="F66B00D4-1B71-4C5A-AB14-3E41DBEDB319"/>
+                            </Bookmarks>
+                        </BinderItem>
+                        <BinderItem UUID="20103C89-AEF9-486E-B946-8DAB47CEC4DC" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-21 11:49:23 +0200">
+                            <Title>DPx:ctp Conceptualisational transparency principle</Title>
+                            <MetaData>
+                                <LabelID>6</LabelID>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="9F5CCF51-3B0F-40CC-A075-1307E8356D54" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-21 11:49:23 +0200">
+                            <Title>DPx:rtp Representational transparency principle</Title>
+                            <MetaData>
+                                <LabelID>6</LabelID>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="5D680B73-5A7F-4415-8B6F-D02E5ABD9982" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-23 23:14:21 +0200">
+                            <Title>DP8:ap Alignment principle</Title>
+                            <MetaData>
+                                <LabelID>2</LabelID>
+                                <StatusID>3</StatusID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Bookmarks>
+                                <Bookmark BinderUUID="72D1DD4E-A2D5-4181-B54F-FBFCEA4C854F"/>
+                            </Bookmarks>
+                        </BinderItem>
+                        <BinderItem UUID="D0162687-316B-4B82-9AC5-681F6DC27645" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-23 23:14:27 +0200">
+                            <Title>DP9:crp Correspondence relation principle</Title>
+                            <MetaData>
+                                <LabelID>2</LabelID>
+                                <StatusID>3</StatusID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Bookmarks>
+                                <Bookmark BinderUUID="5D680B73-5A7F-4415-8B6F-D02E5ABD9982"/>
+                                <Bookmark BinderUUID="72D1DD4E-A2D5-4181-B54F-FBFCEA4C854F"/>
+                            </Bookmarks>
+                        </BinderItem>
+                        <BinderItem UUID="C3978DEE-DF48-4F52-830C-5A75D8D374EF" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-23 23:14:32 +0200">
+                            <Title>DP10:hep Human efficiency principle</Title>
+                            <MetaData>
+                                <LabelID>2</LabelID>
+                                <StatusID>3</StatusID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Bookmarks>
+                                <Bookmark BinderUUID="6D7A6961-F4BE-4C2D-ACAB-9D4FA4304549"/>
+                            </Bookmarks>
+                        </BinderItem>
+                        <BinderItem UUID="4FC40D23-A758-461E-BD5B-EBE066FBD8F0" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-23 23:14:40 +0200">
+                            <Title>DP11:bcpp Business conversation protocol principle</Title>
+                            <MetaData>
+                                <LabelID>2</LabelID>
+                                <StatusID>3</StatusID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Bookmarks>
+                                <Bookmark BinderUUID="8191B767-5665-4970-9645-B7946DDE02DE"/>
+                            </Bookmarks>
+                        </BinderItem>
+                        <BinderItem UUID="1AB4D716-EAEE-4ADC-82C3-A40AD259E862" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-27 12:45:18 +0200">
+                            <Title>DP12:dtp Data transcription principle</Title>
+                            <MetaData>
+                                <LabelID>1</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Bookmarks>
+                                <Bookmark BinderUUID="58A93F3B-63D7-4A22-98CE-CD8274C95ACA"/>
+                            </Bookmarks>
+                        </BinderItem>
+                        <BinderItem UUID="5E50F57B-D5F3-4725-9BDC-906540113D14" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-27 12:37:00 +0200">
+                            <Title>DP13:icp Interaction coordination principle</Title>
+                            <MetaData>
+                                <LabelID>1</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Bookmarks>
+                                <Bookmark BinderUUID="B2AD6C74-88BF-40D3-A33C-04897C76F231"/>
+                            </Bookmarks>
+                        </BinderItem>
+                        <BinderItem UUID="BA40FA54-877C-4BB2-AB9C-3789929405B1" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-23 23:17:14 +0200">
+                            <Title>DP14:ssp Semantic scalability principle</Title>
+                            <MetaData>
+                                <LabelID>7</LabelID>
+                                <StatusID>0</StatusID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Bookmarks>
+                                <Bookmark BinderUUID="F1041452-22C7-4FB9-B0A6-9F6E61A847AF"/>
+                            </Bookmarks>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem UUID="6EA86789-C7DA-47E6-90AA-8580CCBD227E" Type="ResearchFolder" Created="2023-04-06 17:07:24 +0200" Modified="2023-04-06 17:07:24 +0200">
+            <Title>Research</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+        </BinderItem>
+        <BinderItem UUID="C4D4CA53-6A8A-4786-A4D7-E11A300DA766" Type="TrashFolder" Created="2023-04-06 17:07:24 +0200" Modified="2023-04-06 17:07:24 +0200">
+            <Title>Trash</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem UUID="DE9BFE1E-8089-484C-9186-3D727CC8C29C" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                    <Title>Shape 1</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="A6FA60A7-E23D-4CF7-8BAB-E0D119A5FCD2" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                    <Title>S1</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="B50D9787-0869-412E-AC72-F382BF0C194E" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                    <Title>Shape 2</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="94AD73F3-1B4D-4508-BEED-CDAF57BF903F" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                    <Title>S2</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="B250B2DF-E85A-438F-9503-958F1CC871B3" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                    <Title>Shape 3</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="8716C6FD-00C3-452C-95B6-0B5270971C0E" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                    <Title>R2</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="EDD44A93-31E0-4EFE-83F4-BFEF3A15C90F" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                    <Title>R3</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="3EAB762A-00FB-4C52-9372-0E15CD8B79B3" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                    <Title>Shape 4</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="4501702E-C56A-4B21-9049-14C43A0B3A6D" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                    <Title>R4</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="AD677E57-290C-4F98-9533-76216917EC44" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                    <Title>Shape 5</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="412011EC-6113-4429-9274-13DF8A93AF6E" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                    <Title>M1</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="80CBD5D5-F3BA-40D4-A2FF-92EE296434B3" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                    <Title>Shape 6</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="006C8D37-B152-4442-BDF5-D1EA4B548F8E" Type="Text" Created="2023-04-06 17:02:08 +0200" Modified="2023-04-06 17:02:08 +0200">
+                    <Title>Shape 7</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem UUID="CDAE58D4-7DAC-43D0-A47E-64BEBFF798F1" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                            <Title>Legenda</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="80C86E2F-33F1-4269-80CB-814231EE00B8" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                            <Title>Benoemde concern</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="0ED511D6-4752-43D4-A258-A20549038668" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                            <Title>Concern #: beschrijving</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="FB8F99C0-CAE2-4CF5-9BEC-DE43008B7FC3" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                            <Title>Concern afgeleid uit tekst</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="AE1958C8-462E-498F-94CF-880F04A3141F" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                            <Title>Beschrijving van concern</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="1CD10A69-69FE-4865-9606-07DD8DF4D937" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                            <Title>DP nog te beschrijven</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="8D66DA2F-44F8-4AC2-94D5-EE2D33F8B12F" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                            <Title>DP: naam principe</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="BBF147FB-57A3-4BAF-9869-EF6E82CA626F" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                            <Title>diepste sectie waaruit DPs zijn afgeleid</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="20EBB2F4-DB0B-4346-AA64-523E45D49F4B" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                            <Title>#.# sectienaam</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="4B4BD16B-468E-4A57-A076-8CD47E3D639D" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                            <Title>DP uit paper 1</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="168C5704-6F38-473A-8E6A-90874E8EB6B5" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                            <Title>DP: naam</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="A34E6B73-C610-42D8-9011-CD0CE32071B4" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                            <Title>C</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="EC1785D8-6E1F-4496-9DC0-E6E103D643AB" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                            <Title>DP</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="DD14A893-E23F-47CA-B4C5-874192E30974" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                            <Title>DP draagt bij aan Concern</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="41FD3653-C945-497F-BB99-4E94B73B2D88" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                            <Title>C</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="6ACB844F-D7A2-4448-81B0-E6E9C7CEF8A6" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                            <Title>SC</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="778C9701-AA64-4814-9A9C-4D2A61E915B6" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                            <Title>Subconcern volgt uit concern</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="C0B2B006-CE93-4BD9-9FC2-34D4D1396702" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                            <Title>S2</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="F4FB26CB-F18D-4BB0-856F-783C3C6589C8" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                            <Title>Nieuwe nummering Concerns</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem UUID="0D624934-D370-4457-8488-D25F29C7ABF2" Type="Text" Created="2023-04-06 17:02:08 +0200" Modified="2023-04-06 17:02:08 +0200">
+                    <Title>Shape 8</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem UUID="DC4F45FB-B4A2-4444-9257-AC6B6C9D1069" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                            <Title>Shape 9</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem UUID="0F39B4E8-6541-48B5-B75E-E78F35A7798E" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                                    <Title>??</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem UUID="C2625854-071A-4A94-91BD-07E2E9A11990" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                            <Title>Sc1</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="B95E3DA2-A062-4FAF-A9A7-77127C45E1C6" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                            <Title>Shape 10</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="3BD8B453-F1F8-47E3-8289-2841C47F1CED" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                            <Title>Sc1</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="A2A1E3DC-FE5E-44A4-A869-58B8A7E72656" Type="Text" Created="2023-04-06 17:07:41 +0200" Modified="2023-04-06 17:07:41 +0200">
+                            <Title>Shape 11</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem UUID="C8EC964A-AD45-4DE3-8D60-BD917D37E0FC" Type="Text" Created="2023-04-06 17:07:24 +0200" Modified="2023-04-06 17:07:24 +0200">
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="9BFA9991-10A7-4803-BD7A-ADD9E49EF7BF" Type="Text" Created="2023-04-07 14:50:13 +0200" Modified="2023-04-07 14:50:13 +0200">
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+    </Binder>
+    <Collections>
+        <Collection Type="Binder" ID="86A3D774-72D6-4BF1-B4FE-6E6885A86A28" Color="0.17693 0.154573 0.133367">
+            <Title>Binder</Title>
+        </Collection>
+        <Collection Type="RecentSearch" ID="CBF6EFE4-A2E2-4853-BC1B-AAE2985957D6" Color="0.17693 0.175159 0.133367">
+            <Title>Search Results</Title>
+            <SearchSettings Operator="Exact" Type="All" CaseSensitive="No" IgnoreDiacritics="No">cncrn:re-establish-coherence</SearchSettings>
+        </Collection>
+    </Collections>
+    <SectionTypes>
+        <TypeDefinitions>
+            <Type ID="4BBCA848-8FC9-4FB2-A7B6-8A048C492F15">Heading</Type>
+            <Type ID="6CC74B77-99E9-4754-B9F3-FADAC52DBCB8">Frontmatter</Type>
+            <Type ID="98481779-C81C-4021-ACD9-176ABEE5CACC">Sub-Heading</Type>
+            <Type ID="D10C30B2-308C-48D1-87A4-ABEABECCF2F7">Section</Type>
+        </TypeDefinitions>
+        <LevelTypes>
+            <Folders>
+                <Type>4BBCA848-8FC9-4FB2-A7B6-8A048C492F15</Type>
+            </Folders>
+            <Containers>
+                <Type>D10C30B2-308C-48D1-87A4-ABEABECCF2F7</Type>
+            </Containers>
+            <Files>
+                <Type>D10C30B2-308C-48D1-87A4-ABEABECCF2F7</Type>
+            </Files>
+        </LevelTypes>
+    </SectionTypes>
+    <LabelSettings>
+        <Title>Voortgang</Title>
+        <DefaultLabelID>-1</DefaultLabelID>
+        <Labels>
+            <Label ID="-1">No Label</Label>
+            <Label ID="6" Color="0.701958 0.701979 0.701967">Deprecated</Label>
+            <Label ID="0" Color="0.986252 0.007236 0.027423">Impeded</Label>
+            <Label ID="7" Color="0.989013 0.435749 0.81175">Writing</Label>
+            <Label ID="1" Color="0.995808 0.800124 0.399987">1st draft</Label>
+            <Label ID="2" Color="0.799994 1.0 0.400001">Revised draft</Label>
+            <Label ID="3" Color="0.131302 0.999697 0.023594">Final draft</Label>
+            <Label ID="4" Color="0.702312 0.888297 0.97426">Blue</Label>
+            <Label ID="5" Color="0.957564 0.766768 0.999625">Purple</Label>
+        </Labels>
+    </LabelSettings>
+    <StatusSettings>
+        <Title>Status</Title>
+        <DefaultStatusID>-1</DefaultStatusID>
+        <StatusItems>
+            <Status ID="-1">No Status</Status>
+            <Status ID="0">To Do</Status>
+            <Status ID="7">Got Stuck</Status>
+            <Status ID="8">Incomplete</Status>
+            <Status ID="1">In Progress</Status>
+            <Status ID="3">In Review</Status>
+            <Status ID="5">Done</Status>
+        </StatusItems>
+    </StatusSettings>
+    <ProjectTargets Notify="No">
+        <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2023-04-06 17:07:22 +0200" IgnoreDeadline="Yes">0</DraftTarget>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2023-11-17 00:00:00 +0100" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="0" Characters="0" Date="2023-11-16 12:17:51 +0100"/>
+    </ProjectTargets>
+    <RecentWritingHistory Date="2023-11-16 00:00:00 +0100">
+        <DraftWordCount>0</DraftWordCount>
+        <DraftCharCount>0</DraftCharCount>
+        <OtherWordCount>0</OtherWordCount>
+        <OtherCharCount>0</OtherCharCount>
+    </RecentWritingHistory>
+    <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"/>
+</ScrivenerProject>

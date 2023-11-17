@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="7908B75F-3953-4F84-920B-C635A330AB93">
+    <Snapshot Date="2020-02-22 16:15:48 +0100">
+        <Title>Example about culinary app making use of botanical app</Title>
+        <Text>Assume a culinary application that uses concepts about vegetables, fruits, nuts, herbs and more. In order to maintain an accurate description on the individual elements, it makes use of information from a botanic data source. The latter discerns the various parts of the plant as depicted in \cref{fig:plant-parts}. Unfortunately, the perspectives on what exactly is meant with fruits and vegetables is quite different between botanics and the culinary disciplines. Botanics define fruit as a seed-bearing structure that develops from the ovary of a flowering plant, whereas the culinary perspective simply refers to fruit as a sweet, juicy, edible part of the plant. Moreover, although botanics discern the different parts of a plant, such as roots, bulbs, tubers, leaves, stems and more, “vegetables” do not exist in botanical terminology; at best it can be considered to refer to all other parts of a plant that are not fruits. From a culinary perspective, “Vegetable took on its current sense just a few centuries ago and essentially means a plant material that is neither fruit nor seed” [@McGee2004;p.247]. We summarise the clash between botanic and culinary terminology in \cref{fig:bot-cul-venns}. 
+
+\begin{figure}
+  \centering
+  \begin{subfigure}[b]{.35\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{src/images/PlantAnatomy.png}
+    \caption{Botanics anatomy of a plant © 2011 Pearson Education, Inc.}
+    \label{fig:plant-parts}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{.6\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{src/images/BotanicCulinaryVenns.png}
+    \caption{The different categorisation of fruits and vegetables between the culinary and botanic disciplines. We denote as botanic “vegetable” those parts of a plant that are not botanical fruit.}
+    \label{fig:bot-cul-venns}
+  \end{subfigure}
+  \caption{}
+  \label{fig:semantic-concerns}
+\end{figure}
+
+As initial example, consider the following two ontologies B(otany) and C(ulinary), each specifying the semantics as ascribed to their particular data source, depicted in \cref{fig:alignment}. 
+
+![Two ontologies, a culinary ($\ont{O}_c$) and botanic ($\ont{O}_b$) one, defining $i$ngredients that subsume $v$egetables and $f$ruits (disjoint, complete), and a $p$lant anatomy with $f’$ruits and “$v’$egetables” (disjoint, complete), respectively. Both ontologies are subsumed by the $\top$ concept (”Thing”) and subsume the $\bot$ concept (”Nothing”). The alignment specifies that ][def:Align]
+
+
+Creating semantic interoperability between two data sources A and B about a shared application domain. Each data source is specified by its own ontology. The differences between the ontological representations are reconciled by an alignment specification upfront. During deployment, data in terms of the native representation from A are transcribed into the native representations from B.
+
+https://lalaithion.wordpress.com/2014/10/02/what-exactly-is-a-fruit/
+
+
+
+
+
+
+Interoperability of values versus concepts.
+ 
+In order to achieve semantic interoperability (sIOP), it is necessary to address the different artifacts as depicted in \cref{fig:Align}: Two ontologies A and B, each specifying the semantics as ascribed to their particular data source; reconciling the differences between the ontologies upfront, resulting in an alignment which contains inter-ontological correspondence relations between concepts in A and B; and, a data mediation process to replace the native term from data source A into the native term from data source B, employing both ontologies and their alignment. Unfortunately, replacing one term for another necessarily implies a semantic equivalence to hold between them, ignoring the specified inter-ontological correspondence relation. Through such a naive mediation the semantics as intended by A will be modified to the interpretation as intended by B, resulting in mediated data for B that carries phantom semantics.  
+
+
+&lt;!-- Page definitions --&gt;
+[def:Align]: src\images\Alignment.png {#fig:alignment width=70%}
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

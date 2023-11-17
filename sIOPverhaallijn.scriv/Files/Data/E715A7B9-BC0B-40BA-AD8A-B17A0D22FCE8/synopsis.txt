@@ -1,0 +1,1 @@
+Separate syntax representing the data payload in the agent interoperation from syntax representing the semantic payload of the data.

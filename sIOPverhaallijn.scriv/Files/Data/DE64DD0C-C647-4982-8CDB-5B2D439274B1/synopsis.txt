@@ -1,0 +1,9 @@
+What do we deem necessary in order to maintain faithfulness to reality when exchanging data, and how can we assure that the data exchange does not introduce *phantom semantics*? In this reading, Maxim 2 (Quality) states that the DSP must assure to only exchange data that are faithful to reality, i.e., reflect the current SoA properly; on her turn, the DSC must assure to comprehend the exchanged data into semantic meaning in a way that reflects the intended SoA. This is about semantic accuracy, semantic validity, and being informed in good time. We assume software agents to not break this maxim on purpose, but that does not mean that the conversation does not introduce quality issues. Quality issues can emerge from the so-called false-agreement problem (FAP) [@Guarino:1998wq, Sec.2.4], resulting in collaborating agents to falsely belief that they agree.
+
+\begin{mmconcern}[Semantic faithfulness concern]\label{cncrn:qlymc}
+When two or more actors communicate, phantom semantics, and notably the false-agreement problem can easily emerge. It is essential that the semantic meaning that is comprehended by the DSC matches the semantic meaning that is intended by the DSP.
+\end{mmconcern}
+
+Applied DP:
+
+* DP3: Minimise FAP principle

@@ -120,4 +120,10 @@
     <Day dwc="0" dcc="0" owc="0" occ="2">2023-03-20</Day>
     <Day dwc="1" dcc="8" dtwc="18064" owc="-3" occ="-56" dtcc="124726">2023-03-21</Day>
     <Day dwc="96" dcc="739" owc="0" occ="0">2023-03-23</Day>
+    <Day dwc="335" dcc="2619" owc="0" occ="-39">2023-03-30</Day>
+    <Day dwc="1" dcc="11" dtwc="18496" owc="0" occ="0" dtcc="128091">2023-04-07</Day>
+    <Day dwc="5" dcc="23" owc="0" occ="0">2023-04-10</Day>
+    <Day dwc="63" dcc="378" owc="0" occ="0">2023-04-20</Day>
+    <Day dwc="2" dcc="10" owc="0" occ="0">2023-09-28</Day>
+    <Day dwc="-1171" dcc="-7899" owc="-261" occ="-2103">2023-10-17</Day>
 </WritingHistory>

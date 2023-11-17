@@ -1,0 +1,14 @@
+In \cref{semantics-in-software}, we defend the central disposition of reciprocity between data and data processing, emerging as an Atomic Semantic Monolith (ASM), with the explicit purpose to guarantee the coherence between the data (semantic meaning) and their processing code (pragmatic meaning). 
+
+Data exchange implies the DSP to tear down the ASM, separating the semantic meaning from its pragmatic meaning. Since data comprehension precedes its faithful use, the DSC must establish a valid reciprocity between the DSP’s semantic meaning with its own pragmatic meaning, e.g., when exchanging temperature, assure that the DSP’s semantic meaning and the DSC’s pragmatic meaning apply similar background knowledge about scales and units and alike, and assure that the temperature applies to the same object, to name a few. Data exchange, thus, implies the DSC to receive semantic meaning only, losing every guarantee that reciprocity between the DSP’s data and the DSC’s data processing is coherent. Unless it can be guaranteed that this reciprocity is as coherent as necessary for a faithful comprehension by the DSC, it is impossible to establish sIOP without emergence of phantom semantics. We consider maintaining semantic coherence a necessary condition for sIOP to emerge, and formulate the third concern about sIOP as follows.
+
+\begin{mmconcern}[Semantic coherence concern]\label{cncrn:re-establish-coherence}
+The reciprocity between data and their processing is the carrier of RWS. By the nature of data exchange, this reciprocity is broken for the DSC on receipt of data. Without reciprocity, no faithful comprehension of the DSP’s semantic meaning can occur; absence of faithful comprehension by the DSC impedes its capability to establish sIOP with the DSP.
+\end{mmconcern}
+
+Applied DPs: 
+
+* DP8: Alignment principle.  
+* DP9: Correspondence relation principle
+
+

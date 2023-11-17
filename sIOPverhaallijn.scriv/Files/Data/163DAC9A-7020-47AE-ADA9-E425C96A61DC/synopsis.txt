@@ -1,0 +1,2 @@
+Defined in paper 1 als: Make a distinction between comprehension operations that follow from the inferential model to establish pragmatic meaning (data-processing for comprehension) and telic operations that realise actions in order to achieve a certain goal of the application (data-processing to produce results).
+

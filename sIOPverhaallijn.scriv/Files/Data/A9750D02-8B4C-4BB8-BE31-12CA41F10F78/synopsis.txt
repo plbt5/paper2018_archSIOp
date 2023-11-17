@@ -1,0 +1,8 @@
+Semantic interoperability is about at least two software agents, in their roles as DSP and DSC, that share a particular DoA and exchange data that refer to a certain SoA in their shared reality. Since semantic heterogeneity is assumed, achieving semantic reconciliation becomes a necessary condition for sIOP. 
+
+\begin{mmdef}[Semantic reconciliation]\label{def:semantic-reconciliation}
+Semantic reconciliation aligns (establishing correspondence and consistency) and harmonizes (resolving conflicts and achieving unity) differences in software agents' conceptualizations and representations of a shared domain. Its goal is to foster effective communication by establishing semantic homogeneity among agents' diverse ontological models. Semantic reconciliation relies on genuine understanding, which necessitates human involvement.
+\end{mmdef} 
+
+The architectural concerns revolve around the tension that exists between semantic reconciliation with its required human involvement and its inevitable impact on the “access-and-play” business demand, i.e., minimising human effort to the highest extent possible.
+

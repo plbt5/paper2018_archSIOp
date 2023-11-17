@@ -58,7 +58,7 @@
 %% SEMANTIC RESPONSIBILITY PRINCIPLE
 %%
 \begin{mmdp}\label{dp:srp}{\bfseries Semantic responsibility principle:}
-\quad When it is reasonable to expect that the software agent will be engaged in collaboration or otherwise will interoperate with (an)other software agent(s), it has the responsibility to explicate and disclose its OC, and, additionally, to disclose the semantic meaning of any exchanged data, to the extent necessary to allow comprehension of its data by the other involved agent(s). 
+\quad The software agent has the responsibility to explicate and disclose its OC, and, additionally, to disclose the semantic meaning of any exchanged data, to the extent necessary to allow comprehension of its data by the other involved agent(s). 
 \end{mmdp}
 &
 \begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
@@ -92,7 +92,7 @@
 %% MINIMISE FAP PRINCIPLE
 %%
 \begin{mmdp}\label{dp:mfapp}{\bfseries Minimise FAP principle:}
-\quad When it is reasonable to expect that the software agent will be engaged in collaboration or otherwise will interoperate with (an)other software agent(s), in order to minimise the False-Agreement Problem, its domain model must be constrained to minimize the difference between the semantic meaning that it allows and those that it intends.
+\quad In order to minimise the False-Agreement Problem, the software agent's domain model must be constrained to minimize the difference between the semantic meaning that it allows and those that it intends.
 \end{mmdp}
 &
 \begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
@@ -125,7 +125,7 @@
 %% SEMANTIC PROTOCOL PRINCIPLE
 %%
 \begin{mmdp}\label{dp:spp}{\bfseries Semantic protocol principle:}
-\quad When it is reasonable to expect that the software agent will be engaged in collaboration or otherwise will interoperate with (an)other software agent(s), the agent should provide the capability to respond to a semantic protocol that has the objective to prepare sIOP by conversing about semantics in order to consolidate the degree of semantic compatibility and the mutual comprehension of the exchanged data.
+\quad The agent should provide the capability to respond to a semantic protocol that has the objective to prepare sIOP by conversing about semantics in order to consolidate the degree of semantic compatibility and the mutual comprehension of the exchanged data.
 \end{mmdp}
 &
 \begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
@@ -135,7 +135,12 @@
 \begin{enumerate}[left=6pt, nosep]
   \item Following \cite{Grice:1991BT}, it testifies to the relation of communication to clarify the purpose of the communication;
   \item The essence of sIOP is to exchange SoAs about the DoA;
-  \item Before SoAs can be exchanged, sIOP must be prepared by establishing agreement on the data's semantic meaning, the domain models used, achieving semantic compatibility and the semantic topology that applies;
+  \item Before SoAs can be exchanged, sIOP must be prepared by establishing agreement on the data's semantic meaning, demanding conversation about semantic in order to:
+  \begin{enumerate}
+    \item enable sIOP by establishing some level of semantic compatibility;
+    \item determine the alignment(s) that is/are in demand;
+    \item support the comprehension process.
+  \end{enumerate}
   \item This implies to recognise the purpose and subject of communication, and hence, to maintain a shared vocabulary and communication process to denote them and switch between them, viz to rely on a standard semantic protocol.
 \end{enumerate}
 &
@@ -152,7 +157,7 @@
 %% SEPARATE DATA PAYLOAD SYNTAX from SEMANTIC SYNTAX
 %%
 \begin{mmdp}\label{dp:sds-ss}{\bfseries Separate data syntax from semantics syntax principle:}
-\quad When it is reasonable to expect that the software agent will be engaged in collaboration or otherwise will interoperate with (an)other software agent(s), separate syntax representing the data payload in the agent interoperation from syntax representing the semantic payload of the data.
+\quad Separate syntax representing the data payload in the agent interoperation from syntax representing the semantic payload of the data.
 \end{mmdp}
 &
 \begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
@@ -178,7 +183,7 @@
 %%
 %% SEMANTIC MODULARITY PRINCIPLE
 %%
-\begin{mmdp}\label{dp:smp}{\bfseries Semantic modularity principle:}
+\begin{mmdp}\label{dp:smop}{\bfseries Semantic modularity principle:}
 \quad When it is reasonable to expect that the domain model (DM) of the agent will grow throughout its lifetime, the DM should allow for modularisation methods that simplify and downsize the DM into manageable parts. 
 \end{mmdp}
 &
@@ -205,7 +210,7 @@
 %% SEMANTIC TRANSPARENCY PRINCIPLE
 %%
 \begin{mmdp}\label{dp:stp}{\bfseries Semantic transparency principle:}
-\quad Remain agnostic to the local conceptualisation(s) and representation(s) of the agent(s) you collaborate with, by implementing APIs that access semantic functionalities without committing to the particular domain semantics. Standardise communication services and their parameters on the semantic metalevel only, and allow for exchange of domain semantics as payload only.\end{mmdp}
+\quad The software agent must remain agnostic to the local conceptualisation(s) and representation(s) of the agent(s) it collaborates with by implementing APIs that access semantic functionalities without committing to the particular domain semantics. Standardise communication services and their parameters on the semantic metalevel only, and only allow domain semantics as payload to the API.\end{mmdp}
 &
 \begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
 \item[Type of information:] Data, Technology;
@@ -234,7 +239,7 @@
 %%
 %% ALIGNMENT PRINCIPLE
 %%
-\begin{mmdp}\label{dp:alignment}{\bfseries Alignment principle:}
+\begin{mmdp}\label{dp:ap}{\bfseries Alignment principle:}
 \quad Align semantic meanings, not data schemata or data syntax.  \end{mmdp}
 &
 \begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
@@ -265,7 +270,7 @@
 %%
 %% CORRESPONDENCE RELATION PRINCIPLE
 %%
-\begin{mmdp}\label{dp:alignment-language}{\bfseries Correspondence relation principle:}
+\begin{mmdp}\label{dp:crp}{\bfseries Correspondence relation principle:}
 \quad A correspondence relation must preserve semantic meaning by addressing conceptual differences as well as convention-induced value-space differences. The alignment language must be expressive enough to represent those differences, the resolution of which is a necessary condition to achieve sIOP, providing faithful DMs from both collaborating agents. \end{mmdp}
 &
 \begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
@@ -298,8 +303,8 @@
 %%
 %% HUMAN EFFICIENCY PRINCIPLE
 %%
-\begin{mmdp}\label{dp:he}{\bfseries Human efficiency principle:}
-\quad When engaging in collaboration with other software agent(s), the human responsibility in semantic reconciliation should, to the extent possible, focus on auditing semantic alignments, and minimize their authoring. Maximise the use of reconciliation and auditing tools as well as the reuse of available alignment information.\end{mmdp}
+\begin{mmdp}\label{dp:hep}{\bfseries Human efficiency principle:}
+\quad The human responsibility in semantic reconciliation should, to the extent possible, focus on auditing semantic alignments, and minimize their authoring. Maximise the use of reconciliation and auditing tools as well as the reuse of available alignment information.\end{mmdp}
 &
 \begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
 \item[Type of information:] Business, Data, Technology;
@@ -328,7 +333,7 @@
 %% BUSINESS CONVERSATION PROTOCOL PRINCIPLE
 %%
 \begin{mmdp}\label{dp:bcpp}{\bfseries Business conversation protocol principle:}
-\quad When it is reasonable to expect that the software agent will be engaged in collaboration or otherwise will interoperate with (an)other software agent(s), the agent should provide the capability to engage in a business conversation with participating agents, with the objective to jointly achieve a conversation state that is considered a(n intermediate,) necessary step towards the collaboration goal.
+\quad The agent should provide the capability to engage in a business conversation with participating agents, with the objective to jointly achieve a conversation state that is considered a(n intermediate,) necessary step towards the collaboration goal.
 \end{mmdp}
 &
 \begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
@@ -359,8 +364,8 @@
 %%
 %% SEMANTIC SEPARATION OF CONCERNS PRINCIPLE
 %%
-%\begin{mmdp}\label{dp:ssoc}{\bfseries Semantic separation of concerns principle:}
-%\quad When a software agent engages in interoperation with (an)other software agent(s), provide support for loosely coupled semantics: data communication precedes data understanding which precedes their use. To this end, discern (i) syntax representing the data payload of the communication from syntax representing the semantic payload of the data; (ii) data comprehension behaviour; (iii) telic behaviour; (iv) business conversation services. A fifth concern separates the domain model in sub-domains that show high cohesion and low coupling. \end{mmdp}
+%\begin{mmdp}\label{dp:ssocp}{\bfseries Semantic separation of concerns principle:}
+%\quad The software agent must provide support for loosely coupled semantics: data communication precedes data understanding which precedes their use. To this end, discern (i) syntax representing the data payload of the communication from syntax representing the semantic payload of the data; (ii) data comprehension behaviour; (iii) telic behaviour; (iv) business conversation services. A fifth concern separates the domain model in sub-domains that show high cohesion and low coupling. \end{mmdp}
 %&
 %\begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
 %\item[Type of information:] Data, Technology;
@@ -414,7 +419,7 @@
 %%
 %% SEMANTIC PROFILES PRINCIPLE
 %%
-%\begin{mmdp}\label{dp:sprof}{\bfseries Semantic profiles principle:}
+%\begin{mmdp}\label{dp:sprp}{\bfseries Semantic profiles principle:}
 %\quad Apply different semantic profiles for different collaborations. \end{mmdp}
 %&
 %\begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
@@ -441,8 +446,8 @@
 %%
 %% SEMANTIC MEDIATION PRINCIPLE
 %%
-\begin{mmdp}\label{dp:mediation}{\bfseries Semantic mediation principle:}
-\quad When software agents engage in interoperation, encapsulate the transcription between their semantic meaning, as well as the coordination and control of their business collaboration.\end{mmdp}
+\begin{mmdp}\label{dp:smep}{\bfseries Semantic mediation principle:}
+\quad Software agents must encapsulate the transcription between their semantic meaning, as well as the coordination and control of their business collaboration.\end{mmdp}
 &
 \begin{description}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\bfseries]
 \item[Type of information:] Business, Data;

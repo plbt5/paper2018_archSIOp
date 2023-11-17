@@ -1,0 +1,9 @@
+Pursuing business agility requires semantic scalability; pursuing business agility in an open world results in heterogeneity and, hence, requires to cope with semantic independence. We formulate the following concern to its effect:
+
+\begin{mmconcern}[Semantic scalability]\label{cncrn:scalability}
+  In an open world, semantic definitions are distributed and commit to different perspectives on the DoA while central coordination is not always available. Furthermore, computers lack the capability for genuine understanding. Consequently, semantic differences between collaborating agents must be explicitly reconciled and maintained, implying semantic agreements in support of sIOP. Agreements imply a relationship to exist between software agents, as well as institutionalising (the governance of) those relationships to manage them under continuing changes in business collaborations and the occurrence of semantic drift. At the same time, semantic scalability requires collaborative software agents to maximise their semantic independence.
+\end{mmconcern}
+
+Applied DP:
+
+* DP14: Semantic scalability principle

@@ -1,0 +1,21 @@
+Present the problem of sIOP, show that it is an interesting/relevant problem, describe our contributions to solving the problem, and present the applied method / structure. of paper. As follows:
+
+*Purpose of sIOP*
+
+When agents collaborate, data are being exchanged. Data carry semantic meaning, implicitly. Semantic meaning is to be understood as referring to a particular SoA in the DoA. Semantic interoperability refers to the capability of collaborating software agents that allows the DSC to comprehend what SoA the DSP is referring to with the exchanged data. This is necessary for the DSC in order to use that data faithfully: understanding precedes use. 
+
+*Problem of sIOP*
+
+When collaborating agents share the same semantic representation, denoted as semantic homogeneity, they share equivalent semantic meaning, allowing for an immediate data understanding that are ready to use. The more successful this semantic standard, the more it will be used, the larger the community of use, and the more it evolves to support alternative or extended collaborative use cases. This requires stricter and more extensive governance of the standard that soon impedes the demands of the business to allow for dynamic collaborations with quick response to business opportunities. 
+
+This decline in the purposeful application of semantic standards is a general characteristic, which can be observed independently from the domain or advances in support to governance of semantic standards.
+
+*Purpose of paper*
+
+We take an alternative approach, away from semantic homogeneity and investigate sIOP from the perspective of semantic heterogeneity. With the latter we refer to a situation where no prior agreements are made by the community towards the representation of domain semantics. This is an interesting and relevant approach since a successful outcome will evade the aforementioned problems and provide support to dynamic business collaboration. The purpose of this paper is to identify the architectural concerns about sIOP that are caused by semantic heterogeneity, find design principles to their resolution, and consolidate these in the view-based architecture paradigm.
+
+*Overview of paper*
+
+ ![Story board in terms of Concerns and Design Principles.][def:sIOPcore]
+
+We identify four sets of concerns in relation to semantic interoperability, three of which are of functional nature and one of extra-functional nature. The first three main sections address the functional concerns (semantic concerns, reconciliation concerns, and mediation concerns); the fourth main section addresses extra-functional concerns about semantic scalability. For each of the identified concern, one or more design principles are defined. Finally, we present how these DPs can be operationalised by their inclusion in a method in support of view-based architectures. 

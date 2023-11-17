@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Snapshots Version="1.0">
+    <Snapshot>
+        <Title>Naar versie 2</Title>
+        <Date>2023-11-16 17:51:30 +0100</Date>
+        <Comments>
+            <Comment ID="B00D4FE1-7145-4069-BC71-DF801B9D3578" Author="Paul Brandt" Color="0.99913 0.954826 0.756384"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Paul Brandt: Deze in de rest van de tekst verder uitwerken als eisen die we stellen aan het semantisch protocol.}]]></Comment>
+        </Comments>
+    </Snapshot>
+</Snapshots>

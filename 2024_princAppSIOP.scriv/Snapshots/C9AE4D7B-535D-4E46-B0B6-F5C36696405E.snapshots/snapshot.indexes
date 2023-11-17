@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="C9AE4D7B-535D-4E46-B0B6-F5C36696405E">
+    <Snapshot Date="2023-11-16 17:51:30 +0100">
+        <Title>Naar versie 2</Title>
+        <Text>With semantics, we refer to real world semantics (RWS) and we summarise our position towards semantics in software from [@Brandt2021a]:
+
+1. Since software is incapable of genuine understanding, RWS cannot exist in software. Nevertheless, the software agent acts as transport medium for RWS between users or users and system operations, and must do so without compromising the transported cargo, viz RWS. 
+2. The nature of software dictates that data and their data processing are always intimately connected. We consider the reciprocity between data and their processing the carrier of RWS. Any incoherent reciprocity, i.e., inconsistencies between data and their processing, equates to unfaithfulness to reality, viz semantics that are considered invalid by the current SoA in the application domain.
+3. In terms of semantics, we discern *semantic meaning*, i.e., what is said, from *pragmatic meaning*, i.e., the connection to our frame of reference and context of use. In terms of software, we consider *data* the carrier for semantic meaning, and their *data processing* carrier for pragmatic meaning. For example, data token \token{S} with value \token{t = 38.9\celsius} represents semantic meaning whereas data processing token \token{P1} with value \token{t $\geq$ 38.0\celsius} $\to$ \token{fever} represents pragmatic meaning. 
+4. Semantic coherence builds on the consistency with which the semantic and pragmatic meanings commit to the same distinctions in their shared reality, and only require each other's knowledge in executing their reciprocity (faithfully).
+5. The active (processing) part of an agent produces agent behaviour. We separate behaviour into a comprehensive and telic part, the latter specifying how to accomplish the agent’s purpose, based on the former that mirrors the current state of affairs (SoA) in the DoA and the agent’s own background knowledge. The resulting simple software model emerges as  
+\resizebox{\linewidth}{!}{\textsf{\textbf{\small Input\ensuremath{\twoheadrightarrow}\colorbox{gray!30}{Comprehension}}}\stackedcondtext{telicity$_i$}{telicity$_j$}\textsf{\textbf{\small Output}}} where \textsf{\colorbox{gray!30}{\small shaded}} represents behaviour, \textsf{\small non-shaded} represents static structures and \textsf{\textbf{\small bold}} represents semantics. For instance, consider data token \token{S} and data processing tokens \token{P1} and \token{P2}: 
+    * \token{S} ::[|temperature]: \token{t = 38.9\celsius}
+    * \token{P1} ::[|fever]: \token{t $\geq$ 38.0\celsius} $\to$ \token{fever}
+    * \token{P2} :: \token{fever} $\to$ \token{raiseAlarm(now)}  
+We consider \token{S} and \token{P1} a representation of comprehension and \token{P2} one of telicity.
+6. Note that semantic meaning, e.g., \token{S} above, is in itself insufficient to draw conclusions and to select telic behaviour, since its implication on the software agent depends on the pragmatic meaning that applies. When considering pragmatic meaning \token{P1}, it establishes [|fever] in a human context, whereas when we consider \token{P3} as pragmatic meaning in a feline context:
+    * \token{P3} ::[|fever]: \token{t &gt; 39.7\celsius} $\to$ \token{fever}
+then, \token{S} would lead to [|$\neg\;$fever], non-fever, instead, without raising an alarm. Hence, different comprehension leads to different telicity.
+7. The central disposition of reciprocity in software semantics emerges as an *Atomic Semantic Monolith* (ASM), established with the explicit purpose to guarantee the coherence between the data (semantic meaning) and their processing code (pragmatic meaning). The ASM achieves comprehension about its particular semantic meaning in the context of its appropriate use. For instance, (\token{S};\token{P1}) and (\token{S};\token{P3}) represent two distinct ASMs for two distinct uses of temperature data.
+8. The collective ASMs compose the agent’s Domain Model (DM), and provides the software agent with the level of comprehension necessary to decide upon its telic behaviour (to achieve the agent’s objectives) under the current SoA. 
+9. Where comprehensive behaviour is specified by the DM, the telic behaviour is specified by (parts of) the System Model (SM). We consider the SM semantically grounded in the DM if all terms that are used by the SM and refer to the SoA and DoA, get their comprehension from the DM.
+
+</Text>
+        <Comments>Shortly before submission, in referring to paper 1, we can determine whether to refer its pre-pub version at SSRN, or to its definitive publication
+“Telic. (adj.): characterizing an action that moves toward a goal” Merriam-Webster.com Dictionary, Merriam-Webster, https://www.merriam-webster.com/dictionary/telic. Accessed 9 Feb. 2023.</Comments>
+    </Snapshot>
+</SnapshotIndexes>

@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.2" ID="D155E3C5-9767-43C5-9272-56896244FFDF">
+  <Notes>
+    <Note ID="0" FontSize="12.0" Position="285.7,244.9" Width="119.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9189183115959167 0.7627586722373962 0.7658078670501709</Border>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>Semantic concerns</String>
+      <ConnectedNoteIDs>3, 6, 9, 13, 43</ConnectedNoteIDs>
+      <PointsToNoteIDs>3, 6, 9</PointsToNoteIDs>
+    </Note>
+    <Note ID="1" FontSize="12.0" Position="285.7,817.7" Width="143.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9189183115959167 0.7627586722373962 0.7658078670501709</Border>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>Reconciliation concerns</String>
+      <ConnectedNoteIDs>4, 13, 25-26</ConnectedNoteIDs>
+      <PointsToNoteIDs>4, 25-26</PointsToNoteIDs>
+    </Note>
+    <Note ID="2" FontSize="12.0" Position="286.3,1185.9" Width="121.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9189183115959167 0.7627586722373962 0.7658078670501709</Border>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>Mediation concerns</String>
+      <ConnectedNoteIDs>13, 28</ConnectedNoteIDs>
+      <PointsToNoteIDs>28</PointsToNoteIDs>
+    </Note>
+    <Note ID="3" FontSize="12.0" Position="461.0,154.9" Width="216.3">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9189183115959167 0.7627586722373962 0.7658078670501709</Border>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>Concern 1: Semantic heterogeneity</String>
+      <ConnectedNoteIDs>0, 7</ConnectedNoteIDs>
+    </Note>
+    <Note ID="4" FontSize="12.0" Position="627.9,792.5" Width="123.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9189183115959167 0.7627586722373962 0.7658078670501709</Border>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>Human involvement</String>
+      <ConnectedNoteIDs>1, 46, 48, 50</ConnectedNoteIDs>
+      <PointsToNoteIDs>46, 48, 50</PointsToNoteIDs>
+    </Note>
+    <Note ID="6" FontSize="12.0" Position="474.8,342.5" Width="155.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9189183115959167 0.7627586722373962 0.7658078670501709</Border>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>Loosely coupled semantic</String>
+      <ConnectedNoteIDs>0, 12, 36</ConnectedNoteIDs>
+      <PointsToNoteIDs>12, 36</PointsToNoteIDs>
+    </Note>
+    <Note ID="7" FontSize="12.0" Position="1170.4,123.9" Width="249.6">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764847755432 0.8974809646606445 0.6336729526519775</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>DP1:shp Semantic Heterogeneity Principle</String>
+      <ConnectedNoteIDs>3</ConnectedNoteIDs>
+    </Note>
+    <Note ID="9" FontSize="12.0" Position="467.6,252.1" Width="189.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9189183115959167 0.7627586722373962 0.7658078670501709</Border>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>Concern 2: Cooperative concern</String>
+      <ConnectedNoteIDs>0, 32-35</ConnectedNoteIDs>
+      <PointsToNoteIDs>32-35</PointsToNoteIDs>
+    </Note>
+    <Note ID="11" FontSize="12.0" Position="1170.4,487.9" Width="242.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764847755432 0.8974809646606445 0.6336729526519775</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>DP6:smp Semantic modularity principle</String>
+      <ConnectedNoteIDs>36</ConnectedNoteIDs>
+    </Note>
+    <Note ID="12" FontSize="12.0" Position="538.7,513.6" Width="185.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9189183115959167 0.7627586722373962 0.7658078670501709</Border>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>Semantic transparency concern</String>
+      <ConnectedNoteIDs>6, 14, 29, 58</ConnectedNoteIDs>
+      <PointsToNoteIDs>14, 29, 58</PointsToNoteIDs>
+    </Note>
+    <Note ID="13" FontSize="12.0" Position="145.3,768.5" Width="89.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9189183115959167 0.7627586722373962 0.7658078670501709</Border>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>sIOP concern</String>
+      <ConnectedNoteIDs>0-2</ConnectedNoteIDs>
+      <PointsToNoteIDs>0-2</PointsToNoteIDs>
+    </Note>
+    <Note ID="14" FontSize="12.0" Position="894.5,500.1" Width="183.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9189183115959167 0.7627586722373962 0.7658078670501709</Border>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>Semantic agnostic API concern</String>
+      <ConnectedNoteIDs>12, 15</ConnectedNoteIDs>
+    </Note>
+    <Note ID="15" FontSize="12.0" Position="1170.4,556.9" Width="237.4">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764847755432 0.8974809646606445 0.6336729526519775</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>DP7:stp Semantic transparency principle</String>
+      <ConnectedNoteIDs>14</ConnectedNoteIDs>
+    </Note>
+    <Note ID="16" FontSize="12.0" Position="1170.4,193.9" Width="241.5">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764847755432 0.8974809646606445 0.6336729526519775</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>DP2:srp Semantic responsibility principle</String>
+      <ConnectedNoteIDs>32, 35</ConnectedNoteIDs>
+    </Note>
+    <Note ID="17" FontSize="12.0" Position="1170.4,263.9" Width="212.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764847755432 0.8974809646606445 0.6336729526519775</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>DP3:mfapp Minimise FAP principle</String>
+      <ConnectedNoteIDs>33</ConnectedNoteIDs>
+      <Formatting>
+        <FormatRange Underline="Yes">19,3</FormatRange>
+      </Formatting>
+    </Note>
+    <Note ID="18" FontSize="12.0" Position="1170.4,333.9" Width="210.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764847755432 0.8974809646606445 0.6336729526519775</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>DP4:spp Semantic protocol principle</String>
+      <ConnectedNoteIDs>34, 36-38</ConnectedNoteIDs>
+    </Note>
+    <Note ID="19" FontSize="12.0" Position="1170.4,403.9" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764847755432 0.8974809646606445 0.6336729526519775</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>DP5:sds-ss Separate data syntax from semantics syntax principle</String>
+      <ConnectedNoteIDs>36</ConnectedNoteIDs>
+    </Note>
+    <Note ID="20" FontSize="12.0" Position="1186.8,752.6" Width="161.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>DP8:ap Alignment principle</String>
+      <ConnectedNoteIDs>46</ConnectedNoteIDs>
+    </Note>
+    <Note ID="21" FontSize="12.0" Position="1171.4,620.6" Width="251.4">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>DP9:crp Correspondence relation principle</String>
+      <ConnectedNoteIDs>29, 48, 58</ConnectedNoteIDs>
+    </Note>
+    <Note ID="22" FontSize="12.0" Position="1169.6,836.6" Width="221.8">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>DP10:hep Human efficiency principle</String>
+      <ConnectedNoteIDs>50</ConnectedNoteIDs>
+    </Note>
+    <Note ID="23" FontSize="12.0" Position="1164.0,968.4" Width="296.2">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>DP11:bcpp Business conversation protocol principle</String>
+      <ConnectedNoteIDs>53</ConnectedNoteIDs>
+    </Note>
+    <Note ID="24" FontSize="12.0" Position="1172.0,1232.3" Width="246.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>DP12:smp Semantic mediation principle</String>
+      <ConnectedNoteIDs>29-30, 58</ConnectedNoteIDs>
+    </Note>
+    <Note ID="25" FontSize="12.0" Position="519.9,868.4" Width="188.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9189183115959167 0.7627586722373962 0.7658078670501709</Border>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>Concern 3: Semantic coherence</String>
+      <ConnectedNoteIDs>1</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="26" FontSize="12.0" Position="511.7,1037.0" Width="184.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>Concern 4: Semantic scalability</String>
+      <ConnectedNoteIDs>1, 28</ConnectedNoteIDs>
+    </Note>
+    <Note ID="28" FontSize="12.0" Position="525.2,1195.8" Width="184.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>Concern 5: Semantic mediation</String>
+      <ConnectedNoteIDs>2, 26, 29-30, 58</ConnectedNoteIDs>
+      <PointsToNoteIDs>26, 29-30, 58</PointsToNoteIDs>
+    </Note>
+    <Note ID="29" FontSize="12.0" Position="782.0,615.2" Width="227.1">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>Representational transparency concern</String>
+      <ConnectedNoteIDs>12, 21, 24, 28</ConnectedNoteIDs>
+    </Note>
+    <Note ID="30" FontSize="12.0" Position="851.7,1219.2" Width="187.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>Interaction coordination concern</String>
+      <ConnectedNoteIDs>24, 28</ConnectedNoteIDs>
+    </Note>
+    <Note ID="32" FontSize="12.0" Position="912.0,156.9" Width="146.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>Quantity maxim concern</String>
+      <ConnectedNoteIDs>9, 16</ConnectedNoteIDs>
+    </Note>
+    <Note ID="33" FontSize="12.0" Position="912.0,244.9" Width="139.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>Quality maxim concern</String>
+      <ConnectedNoteIDs>9, 17</ConnectedNoteIDs>
+    </Note>
+    <Note ID="34" FontSize="12.0" Position="912.1,287.9" Width="148.9">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>Relation maxim concern</String>
+      <ConnectedNoteIDs>9, 18</ConnectedNoteIDs>
+    </Note>
+    <Note ID="35" FontSize="12.0" Position="912.0,200.9" Width="142.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>Manner maxim concern</String>
+      <ConnectedNoteIDs>9, 16</ConnectedNoteIDs>
+    </Note>
+    <Note ID="36" FontSize="12.0" Position="862.0,407.9" Width="191.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9189183115959167 0.7627586722373962 0.7658078670501709</Border>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>Semantic separation of concerns</String>
+      <ConnectedNoteIDs>6, 11, 18-19</ConnectedNoteIDs>
+    </Note>
+    <Note ID="37" FontSize="12.0" Position="1446.5,42.2" Width="280.2">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7221018075942993 0.8462901711463928 0.9162387251853943</Border>
+        <Fill>0.786 0.9204 0.9961</Fill>
+      </Appearance>
+      <String>DP: Separate comprehension and telic behaviour</String>
+      <ConnectedNoteIDs>18, 43</ConnectedNoteIDs>
+    </Note>
+    <Note ID="38" FontSize="12.0" Position="1446.7,73.4" Width="159.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7221018075942993 0.8462901711463928 0.9162387251853943</Border>
+        <Fill>0.786 0.9204 0.9961</Fill>
+      </Appearance>
+      <String>DP: Separate DM from SM</String>
+      <ConnectedNoteIDs>18, 43</ConnectedNoteIDs>
+    </Note>
+    <Note ID="39" FontSize="12.0" Position="461.0,126.9" Width="163.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1" Style="Jagged"/>
+      </Appearance>
+      <String>2.2 Semantic heterogeneity</String>
+    </Note>
+    <Note ID="40" FontSize="12.0" Position="467.6,224.1" Width="147.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1" Style="Jagged"/>
+      </Appearance>
+      <String>2.3 Cooperative concern</String>
+    </Note>
+    <Note ID="41" FontSize="12.0" Position="862.2,379.8" Width="76.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1" Style="Jagged"/>
+      </Appearance>
+      <String>2.4.1 sSoC</String>
+    </Note>
+    <Note ID="42" FontSize="12.0" Position="539.1,485.3" Width="111.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1" Style="Jagged"/>
+      </Appearance>
+      <String>2.4.2 Sem.transp.</String>
+    </Note>
+    <Note ID="43" FontSize="12.0" Position="395.5,57.6" Width="154.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1" Style="Jagged"/>
+      </Appearance>
+      <String>2.1 Semantics in software</String>
+      <ConnectedNoteIDs>0, 37-38</ConnectedNoteIDs>
+    </Note>
+    <Note ID="45" FontSize="12.0" Position="520.1,840.3" Width="175.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1" Style="Jagged"/>
+      </Appearance>
+      <String>3.1 Data xchg. ruins sem.coh.</String>
+    </Note>
+    <Note ID="46" FontSize="12.0" Position="892.1,755.1" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>Restore semantic coherence concern</String>
+      <ConnectedNoteIDs>4, 20</ConnectedNoteIDs>
+    </Note>
+    <Note ID="47" FontSize="12.0" Position="892.0,726.7" Width="121.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1" Style="Jagged"/>
+      </Appearance>
+      <String>3.3.1 Sem.reconcn.</String>
+    </Note>
+    <Note ID="48" FontSize="12.0" Position="739.9,685.9" Width="180.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>Alignment constitution concern</String>
+      <ConnectedNoteIDs>4, 21</ConnectedNoteIDs>
+    </Note>
+    <Note ID="49" FontSize="12.0" Position="740.3,657.9" Width="117.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1" Style="Jagged"/>
+      </Appearance>
+      <String>3.3.2 Algnmnt.repr.</String>
+    </Note>
+    <Note ID="50" FontSize="12.0" Position="944.3,843.9" Width="155.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>Human efficiency concern</String>
+      <ConnectedNoteIDs>4, 22</ConnectedNoteIDs>
+    </Note>
+    <Note ID="51" FontSize="12.0" Position="944.0,815.5" Width="98.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1" Style="Jagged"/>
+      </Appearance>
+      <String>3.3.3 Efficiency</String>
+    </Note>
+    <Note ID="52" FontSize="12.0" Position="512.2,1009.4" Width="89.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1" Style="Jagged"/>
+      </Appearance>
+      <String>3.2 Sem.scal.</String>
+    </Note>
+    <Note ID="53" FontSize="12.0" Position="893.2,986.9" Width="180.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>Business coordination concern</String>
+      <ConnectedNoteIDs>23</ConnectedNoteIDs>
+    </Note>
+    <Note ID="54" FontSize="12.0" Position="893.1,958.5" Width="144.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1" Style="Jagged"/>
+      </Appearance>
+      <String>3.4.1 Eng.dyn.buss.coll.</String>
+    </Note>
+    <Note ID="58" FontSize="12.0" Position="891.5,549.8" Width="241.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9189183115959167 0.7627586722373962 0.7658078670501709</Border>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>Concpetualisational transparency concern</String>
+      <ConnectedNoteIDs>12, 21, 24, 28</ConnectedNoteIDs>
+    </Note>
+    <Note ID="63" FontSize="12.0" Position="1546.4,572.4" Width="142.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9189183115959167 0.7627586722373962 0.7658078670501709</Border>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>Concern #: beschrijving</String>
+    </Note>
+    <Note ID="64" FontSize="12.0" Position="1730.0,572.0" Width="121.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>Benoemde concern</String>
+    </Note>
+    <Note ID="65" FontSize="12.0" Position="1538.4,620.4" Width="150.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9189183115959167 0.7627586722373962 0.7658078670501709</Border>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>Beschrijving van concern</String>
+    </Note>
+    <Note ID="66" FontSize="12.0" Position="1730.0,620.0" Width="152.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>Concern afgeleid uit tekst</String>
+    </Note>
+    <Note ID="67" FontSize="12.0" Position="1590.4,669.4" Width="98.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1" Style="Jagged"/>
+      </Appearance>
+      <String>#.# sectienaam</String>
+    </Note>
+    <Note ID="68" FontSize="12.0" Position="1730.0,660.6" Width="162.4">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>diepste sectie waaruit DPs zijn afgeleid</String>
+    </Note>
+    <Note ID="69" FontSize="12.0" Position="1618.4,717.4" Width="70.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7221018075942993 0.8462901711463928 0.9162387251853943</Border>
+        <Fill>0.786 0.9204 0.9961</Fill>
+      </Appearance>
+      <String>DP: naam</String>
+    </Note>
+    <Note ID="70" FontSize="12.0" Position="1730.0,716.0" Width="93.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>DP uit paper 1</String>
+    </Note>
+    <Note ID="72" FontSize="12.0" Position="1663.3,546.0" Width="63.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>Legenda</String>
+    </Note>
+    <Note ID="73" FontSize="12.0" Position="1560.0,752.8" Width="25.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9189183115959167 0.7627586722373962 0.7658078670501709</Border>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>C</String>
+      <ConnectedNoteIDs>75</ConnectedNoteIDs>
+    </Note>
+    <Note ID="74" FontSize="12.0" Position="1560.0,785.8" Width="25.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9189183115959167 0.7627586722373962 0.7658078670501709</Border>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>C</String>
+      <ConnectedNoteIDs>76</ConnectedNoteIDs>
+      <PointsToNoteIDs>76</PointsToNoteIDs>
+    </Note>
+    <Note ID="75" FontSize="12.0" Position="1655.4,753.0" Width="33.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764847755432 0.8974809646606445 0.6336729526519775</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>DP</String>
+      <ConnectedNoteIDs>73</ConnectedNoteIDs>
+    </Note>
+    <Note ID="76" FontSize="12.0" Position="1655.4,786.0" Width="33.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9189183115959167 0.7627586722373962 0.7658078670501709</Border>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>SC</String>
+      <ConnectedNoteIDs>74</ConnectedNoteIDs>
+    </Note>
+    <Note ID="77" FontSize="12.0" Position="1730.0,753.0" Width="158.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>DP draagt bij aan Concern</String>
+    </Note>
+    <Note ID="78" FontSize="12.0" Position="1730.0,786.0" Width="171.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>Subconcern volgt uit concern</String>
+    </Note>
+  </Notes>
+  <BackgroundShapes>
+    <Shape ID="60" Position="901.0,141.0" Width="170.9" Sticky="no" Height="187.0">
+      <Appearance>
+        <Border Weight="1"/>
+      </Appearance>
+    </Shape>
+    <Shape ID="71" Position="1522.0,556.0" Width="383.4" Sticky="no" Height="262.0">
+      <Appearance>
+        <Border Weight="1"/>
+      </Appearance>
+    </Shape>
+  </BackgroundShapes>
+  <Stacks>
+    <Stack>39, 3</Stack>
+    <Stack>40, 9</Stack>
+    <Stack>41, 36</Stack>
+    <Stack>42, 12</Stack>
+    <Stack>45, 25</Stack>
+    <Stack>47, 46</Stack>
+    <Stack>49, 48</Stack>
+    <Stack>51, 50</Stack>
+    <Stack>52, 26</Stack>
+    <Stack>54, 53</Stack>
+  </Stacks>
+  <AutoFit>0-2, 4, 6, 9, 12-14, 18, 20, 25-26, 28, 30, 32-33, 35-36, 38-43, 45, 47-54, 60, 63-67, 69-70, 72-78</AutoFit>
+  <NoteStyles>
+    <Style Name="Bubble (Blue)" ID="5FE298C2-8D02-4DD1-B8EC-AC325DDA5C4F" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.668962 0.810287 0.895092</BorderColor>
+      <FillColor>0.743291 0.900319 0.994547</FillColor>
+    </Style>
+    <Style Name="Bubble (Green)" ID="C9FFBAB3-18C4-496A-BBD7-E44338D98331" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.669404 0.885265 0.567007</BorderColor>
+      <FillColor>0.743783 0.983628 0.630008</FillColor>
+    </Style>
+    <Style Name="Bubble (Pink)" ID="20F60AA0-E34E-4AB1-86D7-30298E575A64" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.894547 0.707772 0.715904</BorderColor>
+      <FillColor>0.989115 0.814114 0.999483</FillColor>
+    </Style>
+    <Style Name="Bubble (Red)" ID="A865A116-DA91-4507-A729-2ABDBC0BAF6F" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.894547 0.707772 0.715904</BorderColor>
+      <FillColor>0.993942 0.786413 0.795449</FillColor>
+    </Style>
+    <Style Name="Bubble (Yellow)" ID="D821E4C4-4A01-4D22-ABD6-9ACFAA716E0D" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.877748 0.828289 0.562126</BorderColor>
+      <FillColor>0.975275 0.920321 0.624585</FillColor>
+    </Style>
+    <Style Name="Red Text" ID="E5715804-C587-490E-BA40-EB1CCA9E9EC5" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+      <TextColor>0.985954 0.0 0.02694</TextColor>
+    </Style>
+    <Style Name="Title Text" ID="63DC233C-3229-4BB7-8373-85E1CFCB1BFD" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+      <FontSize>28.0</FontSize>
+      <IsBold>Yes</IsBold>
+    </Style>
+  </NoteStyles>
+  <UISettings>
+    <BackgroundColor>0.999763 0.988395 0.949915</BackgroundColor>
+    <DefaultFont>Helvetica</DefaultFont>
+    <NoteXPadding>8.0</NoteXPadding>
+  </UISettings>
+  <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"/>
+</ScappleDocument>

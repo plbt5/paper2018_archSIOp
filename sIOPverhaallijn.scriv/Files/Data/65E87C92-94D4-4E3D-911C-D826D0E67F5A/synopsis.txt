@@ -1,0 +1,22 @@
+What precise information is sufficient to provide to whom for the latter to proceed?
+
+The ability to establish what can be considered *sufficient* information depends on:
+
+* Purpose of conversation, deferred to \cref{conversation-purpose}
+* Knowledge about what information is already available, what has been provided already, inferring what is missing
+* Individual agents in the conversation and their capabilities
+* Minimal  
+
+Maxim 1, the quantity maxim (“Make your contributions as informative as is required (for the current purpose of the exchange), and not more than is required”), refers to the purpose of the conversation, which we investigate in \cref{conversation-purpose}. It also refers to the semantic meaning that is exchanged with the data. Assume the DSP agent to exchange that “Mrs. McNabb has got two sons”. The DSC can now comprehend from this that Mrs. McNabb has got exactly two sons. Without application of this maxim, an ambiguity emerges because the DSC can then also comprehend that Mrs. McNabb has got at least two sons. 
+Another reason for the application of this maxim is about enabling the DSP to know what the DSC agent knows about the SoAs. Based on this knowledge, the scope of the conversation, viz what semantic meaning is sufficient for the DSP to exchange, can be minimised to what it considers unknown to the DSC. An efficient conversation [@Diggelen:2007vd] with the potential for agents to digress into subdialogues about the SoAs [@Engelmann2023] will emerge from that. 
+
+
+
+
+\begin{mmconcern}[Semantic sufficiency concern]\label{cncrn:qtymc}
+An efficient and unambiguous agent discourse requires agents to be aware of each other and each other’s purposes and knowledge. Similarly, collaborative, task-related discourses require composition of knowledge about each other’s capabilities and individual knowledge about the SoAs that apply in the shared domain. This is a distributed capability that requires clear scoping and timing to prevent an overload of reasoning and irrelevant data exchange.
+\end{mmconcern}
+
+Applied DP:
+
+* DPy: Support multi-agent belief model

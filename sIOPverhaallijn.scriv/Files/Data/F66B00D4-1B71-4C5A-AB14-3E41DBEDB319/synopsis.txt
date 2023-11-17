@@ -1,0 +1,9 @@
+Definitie van semantic transparency toevoegen; het concern is daarvan afgeleid: “What is required to enforce semantic transparency?”
+
+\begin{mmconcern}[Semantic transparency concern]\label{cncrn:stc}
+TBD
+\end{mmconcern}
+
+Applied DP:
+
+* DP7: Semantic transparent API principle

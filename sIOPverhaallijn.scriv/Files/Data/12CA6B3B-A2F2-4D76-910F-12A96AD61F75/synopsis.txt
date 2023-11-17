@@ -1,0 +1,19 @@
+To be done by Eric.
+
+*PREPARATION*
+
+Apply an architectural method, e.g., ArchiMate, to direct the operationalisation. From that method, identify those elements from the method (activities, phases, concepts, whatever) that apply to sIOP. For each of those elements, identify the DP that is relevant to it. This results in a matrix of relevant architectural elements versus DPs. Check that all DPs are categorised to at least one element; if one is missing, either the matrix is incomplete or there is something missing in the architectural method. Correct the matrix and/or set the unused DPs apart.
+
+*WRITING*
+
+* The structure of this main section follows from the elements of interest: each relevant element justifies a single section, and - if necessary - sections can be structured according to the containing phase or whatever from the method. 
+* Introduce this main section by describing:
+    * Purpose of the section, i.e., showing that it is possible to operationalise the DPs and that the agents’ sIOP capabilities will be extended;
+    * Method that is followed, i.e., selection of a particular view-based architectural method, why this particular method is chosen, and that we integrate the DPs in it;
+    * Present the matrix as overview of how the main section is broken down in its sections/subsections;
+* In each section, answer:
+    * Purpose: What is the purpose of this element in the architectural method?
+    * Rationale: Why is it relevant for this element to address this DP(s)?
+    * Application: What steps are involved in applying the DP(s)? The method should direct the steps as the baseline in which the DPs are to be merged. Focus on what the step achieves as opposed to how it is done or the technology involved.
+    * Consequence: What sIOP capability is gained for the software agent that was not possible before?
+* Finalise with a section - if necessary - that explains how the architectural method can be extended ot include the unaddressed DPs. 

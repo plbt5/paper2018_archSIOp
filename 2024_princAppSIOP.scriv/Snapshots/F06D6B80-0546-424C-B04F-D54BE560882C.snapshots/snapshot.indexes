@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="F06D6B80-0546-424C-B04F-D54BE560882C">
+    <Snapshot Date="2022-12-22 11:03:12 +0100">
+        <Title>NL schets (Under construction)</Title>
+        <Text>Gebaseerd op alignment is coherence tussen sem.meaning DSP en pragm.meaning DSC alleen gegarandeerd als 
+
+1. de coherence binnen de DSP correct is, en 
+2. de coherence binnen de DSC correct is, en
+3. de alignment tussen DSP semantic meaning en DSC pragmatic meaning binnen de scope van DSC’s coherence blijft.
+
+Punten 1 en 2 kunnen we als aanname doen, punt 3 zal niet altijd gelden als er noodzakelijke pragmatische toevoeging/wijzigingen zijn uitgevoerd op de comprehension en de behaviour agv nieuwe perspectieven.
+
+Oplossing: de toepassing van Profiles op het eigen DM (zowel voor DSC als DSP): een Profile voor elk collaboratiekanaal om de specifieke context ervan gescheiden te houden van de andere collaboratiekanalen. Waar bijv. kanaal 1 hoge resolutie en nauwkeurigheid van data verlangt en kanaal 2 niet, zal zonder profielen leiden tot duplicatie van semantiek in 1 DM. Met behulp van profielen hoeft het DM slechts de meest eisende variant te onderkennen, waarbij het profiel een soort transcriptie tussen DM en de data exchange specificeert. Dat geldt voor zowel de conceptuele dimensie als de data-value dimensie; zolang het DM de meest eisende variant onderkent, kan een profiel de minder eisende variant afleiden zonder dat dat in het DM opgenomen hoeft te worden. Kortom, het DM blijft onveranderd als er minder eisen worden gesteld dan voorradig, en behoeft aleen te worden aangepast voor hoger eisende collaboraties.
+
+
+
+
+DP iets in de vorm van:
+
+&gt; Each software agent that is expected to engage in interoperation with other agents, must manage its semantic and pragmatic meaning remain in coherence with each other, particularly under many collaborations, by applying different semantic profiles for different collaborations. 
+
+Maar het probleem zit niet zozeer in de coherence, maar in het coherent houden onder invloed van potentieel veel wijzigende perspectieven in de collaboratie: Provided the dynamics in amount of different software agents that can apply in a collaboration, or the business need to add new collaborations with new, enhanced or otherwise adapted goals, now or in the future, about the same DoA, maintaining coherence is a continuous concern. Echter, dit is sterk gerelateerd aan semantic scalability, misschien wel hetzelfde? Volstaat de combinatie van profielen (om variaties in resolutie en nauwkeurigheid beter te managen) en modularisatie (om onderwerpen van elkaar te scheiden) om het aantal wijzigingen en de invloed daarvan op de coherentie en dus de noodzaak dat te onderhouden, terug te brengen tot beheersbare hoeveelheden? </Text>
+        <Comments>Paul Brandt 30/08/2022, Deze sectie is nog onvoldoende uitgedacht - ik doe wat suggesties, maar lijk er toch niet de vinger achter te krijgen. Verwijderen?</Comments>
+    </Snapshot>
+</SnapshotIndexes>

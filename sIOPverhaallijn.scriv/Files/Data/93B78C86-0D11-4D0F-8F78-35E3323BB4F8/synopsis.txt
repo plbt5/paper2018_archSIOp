@@ -1,0 +1,4 @@
+Gedefinieerd in paper 1 als een combinatie van:
+
+* Semantic Coherence Principle: Establish explicit coherence between the data (S-model) and the data-processing (P-model).
+* Semantic Grounding Principle: All models that are part of the System Model and refer to the DoA, are grounded in the Domain Model.

@@ -1,0 +1,1 @@
+The human responsibility in semantic reconciliation should, to the extent possible, focus on auditing semantic alignments, and minimize their authoring. Maximise the use of reconciliation and auditing tools as well as the reuse of available alignment information.

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="9EBA4771-F4A1-4F6B-986B-07FD276E8F87">
+    <Snapshot Date="2023-06-01 16:17:50 +0200">
+        <Title>Removing the Text parts, Synopsis only</Title>
+        <Text>
+
+
+
+The first of the three main functional concerns relates to the semantic concern. We need to address what we mean when we refer to real-world semantics in software: reciprocity between data and data-processing. We additionally set the scene for semantic interoperability: a dynamic business collaboration environment that needs to cope with heterogeneous semantics between collaborating agents. This brings about (sub)concerns that agents need to face, and in order to prepare for semantic interoperability we propose design principles (DPs) to resolve these. 
+
+Second, the reconciliation concerns. Like the lower levels of interoperability, semantic interoperability (sIOP) requires agreements to be made between stakeholders in order for the agents that represent them to become interoperable on the semantic level. What reconciliation concerns do these agreements bring about and what design principles are required to resolve them? 
+
+Third, the mediation concerns. Provided the achievement of semantic reconciliation, what demands does this put on the data exchange such that by exchanging data, agents indirectly exchange semantic meaning? 
+
+Finally, in addition to these three main functional concerns, we address the extra-functional concern about scalability: how to maintain a stable sIOP under dynamic business collaboration conditions where new business objectives and/or additional agents replace or complement current ones. 
+
+Each of the four main concerns is thus further decomposed into subconcerns, and we present DPs to resolve each of them. Collectively, the concerns and design principles represent an architectural foundation to consolidate sIOP in software architectures.
+
+
+
+&lt;!-- page additions --&gt;
+[def:sIOPcore]: /Users/paulbrandt/Documents/Promotieonderzoek/Papers/2021_archSIOp/sIOPcore-alternative.png {#fig:dt-reconciliation width=100%} 
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

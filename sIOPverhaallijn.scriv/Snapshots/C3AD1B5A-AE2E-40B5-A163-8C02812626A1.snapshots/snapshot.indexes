@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="C3AD1B5A-AE2E-40B5-A163-8C02812626A1">
+    <Snapshot Date="2023-06-01 16:17:51 +0200">
+        <Title>Removing the Text parts, Synopsis only</Title>
+        <Text>
+&lt;!-- Set concern counter to s(C)alability.x.y style --&gt;
+\renewtheorem{mmconcern}[ssnc]{Concern}
+
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

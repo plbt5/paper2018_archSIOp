@@ -1,0 +1,54 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;\f1\fswiss\fcharset0 Helvetica;\f2\fmodern\fcharset0 CourierNewPS-BoldMT;
+\f3\fmodern\fcharset0 CourierNewPS-BoldItalicMT;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf0 Software agents will have their own perspective and, hence, conceptualisation and representation on a DoA that is shared with other agents. Collaboration relies on the exchange of semantic meaning that refer to the SoA. That semantic meaning is carried by data in various representations. Those representations must be transcribed from those natively applied by the DSP to those natively applied by the DSC, without inducing phantom semantics. How their native representations relate has been specified by an alignment between both agents, however, a single collaboration may involve several if not many agents, resulting in equally many native representations for which transcriptions need to take place, relying on equally many alignments between them. Moreover, each agent may be involved in more than one collaboration. And since collaboration between agents is induced by business demands that may change over time, semantics will be susceptible to change as well, inducing changes in the transcriptions in order to maintain semantic interoperability between them.\
+\
+Against this background, we distinguish two major responsibilities for a semantic mediator: transcription and coordination. Now, 
+\f1 <$Scr_Cs::1>
+\f2\b transcription
+\f1\b0 <!$Scr_Cs::1>
+\f0  is a key process in establishing sIOP in heterogeneous environments in order to maintain a clear separation between syntax and semantics. It provides the operational capability to mediate all differences that occur in the representation of semantic meaning that is carried by the data being exchanged between the DSP and the DSC. \
+\
+On the other hand, 
+\f1 <$Scr_Cs::1>
+\f2\b coordination
+\f1\b0 <!$Scr_Cs::1>
+\f0  is required to control the particular flows of conversation that occur in a collaboration, specifically about which agents need to cooperate by what semantic meaning in what order, required to achieve the mutual objective of the collaboration\AppleTypeServicesU1 . \AppleTypeServicesU0 In fact, this is endorsed by Maxim 3, Relation, because each partners\'92 contribution must be appropriate to the immediate needs at each stage of the conversation. We consider the coordination responsibility another 
+\f1 <$Scr_Cs::2>
+\f3\i\b verschijningsvorm
+\f1\i0\b0 <!$Scr_Cs::2>
+\f0  of \\cref\{\AppleTypeServicesU1 cncrn:scalability\}, surfacing the complexity of the business collaboration process as another scalability dimension. We formulate the following concern on mediation:\
+\AppleTypeServicesU0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\pardeftab720\sl288\slmult1\partightenfactor0
+
+\f1 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
+\f0\fs22 \\begin\{mmconcern\}[Semantic mediation]\\label\{cncrn:mediation\}\
+    Semantic mediation 
+\fs24 \AppleTypeServicesU0 maintains a clear separation in syntax and semantics. 
+\fs22 \AppleTypeServicesU1 Its major responsibilities in support of sIOP are:
+\fs24 \AppleTypeServicesU0  to 
+\fs22 \AppleTypeServicesU1 perform the transcription of data between representations of semantic meaning, and, to coordinate the flow of business conversations between collaborating agents, in order to achieve the goal of the collaboration. This demands each agent to manage and control a multitude of semantic interactions in order to play its part in all collaborations. This is considered infeasible from a practical point of view as well as a scalability concern. \
+\\end\{mmconcern\}\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf0 \AppleTypeServicesU0 <!$Scr_Ps::0>
+\f0 \
+\pard\pardeftab720\partightenfactor0
+\cf0 The following capabilities emerge:\
+\
+* Transcribe between two or more native representations\
+    * without introducing phantom semantics\
+    * throughout any data communication that applies during a conversation;\
+* \AppleTypeServicesU1 Coordinate and d\AppleTypeServicesU0 irect the flows of conversation between the agents that partake in the different collaborations\
+    * in order to achieve the shared goal of the collaboration\
+    * in various collaborative topologies\
+    * allowing the proliferation of collaborative connections\
+\
+Since all agents are confronted to provide these capabilities, it makes sense to turn them into generic infrastructural services. To that end, we apply the mediation pattern that is introduced in the next section.\
+\
+}

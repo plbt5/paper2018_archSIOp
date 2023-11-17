@@ -1,0 +1,23 @@
+In the previous sections we identified the need for agents to exchange semantic meaning in their local representation of their own conceptualisation that only applies their locally adopted background knowledge. We identified several semantic reconciliation concerns and introduced alignments to their resolution, established how to minimise human involvement, and provided a mechanism to coordinate each agent’s telic behaviour into collaboration. These are all preparations in order to achieve the actual collaboration between agents, and it is in this reading that we again apply the cooperative principle from \cref{cooperative-concern}. This results in two distinct capabilities that 
+
+
+
+
+
+ However, we als need to apply Maxim 3, relation, because each partners’ contribution must be appropriate to the immediate needs at each stage of the conversation. We define the agents’ cooperation in terms of the interaction between them, as follows.
+
+\begin{mmdef}[Interaction coordination]\label{def:ic}
+Interaction coordination is the process of directing the particular flows of conversation that occur in a collaboration, specifically about which agents need to cooperate by what semantic meaning in what order, initiating telic behaviour from the concerned agents, required to achieve the mutual objective of the collaboration.
+\end{mmdef} 
+
+Semantic mediation can now be defined as:
+
+\begin{mmdef}[Semantic mediation]\label{def:sm}
+Semantic mediation is a generic, run-time capability that transcribes data between the native DMs of the collaborating agents, and that directs the particular flows of conversation that occur in a collaboration.
+\end{mmdef} 
+
+
+
+ 
+
+

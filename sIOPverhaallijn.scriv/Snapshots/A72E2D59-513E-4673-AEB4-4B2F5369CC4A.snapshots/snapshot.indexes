@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="A72E2D59-513E-4673-AEB4-4B2F5369CC4A">
+    <Snapshot Date="2023-06-01 16:17:51 +0200">
+        <Title>Removing the Text parts, Synopsis only</Title>
+        <Text>
+&lt;!-- Set main concern counter to s(C)alability --&gt;
+\setcounter{mccntr}{3}\setcounter{snc}{0}
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

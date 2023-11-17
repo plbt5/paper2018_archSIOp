@@ -1,0 +1,1 @@
+The software agent has the responsibility to explicate and disclose its OC, and, additionally, to disclose the semantic meaning of any exchanged data, to the extent necessary to allow comprehension of its data by the other involved agent(s).

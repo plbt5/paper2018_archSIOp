@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.2" ID="BE8DD80E-0000-4561-B398-024C106340D8">
+  <Notes>
+    <Note ID="0" FontSize="12.0" Position="70.0,282.5" Width="224.8">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1" Style="Jagged"/>
+      </Appearance>
+      <String>A principled approach to dynamic sIOP</String>
+      <ConnectedNoteIDs>1-4, 67</ConnectedNoteIDs>
+      <PointsToNoteIDs>1-4</PointsToNoteIDs>
+    </Note>
+    <Note ID="1" FontSize="12.0" Position="360.0,96.3" Width="79.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9189183116 0.7627586722 0.7658078671</Border>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>Opportunity</String>
+      <ConnectedNoteIDs>0, 81-83, 101, 126</ConnectedNoteIDs>
+      <PointsToNoteIDs>81-83, 101</PointsToNoteIDs>
+    </Note>
+    <Note ID="2" FontSize="12.0" Position="362.2,281.8" Width="71.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9189183116 0.7627586722 0.7658078671</Border>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>Challenge</String>
+      <ConnectedNoteIDs>0, 90-93</ConnectedNoteIDs>
+      <PointsToNoteIDs>90-93</PointsToNoteIDs>
+    </Note>
+    <Note ID="3" FontSize="12.0" Position="362.1,473.5" Width="68.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9189183116 0.7627586722 0.7658078671</Border>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>Approach</String>
+      <ConnectedNoteIDs>0, 15-16</ConnectedNoteIDs>
+      <PointsToNoteIDs>15-16</PointsToNoteIDs>
+    </Note>
+    <Note ID="4" FontSize="12.0" Position="364.8,604.7" Width="60.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9189183116 0.7627586722 0.7658078671</Border>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>Benefits</String>
+      <ConnectedNoteIDs>0, 78-80</ConnectedNoteIDs>
+      <PointsToNoteIDs>78-80</PointsToNoteIDs>
+    </Note>
+    <Note ID="6" FontSize="12.0" Level="1" Position="523.1,576.0" Width="179.2">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764848 0.8974809647 0.6336729527</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>plug-&amp;-play sIOP</String>
+      <ConnectedNoteIDs>117, 121, 125</ConnectedNoteIDs>
+    </Note>
+    <Note ID="7" FontSize="12.0" Level="1" Position="524.0,20.0" Width="185.5">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764848 0.8974809647 0.6336729527</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>Stijgend belang voor Business samenwerking</String>
+      <ConnectedNoteIDs>100</ConnectedNoteIDs>
+    </Note>
+    <Note ID="8" FontSize="12.0" Level="1" Position="524.0,232.0" Width="180.5">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764848 0.8974809647 0.6336729527</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>Heterogene semantiek</String>
+    </Note>
+    <Note ID="9" FontSize="12.0" Level="1" Position="525.0,67.0" Width="180.3">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764848 0.8974809647 0.6336729527</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>Groeiende dynamiek in samenwerking</String>
+      <ConnectedNoteIDs>106</ConnectedNoteIDs>
+    </Note>
+    <Note ID="10" FontSize="12.0" Level="1" Position="524.0,371.0" Width="232.5">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764848 0.8974809647 0.6336729527</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>Noodzaak tot human-in-the-loop</String>
+    </Note>
+    <Note ID="11" FontSize="12.0" Level="1" Position="524.0,268.0" Width="204.6">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764848 0.8974809647 0.6336729527</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>Semantiek is domeinverantwoordelijkheid; standaardisatie past niet</String>
+      <ConnectedNoteIDs>108-109</ConnectedNoteIDs>
+    </Note>
+    <Note ID="12" FontSize="12.0" Level="1" Position="522.0,160.0" Width="200.1">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764848 0.8974809647 0.6336729527</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>Opkomst datagedreven ipv modelgedreven ontwikkeling</String>
+    </Note>
+    <Note ID="14" FontSize="12.0" Level="1" Position="524.0,333.0" Width="224.1">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764848 0.8974809647 0.6336729527</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>RWS ligt buiten ICT capability</String>
+      <ConnectedNoteIDs>109-110</ConnectedNoteIDs>
+    </Note>
+    <Note ID="15" FontSize="12.0" Position="519.8,450.8" Width="184.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764848 0.8974809647 0.6336729527</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>Essentiële concerns vaststellen</String>
+      <ConnectedNoteIDs>3, 71</ConnectedNoteIDs>
+      <PointsToNoteIDs>71</PointsToNoteIDs>
+    </Note>
+    <Note ID="16" FontSize="12.0" Position="519.6,492.1" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764848 0.8974809647 0.6336729527</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>Elk concern voorzien van minstens één DP</String>
+      <ConnectedNoteIDs>3</ConnectedNoteIDs>
+    </Note>
+    <Note ID="17" FontSize="12.0" Level="1" Position="523.1,619.0" Width="178.9">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764848 0.8974809647 0.6336729527</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>sIOP zonder voorafgaande domeinstandaarden</String>
+      <ConnectedNoteIDs>119-120</ConnectedNoteIDs>
+    </Note>
+    <Note ID="44" FontSize="12.0" Position="218.9,811.5" Width="51.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9189183116 0.7627586722 0.7658078671</Border>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>OCAB</String>
+    </Note>
+    <Note ID="45" FontSize="12.0" Position="312.0,811.5" Width="119.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>Gebruikte structuur</String>
+    </Note>
+    <Note ID="46" FontSize="12.0" Position="200.9,851.3" Width="69.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199762464 0.8974809647 0.633672893</Border>
+        <Fill>0.7837004066 0.9758002162 0.690300107</Fill>
+      </Appearance>
+      <String>Argument</String>
+    </Note>
+    <Note ID="47" FontSize="12.0" Position="313.1,851.0" Width="154.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>Essentiëel aandachtspunt</String>
+    </Note>
+    <Note ID="48" FontSize="12.0" Position="189.4,771.1" Width="71.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1" Style="Jagged"/>
+      </Appearance>
+      <String>Paper title</String>
+    </Note>
+    <Note ID="49" FontSize="12.0" Position="313.7,769.9" Width="134.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>Kleinste samenvatting</String>
+    </Note>
+    <Note ID="52" FontSize="12.0" Position="247.3,731.5" Width="63.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>Legenda</String>
+    </Note>
+    <Note ID="59" FontSize="12.0" Position="312.1,929.0" Width="120.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <TextColor>0.0 0.0 0.0</TextColor>
+        <Border>0.0 0.0 0.0</Border>
+      </Appearance>
+      <String>Aandachtspunt, NB</String>
+    </Note>
+    <Note ID="62" FontSize="12.0" Position="201.1,929.0" Width="67.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <TextColor>0.5704585314 0.5704723597 0.5704649091</TextColor>
+        <Border Weight="1" Style="Square">0.0 0.0 0.0</Border>
+      </Appearance>
+      <String>Annotatie</String>
+      <ConnectedNoteIDs>66</ConnectedNoteIDs>
+    </Note>
+    <Note ID="66" FontSize="12.0" Position="120.1,930.0" Width="28.6">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+      </Appearance>
+      <String>…</String>
+      <ConnectedNoteIDs>62</ConnectedNoteIDs>
+    </Note>
+    <Note ID="67" FontSize="12.0" Position="64.2,175.5" Width="169.5">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <TextColor>0.5704585314 0.5704723597 0.5704649091</TextColor>
+        <Border Weight="1" Style="Square">0.5704585314 0.5704723597 0.5704649091</Border>
+      </Appearance>
+      <String>Nieuwe titel, meer gericht op semantic web gremium dan op architectuur gremium</String>
+      <ConnectedNoteIDs>0</ConnectedNoteIDs>
+    </Note>
+    <Note ID="71" FontSize="12.0" Position="778.6,443.2" Width="251.5">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>Een concern is essentieel alss het één of meer Challenges of Opportunities raakt</String>
+      <ConnectedNoteIDs>15</ConnectedNoteIDs>
+      <Formatting>
+        <FormatRange Bold="Yes">26,4</FormatRange>
+      </Formatting>
+    </Note>
+    <Note ID="72" FontSize="12.0" Level="1" Position="523.1,676.0" Width="172.1">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764848 0.8974809647 0.6336729527</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>sIOP zowel inter- als intradomein</String>
+      <ConnectedNoteIDs>118, 120, 122</ConnectedNoteIDs>
+    </Note>
+    <Note ID="73" FontSize="12.0" Level="1" Position="523.8,115.1" Width="206.3">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764848 0.8974809647 0.6336729527</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>Dynamic sIOP enables to achieve interoperability quicker</String>
+      <ConnectedNoteIDs>107, 126</ConnectedNoteIDs>
+    </Note>
+    <Note ID="74" FontSize="12.0" Position="242.1,967.0" Width="25.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <TextColor>0.9999960065 1.0 1.0</TextColor>
+        <Border Weight="1">0.5807225108 0.066734083 0.0</Border>
+        <Fill>1.0 0.1491314173 0.0</Fill>
+      </Appearance>
+      <String>B</String>
+    </Note>
+    <Note ID="75" FontSize="12.0" Position="312.1,967.0" Width="105.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <TextColor>0.0 0.0 0.0</TextColor>
+        <Border>0.0 0.0 0.0</Border>
+      </Appearance>
+      <String>Business belang</String>
+    </Note>
+    <Note ID="76" FontSize="12.0" Position="242.1,1000.0" Width="24.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <TextColor>0.9999960065 1.0 1.0</TextColor>
+        <Border Weight="1">0.5807225108 0.066734083 0.0</Border>
+        <Fill>1.0 0.1491314173 0.0</Fill>
+      </Appearance>
+      <String>T</String>
+    </Note>
+    <Note ID="77" FontSize="12.0" Position="312.1,1001.0" Width="132.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <TextColor>0.0 0.0 0.0</TextColor>
+        <Border>0.0 0.0 0.0</Border>
+      </Appearance>
+      <String>Technologisch belang</String>
+    </Note>
+    <Note ID="78" FontSize="12.0" Position="519.1,682.0" Width="25.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <TextColor>0.9999960065 1.0 1.0</TextColor>
+        <Border Weight="1">0.5807225108 0.066734083 0.0</Border>
+        <Fill>1.0 0.1491314173 0.0</Fill>
+      </Appearance>
+      <String>B</String>
+      <ConnectedNoteIDs>4</ConnectedNoteIDs>
+    </Note>
+    <Note ID="79" FontSize="12.0" Position="519.1,626.0" Width="25.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <TextColor>0.9999960065 1.0 1.0</TextColor>
+        <Border Weight="1">0.5807225108 0.066734083 0.0</Border>
+        <Fill>1.0 0.1491314173 0.0</Fill>
+      </Appearance>
+      <String>B</String>
+      <ConnectedNoteIDs>4</ConnectedNoteIDs>
+    </Note>
+    <Note ID="80" FontSize="12.0" Position="519.1,576.0" Width="25.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <TextColor>0.9999960065 1.0 1.0</TextColor>
+        <Border Weight="1">0.5807225108 0.066734083 0.0</Border>
+        <Fill>1.0 0.1491314173 0.0</Fill>
+      </Appearance>
+      <String>B</String>
+      <ConnectedNoteIDs>4</ConnectedNoteIDs>
+    </Note>
+    <Note ID="81" FontSize="12.0" Position="519.0,27.0" Width="25.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <TextColor>0.9999960065 1.0 1.0</TextColor>
+        <Border Weight="1">0.5807225108 0.066734083 0.0</Border>
+        <Fill>1.0 0.1491314173 0.0</Fill>
+      </Appearance>
+      <String>B</String>
+      <ConnectedNoteIDs>1</ConnectedNoteIDs>
+    </Note>
+    <Note ID="82" FontSize="12.0" Position="519.0,73.0" Width="25.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <TextColor>0.9999960065 1.0 1.0</TextColor>
+        <Border Weight="1">0.5807225108 0.066734083 0.0</Border>
+        <Fill>1.0 0.1491314173 0.0</Fill>
+      </Appearance>
+      <String>B</String>
+      <ConnectedNoteIDs>1</ConnectedNoteIDs>
+    </Note>
+    <Note ID="83" FontSize="12.0" Position="519.0,122.0" Width="25.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <TextColor>0.9999960065 1.0 1.0</TextColor>
+        <Border Weight="1">0.5807225108 0.066734083 0.0</Border>
+        <Fill>1.0 0.1491314173 0.0</Fill>
+      </Appearance>
+      <String>B</String>
+      <ConnectedNoteIDs>1</ConnectedNoteIDs>
+    </Note>
+    <Note ID="90" FontSize="12.0" Position="519.0,232.0" Width="24.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <TextColor>0.9999960065 1.0 1.0</TextColor>
+        <Border Weight="1">0.5807225108 0.066734083 0.0</Border>
+        <Fill>1.0 0.1491314173 0.0</Fill>
+      </Appearance>
+      <String>T</String>
+      <ConnectedNoteIDs>2</ConnectedNoteIDs>
+    </Note>
+    <Note ID="91" FontSize="12.0" Position="519.0,282.0" Width="24.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <TextColor>0.9999960065 1.0 1.0</TextColor>
+        <Border Weight="1">0.5807225108 0.066734083 0.0</Border>
+        <Fill>1.0 0.1491314173 0.0</Fill>
+      </Appearance>
+      <String>T</String>
+      <ConnectedNoteIDs>2</ConnectedNoteIDs>
+    </Note>
+    <Note ID="92" FontSize="12.0" Position="519.0,333.0" Width="24.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <TextColor>0.9999960065 1.0 1.0</TextColor>
+        <Border Weight="1">0.5807225108 0.066734083 0.0</Border>
+        <Fill>1.0 0.1491314173 0.0</Fill>
+      </Appearance>
+      <String>T</String>
+      <ConnectedNoteIDs>2</ConnectedNoteIDs>
+    </Note>
+    <Note ID="93" FontSize="12.0" Position="519.0,371.0" Width="24.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <TextColor>0.9999960065 1.0 1.0</TextColor>
+        <Border Weight="1">0.5807225108 0.066734083 0.0</Border>
+        <Fill>1.0 0.1491314173 0.0</Fill>
+      </Appearance>
+      <String>T</String>
+      <ConnectedNoteIDs>2</ConnectedNoteIDs>
+    </Note>
+    <Note ID="94" FontSize="12.0" Position="702.0,168.0" Width="24.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <TextColor>0.9999960065 1.0 1.0</TextColor>
+        <Border Weight="1">0.5807225108 0.066734083 0.0</Border>
+        <Fill>1.0 0.1491314173 0.0</Fill>
+      </Appearance>
+      <String>T</String>
+    </Note>
+    <Note ID="100" FontSize="12.0" Position="809.3,25.0" Width="286.4">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7221018076 0.8462901711 0.9162387252</Border>
+        <Fill>0.786 0.9204 0.9961</Fill>
+      </Appearance>
+      <String>Bedrijven zijn hoe langer hoe meer verstrengeld</String>
+      <ConnectedNoteIDs>7</ConnectedNoteIDs>
+      <PointsToNoteIDs>7</PointsToNoteIDs>
+    </Note>
+    <Note ID="101" FontSize="12.0" Position="519.0,167.0" Width="25.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <TextColor>0.9999960065 1.0 1.0</TextColor>
+        <Border Weight="1">0.5807225108 0.066734083 0.0</Border>
+        <Fill>1.0 0.1491314173 0.0</Fill>
+      </Appearance>
+      <String>B</String>
+      <ConnectedNoteIDs>1</ConnectedNoteIDs>
+    </Note>
+    <Note ID="102" FontSize="12.0" Position="201.1,891.0" Width="70.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7221018076 0.8462901711 0.9162387252</Border>
+        <Fill>0.786 0.9204 0.9961</Fill>
+      </Appearance>
+      <String>Verklaring</String>
+    </Note>
+    <Note ID="103" FontSize="12.0" Position="312.1,891.0" Width="119.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>Ondersteunend feit</String>
+    </Note>
+    <Note ID="104" FontSize="12.0" Position="555.0,416.0" Width="266.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>Uitgewerkt in mindmap  sIOP Concerns &amp; DPs</String>
+    </Note>
+    <Note ID="106" FontSize="12.0" Position="808.0,73.0" Width="32.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7221018076 0.8462901711 0.9162387252</Border>
+        <Fill>0.786 0.9204 0.9961</Fill>
+      </Appearance>
+      <String>….</String>
+      <ConnectedNoteIDs>9</ConnectedNoteIDs>
+      <PointsToNoteIDs>9</PointsToNoteIDs>
+    </Note>
+    <Note ID="107" FontSize="12.0" Position="808.0,120.0" Width="141.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7221018076 0.8462901711 0.9162387252</Border>
+        <Fill>0.786 0.9204 0.9961</Fill>
+      </Appearance>
+      <String>Snelheid is geboden….</String>
+      <ConnectedNoteIDs>73</ConnectedNoteIDs>
+      <PointsToNoteIDs>73</PointsToNoteIDs>
+    </Note>
+    <Note ID="108" FontSize="12.0" Position="810.3,274.7" Width="32.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7221018076 0.8462901711 0.9162387252</Border>
+        <Fill>0.786 0.9204 0.9961</Fill>
+      </Appearance>
+      <String>….</String>
+      <ConnectedNoteIDs>11</ConnectedNoteIDs>
+      <PointsToNoteIDs>11</PointsToNoteIDs>
+    </Note>
+    <Note ID="109" FontSize="12.0" Position="810.3,302.7" Width="32.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7221018076 0.8462901711 0.9162387252</Border>
+        <Fill>0.786 0.9204 0.9961</Fill>
+      </Appearance>
+      <String>….</String>
+      <ConnectedNoteIDs>11, 14</ConnectedNoteIDs>
+      <PointsToNoteIDs>11, 14</PointsToNoteIDs>
+    </Note>
+    <Note ID="110" FontSize="12.0" Position="810.3,330.7" Width="32.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7221018076 0.8462901711 0.9162387252</Border>
+        <Fill>0.786 0.9204 0.9961</Fill>
+      </Appearance>
+      <String>….</String>
+      <ConnectedNoteIDs>14</ConnectedNoteIDs>
+      <PointsToNoteIDs>14</PointsToNoteIDs>
+    </Note>
+    <Note ID="117" FontSize="12.0" Position="799.0,579.0" Width="43.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7221018076 0.8462901711 0.9162387252</Border>
+        <Fill>0.786 0.9204 0.9961</Fill>
+      </Appearance>
+      <String>DP#.</String>
+      <ConnectedNoteIDs>6</ConnectedNoteIDs>
+      <PointsToNoteIDs>6</PointsToNoteIDs>
+    </Note>
+    <Note ID="118" FontSize="12.0" Position="799.0,684.0" Width="43.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7221018076 0.8462901711 0.9162387252</Border>
+        <Fill>0.786 0.9204 0.9961</Fill>
+      </Appearance>
+      <String>DP#.</String>
+      <ConnectedNoteIDs>72</ConnectedNoteIDs>
+      <PointsToNoteIDs>72</PointsToNoteIDs>
+    </Note>
+    <Note ID="119" FontSize="12.0" Position="799.0,628.0" Width="47.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7221018076 0.8462901711 0.9162387252</Border>
+        <Fill>0.786 0.9204 0.9961</Fill>
+      </Appearance>
+      <String>DP#..</String>
+      <ConnectedNoteIDs>17</ConnectedNoteIDs>
+      <PointsToNoteIDs>17</PointsToNoteIDs>
+    </Note>
+    <Note ID="120" FontSize="12.0" Position="861.7,664.7" Width="43.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7221018076 0.8462901711 0.9162387252</Border>
+        <Fill>0.786 0.9204 0.9961</Fill>
+      </Appearance>
+      <String>DP#.</String>
+      <ConnectedNoteIDs>17, 72</ConnectedNoteIDs>
+      <PointsToNoteIDs>17, 72</PointsToNoteIDs>
+    </Note>
+    <Note ID="121" FontSize="12.0" Position="861.3,591.6" Width="43.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7221018076 0.8462901711 0.9162387252</Border>
+        <Fill>0.786 0.9204 0.9961</Fill>
+      </Appearance>
+      <String>DP#.</String>
+      <ConnectedNoteIDs>6</ConnectedNoteIDs>
+      <PointsToNoteIDs>6</PointsToNoteIDs>
+    </Note>
+    <Note ID="122" FontSize="12.0" Position="860.7,622.3" Width="47.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7221018076 0.8462901711 0.9162387252</Border>
+        <Fill>0.786 0.9204 0.9961</Fill>
+      </Appearance>
+      <String>DP#..</String>
+      <ConnectedNoteIDs>72</ConnectedNoteIDs>
+      <PointsToNoteIDs>72</PointsToNoteIDs>
+    </Note>
+    <Note ID="123" FontSize="12.0" Position="1008.6,121.1" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>Ontwikeling gaande in besdijfsleven (data-driven) om tot dynamische samenwerking, en sneller van partner moeten wisselen, vergroot de noodzaak voortechn.ondersteuning , schaalbaar, plug&amp;play sIOP helptdaar enorm is.</String>
+    </Note>
+    <Note ID="124" FontSize="12.0" Position="1067.2,62.8" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>dynamieken data-driven zijn de trends. De echteopportunity is dan ug &amp; ay sIOPfaciiteren.</String>
+    </Note>
+    <Note ID="125" FontSize="12.0" Position="969.0,585.0" Width="174.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>P&amp;P na de human-in-the-loop</String>
+      <ConnectedNoteIDs>6</ConnectedNoteIDs>
+    </Note>
+    <Note ID="126" FontSize="12.0" Position="162.0,43.0" Width="120.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>dynamic sIOP is de</String>
+      <ConnectedNoteIDs>1, 73</ConnectedNoteIDs>
+      <PointsToNoteIDs>1</PointsToNoteIDs>
+    </Note>
+    <Note ID="128" FontSize="12.0" Position="921.5,277.5" Width="257.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>Achieve more efficient business collaboration</String>
+    </Note>
+    <Note ID="129" FontSize="12.0" Position="922.0,298.0" Width="260.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>Achieve more effective business collaboration</String>
+    </Note>
+    <Note ID="130" FontSize="12.0" Position="924.0,322.0" Width="319.7">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>Achieve business collaboration with more stakeholders</String>
+    </Note>
+  </Notes>
+  <BackgroundShapes>
+    <Shape ID="105" Position="500.0,427.0" Width="542.0" Sticky="no" Height="119.0">
+      <Appearance>
+        <Border Weight="1"/>
+      </Appearance>
+    </Shape>
+    <Shape ID="43" Position="104.7,744.4" Width="409.5" Sticky="yes" Height="299.6">
+      <Appearance>
+        <Border Weight="1"/>
+      </Appearance>
+    </Shape>
+  </BackgroundShapes>
+  <Stacks>
+    <Stack>108-110</Stack>
+  </Stacks>
+  <AutoFit>1-4, 15, 44-49, 52, 59, 62, 66, 74-83, 90-94, 101-103, 106-110, 117-122, 125-126, 128-129</AutoFit>
+  <NoteStyles>
+    <Style Name="Bubble (Blue)" ID="040575C6-1B02-419C-A742-E9AE87E8CA97" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.668962 0.810287 0.895092</BorderColor>
+      <FillColor>0.743291 0.900319 0.994547</FillColor>
+    </Style>
+    <Style Name="Bubble (Green)" ID="31AA38B4-979C-49A3-AE57-13ADFE59C081" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.669404 0.885265 0.567007</BorderColor>
+      <FillColor>0.743783 0.983628 0.630008</FillColor>
+    </Style>
+    <Style Name="Bubble (Pink)" ID="C479796B-AD5D-4EE9-925C-F76C559EEC9E" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.894547 0.707772 0.715904</BorderColor>
+      <FillColor>0.989115 0.814114 0.999483</FillColor>
+    </Style>
+    <Style Name="Bubble (Red)" ID="1E19E20D-59E1-4C9E-9186-9E71D6D7EEA1" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.894547 0.707772 0.715904</BorderColor>
+      <FillColor>0.993942 0.786413 0.795449</FillColor>
+    </Style>
+    <Style Name="Bubble (Yellow)" ID="D34FD487-932E-46F4-B4A7-35E51DDF8380" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.877748 0.828289 0.562126</BorderColor>
+      <FillColor>0.975275 0.920321 0.624585</FillColor>
+    </Style>
+    <Style Name="Red Text" ID="698A09B9-12CF-4A66-A1EC-C119A230F8E0" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+      <TextColor>0.985954 0.0 0.02694</TextColor>
+    </Style>
+    <Style Name="Title Text" ID="6861EB7F-0ED4-42C5-BFCC-97BDAAF20859" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+      <FontSize>28.0</FontSize>
+      <IsBold>Yes</IsBold>
+    </Style>
+  </NoteStyles>
+  <UISettings>
+    <BackgroundColor>0.999763 0.988395 0.949915</BackgroundColor>
+    <DefaultFont>Helvetica</DefaultFont>
+    <NoteXPadding>8.0</NoteXPadding>
+  </UISettings>
+  <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"/>
+</ScappleDocument>

@@ -1,0 +1,1 @@
+Transcribe exchanged data between their local and remote conceptualisation and representation, without introducing phantom semantics. Apply for its implementation the mediation pattern to instantiate a business conversation based transcription component that is configured by semantic alignments. 

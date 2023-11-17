@@ -1,0 +1,5 @@
+Loose coupling:
+1 - SoC
+ a - telic vs comprehension
+
+2 - Trans

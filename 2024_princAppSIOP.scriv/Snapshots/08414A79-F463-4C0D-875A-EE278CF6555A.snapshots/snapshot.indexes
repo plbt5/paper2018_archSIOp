@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="08414A79-F463-4C0D-875A-EE278CF6555A">
+    <Snapshot Date="2023-11-16 17:51:30 +0100">
+        <Title>Naar versie 2</Title>
+        <Text>In the previous sections we’ve identified the need for agents to exchange semantic meaning in their own, local representation of their private conceptualisation that only applies their locally adopted background knowledge. We have identified several semantic reconciliation concerns and introduced alignments to their resolution, and established the need for semantic scalability. These are all preparations in order to support the actual collaboration, i.e., the collective behaviour of software agents and their semantic interaction to achieve the mutual business objective. We address the concerns that apply by, first, identifying the mediation concern, second, introducing the mediation pattern, and finally showing how to apply that in the semantic setting.</Text>
+    </Snapshot>
+</SnapshotIndexes>

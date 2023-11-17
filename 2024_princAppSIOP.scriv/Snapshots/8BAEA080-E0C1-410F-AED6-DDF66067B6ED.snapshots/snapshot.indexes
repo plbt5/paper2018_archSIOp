@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="8BAEA080-E0C1-410F-AED6-DDF66067B6ED">
+    <Snapshot Date="2023-11-16 17:51:30 +0100">
+        <Title>Naar versie 2</Title>
+        <Text>Although they share semantic meaning, the resulting semantic monolith of the DSC must be allowed to differ from the DSP’s semantic monolith. In fact, collaboration is all about sharing data that carry similar semantic meaning but allowing for different pragmatic meaning in order to achieve different results that together fulfils the shared purpose. For example, by exchanging a heartbeat both agents share the semantic meaning about the number of beats per second. However, the pragmatic meaning can vary between an indication of health for a health-care application and an indication of performance potential in a sports application, with different pragmatic demands on semantic meaning, e.g., resolution or accuracy. Additionally, and as identified as \cref{cncrn:semantic-heterogeneity}, semantic meaning can be represented in many different ways. Both aspects bring about a further concern on semantic scalability, since semantics won’t be centrally coordinated anymore resulting in semantic definitions that are distributed all over the place (see \cref{dp:shp}). 
+
+In our pursuit to formulate this scalability concern, we first provide for a definition that draws from the classical formulations on system scalability [@Bondi2000;@Steed2010;@Shivakumar2015]. In its classical interpretation, scalability is about increasing quantity while maintaining the quality of the system, in terms of performance, functionality or efficiency as perceived by the end users. In the same spirit, we address semantic scalability also in terms of quantity, where the number of perspectives on reality have the most impact on semantic diversity and representational variety, more than stakeholders alone. Furthermore, we formulate the quality to maintain not in terms of interoperability itself, but the effort that is required to consolidate sIOP between those many perspectives, notably since this addresses the main feature that sIOP is to support: business agility. This results in the following definition: 
+
+\begin{mmdef}[Semantic scalability]\label{def:semantic-scalability}
+Semantic scalability is the capability of a system of collaborating software agents to adopt and/or consolidate, with acceptable lead time and costs, additional perspectives on  their shared reality without compromising sIOP between the interacting software agents. 
+\end{mmdef}  
+
+Pursuing business agility requires semantic scalability; pursuing business agility in an open world results in heterogeneity and, hence, requires to cope with semantic independence. We formulate the following concern to its effect:
+
+\begin{mmconcern}[Semantic scalability]\label{cncrn:scalability}
+  In an open world, semantic definitions are distributed and commit to different perspectives on the DoA while central coordination is not always available. Furthermore, computers lack the capability for genuine understanding. Consequently, semantic differences between collaborating agents must be explicitly reconciled and maintained, implying semantic agreements in support of sIOP. Agreements imply a relationship to exist between software agents, as well as institutionalising (the governance of) those relationships to manage them under continuing changes in business collaborations and the occurrence of semantic drift. At the same time, semantic scalability requires collaborative software agents to maximise their semantic independence.
+\end{mmconcern}
+
+In the following two subsections, we identify two complementary aspects to address \cref{cncrn:re-establish-coherence,cncrn:scalability}. One revolves around the human task in response to the inability of computers to genuinely understand, and with inevitable impact on the “access-and-play” business demand, i.e., minimising human effort. Another refers to engineering challenges about mechanisation and efficiency.  
+
+&lt;!-- page additions --&gt;
+</Text>
+    </Snapshot>
+    <Snapshot Date="2022-07-18 15:16:14 +0200">
+        <Title>Untitled Snapshot</Title>
+        <Text>Semantic interoperability is about at least two software agents, in their roles as DSP and DSC, that share a particular DoA and exchange data that represent a certain SoA in their shared reality. Subsequent to the exchange, the data will be processed by the receiving DSC. It stands to reason that data comprehension precedes their faithful use, which is supported by FAIR’s machine-actionable states. This also resonates with Maxim 3, relevancy of the communication; it addresses the objective of the DSC through application of its pragmatic meaning. 
+
+We assume the presence of domain models, one for each collaborating software agent, anchoring the semantics of the collaboration in terms of ASMs that consolidate reciprocity between data and their data processing. By exchanging data, the DSP must break its ASM and separate the semantic meaning from its pragmatic meaning[^Exercise]. Consequently, data exchange implies the DSC to receive semantic meaning only, and since data comprehension precedes its faithful use, the DSC must establish a new reciprocity between the DSP’s semantic meaning with its own pragmatic meaning. Unless it can be guaranteed that this new reciprocity is as coherent as necessary for a faithful comprehension, it’s impossible to establish sIOP without emergence of invalid semantics. We repeat our definition on semantic coherence from [@Brandt2021a, Def.6]:
+
+\begin{mmdef}[Semantic coherence]\label{def:semantic-coherence}
+Semantic coherence builds on the consistency with which the [semantic and pragmatic meanings] (…) commit to the same distinctions in their shared reality, and only require each other's knowledge in executing their reciprocity. 
+\end{mmdef}  
+
+We indicated in \cref{the-four-maxims-of-communication} that maxim 3, be relevant (to the immediate needs), also relates to the interoperation between the agents. Apart from its place in the communication protocol (which we do not address here), relevancy (to the immediate needs) refers to the purpose that the DSC is to achieve. More precisely, without a faithful comprehension of the DSP’s semantic meaning, the DSC cannot establish the relevance of the received data to its on purpose, let alone how to achieve that. and, therefore, relates directly to the above semantic coherence. 
+
+Our third concern about sIOP is founded on FAIR’s machine-actionable stance and maxim 3 as:
+
+\begin{mmconcern}\label{cncrn:re-establish-coherence}
+Subsequent to data exchange, the DSC must have the capability to re-establish semantic coherence between the external (DSP’s) semantic meaning and its own internal pragmatic meaning, and assure that the reciprocity between the DSP’s data and the DSC’s data processing code remains truthful to the state of affairs in reality.
+\end{mmconcern}
+
+We note that \cref{cncrn:re-establish-coherence} applies to both the data it receives from the DSP as to the data that the DSC can infer from them.
+
+Although they share the same semantic meaning, the resulting semantic monolith of the DSC must be allowed to differ from the DSP’s semantic monolith. For example, by exchanging a heartbeat both agents share the semantic meaning about the number of beats per second, however the pragmatic meaning can vary between an indication of health for an health-care application and an indication of performance potential in a sports application, with different demands on semantic meaning, e.g., resolution and accuracy. Semantic heterogeneity thus, brings about the fourth concern about sIOP, i.e., that of scalability, since semantics won’t be centrally coordinated anymore resulting in semantic definitions that are distributed all over the place (see \cref{dp:shf}). 
+
+\begin{mmdef}[Semantic scalability]\label{def:semantic-scalability}
+Semantic scalability is the capability of a system of collaborating agents to adopt and/or consolidate, with acceptable lead time and costs, increasing perspectives on -or more complex semantic heterogeneity about- their shared reality without compromising sIOP between any interacting software agents. 
+\end{mmdef}  
+
+We elaborate the above in two subconcerns:
+
+\begin{subtheorem}{mmconcern}\label{cncrn:scalability}
+  \begin{mmconcern}\label{cncrn:scalabilityA}
+    sIOP shall allow for semantic scalability;
+  \end{mmconcern}
+
+  \begin{mmconcern}\label{cncrn:scalabilityB}
+    Pursuing sIOP between heterogeneous semantics requires that the ASM’s from both agents remain independent from each other, viz establishing a semantical loose coupling between both agents.
+  \end{mmconcern}
+\end{subtheorem}
+
+
+We identify two complementary aspects from these concerns. One revolves around the human task and, therefore, impede the “access-and-play” business demand. Another refers to engineering challenges about mechanisation and efficiency. We address the human tasks concerns in the next section, and then investigate the engineering challenges in its subsequent section.   
+
+&lt;!-- page additions --&gt;
+
+[^Exercise]: Why it is useless to exchange the complete ASM in order to establish sIOP, is left as an exercises to the reader.\
+\rotatebox{180}{\parbox{\linewidth}{Communicating the semantic monolith, although possible, results in a too narrow solution towards sIOP because this would require each agent to have an exactly equal perspective on reality. Although possible, this will rarely be the case.}}
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

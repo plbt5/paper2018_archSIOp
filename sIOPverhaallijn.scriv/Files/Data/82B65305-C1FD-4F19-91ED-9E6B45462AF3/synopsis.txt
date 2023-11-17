@@ -1,0 +1,1 @@
+In order to minimise the False-Agreement Problem, the software agent's domain model must be constrained to minimize the difference between the semantic meaning that it allows and those that it intends.

@@ -1,0 +1,1 @@
+A correspondence relation must preserve semantic meaning by addressing conceptual differences as well as convention-induced value-space differences. The alignment language must be expressive enough to represent those differences, the resolution of which is a necessary condition to achieve sIOP, providing faithful DMs from both collaborating agents.

@@ -1,0 +1,10 @@
+Business collaboration is driven by a mutual interest of different stakeholders, where software agents act on behalf of the stakeholder by exchanging semantic meaning about the DoA. Business collaboration requires agreements to be made between stakeholders about the semantic meaning that is carried by the data that the software agents exchange. *Dynamic* business collaboration is not different from that, except for the fact that variations occur over time about the mutual interests, or new or evolving business demands, involved stakeholders, and more. The nature of the dynamics in business collaboration can be strategical, tactical or ad-hoc, but almost always imply changes in the current semantic agreements that affect few or many involved stakeholders. A sudden increase in semantic heterogeneity will occur, and with it sIOP will be impeded on precisely the collaboration of interest. The IT must be aligned with the business again, and moreover, turn into effect almost immediately. Equally important, standing business collaboration must continue. 
+
+\begin{mmconcern}[Dynamic collaboration concern]\label{cncrn:dynamic-collaboration}
+This concern reflects the tension that exists in dynamic business collaborations between the business desire to immediately engage in business collaboration, particularly on new business opportunities, and the community-wide distributed IT efforts required to achieve sIOP. The latter involves reconciling semantic differences, implementing the newly established semantics, and coordinating its deployment to all involved software agents. The concern deepens due to the distribution of responsibilities involved: the business/domain is responsible for the semantics, whereas the local IT is responsible for consolidating the alignment of the exchange of data and their processing by their software agents with the specified semantics.
+\end{mmconcern}
+
+Applied DPs: (INCOMPLETE with respect to concern)
+
+* DP1: Semantic Heterogeneity Principle
+* DP5: Separate data syntax from semantics syntax principle

@@ -1,0 +1,9 @@
+We set the scene for semantic interoperability, and identify three pivotal aspects to consider.
+
+First, we use the term *semantics* to refer to real-world semantics as used and interpreted by humans. Since software is incapable of genuine understanding, RWS cannot exist in software. Nevertheless, software agents exchange data that carry semantic meaning and with that refer to states of affairs in the domain. When processing such data, they must be processed isomorphic to reality in order to remain faithful to reality. This has been described in [@Brandt2021a], and we summarise our position towards semantics in software.
+
+Second, we investigate the dynamic business collaboration concern, and argue that its *dynamic* characteristic will be difficult to achieve on the basis of semantic homogeneity, which is the current approach to achieve sIOP through (syntactic) standards that consolidate semantics. Therefore, we consider semantic heterogeneity a necessary condition in order to achieve sIOP in dynamic environments. 
+
+Third, a conversation between two human agents that share a mutual purpose brings about a natural responsibility for both of them in order to achieve that purpose. We cannot find an argument that suggests that these responsibilities do not apply for collaborating software agents as well. Hence, it is necessary to surface semantic concerns that follow from the responsibilities that apply between communicating agents. 
+
+These three aspects set the environment in which sIOP for dynamic business collaboration must thrive. We address the latter two concerns only, since we consider the former concern to represent the software engineering reality that cannot be changed.

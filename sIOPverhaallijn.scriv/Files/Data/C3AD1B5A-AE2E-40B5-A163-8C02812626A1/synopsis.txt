@@ -1,0 +1,10 @@
+
+Finally, we consider the classical concern about loose coupling but in a semantic reading instead, in order to respond to consequences that follow from pursuing interoperability while insisting on a semantic heterogeneous environment. 
+
+Finally, we consider the classical concern about loose coupling but in a semantic reading instead, in order to respond to consequences that follow from pursuing interoperability while insisting on a semantic heterogeneous environment. In software, how does data relate to real-world semantics? 
+
+DEFINITIE VAN LCS TOEVOEGEN
+
+By introducing semantic heterogeneity, we renounce to bind domain semantics to particular syntax upfront. Nevertheless, stakeholders must remain the capability to use exchanged data, hence, semantic coupling must be realised. Loose coupling is known as a strong architectural principle that brings about many advantages. This holds for its semantic reading as well: agents that are loosely coupled in their semantics (i) can communicate in their own native representations without the need to learn or integrate foreign representations; (ii) need to define semantics only once for a particular DoA, and use it in concert with every software agent that operates in that DoA; (iii) can define their semantic representations geared to fit their particular domain and application(s) in isolation from global semantics; and (iv) can re-use available, local semantics, improving the economic value of local semantics throughout their lifetime. Moreover, since re-use implies another confrontation with reality, (v) the quality and scope of the local semantics will improve and extend over time. 
+
+In its classical sense, loose coupling is realised through the principles of separation of concerns and transparency. We investigate how to apply those principles at the semantic level in the next two subsections.

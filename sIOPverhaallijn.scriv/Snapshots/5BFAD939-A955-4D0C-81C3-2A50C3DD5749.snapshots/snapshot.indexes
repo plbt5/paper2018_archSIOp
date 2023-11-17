@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="5BFAD939-A955-4D0C-81C3-2A50C3DD5749">
+    <Snapshot Date="2023-06-01 16:17:51 +0200">
+        <Title>Removing the Text parts, Synopsis only</Title>
+        <Text>As put forward by [@Grice:1991BT], conversation between two human agents that share a mutual purpose brings about a natural responsibility for both of them in order to achieve that purpose. In this perspective, a conversation can be considered a cooperative effort: “Make your conversational contribution such as is required, at the stage at which it occurs, by the accepted purpose or direction of the talk exchange in which you are engaged.”. These conversational responsibilities address the semantics and pragmatics of the communication and much less the syntax of it. We cannot find an argument that suggests that these responsibilities do not apply for collaborating software agents as well. Hence, it is necessary to surface semantic concerns that follow from the responsibilities that apply between communicating agents. 
+
+\begin{mmconcern}[Agent cooperation concern]\label{cncrn:cooperation}
+Considering that a conversation between software agents must be a cooperative effort, a natural responsibility exists for each of the software agents to contribute to the cooperation. In the semantic reading, this refers to establishing agreement on current, past, potential or desired SoAs in the DoA, converse about such by exchanging semantic meaning that leads to telic behaviour, amongst which other conversational contributions. What kind of contributions should be acknowledged under what conditions, how are these distributed over the DSP and the DSC, and what conversational tools are required to fulfil them?
+\end{mmconcern}
+
+In response to what he calls the cooperation principle, [@Grice:1991BT] described four *maxims* as the particular purpose of communication, viz to serve:
+
+1. Quantity: Make your contributions as informative as is required (for the current purpose of the exchange), and not more than is required;
+2. Quality: Do not say what you believe to be false, or for which you lack evidence;
+3. Relation: Be relevant (to the immediate needs);
+4. Manner: How is being said what is said, e.g., avoid obscurity of expression, ambiguity, and be brief and orderly.
+
+We provide their interpretation in the specific reading of achieving sIOP, as follows:
+
+* Maxim 1, the quantity maxim, calls for scoping the exchange of data to the semantic meaning that is precisely sufficient to inform about the SoAs that have emerged, changed or demanded for, and only to those agents that require such information. “What precise information is sufficient to provide to whom for the latter to proceed?” &lt;— *Semantic sufficiency concern*
+* Maxim 2, the quality maxim, calls for the DSP to assure to only exchange semantic meaning that are faithful to reality, i.e., reflect the current SoAs properly. “What do we deem necessary to become faithful to reality?” &lt;— *Semantic faithfulness concern*
+* Maxim 3, the relation maxim, calls for the exchange of semantic meaning that is relevant, viz purposeful to the current stage in the current collaboration. “Why are we communicating and what is it that we want to achieve with it?” &lt;— *Conversation purpose concern*
+* Maxim 4, the manner maxim, calls for an explicit specification on how the conceptualisation of the DoA is being represented by the data. “How can we understand each other(’s data)?” &lt;— *Semantic representation concern*
+
+Based on this sIOP reading of the four maxims, we formulate their semantic concerns in the next four sections.
+
+
+
+&lt;!-- Set concern counter to (S)emantic.x.y style --&gt;
+
+\renewtheorem{mmconcern}[ssnc]{Concern}
+
+
+&lt;!-- page additions --&gt; 
+ </Text>
+    </Snapshot>
+</SnapshotIndexes>

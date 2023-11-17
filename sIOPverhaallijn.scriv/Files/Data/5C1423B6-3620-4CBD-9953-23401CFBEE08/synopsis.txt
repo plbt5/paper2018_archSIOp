@@ -1,0 +1,10 @@
+We summarise our position towards semantics in software from [@Brandt2021a]. Main points that serve as foundation for this paper are:
+
+* Data carry semantic meaning, i.e., the notion of something by referring to that something as it appears in reality of the DoA.
+* Data processing carries pragmatic meaning, i.e., data produced through a mathematical process, warranted by its premises (the semantic meaning). Pragmatic meaning is contextual, purposeful, and refers to SoA in the DoA.
+* The Domain Model (DM) is allocated to address the semantic concerns. To that end, it contains semantic and pragmatic meaning, and by doing so represents the agent’s (subjective) reflection of the SoAs that are relevant to it.
+* The System Model (SM) is allocated to address the concerns about fulfilling he agents purpose. It implements specific agent behaviour and contains agent internal system states. The SM has the potential to change SoAs.
+* The DM and the SM are disjoint, although the SM is semantically grounded in the DM.
+* Separate comprehensive behaviour from telic behaviour: comprehension leads to pragmatic meaning, telic behaviour leads to predefined, designed effects.
+
+

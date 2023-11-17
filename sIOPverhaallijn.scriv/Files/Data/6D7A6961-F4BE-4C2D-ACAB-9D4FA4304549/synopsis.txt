@@ -1,0 +1,10 @@
+The purpose of comprehension is to reconcile semantic differences, which remains a distinct concern. Its resolution will depend on the position that is taken on comprehension, and from our position its resolution requires human effort to understand and resolve the semantic differences between the interoperating agents. The architectural issue then becomes where to position the dependency on the human when considering \cref{cncrn:re-establish-coherence}, in order to minimise her effort. 
+
+
+\begin{mmconcern}[Human involvement concern]\label{cncrn:hic}
+Provided that the human capability to genuinely understand semantics is required to reconcile semantic differences in a heterogeneous semantic environment, what will be her responsibilities, how can the dependency on her become minimal, and what tools should be available to her support?
+\end{mmconcern}
+
+Applied DP:
+
+* DP10: Human efficiency principle

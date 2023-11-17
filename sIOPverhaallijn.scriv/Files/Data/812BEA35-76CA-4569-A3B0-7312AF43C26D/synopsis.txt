@@ -1,0 +1,12 @@
+
+\begin{mmconcern}[Semantic separation of concerns]\label{cncrn:ssoc}
+TBD
+\end{mmconcern}
+
+
+
+Applied DPs:
+
+* DP4: Semantic protocol principle
+* DP5: Separate data syntax from semantics syntax principle
+* DP6: Semantic modularity principle

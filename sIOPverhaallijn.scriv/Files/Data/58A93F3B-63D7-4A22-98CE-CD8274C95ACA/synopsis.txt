@@ -1,0 +1,15 @@
+In response to Maxim 1, the quantity maxim (“Make your contributions as informative as is required (for the current purpose of the exchange), and not more than is required”), transcription is a key process in establishing sIOP in heterogeneous environments. To assure that the DSP and DSC communicate as informative as is required, both must produce and consume data that comply to their own native conceptualisation and representation. Indeed, the DSP discloses with its semantic meaning only what it deems relevant and exactly as it fits in its own DM, \cref{quantity-maxim}. Receiving this from the DSP agent, it is quite incomprehensible for any DSC agent. To make the DSP’s contribution as informative as is required for the DSC, a transcription of semantic meaning is required.
+
+Furthermore, Maxim 4, the manner maxim, demands that the data exchange must avoid obscurity of expression, ambiguity. We introduce *phantom semantics* as transcription-induced statements (data) that the DSC agent will interpret to reflect state of affairs that are not intended by the DSP agent. Then, occurrence of phantom semantics should be considered a communication failure.
+
+Combining both maxims in this way, the following concern ensues:
+
+\begin{mmconcern}[Data transcription concern]\label{cncrn:dtc}
+    sIOP requires to transcribe the exchanged statements (data) between the native DMs of collaborating agents without introducing phantom semantics. 
+\end{mmconcern}
+
+Such transcription capability provides the operational capability to mediate all differences that occur in the conceptualisation and representation of semantic meaning that is carried by the data being exchanged between the DSP and the DSC. 
+
+Applied DP: 
+
+* DP12: Data transcription principle

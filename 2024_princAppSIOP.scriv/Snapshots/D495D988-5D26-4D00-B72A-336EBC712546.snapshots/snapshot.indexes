@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="D495D988-5D26-4D00-B72A-336EBC712546">
+    <Snapshot Date="2023-11-16 17:51:31 +0100">
+        <Title>Naar versie 2</Title>
+        <Text>~~~{=latex}
+\onecolumn
+~~~
+Throughout this document, the following Design Principles (DPs) have been defined, structured according to \cite{Greefhorst2011}, as follows. The *Type of Information* describes the subject of architectural information, classified by the four architecture domains from TOGAF: business, data, application and technology. The *Quality attributes* define the segments that value most from the architecture principle, and are classified as follows
+
+* **functionality**: a set of attributes that bear on the existence of a set of functions and their specified properties. The functions are those that satisfy stated or implied needs;
+* **reliability**: a set of attributes that bear on the capability of software to maintain its level of performance under stated conditions for a stated period of time;
+* **usability**: a set of attributes that bear on the effort needed for use, and on the individual assessment of such use, by a stated or implied set of users;
+* **efficiency**: a set of attributes that bear on the relationship between the level of performance of the software and the amount of resources used, under stated conditions;
+* **maintainability**: a set of attributes that bear on the effort needed to make specified modifications;
+* **portability**: a set of attributes that bear on the ability of software to be transferred from one environment to another.
+
+We sometimes specify Subcharacteristics, in parentheses, to these quality attributes to be more specific on the particular qualities involved.
+
+Since these DPs all apply in the context of sIOP, this is something to make explicit in each DP. This wouldn’t improve its readability, and we therefore assume each DP to start with the following sentence: "When it is reasonable to expect that the software agent will be engaged in collaboration or otherwise will interoperate with (an)other software agent(s), then …” 
+
+~~~{=latex}
+\input{./src/docs/TableDesignPrinciples.tex}
+\twocolumn
+~~~
+
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

@@ -1,0 +1,1 @@
+Align semantic meanings, not data schemata or data syntax. 

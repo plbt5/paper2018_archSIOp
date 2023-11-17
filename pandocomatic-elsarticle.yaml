@@ -65,11 +65,12 @@ templates:
                               # paper print.
 #-----------------------------------------------------------------------------
   version:
-    preprocessor:
-      add: preprocessors/preludeGitVersion.py
+    preprocessors: 
+      - preprocessors/preludeGitVersion.py
+
 #-----------------------------------------------------------------------------
   elsarticle:
-    extends: ['natbib-refs','version']
+    extends: [natbib-refs,version]
     pandoc:
       verbose: true
       from: markdown
@@ -93,6 +94,7 @@ templates:
 #      classoption: ['preprint','authoryear','3p']  # e.g., single column style.
 #      biboptions: [longnamesfirst,angle,semicolon] # Add extra options of natbib.sty
       colorlinks: true         # Deactivate this for paper print.
+      raw_attribute: true
 #      linestretch: '1.2'       # Line spacing options may conflict with the 
                                # elsarticle documentclass option
       lang: 'en-GB'

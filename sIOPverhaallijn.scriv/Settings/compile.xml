@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompileSettings>
+    <ProjectSettings>
+        <Content Scope="Included">
+            <Filter State="Off" Exclude="No" Type="Label">
+                <CollectionID>CBF6EFE4-A2E2-4853-BC1B-AAE2985957D6</CollectionID>
+                <Label>-1</Label>
+                <Status>-1</Status>
+            </Filter>
+        </Content>
+        <Options>
+            <RemoveComments>Yes</RemoveComments>
+            <RemoveAnnotations>Yes</RemoveAnnotations>
+            <ResampleImages DPI="72">No</ResampleImages>
+            <ConvertTablesAndListToMMD>Yes</ConvertTablesAndListToMMD>
+            <ConvertLinksToMMD>Yes</ConvertLinksToMMD>
+            <PDF>
+                <Cover Source="FrontMatter" Bleed="9.0" BleedUnits="pt"/>
+                <Compression Enabled="No">
+                    <ImageResolutionCompressionType>Set</ImageResolutionCompressionType>
+                    <ImageResolution>150</ImageResolution>
+                    <CompressionQuality>0.5</CompressionQuality>
+                </Compression>
+            </PDF>
+            <Scriptwriting>
+                <IncludeTitles>Yes</IncludeTitles>
+                <IncludeSynopses>Yes</IncludeSynopses>
+                <CommentsAsScriptNotes>Yes</CommentsAsScriptNotes>
+            </Scriptwriting>
+            <Ebook>
+                <StartAfterFrontMatter>Yes</StartAfterFrontMatter>
+                <Cover>
+                    <ImageDocument Source="FrontMatter"/>
+                    <Title>Cover</Title>
+                    <SVG Width="600" Height="800"><![CDATA[]]></SVG>
+                </Cover>
+                <TOC PandocDepth="3">
+                    <HTML Generate="Yes">
+                        <Title>Contents</Title>
+                    </HTML>
+                </TOC>
+            </Ebook>
+        </Options>
+        <MetaData>
+            <ProjectTitle>understanding precedes use: Consolidating semantic interoperability in software architectures</ProjectTitle>
+            <ProjectAbbreviatedTitle>sIOP verhaallijn</ProjectAbbreviatedTitle>
+            <Authors>
+                <Author FileAs="Brandt, Paul" Role="aut">Paul Brandt</Author>
+            </Authors>
+            <Surname>Brandt</Surname>
+            <Forename>Paul</Forename>
+            <EbookLanguage>en</EbookLanguage>
+            <FountainTitlePageMetaData>
+                <Value Key="Title"><![CDATA[<$projecttitle>]]></Value>
+                <Value Key="Author"><![CDATA[<$author>]]></Value>
+            </FountainTitlePageMetaData>
+        </MetaData>
+    </ProjectSettings>
+    <CurrentFileType>mmd</CurrentFileType>
+    <FormatSettings>
+        <Format ID="full-outline">
+            <SectionLayouts>
+                <Type ID="4BBCA848-8FC9-4FB2-A7B6-8A048C492F15">AS-IS</Type>
+                <Type ID="98481779-C81C-4021-ACD9-176ABEE5CACC">AS-IS</Type>
+                <Type ID="D10C30B2-308C-48D1-87A4-ABEABECCF2F7">FA09F665-61A6-4552-8839-5913F35A18BF</Type>
+            </SectionLayouts>
+        </Format>
+        <Format ID="manuscript-times">
+            <SectionLayouts>
+                <Type ID="4BBCA848-8FC9-4FB2-A7B6-8A048C492F15">AS-IS</Type>
+                <Type ID="98481779-C81C-4021-ACD9-176ABEE5CACC">AS-IS</Type>
+                <Type ID="D10C30B2-308C-48D1-87A4-ABEABECCF2F7">D1848966-5D15-4080-B5FA-EDC5063123B0</Type>
+            </SectionLayouts>
+        </Format>
+        <Format ID="CA17E9F5-B7AC-414C-BF3B-40BAE32EBEEC">
+            <SectionLayouts>
+                <Type ID="4BBCA848-8FC9-4FB2-A7B6-8A048C492F15">AS-IS</Type>
+                <Type ID="98481779-C81C-4021-ACD9-176ABEE5CACC">AS-IS</Type>
+                <Type ID="D10C30B2-308C-48D1-87A4-ABEABECCF2F7">TEXT-SECTION</Type>
+            </SectionLayouts>
+        </Format>
+        <Format ID="DEFAULT">
+            <SectionLayouts>
+                <Type ID="4BBCA848-8FC9-4FB2-A7B6-8A048C492F15">NEW-PAGE-HEADER-WITH-TEXT</Type>
+                <Type ID="D10C30B2-308C-48D1-87A4-ABEABECCF2F7">TEXT-SECTION</Type>
+            </SectionLayouts>
+        </Format>
+        <Format ID="C3EB2D83-EB2E-4450-AE90-4A959E935856">
+            <SectionLayouts>
+                <Type ID="4BBCA848-8FC9-4FB2-A7B6-8A048C492F15">AS-IS</Type>
+                <Type ID="98481779-C81C-4021-ACD9-176ABEE5CACC">AS-IS</Type>
+                <Type ID="D10C30B2-308C-48D1-87A4-ABEABECCF2F7">4E86154E-A6F8-42A3-A111-3F7BC22D59A1</Type>
+            </SectionLayouts>
+            <FrontAndBackMatter>
+                <DefaultFrontMatter Add="Yes">BF06D8C4-36CC-4552-A70B-4D1C7BD3BFA3</DefaultFrontMatter>
+            </FrontAndBackMatter>
+        </Format>
+        <Format ID="enumerated-outline">
+            <SectionLayouts>
+                <Type ID="4BBCA848-8FC9-4FB2-A7B6-8A048C492F15">AS-IS</Type>
+                <Type ID="98481779-C81C-4021-ACD9-176ABEE5CACC">AS-IS</Type>
+                <Type ID="D10C30B2-308C-48D1-87A4-ABEABECCF2F7">FA09F665-61A6-4552-8839-5913F35A18BF</Type>
+            </SectionLayouts>
+        </Format>
+        <Format ID="D8A49DAB-1B50-4ADC-AE1F-DAC4D06113D1">
+            <SectionLayouts>
+                <Type ID="4BBCA848-8FC9-4FB2-A7B6-8A048C492F15">AS-IS</Type>
+                <Type ID="98481779-C81C-4021-ACD9-176ABEE5CACC">AS-IS</Type>
+                <Type ID="D10C30B2-308C-48D1-87A4-ABEABECCF2F7">FA09F665-61A6-4552-8839-5913F35A18BF</Type>
+            </SectionLayouts>
+        </Format>
+    </FormatSettings>
+    <LastUsedFormats>
+        <Print>enumerated-outline</Print>
+        <mmd-latex>C3EB2D83-EB2E-4450-AE90-4A959E935856</mmd-latex>
+        <mmd>C3EB2D83-EB2E-4450-AE90-4A959E935856</mmd>
+        <pdf>CA17E9F5-B7AC-414C-BF3B-40BAE32EBEEC</pdf>
+    </LastUsedFormats>
+</CompileSettings>

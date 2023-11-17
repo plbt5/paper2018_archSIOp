@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>sIOP core - alternative</title>
+    <dateCreated>2023-04-06 17:02:08 +0200</dateCreated>
+  </head>
+  <body>
+    <outline text="Shape">
+      <outline text="DP: Separate comprehension and telic behaviour"/>
+      <outline text="Concern 2: Cooperative concern"/>
+      <outline text="Semantic concerns"/>
+      <outline text="DP: Separate DM from SM"/>
+      <outline text="2.1 Semantics in software"/>
+      <outline text="Shape 1">
+        <outline text="Concern 1: Semantic heterogeneity"/>
+        <outline text="DP1:shp Semantic Heterogeneity Principle"/>
+      </outline>
+      <outline text="S1"/>
+      <outline text="Shape 2">
+        <outline text="Quantity maxim concern"/>
+        <outline text="DP2:srp Semantic responsibility principle"/>
+        <outline text="Manner maxim concern"/>
+        <outline text="DP3:mfapp Minimise FAP principle"/>
+        <outline text="Quality maxim concern"/>
+        <outline text="Relation maxim concern"/>
+        <outline text="DP4:spp Semantic protocol principle"/>
+      </outline>
+      <outline text="S2"/>
+      <outline text="Shape 3">
+        <outline text="DP10:ap Alignment principle"/>
+        <outline text="Concern 3: Semantic coherence"/>
+        <outline text="DP11:crp Correspondence relation principle"/>
+      </outline>
+      <outline text="Reconciliation concerns"/>
+      <outline text="R2"/>
+      <outline text="R3"/>
+      <outline text="Shape 4">
+        <outline text="Human involvement concern"/>
+        <outline text="DP12:hep Human efficiency principle"/>
+      </outline>
+      <outline text="R4"/>
+      <outline text="Shape 5">
+        <outline text="DP13:bcpp Business conversation protocol principle"/>
+        <outline text="Business coordination concern"/>
+      </outline>
+      <outline text="Mediation concerns"/>
+      <outline text="M1"/>
+      <outline text="Shape 6">
+        <outline text="DP14:smp Semantic mediation principle"/>
+        <outline text="Interaction coordination concern"/>
+      </outline>
+    </outline>
+    <outline text="sIOP concern"/>
+    <outline text="Shape 7">
+      <outline text="Legenda"/>
+      <outline text="Benoemde concern"/>
+      <outline text="Concern #: beschrijving"/>
+      <outline text="Concern afgeleid uit tekst"/>
+      <outline text="Beschrijving van concern"/>
+      <outline text="DP nog te beschrijven"/>
+      <outline text="DP: naam principe"/>
+      <outline text="diepste sectie waaruit DPs zijn afgeleid"/>
+      <outline text="#.# sectienaam"/>
+      <outline text="DP uit paper 1"/>
+      <outline text="DP: naam"/>
+      <outline text="C"/>
+      <outline text="DP"/>
+      <outline text="DP draagt bij aan Concern"/>
+      <outline text="C"/>
+      <outline text="SC"/>
+      <outline text="Subconcern volgt uit concern"/>
+      <outline text="S2"/>
+      <outline text="Nieuwe nummering Concerns"/>
+    </outline>
+    <outline text="Shape 8">
+      <outline text="Shape 9">
+        <outline text="??"/>
+        <outline text="DP X:ssp Semantic scalability principle"/>
+      </outline>
+      <outline text="Concern 4: Semantic scalability"/>
+      <outline text="Loosely coupled semantic"/>
+      <outline text="Sc1"/>
+      <outline text="Shape 10">
+        <outline text="DP7:stp Semantic transparent API principle"/>
+        <outline text="Semantic transparency concern"/>
+        <outline text="DP9:rtp Representational transparency principle"/>
+        <outline text="DP8:ctp Conceptualisational transparency principle"/>
+      </outline>
+      <outline text="Sc1"/>
+      <outline text="Shape 11">
+        <outline text="DP5:sds-ss Separate data syntax from semantics syntax principle"/>
+        <outline text="Semantic separation of concerns"/>
+        <outline text="DP6:smp Semantic modularity principle"/>
+      </outline>
+    </outline>
+  </body>
+</opml>

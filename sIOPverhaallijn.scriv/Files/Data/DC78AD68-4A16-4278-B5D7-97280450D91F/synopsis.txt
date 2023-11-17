@@ -1,0 +1,34 @@
+In our sIOP interpretation of Maxim 3 (Relation), it demands that agents need to communicate purposefully, relevant to the actual situation.
+
+We distinguish at least different levels in agent comprehension:
+
+* Comprehension about the communication protocols in order to engage in data exchange;
+* Comprehension about the semantic protocols in order to engage in exchanging semantic meaning;
+* Comprehension about the business collaboration in order to enable agent coordination towards the shared objective.
+
+Apart from these levels in comprehension, two main distinctions in the domain of discourse exist:
+
+* Discourse in terms of the core of the domain, viz the SoAs that apply in the DoA;
+* Discourse *about* the DoA, viz the meta-domain:
+    * provenance of the domain things, e.g., when and where did it originate, why was it registered (privacy regulations such as GDPR, CCPA) and when and by whom was it modified / addressed;
+    * reliability of the statements made about the domain;
+    * authorisation about the SoA that apply, i.e., who what authorised to access what SoA, by whom and on the bases of what criteria;
+    * administration involved with the domain, e.g., required certificates or regulatory demands;
+    * and many more
+ 
+From an agent communication perspective, these meta-domains can be considered domains of their own since the discourse will address a particular meta-domain purpose to achieve. In such discourse, SoAs that apply in the core domain are simple facts that are plugged as object clause into the meta-domain discourse. These meta-domains require vocabularies of their own which can be defined, or have been already; PROV-O being an perfect example. This requires agents to ask or answer questions about the purpose of the interaction with any other agent. 
+
+\begin{mmconcern}[Conversation purpose concern]\label{cncrn:rmc}
+An agent needs to have the capability to engage in a meta-conversation -with one or more collaborating agents- with the single purpose to establish agreement on what to achieve with the conversation that they engage in. This capability can be considered a very fundamental capability when we consider the many different situations a group of agents can encounter, each requiring their own capabilities.
+\end{mmconcern}
+
+Applied DPs:
+
+* DP X: Pragmatic protocol principle
+
+So what? Based on this capability, any agent can engage in a conversation -on behalf of a stakeholder- with any other agent and:
+
+* requests to engage in a conversation to establish a particular purpose;
+* establish what it takes to establish that purpose
+* achieve that purpose, providing the conditions are satisfied
+

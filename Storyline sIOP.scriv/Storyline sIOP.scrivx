@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrivenerProject Identifier="0714E5E3-3155-48DE-9FC5-B9F13610459F" Version="2.0" Creator="SCRMAC-3.3.6-16305" Device="Pauls-MacBook-Pro" Author="Paul Brandt" Modified="2023-11-02 14:43:01 +0100" ModID="2EAA01AF-1A7A-41AF-A249-3464D768AE9A">
+    <Binder>
+        <BinderItem UUID="0C30F64E-88F5-44FC-9892-ABE4A9B94700" Type="Text" Created="2018-08-24 14:06:28 +0200" Modified="2018-08-24 14:06:28 +0200">
+            <Title>MMD cheat sheet</Title>
+            <MetaData>
+                <FileExtension>rtf</FileExtension>
+            </MetaData>
+            <TextSettings>
+                <TextSelection>0,0</TextSelection>
+            </TextSettings>
+            <Bookmarks>
+                <Bookmark Destination="http://johnmacfarlane.net/pandoc/README.html">Pandoc user guide, by John Macfarlane</Bookmark>
+            </Bookmarks>
+            <Children>
+                <BinderItem UUID="E9DD3318-EA3A-460C-9060-7B3A40854D06" Type="Text" Created="2018-08-24 14:06:28 +0200" Modified="2018-08-24 14:06:28 +0200">
+                    <Title>Text and Formats</Title>
+                    <MetaData>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Bookmarks>
+                        <Bookmark Destination="http://johnmacfarlane.net/pandoc/README.html">Pandoc user guide, by John Macfarlane</Bookmark>
+                    </Bookmarks>
+                </BinderItem>
+                <BinderItem UUID="C6841A67-1F7B-4545-9292-F01687042F1D" Type="Text" Created="2018-08-24 14:06:28 +0200" Modified="2018-08-24 14:06:28 +0200">
+                    <Title>Proprietary encodings</Title>
+                    <MetaData>
+                        <LabelID>2</LabelID>
+                        <StatusID>5</StatusID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="3825749D-E67B-43C4-96BB-F2E9907C57D4" Type="Text" Created="2018-08-24 14:06:28 +0200" Modified="2018-08-24 14:06:28 +0200">
+                    <Title>Authors</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="159B07BF-4484-41C3-825F-B2B6FAF8E127" Type="Text" Created="2018-08-24 14:06:28 +0200" Modified="2018-08-24 14:06:28 +0200">
+                    <Title>Footnotes, Images and Links</Title>
+                    <MetaData>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Bookmarks>
+                        <Bookmark Destination="http://johnmacfarlane.net/pandoc/README.html">Pandoc user guide, by John Macfarlane</Bookmark>
+                    </Bookmarks>
+                </BinderItem>
+                <BinderItem UUID="B9D6A470-A822-407C-A335-62BCE8FC1C62" Type="Text" Created="2018-08-24 14:06:28 +0200" Modified="2018-08-24 14:06:28 +0200">
+                    <Title>References</Title>
+                    <MetaData>
+                        <StatusID>6</StatusID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="6BEDB7B9-2E07-4C50-BB18-2DBC1E77A7CB" Type="Text" Created="2018-08-24 14:06:28 +0200" Modified="2018-08-24 14:06:28 +0200">
+                    <Title>Bullits and numbered lists</Title>
+                    <MetaData>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="90FD39B5-03FB-46AB-A5E7-AF025E630815" Type="Text" Created="2018-08-24 14:06:28 +0200" Modified="2018-08-24 14:06:28 +0200">
+                    <Title>Tables</Title>
+                    <MetaData>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="7CA2A43F-57EB-4B38-AC2C-846413251182" Type="Text" Created="2018-08-24 14:06:28 +0200" Modified="2018-08-24 14:06:28 +0200">
+                    <Title>Glossary</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="6D570C0D-8205-43D5-9806-73CC23CFB2FE" Type="Text" Created="2018-08-24 14:06:28 +0200" Modified="2018-08-24 14:06:28 +0200">
+                    <Title>Math</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="0209C32C-118E-4B16-9296-8E253973878E" Type="Text" Created="2018-08-24 14:06:28 +0200" Modified="2020-01-03 15:06:14 +0100">
+                    <Title>Definitions, proofs etc</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>1193,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="FA9D223B-5C12-46C7-B55E-022809D437A8" Type="Text" Created="2018-08-24 14:06:28 +0200" Modified="2018-08-24 14:06:28 +0200">
+                    <Title>Proper English </Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem UUID="29534B99-B735-4071-AF20-9F2800105D39" Type="Text" Created="2018-08-24 14:06:28 +0200" Modified="2018-08-24 14:06:28 +0200">
+                            <Title>-ise/ -ize</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="E3FC365D-19AD-495A-961C-AD56C3A3A3E3" Type="Text" Created="2018-08-24 14:06:28 +0200" Modified="2018-08-24 14:06:28 +0200">
+                            <Title>That versus which</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="22047559-0BF5-4E8E-8654-63BB37D3FE30" Type="Text" Created="2018-08-24 14:06:28 +0200" Modified="2018-08-24 14:06:28 +0200">
+                            <Title>Plural versus possessive -s</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem UUID="C11ADF7C-2255-4971-9724-307657D21E35" Type="DraftFolder" Created="2012-04-24 04:00:00 +0200" Modified="2012-04-24 04:00:00 +0200">
+            <Title>Draft</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem UUID="FDE3A400-F9AC-4C43-9E25-1275886F76DE" Type="Text" Created="2016-12-28 13:11:59 +0100" Modified="2020-01-07 16:14:45 +0100">
+                    <Title>meta-data</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                        <IconFileName>Information</IconFileName>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>952,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="8100C839-F6CC-4134-B106-FC4933ECA6B9" Type="Text" Created="2018-05-20 12:15:52 +0200" Modified="2020-01-03 15:32:35 +0100">
+                    <Title>Readme</Title>
+                    <MetaData>
+                        <LabelID>3</LabelID>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>1983,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem UUID="9650002A-946F-48F3-B6F1-06C09F0A69A4" Type="Text" Created="2020-01-03 15:32:15 +0100" Modified="2020-01-03 16:05:03 +0100">
+                            <Title>About this Scrivener template</Title>
+                            <MetaData>
+                                <LabelID>3</LabelID>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>285,13</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem UUID="D087A801-6A88-4FF8-BBCD-494DC170BD00" Type="Text" Created="2018-05-20 12:08:38 +0200" Modified="2023-08-17 14:25:55 +0200">
+                    <Title>Abstract</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="D1B1F11F-646F-4B47-9C11-9FEFCBFD8870" Type="Text" Created="2016-12-28 13:23:05 +0100" Modified="2020-01-03 15:18:15 +0100">
+                    <Title>Introduction</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>310,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="161E2B1C-F684-40B0-819D-5FE0BB359D3D" Type="Text" Created="2018-05-20 13:00:45 +0200" Modified="2020-01-03 15:18:21 +0100">
+                    <Title>The Problem</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="DA969D78-5F74-46A0-BC4D-8BBBD8C70545" Type="Text" Created="2018-05-20 13:00:56 +0200" Modified="2020-01-03 15:18:25 +0100">
+                    <Title>My Idea</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="975664EC-E100-4EC0-9A10-E052000D5627" Type="Text" Created="2018-05-20 13:01:07 +0200" Modified="2020-01-03 15:18:30 +0100">
+                    <Title>The Bloody Details</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="9CFDCFBB-FB19-48EC-9041-030F78C4777F" Type="Text" Created="2018-05-20 13:01:22 +0200" Modified="2020-01-03 15:18:35 +0100">
+                    <Title>Related work</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="48647913-E0F1-40CC-9795-475602FBD965" Type="Text" Created="2018-05-20 13:01:41 +0200" Modified="2020-01-03 15:18:40 +0100">
+                    <Title>Conclusions and further work</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem UUID="09546122-A915-49B3-A4AE-6556D5EA8A64" Type="ResearchFolder" Created="2012-04-24 04:00:00 +0200" Modified="2012-04-24 04:00:00 +0200">
+            <Title>Research</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+        </BinderItem>
+        <BinderItem UUID="31662F3F-4DCE-4662-B056-5739DC3474FA" Type="Folder" Created="2022-04-14 16:17:25 +0200" Modified="2022-04-14 16:17:25 +0200">
+            <Title>Project Notes</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <TextSettings>
+                <TextSelection>0,0</TextSelection>
+            </TextSettings>
+            <Children>
+                <BinderItem UUID="3D412E17-C217-4210-BE3E-664826B750A7" Type="Text" Created="2022-04-14 16:17:25 +0200" Modified="2022-04-14 16:17:25 +0200">
+                    <Title>General</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem UUID="EAFA8C6C-65B5-46A4-B4D4-FD17287AC039" Type="TrashFolder" Created="2012-04-24 04:00:00 +0200" Modified="2012-04-24 04:00:00 +0200">
+            <Title>Trash</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+        </BinderItem>
+        <BinderItem UUID="7ECBF720-4C32-4CD8-96B2-ED3258C2847F" Type="Folder" Created="2022-04-14 16:17:28 +0200" Modified="2022-04-14 16:17:28 +0200">
+            <Title>Recovered Files (14 Apr 2022 at 16:17)</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+                <IconFileName>Warning</IconFileName>
+            </MetaData>
+            <TextSettings>
+                <TextSelection>0,0</TextSelection>
+            </TextSettings>
+            <Children>
+                <BinderItem UUID="88C41F19-E028-47B8-A769-91B0BFADCCFB" Type="Other" Created="2022-04-14 16:17:28 +0200" Modified="2022-04-14 16:17:28 +0200">
+                    <Title>3.rtf</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>orig</FileExtension>
+                    </MetaData>
+                </BinderItem>
+                <BinderItem UUID="F387EC03-7A2F-49B1-97E1-6C6B6153A2F9" Type="Other" Created="2022-04-14 16:17:28 +0200" Modified="2022-04-14 16:17:28 +0200">
+                    <Title>53_synopsis</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>txt</FileExtension>
+                    </MetaData>
+                </BinderItem>
+                <BinderItem UUID="541201A4-AF67-4B4E-8263-FCC57AA70268" Type="Other" Created="2022-04-14 16:17:28 +0200" Modified="2022-04-14 16:17:28 +0200">
+                    <Title>docs.checksum</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>orig</FileExtension>
+                    </MetaData>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+    </Binder>
+    <Collections>
+        <Collection Type="Binder" ID="CAFEBABE-0000-0000-0000-000000000000" Color="0.17693 0.154573 0.133367">
+            <Title>Binder</Title>
+        </Collection>
+        <Collection Type="RecentSearch" ID="DEADBEEF-0000-0000-0000-000000000000" Color="0.17693 0.175159 0.133367">
+            <Title>Search Results</Title>
+            <SearchSettings Operator="Exact" Type="All" CaseSensitive="No" IgnoreDiacritics="No">?</SearchSettings>
+        </Collection>
+    </Collections>
+    <SectionTypes>
+        <TypeDefinitions>
+            <Type ID="345A2E93-897B-4294-9D9C-1B5047EFDE89">Heading</Type>
+            <Type ID="C6337DC1-5CA3-466A-9C13-C5E2AEE69B89">Sub-Heading</Type>
+            <Type ID="062BD645-42A4-4B60-93A6-C257397B73DF">Section</Type>
+        </TypeDefinitions>
+        <LevelTypes>
+            <Folders>
+                <Type>345A2E93-897B-4294-9D9C-1B5047EFDE89</Type>
+            </Folders>
+            <Containers>
+                <Type>062BD645-42A4-4B60-93A6-C257397B73DF</Type>
+            </Containers>
+            <Files>
+                <Type>062BD645-42A4-4B60-93A6-C257397B73DF</Type>
+            </Files>
+        </LevelTypes>
+    </SectionTypes>
+    <LabelSettings>
+        <Title>Label</Title>
+        <DefaultLabelID>-1</DefaultLabelID>
+        <Labels>
+            <Label ID="-1">No Label</Label>
+            <Label ID="0" Color="0.0 0.666667 0.0">Concept</Label>
+            <Label ID="1" Color="0.988235 0.87451 0.85098">Chapter</Label>
+            <Label ID="2" Color="1.0 0.0 0.0">Initial thoughts</Label>
+            <Label ID="3" Color="0.854902 0.870588 0.886275">Writing instructions</Label>
+        </Labels>
+    </LabelSettings>
+    <StatusSettings>
+        <Title>Status</Title>
+        <DefaultStatusID>-1</DefaultStatusID>
+        <StatusItems>
+            <Status ID="-1">No Status</Status>
+            <Status ID="0">To Do</Status>
+            <Status ID="1">First Draft</Status>
+            <Status ID="2">Revised Draft</Status>
+            <Status ID="3">Final Draft</Status>
+            <Status ID="4">Done</Status>
+            <Status ID="5">Under construction</Status>
+            <Status ID="6">Pending edits</Status>
+        </StatusItems>
+    </StatusSettings>
+    <ProjectBookmarks>
+        <Bookmark BinderUUID="3D412E17-C217-4210-BE3E-664826B750A7"/>
+    </ProjectBookmarks>
+    <ProjectTargets Notify="No">
+        <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-04-24 02:00:00 +0200" IgnoreDeadline="Yes">0</DraftTarget>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2023-11-03 00:00:00 +0100" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="0" Characters="0" Date="2023-11-02 14:42:55 +0100"/>
+    </ProjectTargets>
+    <RecentWritingHistory Date="2023-11-02 00:00:00 +0100">
+        <DraftWordCount>0</DraftWordCount>
+        <DraftCharCount>0</DraftCharCount>
+        <OtherWordCount>0</OtherWordCount>
+        <OtherCharCount>0</OtherCharCount>
+    </RecentWritingHistory>
+    <BookmarksFolderUUID>31662F3F-4DCE-4662-B056-5739DC3474FA</BookmarksFolderUUID>
+    <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0001" RightMargin="72.0001" TopMargin="90.0002" BottomMargin="90.0002" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="No" ReverseOrder="No" PagesAcross="1" PagesDown="1"/>
+</ScrivenerProject>

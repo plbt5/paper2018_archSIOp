@@ -1,0 +1,15 @@
+A business collaboration between agents can become quite complex in terms of interactions that are required to achieve the shared business objective. It surfaces the equal demand from each agent to manage and control a multitude of semantic interactions in order to play its own part in all collaborations that it is engaged in. 
+
+Individual agents don’t have a need to be intimately aware of each other; it is sufficient for the agents to deliver what is requested and to receive what they require. Controlling and coordinating the data streams depends on the conversation that applies, and although that conversation must be coordinated and managed, there is no reason for agents to take upon them that responsibility. They *do* have responsibility on behalf of their own, local pragmatic meaning; when they are in need of additional SoA’s in order to comprehend received data, to finalise a conversation or to achieve their own objective, they have the responsibility to address that demand, using either local or remote knowledge.
+
+\begin{mmconcern}[Interaction coordination concern]\label{cncrn:icc}
+To manage this complexity, it must be resolved in a way that administers justice to the shared and the individual responsibilities and to support to the changes that will occur in a dynamic business environment. The concern refers to coordinating the flow of interactions, i.e., data exchange, between collaborating agents that occur during their business conversations. 
+\end{mmconcern}
+
+We consider this concern related to but different from \cref{cncrn:scalability}, as it surfaces the complexity of the business collaboration process as another scalability dimension. 
+
+The issue at hand is to untwine the responsibilities between those that can and can not be delegated to other agents or infrastructural service providers. And although its primary focus is on responsibilities in relation to business collaboration and their conversations, it is also relevant for responsibilities that come into play during the entrance of new agents and exit of existing agents. Clearly, the latter is driven by the scalability concern, and we will address those responsibilities in \cref{concern-sc1-emantic-scalability-concern}.
+
+Applied DP:
+
+* DP13:Interaction coordination principle

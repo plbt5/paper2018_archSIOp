@@ -1,0 +1,1 @@
+When it is reasonable to expect that the domain model (DM) of the agent will grow throughout its lifetime, the DM should allow for modularisation methods that simplify and downsize the DM into manageable parts.

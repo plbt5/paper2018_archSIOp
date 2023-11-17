@@ -40,7 +40,7 @@
             </Ebook>
         </Options>
         <MetaData>
-            <ProjectTitle>Consolidating semantic interoperability in contemporary software architectural paradigms</ProjectTitle>
+            <ProjectTitle>A principled approach to dynamic and scalable semantic interoperability in heterogeneous environments</ProjectTitle>
             <ProjectAbbreviatedTitle>2021_archSIOp</ProjectAbbreviatedTitle>
             <Authors>
                 <Author FileAs="Brandt, Paul" Role="aut">Paul Brandt</Author>
@@ -95,6 +95,6 @@
     <LastUsedFormats>
         <Print>27039EE2-F070-47AA-B0E9-7AB97724E7FC</Print>
         <mmd-latex>27039EE2-F070-47AA-B0E9-7AB97724E7FC</mmd-latex>
-        <mmd>9345FDB4-149F-498E-B3C7-55093DD8D490</mmd>
+        <mmd>DEFAULT</mmd>
     </LastUsedFormats>
 </CompileSettings>

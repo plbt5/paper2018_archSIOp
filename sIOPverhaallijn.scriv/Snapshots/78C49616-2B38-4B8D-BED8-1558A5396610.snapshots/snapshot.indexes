@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="78C49616-2B38-4B8D-BED8-1558A5396610">
+    <Snapshot Date="2023-06-01 16:17:51 +0200">
+        <Title>Removing the Text parts, Synopsis only</Title>
+        <Text>Maxim 4, the manner maxim, calls for an explicit specification on how the conceptualisation of the DoA is being represented by the data. “How can we understand each other(’s data)?” In an environment where semantic heterogeneity applies, no agreements exist on how the things in the domain are referred to. Consequently, these agreements must be established at runtime. This implies the agents to possess the capability to establish such an agreement. 
+
+&lt;!-- Set main concern counter to (R)econciliation --&gt; 
+\renewtheorem{mmconcern}[snc]{Concern}
+\setcounter{mccntr}{18}\setcounter{snc}{0}
+
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

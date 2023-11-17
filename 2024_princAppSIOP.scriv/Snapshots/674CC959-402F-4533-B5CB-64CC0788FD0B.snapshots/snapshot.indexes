@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="674CC959-402F-4533-B5CB-64CC0788FD0B">
+    <Snapshot Date="2023-11-16 17:51:31 +0100">
+        <Title>Naar versie 2</Title>
+        <Text>In [@Haller2005], the authors already identified the need to accept semantic heterogeneity and the need for a generic data mediator to overcome semantic differences, thereby following \cref{loosely-coupled-semantics}. Despite these similarities, we consider two main differences with our approach. Firstly, the goals of WSMO are of another, broader, dimension than our goal to consolidate semantic interoperability and for which we have introduced details that are out of scope of WSMO. Secondly,
+
+In [@Horsch2020] their particular approach is a centralised one that does not scale well in large distributed environments due to its dependency on one single ontological commitment. Moreover, the top-level ontology, here EMMO, necessarily conflates its function as ontological commitment with a function to construct alignments from. Although this is of great help to resolving the (automated) ontology matching problem, it creates a semantic monolith that extends to all communicating peers which, as we have seen in \cref{introduction}, impedes not only access-and-play sIOP but semantic scalability, evolvability, maintainability and other qualities as well.</Text>
+    </Snapshot>
+</SnapshotIndexes>

@@ -4,7 +4,7 @@ LATEX_FILES = $(PROJ).aux $(PROJ).bbl $(PROJ).blg $(PROJ).fdb_latexmk $(PROJ).fl
 
 $(PROJ).pdf: results/$(PROJ).tex src/docs/$(PROJ).md
 	rm -f ./$(BUILD_DIR)/$(PROJ).pdf
-	latexmk -logfilewarnings -interaction=nonstopmode -auxdir=$(BUILD_DIR) -outdir=$(BUILD_DIR) -pv -time -xelatex -f results/$(PROJ).tex
+	latexmk -logfilewarnings -interaction=nonstopmode -auxdir=$(BUILD_DIR) -outdir=$(BUILD_DIR) -pv -time -xelatex -f ./results/$(PROJ).tex
 
 results/$(PROJ).tex: src/docs/$(PROJ).md 
 	rm -f results/$(PROJ).tex

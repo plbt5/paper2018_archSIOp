@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="1559D0BA-72BA-48C0-96F0-6DEFFBE365E3">
+    <Snapshot Date="2023-11-16 17:51:30 +0100">
+        <Title>Naar versie 2</Title>
+        <Text>We take the open world assumption that whenever a software agent is being developed, it must be allowed to develop its own application semantics from its own perspective on reality applying its own, native vocabulary. Semantic heterogeneity, then, refers to variations that exist between multiple stakeholders in how they carve out reality into one’s DoA, and how they represent their SoA in accordance to their conceptualisation of the DoA. In short, differences in conceptualisation and data representation inevitably emerge when modelling the same domain of application [@Hull1997]. In order to accomplish sIOP, semantic heterogeneity must be accounted for between the collaborating agents. “The successful standardisation of protocols made us believe that we should also standardise meaning on the Web. This is a fundamental misconception.” [@Janowicz:2013ui]. Indeed, standardising semantic representations is a widely adopted means towards sIOP, witnessed by the many initiatives taken by standards developing organisations (SDOs), from e.g., Tradelens in the Transport &amp; Logistics domain and International Financial Reporting Standards in Finance &amp; Accounting to, e.g., ICEN/EN 13606, SO/TC 215, and ISO/HL7 21731 in the Health domain or the smartM2M standard by the IoT European Platform Initiative [@ETSI2019], to name a few. These standards enforce semantic homogeneity by allowing one single, agreed convention on how the syntactic representation and structure of the data or messages shall be semantically interpreted. Indeed, such standards are a particular representation of a particular conceptualisation of some part of the world, viewed from a particular perspective of use and therefore get the predicate “semantic standard”. However, we don’t acknowledge that the particular representation of the particular conceptualisation about a particular perspective on reality that the data standard enforces, represents semantics that are universally shared by its users, let alone by their applications and databases. Any particular perspective is just one out of many distinct but equally legitimate ones that our software are deemed to consider over the software’s life cycle. Some examples are given in \cref{tab:perspectives}.
+
+-------------------------------------------------------------------------------------------------------------------
+Reality to refer to          Perspective #1      Perspective #2       Perspective #3        ...  Perspective #n              
+---------------------------- ------------------- -------------------- -------------------- ----- ------------------
+Waves are                    *objects* that      *forces* exerted on  an *accumulation* of  ...  a *relation*      
+                             I can point at      dikes, walls or      other waves                between water, 
+                                                 oil rigs                                        current, wind and
+                                                                                                 the seabed
+
+$\;$
+
+How many terrorist attacks   1, the number       2, one on the Twin   4, the number         ...  2996, the
+can be counted on 9/11?      of involved         Towers and one on    of involved                number of
+[@Boyle2002]                 terrorist groups    the Pentagon         aircraft                   casualties[^1] 
+
+-------------------------------------------------------------------------------------------------------------------
+
+   : Semantics follow many alternative but equally legitimate points of view on reality, implying that no single one true abstraction exists. Semantic heterogeneity is a fact of life, and carry features such as semantic accuracy and variability that are necessary to faithfully refer to reality. \label{tab:perspectives}
+
+Enforcing semantic homogeneity indeed has been very successful in relation to the ICT community itself. In fact, the existence of physical, electrical and other engineering form factors makes technology successful, and drives innovation. This is witnessed by the great pace in technological evolution over the last centuries. Key to this success is the fact that technological standards prescribe form factors about artificial artefacts that belong to, are produced by and are under control of the technological domain itself. SDOs that go about ICT produce standards with the intent to prescribe a single interpretation only, because there is one single truth that should be met in order for the technological artefact, e.g., a protocol, to succeed. This is very different from domains that the SDOs have little to no control over, because multiple perspectives exist that cannot be reduced to a single one. Consequently, multiple domain models will always co-exist [@Lee2019]. These DoAs are the environments in which the majority of the software agents collaborate. Striving for semantic homogeneity under these circumstances brings about several important disadvantages[@Renner1996]: (i) implementation of semantic standards involves considerable expenses, and tends to solidify in software by implicit operations on data that are expensive to change, slowly setting the standard in stone; (ii) since semantic standards fix representation, semantics become conflated with syntax, enforcing modifications to syntax and/or structure and their data processing components when semantic variations occur as a result of, e.g., new stakeholders, other contexts that should be incorporated, or semantic drift; (iii) vice versa, conflating syntax with semantics creates dependencies of the semantic standard on the architectural paradigm, its particular implementation or applied technology. These three issues (iv) bring about a high impedance for the standard to change and to evolve; and (v) they create a significant barrier for new business opportunities, obstructing business agility, and (vi) disabling a level playing field for newcomers that have to invest hugely to adopt the standard and reap its benefits. Essentially, adoption, governance and scalablity of such semantic standards other than in rather local and very scoped environments are difficult, costly, and ill-matched with business timing. Even in the highly protocolised health domain that already addressed semantics in 1987 [@Spronk2014], adoption of standards remains slow and cumbersome [REF]. These issues only worsen when extending sIOP to support inter-domain interoperability. 
+
+This gives rise to the first (semantic) concern on sIOP:
+
+\begin{mmconcern}[Semantic heterogeneity]\label{cncrn:semantic-heterogeneity}
+  Semantic heterogeneity naturally exists in domains and is in the interest of the individual stakeholders to faithfully and accurately represent the SoA in their software agents. In order to achieve sIOP between collaborating software agents, semantic heterogeneity must be accounted for. Establishing sIOP by enforcing semantic homogeneity, i.e., as semantic standard, induces high impedance for change, adoption and business agility for each individual stakeholder. This brings about a conflict of interest for the business/IT alignment.
+\end{mmconcern}
+
+This concern immediately leads to the definition of \cref{dp:shp} in \cref{tab:dps} to its effect. We do not imply with this DP to abandon each and every use of semantic standards. We consider shared semantic homogeneity a useful element to achieve sIOP, but only on small scale, i.e., with a handfull of actors and over a limited lifespan. Still, the DP encourages to not assume semantic homogeneity a necessary condition nor a point of departure when engineering sIOP, also on small scale. 
+
+
+
+&lt;!-- Page additions --&gt;
+
+[^1]: as mentioned by Wikipedia, https://en.wikipedia.org/wiki/Casualties_of_the_September_11_attacks, accessed Dec 13, 2018
+
+</Text>
+        <Comments>REF to FIT-Project
+Add reference about heath std’s adoption</Comments>
+    </Snapshot>
+    <Snapshot Date="2023-09-28 13:26:50 +0200">
+        <Title>Voorafgaand Roemers review</Title>
+        <Text>We take the open world assumption that whenever a software agent is being developed, it must be allowed to develop its own application semantics from its own perspective on reality applying its own, native vocabulary. Semantic heterogeneity, then, refers to variations that exist between multiple stakeholders in how they carve out reality into one’s DoA, and how they represent their SoA in accordance to their conceptualisation of the DoA. In short, differences in conceptualisation and data representation inevitably emerge when modelling the same domain of application [@Hull1997]. In order to accomplish sIOP, semantic heterogeneity must be accounted for between the collaborating agents. “The successful standardisation of protocols made us believe that we should also standardise meaning on the Web. This is a fundamental misconception.” [@Janowicz:2013ui]. Indeed, standardising semantic representations is a widely adopted means towards sIOP, witnessed by the many initiatives taken by standards developing organisations (SDOs), from e.g., Tradelens in the Transport &amp; Logistics domain and International Financial Reporting Standards in Finance &amp; Accounting to, e.g., ICEN/EN 13606, SO/TC 215, and ISO/HL7 21731 in the Health domain or the smartM2M standard by the IoT European Platform Initiative [@ETSI2019], to name a few. These standards enforce semantic homogeneity by allowing one single, agreed convention on how the syntactic representation and structure of the data or messages shall be semantically interpreted. Indeed, such standards are a particular representation of a particular conceptualisation of some part of the world, viewed from a particular perspective of use and therefore get the predicate “semantic standard”. However, we don’t acknowledge that the particular representation of the particular conceptualisation about a particular perspective on reality that the data standard enforces, represents semantics that are universally shared by its users, let alone by their applications and databases. Any particular perspective is just one out of many distinct but equally legitimate ones that our software are deemed to consider over the software’s life cycle. Some examples are given in \cref{tab:perspectives}.
+
+-------------------------------------------------------------------------------------------------------------------
+Reality to refer to          Perspective #1      Perspective #2       Perspective #3        ...  Perspective #n              
+---------------------------- ------------------- -------------------- -------------------- ----- ------------------
+Waves are                    *objects* that      *forces* exerted on  an *accumulation* of  ...  a *relation*      
+                             I can point at      dikes, walls or      other waves                between water, 
+                                                 oil rigs                                        current, wind and
+                                                                                                 the seabed
+
+$\;$
+
+How many terrorist attacks   1, the number       2, one on the Twin   4, the number         ...  2996, the
+can be counted on 9/11?      of involved         Towers and one on    of involved                number of
+[@Boyle2002]                 terrorist groups    the Pentagon         aircraft                   casualties[^1] 
+
+-------------------------------------------------------------------------------------------------------------------
+
+   : Semantics follow many alternative but equally legitimate points of view on reality, implying that no single one true abstraction exists. Semantic heterogeneity is a fact of life, and carry features such as semantic accuracy and variability that are necessary to faithfully refer to reality. \label{tab:perspectives}
+
+Enforcing semantic homogeneity indeed has been very successful in relation to the ICT community itself. In fact, the existence of physical, electrical and other engineering form factors makes technology successful, and drives innovation. This is witnessed by the great pace in technological evolution over the last centuries. Key to this success is the fact that technological standards prescribe form factors about artificial artefacts that belong to, are produced by and are under control of the technological domain itself. SDOs that go about ICT produce standards with the intent to prescribe a single interpretation only, because there is one single truth that should be met in order for the technological artefact, e.g., a protocol, to succeed. This is very different from domains that the SDOs have little to no control over, because multiple perspectives exist that cannot be reduced to a single one. Consequently, multiple domain models will always co-exist [@Lee2019]. These DoAs are the environments in which the majority of the software agents collaborate. Striving for semantic homogeneity under these circumstances brings about several important disadvantages[@Renner1996]: (i) implementation of semantic standards involves considerable expenses, and tends to solidify in software by implicit operations on data that are expensive to change, slowly setting the standard in stone; (ii) since semantic standards fix representation, semantics become conflated with syntax, enforcing modifications to syntax and/or structure and their data processing components when semantic variations occur as a result of, e.g., new stakeholders, other contexts that should be incorporated, or semantic drift; (iii) vice versa, conflating syntax with semantics creates dependencies of the semantic standard on the architectural paradigm, its particular implementation or applied technology. These three issues (iv) bring about a high impedance for the standard to change and to evolve; and (v) they create a significant barrier for new business opportunities, obstructing business agility, and (vi) disabling a level playing field for newcomers that have to invest hugely to adopt the standard and reap its benefits. Essentially, adoption, governance and scalablity of such semantic standards other than in rather local and very scoped environments are difficult, costly, and ill-matched with business timing. Even in the highly protocolised health domain that already addressed semantics in 1987 [@Spronk2014], adoption of standards remains slow and cumbersome [REF]. These issues only worsen when extending sIOP to support inter-domain interoperability. 
+
+This gives rise to the first (semantic) concern on sIOP:
+
+\begin{mmconcern}[Semantic heterogeneity]\label{cncrn:semantic-heterogeneity}
+  Semantic heterogeneity naturally exists in domains and is in the interest of the individual stakeholders to faithfully and accurately represent the SoA in their software agents. In order to achieve sIOP between collaborating software agents, semantic heterogeneity must be accounted for. Establishing sIOP by enforcing semantic homogeneity, i.e., as semantic standard, induces high impedance for change, adoption and business agility for each individual stakeholder. This brings about a conflict of interest for the business/IT alignment.
+\end{mmconcern}
+
+This concern immediately leads to the definition of \cref{dp:shp} in \cref{tab:dps} to its effect. We do not imply with this DP to abandon each and every use of semantic standards. We consider shared semantic homogeneity a useful element to achieve sIOP, but only on small scale, i.e., with a handfull of actors and over a limited lifespan. Still, the DP encourages to not assume semantic homogeneity a necessary condition nor a point of departure when engineering sIOP, also on small scale. 
+
+
+
+&lt;!-- Page additions --&gt;
+
+[^1]: as mentioned by Wikipedia, https://en.wikipedia.org/wiki/Casualties_of_the_September_11_attacks, accessed Dec 13, 2018
+
+</Text>
+        <Comments>Add reference about heath std’s adoption
+REF to FIT-Project</Comments>
+    </Snapshot>
+</SnapshotIndexes>

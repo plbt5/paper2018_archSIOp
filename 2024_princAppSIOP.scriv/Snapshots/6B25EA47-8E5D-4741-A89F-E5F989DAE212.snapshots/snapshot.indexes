@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="6B25EA47-8E5D-4741-A89F-E5F989DAE212">
+    <Snapshot Date="2022-07-21 14:32:26 +0200">
+        <Title>Original, old text</Title>
+        <Text>Access-and-play sIOP is the ultimate objective: ideally, sIOP between agents can be achieved instantaneously, also for unforeseen collaborations. Despite its conflict with our position that software is incapable of genuine understanding, turning a human-in-the-loop a necessary condition for sIOP, its business benefits are too significant not to continue to strive for it. This implies engineering efforts to reduce the effort required by a human when reconciling the semantic differences. 
+
+
+
+
+Address concerns 
+
+* Concern 3: Subsequent to data exchange, the DSC must have the capability to re-establish semantic coherence between the external (DSP’s) semantic meaning and its own internal pragmatic meaning, and assure that the reciprocity between the DSP’s data and the DSC’s data processing code remains truthful to the state of affairs in reality.
+* Concern 4.A sIOP shall allow for semantic scalability;
+* Concern 4.B Pursuing sIOP between heterogeneous semantics requires that the ASM’s from both agents remain independent from each other, viz establishing a semantical loose coupling between both agents.
+
+
+Furthermore, address the three FAIR principles that have been defined in relation to data being interoperable:
+
+* I1. (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation: meaning that data should be readable for machines without the need for specialised or ad hoc algorithms, translators, or mappings. 
+* I2. (meta)data use vocabularies that follow FAIR principles
+* I3. (meta)data include qualified references to other (meta)data 
+
+
+Current solutions that standardise semantics solidify the understanding in the syntax of the data. In this way, semantics are carried by a data schema that is primarily designed to serialise data and to support data transfer by message construction and exchange. We consider this a significant neglect of the principle on separation of concerns, conflating the semantic interoperability concerns with the data communication concerns. The consequence of conflating these concerns is that source code which should concerned primarily with message construction, parsing, storage, and other data communication related tasks, becomes dependent on how semantics influence the syntax. In a message-oriented paradigm, for instance, any difference in structure in order to reflect the local perspective on semantic structure will have a significant impact on how to (de)compose the message. And any new data source to connect to will proliferate into a new software release. We thus observe that the current approach to data understanding results in an architecture which imposes a significant complication on interoperability (and other -ilities as well), impeding access-and-play. And despite the current limitations of AI-software to genuinely understand, a significant gain towards the software agent’s access-and-play capabilities can be achieved by untangling the syntax and semantics through separation of the sIOP concerns from the data communication concerns. We propose \cref{dp:ssoc} to its effect.
+
+=====
+
+Address:
+
+* Scalability also leads to the need to communicate on the meta-level, viz about the requirements that the pragmatic meaning put on the semantic meaning. Without such capability, this must be accounted for at design time, for every new collaboration, resulting in producing one single semantic meaning that fits the most stringent demands of all collaborations. This conflicts with maxims 1, 3 &amp; 4, since the DSP then cannot distinguish between the relevance for exchanging new data that are required for the different pragmatics of the collaborating DSC’s
+* we assume that the quality of the DSC and the DSP is such that semantic coherence applies for both, i.e., that their concerning ASMs are faithful to reality over the complete value range of their internal semantic meaning. </Text>
+        <Comments>brandtp, 29-6-2020 Address how this relates to reciprocity. Which it does not. Hence, although the DP is relevant, it is not related to the current sIOP concerns (SemObj 1-6), now does it?</Comments>
+    </Snapshot>
+</SnapshotIndexes>

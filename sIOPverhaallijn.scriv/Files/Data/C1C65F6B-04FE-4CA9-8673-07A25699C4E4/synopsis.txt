@@ -1,0 +1,1 @@
+sIOP should strive to support multiple co-existing perspectives of use as opposed to enforcing one single perspective, and should be founded on the active reconciliation of semantic differences rather than on allowing one homogeneous semantic standard only.

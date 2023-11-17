@@ -1,0 +1,16 @@
+The objective of collaborating stakeholders is to establish, in concert, the projected SoA that represents the goal of the business collaboration. Due to its collaborative nature, each different stakeholder contributes to the projected SoA. Such an individual contribution is produced by agent’s individual telic behaviour, and is represented as an individual SoA. This brings about the following concern:
+
+
+\begin{mmconcern}[Business coordination concern]\label{cncrn:bcc}
+Due to its collaborative nature, the goal of business collaboration, viz the shared projected SoA, depends on the individual SoAs of each stakeholder, which on their turn might be dependent, physically and/or temporally, on other agents’ individual SoAs. Provided that an individual SoA represents the result of a particular telic behaviour of a specific agent, what semantic meaning do the contributing agents need to exchange in order to coordinate these individual telic behaviours in a dynamical business environment?
+\end{mmconcern}
+
+Applied DP:
+
+* DP11: Business conversation protocol principle
+
+Collaborating towards shared business objectives occur between agents, and their communication will proceed through different stages. Sometimes, these stages will follow a determined sequence, sometimes a stage change will emerge in an ad-hoc fashion to account for the occurrence of unexpected states of affairs (SoAs). In order to support a dynamic collaboration, it is necessary for agents to gain awareness of the purpose of the conversation, to consolidate an effective conversation and adapt their conversational contribution when necessary. 
+
+
+These situations can differ hugely, when *engaging in* business collaboration or *adapting to* changes. Different stages of collaboration require different conversations with different conversation objectives, i.e., to recognise the stage of collaboration, to determine the objective of the cooperation at that stage, to know about the conversation that such stage will ensue and about the criteria for a transition to another stage.   
+

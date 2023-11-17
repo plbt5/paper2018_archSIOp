@@ -61,6 +61,25 @@
                             
 \usepackage{MnSymbol}       % To create the \righthalfcap as Not-symbol
 
+%%%%%%%%
+%% Project specific stuff
+%%%%%%%%
+
+%% Make counter/subcounter pair for the Concern Theorem, such that we can number a Concern S.1
+\newcounter{mccntr}			% alphabetical counter for main concern (S, R, M and C)
+\renewcommand{\themccntr}{\Alph{mccntr}}
+\newcounter{snc}[mccntr]		% arabic subcounter for the actual (sub)concerns
+\renewcommand{\thesnc}{\themccntr\arabic{snc}}
+\newcounter{ssnc}[snc]		% arabic subsubcounter where necessary
+\renewcommand{\thessnc}{\themccntr\arabic{snc}.\arabic{ssnc}}
+
+
+\theoremsymbol{}				% A Concern has no symbol, and
+\theoremheaderfont{\bfseries}% has bold header, and
+\theoremstyle{break}			% is based on break style, and
+\renewtheorem{mmconcern}[snc]{Concern}	% counts with the above counter
+
+
 %%%%%%%%%%%
 %% End of File: addstyles.sty
 %%%%%%%%%%%

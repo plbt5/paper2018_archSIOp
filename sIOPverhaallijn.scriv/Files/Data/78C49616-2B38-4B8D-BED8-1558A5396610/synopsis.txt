@@ -1,0 +1,22 @@
+How can we understand each other(’s data)?
+
+* Data are representations, and carry semantic meaning implicitly. 
+* Without (agreement on) a universal representation on semantic meaning, i.e., semantic homogeneity, agreements on the relation between each other’s semantic representations must be established at runtime.
+* Since a representation is subsequent to a conceptualisation, an agreement on semantic representation implies compatibility between conceptualisations, viz similar OCs
+
+\begin{mmconcern}[Semantic representation concern]\label{cncrn:mmc}
+Collaborating agents in a semantic heterogeneous environment need to possess the capability to achieve a mutual understanding of how the SoAs of the DoA are being represented by their data.  
+\end{mmconcern}
+
+We consider the overall objective of sIOP as to exchange semantic meaning about the DoA in order to progress towards the shared objective of the collaboration. This represents one of the purposes that can be vocalised by DP X, being the semantic purpose, viz to establish sIOP. Such requires a semantic universe of discourse of its own. In order to exchange semantic meaning, first, agreement must be reached whether the required level of semantic compatibility can be achieved, based on what OC and how. Second, agents must establish agreements on the vocabularies and ontologies in use and the necessary alignments between them, or, in absence of the latter, agents must engage in a reconciliation process [@Diggelen:2007vd]. Only then both agents are prepared to engage in exchanging semantic meaning.
+
+Applied DPs:
+
+* DP2: Semantic responsibility principle
+* DP4: Semantic protocol principle
+
+So what? Based on this capability, and from a semantic perspective, agents can achieve interoperability at the semantic level, viz making preparations to *engage* in exchanging semantic meaning, and to actively contribute to *consolidate* such capability, subsequently. In terms of DP X, the pragmatic protocol principle, this means that any agent can engage in a conversation -on behalf of a stakeholder- with any other agent and:
+
+* requests to talk about the semantic level
+* establish what it takes to establish sIOP
+* establish sIOP, providing the conditions are satisfied

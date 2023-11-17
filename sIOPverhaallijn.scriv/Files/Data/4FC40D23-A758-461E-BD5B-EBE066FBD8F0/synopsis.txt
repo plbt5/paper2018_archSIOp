@@ -1,0 +1,1 @@
+The agent should provide the capability to engage in a business conversation with participating agents, with the objective to jointly achieve a conversation state that is considered a(n intermediate,) necessary step towards the collaboration goal.

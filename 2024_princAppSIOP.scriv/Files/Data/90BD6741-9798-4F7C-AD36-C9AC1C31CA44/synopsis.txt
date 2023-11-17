@@ -1,0 +1,4 @@
+Address:
+* Concern 4.A sIOP shall allow for semantic scalability;
+* Concern 4.B Pursuing sIOP between heterogeneous semantics requires that the ASM’s from both agents remain independent from each other, viz establishing a semantical loose coupling between both agents.
+

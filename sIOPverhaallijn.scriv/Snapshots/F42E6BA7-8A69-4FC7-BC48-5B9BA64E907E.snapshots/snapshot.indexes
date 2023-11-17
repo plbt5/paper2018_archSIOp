@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="F42E6BA7-8A69-4FC7-BC48-5B9BA64E907E">
+    <Snapshot Date="2023-06-01 16:17:50 +0200">
+        <Title>Removing the Text parts, Synopsis only</Title>
+        <Text>&lt;!-- Set main concern counter to (S)emantic --&gt;
+
+\setcounter{mccntr}{19}\setcounter{snc}{0}
+
+
+
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

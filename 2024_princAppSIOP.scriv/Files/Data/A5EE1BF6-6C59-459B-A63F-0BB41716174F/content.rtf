@@ -1,0 +1,35 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2636
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf0 \
+To Be Confirmed\
+\
+\\begin\{mmdp\}[Separate semantics from communication syntax]\\label\{dp:ssoc\}\
+\
+When a software agent engages in interoperation with (an)other software agent(s), resolve their semantic differences independently from the syntax of the exchanged data.   \
+\
+\\textbf\{Type of information:\} data, technology  \\\\\
+\\textbf\{Quality attributes:\} semantic interoperability, portability, maintainability, efficiency, usability (reuse), reliability, functionality   \\\\\
+\\textbf\{Rationale:\}\
+\\begin\{enumerate\}\
+  \\item Data schemata are defined to support the (de)serialisation processes that consolidate the data communications concern;\
+  \\item Neglecting the principle of separation of concerns solidifies dependency between otherwise disjoint concerns, here the semantic level and the syntactic level of data communication;\
+  \\item Access-and-play capabilities are supported by assuring minimal impact on software code when introducing semantic modifications;\
+  \\item Minimising impact on software code that is concerned with data communication is realised by abstracting semantics away from the data schemata.\
+\\end\{enumerate\}\
+\\textbf\{Implications:\}\
+\\begin\{enumerate\}\
+  \\item Separation of concerns has a strong positive effect on software quality, including but not limited to sIOP;\
+  \\item Removing any dependency between semantics and data syntax enables to support multiple communication paradigms without the need to modify the semantic abstraction;\
+  \\item Similarly, modifications in the semantic representation, or supporting multiple semantic representations become possible without the need to modify the communication layer;\
+  \\item Align semantics, not data schemata: Semantic reconciliation is applied at a higher conceptual level and abstracts away from data communication schemata;\
+  \\item Heterogeneous semantics from multiple data sources are more easily supported;\
+  \\item Semantic alignments imply the need for a mediation capability between the semantic representations of the communicating agents.\
+\\end\{enumerate\}  \
+\\end\{mmdp\}\
+\
+}

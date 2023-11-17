@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="B606BA71-12C8-42D2-A205-D8FE45035B57">
+    <Snapshot Date="2023-06-01 16:17:51 +0200">
+        <Title>Removing the Text parts, Synopsis only</Title>
+        <Text>Current approaches towards digital collaboration is based on a community standard that specifies a data schema for the messages that are exchanged. This schema defines both the communication syntax as well as the semantics that it carries and as such a pleasant semantic homogeneity emerges for the community. This approach requires every collaboration stakeholder to create a one-to-one mapping between the shared exchange standard and their own IT system, coagulated in software. Unfortunately, even in a rather stable collaboration environment, the message standard tends to evolve over time. New ideas, new business opportunities, new stakeholders, slight changes in use cases or in stakeholders’ possibilities, technical innovations, sub-communities that only make partial use of the standard but in a completely different business setting, inclusion of options in the standard that are only partially used: The semantic consequences of the inevitable evolutionary growth to the standard are significant, because their sheer quantity, their multitude of options and the many (sometimes contradictory) purposes that must be supported, result in a standard that is in continuous flux. This induces high impedance for change, adoption and business agility for each individual stakeholder because their required modifications compete with others for incorporation in the standard. What initially seemed a good idea, a single community message standard, has turned into an unworkable solution towards manageability and continuity of the standard. 
+
+This only deteriorates for more dynamic business collaborations. The rational for considering semantic heterogeneity over homogeneity is primarily driven by the dynamics of the business collaboration (introducing variations in SoAs, involved agents and quality of stakeholder’s production results), and secondary by stakeholder’s independence from (i) software development resulting in different perspectives and conceptualisations on the shared DoA, different representations thereof, and (ii) implementation technologies.
+
+</Text>
+    </Snapshot>
+</SnapshotIndexes>
