@@ -40,7 +40,7 @@
             </Ebook>
         </Options>
         <MetaData>
-            <ProjectTitle>A principled approach to dynamic and scalable semantic interoperability in heterogeneous environments</ProjectTitle>
+            <ProjectTitle>A principled approach to dynamic semantic interoperability in heterogeneous environments</ProjectTitle>
             <ProjectAbbreviatedTitle>2024_princApprSIOP</ProjectAbbreviatedTitle>
             <Authors>
                 <Author FileAs="Brandt, Paul" Role="aut">Paul Brandt</Author>
