@@ -129,5 +129,8 @@
     <Day dwc="5" dcc="22" dtwc="913" owc="224" occ="1517" dtcc="6725">2023-11-16</Day>
     <Day dwc="37" dcc="268" owc="-2" occ="7">2023-11-17</Day>
     <Day dwc="25" dcc="169" dtwc="0" owc="134" occ="941" dtcc="0">2023-11-30</Day>
-    <Day dwc="0" dcc="0" owc="0" occ="-5">2023-12-06</Day>
+    <Day dwc="0" dcc="0" owc="-18" occ="-134">2023-12-06</Day>
+    <Day dwc="130" dcc="834" dtwc="1400" owc="0" occ="-1" dtcc="9980">2023-12-14</Day>
+    <Day dwc="-68" dcc="-434" dtwc="1332" owc="0" occ="2" dtcc="9546">2023-12-17</Day>
+    <Day dwc="97" dcc="705" owc="0" occ="0">2023-12-21</Day>
 </WritingHistory>

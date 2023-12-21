@@ -81,7 +81,7 @@
         </Format>
         <Format ID="C3EB2D83-EB2E-4450-AE90-4A959E935856">
             <SectionLayouts>
-                <Type ID="B1F3CB78-4407-4608-BC69-3002C7059BF1">AS-IS</Type>
+                <Type ID="B1F3CB78-4407-4608-BC69-3002C7059BF1">HEADER</Type>
                 <Type ID="BCAB201B-6D7C-462B-A2EE-5EB30C8E2B04">AS-IS</Type>
                 <Type ID="27094CC6-778E-4B6B-86BF-958D87A28367">AS-IS</Type>
                 <Type ID="8F90131E-7A65-4A45-B2D0-F9310B8E839F">AS-IS</Type>

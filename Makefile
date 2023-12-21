@@ -1,5 +1,5 @@
 BUILD_DIR := BUILDDIR
-PROJ := 2022_archSIOp
+PROJ := 2024_princAppSIOP
 LATEX_FILES = $(PROJ).aux $(PROJ).bbl $(PROJ).blg $(PROJ).fdb_latexmk $(PROJ).fls $(PROJ).log $(PROJ).out $(PROJ).spl $(PROJ).thm $(PROJ).xdv
 
 $(PROJ).pdf: results/$(PROJ).tex src/docs/$(PROJ).md
