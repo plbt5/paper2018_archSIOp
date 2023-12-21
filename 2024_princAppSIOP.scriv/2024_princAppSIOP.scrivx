@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="8C0780B1-25E9-4144-94AF-7E1CFBE0056E" Version="2.0" Creator="SCRMAC-3.3.6-16305" Device="Pauls-MacBook-Pro" Author="Paul Brandt" Modified="2023-12-21 17:48:25 +0100" ModID="DA214C43-E417-4EDF-A231-183078CC9EB7">
+<ScrivenerProject Identifier="8C0780B1-25E9-4144-94AF-7E1CFBE0056E" Version="2.0" Creator="SCRMAC-3.3.6-16305" Device="Pauls-MacBook-Pro" Author="Paul Brandt" Modified="2023-12-21 22:57:02 +0100" ModID="7F31CBBF-5270-4634-A712-392237187ADD">
     <Binder>
-        <BinderItem UUID="AC0E4C16-84DD-46A8-978B-4E68660C32A1" Type="Text" Created="2018-01-09 02:27:13 +0100" Modified="2023-12-21 16:01:24 +0100">
+        <BinderItem UUID="AC0E4C16-84DD-46A8-978B-4E68660C32A1" Type="Text" Created="2018-01-09 02:27:13 +0100" Modified="2023-12-21 22:18:45 +0100">
             <Title>Pandoc metadata</Title>
             <MetaData>
                 <SectionType>27094CC6-778E-4B6B-86BF-958D87A28367</SectionType>
@@ -9,7 +9,7 @@
                 <IconFileName>Front Matter</IconFileName>
             </MetaData>
             <TextSettings>
-                <TextSelection>1457,0</TextSelection>
+                <TextSelection>1458,0</TextSelection>
             </TextSettings>
         </BinderItem>
         <BinderItem UUID="B892768D-F62D-4A48-8846-84245826AF35" Type="Text" Created="2017-04-10 15:05:49 +0200" Modified="2023-11-16 12:28:12 +0100">
@@ -217,7 +217,7 @@
                         <TextSelection>445,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="D1B1F11F-646F-4B47-9C11-9FEFCBFD8870" Type="Text" Created="2016-12-28 10:23:05 +0100" Modified="2023-12-21 17:47:07 +0100">
+                <BinderItem UUID="D1B1F11F-646F-4B47-9C11-9FEFCBFD8870" Type="Text" Created="2016-12-28 10:23:05 +0100" Modified="2023-12-21 22:56:46 +0100">
                     <Title>Introduction</Title>
                     <MetaData>
                         <LabelID>7</LabelID>
@@ -226,7 +226,7 @@
                         <NotesTextSelection>684,0</NotesTextSelection>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>3220,0</TextSelection>
+                        <TextSelection>6492,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="07B38256-1754-4577-9E5E-22FDC2469617" Type="Text" Created="2023-12-21 11:24:18 +0100" Modified="2023-12-21 17:34:00 +0100">
@@ -237,7 +237,7 @@
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>597,0</TextSelection>
+                        <TextSelection>87,20</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="8FC2E269-89A8-4F63-807F-E3AFD1ACB08D" Type="Text" Created="2023-12-21 14:51:49 +0100" Modified="2023-12-21 14:52:18 +0100">
@@ -1759,13 +1759,13 @@
     <ProjectTargets Notify="Yes">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-04-24 02:00:00 +0200" IgnoreDeadline="Yes">14000</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2023-12-22 00:00:00 +0100" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="97" Characters="705" Date="2023-12-21 17:28:48 +0100"/>
+        <PreviousSession Words="126" Characters="918" Date="2023-12-21 22:55:05 +0100"/>
     </ProjectTargets>
     <RecentWritingHistory Date="2023-12-21 00:00:00 +0100">
-        <DraftWordCount>97</DraftWordCount>
-        <DraftCharCount>705</DraftCharCount>
+        <DraftWordCount>126</DraftWordCount>
+        <DraftCharCount>918</DraftCharCount>
         <OtherWordCount>0</OtherWordCount>
-        <OtherCharCount>0</OtherCharCount>
+        <OtherCharCount>1</OtherCharCount>
     </RecentWritingHistory>
     <BookmarksFolderUUID>C2B3EB57-E7D3-4A80-A10C-064C5FC0C8AC</BookmarksFolderUUID>
     <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0001" RightMargin="72.0001" TopMargin="90.0002" BottomMargin="90.0002" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="No" ReverseOrder="No" PagesAcross="1" PagesDown="1"/>

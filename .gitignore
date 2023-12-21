@@ -25,6 +25,7 @@ src/mmd/user.mmd
 **/*.spl
 **/*.thm
 **/*.xdv
+**/*.bak*
 
 results/2021*.*
 results/2022*.*
