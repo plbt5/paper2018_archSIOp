@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="8C0780B1-25E9-4144-94AF-7E1CFBE0056E" Version="2.0" Creator="SCRMAC-3.3.6-16305" Device="Pauls-MacBook-Pro" Author="Paul Brandt" Modified="2023-12-21 22:57:02 +0100" ModID="7F31CBBF-5270-4634-A712-392237187ADD">
+<ScrivenerProject Identifier="8C0780B1-25E9-4144-94AF-7E1CFBE0056E" Version="2.0" Creator="SCRMAC-3.3.6-16305" Device="Pauls-MacBook-Pro" Author="Paul Brandt" Modified="2024-01-05 16:35:11 +0100" ModID="86C1044C-34FA-4D88-91CC-D2843DCD345E">
     <Binder>
         <BinderItem UUID="AC0E4C16-84DD-46A8-978B-4E68660C32A1" Type="Text" Created="2018-01-09 02:27:13 +0100" Modified="2023-12-21 22:18:45 +0100">
             <Title>Pandoc metadata</Title>
@@ -217,7 +217,7 @@
                         <TextSelection>445,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="D1B1F11F-646F-4B47-9C11-9FEFCBFD8870" Type="Text" Created="2016-12-28 10:23:05 +0100" Modified="2023-12-21 22:56:46 +0100">
+                <BinderItem UUID="D1B1F11F-646F-4B47-9C11-9FEFCBFD8870" Type="Text" Created="2016-12-28 10:23:05 +0100" Modified="2024-01-05 16:35:11 +0100">
                     <Title>Introduction</Title>
                     <MetaData>
                         <LabelID>7</LabelID>
@@ -226,21 +226,21 @@
                         <NotesTextSelection>684,0</NotesTextSelection>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>6492,0</TextSelection>
+                        <TextSelection>612,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="07B38256-1754-4577-9E5E-22FDC2469617" Type="Text" Created="2023-12-21 11:24:18 +0100" Modified="2023-12-21 17:34:00 +0100">
+                <BinderItem UUID="07B38256-1754-4577-9E5E-22FDC2469617" Type="Text" Created="2023-12-21 11:24:18 +0100" Modified="2023-12-28 17:21:06 +0100">
                     <Title>Dynamic sIOP</Title>
                     <MetaData>
-                        <LabelID>3</LabelID>
+                        <LabelID>2</LabelID>
                         <StatusID>0</StatusID>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>87,20</TextSelection>
+                        <TextSelection>1428,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="8FC2E269-89A8-4F63-807F-E3AFD1ACB08D" Type="Text" Created="2023-12-21 14:51:49 +0100" Modified="2023-12-21 14:52:18 +0100">
+                <BinderItem UUID="8FC2E269-89A8-4F63-807F-E3AFD1ACB08D" Type="Text" Created="2023-12-21 14:51:49 +0100" Modified="2023-12-28 13:58:27 +0100">
                     <Title>State of the art</Title>
                     <MetaData>
                         <LabelID>3</LabelID>
@@ -248,7 +248,7 @@
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>0,0</TextSelection>
+                        <TextSelection>310,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="72A16B35-CC3A-4148-B226-4BDD855A4808" Type="Text" Created="2018-05-25 17:59:48 +0200" Modified="2023-10-17 12:38:06 +0200">
@@ -1758,14 +1758,14 @@
     </ProjectBookmarks>
     <ProjectTargets Notify="Yes">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-04-24 02:00:00 +0200" IgnoreDeadline="Yes">14000</DraftTarget>
-        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2023-12-22 00:00:00 +0100" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="126" Characters="918" Date="2023-12-21 22:55:05 +0100"/>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2024-01-06 00:00:00 +0100" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="0" Characters="-2" Date="2024-01-05 16:23:36 +0100"/>
     </ProjectTargets>
-    <RecentWritingHistory Date="2023-12-21 00:00:00 +0100">
-        <DraftWordCount>126</DraftWordCount>
-        <DraftCharCount>918</DraftCharCount>
+    <RecentWritingHistory Date="2024-01-05 00:00:00 +0100">
+        <DraftWordCount>0</DraftWordCount>
+        <DraftCharCount>-2</DraftCharCount>
         <OtherWordCount>0</OtherWordCount>
-        <OtherCharCount>1</OtherCharCount>
+        <OtherCharCount>0</OtherCharCount>
     </RecentWritingHistory>
     <BookmarksFolderUUID>C2B3EB57-E7D3-4A80-A10C-064C5FC0C8AC</BookmarksFolderUUID>
     <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0001" RightMargin="72.0001" TopMargin="90.0002" BottomMargin="90.0002" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="No" ReverseOrder="No" PagesAcross="1" PagesDown="1"/>
