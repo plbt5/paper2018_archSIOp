@@ -1,49 +1,53 @@
 {\rtf1\ansi\ansicpg1252\cocoartf2639
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;\f1\fmodern\fcharset0 CourierNewPS-ItalicMT;\f2\fswiss\fcharset0 Helvetica;
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;\f1\fswiss\fcharset0 Helvetica;\f2\fmodern\fcharset0 CourierNewPS-ItalicMT;
 }
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \deftab720
 \pard\pardeftab720\partightenfactor0
 
-\f0\fs24 \cf0 At large, interoperability refers to a broad scope of ICT capabilities in support of the many disciplines that are considered relevant for achieving collaboration between organisations in distinct contexts. Despite the broad scope, those capabilities share one single purpose, viz the reconciliation of differences that exist between collaborating stakeholders. When these differences occur in the ICT stack, ICT standards suffice for their resolution. The successful application of ICT standards throughout the last decades has made us believe that standards are the panace to resolving difference also in other disciplines, such as semantics, pragmatics, organisational, legal, cultural and all other non-ICT aspects that might impact collaboration. This is a fallacy, particularly because, first, these differences are not under control of the ICT community and therefore out of scope of their responsibility; second, the level of rigidness, accuracy and granularity that standards must agree upon before ICT systems can achieve interoperability and facilitate collaboration on those disciplines, is far beyond what the individual disciplines can provide. Because, every natural language is both vague and ambiguous, whereas programming languages need to be mathematically unequivocal for ICT systems to even operate at all. Conversational vagueness can be a necessary condition for effective collaboration \\cite\{Jucker2003\}.\
+\f0\fs24 \cf0 Interoperability refers to the ability of two or more organisations to interact towards mutually beneficial goals. This involves sharing information and knowledge between these organisations through the business processes they support, by exchanging data between their ICT systems [@EU-ISA2Program2017]. Consequently, achieving interoperability involves addressing many concerns, separated into distinct layers, with semantics being one of them. Semantics denote the comprehension of the reality state being referred to by the information provided. In software terms, digital data represent a specific state of affairs (SoA) within the domain of application (DoA). \
 \
+Providing this definition of semantics, sIOP, then, refers to the capability to share a particular SoA between two software agents by the exchange of digital data. However, software is not capable of bridging the gap between data and reality. Software should aim to the next best, i.e., to consolidate 
+\f1 <$Scr_Cs::1>
+\f2\i semantic reciprocity
+\f1\i0 <!$Scr_Cs::1>
+\f0  between data and data processing. This means that data processing aligns with the semantic definition of the data and that the data are compatible with the software's processing algorithms. Without semantic reciprocity, the software agent may operate on the data in a way that is not isomorphic to reality, producing faulty behaviour. For instance, the command to \'91share the coffee\'92 might result in dividing the coffee 
+\f1 <$Scr_Cs::1>
+\f2\i and the cup
+\f1\i0 <!$Scr_Cs::1>
+\f0  in two equal parts.\
 \
-to Technological, organizational, refers to the ability of two or more organisations to interact towards mutually beneficial goals, involving the sharing of information and knowledge between these organisations, through the business processes they support, by means of the exchange of data between their ICT systems [@EU-ISA2Program2017]. Consequently, attaining interoperability needs solutions on various levels or layers, each addressing a separate concern, semantics being one of them. sIOP refers to the shared and unambiguous understanding of data that have been exchanged. Understanding the data must ensure semantic reciprocity between data and processing, i.e., that the processing of data is in line with the semantic definition of the data, and vice versa. We explain this as follows. \
+Semantic reciprocity can be assumed to apply for any individual software agent. Due to independent development, it is probable that the data service provider (DSP) and data service consumer (DSC) will apply different background knowledge in their abstraction of the DoA and representation of the SoA in their data. The resulting differences in naming, structure, dimension, granularity, formats and more, will disrupt semantic reciprocity between the DSP's data and the DSC's data processing. Consequently, one piece of data might refer to two different perceived SoAs, leading to conclusions that cannot be substantiated in the DoA and, subsequently, to incorrect behaviour of the DSC. Therefore, the purpose of sIOP is to ensure that DSCs and DSPs share one single SoA when exchanging data, by restoring the semantic reciprocity between DSP's data and DSC's data processing. \
 \
-Data represent a certain state of affairs (SoA) in the domain of application (DoA). When data is being exchanged between a data service provider (DSP) and a data service consumer (DSC), the purpose of sIOP is to communicate this SoA in such manner that the DSC can act upon it adequately. Unfortunately, variations may exist in how the DSP and the DSC abstract the DoA and represent the SoA in data. This is not harmful for the individual software agent (DSP or DSC alike) since one can assume that semantic reciprocity applies: its data processing model and data model both apply the same background knowledge for abstracting and representing the DoA. On exchanging data between the DSP and DSC, however, data leave the semantic monolith that a software agent\'92s semantic reciprocity represents, and enter the different perspective on the DoA of the DSC. \
+Dynamic sIOP refers to restoring semantic reciprocity between DSP's data and DSC's data processing when the circumstances of the collaboration change due to business-induced factors. SIOP must be adjusted to reflect these changes before collaboration can continue. These factors may include changes in stakeholders participating in the collaboration, such as substituting partners or expanding the collaboration with similar partners; or changes in goals attained by the collaboration; or varying stakeholder interests in those goals; or changes in the collaboration's structure (such as the spin-out of sub-goals or partial results into independent production chains or - vice-versa - their integration into the larger collaboration). Dynamic sIOP is an ICT capability to deal with business-induced variations within the collaborative network, as quickly as possible and as soon as variations occur, as transparent as possible to the business. We dub this an 
+\f1 <$Scr_Cs::1>
+\f2\i access-and-play
+\f1\i0 <!$Scr_Cs::1>
+\f0  capability of the software agent.\
 \
-ion from reality, naming, structures, dimensions and other background knowledge about the exchanged data. Consequentially, one datum might refer to two differently perceived SoAs, leading to conclusions that cannot be substantiated in the DoA and, subsequently, to incorrect behaviour. In order for DSCs to correctly use DSPs\'92 data, we need a genuine understanding upfront,\
-\
-Semantic reciprocity is a necessary criterion for software agents because\
-\
-Metaphorically speaking, we consider dynamic sIOP a 
-\f1\i bridge
-\f0\i0  overarching a semantic gap (\\cref\{fig:concernsb\}): with *anchorages* (local, tangible semantics) on each side of the gap, with a *spanning* (semantic reconciliation, semantic alignments) resting on them to structurally (semantically) support the interoperability bridge, and with a *roadway* (semantic mediation) enabling the crossing of the traffic (data). *Design principles* provide the necessary guidance to the architect for the various design decisions that effectively result in a particular bridge over a particular semantic gap. \
+Metaphorically speaking, we consider sIOP a 
+\f2\i bridge
+\f0\i0  overarching a semantic gap (\\cref\{fig:siop-concerns\}): with *anchorages* (local, tangible semantics) on each side of the gap, with a *spanning* (semantic reconciliation, semantic alignments) resting on them to structurally (semantically) support the interoperability bridge, and with a *roadway* (semantic mediation) enabling the delivery of the cargo (SoA) by the crossing traffic (data). *Design principles* provide the necessary guidance to the architect for the various design decisions that effectively result in a particular bridge over a particular semantic gap. A *semantic protocol* allows the software agents to maintain sIOP between them under dynamic conditions.\
 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\pardeftab720\sl288\slmult1\partightenfactor0
 
-\f2 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
-\f0\fs22 \\begin\{figure\}\
-  \\centering\
-  \\begin\{subfigure\}[t]\{0.75\\linewidth\}\
-    \\includegraphics[width=\\textwidth, left]\{src/images/OverviewPaper\}\
-    \\caption\{\}\\label\{fig:concernsa\}\
-    \\vspace\{.5cm\}\
-  \\end\{subfigure\}%\
-  \\begin\{subfigure\}[t]\{0.25\\linewidth\}\
-    \\includegraphics[width=\\textwidth, right, top]\{src/images/OverviewLegend\}\
-  \\end\{subfigure\}\
-  \\begin\{subfigure\}[t]\{0.75\\linewidth\}\
+\f1 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
+\f0\fs22 \\begin\{figure\}
+\fs24 \AppleTypeServicesU0 \
+
+\fs22 \AppleTypeServicesU1   \\begin\{subfigure\}[t]\{0.75\\linewidth\}\
     \\includegraphics[width=\\textwidth, left]\{src/images/3SemanticConcerns\}\
-    \\caption\{\}\\label\{fig:concernsb\}\
   \\end\{subfigure\}%\
-  \\begin\{subfigure\}[t]\{0.25\\linewidth\}\
-    \\includegraphics[width=\\textwidth, right, ]\{src/images/3concernsLegend\}\
+
+\fs24 \AppleTypeServicesU0   \\qquad%\
+
+\fs22 \AppleTypeServicesU1   \\begin\{subfigure\}[t]\{0.2\\linewidth\}\
+    \\includegraphics[width=\\textwidth, right ]\{src/images/3concernsLegend\}\
   \\end\{subfigure\}\
-  \\caption\{(a) Overview of relationships between concerns, DPs and the sIOP Viewpoint, with their sections in the paper; (b) Conceptual overview of the relationships in sIOP between the anchorage (conceptual modelling), its spanning (semantic reconciliation) and roadway (semantic mediation).\}\\label\{fig:semantic-concerns\}\
+  \\caption\{Conceptual overview of the relationships in sIOP between the anchorage (conceptual modelling), its spanning (semantic reconciliation) and roadway (semantic mediation).\}\\label\{fig:siop-concerns\}\
 \\end\{figure\}
-\f2\fs20 \
+\f1\fs20 \
 \pard\pardeftab720\partightenfactor0
 
 \fs24 \cf0 \AppleTypeServicesU0 <!$Scr_Ps::0>

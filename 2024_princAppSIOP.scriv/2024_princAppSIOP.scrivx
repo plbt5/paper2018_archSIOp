@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="8C0780B1-25E9-4144-94AF-7E1CFBE0056E" Version="2.0" Creator="SCRMAC-3.3.6-16305" Device="Pauls-MacBook-Pro" Author="Paul Brandt" Modified="2024-01-05 16:35:11 +0100" ModID="86C1044C-34FA-4D88-91CC-D2843DCD345E">
+<ScrivenerProject Identifier="8C0780B1-25E9-4144-94AF-7E1CFBE0056E" Version="2.0" Creator="SCRMAC-3.3.6-16305" Device="Pauls-MacBook-Pro" Author="Paul Brandt" Modified="2024-01-09 21:32:53 +0100" ModID="5ADEDAA3-AD5A-4EDB-BA20-B42C955FDFF7">
     <Binder>
-        <BinderItem UUID="AC0E4C16-84DD-46A8-978B-4E68660C32A1" Type="Text" Created="2018-01-09 02:27:13 +0100" Modified="2023-12-21 22:18:45 +0100">
+        <BinderItem UUID="AC0E4C16-84DD-46A8-978B-4E68660C32A1" Type="Text" Created="2018-01-09 02:27:13 +0100" Modified="2024-01-09 21:30:13 +0100">
             <Title>Pandoc metadata</Title>
             <MetaData>
                 <SectionType>27094CC6-778E-4B6B-86BF-958D87A28367</SectionType>
@@ -9,7 +9,7 @@
                 <IconFileName>Front Matter</IconFileName>
             </MetaData>
             <TextSettings>
-                <TextSelection>1458,0</TextSelection>
+                <TextSelection>1457,0</TextSelection>
             </TextSettings>
         </BinderItem>
         <BinderItem UUID="B892768D-F62D-4A48-8846-84245826AF35" Type="Text" Created="2017-04-10 15:05:49 +0200" Modified="2023-11-16 12:28:12 +0100">
@@ -217,7 +217,7 @@
                         <TextSelection>445,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="D1B1F11F-646F-4B47-9C11-9FEFCBFD8870" Type="Text" Created="2016-12-28 10:23:05 +0100" Modified="2024-01-05 16:35:11 +0100">
+                <BinderItem UUID="D1B1F11F-646F-4B47-9C11-9FEFCBFD8870" Type="Text" Created="2016-12-28 10:23:05 +0100" Modified="2024-01-09 21:32:28 +0100">
                     <Title>Introduction</Title>
                     <MetaData>
                         <LabelID>7</LabelID>
@@ -226,18 +226,19 @@
                         <NotesTextSelection>684,0</NotesTextSelection>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>612,0</TextSelection>
+                        <TextSelection>7284,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="07B38256-1754-4577-9E5E-22FDC2469617" Type="Text" Created="2023-12-21 11:24:18 +0100" Modified="2023-12-28 17:21:06 +0100">
+                <BinderItem UUID="07B38256-1754-4577-9E5E-22FDC2469617" Type="Text" Created="2023-12-21 11:24:18 +0100" Modified="2024-01-09 12:48:09 +0100">
                     <Title>Dynamic sIOP</Title>
                     <MetaData>
-                        <LabelID>2</LabelID>
+                        <LabelID>5</LabelID>
                         <StatusID>0</StatusID>
                         <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>1377,0</NotesTextSelection>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>1428,0</TextSelection>
+                        <TextSelection>4206,11</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="8FC2E269-89A8-4F63-807F-E3AFD1ACB08D" Type="Text" Created="2023-12-21 14:51:49 +0100" Modified="2023-12-28 13:58:27 +0100">
@@ -653,7 +654,7 @@
                 <BinderItem UUID="D495D988-5D26-4D00-B72A-336EBC712546" Type="Text" Created="2022-02-02 11:40:02 +0100" Modified="2023-04-20 11:17:43 +0200">
                     <Title>Design Principles</Title>
                     <MetaData>
-                        <SectionType>B1F3CB78-4407-4608-BC69-3002C7059BF1</SectionType>
+                        <SectionType>BEC0EFBC-ABB8-40AF-A9A4-9A4C16F0C006</SectionType>
                         <LabelID>6</LabelID>
                         <StatusID>3</StatusID>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1758,14 +1759,14 @@
     </ProjectBookmarks>
     <ProjectTargets Notify="Yes">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-04-24 02:00:00 +0200" IgnoreDeadline="Yes">14000</DraftTarget>
-        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2024-01-06 00:00:00 +0100" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="0" Characters="-2" Date="2024-01-05 16:23:36 +0100"/>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2024-01-10 00:00:00 +0100" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="-23" Characters="-155" Date="2024-01-09 21:29:57 +0100"/>
     </ProjectTargets>
-    <RecentWritingHistory Date="2024-01-05 00:00:00 +0100">
-        <DraftWordCount>0</DraftWordCount>
-        <DraftCharCount>-2</DraftCharCount>
+    <RecentWritingHistory Date="2024-01-09 00:00:00 +0100">
+        <DraftWordCount>-23</DraftWordCount>
+        <DraftCharCount>-155</DraftCharCount>
         <OtherWordCount>0</OtherWordCount>
-        <OtherCharCount>0</OtherCharCount>
+        <OtherCharCount>-1</OtherCharCount>
     </RecentWritingHistory>
     <BookmarksFolderUUID>C2B3EB57-E7D3-4A80-A10C-064C5FC0C8AC</BookmarksFolderUUID>
     <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0001" RightMargin="72.0001" TopMargin="90.0002" BottomMargin="90.0002" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="No" ReverseOrder="No" PagesAcross="1" PagesDown="1"/>
