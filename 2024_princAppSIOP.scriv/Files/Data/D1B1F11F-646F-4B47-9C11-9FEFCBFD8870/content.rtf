@@ -26,6 +26,24 @@ Current sIOP implementations are based on the (time-consuming) process of establ
 \
 The European Interoperability Framework (EIF)[@EU-ISA2Program2017], the European Interoperability Reference Architecture (EIRA) [@EU-ISA2Program2019] and the FAIR principles [@Wilkinson2016] are three typical examples of contemporary guidelines towards sIOP, recommending as prime principle to separate syntactical from semantic concerns. Indeed, this principle is a necessary characteristic to allow for sIOP in semantically heterogeneous environments, although in itself it renders insufficient as to the practice of how to achieve such separation. Moreover, new ICT capabilities are required that support dynamic collaborations, i.e., establishing sIOP at runtime between collaborating partners that come and go. These include (i) the means to talk about, identify and reconcile semantic differences; and (ii) semantic scalability, that is, allowing variations in perspectives on reality to be introduced or removed without noticeable impact on the adequacy of the collaboration. All with minimal human-in-the-loop efforts. \
 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\pardeftab720\sl288\slmult1\partightenfactor0
+
+\f1 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
+\f0\fs22 \\begin\{figure\}[h]\
+  \\centering\
+  \\subfloat[][]\{%\
+    \\includegraphics[width=0.7\\linewidth]\{src/images/OverviewPaper\}%\
+  \}%\
+  \\qquad\
+  \\subfloat[][]\{%\
+    \\includegraphics[width=0.2\\linewidth]\{src/images/OverviewLegend\}%\
+  \}%\
+  \\caption\{(a) Overview of relationships between concerns, DPs and the sIOP Viewpoint, with their sections in the paper. (b) Legend of the used components.\}\\label\{fig:overview-paper\}\
+\\end\{figure\}\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs24 \cf0 \AppleTypeServicesU0 <!$Scr_Ps::0>
+\f0 \
 In this paper, we identify concerns towards this form of sIOP that we call 
 \f1 <$Scr_Cs::1>
 \f2\i dynamic sIOP
@@ -50,23 +68,5 @@ In this paper, we identify concerns towards this form of sIOP that we call
 \
 This paper is structured as follows. We first elaborate on our meaning of dynamic sIOP, \\cref\{dynamic-siop\}, and reflect it against the state of the art in \\cref\{state-of-the-art\}. We then identify four sets of concerns that we consider quintessential towards consolidating dynamic sIOP, and investigate each of them in a separate section: (i) semantic concerns, \\cref\{anchorage-semantic-concerns\}; (ii) reconciliation concerns, \\cref\{spanning-reconciliation-concerns\}; (iii) mediation concerns, \\cref\{roadway-mediation-concerns\}; and (iv) semantic scalability concerns, \\cref\{semantic-scalability-concerns\}. As depicted in \\cref\{\AppleTypeServicesU1 fig:overview-paper\AppleTypeServicesU0 \}, we follow a principled approach by defining, in each of these sections for each identified concern, one or more design principles (DPs) to its resolution; their collective compilation can be found in \\cref\{tab:dps\} at \\cpageref\{tab:dps\}, structured according to [@Greefhorst2011]. We proceed by presenting how these DPs can be operationalised to their effect by engineering an architectural viewpoint on dynamic sIOP, \\cref\{architectural-viewpoint-on-dynamic-siop\}. In \\cref\{discussion-conclusions-future-work\}, we discuss our findings, draw conclusions and present the open issues that require further research.\
 \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\pardeftab720\sl288\slmult1\partightenfactor0
-
-\f1 \cf0 \AppleTypeServicesU1 <$Scr_Ps::0>
-\f0\fs22 \\begin\{figure\}[h]\
-  \\centering\
-  \\subfloat[][]\{%\
-    \\includegraphics[width=0.7\\linewidth]\{src/images/OverviewPaper\}%\
-  \}%\
-  \\qquad\
-  \\subfloat[][]\{%\
-    \\includegraphics[width=0.2\\linewidth]\{src/images/OverviewLegend\}%\
-  \}%\
-  \\caption\{Overview of relationships between concerns, DPs and the sIOP Viewpoint, with their sections in the paper.\}\\label\{fig:overview-paper\}\
-\\end\{figure\}\
-\pard\pardeftab720\partightenfactor0
-
-\f1\fs24 \cf0 \AppleTypeServicesU0 <!$Scr_Ps::0>
-\f0 \
 We are confident that this principled approach can drive research and engineering initiatives to ultimately produce a standard for dynamic sIOP. By separating syntactical from semantic concerns and infrastructural from application components, such standard will facilitate an ICT stack with semantic capabilities that allow seamless, digital ad-hoc business collaborations to emerge. \
 }
