@@ -16,3 +16,6 @@ src/docs/$(PROJ).md:
 
 clean:
 	rm -f $(foreach ltx_files,$(LATEX_FILES),./$(BUILD_DIR)/$(ltx_files)) src/docs/$(PROJ).md results/$(PROJ).tex
+
+#push:
+#	git push origin <tagname>

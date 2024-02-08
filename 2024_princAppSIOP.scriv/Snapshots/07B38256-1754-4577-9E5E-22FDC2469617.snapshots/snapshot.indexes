@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="07B38256-1754-4577-9E5E-22FDC2469617">
+    <Snapshot Date="2024-01-11 16:43:48 +0100">
+        <Title>v2.2-0</Title>
+        <Text>Interoperability refers to the ability of two or more organisations to interact towards mutually beneficial goals. This involves sharing information and knowledge between these organisations through the business processes they support, by exchanging data between their ICT systems [@EU-ISA2Program2017]. Consequently, achieving interoperability involves addressing many concerns, separated into distinct layers, with semantics being one of them. Semantics denote the comprehension of the reality state being referred to by the information provided. In software terms, digital data represent a specific state of affairs (SoA) within the domain of application (DoA). 
+
+Providing this definition of semantics, sIOP, then, refers to the capability to share a particular SoA between two software agents by the exchange of digital data. However, software is not capable of bridging the gap between data and reality. Software should target the next best, i.e., to consolidate semantic reciprocity between data and data processing. This means that data processing aligns with the semantic definition of the data and that the data are compatible with the software's processing algorithms. Without semantic reciprocity, the software agent may operate on the data in a way that is not realistic, producing faulty behaviour. For instance, the command to ‘share the coffee’ might result in dividing the coffee and the cup in two equal parts.
+
+Maintaining semantic reciprocity becomes challenging when agents start to communicate. Semantic reciprocity can be assumed to apply for any individual software agent. Due to independent development, it is probable that the data service provider (DSP) and data service consumer (DSC) will apply different background knowledge in their abstraction of the DoA and representation of the SoA in their data. The resulting differences in naming, structure, dimension, granularity, formats and more, will disrupt semantic reciprocity between the DSP's data and the DSC's data processing. Consequently, one piece of data might refer to two different perceived SoAs, leading to conclusions that cannot be substantiated in the DoA and, subsequently, to incorrect behaviour of the DSC. Therefore, the purpose of sIOP is to ensure that DSCs and DSPs share one single SoA when exchanging data, by restoring the semantic reciprocity between DSP's data and DSC's data processing. 
+
+Metaphorically speaking, we consider sIOP a bridge overarching a semantic gap (\cref{fig:siop-concerns}): with *anchorages* (local, tangible semantics) on each side of the gap, with a *spanning* (semantic reconciliation, semantic alignments) resting on them to structurally (semantically) support the interoperability bridge, and with a *roadway* (semantic mediation) enabling the delivery of the cargo (SoA) by the crossing traffic (data). 
+
+\begin{figure}
+  \begin{subfigure}[t]{0.75\linewidth}
+    \includegraphics[width=\textwidth, left]{src/images/3SemanticConcerns}
+  \end{subfigure}%
+  \qquad%
+  \begin{subfigure}[t]{0.2\linewidth}
+    \includegraphics[width=\textwidth, right ]{src/images/3concernsLegend}
+  \end{subfigure}
+  \caption{Conceptual overview of the relationships in sIOP between the anchorage (conceptual modelling), its spanning (semantic reconciliation) and roadway (semantic mediation).}\label{fig:siop-concerns}
+\end{figure}
+
+Dynamic sIOP refers to restoring semantic reciprocity between DSP's data and DSC's data processing when the circumstances of the collaboration change due to business-induced factors. SIOP must be adjusted to reflect these changes before collaboration can continue. These factors may include changes in stakeholders participating in the collaboration, such as substituting partners or expanding the collaboration with similar partners; or changes in goals attained by the collaboration; or varying stakeholder interests in those goals; or changes in the collaboration's structure (such as the spin-out of sub-goals or partial results into independent production chains or - vice-versa - their integration into the larger collaboration). Dynamic sIOP is an ICT capability to deal with business-induced variations within the collaborative network, as quickly as possible and as soon as variations occur, as transparent as possible to the business. We dub this an access-and-play capability of the software agent.
+
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

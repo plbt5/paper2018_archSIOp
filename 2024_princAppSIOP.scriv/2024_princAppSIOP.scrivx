@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="8C0780B1-25E9-4144-94AF-7E1CFBE0056E" Version="2.0" Creator="SCRMAC-3.3.6-16305" Device="Pauls-MacBook-Pro" Author="Paul Brandt" Modified="2024-01-11 17:12:31 +0100" ModID="403B8552-2C70-4112-8874-03E5B34BED40">
+<ScrivenerProject Identifier="8C0780B1-25E9-4144-94AF-7E1CFBE0056E" Version="2.0" Creator="SCRMAC-3.3.6-16305" Device="Pauls-MacBook-Pro" Author="Paul Brandt" Modified="2024-02-05 20:58:09 +0100" ModID="D2FF4EB9-0860-4CBC-9FE7-3E959D8E9599">
     <Binder>
         <BinderItem UUID="AC0E4C16-84DD-46A8-978B-4E68660C32A1" Type="Text" Created="2018-01-09 02:27:13 +0100" Modified="2024-01-11 16:46:13 +0100">
             <Title>Pandoc metadata</Title>
@@ -226,19 +226,19 @@
                         <NotesTextSelection>684,0</NotesTextSelection>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>4965,0</TextSelection>
+                        <TextSelection>5527,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="07B38256-1754-4577-9E5E-22FDC2469617" Type="Text" Created="2023-12-21 11:24:18 +0100" Modified="2024-01-11 16:59:58 +0100">
+                <BinderItem UUID="07B38256-1754-4577-9E5E-22FDC2469617" Type="Text" Created="2023-12-21 11:24:18 +0100" Modified="2024-02-05 20:54:02 +0100">
                     <Title>Dynamic sIOP</Title>
                     <MetaData>
-                        <LabelID>5</LabelID>
+                        <LabelID>6</LabelID>
                         <StatusID>0</StatusID>
                         <IncludeInCompile>Yes</IncludeInCompile>
-                        <NotesTextSelection>470,0</NotesTextSelection>
+                        <NotesTextSelection>125,0</NotesTextSelection>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>2837,0</TextSelection>
+                        <TextSelection>8522,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="8FC2E269-89A8-4F63-807F-E3AFD1ACB08D" Type="Text" Created="2023-12-21 14:51:49 +0100" Modified="2023-12-28 13:58:27 +0100">
@@ -1759,14 +1759,14 @@
     </ProjectBookmarks>
     <ProjectTargets Notify="Yes">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-04-24 02:00:00 +0200" IgnoreDeadline="Yes">14000</DraftTarget>
-        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2024-01-12 00:00:00 +0100" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="-27" Characters="-170" Date="2024-01-11 16:04:27 +0100"/>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2024-02-06 00:00:00 +0100" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="0" Characters="0" Date="2024-02-05 20:24:03 +0100"/>
     </ProjectTargets>
-    <RecentWritingHistory Date="2024-01-11 00:00:00 +0100">
-        <DraftWordCount>-27</DraftWordCount>
-        <DraftCharCount>-170</DraftCharCount>
+    <RecentWritingHistory Date="2024-02-05 00:00:00 +0100">
+        <DraftWordCount>0</DraftWordCount>
+        <DraftCharCount>0</DraftCharCount>
         <OtherWordCount>0</OtherWordCount>
-        <OtherCharCount>1</OtherCharCount>
+        <OtherCharCount>0</OtherCharCount>
     </RecentWritingHistory>
     <BookmarksFolderUUID>C2B3EB57-E7D3-4A80-A10C-064C5FC0C8AC</BookmarksFolderUUID>
     <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0001" RightMargin="72.0001" TopMargin="90.0002" BottomMargin="90.0002" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="No" ReverseOrder="No" PagesAcross="1" PagesDown="1"/>

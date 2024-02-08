@@ -12,17 +12,23 @@ Providing this definition of semantics, sIOP, then, refers to the capability to 
 \f1 <$Scr_Cs::1>
 \f2\i semantic reciprocity
 \f1\i0 <!$Scr_Cs::1>
-\f0  between data and data processing. This means that data processing aligns with the semantic definition of the data and that the data are compatible with the software's processing algorithms. Without semantic reciprocity, the software agent may operate on the data in a way that is not realistic, producing faulty behaviour. For instance, the command to \'91share the coffee\'92 might result in dividing the coffee 
+\f0  between data and data processing. This means that data processing aligns with the semantic definition of the data and that the data are compatible with the software's processing algorithms. Without semantic reciprocity, the software agent may operate on the data in a way that is not realistic, producing faulty behaviour. {\field{\*\fldinst{HYPERLINK "scrivcmt://E7A5B84B-2BDD-42CF-A960-9C7E7A1C5210"}}{\fldrslt For instance, the command to \'91share the coffee\'92 might result in dividing the coffee 
 \f1 <$Scr_Cs::1>
 \f2\i and the cup
 \f1\i0 <!$Scr_Cs::1>
-\f0  in two equal parts.\
+\f0  in two equal parts}}.\
 \
 Maintaining semantic reciprocity becomes challenging when agents start to communicate. Semantic reciprocity can be assumed to apply for any individual software agent. Due to independent development, it is probable that the data service provider (DSP) and data service consumer (DSC) will apply different background knowledge in their abstraction of the DoA and representation of the SoA in their data. The resulting differences in naming, structure, dimension, granularity, formats and more, will disrupt semantic reciprocity between the DSP's data and the DSC's data processing. Consequently, one piece of data might refer to two different perceived SoAs, leading to conclusions that cannot be substantiated in the DoA and, subsequently, to incorrect behaviour of the DSC. Therefore, the purpose of sIOP is to ensure that DSCs and DSPs share one single SoA when exchanging data, by restoring the semantic reciprocity between DSP's data and DSC's data processing. \
 \
 Metaphorically speaking, we consider sIOP a 
 \f2\i bridge
 \f0\i0  overarching a semantic gap (\\cref\{fig:siop-concerns\}): with *anchorages* (local, tangible semantics) on each side of the gap, with a *spanning* (semantic reconciliation, semantic alignments) resting on them to structurally (semantically) support the interoperability bridge, and with a *roadway* (semantic mediation) enabling the delivery of the cargo (SoA) by the crossing traffic (data). \
+\
+Dynamic sIOP refers to restoring semantic reciprocity between DSP's data and DSC's data processing when the circumstances of the collaboration change due to business-induced factors. SIOP must be adjusted to reflect these changes before collaboration can continue. These factors may include changes in stakeholders participating in the collaboration, such as substituting partners or expanding the collaboration with similar partners; or changes in goals attained by the collaboration; or varying stakeholder interests in those goals; or changes in the collaboration's structure (such as the spin-out of sub-goals or partial results into independent production chains or - vice-versa - their integration into the larger collaboration). Dynamic sIOP is an ICT capability to achieve and maintain sIOP under business-induced variations within the collaborative network, as quickly as possible and as soon as variations occur, as transparent as possible to the business. We dub this an 
+\f1 <$Scr_Cs::1>
+\f2\i access-and-play
+\f1\i0 <!$Scr_Cs::1>
+\f0  capability of the software agent.\
 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\pardeftab720\sl288\slmult1\partightenfactor0
 
@@ -46,10 +52,49 @@ Metaphorically speaking, we consider sIOP a
 
 \fs24 \cf0 \AppleTypeServicesU0 <!$Scr_Ps::0>
 \f0 \
-Dynamic sIOP refers to restoring semantic reciprocity between DSP's data and DSC's data processing when the circumstances of the collaboration change due to business-induced factors. SIOP must be adjusted to reflect these changes before collaboration can continue. These factors may include changes in stakeholders participating in the collaboration, such as substituting partners or expanding the collaboration with similar partners; or changes in goals attained by the collaboration; or varying stakeholder interests in those goals; or changes in the collaboration's structure (such as the spin-out of sub-goals or partial results into independent production chains or - vice-versa - their integration into the larger collaboration). Dynamic sIOP is an ICT capability to deal with business-induced variations within the collaborative network, as quickly as possible and as soon as variations occur, as transparent as possible to the business. We dub this an 
+Now that we know what dynamic sIOP entails, the question arises how to realise it. \\Cref\{fig:siop-concerns\} depicts an outline of the main elements of the solution, as follows. When stakeholders engage in collaboration, a part of reality exists that is shared by them; without such 
 \f1 <$Scr_Cs::1>
-\f2\i access-and-play
+\f2\i shared DoA
 \f1\i0 <!$Scr_Cs::1>
-\f0  capability of the software agent.\
+\f0  no reason exists for collaborating in the first place. Modelling the DoA requires an 
+\f1 <$Scr_Cs::1>
+\f2\i abstraction
+\f1\i0 <!$Scr_Cs::1>
+\f0 , the art of leaving out what isn\'92t relevant. Abstraction is directed by a particular perspective on reality, and results in how the DoA is perceived. The 
+\f1 <$Scr_Cs::1>
+\f2\i domain model
+\f1\i0 <!$Scr_Cs::1>
+\f0 , e.g., an ontology, is the result of a 
+\f1 <$Scr_Cs::1>
+\f2\i conceptual modelling
+\f1\i0 <!$Scr_Cs::1>
+\f0  activity that is performed once by the stakeholder, independently from any other stakeholder or software agent. In this way, a stakeholder-specific reflection emerges (and maintained) that describes how a stakeholder perceives its DoA. This embodies an asset for the stakeholder, the life cycle of which is only dependent on the particular perspective that the stakeholder has got about its DoA, irrespective of any software agent in its enterprise application landscape. We consider the stakeholder\'92s domain model an essential element required to achieve sIOP for each business collaboration: it provide the software agent with a tangible, local semantic 
+\f1 <$Scr_Cs::1>
+\f2\i anchorage
+\f1\i0 <!$Scr_Cs::1>
+\f0 , part of which describes the shared DoA that the collaboration is about and for which sIOP is in order. \
 \
+Although stakeholders collaborate in the shared DoA, they don\'92t necessarily share an identical perspective, resulting in variations between their domain models. Amongst others, these variations include representational differences, e.g., how entities are named, or structured, or being formulated as classes versus properties; aggregation differences, e.g., identifying individuals versus their aggregation as (onto)logical type; semantic astigmatism, that is, entities that share many things or possibly even the same individuals but are different nevertheless, e.g. the nation of Basques versus the country of Spain. To overcome these discrepancies, a 
+\f1 <$Scr_Cs::1>
+\f2\i semantic reconciliation
+\f1\i0 <!$Scr_Cs::1>
+\f0  is required between those parts of the domain models that concern the shared DoA. It specifies precisely how (onto)logical constructs from one domain model correspond to (onto)logical constructs from the other domain model. These correspondences are expressed in a specific language, e.g., \\cite\{Scharffe2011\}. They collaboratively pertain to the shared DoA only, denoted an 
+\f1 <$Scr_Cs::1>
+\f2\i alignment
+\f1\i0 <!$Scr_Cs::1>
+\f0 , where they function as the 
+\f1 <$Scr_Cs::1>
+\f2\i spanning
+\f1\i0 <!$Scr_Cs::1>
+\f0  of the semantic bridge. Indeed, semantic reconciliation is largely supported by alignment systems and although it requires human authoring, no further human intervention applies in its use during 
+\f1 <$Scr_Cs::1>
+\f2\i semantic mediation
+\f1\i0 <!$Scr_Cs::1>
+\f0 . The latter refers to a generic, runtime component that is positioned in the data exchange flow between the communicating software agents. It functions as the 
+\f1 <$Scr_Cs::1>
+\f2\i roadway
+\f1\i0 <!$Scr_Cs::1>
+\f0  between them, and transcribes the data as received from the DSP into data that can be recognised by the DSC, without altering the semantics that are carried by the data. \
+\
+The dynamic part of sIOP requires {\field{\*\fldinst{HYPERLINK "scrivcmt://700DCCC2-A4E5-44A9-936A-9E84F79FC386"}}{\fldrslt a semantic protocol}} about semantic differences. It must support identifying and resolving semantic differences that result from business-induced variations in the collaboration network. It can do so by addressing inconsistencies between those parts in the domain models that concern the shared DoA, using the alignments that apply. Such remains insufficient as it doesn\'92t involve the objectives that the stakeholders pursue with the collaboration, nor what stakeholders can and should contribute to it. In fact, the collaboration can be expressed by mutual obligations and interests, the requested and offered capabilities and contracts between the stakeholders, related SLAs, potential and actual partners in the collaboration network, its structure, processes, flow of business, and more. This can be considered just another reality, the DoA for which sIOP - again - is in order. The difference with the above is that the previous DoA will be used to identify the subject about which the new DoA applies. Here we identify a form of metamodel - model relationships that must be formalised. Other than that, the same elements exist.\
 }
